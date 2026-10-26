@@ -19331,15 +19331,9 @@ function getLessonVocab(lesson) {
   rows.forEach(row => {
     const cols = row.querySelectorAll('td');
     if (cols.length >= 2) {
-      const german = cols[0].innerText.replace(/[
-
-]/g, '').trim();
-      const english = cols[1].innerText.replace(/[
-
-]/g, '').trim();
-      const example = cols.length >= 3 ? cols[2].innerText.replace(/[
-
-]/g, '').trim() : '';
+      const german = cols[0].innerText.replace(/\s+/g, '').trim();
+      const english = cols[1].innerText.replace(/\s+/g, '').trim();
+      const example = cols.length >= 3 ? cols[2].innerText.replace(/\s+/g, '').trim() : '';
       vocabList.push({ german, english, example });
     }
   });
