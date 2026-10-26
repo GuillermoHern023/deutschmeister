@@ -787,6 +787,243 @@ body::before {
 }
 @media (min-width: 821px) { .mobile-toggle { display: none; } }
 .hidden { display: none !important; }
+
+/* ============================================
+   GUIDED ROADMAP & START HERE HERO (EASY FLOW)
+   ============================================ */
+.start-here-card {
+  background: linear-gradient(135deg, rgba(212,175,55,0.15) 0%, rgba(26,30,44,0.95) 50%, rgba(91,141,239,0.1) 100%);
+  border: 2px solid var(--gold);
+  border-radius: var(--radius-xl);
+  padding: 32px 36px;
+  margin-bottom: 36px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5), var(--shadow-gold);
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.4s ease;
+}
+
+.start-here-card::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(212,175,55,0.2) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.start-here-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--gold);
+  color: #0f1117;
+  font-weight: 800;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.start-here-title {
+  font-family: var(--font-heading);
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.start-here-desc {
+  font-size: 0.98rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin-bottom: 22px;
+  line-height: 1.5;
+}
+
+.start-here-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  color: #0f1117;
+  font-weight: 800;
+  font-size: 1.05rem;
+  padding: 14px 34px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 25px rgba(212,175,55,0.4);
+  transition: all 0.25s ease;
+}
+
+.start-here-btn:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 35px rgba(212,175,55,0.6);
+  color: #000;
+}
+
+/* 3-Stage Progress Roadmap */
+.roadmap-container {
+  margin: 32px 0 40px;
+}
+
+.roadmap-header {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.roadmap-track {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.roadmap-step {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  transition: all 0.25s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.roadmap-step:hover {
+  border-color: rgba(212,175,55,0.4);
+  transform: translateY(-2px);
+}
+
+.roadmap-step.active {
+  border: 2px solid var(--gold);
+  background: rgba(212,175,55,0.06);
+  box-shadow: var(--shadow-gold);
+}
+
+.roadmap-step-num {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.roadmap-step-title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.roadmap-step-desc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+/* Linear Lesson Flow Stepper */
+.lesson-flow-stepper {
+  display: flex;
+  gap: 8px;
+  background: rgba(0,0,0,0.3);
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-subtle);
+  margin-bottom: 24px;
+  overflow-x: auto;
+}
+
+.flow-step-item {
+  flex: 1;
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+  background: transparent;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.flow-step-item:hover {
+  color: var(--text-primary);
+  background: var(--bg-glass);
+}
+
+.flow-step-item.active {
+  color: var(--gold);
+  background: rgba(212,175,55,0.15);
+  border-color: rgba(212,175,55,0.3);
+}
+
+.flow-step-num {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+
+.flow-step-item.active .flow-step-num {
+  background: var(--gold);
+  color: #0f1117;
+  font-weight: 800;
+}
+
+/* Big Next-Step Callout Button at bottom of phases */
+.guided-next-container {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.guided-next-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+  color: #0f1117;
+  font-weight: 700;
+  font-size: 0.96rem;
+  padding: 14px 28px;
+  border-radius: var(--radius);
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s;
+  box-shadow: 0 4px 18px rgba(212,175,55,0.3);
+}
+
+.guided-next-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(212,175,55,0.5);
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+}
+
 </style>
 </head>
 <body>
@@ -19096,29 +19333,66 @@ function showDashboard() {
   const completedCount = levelLessons.filter(l => isLessonCompleted(l.id)).length;
   const totalStars = levelLessons.reduce((s,l) => s + (state.completedLessons[l.id]?.stars || 0), 0);
   const maxStars = levelLessons.length * 3;
+
+  // Next up lesson
   const nextLesson = levelLessons.find(l => !isLessonCompleted(l.id) && isLessonUnlocked(l.id)) || levelLessons[0];
+  const isStarted = completedCount > 0;
 
   document.getElementById('main-content').innerHTML = `
-    <div class="dashboard-hero">
-      <h2>Willkommen zurück, Guillermo! 🇩🇪</h2>
-      <p>Dein strukturierter Weg von <strong>Level ${activeLevel}</strong> bis zur flüssigen Alltagskommunikation und zum Goethe-Zertifikat.</p>
+    <!-- Top Step 1: Start Here Action Banner -->
+    <div class="start-here-card">
+      <div class="start-here-badge">🚀 ${isStarted ? 'NÄCHSTER SCHRITT (HIER WEITER)' : 'START HIER (BEGINNE HIER)'}</div>
+      <div class="start-here-title">${nextLesson.icon} Lektion ${nextLesson.id}: ${nextLesson.title}</div>
+      <div style="font-size:1.1rem;color:var(--gold);font-style:italic;margin-bottom:8px">${nextLesson.titleDe}</div>
+      <div class="start-here-desc">
+        Level <strong>${activeLevel}</strong> • Modul ${MODULES.find(m=>m.lessons.includes(nextLesson.id))?.id || 1} • ca. 8–10 Min. • 6 einfache Phasen (Lesen ➔ Hören ➔ Vokabeln ➔ Üben ➔ Anwenden ➔ Prüfung).
+      </div>
+      <button class="start-here-btn" onclick="openLesson(${nextLesson.id})">
+        ▶ ${isStarted ? `Lektion ${nextLesson.id} fortsetzen` : `Lektion 1 jetzt starten`} →
+      </button>
     </div>
 
-    <div class="stats-grid">
+    <!-- Step 2: Clear 3-Stage Progress Roadmap -->
+    <div class="roadmap-container">
+      <div class="roadmap-header">
+        <span>🗺️ Dein Lernpfad (Progress this way)</span>
+        <span style="font-size:0.8rem;color:var(--text-muted);font-family:var(--font-body)">Klicke auf eine Stufe zum Wechseln</span>
+      </div>
+      <div class="roadmap-track">
+        <div class="roadmap-step ${activeLevel === 'A2.1' ? 'active' : ''}" onclick="changeLevel('A2.1')">
+          <div class="roadmap-step-num">Stufe 1 • ${activeLevel === 'A2.1' ? '📍 Aktuell' : 'Fundament'}</div>
+          <div class="roadmap-step-title">A2.1 Grundlagen</div>
+          <div class="roadmap-step-desc">Lektionen 1–20: Gefühle, Wohnen, Gesundheit, Kultur & Modalverben.</div>
+        </div>
+        <div class="roadmap-step ${activeLevel === 'A2.2' ? 'active' : ''}" onclick="changeLevel('A2.2')">
+          <div class="roadmap-step-num">Stufe 2 • ${activeLevel === 'A2.2' ? '📍 Aktuell' : 'Alltagsprax'}</div>
+          <div class="roadmap-step-title">A2.2 Alltag & Beruf</div>
+          <div class="roadmap-step-desc">Lektionen 21–40: Restaurant, Reisen, Medien, Natur & Bewerbungen.</div>
+        </div>
+        <div class="roadmap-step ${activeLevel === 'B1' ? 'active' : ''}" onclick="changeLevel('B1')">
+          <div class="roadmap-step-num">Stufe 3 • ${activeLevel === 'B1' ? '📍 Aktuell' : 'Meisterschaft'}</div>
+          <div class="roadmap-step-title">B1 & Goethe-Zertifikat</div>
+          <div class="roadmap-step-desc">Lektionen 41–64: Konnektoren, Infinitiv mit zu, Präpositionen & Präsentationen.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="stats-grid" style="margin-top:0">
       <div class="stat-card">
         <div class="stat-icon">📚</div>
         <div class="stat-value">${completedCount}/${levelLessons.length}</div>
-        <div class="stat-label">Lektionen (${activeLevel})</div>
+        <div class="stat-label">Lektionen erledigt (${activeLevel})</div>
       </div>
       <div class="stat-card">
         <div class="stat-icon">⭐</div>
         <div class="stat-value">${totalStars}/${maxStars}</div>
-        <div class="stat-label">Sterne gesammelt</div>
+        <div class="stat-label">Sterne</div>
       </div>
       <div class="stat-card">
         <div class="stat-icon">⚡</div>
         <div class="stat-value">${state.xp}</div>
-        <div class="stat-label">Gesamt XP</div>
+        <div class="stat-label">Erfahrungspunkte (XP)</div>
       </div>
       <div class="stat-card">
         <div class="stat-icon">🔥</div>
@@ -19127,13 +19401,7 @@ function showDashboard() {
       </div>
     </div>
 
-    <div style="text-align:center;margin-bottom:36px">
-      <button class="continue-btn" onclick="openLesson(${nextLesson.id})">
-        Weiterlernen → Lektion ${nextLesson.id}: ${nextLesson.title}
-      </button>
-    </div>
-
-    <!-- Arena Quick Access Cards -->
+    <!-- Arena Cards -->
     <div class="arena-grid">
       <div class="arena-card" onclick="switchNavMode('goethe')">
         <div class="arena-icon">🏛️</div>
@@ -19157,6 +19425,7 @@ function showDashboard() {
       </div>
     </div>
 
+    <!-- Lesson List by Module -->
     <div class="modules-section">
       <h3>Module im Überblick (${activeLevel})</h3>
       ${MODULES.filter(mod => mod.level === activeLevel).map(mod => {
@@ -19168,6 +19437,27 @@ function showDashboard() {
             <span class="module-progress">${done}/${mod.lessons.length} abgeschlossen (${pct}%)</span>
           </div>
           <div class="module-bar"><div class="module-bar-fill" style="width:${pct}%"></div></div>
+          
+          <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-top:16px">
+            ${mod.lessons.map(lid => {
+              const l = LESSONS.find(x => x.id === lid);
+              if (!l) return '';
+              const unlocked = isLessonUnlocked(lid);
+              const completed = isLessonCompleted(lid);
+              const stars = getLessonStars(lid);
+              return `
+                <div class="lesson-item ${!unlocked?'locked':''} ${completed?'completed':''}" 
+                     style="background:rgba(255,255,255,0.02);border:1px solid var(--border-subtle);border-radius:8px;padding:10px 14px"
+                     onclick="${unlocked ? `openLesson(${lid})` : ''}">
+                  <span class="lesson-icon">${l.icon}</span>
+                  <div class="lesson-info">
+                    <div class="lesson-name">Lektion ${l.id}: ${l.title}</div>
+                    <div class="lesson-type">${completed ? '⭐'.repeat(stars) : (unlocked ? 'Bereit' : '🔒 Gesperrt')}</div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
         </div>`;
       }).join('')}
     </div>
@@ -19209,21 +19499,37 @@ function renderLesson() {
   if (!lesson) return showDashboard();
 
   const modInfo = MODULES.find(m => m.lessons.includes(lesson.id));
+  const phases = [
+    { id: 'lecture', num: 1, name: 'Vorlesung', icon: '📖' },
+    { id: 'dialogue', num: 2, name: 'Hören & Sprechen', icon: '🎧' },
+    { id: 'flashcards', num: 3, name: 'Vokabeln', icon: '🎴' },
+    { id: 'exercises', num: 4, name: '10 Übungen', icon: '✍️' },
+    { id: 'goethe', num: 5, name: 'Goethe & Alltag', icon: '🏛️' },
+    { id: 'exam', num: 6, name: 'Prüfung', icon: '🎓' }
+  ];
 
   document.getElementById('main-content').innerHTML = `
-    <div class="lesson-header">
-      <div class="lesson-breadcrumb">${modInfo ? modInfo.title : ''} — Level ${lesson.level || getLessonLevel(lesson.id)}</div>
+    <!-- Top Breadcrumb & Return -->
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+      <button class="btn-secondary" style="padding:6px 14px;font-size:0.8rem" onclick="showDashboard()">← Zurück zur Übersicht</button>
+      <span style="font-size:0.75rem;color:var(--text-muted)">${modInfo ? modInfo.title : ''} • Level ${lesson.level || getLessonLevel(lesson.id)}</span>
+    </div>
+
+    <div class="lesson-header" style="margin-bottom:18px">
       <h2>${lesson.icon} Lektion ${lesson.id}: ${lesson.title}</h2>
       <div class="lesson-subtitle">${lesson.titleDe}</div>
     </div>
-    <div class="phase-tabs">
-      <button class="phase-tab ${currentPhase==='lecture'?'active':''}" onclick="setPhase('lecture')">📖 Vorlesung</button>
-      <button class="phase-tab ${currentPhase==='dialogue'?'active':''}" onclick="setPhase('dialogue')">🎧 Dialog & Hören</button>
-      <button class="phase-tab ${currentPhase==='flashcards'?'active':''}" onclick="setPhase('flashcards')">🎴 Vokabelkarten</button>
-      <button class="phase-tab ${currentPhase==='exercises'?'active':''}" onclick="setPhase('exercises')">✍️ Übungen</button>
-      <button class="phase-tab ${currentPhase==='goethe'?'active':''}" onclick="setPhase('goethe')">🏛️ Goethe & Alltag</button>
-      <button class="phase-tab ${currentPhase==='exam'?'active':''}" onclick="setPhase('exam')">🎓 Prüfung</button>
+
+    <!-- 6-Step Visual Flow Stepper -->
+    <div class="lesson-flow-stepper">
+      ${phases.map(p => `
+        <div class="flow-step-item ${currentPhase === p.id ? 'active' : ''}" onclick="setPhase('${p.id}')">
+          <span class="flow-step-num">${p.num}</span>
+          <span>${p.icon} ${p.name}</span>
+        </div>
+      `).join('')}
     </div>
+
     <div id="phase-content"></div>
   `;
 
@@ -19269,7 +19575,7 @@ function renderLecture(lesson) {
       ${content}
     </div>`;
   });
-  html += `<button class="btn-primary" style="width:100%" onclick="setPhase('dialogue')">Weiter zum Dialog & Hören →</button>`;
+  html += `<div class="guided-next-container"><div><span style="color:var(--text-muted);font-size:0.85rem">Fertig gelesen?</span><br><strong style="color:var(--gold-light)">Schritt 2: Alltagsdialog & Hören</strong></div><button class="guided-next-btn" onclick="setPhase('dialogue')">Weiter zu Schritt 2: Hören & Sprechen 🎧 →</button></div>`;
   container.innerHTML = html;
 }
 
@@ -19314,7 +19620,7 @@ function renderDialoguePhase(lesson) {
       <div class="dialogue-box">${bubblesHtml}</div>
 
       <div style="display:flex;gap:12px;margin-top:24px">
-        <button class="btn-primary" style="flex:1" onclick="setPhase('flashcards')">Weiter zu den Vokabelkarten →</button>
+        <div class="guided-next-container"><div><span style="color:var(--text-muted);font-size:0.85rem">Dialog verstanden?</span><br><strong style="color:var(--gold-light)">Schritt 3: Vokabelkarten einprägen</strong></div><button class="guided-next-btn" onclick="setPhase('flashcards')">Weiter zu Schritt 3: Vokabelkarten 🎴 →</button></div>
       </div>
     </div>
   `;
