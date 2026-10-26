@@ -152,8 +152,8 @@
       },
       {
         "type": "translation",
-        "sentence": "We live in the twenty-first century.",
-        "answer": "Wir leben im einundzwanzigsten Jahrhundert."
+        "source": "We live in the twenty-first century.",
+        "target": "Wir leben im einundzwanzigsten Jahrhundert."
       },
       {
         "type": "reorder",
@@ -190,8 +190,8 @@
       },
       {
         "type": "translation",
-        "sentence": "In 1749 Johann Wolfgang von Goethe was born.",
-        "answer": "1749 wurde Johann Wolfgang von Goethe geboren."
+        "source": "In 1749 Johann Wolfgang von Goethe was born.",
+        "target": "1749 wurde Johann Wolfgang von Goethe geboren."
       },
       {
         "type": "reorder",
@@ -204,7 +204,66 @@
         ],
         "answer": "Die Renaissance ist eine Epoche."
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Historische Ereignisse sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Historical events today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Der Begriff bezeichnet den Zusammenschluss von Ost- und Westdeutschland 1990.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Verliert ein Land einen Krieg, spricht man von einer Niederlage.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Die Renaissance beschreibt eine Epoche zwischen dem 15. und 16. Jahrhundert.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Historische Ereignisse“ (Historical events).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Historische Ereignisse“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Historische Ereignisse“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Der Begriff bezeichnet den Zusammenschluss von Ost- und Westdeutschland 1990. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Historische Ereignisse“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Historische Ereignisse“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Der Begriff bezeichnet den Zusammenschluss von Ost- und Westdeutschland 1990. Verliert ein Land einen Krieg, spricht man von einer Niederlage. Die Renaissance beschreibt eine Epoche zwischen dem 15. und 16. Jahrhundert."
+    },
+    "level": "B1"
   },
   {
     "id": 58,
@@ -358,8 +417,8 @@
       },
       {
         "type": "translation",
-        "sentence": "The border area was strictly monitored.",
-        "answer": "Das Grenzgebiet wurde strengstens überwacht."
+        "source": "The border area was strictly monitored.",
+        "target": "Das Grenzgebiet wurde strengstens überwacht."
       },
       {
         "type": "reorder",
@@ -398,8 +457,8 @@
       },
       {
         "type": "translation",
-        "sentence": "We did not expect the opening of the border.",
-        "answer": "Wir haben nicht mit der Öffnung der Grenze gerechnet."
+        "source": "We did not expect the opening of the border.",
+        "target": "Wir haben nicht mit der Öffnung der Grenze gerechnet."
       },
       {
         "type": "reorder",
@@ -414,7 +473,66 @@
         ],
         "answer": "Am 3. Oktober 1990 wurde Deutschland wiedervereinigt."
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Der Fall der Berliner Mauer sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about The fall of the Berlin Wall today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Menschen wurden teilweise von ihren Familien und Arbeitsplätzen getrennt.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Die Berliner Mauer sollte Ost-Berlin von West-Berlin abgrenzen.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Einige Grenzsoldaten entschlossen sich, die Übergänge zu öffnen.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Der Fall der Berliner Mauer“ (The fall of the Berlin Wall).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Der Fall der Berliner Mauer“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Der Fall der Berliner Mauer“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Menschen wurden teilweise von ihren Familien und Arbeitsplätzen getrennt. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Der Fall der Berliner Mauer“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Der Fall der Berliner Mauer“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Menschen wurden teilweise von ihren Familien und Arbeitsplätzen getrennt. Die Berliner Mauer sollte Ost-Berlin von West-Berlin abgrenzen. Einige Grenzsoldaten entschlossen sich, die Übergänge zu öffnen."
+    },
+    "level": "B1"
   },
   {
     "id": 59,
@@ -521,14 +639,15 @@
       },
       {
         "type": "multiple_choice",
-        "instruction": "Who were the 'Gastarbeiter'?",
+        "instruction": "Wähle die richtige Antwort. (Choose the correct answer.)",
         "options": [
           "Tourists who stayed for a week",
           "Workers who came in the 50s/60s and built lives in Germany",
           "Diplomats from EU countries",
           "Students from Asia"
         ],
-        "answer": 1
+        "answer": 1,
+        "question": "Who were the 'Gastarbeiter'?"
       },
       {
         "type": "true_false",
@@ -568,8 +687,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Berlin is one of the most international cities in Germany.",
-        "answer": "Berlin ist eine der internationalsten Städte Deutschlands."
+        "source": "Berlin is one of the most international cities in Germany.",
+        "target": "Berlin ist eine der internationalsten Städte Deutschlands."
       },
       {
         "type": "reorder",
@@ -610,8 +729,8 @@
       },
       {
         "type": "translation",
-        "sentence": "They came from all over the world.",
-        "answer": "Sie kamen aus aller Herren Länder."
+        "source": "They came from all over the world.",
+        "target": "Sie kamen aus aller Herren Länder."
       },
       {
         "type": "reorder",
@@ -624,7 +743,66 @@
         ],
         "answer": "Berlin ist eine stolze Stadt."
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Berlin als multikulturelle Stadt sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Berlin as a multicultural city today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "In Berlin leben viele Menschen mit türkischem Migrationshintergrund.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Viele Berliner haben ihre Wurzeln in Polen oder Vietnam.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Für EU-Bürger ist es einfach, innerhalb von Europa umzuziehen.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Berlin als multikulturelle Stadt“ (Berlin as a multicultural city).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Berlin als multikulturelle Stadt“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Berlin als multikulturelle Stadt“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. In Berlin leben viele Menschen mit türkischem Migrationshintergrund. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Berlin als multikulturelle Stadt“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Berlin als multikulturelle Stadt“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "In Berlin leben viele Menschen mit türkischem Migrationshintergrund. Viele Berliner haben ihre Wurzeln in Polen oder Vietnam. Für EU-Bürger ist es einfach, innerhalb von Europa umzuziehen."
+    },
+    "level": "B1"
   },
   {
     "id": 60,
@@ -731,14 +909,15 @@
       },
       {
         "type": "multiple_choice",
-        "instruction": "What is a 'Maß'?",
+        "instruction": "Wähle die richtige Antwort. (Choose the correct answer.)",
         "options": [
           "A Christmas cookie",
           "A 1-liter glass of beer",
           "A traditional dress",
           "A religious holiday"
         ],
-        "answer": 1
+        "answer": 1,
+        "question": "What is a 'Maß'?"
       },
       {
         "type": "true_false",
@@ -778,8 +957,8 @@
       },
       {
         "type": "translation",
-        "sentence": "We bake cookies in the Advent season.",
-        "answer": "Wir backen Plätzchen in der Adventszeit."
+        "source": "We bake cookies in the Advent season.",
+        "target": "Wir backen Plätzchen in der Adventszeit."
       },
       {
         "type": "reorder",
@@ -817,8 +996,8 @@
       },
       {
         "type": "translation",
-        "sentence": "He speaks his mind frankly.",
-        "answer": "Er nimmt kein Blatt vor den Mund."
+        "source": "He speaks his mind frankly.",
+        "target": "Er nimmt kein Blatt vor den Mund."
       },
       {
         "type": "reorder",
@@ -832,6 +1011,65 @@
         ],
         "answer": "Man stellt einen Tannenbaum ins Wohnzimmer."
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Deutsche Traditionen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about German traditions today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ein Brauch ist, dass man zu Weihnachten einen Tannenbaum aufstellt.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Über die deutsche Mentalität sagt man, dass die Arbeit sehr wichtig ist.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Stereotypische deutsche Tugenden sind Pünktlichkeit und Ordnung.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Deutsche Traditionen“ (German traditions).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Deutsche Traditionen“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Deutsche Traditionen“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Ein Brauch ist, dass man zu Weihnachten einen Tannenbaum aufstellt. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Deutsche Traditionen“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Deutsche Traditionen“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Ein Brauch ist, dass man zu Weihnachten einen Tannenbaum aufstellt. Über die deutsche Mentalität sagt man, dass die Arbeit sehr wichtig ist. Stereotypische deutsche Tugenden sind Pünktlichkeit und Ordnung."
+    },
+    "level": "B1"
   }
 ]

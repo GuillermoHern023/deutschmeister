@@ -107,14 +107,15 @@
       },
       {
         "type": "multiple_choice",
-        "instruction": "Choose the correct adjective for someone who works very carefully.",
+        "instruction": "Wähle die richtige Antwort. (Choose the correct answer.)",
         "options": [
           "sorgfältig",
           "faul",
           "unpünktlich",
           "ehrgeizig"
         ],
-        "answer": 0
+        "answer": 0,
+        "question": "Choose the correct adjective for someone who works very carefully."
       },
       {
         "type": "true_false",
@@ -171,8 +172,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I have torn my ass off for the project in recent weeks.",
-        "answer": "Ich habe mir in den letzten Wochen für das Projekt den Arsch aufgerissen."
+        "source": "I have torn my ass off for the project in recent weeks.",
+        "target": "Ich habe mir in den letzten Wochen für das Projekt den Arsch aufgerissen."
       },
       {
         "type": "reorder",
@@ -208,7 +209,66 @@
         "answer": "Tür",
         "hint": "door"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Eigenschaften für den Beruf sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Properties for work today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Haben Sie den Vertrag schon unterschrieben?",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Bis wann kann man eine Bewerbung abgeben?",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wir haben nicht genug Personal für dieses Projekt!",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Eigenschaften für den Beruf“ (Properties for work).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Eigenschaften für den Beruf“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Eigenschaften für den Beruf“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Haben Sie den Vertrag schon unterschrieben? Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Eigenschaften für den Beruf“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Eigenschaften für den Beruf“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Haben Sie den Vertrag schon unterschrieben? Bis wann kann man eine Bewerbung abgeben? Wir haben nicht genug Personal für dieses Projekt!"
+    },
+    "level": "B1"
   },
   {
     "id": 42,
@@ -319,14 +379,15 @@
       },
       {
         "type": "multiple_choice",
-        "instruction": "Choose the correct meaning of the idiom 'Eindruck schinden'.",
+        "instruction": "Wähle die richtige Antwort. (Choose the correct answer.)",
         "options": [
           "To avoid work",
           "To try to make a big impression / show off",
           "To submit application documents",
           "To be unemployed"
         ],
-        "answer": 1
+        "answer": 1,
+        "question": "Choose the correct meaning of the idiom 'Eindruck schinden'."
       },
       {
         "type": "true_false",
@@ -383,8 +444,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Can you handle stress well?",
-        "answer": "Können Sie gut mit Stress umgehen?"
+        "source": "Can you handle stress well?",
+        "target": "Können Sie gut mit Stress umgehen?"
       },
       {
         "type": "reorder",
@@ -419,7 +480,66 @@
         "answer": "Zeugnisse",
         "hint": "certificates"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Das Vorstellungsgespräch sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about The job interview today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Der Lebenslauf ist sehr wichtig im Bewerbungsverfahren.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Im Lebenslauf steht, wo du vorher gearbeitet hast.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ein gutes Zeugnis ist wichtig bei der Jobsuche.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Das Vorstellungsgespräch“ (The job interview).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Das Vorstellungsgespräch“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Das Vorstellungsgespräch“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Der Lebenslauf ist sehr wichtig im Bewerbungsverfahren. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Das Vorstellungsgespräch“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Das Vorstellungsgespräch“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Der Lebenslauf ist sehr wichtig im Bewerbungsverfahren. Im Lebenslauf steht, wo du vorher gearbeitet hast. Ein gutes Zeugnis ist wichtig bei der Jobsuche."
+    },
+    "level": "B1"
   },
   {
     "id": 43,
@@ -523,14 +643,15 @@
       },
       {
         "type": "multiple_choice",
-        "instruction": "Choose the correct option to ask someone to let you finish speaking.",
+        "instruction": "Wähle die richtige Antwort. (Choose the correct answer.)",
         "options": [
           "Unterbrechen Sie mich!",
           "Lassen Sie mich bitte ausreden!",
           "Ich habe nicht zugehört.",
           "Vergiss deine Rede nicht."
         ],
-        "answer": 1
+        "answer": 1,
+        "question": "Choose the correct option to ask someone to let you finish speaking."
       },
       {
         "type": "true_false",
@@ -587,8 +708,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Sorry, I just wasn't listening.",
-        "answer": "Entschuldigung, ich habe gerade nicht zugehört."
+        "source": "Sorry, I just wasn't listening.",
+        "target": "Entschuldigung, ich habe gerade nicht zugehört."
       },
       {
         "type": "reorder",
@@ -623,7 +744,66 @@
         "answer": "verdeutlichen",
         "hint": "clarify / explain clearly"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Besprechungen in der Firma sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Meetings in the company today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Können Sie noch einmal verdeutlichen, warum wir so wenig Zeit haben?",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Frau Maier ist nicht da. Möchten Sie eine Nachricht hinterlassen?",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Entschuldigung, ich habe gerade nicht zugehört.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Besprechungen in der Firma“ (Meetings in the company).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Besprechungen in der Firma“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Besprechungen in der Firma“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Können Sie noch einmal verdeutlichen, warum wir so wenig Zeit haben? Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Besprechungen in der Firma“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Besprechungen in der Firma“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Können Sie noch einmal verdeutlichen, warum wir so wenig Zeit haben? Frau Maier ist nicht da. Möchten Sie eine Nachricht hinterlassen? Entschuldigung, ich habe gerade nicht zugehört."
+    },
+    "level": "B1"
   },
   {
     "id": 44,
@@ -726,14 +906,15 @@
       },
       {
         "type": "multiple_choice",
-        "instruction": "Choose the correct definition of 'Dienstleistung'.",
+        "instruction": "Wähle die richtige Antwort. (Choose the correct answer.)",
         "options": [
           "A physical product",
           "A service offered to clients",
           "A government office",
           "An employment contract"
         ],
-        "answer": 1
+        "answer": 1,
+        "question": "Choose the correct definition of 'Dienstleistung'."
       },
       {
         "type": "true_false",
@@ -790,8 +971,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I am not completely satisfied with the working hours.",
-        "answer": "Ich bin nicht ganz zufrieden mit den Arbeitszeiten."
+        "source": "I am not completely satisfied with the working hours.",
+        "target": "Ich bin nicht ganz zufrieden mit den Arbeitszeiten."
       },
       {
         "type": "reorder",
@@ -828,6 +1009,65 @@
         "answer": "unbefristet",
         "hint": "unlimited / permanent"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Einen Vertrag verhandeln sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Negotiating a contract today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Der Arbeitgeber und der Arbeitnehmer schließen einen Arbeitsvertrag ab.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Herzlichen Glückwunsch, Sie sind eingestellt!",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Sie freut sich über ihre neue Einstellung.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Einen Vertrag verhandeln“ (Negotiating a contract).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Einen Vertrag verhandeln“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Einen Vertrag verhandeln“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Der Arbeitgeber und der Arbeitnehmer schließen einen Arbeitsvertrag ab. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Einen Vertrag verhandeln“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Einen Vertrag verhandeln“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Der Arbeitgeber und der Arbeitnehmer schließen einen Arbeitsvertrag ab. Herzlichen Glückwunsch, Sie sind eingestellt! Sie freut sich über ihre neue Einstellung."
+    },
+    "level": "B1"
   }
 ]

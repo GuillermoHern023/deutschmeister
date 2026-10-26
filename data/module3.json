@@ -46,25 +46,50 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "Schwimmen, Basketball, Fußball und Tennis sind verschiedene ___.",
-        "options": ["Sportarten", "Mannschaften", "Trainings", "Siege"],
+        "options": [
+          "Sportarten",
+          "Mannschaften",
+          "Trainings",
+          "Siege"
+        ],
         "answer": 0
       },
       {
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "Nina gewinnt den ___.",
-        "options": ["Training", "Wettkampf", "Mannschaft", "Niederlage"],
+        "options": [
+          "Training",
+          "Wettkampf",
+          "Mannschaft",
+          "Niederlage"
+        ],
         "answer": 1
       },
       {
         "type": "matching",
         "instruction": "Match the German words with their English meanings.",
         "pairs": [
-          ["gewinnen", "to win"],
-          ["verlieren", "to lose"],
-          ["die Mannschaft", "the team"],
-          ["der Wettkampf", "the competition"],
-          ["die Medaille", "the medal"]
+          [
+            "gewinnen",
+            "to win"
+          ],
+          [
+            "verlieren",
+            "to lose"
+          ],
+          [
+            "die Mannschaft",
+            "the team"
+          ],
+          [
+            "der Wettkampf",
+            "the competition"
+          ],
+          [
+            "die Medaille",
+            "the medal"
+          ]
         ]
       },
       {
@@ -88,7 +113,14 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["nimmt", "einem", "teil", "Marina", "Wettkampf", "an"],
+        "words": [
+          "nimmt",
+          "einem",
+          "teil",
+          "Marina",
+          "Wettkampf",
+          "an"
+        ],
         "answer": "Marina nimmt an einem Wettkampf teil."
       },
       {
@@ -103,64 +135,172 @@
       {
         "type": "multiple_choice",
         "question": "What does 'eine Niederlage kassieren' mean?",
-        "options": ["to win a medal", "to suffer a defeat", "to take part in a competition", "to train hard"],
+        "options": [
+          "to win a medal",
+          "to suffer a defeat",
+          "to take part in a competition",
+          "to train hard"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Die Mannschaft hat dreimal pro Woche ___.",
-        "options": ["Niederlage", "Sieg", "Training", "Finale"],
+        "options": [
+          "Niederlage",
+          "Sieg",
+          "Training",
+          "Finale"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "What is the correct German word for 'athlete' (female)?",
-        "options": ["der Sportler", "die Sportlerin", "die Mannschaft", "die Medaille"],
+        "options": [
+          "der Sportler",
+          "die Sportlerin",
+          "die Mannschaft",
+          "die Medaille"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Louis spielt nicht in einer Mannschaft, sondern ___.",
-        "options": ["im Team", "im Finale", "alleine", "im Stadion"],
+        "options": [
+          "im Team",
+          "im Finale",
+          "alleine",
+          "im Stadion"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "What does the idiom 'Die Letzten werden die Ersten sein' mean?",
-        "options": ["The winners celebrate first", "You should always be first", "A consolation for someone who lost", "The last game is the best"],
+        "options": [
+          "The winners celebrate first",
+          "You should always be first",
+          "A consolation for someone who lost",
+          "The last game is the best"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "Dortmund spielt gegen Schalke. Am Ende steht es 3:1 für Dortmund. Who won?",
-        "options": ["Schalke", "Dortmund", "Both teams", "Neither team"],
+        "options": [
+          "Schalke",
+          "Dortmund",
+          "Both teams",
+          "Neither team"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Der Gewinner ist auf dem ersten Platz und bekommt eine ___.",
-        "options": ["Niederlage", "Bronzemedaille", "Goldmedaille", "Training"],
+        "options": [
+          "Niederlage",
+          "Bronzemedaille",
+          "Goldmedaille",
+          "Training"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "Which sport is NOT mentioned in the lesson?",
-        "options": ["Fechten", "Eishockey", "Golf", "Boxen"],
+        "options": [
+          "Fechten",
+          "Eishockey",
+          "Golf",
+          "Boxen"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "Oskar fährt professionell Fahrrad. Wie heißen seine Wettkämpfe?",
-        "options": ["Fußballspiele", "Radrennen", "Marathons", "Turniere"],
+        "options": [
+          "Fußballspiele",
+          "Radrennen",
+          "Marathons",
+          "Turniere"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "What does 'teilnehmen an' require?",
-        "options": ["Dativ", "Genitiv", "Akkusativ", "Nominativ"],
+        "options": [
+          "Dativ",
+          "Genitiv",
+          "Akkusativ",
+          "Nominativ"
+        ],
         "answer": 2
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Sport treiben sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Sports today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ihr Team gewinnt das Fußballspiel.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Der FC Hintertupfingen verliert das Spiel.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Die Fans feiern den Sieg ihres Teams.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Sport treiben“ (Sports) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Sport treiben.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Sport treiben“. Ihr Team gewinnt das Fußballspiel. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Sport treiben“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Sport treiben“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Ihr Team gewinnt das Fußballspiel. Der FC Hintertupfingen verliert das Spiel. Die Fans feiern den Sieg ihres Teams."
+    },
+    "level": "A2.1"
   },
   {
     "id": 11,
@@ -209,25 +349,50 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "Fast Food hat viel Fett, Gemüse ist sehr ___.",
-        "options": ["fettarm", "Kohlenhydrate", "Diät", "Ernährung"],
+        "options": [
+          "fettarm",
+          "Kohlenhydrate",
+          "Diät",
+          "Ernährung"
+        ],
         "answer": 0
       },
       {
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "Reis, Brot und Nudeln haben viele ___.",
-        "options": ["Diäten", "Kohlenhydrate", "Entspannungsübungen", "Gewichte"],
+        "options": [
+          "Diäten",
+          "Kohlenhydrate",
+          "Entspannungsübungen",
+          "Gewichte"
+        ],
         "answer": 1
       },
       {
         "type": "matching",
         "instruction": "Match the German words with their English meanings.",
         "pairs": [
-          ["abnehmen", "to lose weight"],
-          ["sich erholen", "to recover"],
-          ["die Ernährung", "nutrition"],
-          ["sich entspannen", "to relax"],
-          ["Stress vermeiden", "to avoid stress"]
+          [
+            "abnehmen",
+            "to lose weight"
+          ],
+          [
+            "sich erholen",
+            "to recover"
+          ],
+          [
+            "die Ernährung",
+            "nutrition"
+          ],
+          [
+            "sich entspannen",
+            "to relax"
+          ],
+          [
+            "Stress vermeiden",
+            "to avoid stress"
+          ]
         ]
       },
       {
@@ -251,7 +416,14 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["achtet", "eine", "Ernährung", "auf", "Maria", "gesunde"],
+        "words": [
+          "achtet",
+          "eine",
+          "Ernährung",
+          "auf",
+          "Maria",
+          "gesunde"
+        ],
         "answer": "Maria achtet auf eine gesunde Ernährung."
       },
       {
@@ -266,64 +438,172 @@
       {
         "type": "multiple_choice",
         "question": "What does 'fit wie ein Turnschuh sein' mean?",
-        "options": ["to be as fast as a shoe", "to be fit as a fiddle", "to buy new sneakers", "to run in sneakers"],
+        "options": [
+          "to be as fast as a shoe",
+          "to be fit as a fiddle",
+          "to buy new sneakers",
+          "to run in sneakers"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Oma Gerda und Opa Heinrich fahren mit dem Fahrrad, um ___ zu bleiben.",
-        "options": ["gesund", "fettarm", "fit", "stark"],
+        "options": [
+          "gesund",
+          "fettarm",
+          "fit",
+          "stark"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "What does 'naschen' mean?",
-        "options": ["to cook", "to exercise", "to snack on sweets", "to sleep"],
+        "options": [
+          "to cook",
+          "to exercise",
+          "to snack on sweets",
+          "to sleep"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "Why does Maria want to avoid stress?",
-        "options": ["Because she has no time", "Because stress is unhealthy", "Because she likes yoga", "Because her boss told her"],
+        "options": [
+          "Because she has no time",
+          "Because stress is unhealthy",
+          "Because she likes yoga",
+          "Because her boss told her"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "What does Maria do to relax?",
-        "options": ["Goes swimming", "Watches TV", "Does yoga and relaxation exercises", "Plays football"],
+        "options": [
+          "Goes swimming",
+          "Watches TV",
+          "Does yoga and relaxation exercises",
+          "Plays football"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "Which word means 'to lose weight' in German?",
-        "options": ["zunehmen", "abnehmen", "aufnehmen", "mitnehmen"],
+        "options": [
+          "zunehmen",
+          "abnehmen",
+          "aufnehmen",
+          "mitnehmen"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Tim möchte abnehmen, also macht er eine ___.",
-        "options": ["Entspannungsübung", "Ernährung", "Diät", "Yoga"],
+        "options": [
+          "Entspannungsübung",
+          "Ernährung",
+          "Diät",
+          "Yoga"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "Which is NOT a tip for healthy eating from the lesson?",
-        "options": ["Mehr Obst essen", "Weniger Alkohol trinken", "Mehr Fast Food essen", "Mehr Gemüse essen"],
+        "options": [
+          "Mehr Obst essen",
+          "Weniger Alkohol trinken",
+          "Mehr Fast Food essen",
+          "Mehr Gemüse essen"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "What does 'sich erholen' mean?",
-        "options": ["to hurry up", "to recover / rest", "to lose weight", "to cook"],
+        "options": [
+          "to hurry up",
+          "to recover / rest",
+          "to lose weight",
+          "to cook"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Die Milch hat wenig Fett. Sie ist ___.",
-        "options": ["fettarm", "kohlenhydratreich", "ungesund", "stressig"],
+        "options": [
+          "fettarm",
+          "kohlenhydratreich",
+          "ungesund",
+          "stressig"
+        ],
         "answer": 0
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Fit bleiben sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Staying Fit today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Oma Gerda und Opa Heinrich fahren mit dem Fahrrad, um fit zu bleiben.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Marie und Jannis trainieren für die Weltmeisterschaft.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Max geht jeden Tag ins Fitnessstudio.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Fit bleiben“ (Staying Fit) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Fit bleiben.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Fit bleiben“. Oma Gerda und Opa Heinrich fahren mit dem Fahrrad, um fit zu bleiben. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Fit bleiben“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Fit bleiben“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Oma Gerda und Opa Heinrich fahren mit dem Fahrrad, um fit zu bleiben. Marie und Jannis trainieren für die Weltmeisterschaft. Max geht jeden Tag ins Fitnessstudio."
+    },
+    "level": "A2.1"
   },
   {
     "id": 12,
@@ -377,25 +657,50 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "How are 'f' and 'v' pronounced in German native words?",
-        "options": ["Both like [v]", "Both like [f]", "f like [f] and v like [v]", "They are silent"],
+        "options": [
+          "Both like [v]",
+          "Both like [f]",
+          "f like [f] and v like [v]",
+          "They are silent"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "In which word is 'v' pronounced like [v] (as in English)?",
-        "options": ["Volk", "brav", "Klavier", "viel"],
+        "options": [
+          "Volk",
+          "brav",
+          "Klavier",
+          "viel"
+        ],
         "answer": 2
       },
       {
         "type": "matching",
         "instruction": "Match the expressions with their meanings.",
         "pairs": [
-          ["Sport ist Mord", "Sport is exhausting"],
-          ["abschalten", "to unwind / switch off"],
-          ["Ich bin dafür", "I am in favor"],
-          ["Ich bin dagegen", "I am against"],
-          ["zufrieden", "satisfied"]
+          [
+            "Sport ist Mord",
+            "Sport is exhausting"
+          ],
+          [
+            "abschalten",
+            "to unwind / switch off"
+          ],
+          [
+            "Ich bin dafür",
+            "I am in favor"
+          ],
+          [
+            "Ich bin dagegen",
+            "I am against"
+          ],
+          [
+            "zufrieden",
+            "satisfied"
+          ]
         ]
       },
       {
@@ -419,7 +724,14 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["erholt", "dem", "Fred", "auf", "sich", "Sofa"],
+        "words": [
+          "erholt",
+          "dem",
+          "Fred",
+          "auf",
+          "sich",
+          "Sofa"
+        ],
         "answer": "Fred erholt sich auf dem Sofa."
       },
       {
@@ -434,64 +746,172 @@
       {
         "type": "multiple_choice",
         "question": "What does 'Sport ist Mord' mean?",
-        "options": ["Sport is healthy", "Sport is murder / too exhausting", "Sport is fun", "Sport is boring"],
+        "options": [
+          "Sport is healthy",
+          "Sport is murder / too exhausting",
+          "Sport is fun",
+          "Sport is boring"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Which conjugation of 'lassen' is correct for 'er/sie/es'?",
-        "options": ["lasst", "lasse", "lässt", "lassen"],
+        "options": [
+          "lasst",
+          "lasse",
+          "lässt",
+          "lassen"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "In German, how is 'w' pronounced?",
-        "options": ["Like English 'w'", "Like English 'v' (voiced, soft)", "Like English 'f'", "It is silent"],
+        "options": [
+          "Like English 'w'",
+          "Like English 'v' (voiced, soft)",
+          "Like English 'f'",
+          "It is silent"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "In which category of words is 'v' pronounced as [v] (like w)?",
-        "options": ["All German words", "Foreign words (Fremdwörter) at word-beginning or inside", "Words ending in -v", "Only verbs"],
+        "options": [
+          "All German words",
+          "Foreign words (Fremdwörter) at word-beginning or inside",
+          "Words ending in -v",
+          "Only verbs"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Which phrase means 'I am of the opinion that...'?",
-        "options": ["Ich glaube, dass...", "Ich bin dafür, dass...", "Ich bin der Meinung, dass...", "Ich bin dagegen, dass..."],
+        "options": [
+          "Ich glaube, dass...",
+          "Ich bin dafür, dass...",
+          "Ich bin der Meinung, dass...",
+          "Ich bin dagegen, dass..."
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "Fred macht viel Sport, ___ er fit bleiben möchte.",
-        "options": ["dass", "weil", "aber", "oder"],
+        "options": [
+          "dass",
+          "weil",
+          "aber",
+          "oder"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Which word has 'v' pronounced as [f]?",
-        "options": ["Universität", "Navigation", "Olive", "Volk"],
+        "options": [
+          "Universität",
+          "Navigation",
+          "Olive",
+          "Volk"
+        ],
         "answer": 3
       },
       {
         "type": "multiple_choice",
         "question": "What does 'abschalten' mean in the context of relaxation?",
-        "options": ["to turn on the TV", "to switch off / unwind", "to exercise harder", "to eat less"],
+        "options": [
+          "to turn on the TV",
+          "to switch off / unwind",
+          "to exercise harder",
+          "to eat less"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Complete the tongue twister: Viel warmes ___ fließt durch den Fluss.",
-        "options": ["Bier", "Wasser", "Wetter", "Wein"],
+        "options": [
+          "Bier",
+          "Wasser",
+          "Wetter",
+          "Wein"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "What does 'lassen' express when used with another verb?",
-        "options": ["Obligation", "Having someone do something / allowing", "Past tense", "Negation"],
+        "options": [
+          "Obligation",
+          "Having someone do something / allowing",
+          "Past tense",
+          "Negation"
+        ],
         "answer": 1
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Über Sport und Freizeit sprechen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about A Conversation about Sport today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Fred erholt sich auf dem Sofa.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Er trainiert immer abends im Fitnessstudio.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Fred macht viel Sport, weil er fit bleiben möchte.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Über Sport und Freizeit sprechen“ (A Conversation about Sport) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Über Sport und Freizeit sprechen.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Über Sport und Freizeit sprechen“. Fred erholt sich auf dem Sofa. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Über Sport und Freizeit sprechen“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Über Sport und Freizeit sprechen“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Fred erholt sich auf dem Sofa. Er trainiert immer abends im Fitnessstudio. Fred macht viel Sport, weil er fit bleiben möchte."
+    },
+    "level": "A2.1"
   },
   {
     "id": 13,
@@ -545,25 +965,50 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "How often did Louise train as a child?",
-        "options": ["Once a week", "Twice a week", "Three times a week", "Four times a week"],
+        "options": [
+          "Once a week",
+          "Twice a week",
+          "Three times a week",
+          "Four times a week"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "Why are Handball and Basketball not good for Louise?",
-        "options": ["She doesn't like them", "She can't throw or catch well", "They are too expensive", "She is too old"],
+        "options": [
+          "She doesn't like them",
+          "She can't throw or catch well",
+          "They are too expensive",
+          "She is too old"
+        ],
         "answer": 1
       },
       {
         "type": "matching",
         "instruction": "Match the German words with their English meanings.",
         "pairs": [
-          ["ein Tor schießen", "to score a goal"],
-          ["werfen", "to throw"],
-          ["fangen", "to catch"],
-          ["das Laufband", "the treadmill"],
-          ["langweilig", "boring"]
+          [
+            "ein Tor schießen",
+            "to score a goal"
+          ],
+          [
+            "werfen",
+            "to throw"
+          ],
+          [
+            "fangen",
+            "to catch"
+          ],
+          [
+            "das Laufband",
+            "the treadmill"
+          ],
+          [
+            "langweilig",
+            "boring"
+          ]
         ]
       },
       {
@@ -587,7 +1032,13 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["Fitnessstudio", "Tom", "im", "Gewichte", "hebt"],
+        "words": [
+          "Fitnessstudio",
+          "Tom",
+          "im",
+          "Gewichte",
+          "hebt"
+        ],
         "answer": "Im Fitnessstudio hebt Tom Gewichte."
       },
       {
@@ -602,63 +1053,171 @@
       {
         "type": "multiple_choice",
         "question": "What does 'am Ball bleiben' mean?",
-        "options": ["to play ball", "to stay on the ball / not give up", "to throw the ball", "to catch the ball"],
+        "options": [
+          "to play ball",
+          "to stay on the ball / not give up",
+          "to throw the ball",
+          "to catch the ball"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "What was the final score of the football match Louise watched?",
-        "options": ["2:1 for Leverkusen", "3:2 for Köln", "1:1 draw", "3:0 for Leverkusen"],
+        "options": [
+          "2:1 for Leverkusen",
+          "3:2 for Köln",
+          "1:1 draw",
+          "3:0 for Leverkusen"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Why doesn't Louise play football anymore?",
-        "options": ["She was injured", "She thinks she is too old", "She moved to another city", "She doesn't like football"],
+        "options": [
+          "She was injured",
+          "She thinks she is too old",
+          "She moved to another city",
+          "She doesn't like football"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "What does Louise see on the way home from the swimming pool?",
-        "options": ["A new gym", "A poster for a women's football team", "A sports store", "A tennis court"],
+        "options": [
+          "A new gym",
+          "A poster for a women's football team",
+          "A sports store",
+          "A tennis court"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Why does Louise find swimming unsuitable?",
-        "options": ["She can't swim", "It's too expensive", "She can't talk while swimming and it's not a team sport", "The pool is too far away"],
+        "options": [
+          "She can't swim",
+          "It's too expensive",
+          "She can't talk while swimming and it's not a team sport",
+          "The pool is too far away"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "What does 'pumpen' mean in gym slang?",
-        "options": ["to run fast", "to lift weights", "to swim laps", "to stretch"],
+        "options": [
+          "to run fast",
+          "to lift weights",
+          "to swim laps",
+          "to stretch"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "As a child, Louise's team almost never ___.",
-        "options": ["gewonnen", "trainiert", "verloren", "gespielt"],
+        "options": [
+          "gewonnen",
+          "trainiert",
+          "verloren",
+          "gespielt"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "What does Louise do at the gym?",
-        "options": ["Plays basketball", "Does Aerobic courses and runs on the treadmill", "Lifts heavy weights", "Swims laps"],
+        "options": [
+          "Plays basketball",
+          "Does Aerobic courses and runs on the treadmill",
+          "Lifts heavy weights",
+          "Swims laps"
+        ],
         "answer": 1
       },
       {
         "type": "multiple_choice",
         "question": "Who is Nils?",
-        "options": ["Louise's brother", "Louise's coach", "Louise's best friend", "Louise's husband"],
+        "options": [
+          "Louise's brother",
+          "Louise's coach",
+          "Louise's best friend",
+          "Louise's husband"
+        ],
         "answer": 2
       },
       {
         "type": "multiple_choice",
         "question": "What excites Louise about the poster?",
-        "options": ["A free gym membership", "A marathon nearby", "A women's football team for ages 30-50", "A swimming competition"],
+        "options": [
+          "A free gym membership",
+          "A marathon nearby",
+          "A women's football team for ages 30-50",
+          "A swimming competition"
+        ],
         "answer": 2
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Eine neue Sportart sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about A New Type of Sport today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Der Fußballspieler schießt ein Tor.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Louise war heute im Fußballstadion.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Der Baseballspieler wirft den Ball.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Eine neue Sportart“ (A New Type of Sport) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Eine neue Sportart.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Eine neue Sportart“. Der Fußballspieler schießt ein Tor. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Eine neue Sportart“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Eine neue Sportart“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Der Fußballspieler schießt ein Tor. Louise war heute im Fußballstadion. Der Baseballspieler wirft den Ball."
+    },
+    "level": "A2.1"
   }
 ]

@@ -235,7 +235,65 @@
         ],
         "answer": 1
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Mein Zuhause sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about My Home today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wir sind drinnen.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Der Garten ist draußen.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Die Garage ist im Erdgeschoss.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Mein Zuhause“ (My Home) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Mein Zuhause.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Mein Zuhause“. Wir sind drinnen. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Mein Zuhause“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Mein Zuhause“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Wir sind drinnen. Der Garten ist draußen. Die Garage ist im Erdgeschoss."
+    },
+    "level": "A2.1"
   },
   {
     "id": 6,
@@ -473,7 +531,65 @@
         ],
         "answer": 0
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Stadtleben sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about City Life today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Die Hauptstraße führt ins Stadtzentrum.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "In der Buchhandlung gibt es viele Bücher.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Er studiert gerne an der Universität.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Stadtleben“ (City Life) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Stadtleben.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Stadtleben“. Die Hauptstraße führt ins Stadtzentrum. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Stadtleben“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Stadtleben“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Die Hauptstraße führt ins Stadtzentrum. In der Buchhandlung gibt es viele Bücher. Er studiert gerne an der Universität."
+    },
+    "level": "A2.1"
   },
   {
     "id": 7,
@@ -711,7 +827,65 @@
         ],
         "answer": 1
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Ein- und Ausziehen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Moving In and Out today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Frieda muss die Wohnung neu einrichten.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Die Miete für das Haus ist 800 Euro.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Die Kaltmiete beträgt 600 Euro.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Ein- und Ausziehen“ (Moving In and Out) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Ein- und Ausziehen.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Ein- und Ausziehen“. Frieda muss die Wohnung neu einrichten. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Ein- und Ausziehen“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Ein- und Ausziehen“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Frieda muss die Wohnung neu einrichten. Die Miete für das Haus ist 800 Euro. Die Kaltmiete beträgt 600 Euro."
+    },
+    "level": "A2.1"
   },
   {
     "id": 8,
@@ -950,7 +1124,65 @@
         ],
         "answer": 2
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Ein Gespräch über den Umzug sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about A Conversation about Moving today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wir vergleichen die beiden Wohnungen.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das Wohnzimmer ist sehr gemütlich.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Das alte Zimmer war ungemütlich.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Ein Gespräch über den Umzug“ (A Conversation about Moving) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Ein Gespräch über den Umzug.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Ein Gespräch über den Umzug“. Wir vergleichen die beiden Wohnungen. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Ein Gespräch über den Umzug“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Ein Gespräch über den Umzug“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Wir vergleichen die beiden Wohnungen. Das Wohnzimmer ist sehr gemütlich. Das alte Zimmer war ungemütlich."
+    },
+    "level": "A2.1"
   },
   {
     "id": 9,
@@ -1189,6 +1421,64 @@
         ],
         "answer": 1
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Die neue Wohnung sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about The New Apartment today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Louise schaut nach Wohnungsanzeigen im Internet.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Die Kaltmiete beträgt 600 Euro.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Louise schaut sich eine Altbauwohnung an.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Die neue Wohnung“ (The New Apartment) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Die neue Wohnung.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Die neue Wohnung“. Louise schaut nach Wohnungsanzeigen im Internet. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Die neue Wohnung“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Die neue Wohnung“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Louise schaut nach Wohnungsanzeigen im Internet. Die Kaltmiete beträgt 600 Euro. Louise schaut sich eine Altbauwohnung an."
+    },
+    "level": "A2.1"
   }
 ]

@@ -150,8 +150,8 @@
       },
       {
         "type": "translation",
-        "sentence": "He has a newspaper subscription.",
-        "answer": "Er hat ein Zeitungsabonnement."
+        "source": "He has a newspaper subscription.",
+        "target": "Er hat ein Zeitungsabonnement."
       },
       {
         "type": "reorder",
@@ -188,8 +188,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I don't like sensationalist titles.",
-        "answer": "Ich mag keine reißerischen Titel."
+        "source": "I don't like sensationalist titles.",
+        "target": "Ich mag keine reißerischen Titel."
       },
       {
         "type": "reorder",
@@ -206,7 +206,66 @@
         ],
         "answer": "Die Boulevardpresse hängt jedes Detail an die große Glocke."
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Nachrichten lesen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Reading the news today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich habe ein Abonnement für die Tageszeitung.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Dieser Artikel ist leider hinter einer Paywall versteckt.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Trotz des Internets lesen viele Leute immer noch Printmedien.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Nachrichten lesen“ (Reading the news).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Nachrichten lesen“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Nachrichten lesen“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Ich habe ein Abonnement für die Tageszeitung. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Nachrichten lesen“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Nachrichten lesen“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Ich habe ein Abonnement für die Tageszeitung. Dieser Artikel ist leider hinter einer Paywall versteckt. Trotz des Internets lesen viele Leute immer noch Printmedien."
+    },
+    "level": "B1"
   },
   {
     "id": 50,
@@ -359,8 +418,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I am always skeptical.",
-        "answer": "Ich bin immer skeptisch."
+        "source": "I am always skeptical.",
+        "target": "Ich bin immer skeptisch."
       },
       {
         "type": "reorder",
@@ -399,8 +458,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Do you also read news there?",
-        "answer": "Liest du dort auch Nachrichten?"
+        "source": "Do you also read news there?",
+        "target": "Liest du dort auch Nachrichten?"
       },
       {
         "type": "reorder",
@@ -416,7 +475,66 @@
         ],
         "answer": "Inhalte verbreiten sich schnell über die sozialen Medien."
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Journalismus in den sozialen Medien sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Journalism in social media today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Der Algorithmus sorgt dafür, dass man in seiner Filterblase bleibt.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Der Algorithmus bestimmt den Inhalt meines Newsfeeds.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Sie teilt jeden Tag interessante Beiträge.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Journalismus in den sozialen Medien“ (Journalism in social media).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Journalismus in den sozialen Medien“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Journalismus in den sozialen Medien“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Der Algorithmus sorgt dafür, dass man in seiner Filterblase bleibt. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Journalismus in den sozialen Medien“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Journalismus in den sozialen Medien“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Der Algorithmus sorgt dafür, dass man in seiner Filterblase bleibt. Der Algorithmus bestimmt den Inhalt meines Newsfeeds. Sie teilt jeden Tag interessante Beiträge."
+    },
+    "level": "B1"
   },
   {
     "id": 51,
@@ -570,8 +688,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Is this information from a reliable source?",
-        "answer": "Kommt diese Information aus einer verlässlichen Quelle?"
+        "source": "Is this information from a reliable source?",
+        "target": "Kommt diese Information aus einer verlässlichen Quelle?"
       },
       {
         "type": "reorder",
@@ -610,8 +728,8 @@
       },
       {
         "type": "translation",
-        "sentence": "You should check the source!",
-        "answer": "Du musst die Quelle checken!"
+        "source": "You should check the source!",
+        "target": "Du musst die Quelle checken!"
       },
       {
         "type": "reorder",
@@ -626,7 +744,66 @@
         ],
         "answer": "Die Überschriften springen immer sofort ins Auge."
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Mit Fake News umgehen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Dealing with fake news today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich wollte den Link anklicken, um mehr zu lesen.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Er ist auf diese Falschmeldung hereingefallen.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Clickbait-Schlagzeilen springen einem sofort ins Auge.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Mit Fake News umgehen“ (Dealing with fake news).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Mit Fake News umgehen“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Mit Fake News umgehen“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Ich wollte den Link anklicken, um mehr zu lesen. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Mit Fake News umgehen“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Mit Fake News umgehen“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Ich wollte den Link anklicken, um mehr zu lesen. Er ist auf diese Falschmeldung hereingefallen. Clickbait-Schlagzeilen springen einem sofort ins Auge."
+    },
+    "level": "B1"
   },
   {
     "id": 52,
@@ -778,8 +955,8 @@
       },
       {
         "type": "translation",
-        "sentence": "We all benefit!",
-        "answer": "Wir profitieren alle!"
+        "source": "We all benefit!",
+        "target": "Wir profitieren alle!"
       },
       {
         "type": "reorder",
@@ -819,8 +996,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Globalization has downsides.",
-        "answer": "Die Globalisierung hat Schattenseiten."
+        "source": "Globalization has downsides.",
+        "target": "Die Globalisierung hat Schattenseiten."
       },
       {
         "type": "reorder",
@@ -835,6 +1012,65 @@
         ],
         "answer": "weil wir so sehr voneinander abhängig sind"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Globalisierung sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Globalization today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Dank der Globalisierung steigt global der Wohlstand.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Die Ökonomie profitiert vom stetigen Wirtschaftswachstum.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Welthandel bedeutet freien Import und Export auf der ganzen Welt.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Globalisierung“ (Globalization).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Globalisierung“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Globalisierung“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Dank der Globalisierung steigt global der Wohlstand. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Globalisierung“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Globalisierung“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Dank der Globalisierung steigt global der Wohlstand. Die Ökonomie profitiert vom stetigen Wirtschaftswachstum. Welthandel bedeutet freien Import und Export auf der ganzen Welt."
+    },
+    "level": "B1"
   }
 ]

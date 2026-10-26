@@ -239,7 +239,65 @@
         "answer": "Wurst",
         "hint": "sausage"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Die deutsche Küche sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about German Cuisine today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Heute sprechen wir über das Thema Die deutsche Küche.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das ist im Alltag in Deutschland besonders wichtig.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wie siehst du das? Hast du damit schon Erfahrungen gemacht?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Die deutsche Küche“ (German Cuisine) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Die deutsche Küche.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Die deutsche Küche“. Heute sprechen wir über das Thema Die deutsche Küche. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Die deutsche Küche“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Die deutsche Küche“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Heute sprechen wir über das Thema Die deutsche Küche. Das ist im Alltag in Deutschland besonders wichtig. Wie siehst du das? Hast du damit schon Erfahrungen gemacht?"
+    },
+    "level": "A2.2"
   },
   {
     "id": 22,
@@ -468,7 +526,65 @@
         "answer": "umrühren",
         "hint": "to stir"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Eine Unterhaltung über Essen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about A Conversation about Food today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Heute sprechen wir über das Thema Eine Unterhaltung über Essen.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das ist im Alltag in Deutschland besonders wichtig.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wie siehst du das? Hast du damit schon Erfahrungen gemacht?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Eine Unterhaltung über Essen“ (A Conversation about Food) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Eine Unterhaltung über Essen.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Eine Unterhaltung über Essen“. Heute sprechen wir über das Thema Eine Unterhaltung über Essen. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Eine Unterhaltung über Essen“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Eine Unterhaltung über Essen“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Heute sprechen wir über das Thema Eine Unterhaltung über Essen. Das ist im Alltag in Deutschland besonders wichtig. Wie siehst du das? Hast du damit schon Erfahrungen gemacht?"
+    },
+    "level": "A2.2"
   },
   {
     "id": 23,
@@ -695,7 +811,65 @@
         "answer": "kneten",
         "hint": "to knead"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Rezepte sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Recipes today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "gram",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "milliliter",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "teaspoon",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Rezepte“ (Recipes) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Rezepte.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Rezepte“. gram Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Rezepte“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Rezepte“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "gram milliliter teaspoon"
+    },
+    "level": "A2.2"
   },
   {
     "id": 24,
@@ -925,6 +1099,64 @@
         "answer": "Kühlschrank",
         "hint": "refrigerator"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Ein neuer Ernährungsplan sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Reading: A New Diet! today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Heute sprechen wir über das Thema Ein neuer Ernährungsplan.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das ist im Alltag in Deutschland besonders wichtig.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wie siehst du das? Hast du damit schon Erfahrungen gemacht?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Ein neuer Ernährungsplan“ (Reading: A New Diet!) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Ein neuer Ernährungsplan.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Ein neuer Ernährungsplan“. Heute sprechen wir über das Thema Ein neuer Ernährungsplan. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Ein neuer Ernährungsplan“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Ein neuer Ernährungsplan“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Heute sprechen wir über das Thema Ein neuer Ernährungsplan. Das ist im Alltag in Deutschland besonders wichtig. Wie siehst du das? Hast du damit schon Erfahrungen gemacht?"
+    },
+    "level": "A2.2"
   }
 ]

@@ -168,8 +168,8 @@
       },
       {
         "type": "translation",
-        "sentence": "If I save enough, I can afford a car.",
-        "answer": "Wenn ich genug spare, kann ich mir ein Auto leisten."
+        "source": "If I save enough, I can afford a car.",
+        "target": "Wenn ich genug spare, kann ich mir ein Auto leisten."
       },
       {
         "type": "reorder",
@@ -205,7 +205,65 @@
         "answer": "Währung",
         "hint": "currency"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Das Geld sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Money today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Bei der Bank kann man ein Girokonto eröffnen.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Er möchte Geld vom Konto abheben.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich zahle Geld auf mein Girokonto ein.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Das Geld“ (Money) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Das Geld.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Das Geld“. Bei der Bank kann man ein Girokonto eröffnen. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Das Geld“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Das Geld“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Bei der Bank kann man ein Girokonto eröffnen. Er möchte Geld vom Konto abheben. Ich zahle Geld auf mein Girokonto ein."
+    },
+    "level": "A2.2"
   },
   {
     "id": 38,
@@ -374,8 +432,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Who broke my favorite cup?",
-        "answer": "Wer hat meine Lieblingstasse zerbrochen?"
+        "source": "Who broke my favorite cup?",
+        "target": "Wer hat meine Lieblingstasse zerbrochen?"
       },
       {
         "type": "reorder",
@@ -409,7 +467,65 @@
         "answer": "Konto",
         "hint": "account"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Eine Unterhaltung über Geld sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about A Conversation about Money today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Heute sprechen wir über das Thema Eine Unterhaltung über Geld.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das ist im Alltag in Deutschland besonders wichtig.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wie siehst du das? Hast du damit schon Erfahrungen gemacht?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Eine Unterhaltung über Geld“ (A Conversation about Money) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Eine Unterhaltung über Geld.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Eine Unterhaltung über Geld“. Heute sprechen wir über das Thema Eine Unterhaltung über Geld. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Eine Unterhaltung über Geld“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Eine Unterhaltung über Geld“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Heute sprechen wir über das Thema Eine Unterhaltung über Geld. Das ist im Alltag in Deutschland besonders wichtig. Wie siehst du das? Hast du damit schon Erfahrungen gemacht?"
+    },
+    "level": "A2.2"
   },
   {
     "id": 39,
@@ -578,8 +694,8 @@
       },
       {
         "type": "translation",
-        "sentence": "She is on a job search.",
-        "answer": "Sie ist auf Arbeitssuche."
+        "source": "She is on a job search.",
+        "target": "Sie ist auf Arbeitssuche."
       },
       {
         "type": "reorder",
@@ -614,7 +730,65 @@
         "answer": "Stellenanzeige",
         "hint": "job advertisement"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Einen Lebenslauf schreiben sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Writing a CV today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Deshalb ist sie auf Arbeitssuche.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Sie hat eine interessante Stellenanzeige gefunden.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Sie möchte sich um die Stelle bewerben.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Einen Lebenslauf schreiben“ (Writing a CV) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Einen Lebenslauf schreiben.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Einen Lebenslauf schreiben“. Deshalb ist sie auf Arbeitssuche. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Einen Lebenslauf schreiben“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Einen Lebenslauf schreiben“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Deshalb ist sie auf Arbeitssuche. Sie hat eine interessante Stellenanzeige gefunden. Sie möchte sich um die Stelle bewerben."
+    },
+    "level": "A2.2"
   },
   {
     "id": 40,
@@ -784,8 +958,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I need a training position.",
-        "answer": "Ich brauche einen Ausbildungsplatz."
+        "source": "I need a training position.",
+        "target": "Ich brauche einen Ausbildungsplatz."
       },
       {
         "type": "reorder",
@@ -821,6 +995,64 @@
         "answer": "Praktika",
         "hint": "internships"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Hermines Geschichte sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Reading: Hermine's Story today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Hermine erwirbt bald ihren Realschulabschluss.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Für ein Medizinstudium müsste ich mein Abitur machen.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Sie sucht einen Ausbildungsplatz.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Hermines Geschichte“ (Reading: Hermine's Story) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Hermines Geschichte.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Hermines Geschichte“. Hermine erwirbt bald ihren Realschulabschluss. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Hermines Geschichte“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Hermines Geschichte“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Hermine erwirbt bald ihren Realschulabschluss. Für ein Medizinstudium müsste ich mein Abitur machen. Sie sucht einen Ausbildungsplatz."
+    },
+    "level": "A2.2"
   }
 ]

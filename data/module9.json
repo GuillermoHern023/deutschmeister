@@ -41,11 +41,26 @@
         "type": "matching",
         "instruction": "Match the German terms to their English meanings.",
         "pairs": [
-          ["das Zelt", "tent"],
-          ["der Ausflug", "excursion"],
-          ["die Überschwemmung", "flood"],
-          ["der Ratschlag", "advice"],
-          ["der Proviant", "provisions"]
+          [
+            "das Zelt",
+            "tent"
+          ],
+          [
+            "der Ausflug",
+            "excursion"
+          ],
+          [
+            "die Überschwemmung",
+            "flood"
+          ],
+          [
+            "der Ratschlag",
+            "advice"
+          ],
+          [
+            "der Proviant",
+            "provisions"
+          ]
         ]
       },
       {
@@ -63,7 +78,16 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["Sie", "bauen", "das", "Zelt", "im", "Wald", "auf", "."],
+        "words": [
+          "Sie",
+          "bauen",
+          "das",
+          "Zelt",
+          "im",
+          "Wald",
+          "auf",
+          "."
+        ],
         "answer": "Sie bauen das Zelt im Wald auf."
       },
       {
@@ -140,8 +164,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I have my hiking shoes.",
-        "answer": "Ich habe meine Wanderschuhe."
+        "source": "I have my hiking shoes.",
+        "target": "Ich habe meine Wanderschuhe."
       },
       {
         "type": "true_false",
@@ -150,7 +174,14 @@
       },
       {
         "type": "reorder",
-        "words": ["Es", "gibt", "noch", "freie", "Zimmer", "."],
+        "words": [
+          "Es",
+          "gibt",
+          "noch",
+          "freie",
+          "Zimmer",
+          "."
+        ],
         "answer": "Es gibt noch freie Zimmer."
       },
       {
@@ -170,7 +201,65 @@
         "answer": "Fahrradtour",
         "hint": "bicycle tour"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über In der Natur sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about The Nature today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Endlich machen wir einen Ausflug!",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Wir bauen das Zelt auf einer Lichtung auf.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich habe Wanderschuhe, Schlafsäcke und unser Zelt eingepackt.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „In der Natur“ (The Nature) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um In der Natur.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „In der Natur“. Endlich machen wir einen Ausflug! Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „In der Natur“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „In der Natur“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Endlich machen wir einen Ausflug! Wir bauen das Zelt auf einer Lichtung auf. Ich habe Wanderschuhe, Schlafsäcke und unser Zelt eingepackt."
+    },
+    "level": "A2.2"
   },
   {
     "id": 34,
@@ -219,11 +308,26 @@
         "type": "matching",
         "instruction": "Match the German words to their vowel length.",
         "pairs": [
-          ["das Beet", "long vowel"],
-          ["der Mann", "short vowel"],
-          ["die Schule", "long vowel"],
-          ["der Platz", "short vowel"],
-          ["die Glocke", "short vowel"]
+          [
+            "das Beet",
+            "long vowel"
+          ],
+          [
+            "der Mann",
+            "short vowel"
+          ],
+          [
+            "die Schule",
+            "long vowel"
+          ],
+          [
+            "der Platz",
+            "short vowel"
+          ],
+          [
+            "die Glocke",
+            "short vowel"
+          ]
         ]
       },
       {
@@ -241,7 +345,14 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["Der", "Hai", "lebt", "unter", "Wasser", "."],
+        "words": [
+          "Der",
+          "Hai",
+          "lebt",
+          "unter",
+          "Wasser",
+          "."
+        ],
         "answer": "Der Hai lebt unter Wasser."
       },
       {
@@ -318,8 +429,8 @@
       },
       {
         "type": "translation",
-        "sentence": "We must face the facts.",
-        "answer": "Wir müssen den Tatsachen ins Auge sehen."
+        "source": "We must face the facts.",
+        "target": "Wir müssen den Tatsachen ins Auge sehen."
       },
       {
         "type": "true_false",
@@ -328,7 +439,12 @@
       },
       {
         "type": "reorder",
-        "words": ["Es", "ist", "hell", "."],
+        "words": [
+          "Es",
+          "ist",
+          "hell",
+          "."
+        ],
         "answer": "Es ist hell."
       },
       {
@@ -348,7 +464,65 @@
         "answer": "Hai",
         "hint": "shark"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Über die Natur sprechen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Let's Talk about Nature today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Großes, starkes Tier in Nordamerika, oft braun, schwarz oder weiß.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Mit dem Hund verwandt, meist grau/braun, lebt im Rudel (zusammen).",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Orange-schwarz gestreiftes Raubtier aus Asien, schläft am Tag.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Über die Natur sprechen“ (Let's Talk about Nature) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Über die Natur sprechen.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Über die Natur sprechen“. Großes, starkes Tier in Nordamerika, oft braun, schwarz oder weiß. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Über die Natur sprechen“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Über die Natur sprechen“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Großes, starkes Tier in Nordamerika, oft braun, schwarz oder weiß. Mit dem Hund verwandt, meist grau/braun, lebt im Rudel (zusammen). Orange-schwarz gestreiftes Raubtier aus Asien, schläft am Tag."
+    },
+    "level": "A2.2"
   },
   {
     "id": 35,
@@ -392,11 +566,26 @@
         "type": "matching",
         "instruction": "Match the environmental terms.",
         "pairs": [
-          ["das Artensterben", "species extinction"],
-          ["die Artenvielfalt", "biodiversity"],
-          ["die Dürre", "drought"],
-          ["der ökologische Fußabdruck", "ecological footprint"],
-          ["die Umweltverschmutzung", "environmental pollution"]
+          [
+            "das Artensterben",
+            "species extinction"
+          ],
+          [
+            "die Artenvielfalt",
+            "biodiversity"
+          ],
+          [
+            "die Dürre",
+            "drought"
+          ],
+          [
+            "der ökologische Fußabdruck",
+            "ecological footprint"
+          ],
+          [
+            "die Umweltverschmutzung",
+            "environmental pollution"
+          ]
         ]
       },
       {
@@ -414,7 +603,15 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["Wir", "müssen", "unseren", "ökologischen", "Fußabdruck", "reduzieren", "."],
+        "words": [
+          "Wir",
+          "müssen",
+          "unseren",
+          "ökologischen",
+          "Fußabdruck",
+          "reduzieren",
+          "."
+        ],
         "answer": "Wir müssen unseren ökologischen Fußabdruck reduzieren."
       },
       {
@@ -491,8 +688,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I am by nature a thrifty person.",
-        "answer": "Ich bin von Natur aus ein sparsamer Mensch."
+        "source": "I am by nature a thrifty person.",
+        "target": "Ich bin von Natur aus ein sparsamer Mensch."
       },
       {
         "type": "true_false",
@@ -501,7 +698,14 @@
       },
       {
         "type": "reorder",
-        "words": ["Wir", "müssen", "die", "Umwelt", "schützen", "."],
+        "words": [
+          "Wir",
+          "müssen",
+          "die",
+          "Umwelt",
+          "schützen",
+          "."
+        ],
         "answer": "Wir müssen die Umwelt schützen."
       },
       {
@@ -521,7 +725,65 @@
         "answer": "Aussterben",
         "hint": "extinction"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Die Umwelt und die Tiere sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about The Environment and Animals today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wir müssen die Umwelt schützen.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Löwen und Wale sind verschiedene Tierarten.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Der Gorilla ist eine bedrohte Tierart.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Die Umwelt und die Tiere“ (The Environment and Animals) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Die Umwelt und die Tiere.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Die Umwelt und die Tiere“. Wir müssen die Umwelt schützen. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Die Umwelt und die Tiere“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Die Umwelt und die Tiere“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Wir müssen die Umwelt schützen. Löwen und Wale sind verschiedene Tierarten. Der Gorilla ist eine bedrohte Tierart."
+    },
+    "level": "A2.2"
   },
   {
     "id": 36,
@@ -565,11 +827,26 @@
         "type": "matching",
         "instruction": "Match the main clauses with the correct final clauses.",
         "pairs": [
-          ["Ich mache Sport,", "um mich besser zu fühlen."],
-          ["Eva lernt viel,", "um die Prüfung zu bestehen."],
-          ["Ich helfe dir,", "damit du keine Angst hast."],
-          ["Wir heizen,", "damit die Kinder warm sind."],
-          ["Er spart Geld,", "um ein Auto zu kaufen."]
+          [
+            "Ich mache Sport,",
+            "um mich besser zu fühlen."
+          ],
+          [
+            "Eva lernt viel,",
+            "um die Prüfung zu bestehen."
+          ],
+          [
+            "Ich helfe dir,",
+            "damit du keine Angst hast."
+          ],
+          [
+            "Wir heizen,",
+            "damit die Kinder warm sind."
+          ],
+          [
+            "Er spart Geld,",
+            "um ein Auto zu kaufen."
+          ]
         ]
       },
       {
@@ -587,7 +864,18 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["Sinn", "der", "Sache", "ist", ",", "dass", "sie", "besser", "schläft", "."],
+        "words": [
+          "Sinn",
+          "der",
+          "Sache",
+          "ist",
+          ",",
+          "dass",
+          "sie",
+          "besser",
+          "schläft",
+          "."
+        ],
         "answer": "Sinn der Sache ist, dass sie besser schläft."
       },
       {
@@ -601,7 +889,12 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "Where is 'zu' placed with 'anfangen' in an 'um... zu' clause?",
-        "options": ["zuanfangen", "anfangen zu", "anzufangen", "an zu fangen"],
+        "options": [
+          "zuanfangen",
+          "anfangen zu",
+          "anzufangen",
+          "an zu fangen"
+        ],
         "answer": 2
       },
       {
@@ -659,8 +952,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I have made the training to get a better job.",
-        "answer": "Ich habe die Fortbildung gemacht, um einen besseren Job zu bekommen."
+        "source": "I have made the training to get a better job.",
+        "target": "Ich habe die Fortbildung gemacht, um einen besseren Job zu bekommen."
       },
       {
         "type": "true_false",
@@ -669,7 +962,16 @@
       },
       {
         "type": "reorder",
-        "words": ["Ich", "lerne", "Deutsch", ",", "um", "zu", "arbeiten", "."],
+        "words": [
+          "Ich",
+          "lerne",
+          "Deutsch",
+          ",",
+          "um",
+          "zu",
+          "arbeiten",
+          "."
+        ],
         "answer": "Ich lerne Deutsch, um zu arbeiten."
       },
       {
@@ -689,6 +991,64 @@
         "answer": "lassen",
         "hint": "to let / get divorced"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Finalsätze: damit und um... zu sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Sentences with 'damit' today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Heute sprechen wir über das Thema Finalsätze: damit und um... zu.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das ist im Alltag in Deutschland besonders wichtig.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wie siehst du das? Hast du damit schon Erfahrungen gemacht?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Finalsätze: damit und um... zu“ (Sentences with 'damit') an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Finalsätze: damit und um... zu.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Finalsätze: damit und um... zu“. Heute sprechen wir über das Thema Finalsätze: damit und um... zu. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Finalsätze: damit und um... zu“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Finalsätze: damit und um... zu“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Heute sprechen wir über das Thema Finalsätze: damit und um... zu. Das ist im Alltag in Deutschland besonders wichtig. Wie siehst du das? Hast du damit schon Erfahrungen gemacht?"
+    },
+    "level": "A2.2"
   }
 ]

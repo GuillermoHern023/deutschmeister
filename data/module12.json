@@ -170,8 +170,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I have to answer within four days.",
-        "answer": "Ich muss innerhalb von vier Tagen antworten."
+        "source": "I have to answer within four days.",
+        "target": "Ich muss innerhalb von vier Tagen antworten."
       },
       {
         "type": "reorder",
@@ -210,7 +210,66 @@
         "answer": "Tagen",
         "hint": "days (plural, Dativ)"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Zweiteilige Präpositionen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Two-part prepositions today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Heute sprechen wir über das Thema Zweiteilige Präpositionen.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das ist im Alltag in Deutschland besonders wichtig.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wie siehst du das? Hast du damit schon Erfahrungen gemacht?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Zweiteilige Präpositionen“ (Two-part prepositions).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Zweiteilige Präpositionen“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Zweiteilige Präpositionen“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Heute sprechen wir über das Thema Zweiteilige Präpositionen. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Zweiteilige Präpositionen“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Zweiteilige Präpositionen“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Heute sprechen wir über das Thema Zweiteilige Präpositionen. Das ist im Alltag in Deutschland besonders wichtig. Wie siehst du das? Hast du damit schon Erfahrungen gemacht?"
+    },
+    "level": "B1"
   },
   {
     "id": 46,
@@ -380,8 +439,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I wish I could ride a bike around the whole world!",
-        "answer": "Ach, ich wünschte, ich könnte mit dem Fahrrad um die ganze Welt fahren!"
+        "source": "I wish I could ride a bike around the whole world!",
+        "target": "Ach, ich wünschte, ich könnte mit dem Fahrrad um die ganze Welt fahren!"
       },
       {
         "type": "reorder",
@@ -419,7 +478,66 @@
         "answer": "müssen",
         "hint": "had to (infinitive)"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Konjunktiv II der Modalverben sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Subjunctive II of modal verbs today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Heute sprechen wir über das Thema Konjunktiv II der Modalverben.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das ist im Alltag in Deutschland besonders wichtig.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wie siehst du das? Hast du damit schon Erfahrungen gemacht?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Konjunktiv II der Modalverben“ (Subjunctive II of modal verbs).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Konjunktiv II der Modalverben“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Konjunktiv II der Modalverben“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Heute sprechen wir über das Thema Konjunktiv II der Modalverben. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Konjunktiv II der Modalverben“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Konjunktiv II der Modalverben“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Heute sprechen wir über das Thema Konjunktiv II der Modalverben. Das ist im Alltag in Deutschland besonders wichtig. Wie siehst du das? Hast du damit schon Erfahrungen gemacht?"
+    },
+    "level": "B1"
   },
   {
     "id": 47,
@@ -589,8 +707,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Tom leaves his phone lying around.",
-        "answer": "Tom lässt sein Handy liegen."
+        "source": "Tom leaves his phone lying around.",
+        "target": "Tom lässt sein Handy liegen."
       },
       {
         "type": "reorder",
@@ -627,7 +745,66 @@
         "answer": "lassen",
         "hint": "let (infinitive)"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Fortgeschrittene Verwendung des Verbs 'lassen' sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Advanced use of the verb 'lassen' today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Heute sprechen wir über das Thema Fortgeschrittene Verwendung des Verbs 'lassen'.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das ist im Alltag in Deutschland besonders wichtig.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wie siehst du das? Hast du damit schon Erfahrungen gemacht?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Fortgeschrittene Verwendung des Verbs 'lassen'“ (Advanced use of the verb 'lassen').",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Fortgeschrittene Verwendung des Verbs 'lassen'“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Fortgeschrittene Verwendung des Verbs 'lassen'“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Heute sprechen wir über das Thema Fortgeschrittene Verwendung des Verbs 'lassen'. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Fortgeschrittene Verwendung des Verbs 'lassen'“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Fortgeschrittene Verwendung des Verbs 'lassen'“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Heute sprechen wir über das Thema Fortgeschrittene Verwendung des Verbs 'lassen'. Das ist im Alltag in Deutschland besonders wichtig. Wie siehst du das? Hast du damit schon Erfahrungen gemacht?"
+    },
+    "level": "B1"
   },
   {
     "id": 48,
@@ -800,8 +977,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I have already voted by postal vote.",
-        "answer": "Ich habe schon per Briefwahl abgestimmt."
+        "source": "I have already voted by postal vote.",
+        "target": "Ich habe schon per Briefwahl abgestimmt."
       },
       {
         "type": "reorder",
@@ -839,7 +1016,66 @@
         "answer": "wird",
         "hint": "will (singular)"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Vermutungen äußern mit dem Futur I sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Making assumptions with Future I today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Hast du schon bei der Bundestagswahl abgestimmt?",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Ich stimme per Briefwahl ab.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich werde ins Wahlbüro gehen.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Vermutungen äußern mit dem Futur I“ (Making assumptions with Future I).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Vermutungen äußern mit dem Futur I“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Vermutungen äußern mit dem Futur I“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Hast du schon bei der Bundestagswahl abgestimmt? Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Vermutungen äußern mit dem Futur I“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Vermutungen äußern mit dem Futur I“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Hast du schon bei der Bundestagswahl abgestimmt? Ich stimme per Briefwahl ab. Ich werde ins Wahlbüro gehen."
+    },
+    "level": "B1"
   },
   {
     "id": 61,
@@ -848,6 +1084,11 @@
     "type": "grammar",
     "icon": "🧩",
     "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Konnektoren & Satzverbindungen",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel (Verbstellung!)</th></tr></thead><tbody><tr><td><strong>weil (Verb am Ende)</strong></td><td>because</td><td>Ich lerne Deutsch, weil ich in Berlin wohne.</td></tr><tr><td><strong>da (Verb am Ende)</strong></td><td>since / because (formal)</td><td>Da ich heute viel arbeite, habe ich wenig Zeit.</td></tr><tr><td><strong>obwohl (Verb am Ende)</strong></td><td>although / even though</td><td>Ich gehe spazieren, obwohl es kalt ist.</td></tr><tr><td><strong>dass (Verb am Ende)</strong></td><td>that</td><td>Ich weiß, dass Grammatik Übung braucht.</td></tr><tr><td><strong>wenn (Verb am Ende)</strong></td><td>if / when(ever)</td><td>Wenn ich Feierabend habe, spiele ich Videospiele.</td></tr><tr><td><strong>als (Verb am Ende)</strong></td><td>when (single past event)</td><td>Als ich nach Berlin kam, war alles neu für mich.</td></tr><tr><td><strong>deshalb / deswegen (Pos. 2)</strong></td><td>therefore / that's why</td><td>Ich bin müde, deshalb trinke ich einen Kaffee.</td></tr><tr><td><strong>trotzdem (Pos. 2)</strong></td><td>nevertheless / anyway</td><td>Es regnet stark, trotzdem gehe ich zum Training.</td></tr><tr><td><strong>außerdem (Pos. 2)</strong></td><td>besides / furthermore</td><td>Der Job ist spannend, außerdem sind die Kollegen nett.</td></tr><tr><td><strong>denn (Pos. 0)</strong></td><td>because / for</td><td>Ich bleibe zu Hause, denn ich bin erkältet.</td></tr></tbody></table>"
+      },
       {
         "sectionTitle": "Die 3 Konnektoren-Familien (Die Satzbau-Regeln)",
         "type": "grammar",
@@ -916,6 +1157,63 @@
           "wohne."
         ],
         "answer": "Ich lerne, weil ich in Deutschland wohne."
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the connector to its verb position rule.",
+        "pairs": [
+          [
+            "weil / obwohl",
+            "Verb am Ende (Nebensatz)"
+          ],
+          [
+            "deshalb / trotzdem",
+            "Verb an Position 2 (Inversion)"
+          ],
+          [
+            "denn / aber / und",
+            "Position 0 (Hauptsatz normal)"
+          ],
+          [
+            "als",
+            "Vergangenheit (einmalig, Verb am Ende)"
+          ],
+          [
+            "wenn",
+            "Gegenwart/Zukunft oder immer (Verb am Ende)"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "When a sentence starts with a subordinate clause ('Weil ich müde bin, ...'), the next clause starts immediately with the conjugated verb ('... gehe ich schlafen').",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Although it is raining, I am going for a walk.",
+        "target": "Obwohl es regnet, gehe ich spazieren."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with 'als' or 'wenn'.",
+        "sentence": "___ ich vor zwei Jahren nach Berlin gezogen bin, konnte ich kaum Deutsch.",
+        "answer": "Als",
+        "hint": "Single event in the past"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Verb-Comma-Verb rule when starting with a subordinate clause.",
+        "question": "Weil ich in Deutschland arbeite, ___.",
+        "options": [
+          "ich lerne jeden Tag Deutsch",
+          "lerne ich jeden Tag Deutsch",
+          "jeden Tag Deutsch ich lerne",
+          "Deutsch lerne jeden Tag ich"
+        ],
+        "answer": 1
       }
     ],
     "exam": [
@@ -944,7 +1242,986 @@
         "sentence": "Er spielt Videospiele, ___ er Stress abbauen möchte.",
         "answer": "weil",
         "hint": "Verb am Ende (möchte)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct sentence.",
+        "question": "Obwohl er viel Stress hat, ___.",
+        "options": [
+          "er bleibt immer ruhig",
+          "bleibt er immer ruhig",
+          "immer ruhig er bleibt",
+          "ruhig bleibt immer er"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Deshalb' and 'deswegen' have the exact same meaning and both require the verb in Position 2.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I am tired, therefore I am going to bed.",
+        "target": "Ich bin müde, deshalb gehe ich ins Bett."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Es",
+          "ist",
+          "kalt,",
+          "trotzdem",
+          "essen",
+          "wir",
+          "ein",
+          "Eis."
+        ],
+        "answer": "Es ist kalt, trotzdem essen wir ein Eis."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the right connector (denn / weil).",
+        "sentence": "Ich kaufe das Ticket online, ___ das ist viel schneller.",
+        "answer": "denn",
+        "hint": "Verb 'ist' is in Position 2, not at the end!"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the right connector.",
+        "question": "___ ich ein Kind war, habe ich sehr viel Pokémon gespielt.",
+        "options": [
+          "Wenn",
+          "Als",
+          "Weil",
+          "Ob"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the right connector.",
+        "sentence": "Er weiß noch nicht, ___ er morgen zur Party kommen kann.",
+        "answer": "ob",
+        "hint": "whether / if (indirect yes/no question)"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Konnektoren & Satzbau (weil, obwohl, deshalb, trotzdem) sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Connectors & Sentence Structure today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich lerne Deutsch, weil ich in Berlin wohne.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Da ich heute viel arbeite, habe ich wenig Zeit.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich gehe spazieren, obwohl es kalt ist.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Konnektoren & Satzbau (weil, obwohl, deshalb, trotzdem)“ (Connectors & Sentence Structure).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Konnektoren & Satzbau (weil, obwohl, deshalb, trotzdem)“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Konnektoren & Satzbau (weil, obwohl, deshalb, trotzdem)“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Ich lerne Deutsch, weil ich in Berlin wohne. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Konnektoren & Satzbau (weil, obwohl, deshalb, trotzdem)“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Konnektoren & Satzbau (weil, obwohl, deshalb, trotzdem)“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Ich lerne Deutsch, weil ich in Berlin wohne. Da ich heute viel arbeite, habe ich wenig Zeit. Ich gehe spazieren, obwohl es kalt ist."
+    },
+    "level": "B1"
+  },
+  {
+    "id": 62,
+    "title": "Infinitive with 'zu' (um...zu, ohne...zu, statt...zu)",
+    "titleDe": "Infinitiv mit 'zu' & Infinitivsätze",
+    "type": "grammar",
+    "icon": "🎯",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary & Verbs with 'zu'",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>versuchen (+ zu)</strong></td><td>to try (to)</td><td>Ich versuche, jeden Tag Deutsch zu sprechen.</td></tr><tr><td><strong>vergessen (+ zu)</strong></td><td>to forget (to)</td><td>Vergiss nicht, den Vertrag zu unterschreiben!</td></tr><tr><td><strong>vorhaben (+ zu)</strong></td><td>to intend / plan (to)</td><td>Was hast du vor, am Wochenende zu machen?</td></tr><tr><td><strong>aufhören (+ zu)</strong></td><td>to stop (doing)</td><td>Es hat endlich aufgehört zu regnen.</td></tr><tr><td><strong>anfangen / beginnen (+ zu)</strong></td><td>to start (to)</td><td>Ich fange nächsten Monat an, in Berlin zu arbeiten.</td></tr><tr><td><strong>sich entscheiden (+ zu)</strong></td><td>to decide (to)</td><td>Er hat sich entschieden, den Master zu machen.</td></tr><tr><td><strong>Lust haben (+ zu)</strong></td><td>to feel like (doing)</td><td>Hast du Lust, heute Abend Minecraft zu spielen?</td></tr><tr><td><strong>Zeit haben (+ zu)</strong></td><td>to have time (to)</td><td>Ich habe heute leider keine Zeit, mit dir zu telefonieren.</td></tr><tr><td><strong>es ist wichtig (+ zu)</strong></td><td>it is important (to)</td><td>Es ist wichtig, pünktlich zum Termin zu kommen.</td></tr><tr><td><strong>brauchen + nicht + zu</strong></td><td>don't need to (= nicht müssen)</td><td>Du brauchst heute nicht ins Büro zu kommen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Infinitiv mit 'zu' & um...zu / ohne...zu / (an)statt...zu",
+        "type": "grammar",
+        "content": "<p>In German, when a second verb depends on a main verb (except modal verbs, <em>gehen, fahren, bleiben, sehen, hören, lassen</em>), we place <strong>zu + Infinitiv</strong> at the very end of the clause.</p><h4>1. Position of 'zu' with Separable Verbs (Trennbare Verben):</h4><p>With separable verbs, <strong>zu</strong> goes <em>inside</em> between the prefix and the verb stem (written as one word):</p><ul><li><em>anrufen</em> → <strong>anzurufen</strong>: <em>Ich habe vergessen, meine Eltern <strong>anzurufen</strong>.</em></li><li><em>einkaufen</em> → <strong>einzukaufen</strong>: <em>Ich habe keine Lust, heute noch <strong>einzukaufen</strong>.</em></li><li><em>mitkommen</em> → <strong>mitzukommen</strong>: <em>Hast du Zeit, ins Kino <strong>mitzukommen</strong>?</em></li></ul><h4>2. The Three Special Infinitive Constructions (B1 Core!):</h4><ul><li><strong>um ... zu + Infinitiv</strong> (in order to / purpose):<br/><em>Ich lebe in Berlin, <strong>um</strong> mein Deutsch <strong>zu verbessern</strong>.</em></li><li><strong>ohne ... zu + Infinitiv</strong> (without doing):<br/><em>Er ging aus dem Büro, <strong>ohne</strong> sich <strong>zu verabschieden</strong>.</em></li><li><strong>(an)statt ... zu + Infinitiv</strong> (instead of doing):<br/><em><strong>Anstatt</strong> für die Prüfung <strong>zu lernen</strong>, spielt er den ganzen Abend Videospiele.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Alle Hände voll zu tun haben</strong></p><p>Bedeutung: Sehr beschäftigt sein; sehr viel Arbeit haben. (To have one's hands full / be very busy.)</p><p><em>Als Projektmanager habe ich diese Woche wirklich alle Hände voll zu tun!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct sentence with a separable verb.",
+        "question": "Which sentence is grammatically correct?",
+        "options": [
+          "Ich habe vergessen, dich zu anrufen.",
+          "Ich habe vergessen, dich anzurufen.",
+          "Ich habe vergessen, anrufen zu dich.",
+          "Ich habe vergessen, dich anrufen."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct connector (um / ohne / anstatt).",
+        "sentence": "___ für die Prüfung zu lernen, zockt er die ganze Nacht.",
+        "answer": "Anstatt",
+        "hint": "Instead of"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the separable verb with 'zu' (aufstehen).",
+        "sentence": "Es fällt mir schwer, am Montag früh ___.",
+        "answer": "aufzustehen",
+        "hint": "auf + zu + stehen (one word)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "When do we NOT use 'zu' before the infinitive?",
+        "question": "Which sentence is correct (no 'zu' needed after modal verbs)?",
+        "options": [
+          "Ich muss heute lange zu arbeiten.",
+          "Ich will am Wochenende nach Hamburg zu fahren.",
+          "Ich muss heute lange arbeiten.",
+          "Ich kann gut Deutsch zu sprechen."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German structures to their meanings.",
+        "pairs": [
+          [
+            "um ... zu",
+            "in order to"
+          ],
+          [
+            "ohne ... zu",
+            "without ... -ing"
+          ],
+          [
+            "anstatt ... zu",
+            "instead of ... -ing"
+          ],
+          [
+            "nicht brauchen ... zu",
+            "don't need to"
+          ],
+          [
+            "Lust haben ... zu",
+            "feel like ... -ing"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "With separable verbs like 'mitbringen', 'zu' is placed between the prefix and the verb: 'mitzubringen'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I am trying to learn German.",
+        "target": "Ich versuche, Deutsch zu lernen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Hast",
+          "du",
+          "heute",
+          "Lust,",
+          "Abend",
+          "ins",
+          "Kino",
+          "zu",
+          "gehen?"
+        ],
+        "answer": "Hast du heute Abend Lust, ins Kino zu gehen?"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with 'zu' or '-' (nothing).",
+        "sentence": "Du brauchst morgen nicht ins Büro ___ kommen.",
+        "answer": "zu",
+        "hint": "brauchen + nicht + zu + Infinitiv"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the right meaning.",
+        "question": "What does 'Er unterschrieb den Vertrag, ohne ihn zu lesen' mean?",
+        "options": [
+          "He signed the contract in order to read it.",
+          "He signed the contract without reading it.",
+          "He read the contract instead of signing it.",
+          "He forgot to sign the contract."
+        ],
+        "answer": 1
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Complete: 'Ich gehe nach Deutschland, ___ dort meinen Master zu machen.'",
+        "options": [
+          "damit",
+          "um",
+          "ohne",
+          "weil"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Write the correct form of 'einkaufen' with 'zu'.",
+        "sentence": "Ich habe heute keine Zeit ___.",
+        "answer": "einzukaufen",
+        "hint": "ein + zu + kaufen"
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "After modal verbs (können, müssen, wollen), we never use 'zu'.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct sentence.",
+        "question": "Which sentence means 'You don't have to worry'?",
+        "options": [
+          "Du brauchst dir keine Sorgen zu machen.",
+          "Du brauchst dir keine Sorgen machen.",
+          "Du musst dir keine Sorgen zu machen.",
+          "Du brauchst ohne Sorgen zu machen."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Es ist wichtig, pünktlich ___ sein.",
+        "answer": "zu",
+        "hint": "infinitive particle"
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Don't forget to call me!",
+        "target": "Vergiss nicht, mich anzurufen!"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Es",
+          "hat",
+          "aufgehört",
+          "endlich",
+          "zu",
+          "regnen."
+        ],
+        "answer": "Es hat endlich aufgehört zu regnen."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the best connector.",
+        "question": "Er ging einfach weg, ___ ein Wort zu sagen.",
+        "options": [
+          "um",
+          "ohne",
+          "damit",
+          "als"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Alle Hände voll zu tun haben' means to have nothing to do.",
+        "answer": false
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct verb form (mitkommen).",
+        "sentence": "Hast du Lust, zur Anime-Con ___?",
+        "answer": "mitzukommen",
+        "hint": "mit + zu + kommen"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Infinitiv mit 'zu' & Infinitivsätze sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Infinitive with 'zu' (um...zu, ohne...zu, statt...zu) today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich versuche, jeden Tag Deutsch zu sprechen.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Vergiss nicht, den Vertrag zu unterschreiben!",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Was hast du vor, am Wochenende zu machen?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Infinitiv mit 'zu' & Infinitivsätze“ (Infinitive with 'zu' (um...zu, ohne...zu, statt...zu)).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Infinitiv mit 'zu' & Infinitivsätze“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Infinitiv mit 'zu' & Infinitivsätze“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Ich versuche, jeden Tag Deutsch zu sprechen. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Infinitiv mit 'zu' & Infinitivsätze“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Infinitiv mit 'zu' & Infinitivsätze“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Ich versuche, jeden Tag Deutsch zu sprechen. Vergiss nicht, den Vertrag zu unterschreiben! Was hast du vor, am Wochenende zu machen?"
+    },
+    "level": "B1"
+  },
+  {
+    "id": 63,
+    "title": "Verbs with Prepositions & Pronominal Adverbs",
+    "titleDe": "Verben mit Präpositionen (worauf, darauf, mit wem)",
+    "type": "grammar",
+    "icon": "🧲",
+    "lectureContent": [
+      {
+        "sectionTitle": "Top 12 Verbs with Fixed Prepositions (Goethe B1 Pflichtwortschatz)",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch + Kasus</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>warten auf + Akk.</strong></td><td>to wait for</td><td>Ich warte schon seit 20 Minuten auf den Bus.</td></tr><tr><td><strong>sich freuen auf + Akk.</strong></td><td>to look forward to (future)</td><td>Ich freue mich schon sehr auf das Wochenende!</td></tr><tr><td><strong>sich freuen über + Akk.</strong></td><td>to be happy about (present/past)</td><td>Sie hat sich sehr über das Geschenk gefreut.</td></tr><tr><td><strong>denken an + Akk.</strong></td><td>to think of</td><td>Ich denke oft an meine Familie in Honduras.</td></tr><tr><td><strong>sich interessieren für + Akk.</strong></td><td>to be interested in</td><td>Interessierst du dich für Anime und Gaming?</td></tr><tr><td><strong>sich bewerben um + Akk.</strong></td><td>to apply for (a job/spot)</td><td>Er bewirbt sich um eine Stelle als Projektmanager.</td></tr><tr><td><strong>sich kümmern um + Akk.</strong></td><td>to take care of</td><td>Ich kümmere mich um die Organisation des Projekts.</td></tr><tr><td><strong>sprechen mit + Dat. / über + Akk.</strong></td><td>to talk with / about</td><td>Ich muss mit meinem Chef über das Gehalt sprechen.</td></tr><tr><td><strong>teilnehmen an + Dat.</strong></td><td>to take part / participate in</td><td>Nimmst du morgen an der Besprechung teil?</td></tr><tr><td><strong>abhängen von + Dat.</strong></td><td>to depend on</td><td>Das hängt ganz vom Wetter ab.</td></tr><tr><td><strong>sich beschweren bei + Dat. / über + Akk.</strong></td><td>to complain to / about</td><td>Wir haben uns beim Vermieter über den Lärm beschwert.</td></tr><tr><td><strong>träumen von + Dat.</strong></td><td>to dream of</td><td>Ich träume von einem langen Urlaub am Meer.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Sachen (wo(r)- / da(r)-) vs. Personen (Präposition + wen/wem)",
+        "type": "grammar",
+        "content": "<p>When asking questions or referring back to something with a prepositional verb, German distinguishes sharply between <strong>THINGS (Sachen)</strong> and <strong>PEOPLE (Personen)</strong>:</p><h4>1. For Things / Events (Sachen): wo(r)+Präposition & da(r)+Präposition</h4><ul><li>Question: <strong>Worauf</strong> wartest du? (What are you waiting for?)<br/>Answer: Ich warte <strong>auf den Bus</strong>. → Ich warte <strong>darauf</strong>.</li><li>Question: <strong>Wofür</strong> interessierst du dich?<br/>Answer: Ich interessiere mich <strong>dafür</strong>, wie man KI-Apps baut.</li><li><em>Note:</em> We add an <strong>-r-</strong> if the preposition starts with a vowel (<em>worauf, worüber, woran, worum / darauf, darüber, daran, darum</em>).</li></ul><h4>2. For People (Personen): Präposition + wen (Akk.) / wem (Dat.)</h4><ul><li>Question: <strong>Auf wen</strong> wartest du? (Who are you waiting for?)<br/>Answer: Ich warte <strong>auf meine Freundin</strong>. → Ich warte <strong>auf sie</strong>. (NEVER <em>darauf</em> for a person!)</li><li>Question: <strong>Mit wem</strong> hast du gesprochen? (Dativ)<br/>Answer: <strong>Mit meinem Kollegen</strong>. → <strong>Mit ihm</strong>.</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Auf Wolke sieben schweben</strong></p><p>Bedeutung: Überglücklich oder frisch verliebt sein. (To be on cloud nine.)</p><p><em>Seit er sie auf der Anime-Con kennengelernt hat, schwebt er auf Wolke sieben!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "instruction": "sich freuen auf vs. sich freuen über",
+        "question": "Der Urlaub beginnt nächste Woche. Ich freue mich schon sehr ___ den Urlaub!",
+        "options": [
+          "über",
+          "auf",
+          "für",
+          "an"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Person vs. Sache (Question word)",
+        "question": "Du wartest auf deine Fast-Freundin. Wie lautet die richtige Frage?",
+        "options": [
+          "Worauf wartest du?",
+          "Auf wen wartest du?",
+          "Auf wem wartest du?",
+          "Wovon wartest du?"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct preposition.",
+        "sentence": "Ich interessiere mich sehr ___ internationale Wirtschaft.",
+        "answer": "für",
+        "hint": "sich interessieren + ___"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct question word for a thing (auf + was).",
+        "sentence": "___ freust du dich am meisten am Wochenende?",
+        "answer": "Worauf",
+        "hint": "wo + r + auf"
+      },
+      {
+        "type": "matching",
+        "instruction": "Match each verb with its fixed preposition.",
+        "pairs": [
+          [
+            "teilnehmen",
+            "an (+ Dativ)"
+          ],
+          [
+            "sich bewerben",
+            "um (+ Akkusativ)"
+          ],
+          [
+            "abhängen",
+            "von (+ Dativ)"
+          ],
+          [
+            "denken",
+            "an (+ Akkusativ)"
+          ],
+          [
+            "sich kümmern",
+            "um (+ Akkusativ)"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Sich freuen auf' is used for future events, while 'sich freuen über' is for present or past things.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I am waiting for the train.",
+        "target": "Ich warte auf den Zug."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Nimmst",
+          "du",
+          "morgen",
+          "an",
+          "der",
+          "Besprechung",
+          "teil?"
+        ],
+        "answer": "Nimmst du morgen an der Besprechung teil?"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the preposition (sich kümmern ___).",
+        "sentence": "Als Projektmanager kümmere ich mich ___ den Zeitplan.",
+        "answer": "um",
+        "hint": "around / for"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the right preposition and case.",
+        "question": "Ich muss heute unbedingt ___ meinem Chef sprechen.",
+        "options": [
+          "über",
+          "auf",
+          "mit",
+          "für"
+        ],
+        "answer": 2
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Vielen Dank für deine Einladung! Ich habe mich sehr ___ gefreut.",
+        "options": [
+          "darauf",
+          "darüber",
+          "daran",
+          "davon"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct preposition.",
+        "sentence": "Das hängt ganz ___ deiner Entscheidung ab.",
+        "answer": "von",
+        "hint": "abhängen ___ (+ Dativ)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Asking about a person in Dative.",
+        "question": "___ hast du gestern auf der Party gesprochen?",
+        "options": [
+          "Womit",
+          "Mit wem",
+          "Mit wen",
+          "Worüber"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "To refer to a person, you should say 'Ich warte darauf' instead of 'Ich warte auf sie'.",
+        "answer": false
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the preposition.",
+        "sentence": "Er hat sich erfolgreich ___ ein Stipendium beworben.",
+        "answer": "um",
+        "hint": "sich bewerben ___"
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I often think of my parents.",
+        "target": "Ich denke oft an meine Eltern."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Wir",
+          "haben",
+          "uns",
+          "über",
+          "den",
+          "Lärm",
+          "beschwert."
+        ],
+        "answer": "Wir haben uns über den Lärm beschwert."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the right pronominal adverb.",
+        "question": "Denkst du noch an unseren Termin? — Ja, ich denke ___!",
+        "options": [
+          "darauf",
+          "daran",
+          "darüber",
+          "damit"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Auf Wolke sieben schweben' means to be extremely happy or in love.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct preposition.",
+        "sentence": "Träumst du auch ___ einem Haus am Strand?",
+        "answer": "von",
+        "hint": "träumen ___ (+ Dativ)"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Verben mit Präpositionen (worauf, darauf, mit wem) sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Verbs with Prepositions & Pronominal Adverbs today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich warte schon seit 20 Minuten auf den Bus.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Ich freue mich schon sehr auf das Wochenende!",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Sie hat sich sehr über das Geschenk gefreut.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Verben mit Präpositionen (worauf, darauf, mit wem)“ (Verbs with Prepositions & Pronominal Adverbs).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Verben mit Präpositionen (worauf, darauf, mit wem)“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Verben mit Präpositionen (worauf, darauf, mit wem)“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Ich warte schon seit 20 Minuten auf den Bus. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Verben mit Präpositionen (worauf, darauf, mit wem)“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Verben mit Präpositionen (worauf, darauf, mit wem)“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Ich warte schon seit 20 Minuten auf den Bus. Ich freue mich schon sehr auf das Wochenende! Sie hat sich sehr über das Geschenk gefreut."
+    },
+    "level": "B1"
+  },
+  {
+    "id": 64,
+    "title": "Adjective Declension & Comparison Mastery",
+    "titleDe": "Adjektivdeklination & Steigerung im Alltag",
+    "type": "grammar",
+    "icon": "📐",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Describing Things in Daily Life",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>Komparativ</th><th>Superlativ</th><th>English</th></tr></thead><tbody><tr><td><strong>gut</strong></td><td>besser</td><td>am besten</td><td>good / better / best</td></tr><tr><td><strong>viel</strong></td><td>mehr</td><td>am meisten</td><td>much / more / most</td></tr><tr><td><strong>gern</strong></td><td>lieber</td><td>am liebsten</td><td>gladly / prefer / like most</td></tr><tr><td><strong>hoch</strong></td><td>höher</td><td>am höchsten</td><td>high / higher / highest</td></tr><tr><td><strong>nah</strong></td><td>näher</td><td>am nächsten</td><td>close / closer / closest</td></tr><tr><td><strong>teuer</strong></td><td>teurer</td><td>am teuersten</td><td>expensive</td></tr><tr><td><strong>günstig</strong></td><td>günstiger</td><td>am günstigsten</td><td>affordable / cheap</td></tr><tr><td><strong>gemütlich</strong></td><td>gemütlicher</td><td>am gemütlichsten</td><td>cozy / comfortable</td></tr><tr><td><strong>erfolgreich</strong></td><td>erfolgreicher</td><td>am erfolgreichsten</td><td>successful</td></tr><tr><td><strong>wichtig</strong></td><td>wichtiger</td><td>am wichtigsten</td><td>important</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: The 5-Minute System for Adjective Endings (Adjektivdeklination)",
+        "type": "grammar",
+        "content": "<p>Adjectives before a noun take an ending. You only need <strong>3 golden rules</strong> to get 95% of them right in daily speech:</p><h4>Rule 1: After Definite Articles (der, die, das, den, dem, des)</h4><ul><li>Nominative Singular (der, die, das) & Accusative (die, das) → <strong>-e</strong><br/><em>der neu<strong>e</strong> Laptop, die schön<strong>e</strong> Wohnung, das klein<strong>e</strong> Café</em></li><li><strong>EVERYTHING ELSE</strong> (Akkusativ maskulin <em>den</em>, all Dativ <em>dem/der/den</em>, all Plural <em>die</em>, all Genitiv) → <strong>-en</strong>!<br/><em>Ich kaufe den neu<strong>en</strong> Laptop. / Ich wohne in der schön<strong>en</strong> Wohnung.</em></li></ul><h4>Rule 2: After Indefinite / Possessive Articles (ein, mein, kein)</h4><ul><li>In Nominative Singular, the adjective must show the gender because <em>ein</em> doesn't:<br/>Maskulin (der) → <em>ein neu<strong>er</strong> Job</em><br/>Neutral (das) → <em>ein gut<strong>es</strong> Spiel</em><br/>Feminin (die) → <em>eine nett<strong>e</strong> Freundin</em></li><li>In Accusative masculine & ALL Dative/Plural → <strong>-en</strong>!<br/><em>Ich suche einen neu<strong>en</strong> Job. / Mit meiner gut<strong>en</strong> Freundin.</em></li></ul><h4>Rule 3: Comparisons — so ... wie vs. Komparativ + als</h4><ul><li>Equal (=): <strong>genauso + Adjektiv + wie</strong> → <em>Berlin ist genauso spannend <strong>wie</strong> London.</em></li><li>Different (≠): <strong>Komparativ + als</strong> → <em>Das Wetter in Honduras ist viel wärmer <strong>als</strong> in Deutschland.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>In den sauren Apfel beißen</strong></p><p>Bedeutung: Etwas Unangenehmes tun müssen, weil es sich nicht vermeiden lässt. (To bite the bullet.)</p><p><em>Ich hasse Bürokratie, aber ich musste in den sauren Apfel beißen und früh zum Bürgeramt gehen.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "instruction": "Adjective ending in Dative (in + der/meiner).",
+        "question": "Ich wohne in einer ___ Wohnung in Berlin.",
+        "options": [
+          "schöne",
+          "schönen",
+          "schöner",
+          "schönes"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Adjective ending in Accusative masculine.",
+        "question": "Ich habe gestern einen ___ Film gesehen.",
+        "options": [
+          "spannender",
+          "spannendes",
+          "spannenden",
+          "spannende"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with 'als' or 'wie'.",
+        "sentence": "In Honduras ist es im Winter viel wärmer ___ in Berlin.",
+        "answer": "als",
+        "hint": "comparison after comparative (wärmer)"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the comparative of 'gern'.",
+        "sentence": "Ich trinke gern Tee, aber noch ___ trinke ich Kaffee.",
+        "answer": "lieber",
+        "hint": "gern -> ___ -> am liebsten"
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the adjective to its irregular comparative form.",
+        "pairs": [
+          [
+            "gut",
+            "besser"
+          ],
+          [
+            "viel",
+            "mehr"
+          ],
+          [
+            "gern",
+            "lieber"
+          ],
+          [
+            "hoch",
+            "höher"
+          ],
+          [
+            "nah",
+            "näher"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "After any Dative article (dem, der, einem, meiner), the adjective ending is ALWAYS '-en'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "He has a new job.",
+        "target": "Er hat einen neuen Job."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Ich",
+          "suche",
+          "eine",
+          "günstige",
+          "Wohnung",
+          "in",
+          "Berlin."
+        ],
+        "answer": "Ich suche eine günstige Wohnung in Berlin."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct adjective ending.",
+        "sentence": "Das ist ein sehr gut___ Projekt!",
+        "answer": "es",
+        "hint": "das Projekt (neutral, Nominativ nach 'ein')"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct form.",
+        "question": "Welches Spiel spielst du am ___?",
+        "options": [
+          "gersten",
+          "liebsten",
+          "beste",
+          "meisten"
+        ],
+        "answer": 1
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct adjective ending.",
+        "question": "Mit meinem ___ Laptop kann ich viel schneller arbeiten.",
+        "options": [
+          "neue",
+          "neuer",
+          "neuen",
+          "neues"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with 'als' or 'wie'.",
+        "sentence": "Mein Bruder ist genauso groß ___ ich.",
+        "answer": "wie",
+        "hint": "genauso ... ___"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Nominative masculine after 'ein'.",
+        "question": "Ein ___ Projektmanager muss gut kommunizieren können.",
+        "options": [
+          "guter",
+          "guten",
+          "gute",
+          "gutes"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The comparative of 'hoch' is 'höher' (without the 'c').",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the superlative of 'gut'.",
+        "sentence": "Dieses Restaurant gefällt mir von allen am ___.",
+        "answer": "besten",
+        "hint": "gut -> besser -> am ___"
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "German is harder than English.",
+        "target": "Deutsch ist schwerer als Englisch."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Wir",
+          "sitzen",
+          "in",
+          "einem",
+          "gemütlichen",
+          "Café."
+        ],
+        "answer": "Wir sitzen in einem gemütlichen Café."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the right meaning.",
+        "question": "What does 'in den sauren Apfel beißen' mean?",
+        "options": [
+          "To eat healthy food",
+          "To do something unpleasant that cannot be avoided",
+          "To be angry at someone",
+          "To make a big mistake"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In Accusative feminine ('eine neue Tasche'), the adjective ends in '-e'.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the right ending.",
+        "sentence": "Hast du den neu___ Vertrag schon gelesen?",
+        "answer": "en",
+        "hint": "Akkusativ maskulin (den ...)"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Adjektivdeklination & Steigerung im Alltag sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Adjective Declension & Comparison Mastery today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "am besten",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "am meisten",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "am liebsten",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Adjektivdeklination & Steigerung im Alltag“ (Adjective Declension & Comparison Mastery).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Adjektivdeklination & Steigerung im Alltag“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Adjektivdeklination & Steigerung im Alltag“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. am besten Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Adjektivdeklination & Steigerung im Alltag“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Adjektivdeklination & Steigerung im Alltag“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "am besten am meisten am liebsten"
+    },
+    "level": "B1"
   }
 ]

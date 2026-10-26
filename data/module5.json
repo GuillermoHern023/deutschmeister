@@ -61,18 +61,38 @@
         "type": "multiple_choice",
         "instruction": "Welches Modalverb beschreibt eine Erlaubnis?",
         "question": "Welches Modalverb beschreibt eine Erlaubnis?",
-        "options": ["können", "dürfen", "sollen", "wollen"],
+        "options": [
+          "können",
+          "dürfen",
+          "sollen",
+          "wollen"
+        ],
         "answer": 1
       },
       {
         "type": "matching",
         "instruction": "Ordne die Modalverben ihrer Bedeutung zu.",
         "pairs": [
-          ["können", "Fähigkeit / Möglichkeit"],
-          ["müssen", "Notwendigkeit / Zwang"],
-          ["sollen", "Auftrag / Befehl"],
-          ["dürfen", "Erlaubnis"],
-          ["wollen", "Bedürfnis"]
+          [
+            "können",
+            "Fähigkeit / Möglichkeit"
+          ],
+          [
+            "müssen",
+            "Notwendigkeit / Zwang"
+          ],
+          [
+            "sollen",
+            "Auftrag / Befehl"
+          ],
+          [
+            "dürfen",
+            "Erlaubnis"
+          ],
+          [
+            "wollen",
+            "Bedürfnis"
+          ]
         ]
       },
       {
@@ -97,14 +117,25 @@
       {
         "type": "reorder",
         "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
-        "words": ["nicht", "ich", "arbeiten", "habe", "wollen"],
+        "words": [
+          "nicht",
+          "ich",
+          "arbeiten",
+          "habe",
+          "wollen"
+        ],
         "answer": "Ich habe nicht arbeiten wollen."
       },
       {
         "type": "multiple_choice",
         "instruction": "Wie sagt man 'Ich möchte lesen' im Präteritum?",
         "question": "Wie sagt man 'Ich möchte lesen' im Präteritum?",
-        "options": ["Ich möchtete lesen.", "Ich wollte lesen.", "Ich habe lesen möchten.", "Ich konnte lesen."],
+        "options": [
+          "Ich möchtete lesen.",
+          "Ich wollte lesen.",
+          "Ich habe lesen möchten.",
+          "Ich konnte lesen."
+        ],
         "answer": 1
       },
       {
@@ -134,7 +165,12 @@
         "type": "multiple_choice",
         "instruction": "Welche Form ist korrekt im Präteritum?",
         "question": "'Als Kind ___ ich nicht Auto fahren.' (können)",
-        "options": ["konnte", "kann", "könnte", "gekonnt"],
+        "options": [
+          "konnte",
+          "kann",
+          "könnte",
+          "gekonnt"
+        ],
         "answer": 0
       },
       {
@@ -152,18 +188,41 @@
       {
         "type": "reorder",
         "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
-        "words": ["Anita", "zur", "allein", "hat", "dürfen", "fahren", "Schule"],
+        "words": [
+          "Anita",
+          "zur",
+          "allein",
+          "hat",
+          "dürfen",
+          "fahren",
+          "Schule"
+        ],
         "answer": "Anita hat allein zur Schule fahren dürfen."
       },
       {
         "type": "matching",
         "instruction": "Ordne die Präteritumformen den Modalverben zu.",
         "pairs": [
-          ["konnte", "können"],
-          ["musste", "müssen"],
-          ["sollte", "sollen"],
-          ["durfte", "dürfen"],
-          ["wollte", "wollen"]
+          [
+            "konnte",
+            "können"
+          ],
+          [
+            "musste",
+            "müssen"
+          ],
+          [
+            "sollte",
+            "sollen"
+          ],
+          [
+            "durfte",
+            "dürfen"
+          ],
+          [
+            "wollte",
+            "wollen"
+          ]
         ]
       },
       {
@@ -177,7 +236,12 @@
         "type": "multiple_choice",
         "instruction": "Was bedeutet 'Wer kann, der kann.'?",
         "question": "Was bedeutet die Redewendung 'Wer kann, der kann.'?",
-        "options": ["Man drückt Selbstbewusstsein aus, wenn man etwas gut gemacht hat.", "Man soll immer alles alleine machen.", "Wer arbeitet, verdient Geld.", "Man braucht keine Hilfe."],
+        "options": [
+          "Man drückt Selbstbewusstsein aus, wenn man etwas gut gemacht hat.",
+          "Man soll immer alles alleine machen.",
+          "Wer arbeitet, verdient Geld.",
+          "Man braucht keine Hilfe."
+        ],
         "answer": 0
       },
       {
@@ -187,7 +251,65 @@
         "answer": "nicht",
         "hint": "nicht steht nach dem Modalverb"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Wiederholung der Modalverben sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Review of Modal Verbs today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Heute sprechen wir über das Thema Wiederholung der Modalverben.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das ist im Alltag in Deutschland besonders wichtig.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wie siehst du das? Hast du damit schon Erfahrungen gemacht?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Wiederholung der Modalverben“ (Review of Modal Verbs) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Wiederholung der Modalverben.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Wiederholung der Modalverben“. Heute sprechen wir über das Thema Wiederholung der Modalverben. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Wiederholung der Modalverben“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Wiederholung der Modalverben“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Heute sprechen wir über das Thema Wiederholung der Modalverben. Das ist im Alltag in Deutschland besonders wichtig. Wie siehst du das? Hast du damit schon Erfahrungen gemacht?"
+    },
+    "level": "A2.1"
   },
   {
     "id": 18,
@@ -251,18 +373,38 @@
         "type": "multiple_choice",
         "instruction": "Was bedeutet 'vorhaben'?",
         "question": "Was bedeutet 'vorhaben'?",
-        "options": ["etwas für sich selber planen", "etwas versprechen", "etwas vergessen", "etwas kaufen"],
+        "options": [
+          "etwas für sich selber planen",
+          "etwas versprechen",
+          "etwas vergessen",
+          "etwas kaufen"
+        ],
         "answer": 0
       },
       {
         "type": "matching",
         "instruction": "Ordne die Wörter ihrer Bedeutung zu.",
         "pairs": [
-          ["der Plan", "plan"],
-          ["das Ziel", "goal"],
-          ["der Traum", "dream"],
-          ["der Wunsch", "wish"],
-          ["versprechen", "to promise"]
+          [
+            "der Plan",
+            "plan"
+          ],
+          [
+            "das Ziel",
+            "goal"
+          ],
+          [
+            "der Traum",
+            "dream"
+          ],
+          [
+            "der Wunsch",
+            "wish"
+          ],
+          [
+            "versprechen",
+            "to promise"
+          ]
         ]
       },
       {
@@ -281,7 +423,17 @@
       {
         "type": "reorder",
         "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
-        "words": ["vor", "Fahrrad", "kaufen", "ich", "zu", "neues", "habe", "ein", "bald"],
+        "words": [
+          "vor",
+          "Fahrrad",
+          "kaufen",
+          "ich",
+          "zu",
+          "neues",
+          "habe",
+          "ein",
+          "bald"
+        ],
         "answer": "Ich habe vor, bald ein neues Fahrrad zu kaufen."
       },
       {
@@ -294,7 +446,12 @@
         "type": "multiple_choice",
         "instruction": "Was bedeutet die Redewendung 'Pläne schmieden'?",
         "question": "Was bedeutet 'Pläne schmieden'?",
-        "options": ["etwas planen", "Pläne zerstören", "ohne Plan leben", "Schmied werden"],
+        "options": [
+          "etwas planen",
+          "Pläne zerstören",
+          "ohne Plan leben",
+          "Schmied werden"
+        ],
         "answer": 0
       },
       {
@@ -324,7 +481,12 @@
         "type": "multiple_choice",
         "instruction": "Welcher Satz ist grammatisch korrekt?",
         "question": "Welcher Infinitivsatz ist korrekt?",
-        "options": ["Nick wünscht sich, zehn Kilo abzunehmen.", "Nick wünscht sich, zehn Kilo zu abnehmen.", "Nick wünscht sich, zehn Kilo abnehmen zu.", "Nick wünscht sich, zu zehn Kilo abnehmen."],
+        "options": [
+          "Nick wünscht sich, zehn Kilo abzunehmen.",
+          "Nick wünscht sich, zehn Kilo zu abnehmen.",
+          "Nick wünscht sich, zehn Kilo abnehmen zu.",
+          "Nick wünscht sich, zu zehn Kilo abnehmen."
+        ],
         "answer": 0
       },
       {
@@ -337,17 +499,41 @@
         "type": "matching",
         "instruction": "Ordne die trennbaren Verben dem Infinitiv mit zu zu.",
         "pairs": [
-          ["aufstehen", "aufzustehen"],
-          ["abnehmen", "abzunehmen"],
-          ["umziehen", "umzuziehen"],
-          ["anziehen", "anzuziehen"],
-          ["einkaufen", "einzukaufen"]
+          [
+            "aufstehen",
+            "aufzustehen"
+          ],
+          [
+            "abnehmen",
+            "abzunehmen"
+          ],
+          [
+            "umziehen",
+            "umzuziehen"
+          ],
+          [
+            "anziehen",
+            "anzuziehen"
+          ],
+          [
+            "einkaufen",
+            "einzukaufen"
+          ]
         ]
       },
       {
         "type": "reorder",
         "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
-        "words": ["wünscht", "eine", "zu", "Familie", "sich", "Leah", "haben", "große"],
+        "words": [
+          "wünscht",
+          "eine",
+          "zu",
+          "Familie",
+          "sich",
+          "Leah",
+          "haben",
+          "große"
+        ],
         "answer": "Leah wünscht sich, eine große Familie zu haben."
       },
       {
@@ -367,7 +553,12 @@
         "type": "multiple_choice",
         "instruction": "Was bedeutet 'keinen Plan haben'?",
         "question": "Was bedeutet 'Hast du 'nen Plan?' umgangssprachlich?",
-        "options": ["Weißt du das?", "Hast du eine Idee für morgen?", "Hast du einen Kalender?", "Planst du eine Reise?"],
+        "options": [
+          "Weißt du das?",
+          "Hast du eine Idee für morgen?",
+          "Hast du einen Kalender?",
+          "Planst du eine Reise?"
+        ],
         "answer": 0
       },
       {
@@ -376,7 +567,65 @@
         "statement": "Leahs beste Freundin verspricht, mit ihr nach Australien zu fliegen.",
         "answer": true
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Pläne machen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Making Plans today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich habe viele Pläne für die Zukunft.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Mein Ziel ist, viel Geld zu verdienen.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Mein Traum ist, berühmt zu werden.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Pläne machen“ (Making Plans) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Pläne machen.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Pläne machen“. Ich habe viele Pläne für die Zukunft. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Pläne machen“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Pläne machen“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Ich habe viele Pläne für die Zukunft. Mein Ziel ist, viel Geld zu verdienen. Mein Traum ist, berühmt zu werden."
+    },
+    "level": "A2.1"
   },
   {
     "id": 19,
@@ -440,24 +689,55 @@
         "type": "multiple_choice",
         "instruction": "Wie wird 'pf' im Deutschen ausgesprochen?",
         "question": "Wie wird 'pf' im Deutschen ausgesprochen?",
-        "options": ["p und f werden zusammen ausgesprochen", "Nur das f wird ausgesprochen", "Nur das p wird ausgesprochen", "p und f werden getrennt ausgesprochen"],
+        "options": [
+          "p und f werden zusammen ausgesprochen",
+          "Nur das f wird ausgesprochen",
+          "Nur das p wird ausgesprochen",
+          "p und f werden getrennt ausgesprochen"
+        ],
         "answer": 0
       },
       {
         "type": "matching",
         "instruction": "Ordne die Wörter ihrer Bedeutung zu.",
         "pairs": [
-          ["die Vorhersage", "prediction"],
-          ["die Vermutung", "assumption"],
-          ["das Lebensziel", "life goal"],
-          ["der Wahrsager", "fortune teller"],
-          ["die Weltreise", "world trip"]
+          [
+            "die Vorhersage",
+            "prediction"
+          ],
+          [
+            "die Vermutung",
+            "assumption"
+          ],
+          [
+            "das Lebensziel",
+            "life goal"
+          ],
+          [
+            "der Wahrsager",
+            "fortune teller"
+          ],
+          [
+            "die Weltreise",
+            "world trip"
+          ]
         ]
       },
       {
         "type": "reorder",
         "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
-        "words": ["viel", "verdiene", "dann", "ein", "Haus", "wenn", "kaufe", "ich", "Geld", "ich"],
+        "words": [
+          "viel",
+          "verdiene",
+          "dann",
+          "ein",
+          "Haus",
+          "wenn",
+          "kaufe",
+          "ich",
+          "Geld",
+          "ich"
+        ],
         "answer": "Wenn ich viel Geld verdiene, dann kaufe ich ein Haus."
       },
       {
@@ -483,7 +763,12 @@
         "type": "multiple_choice",
         "instruction": "Was bedeutet 'nach vorn schauen'?",
         "question": "Was bedeutet die Redewendung 'nach vorn schauen'?",
-        "options": ["an die bessere Zukunft denken", "sich umdrehen", "in die Vergangenheit blicken", "nach vorne laufen"],
+        "options": [
+          "an die bessere Zukunft denken",
+          "sich umdrehen",
+          "in die Vergangenheit blicken",
+          "nach vorne laufen"
+        ],
         "answer": 0
       },
       {
@@ -513,7 +798,12 @@
         "type": "multiple_choice",
         "instruction": "Welches Wort enthält den Laut 'pf'?",
         "question": "Welches Wort enthält den Laut 'pf'?",
-        "options": ["Pflanze", "Fehler", "falsch", "fahren"],
+        "options": [
+          "Pflanze",
+          "Fehler",
+          "falsch",
+          "fahren"
+        ],
         "answer": 0
       },
       {
@@ -525,18 +815,47 @@
       {
         "type": "reorder",
         "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
-        "words": ["ich", "werde", "eine", "Weltreise", "machen", "morgen", "gewinne", "Euro", "dann", "Million", "wenn", "ich", "eine"],
+        "words": [
+          "ich",
+          "werde",
+          "eine",
+          "Weltreise",
+          "machen",
+          "morgen",
+          "gewinne",
+          "Euro",
+          "dann",
+          "Million",
+          "wenn",
+          "ich",
+          "eine"
+        ],
         "answer": "Wenn ich morgen eine Million Euro gewinne, dann werde ich eine Weltreise machen."
       },
       {
         "type": "matching",
         "instruction": "Ordne die werden-Formen den Pronomen zu.",
         "pairs": [
-          ["ich", "werde"],
-          ["du", "wirst"],
-          ["er/sie/es", "wird"],
-          ["ihr", "werdet"],
-          ["wir", "werden"]
+          [
+            "ich",
+            "werde"
+          ],
+          [
+            "du",
+            "wirst"
+          ],
+          [
+            "er/sie/es",
+            "wird"
+          ],
+          [
+            "ihr",
+            "werdet"
+          ],
+          [
+            "wir",
+            "werden"
+          ]
         ]
       },
       {
@@ -556,7 +875,12 @@
         "type": "multiple_choice",
         "instruction": "Was bedeutet 'Wenn das Wörtchen wenn nicht wär, dann wär ich schon Millionär'?",
         "question": "Was drückt diese Redewendung aus?",
-        "options": ["Unrealistische Bedingungen ändern nichts an der Realität.", "Man wird bald Millionär.", "Das Wort 'wenn' existiert nicht.", "Man soll nie Pläne machen."],
+        "options": [
+          "Unrealistische Bedingungen ändern nichts an der Realität.",
+          "Man wird bald Millionär.",
+          "Das Wort 'wenn' existiert nicht.",
+          "Man soll nie Pläne machen."
+        ],
         "answer": 0
       },
       {
@@ -566,7 +890,65 @@
         "answer": "einteilen",
         "hint": "to manage / divide one's time"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Über die Zukunft sprechen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Talking about the Future today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Heute sprechen wir über das Thema Über die Zukunft sprechen.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das ist im Alltag in Deutschland besonders wichtig.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Wie siehst du das? Hast du damit schon Erfahrungen gemacht?",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Über die Zukunft sprechen“ (Talking about the Future) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Über die Zukunft sprechen.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Über die Zukunft sprechen“. Heute sprechen wir über das Thema Über die Zukunft sprechen. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Über die Zukunft sprechen“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Über die Zukunft sprechen“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Heute sprechen wir über das Thema Über die Zukunft sprechen. Das ist im Alltag in Deutschland besonders wichtig. Wie siehst du das? Hast du damit schon Erfahrungen gemacht?"
+    },
+    "level": "A2.1"
   },
   {
     "id": 20,
@@ -630,7 +1012,12 @@
         "type": "multiple_choice",
         "instruction": "Was möchte Hermine vielleicht werden?",
         "question": "Welchen Beruf möchte Hermine vielleicht machen?",
-        "options": ["Pflegefachkraft", "Lehrerin", "Managerin", "Schauspielerin"],
+        "options": [
+          "Pflegefachkraft",
+          "Lehrerin",
+          "Managerin",
+          "Schauspielerin"
+        ],
         "answer": 0
       },
       {
@@ -643,17 +1030,40 @@
         "type": "matching",
         "instruction": "Ordne die Wörter ihrer Bedeutung zu.",
         "pairs": [
-          ["kompliziert", "complicated"],
-          ["die Hoffnung", "hope"],
-          ["verschieden", "different"],
-          ["die Behandlung", "treatment"],
-          ["das Medikament", "medication"]
+          [
+            "kompliziert",
+            "complicated"
+          ],
+          [
+            "die Hoffnung",
+            "hope"
+          ],
+          [
+            "verschieden",
+            "different"
+          ],
+          [
+            "die Behandlung",
+            "treatment"
+          ],
+          [
+            "das Medikament",
+            "medication"
+          ]
         ]
       },
       {
         "type": "reorder",
         "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
-        "words": ["Hermine", "die", "nächstes", "wird", "Schule", "Jahr", "beenden"],
+        "words": [
+          "Hermine",
+          "die",
+          "nächstes",
+          "wird",
+          "Schule",
+          "Jahr",
+          "beenden"
+        ],
         "answer": "Nächstes Jahr wird Hermine die Schule beenden."
       },
       {
@@ -666,7 +1076,12 @@
         "type": "multiple_choice",
         "instruction": "Was sagt Alex zu Hermine, um sie zu ermutigen?",
         "question": "Was sagt Alex zu Hermine?",
-        "options": ["Ich glaube an dich!", "Du kannst das nicht.", "Vergiss die Medizin.", "Es ist zu schwierig."],
+        "options": [
+          "Ich glaube an dich!",
+          "Du kannst das nicht.",
+          "Vergiss die Medizin.",
+          "Es ist zu schwierig."
+        ],
         "answer": 0
       },
       {
@@ -695,7 +1110,12 @@
         "type": "multiple_choice",
         "instruction": "Wo machen Alex und Hermine Pläne?",
         "question": "Wo sitzen Alex und Hermine?",
-        "options": ["In einer Pizzeria", "Im Krankenhaus", "Zu Hause", "In der Schule"],
+        "options": [
+          "In einer Pizzeria",
+          "Im Krankenhaus",
+          "Zu Hause",
+          "In der Schule"
+        ],
         "answer": 0
       },
       {
@@ -715,17 +1135,39 @@
         "type": "matching",
         "instruction": "Ordne die Sätze den richtigen Aussagen zu.",
         "pairs": [
-          ["Hermine fliegt im August nach", "Mallorca"],
-          ["Hermine macht ein Praktikum im", "Krankenhaus"],
-          ["Annika möchte werden", "Ärztin"],
-          ["Hermine hat einen", "Realschulabschluss"],
-          ["Alex sagt 'Ich glaube", "an dich'"]
+          [
+            "Hermine fliegt im August nach",
+            "Mallorca"
+          ],
+          [
+            "Hermine macht ein Praktikum im",
+            "Krankenhaus"
+          ],
+          [
+            "Annika möchte werden",
+            "Ärztin"
+          ],
+          [
+            "Hermine hat einen",
+            "Realschulabschluss"
+          ],
+          [
+            "Alex sagt 'Ich glaube",
+            "an dich'"
+          ]
         ]
       },
       {
         "type": "reorder",
         "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
-        "words": ["die", "aufgeben", "nicht", "du", "Hoffnung", "darfst"],
+        "words": [
+          "die",
+          "aufgeben",
+          "nicht",
+          "du",
+          "Hoffnung",
+          "darfst"
+        ],
         "answer": "Du darfst die Hoffnung nicht aufgeben."
       },
       {
@@ -738,7 +1180,12 @@
         "type": "multiple_choice",
         "instruction": "Was braucht Hermine für ein Medizinstudium?",
         "question": "Was braucht Hermine, um Medizin studieren zu können?",
-        "options": ["Das Abitur und sehr gute Noten", "Nur einen Realschulabschluss", "Ein Praktikum in einer Pizzeria", "Einen Job im Krankenhaus"],
+        "options": [
+          "Das Abitur und sehr gute Noten",
+          "Nur einen Realschulabschluss",
+          "Ein Praktikum in einer Pizzeria",
+          "Einen Job im Krankenhaus"
+        ],
         "answer": 0
       },
       {
@@ -754,6 +1201,64 @@
         "statement": "Hermine denkt am nächsten Tag über ihr Gespräch mit Alex nach und freut sich auf das Praktikum.",
         "answer": true
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Pläne für die Zukunft sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Plans for the Future today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Max und ich haben verschiedene Lieblingsfarben.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Du darfst die Hoffnung nicht aufgeben.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Medizin ist ein kompliziertes Studium.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Pläne für die Zukunft“ (Plans for the Future) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Pläne für die Zukunft.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Pläne für die Zukunft“. Max und ich haben verschiedene Lieblingsfarben. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Pläne für die Zukunft“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Pläne für die Zukunft“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Max und ich haben verschiedene Lieblingsfarben. Du darfst die Hoffnung nicht aufgeben. Medizin ist ein kompliziertes Studium."
+    },
+    "level": "A2.1"
   }
 ]

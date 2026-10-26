@@ -103,14 +103,15 @@
       },
       {
         "type": "multiple_choice",
-        "instruction": "Choose the correct connector for the sentence: 'Es ist besser, ___ man den Müll trennt.'",
+        "instruction": "Wähle die richtige Antwort. (Choose the correct answer.)",
         "options": [
           "dass",
           "wenn",
           "ob",
           "zu"
         ],
-        "answer": 1
+        "answer": 1,
+        "question": "Choose the correct connector for the sentence: 'Es ist besser, ___ man den Müll trennt.'"
       },
       {
         "type": "true_false",
@@ -167,8 +168,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I want to do my part to protect the environment.",
-        "answer": "Ich will auch meinen Teil tun, um die Umwelt zu schützen."
+        "source": "I want to do my part to protect the environment.",
+        "target": "Ich will auch meinen Teil tun, um die Umwelt zu schützen."
       },
       {
         "type": "multiple_choice",
@@ -204,7 +205,66 @@
         "answer": "ob",
         "hint": "whether"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Umweltprobleme und Umweltschutz sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Environmental problems and protection today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Durch die Abholzung verlieren Tiere ihren Lebensraum.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Die Vermüllung der Meere ist ein großes Problem.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Die Überfischung bedroht viele Fischarten.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Umweltprobleme und Umweltschutz“ (Environmental problems and protection).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Umweltprobleme und Umweltschutz“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Umweltprobleme und Umweltschutz“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Durch die Abholzung verlieren Tiere ihren Lebensraum. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Umweltprobleme und Umweltschutz“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Umweltprobleme und Umweltschutz“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Durch die Abholzung verlieren Tiere ihren Lebensraum. Die Vermüllung der Meere ist ein großes Problem. Die Überfischung bedroht viele Fischarten."
+    },
+    "level": "B1"
   },
   {
     "id": 54,
@@ -309,14 +369,15 @@
       },
       {
         "type": "multiple_choice",
-        "instruction": "Choose the correct imperative form of 'Man sollte die Kartons kleiner machen'.",
+        "instruction": "Wähle die richtige Antwort. (Choose the correct answer.)",
         "options": [
           "Karton kleiner machen!",
           "Mach die Kartons kleiner!",
           "Du machst die Kartons kleiner!",
           "Kartons kleiner machen!"
         ],
-        "answer": 1
+        "answer": 1,
+        "question": "Choose the correct imperative form of 'Man sollte die Kartons kleiner machen'."
       },
       {
         "type": "true_false",
@@ -373,8 +434,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Do not throw the garbage bag into the organic waste!",
-        "answer": "Wirf die Mülltüte nicht mit in den Biomüll!"
+        "source": "Do not throw the garbage bag into the organic waste!",
+        "target": "Wirf die Mülltüte nicht mit in den Biomüll!"
       },
       {
         "type": "multiple_choice",
@@ -407,7 +468,66 @@
         "answer": "Schrott",
         "hint": "scrap metal/junk"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Umweltschutz und Recycling sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Environmental protection and recycling today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "In den Biom&uuml;ll kommen die Abf&auml;lle vom Kochen.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Papier, Glas oder Metall sind kein wertloser M&uuml;ll.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Viele Abf&auml;lle kann man recyceln, wenn man M&uuml;ll trennt.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Umweltschutz und Recycling“ (Environmental protection and recycling).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Umweltschutz und Recycling“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Umweltschutz und Recycling“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. In den Biom&uuml;ll kommen die Abf&auml;lle vom Kochen. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Umweltschutz und Recycling“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Umweltschutz und Recycling“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "In den Biom&uuml;ll kommen die Abf&auml;lle vom Kochen. Papier, Glas oder Metall sind kein wertloser M&uuml;ll. Viele Abf&auml;lle kann man recyceln, wenn man M&uuml;ll trennt."
+    },
+    "level": "B1"
   },
   {
     "id": 55,
@@ -511,14 +631,15 @@
       },
       {
         "type": "multiple_choice",
-        "instruction": "What does the idiom 'dicke Luft' mean?",
+        "instruction": "Wähle die richtige Antwort. (Choose the correct answer.)",
         "options": [
           "fresh air",
           "tense atmosphere",
           "clean weather",
           "heavy rain"
         ],
-        "answer": 1
+        "answer": 1,
+        "question": "What does the idiom 'dicke Luft' mean?"
       },
       {
         "type": "true_false",
@@ -575,8 +696,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Today there was a tense atmosphere in the office.",
-        "answer": "Heute war dicke Luft im Büro."
+        "source": "Today there was a tense atmosphere in the office.",
+        "target": "Heute war dicke Luft im Büro."
       },
       {
         "type": "multiple_choice",
@@ -613,7 +734,66 @@
         "answer": "Auswirkungen",
         "hint": "effects"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Luftverschmutzung sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Air pollution today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Die Luftverschmutzung ist seit der Industrialisierung ein Problem.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Wenn es keinen Wind gibt, bildet sich Smog &uuml;ber Städten.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Sch&auml;dliche Emissionen haben negative Auswirkungen.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Luftverschmutzung“ (Air pollution).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Luftverschmutzung“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Luftverschmutzung“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Die Luftverschmutzung ist seit der Industrialisierung ein Problem. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Luftverschmutzung“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Luftverschmutzung“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Die Luftverschmutzung ist seit der Industrialisierung ein Problem. Wenn es keinen Wind gibt, bildet sich Smog &uuml;ber Städten. Sch&auml;dliche Emissionen haben negative Auswirkungen."
+    },
+    "level": "B1"
   },
   {
     "id": 56,
@@ -718,14 +898,15 @@
       },
       {
         "type": "multiple_choice",
-        "instruction": "Choose the correct advice for a Tsunami.",
+        "instruction": "Wähle die richtige Antwort. (Choose the correct answer.)",
         "options": [
           "Man sollte einen windgeschützten Ort aufsuchen.",
           "Man sollte Sandsäcke vor Türen legen.",
           "Man sollte so schnell wie möglich den höchsten Punkt aufsuchen.",
           "Man sollte unter eine Brücke fliehen."
         ],
-        "answer": 2
+        "answer": 2,
+        "question": "Choose the correct advice for a Tsunami."
       },
       {
         "type": "true_false",
@@ -782,8 +963,8 @@
       },
       {
         "type": "translation",
-        "sentence": "I trust him completely.",
-        "answer": "Ich vertraue ihm komplett."
+        "source": "I trust him completely.",
+        "target": "Ich vertraue ihm komplett."
       },
       {
         "type": "multiple_choice",
@@ -817,6 +998,65 @@
         "answer": "Wind",
         "hint": "wind"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Naturkatastrophen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Natural disasters today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ein Erdbeben kann Tausende Menschenleben gef&auml;hrden.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Es gibt lange keinen Regen, die Natur wird durch die D&uuml;rre extrem trocken.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Sehr hei&szlig;e Masse kommt aus dem Inneren der Erde nach oben.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat B1 — Schreiben (E-Mail & Meinungsäußerung)",
+      "wordTarget": "70–90 Wörter",
+      "situation": "Du nimmst an einer Diskussion teil oder schreibst eine ausführliche E-Mail zum Thema „Naturkatastrophen“ (Natural disasters).",
+      "points": [
+        "Beschreibe deine persönliche Erfahrung mit „Naturkatastrophen“ in Berlin oder Honduras.",
+        "Nenne Vor- und Nachteile oder begründe deine Meinung genau (mit weil, obwohl, deshalb).",
+        "Gib einen Ausblick, Rat oder mach einen Vorschlag."
+      ],
+      "usefulPhrases": [
+        "Meiner Meinung nach ist dieses Thema sehr wichtig, weil ...",
+        "Einerseits ..., aber andererseits ...",
+        "In meinem Heimatland Honduras ist das ähnlich / anders, denn ...",
+        "Obwohl es manchmal schwierig ist, finde ich, dass ...",
+        "Deshalb würde ich empfehlen, ..."
+      ],
+      "modelAnswer": "Hallo zusammen,\n\nich möchte auch gerne etwas zum Thema „Naturkatastrophen“ schreiben. Meiner Meinung nach ist das im Alltag extrem wichtig, weil wir alle davon betroffen sind. Ein Erdbeben kann Tausende Menschenleben gef&auml;hrden. Obwohl es am Anfang in Berlin manchmal eine Herausforderung ist, gewöhnt man sich schnell daran. Deshalb empfehle ich jedem, sich frühzeitig zu informieren und offen für Neues zu bleiben.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat B1 — Sprechen Teil 2 (Kurzpräsentation & Diskussion)",
+      "prompt": "Halte eine kurze Präsentation (ca. 2–3 Minuten) zum Thema „Naturkatastrophen“ nach der offiziellen Goethe-B1-Struktur:",
+      "talkingPoints": [
+        "1. Einleitung: Warum ist das Thema aktuell und wichtig?",
+        "2. Persönliche Erfahrung: Was hast du selbst in Berlin erlebt?",
+        "3. Vergleich mit deinem Heimatland (Honduras): Wie ist die Situation dort?",
+        "4. Vor- und Nachteile & eigenes Fazit."
+      ],
+      "keyPhrases": [
+        "Heute möchte ich über das Thema „Naturkatastrophen“ sprechen.",
+        "Aus meiner persönlichen Erfahrung in Berlin kann ich sagen, dass ...",
+        "In meinem Heimatland Honduras ist die Situation so: ...",
+        "Ein großer Vorteil ist ..., aber ein Nachteil ist ...",
+        "Zusammenfassend bin ich der Meinung, dass ... Vielen Dank fürs Zuhören!"
+      ],
+      "sampleResponse": "Ein Erdbeben kann Tausende Menschenleben gef&auml;hrden. Es gibt lange keinen Regen, die Natur wird durch die D&uuml;rre extrem trocken. Sehr hei&szlig;e Masse kommt aus dem Inneren der Erde nach oben."
+    },
+    "level": "B1"
   }
 ]

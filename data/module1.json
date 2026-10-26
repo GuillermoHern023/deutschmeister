@@ -34,13 +34,39 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "What does 'enttäuscht' mean?",
-        "options": ["proud", "disappointed", "nervous", "happy"],
+        "options": [
+          "proud",
+          "disappointed",
+          "nervous",
+          "happy"
+        ],
         "answer": 1
       },
       {
         "type": "matching",
         "instruction": "Match the German feelings to their English meanings.",
-        "pairs": [["wütend", "angry"], ["traurig", "sad"], ["stolz", "proud"], ["nervös", "nervous"], ["glücklich", "happy"]]
+        "pairs": [
+          [
+            "wütend",
+            "angry"
+          ],
+          [
+            "traurig",
+            "sad"
+          ],
+          [
+            "stolz",
+            "proud"
+          ],
+          [
+            "nervös",
+            "nervous"
+          ],
+          [
+            "glücklich",
+            "happy"
+          ]
+        ]
       },
       {
         "type": "true_false",
@@ -57,7 +83,14 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["ist", "mit", "ihrem", "Jing", "zufrieden", "Projekt"],
+        "words": [
+          "ist",
+          "mit",
+          "ihrem",
+          "Jing",
+          "zufrieden",
+          "Projekt"
+        ],
         "answer": "Jing ist zufrieden mit ihrem Projekt."
       },
       {
@@ -71,7 +104,12 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "Which preposition goes with 'froh'?",
-        "options": ["mit", "auf", "über", "von"],
+        "options": [
+          "mit",
+          "auf",
+          "über",
+          "von"
+        ],
         "answer": 2
       },
       {
@@ -91,7 +129,12 @@
       {
         "type": "multiple_choice",
         "question": "What does 'traurig' mean?",
-        "options": ["angry", "happy", "sad", "proud"],
+        "options": [
+          "angry",
+          "happy",
+          "sad",
+          "proud"
+        ],
         "answer": 2
       },
       {
@@ -108,7 +151,12 @@
       {
         "type": "multiple_choice",
         "question": "Which sentence is correct?",
-        "options": ["Er ist enttäuscht auf Paul.", "Er ist enttäuscht mit Paul.", "Er ist enttäuscht von Paul.", "Er ist enttäuscht über Paul."],
+        "options": [
+          "Er ist enttäuscht auf Paul.",
+          "Er ist enttäuscht mit Paul.",
+          "Er ist enttäuscht von Paul.",
+          "Er ist enttäuscht über Paul."
+        ],
         "answer": 2
       },
       {
@@ -119,18 +167,30 @@
       },
       {
         "type": "translation",
-        "sentence": "She is nervous because she has an exam soon.",
-        "answer": "Sie ist nervös, weil sie gleich eine Prüfung hat."
+        "source": "She is nervous because she has an exam soon.",
+        "target": "Sie ist nervös, weil sie gleich eine Prüfung hat."
       },
       {
         "type": "multiple_choice",
         "question": "What does 'Jemandem ist eine Laus über die Leber gelaufen' mean?",
-        "options": ["Someone is very happy", "Someone is in a bad mood", "Someone is in love", "Someone is very tired"],
+        "options": [
+          "Someone is very happy",
+          "Someone is in a bad mood",
+          "Someone is in love",
+          "Someone is very tired"
+        ],
         "answer": 1
       },
       {
         "type": "reorder",
-        "words": ["bin", "auf", "Ich", "wütend", "meinen", "Bruder"],
+        "words": [
+          "bin",
+          "auf",
+          "Ich",
+          "wütend",
+          "meinen",
+          "Bruder"
+        ],
         "answer": "Ich bin wütend auf meinen Bruder."
       },
       {
@@ -144,7 +204,65 @@
         "answer": "Angst",
         "hint": "fear"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Gefühle und Emotionen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Feelings & Emotions today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich bin wütend auf dich.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Sie ist traurig, weil sie den Job nicht bekommen hat.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Sie sind glücklich, weil sie zusammen sind.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Gefühle und Emotionen“ (Feelings & Emotions) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Gefühle und Emotionen.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Gefühle und Emotionen“. Ich bin wütend auf dich. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Gefühle und Emotionen“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Gefühle und Emotionen“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Ich bin wütend auf dich. Sie ist traurig, weil sie den Job nicht bekommen hat. Sie sind glücklich, weil sie zusammen sind."
+    },
+    "level": "A2.1"
   },
   {
     "id": 2,
@@ -181,13 +299,39 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "What is the German word for 'divorce'?",
-        "options": ["die Trennung", "die Scheidung", "die Hochzeit", "die Ehe"],
+        "options": [
+          "die Trennung",
+          "die Scheidung",
+          "die Hochzeit",
+          "die Ehe"
+        ],
         "answer": 1
       },
       {
         "type": "matching",
         "instruction": "Match the pairs that belong together.",
-        "pairs": [["die Schokolade", "die Praline"], ["die Blume", "die Rose"], ["die Hochzeit", "die Ehe"], ["die Trennung", "die Scheidung"], ["die Verabredung", "das Date"]]
+        "pairs": [
+          [
+            "die Schokolade",
+            "die Praline"
+          ],
+          [
+            "die Blume",
+            "die Rose"
+          ],
+          [
+            "die Hochzeit",
+            "die Ehe"
+          ],
+          [
+            "die Trennung",
+            "die Scheidung"
+          ],
+          [
+            "die Verabredung",
+            "das Date"
+          ]
+        ]
       },
       {
         "type": "true_false",
@@ -204,7 +348,16 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["uns", "verstehen", "gut", "Wir", "und", "zusammen", "passen", "gut"],
+        "words": [
+          "uns",
+          "verstehen",
+          "gut",
+          "Wir",
+          "und",
+          "zusammen",
+          "passen",
+          "gut"
+        ],
         "answer": "Wir verstehen uns gut und passen gut zusammen."
       },
       {
@@ -218,7 +371,12 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "How are 'eu' and 'äu' pronounced in German?",
-        "options": ["like 'ai'", "like 'oi'", "like 'ou'", "like 'ee'"],
+        "options": [
+          "like 'ai'",
+          "like 'oi'",
+          "like 'ou'",
+          "like 'ee'"
+        ],
         "answer": 1
       },
       {
@@ -238,7 +396,12 @@
       {
         "type": "multiple_choice",
         "question": "What does 'das Vertrauen' mean?",
-        "options": ["the wedding", "the trust", "the separation", "the date"],
+        "options": [
+          "the wedding",
+          "the trust",
+          "the separation",
+          "the date"
+        ],
         "answer": 1
       },
       {
@@ -255,7 +418,12 @@
       {
         "type": "multiple_choice",
         "question": "Which word means 'to get engaged'?",
-        "options": ["sich daten", "sich verloben", "sich trennen", "sich scheiden lassen"],
+        "options": [
+          "sich daten",
+          "sich verloben",
+          "sich trennen",
+          "sich scheiden lassen"
+        ],
         "answer": 1
       },
       {
@@ -266,18 +434,29 @@
       },
       {
         "type": "reorder",
-        "words": ["sich", "haben", "scheiden", "Sie", "lassen"],
+        "words": [
+          "sich",
+          "haben",
+          "scheiden",
+          "Sie",
+          "lassen"
+        ],
         "answer": "Sie haben sich scheiden lassen."
       },
       {
         "type": "translation",
-        "sentence": "He gave her roses.",
-        "answer": "Er hat ihr Rosen geschenkt."
+        "source": "He gave her roses.",
+        "target": "Er hat ihr Rosen geschenkt."
       },
       {
         "type": "multiple_choice",
         "question": "What is a 'Diphthong'?",
-        "options": ["A single vowel sound", "Two vowels spoken together", "A consonant cluster", "A silent letter"],
+        "options": [
+          "A single vowel sound",
+          "Two vowels spoken together",
+          "A consonant cluster",
+          "A silent letter"
+        ],
         "answer": 1
       },
       {
@@ -291,7 +470,65 @@
         "answer": "zusammen",
         "hint": "together"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Über Beziehungen sprechen sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Talk about Relationships today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Auf der Hochzeit gab es viele Gäste.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Auf die Ehe!",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Das Brautpaar heiratet heute.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Über Beziehungen sprechen“ (Talk about Relationships) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Über Beziehungen sprechen.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Über Beziehungen sprechen“. Auf der Hochzeit gab es viele Gäste. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Über Beziehungen sprechen“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Über Beziehungen sprechen“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Auf der Hochzeit gab es viele Gäste. Auf die Ehe! Das Brautpaar heiratet heute."
+    },
+    "level": "A2.1"
   },
   {
     "id": 3,
@@ -333,13 +570,39 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer based on the reading.",
         "question": "Why is Alex nervous?",
-        "options": ["He has a job interview.", "He has his first date with Louise.", "He lost his wallet.", "He is late for work."],
+        "options": [
+          "He has a job interview.",
+          "He has his first date with Louise.",
+          "He lost his wallet.",
+          "He is late for work."
+        ],
         "answer": 1
       },
       {
         "type": "matching",
         "instruction": "Match the German words to their English meanings.",
-        "pairs": [["besichtigen", "to visit"], ["vorschlagen", "to suggest"], ["begeistert", "thrilled"], ["langweilig", "boring"], ["großartig", "great"]]
+        "pairs": [
+          [
+            "besichtigen",
+            "to visit"
+          ],
+          [
+            "vorschlagen",
+            "to suggest"
+          ],
+          [
+            "begeistert",
+            "thrilled"
+          ],
+          [
+            "langweilig",
+            "boring"
+          ],
+          [
+            "großartig",
+            "great"
+          ]
+        ]
       },
       {
         "type": "true_false",
@@ -356,7 +619,13 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["uns", "spazieren", "lieber", "gehen", "Lass"],
+        "words": [
+          "uns",
+          "spazieren",
+          "lieber",
+          "gehen",
+          "Lass"
+        ],
         "answer": "Lass uns lieber spazieren gehen."
       },
       {
@@ -370,7 +639,12 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "What does 'auf Wolke sieben schweben' mean?",
-        "options": ["to be angry", "to be very happy and in love", "to be tired", "to be confused"],
+        "options": [
+          "to be angry",
+          "to be very happy and in love",
+          "to be tired",
+          "to be confused"
+        ],
         "answer": 1
       },
       {
@@ -382,7 +656,16 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["nervös", "ist", "Alex", "er", "weil", "Date", "hat", "ein"],
+        "words": [
+          "nervös",
+          "ist",
+          "Alex",
+          "er",
+          "weil",
+          "Date",
+          "hat",
+          "ein"
+        ],
         "answer": "Alex ist nervös, weil er ein Date hat."
       }
     ],
@@ -390,7 +673,12 @@
       {
         "type": "multiple_choice",
         "question": "Where do Alex and Louise go first on their date?",
-        "options": ["To a restaurant", "To the opera", "To the Berliner Dom", "To a museum"],
+        "options": [
+          "To a restaurant",
+          "To the opera",
+          "To the Berliner Dom",
+          "To a museum"
+        ],
         "answer": 2
       },
       {
@@ -407,7 +695,12 @@
       {
         "type": "multiple_choice",
         "question": "What do Alex and Louise buy at the supermarket?",
-        "options": ["Bread and butter", "Erdbeeren, Kuchen und Champagner", "Wine and cheese", "Pizza and salad"],
+        "options": [
+          "Bread and butter",
+          "Erdbeeren, Kuchen und Champagner",
+          "Wine and cheese",
+          "Pizza and salad"
+        ],
         "answer": 1
       },
       {
@@ -418,18 +711,32 @@
       },
       {
         "type": "translation",
-        "sentence": "That is a great idea!",
-        "answer": "Das ist eine großartige Idee!"
+        "source": "That is a great idea!",
+        "target": "Das ist eine großartige Idee!"
       },
       {
         "type": "multiple_choice",
         "question": "What does 'knutschen' mean?",
-        "options": ["to argue", "to kiss", "to dance", "to sing"],
+        "options": [
+          "to argue",
+          "to kiss",
+          "to dance",
+          "to sing"
+        ],
         "answer": 1
       },
       {
         "type": "reorder",
-        "words": ["einen", "Louise", "Alex", "gibt", "Kuss", "die", "auf", "Wange"],
+        "words": [
+          "einen",
+          "Louise",
+          "Alex",
+          "gibt",
+          "Kuss",
+          "die",
+          "auf",
+          "Wange"
+        ],
         "answer": "Louise gibt Alex einen Kuss auf die Wange."
       },
       {
@@ -443,7 +750,65 @@
         "answer": "Eintrittskarten",
         "hint": "admission tickets"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Das erste Date sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about The First Date today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Sie besichtigen den Berliner Dom.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Alex schlägt vor, spazieren zu gehen.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Louise ist begeistert von der Oper.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Das erste Date“ (The First Date) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Das erste Date.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Das erste Date“. Sie besichtigen den Berliner Dom. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Das erste Date“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Das erste Date“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Sie besichtigen den Berliner Dom. Alex schlägt vor, spazieren zu gehen. Louise ist begeistert von der Oper."
+    },
+    "level": "A2.1"
   },
   {
     "id": 4,
@@ -485,13 +850,39 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer based on the reading.",
         "question": "Whose wedding did Alex attend?",
-        "options": ["Louise and Max", "Tina and Paul", "Petra and Jens", "Gwyneth and Max"],
+        "options": [
+          "Louise and Max",
+          "Tina and Paul",
+          "Petra and Jens",
+          "Gwyneth and Max"
+        ],
         "answer": 2
       },
       {
         "type": "matching",
         "instruction": "Match the German words to their English meanings.",
-        "pairs": [["das Brautpaar", "bridal couple"], ["der Anzug", "suit"], ["der Pfarrer", "pastor"], ["die Tanzfläche", "dance floor"], ["die Feier", "celebration"]]
+        "pairs": [
+          [
+            "das Brautpaar",
+            "bridal couple"
+          ],
+          [
+            "der Anzug",
+            "suit"
+          ],
+          [
+            "der Pfarrer",
+            "pastor"
+          ],
+          [
+            "die Tanzfläche",
+            "dance floor"
+          ],
+          [
+            "die Feier",
+            "celebration"
+          ]
+        ]
       },
       {
         "type": "true_false",
@@ -508,7 +899,15 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["hatte", "einen", "für", "Platz", "Louise", "reserviert", "ihn"],
+        "words": [
+          "hatte",
+          "einen",
+          "für",
+          "Platz",
+          "Louise",
+          "reserviert",
+          "ihn"
+        ],
         "answer": "Louise hatte einen Platz für ihn reserviert."
       },
       {
@@ -522,7 +921,12 @@
         "type": "multiple_choice",
         "instruction": "Choose the correct answer.",
         "question": "Why did Louise cry at the church?",
-        "options": ["She was sad.", "She was angry.", "She cried tears of joy.", "She was scared."],
+        "options": [
+          "She was sad.",
+          "She was angry.",
+          "She cried tears of joy.",
+          "She was scared."
+        ],
         "answer": 2
       },
       {
@@ -534,7 +938,14 @@
       {
         "type": "reorder",
         "instruction": "Put the words in the correct order.",
-        "words": ["und", "Paul", "sich", "Tina", "getrennt", "haben"],
+        "words": [
+          "und",
+          "Paul",
+          "sich",
+          "Tina",
+          "getrennt",
+          "haben"
+        ],
         "answer": "Tina und Paul haben sich getrennt."
       }
     ],
@@ -542,7 +953,12 @@
       {
         "type": "multiple_choice",
         "question": "What time is it when the story begins on Sunday?",
-        "options": ["9 Uhr", "10 Uhr", "11 Uhr", "12 Uhr"],
+        "options": [
+          "9 Uhr",
+          "10 Uhr",
+          "11 Uhr",
+          "12 Uhr"
+        ],
         "answer": 2
       },
       {
@@ -559,7 +975,12 @@
       {
         "type": "multiple_choice",
         "question": "How long have Gwyneth and Max been together?",
-        "options": ["3 years", "5 years", "7 years", "10 years"],
+        "options": [
+          "3 years",
+          "5 years",
+          "7 years",
+          "10 years"
+        ],
         "answer": 2
       },
       {
@@ -570,18 +991,32 @@
       },
       {
         "type": "translation",
-        "sentence": "And to the friendship!",
-        "answer": "Und auf die Freundschaft!"
+        "source": "And to the friendship!",
+        "target": "Und auf die Freundschaft!"
       },
       {
         "type": "multiple_choice",
         "question": "What does 'eine Träne verdrücken müssen' mean?",
-        "options": ["to laugh out loud", "to have to hold back a tear", "to cry loudly", "to feel angry"],
+        "options": [
+          "to laugh out loud",
+          "to have to hold back a tear",
+          "to cry loudly",
+          "to feel angry"
+        ],
         "answer": 1
       },
       {
         "type": "reorder",
-        "words": ["Freunde", "nach", "zufrieden", "die", "fuhren", "Hause", "glücklich", "und"],
+        "words": [
+          "Freunde",
+          "nach",
+          "zufrieden",
+          "die",
+          "fuhren",
+          "Hause",
+          "glücklich",
+          "und"
+        ],
         "answer": "Die Freunde fuhren glücklich und zufrieden nach Hause."
       },
       {
@@ -595,6 +1030,64 @@
         "answer": "getrennt",
         "hint": "broken up (past participle)"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Die Hochzeit sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about The Wedding today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Das Brautpaar war überglücklich.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Der Anzug steht dem Bräutigam.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Der Pfarrer hatte über Liebe und Ehe geredet.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Die Hochzeit“ (The Wedding) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Die Hochzeit.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Die Hochzeit“. Das Brautpaar war überglücklich. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Die Hochzeit“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Die Hochzeit“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Das Brautpaar war überglücklich. Der Anzug steht dem Bräutigam. Der Pfarrer hatte über Liebe und Ehe geredet."
+    },
+    "level": "A2.1"
   }
 ]

@@ -167,8 +167,8 @@
       },
       {
         "type": "translation",
-        "sentence": "The internet is the most important invention of the 20th century.",
-        "answer": "Das Internet ist die wichtigste Erfindung des 20. Jahrhunderts."
+        "source": "The internet is the most important invention of the 20th century.",
+        "target": "Das Internet ist die wichtigste Erfindung des 20. Jahrhunderts."
       },
       {
         "type": "reorder",
@@ -205,7 +205,65 @@
         "answer": "künstlich",
         "hint": "artificially"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Technologie sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Technology today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Jemand müsste mal eine Pfanne erfinden, die sich selbst putzt.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Das Internet ist die wichtigste Erfindung des 20. Jahrhunderts.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Thomas Edison hat die Glühbirne verbessert und modernisiert.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Technologie“ (Technology) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Technologie.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Technologie“. Jemand müsste mal eine Pfanne erfinden, die sich selbst putzt. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Technologie“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Technologie“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Jemand müsste mal eine Pfanne erfinden, die sich selbst putzt. Das Internet ist die wichtigste Erfindung des 20. Jahrhunderts. Thomas Edison hat die Glühbirne verbessert und modernisiert."
+    },
+    "level": "A2.2"
   },
   {
     "id": 30,
@@ -376,8 +434,8 @@
       },
       {
         "type": "translation",
-        "sentence": "How old were you when you got your first mobile phone?",
-        "answer": "Wie alt warst du, als du dein erstes Handy bekommen hast?"
+        "source": "How old were you when you got your first mobile phone?",
+        "target": "Wie alt warst du, als du dein erstes Handy bekommen hast?"
       },
       {
         "type": "reorder",
@@ -412,7 +470,65 @@
         "answer": "Zeitungsartikel",
         "hint": "newspaper articles"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Ein Gespräch über Technologie sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about A Conversation about Technology today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Berichte den anderen im Kurs über deinen Medienkonsum.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Nein, ich mag es nicht, wenn die Kinder immer so viel am Handy daddeln.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Politischer Aktivismus ist ein wichtiges Thema in sozialen Medien.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Ein Gespräch über Technologie“ (A Conversation about Technology) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Ein Gespräch über Technologie.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Ein Gespräch über Technologie“. Berichte den anderen im Kurs über deinen Medienkonsum. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Ein Gespräch über Technologie“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Ein Gespräch über Technologie“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Berichte den anderen im Kurs über deinen Medienkonsum. Nein, ich mag es nicht, wenn die Kinder immer so viel am Handy daddeln. Politischer Aktivismus ist ein wichtiges Thema in sozialen Medien."
+    },
+    "level": "A2.2"
   },
   {
     "id": 31,
@@ -583,8 +699,8 @@
       },
       {
         "type": "translation",
-        "sentence": "Many people have found their job through social networks.",
-        "answer": "Viele Menschen haben durch die sozialen Netzwerke ihren Beruf gefunden."
+        "source": "Many people have found their job through social networks.",
+        "target": "Viele Menschen haben durch die sozialen Netzwerke ihren Beruf gefunden."
       },
       {
         "type": "reorder",
@@ -619,7 +735,65 @@
         "answer": "hochladen",
         "hint": "upload"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Soziale Netzwerke sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Social Networks today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Soziale Netzwerke können zum Karrierekiller werden.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Ihr organisiert eine Konferenz zu sozialen Netzwerken.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Kleine Unternehmen machen Werbung in sozialen Medien.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Soziale Netzwerke“ (Social Networks) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Soziale Netzwerke.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Soziale Netzwerke“. Soziale Netzwerke können zum Karrierekiller werden. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Soziale Netzwerke“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Soziale Netzwerke“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Soziale Netzwerke können zum Karrierekiller werden. Ihr organisiert eine Konferenz zu sozialen Netzwerken. Kleine Unternehmen machen Werbung in sozialen Medien."
+    },
+    "level": "A2.2"
   },
   {
     "id": 32,
@@ -794,8 +968,8 @@
       },
       {
         "type": "translation",
-        "sentence": "When I come home from work, I immediately turn on the TV.",
-        "answer": "Wenn ich von der Arbeit nach Hause komme, schalte ich sofort den Fernseher ein."
+        "source": "When I come home from work, I immediately turn on the TV.",
+        "target": "Wenn ich von der Arbeit nach Hause komme, schalte ich sofort den Fernseher ein."
       },
       {
         "type": "reorder",
@@ -830,6 +1004,64 @@
         "answer": "Komödien",
         "hint": "comedies"
       }
-    ]
+    ],
+    "dialogue": [
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Hallo! Sag mal, wir wollten doch heute über Medien sprechen. Wie läuft es bei dir?",
+        "en": "Hello! Say, we wanted to talk about Media today. How is it going with you?"
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Es gibt öffentliche und private Fernsehsender.",
+        "en": "Key expression from this lesson in action."
+      },
+      {
+        "speaker": "Person A (Berlin)",
+        "de": "Die Tagesschau ist eine bekannte Sendung.",
+        "en": "Follow-up reaction in everyday German."
+      },
+      {
+        "speaker": "Person B (Guillermo)",
+        "de": "Ich schalte sofort den Fernseher ein.",
+        "en": "Natural response for daily conversation."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A2 — Schreiben (Alltags-E-Mail / Nachricht)",
+      "wordTarget": "35–50 Wörter",
+      "situation": "Du bist in Berlin und schreibst eine Nachricht zum Thema „Medien“ (Media) an einen Freund oder Kollegen.",
+      "points": [
+        "Erkläre kurz die aktuelle Situation rund um Medien.",
+        "Beschreibe, was du bereits gemacht hast oder was dir wichtig ist (nutze weil / deshalb).",
+        "Mach einen konkreten Vorschlag für ein Treffen oder den nächsten Schritt."
+      ],
+      "usefulPhrases": [
+        "Hallo ..., wie geht es dir?",
+        "Ich schreibe dir, weil ...",
+        "Deshalb möchte ich dich fragen, ob ...",
+        "Hast du am Wochenende Zeit?",
+        "Sag mir bitte kurz Bescheid! Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich schreibe dir heute wegen dem Thema „Medien“. Es gibt öffentliche und private Fernsehsender. Deshalb wollte ich dich fragen, ob wir uns am Freitag in einem Café treffen wollen. Hast du um 18 Uhr Zeit?\n\nSag mir bitte kurz Bescheid!\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A2 — Sprechen (Alltagsgespräch & Gemeinsam etwas planen)",
+      "prompt": "Sprich 1–2 Minuten frei über „Medien“ oder plane etwas gemeinsam mit deinem Gesprächspartner in Berlin.",
+      "talkingPoints": [
+        "Was bedeutet „Medien“ für deinen Alltag in Berlin?",
+        "Was machst du in dieser Situation gerne / oft?",
+        "Wann und wo könntest du dich mit jemandem dazu treffen?",
+        "Welche Frage würdest du deinem Gegenüber stellen?"
+      ],
+      "keyPhrases": [
+        "Für mich ist ... sehr wichtig, weil ...",
+        "Normalerweise mache ich das so: ...",
+        "Wollen wir am Samstag zusammen ...?",
+        "Passt es dir am Nachmittag um 15 Uhr?"
+      ],
+      "sampleResponse": "Es gibt öffentliche und private Fernsehsender. Die Tagesschau ist eine bekannte Sendung. Ich schalte sofort den Fernseher ein."
+    },
+    "level": "A2.2"
   }
 ]
