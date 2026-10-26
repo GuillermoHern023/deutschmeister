@@ -1,0 +1,827 @@
+[
+  {
+    "id": 25,
+    "title": "Traveling and Sightseeing",
+    "titleDe": "Reisen und Sehenswürdigkeiten",
+    "type": "vocabulary",
+    "icon": "🗺️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>das Flugzeug, -e</strong></td><td>airplane</td><td>Wir fliegen mit dem Flugzeug in den Urlaub.</td></tr><tr><td><strong>der Flughafen, ⸚</strong></td><td>airport</td><td>Der Flughafen ist sehr groß.</td></tr><tr><td><strong>das Gepäck</strong></td><td>baggage</td><td>Wir müssen unser Gepäck einpacken.</td></tr><tr><td><strong>der Koffer, -</strong></td><td>suitcase</td><td>Der Koffer ist schon voll.</td></tr><tr><td><strong>einpacken</strong></td><td>to pack</td><td>Ich muss meine Sachen einpacken.</td></tr><tr><td><strong>auspacken</strong></td><td>to unpack</td><td>Nach der Reise packen wir die Koffer aus.</td></tr><tr><td><strong>der Pass, ⸚e</strong></td><td>passport</td><td>Hast du deinen Pass dabei?</td></tr><tr><td><strong>das Reiseziel, -e</strong></td><td>destination</td><td>Was ist dein Traumziel?</td></tr><tr><td><strong>die Unterkunft, ⸚e</strong></td><td>accommodation</td><td>Wir suchen eine gemütliche Unterkunft.</td></tr><tr><td><strong>der Strand, ⸚e</strong></td><td>beach</td><td>Wir liegen gerne am Strand.</td></tr><tr><td><strong>sich entspannen</strong></td><td>to relax</td><td>Am Strand kann ich mich entspannen.</td></tr><tr><td><strong>die Postkarte, -n</strong></td><td>postcard</td><td>Ich schreibe eine Postkarte aus dem Urlaub.</td></tr><tr><td><strong>das Schiff, -e</strong></td><td>ship</td><td>Wir machen eine Reise mit dem Schiff.</td></tr><tr><td><strong>die Sehenswürdigkeit, -en</strong></td><td>tourist attraction</td><td>In der Altstadt gibt es viele Sehenswürdigkeiten.</td></tr><tr><td><strong>besichtigen</strong></td><td>to visit / sightsee</td><td>Hast du den Big Ben in London besichtigt?</td></tr><tr><td><strong>die Aussicht, -en</strong></td><td>view</td><td>Wir haben ein Zimmer mit Aussicht gebucht.</td></tr><tr><td><strong>sich lohnen</strong></td><td>to be worth it</td><td>Der Ausflug hat sich gelohnt.</td></tr><tr><td><strong>die Touristeninformation, -en</strong></td><td>tourist information</td><td>Wo finde ich die Touristeninformation?</td></tr><tr><td><strong>die Stadtführung, -en</strong></td><td>city tour</td><td>Bei einer Stadtführung zeigt man Touristen die Stadt.</td></tr><tr><td><strong>der Reiseleiter, -</strong></td><td>tour guide</td><td>Der Reiseleiter veranstaltet eine Segway-Tour.</td></tr><tr><td><strong>der Eintrittspreis, -e</strong></td><td>admission price</td><td>Der Eintrittspreis für das Museum ist 13 €.</td></tr><tr><td><strong>die Ermäßigung, -en</strong></td><td>discount</td><td>Kinder bekommen eine Ermäßigung.</td></tr><tr><td><strong>gemütlich</strong></td><td>cozy</td><td>Unser Hotelzimmer ist sehr gemütlich.</td></tr><tr><td><strong>sich beschweren</strong></td><td>to complain</td><td>Ich werde mich beim Hotelmanager beschweren.</td></tr><tr><td><strong>ausfalllen</strong></td><td>to be cancelled</td><td>Der Flug muss ausfallen, weil das Wetter schlecht ist.</td></tr><tr><td><strong>verspätet</strong></td><td>delayed</td><td>Heute Morgen war das Taxi verspätet.</td></tr><tr><td><strong>verpassen</strong></td><td>to miss</td><td>Ich habe meinen Flug verpasst.</td></tr><tr><td><strong>überfüllt</strong></td><td>overcrowded</td><td>Der Strand ist total überfüllt.</td></tr><tr><td><strong>das Visum, Visa</strong></td><td>visa</td><td>Für die Einreise braucht man ein Visum.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Reflexive and Separable Verbs in Travel",
+        "type": "grammar",
+        "content": "<p>In this lesson, we practice verbs commonly used when traveling. Some of these are <strong>reflexive verbs</strong>, and others are <strong>separable verbs</strong>.</p><h4>Reflexive Verbs (Reflexive Verben):</h4><ul><li><strong>sich entspannen</strong> (to relax) — <em>Ich entspanne mich am Strand.</em></li><li><strong>sich lohnen</strong> (to be worth it) — <em>Es lohnt sich, nach Berlin zu reisen.</em></li><li><strong>sich beschweren über + Akk / bei + Dat</strong> (to complain about / to) — <em>Ich werde mich beim Hotelmanager über mein kleines Zimmer beschweren.</em></li></ul><h4>Separable Verbs (Trennbare Verben):</h4><ul><li><strong>einpacken</strong> (to pack) — <em>Ich packe meinen Koffer ein.</em></li><li><strong>auspacken</strong> (to unpack) — <em>Wir packen unsere Taschen aus.</em></li><li><strong>ausfallen</strong> (to be cancelled) — <em>Der Flug fällt aus.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom) & Expressions",
+        "type": "idiom",
+        "content": "<p><strong>Jede Reise beginnt mit dem ersten Schritt.</strong></p><p>Bedeutung: Man soll große Projekte Schritt für Schritt machen. Wenn man nur die große Aufgabe sieht, ist man leicht demotiviert.</p><p><em>Beispiel:</em><br/><em>- Wir wollen unser Haus komplett renovieren. Es gibt so viel zu tun. Ich weiß gar nicht, wo wir anfangen sollen.</em><br/><em>- Macht doch ein Zimmer nach dem anderen. Jede Reise beginnt mit dem ersten Schritt.</em></p><h4>Everyday travel phrase:</h4><p><strong>in der Weltgeschichte umherreisen</strong> = to travel all over the place / around the world.</p><p><em>Beispiel: Familie Meier ist ein Jahr lang nur mit einem Rucksack in der Weltgeschichte umhergereist.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Wir haben ein Zimmer mit ___ gebucht.",
+        "answer": "Aussicht",
+        "hint": "view"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is the German word for 'destination'?",
+        "options": [
+          "die Unterkunft",
+          "das Reiseziel",
+          "der Koffer",
+          "das Gepäck"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German feelings and travel words to their English meanings.",
+        "pairs": [
+          [
+            "einpacken",
+            "to pack"
+          ],
+          [
+            "auspacken",
+            "to unpack"
+          ],
+          [
+            "entspannen",
+            "to relax"
+          ],
+          [
+            "besichtigen",
+            "to visit / sightsee"
+          ],
+          [
+            "lohnen",
+            "to be worth it"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'sich beschweren' means 'to complain'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Children get a discount.",
+        "target": "Kinder bekommen eine Ermäßigung."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Flug",
+          "verpasst",
+          "Ich",
+          "habe",
+          "meinen"
+        ],
+        "answer": "Ich habe meinen Flug verpasst."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Der Flug muss ___, weil das Wetter schlecht ist.",
+        "answer": "ausfallen",
+        "hint": "to be cancelled"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Which preposition goes with 'sich beschweren' when talking about the person you complain to?",
+        "options": [
+          "bei",
+          "über",
+          "mit",
+          "von"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Ausfallen' is a regular prefix verb (separable).",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "For the entry one needs a visa.",
+        "target": "Für die Einreise braucht man ein Visum."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'überfüllt' mean?",
+        "options": [
+          "empty",
+          "crowded / packed",
+          "expensive",
+          "beautiful"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Hast du den Big Ben in London ___?",
+        "answer": "besichtigt",
+        "hint": "visited / sightseen (past participle)"
+      },
+      {
+        "type": "true_false",
+        "statement": "'das Flugzeug' means 'the suitcase'.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence is grammatically correct?",
+        "options": [
+          "Ich werde mich beim Hotelmanager beschweren.",
+          "Ich werde mich über Hotelmanager beschweren.",
+          "Ich werde mich mit Hotelmanager beschweren.",
+          "Ich werde mich von Hotelmanager beschweren."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Jede Reise beginnt mit dem ersten ___.",
+        "answer": "Schritt",
+        "hint": "step"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "packe",
+          "Ich",
+          "Koffer",
+          "meinen",
+          "ein"
+        ],
+        "answer": "Ich packe meinen Koffer ein."
+      },
+      {
+        "type": "translation",
+        "sentence": "The hotel room is very cozy.",
+        "answer": "Das Hotelzimmer ist sehr gemütlich."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'in der Weltgeschichte umherreisen' mean?",
+        "options": [
+          "To study the history of the world",
+          "To stay in one city for a long time",
+          "To travel all over the place",
+          "To write a history book"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "statement": "'Sich lohnen' is reflexive and means 'to be worth it'.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Heute Morgen war das Taxi verspätet, deshalb habe ich meinen Flug ___.",
+        "answer": "verpasst",
+        "hint": "missed (past participle)"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Remembering your Trips",
+    "titleDe": "Mein letzter Urlaub",
+    "type": "speaking",
+    "icon": "📸",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>in Erinnerung bleiben</strong></td><td>to remain in memory</td><td>Diese Weltreise wird mir mein Leben lang in Erinnerung bleiben.</td></tr><tr><td><strong>der/die Einheimische, -n</strong></td><td>local / native</td><td>Familie Meier wollte die Einheimischen kennenlernen.</td></tr><tr><td><strong>abenteuerlustig</strong></td><td>adventurous</td><td>Frau Meier ist sehr abenteuerlustig.</td></tr><tr><td><strong>das Entwicklungsland, ⸚er</strong></td><td>developing country</td><td>Sie reisen in ein Entwicklungsland.</td></tr><tr><td><strong>das Fernweh</strong></td><td>wanderlust / urge to travel</td><td>Nach der Reise haben sie immer noch Fernweh.</td></tr><tr><td><strong>das Heimweh</strong></td><td>homesickness</td><td>Zu Weihnachten haben die Meiers ein bisschen Heimweh bekommen.</td></tr><tr><td><strong>auswandern</strong></td><td>to emigrate</td><td>Sie wollen in die USA oder nach Neuseeland auswandern.</td></tr><tr><td><strong>beschwerlich</strong></td><td>arduous / difficult</td><td>Die Arbeit auf den Reisfeldern ist beschwerlich.</td></tr><tr><td><strong>sich ins Ungewisse wagen</strong></td><td>to venture into the unknown</td><td>Es ist immer spannend, sich ins Ungewisse vorzuwagen.</td></tr><tr><td><strong>die Erfahrung, -en</strong></td><td>experience</td><td>Sie haben nur gute Erfahrungen gemacht.</td></tr><tr><td><strong>entdecken</strong></td><td>to discover</td><td>Es gibt immer etwas Neues zu entdecken.</td></tr><tr><td><strong>gefährlich</strong></td><td>dangerous</td><td>Reisen in Kolumbien fanden die Meiers nicht gefährlich.</td></tr><tr><td><strong>die Gastfreundschaft</strong></td><td>hospitality</td><td>Sie machten gute Erfahrungen mit der Gastfreundschaft.</td></tr><tr><td><strong>die Safari, -s</strong></td><td>safari</td><td>Familie Meier hat auf einer Safari gefährliche Tiere gesehen.</td></tr><tr><td><strong>die Weltreise, -n</strong></td><td>world trip</td><td>Sie haben eine Weltreise gemacht.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Local and Temporal Prepositions (Lokale und temporale Präpositionen)",
+        "type": "grammar",
+        "content": "<p>When talking about past trips, we use various prepositions to describe <strong>where</strong> (local) and <strong>when</strong> (temporal) events took place.</p><h4>Local Prepositions (Lokale Präpositionen):</h4><ul><li><strong>durch + Akkusativ</strong> — <em>eine Tour durch den Regenwald</em></li><li><strong>gegenüber von + Dativ</strong> — <em>gegenüber vom Botanischen Garten</em></li><li><strong>aus + Dativ</strong> — <em>aus einer kleinen Stadt kommen</em></li><li><strong>von + Dativ</strong> — <em>Vom Hotel sind es 2 Minuten zum Strand.</em></li><li><strong>bei + Dativ</strong> — <em>bei einer Gastfamilie / bei Frau Meiers Cousine wohnen</em></li><li><strong>nach + Dativ</strong> — <em>nach Indien / nach Roatan fliegen</em></li><li><strong>zu + Dativ</strong> — <em>zum Arzt gehen</em></li></ul><h4>Temporal Prepositions (Temporale Präpositionen):</h4><ul><li><strong>um + Akkusativ</strong> (exact time) — <em>um 7 Uhr</em></li><li><strong>für + Akkusativ</strong> (duration) — <em>für eine Woche / für 12 Monate</em></li><li><strong>am (an + dem) + Dativ</strong> (days, dates, parts of day) — <em>am Dienstag / am Abend / am 16. Mai</em></li><li><strong>im (in + dem) + Dativ</strong> (months, seasons, future periods) — <em>im Juli / im September</em></li><li><strong>vor + Dativ</strong> (before) — <em>vor einer Woche / vorletztem Jahr</em></li><li><strong>nach + Dativ</strong> (after) — <em>nach der Reise</em></li><li><strong>seit + Dativ</strong> (since) — <em>seit drei Tagen</em></li><li><strong>ab + Dativ</strong> (starting from) — <em>ab nächster Woche</em></li><li><strong>bei + Dativ</strong> (during/concurrently) — <em>beim Frühstück</em></li><li><strong>von ... bis ...</strong> (from ... to ...) — <em>von Januar bis Dezember</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom) & Phrases",
+        "type": "idiom",
+        "content": "<p><strong>Viele Wege führen nach Rom.</strong></p><p>Bedeutung: Es gibt mehrere Lösungen für ein Problem. (There are many ways to solve a problem / all roads lead to Rome.)</p><p><em>Beispiel: Im Campingurlaub waren die Zelte kaputt. Ich habe mein Zelt repariert, meine Freundin hat eine Plastiktüte über das Loch geklebt. Das hat auch funktioniert. Viele Wege führen nach Rom.</em></p><h4>Everyday phrase:</h4><p><strong>Urlaub auf Balkonien machen</strong> = to spend vacation at home (literally: 'on Balconia').</p><p><em>Beispiel: Ich habe letztes Jahr Urlaub auf Balkonien gemacht. Das war auch schön.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Diese Weltreise wird mir mein Leben lang in ___ bleiben.",
+        "answer": "Erinnerung",
+        "hint": "memory"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is the meaning of 'das Fernweh'?",
+        "options": [
+          "homesickness",
+          "wanderlust / urge to travel",
+          "hospitality",
+          "emigration"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [
+          [
+            "auswandern",
+            "to emigrate"
+          ],
+          [
+            "beschwerlich",
+            "arduous / difficult"
+          ],
+          [
+            "entdecken",
+            "to discover"
+          ],
+          [
+            "gefährlich",
+            "dangerous"
+          ],
+          [
+            "abenteuerlustig",
+            "adventurous"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The local preposition 'durch' always takes the accusative case.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "They lived with a host family.",
+        "target": "Sie haben bei einer Gastfamilie gewohnt."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "waren",
+          "Weltreise",
+          "von",
+          "Januar",
+          "bis",
+          "Dezember",
+          "auf",
+          "Sie"
+        ],
+        "answer": "Sie waren von Januar bis Dezember auf Weltreise."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct temporal preposition.",
+        "sentence": "Der Flug geht morgen ___ 8 Uhr.",
+        "answer": "um",
+        "hint": "preposition for exact time"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Which of these prepositions is used to describe two actions happening simultaneously?",
+        "options": [
+          "vor",
+          "seit",
+          "bei",
+          "ab"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Balkonien' is a real country in the Mediterranean.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Many roads lead to Rome.",
+        "target": "Viele Wege führen nach Rom."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is 'Heimweh'?",
+        "options": [
+          "wanderlust",
+          "homesickness",
+          "hospitality",
+          "experience"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Es ist immer spannend, sich ins ___ vorzuwagen.",
+        "answer": "Ungewisse",
+        "hint": "unknown (neutral noun)"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Die Einheimischen' refers to the tour guides.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which preposition is used for a duration/time span in: 'Sie hatten ___ eine Woche kein Internet'?",
+        "options": [
+          "um",
+          "für",
+          "bei",
+          "ab"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Vor einer Woche ist die Familie in Berlin ___.",
+        "answer": "gelandet",
+        "hint": "landed (past participle)"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Wege",
+          "viele",
+          "Rom",
+          "nach",
+          "führen"
+        ],
+        "answer": "Viele Wege führen nach Rom."
+      },
+      {
+        "type": "translation",
+        "sentence": "We lived with Frau Meier's cousin.",
+        "answer": "Wir haben bei Frau Meiers Cousine gewohnt."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the meaning of the colloquial expression 'Urlaub auf Balkonien machen'?",
+        "options": [
+          "To travel to a tropical island",
+          "To stay at home and enjoy one's balcony",
+          "To sleep in a tent",
+          "To take a cruise ship"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "statement": "'Gegenüber von' takes the dative case.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Zu Weihnachten haben die Meiers ein bisschen ___ bekommen.",
+        "answer": "Heimweh",
+        "hint": "homesickness"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Checking in to a Hotel",
+    "titleDe": "Gespräche im Hotel",
+    "type": "vocabulary",
+    "icon": "🔑",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Check-in, -s</strong></td><td>check-in</td><td>Der Check-in erfolgt an der Rezeption.</td></tr><tr><td><strong>buchen</strong></td><td>to book</td><td>Familie Schmidt möchte ihren Sommerurlaub buchen.</td></tr><tr><td><strong>der Frühbucher-Rabatt, -e</strong></td><td>early bird discount</td><td>Sie buchen im Januar für einen Frühbucher-Rabatt.</td></tr><tr><td><strong>der Ferienort, -e</strong></td><td>holiday resort</td><td>Sie haben sich für einen Ferienort entschieden.</td></tr><tr><td><strong>die Pension, -en</strong></td><td>guesthouse / boarding house</td><td>Herr Schmidt wollte gerne in eine Pension gehen.</td></tr><tr><td><strong>die Übernachtung, -en</strong></td><td>overnight stay</td><td>Sie buchen 14 Übernachtungen.</td></tr><tr><td><strong>die Abreise, -n</strong></td><td>departure</td><td>Die Abreise ist am 3. Oktober.</td></tr><tr><td><strong>die Anreise, -n</strong></td><td>arrival / travel to destination</td><td>Ich hoffe, Sie hatten eine angenehme Anreise.</td></tr><tr><td><strong>sich sonnen</strong></td><td>to sunbathe</td><td>Herr Schmidt sonnt sich gerne am Strand.</td></tr><tr><td><strong>der Sonnenbrand, ⸚e</strong></td><td>sunburn</td><td>Damit er keinen Sonnenbrand bekommt, cremt er sich ein.</td></tr><tr><td><strong>sich eincremen</strong></td><td>to put on sun cream</td><td>Er cremt sich am Strand gut ein.</td></tr><tr><td><strong>der Ausflug, ⸚e</strong></td><td>excursion / trip</td><td>Sie machen einen Ausflug zu einem Badeort.</td></tr><tr><td><strong>die Zeitzone, -n</strong></td><td>time zone</td><td>Die Türkei liegt in einer anderen Zeitzone.</td></tr><tr><td><strong>der Jetlag, -s</strong></td><td>jetlag</td><td>Nach dem Flug in die USA hatte er einen Jetlag.</td></tr><tr><td><strong>der Aufzug, ⸚e</strong></td><td>elevator</td><td>Ihr Zimmer befindet sich neben dem Aufzug.</td></tr><tr><td><strong>die Schlüsselkarte, -n</strong></td><td>key card</td><td>Hier ist Ihre Schlüsselkarte.</td></tr><tr><td><strong>der Schlüssel, -</strong></td><td>key</td><td>Hier ist Ihr Schlüssel.</td></tr><tr><td><strong>der Aufenthalt, -e</strong></td><td>stay</td><td>Wir wünschen einen angenehmen Aufenthalt.</td></tr><tr><td><strong>ausschlafen</strong></td><td>to sleep in</td><td>Im Urlaub lassen meine Kinder mich nicht ausschlafen.</td></tr><tr><td><strong>All-Inclusive-Angebote</strong></td><td>all-inclusive offers</td><td>Viele Deutsche lieben All-Inclusive-Angebote.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Compound Nouns and Hotel Prepositions",
+        "type": "grammar",
+        "content": "<p>In German, many words related to travel and hotels are compound nouns. We also practice prepositional phrases used during check-in.</p><h4>Noun Compounds (Nomenkomposita):</h4><p>German compound nouns combine two or more nouns. The gender and plural endings are always determined by the last noun:</p><ul><li>die Zeit + die Zone = <strong>die Zeitzone</strong> (plural: die Zeitzonen)</li><li>der Frühbucher + der Rabatt = <strong>der Frühbucher-Rabatt</strong></li><li>der Sommer + der Urlaub = <strong>der Sommerurlaub</strong></li><li>die Sonne + der Brand = <strong>der Sonnenbrand</strong></li><li>das Mittel + das Meer = <strong>das Mittelmeer</strong></li><li>die Ferien + der Ort = <strong>der Ferienort</strong></li></ul><h4>Common Hotel Prepositions:</h4><ul><li><strong>auf den Namen + Akk</strong> — <em>ein Zimmer auf den Namen Schmidt reserviert</em></li><li><strong>im + Dat</strong> — <em>im 2. Stock / im 1. Stock links vom Aufzug</em></li><li><strong>neben + Dat</strong> — <em>neben dem Aufzug</em></li><li><strong>auf + Akk</strong> (view of) — <em>einen tollen Blick auf den Park gegenüber</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>jemanden willkommen heißen</strong></p><p>Bedeutung: jemanden freundlich begrüßen (to welcome someone / bid someone welcome).</p><p><em>Beispiel: Im Hotel haben sie uns mit einer Schokolade auf dem Bett willkommen geheißen.</em></p><h4>Everyday phrase:</h4><p><strong>die Absteige</strong> = a cheap, run-down, or dirty hotel (a dump).</p><p><em>Beispiel: Ihr Hotel war eine Absteige.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Sie buchen schon im Januar, dann gibt es einen ___.",
+        "answer": "Frühbucher-Rabatt",
+        "hint": "early bird discount"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is 'die Pension'?",
+        "options": [
+          "guesthouse / boarding house",
+          "luxury hotel",
+          "airplane ticket",
+          "suitcase"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German compound nouns to their English meanings.",
+        "pairs": [
+          [
+            "die Zeitzone",
+            "the time zone"
+          ],
+          [
+            "der Sommerurlaub",
+            "the summer vacation"
+          ],
+          [
+            "der Sonnenbrand",
+            "the sunburn"
+          ],
+          [
+            "das Mittelmeer",
+            "the Mediterranean Sea"
+          ],
+          [
+            "der Ferienort",
+            "the holiday resort"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The gender of a German compound noun is determined by the first noun.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "We have reserved a room under the name Schmidt.",
+        "target": "Wir haben ein Zimmer auf den Namen Schmidt reserviert."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "befindet",
+          "im",
+          "Stock",
+          "Zimmer",
+          "sich",
+          "zweiten",
+          "Ihr"
+        ],
+        "answer": "Ihr Zimmer befindet sich im zweiten Stock."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Damit er keinen Sonnenbrand bekommt, ___ er sich gut ein.",
+        "answer": "cremt",
+        "hint": "to put on sun cream (3rd person singular)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is the opposite of 'die Anreise'?",
+        "options": [
+          "der Check-in",
+          "die Abreise",
+          "der Jetlag",
+          "der Ausflug"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Die Absteige' is a colloquial term for a high-quality hotel.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Here is your key card.",
+        "target": "Hier ist Ihre Schlüsselkarte."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the meaning of 'ausschlafen'?",
+        "options": [
+          "to sleep in",
+          "to wake up early",
+          "to fall asleep",
+          "to complain"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ihr Zimmer befindet sich im 2. Stock neben dem ___.",
+        "answer": "Aufzug",
+        "hint": "elevator"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Buchen' means 'to cancel'.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of these compound nouns takes the article 'das'?",
+        "options": [
+          "Zeitzone",
+          "Sommerurlaub",
+          "Mittelmeer",
+          "Sonnenbrand"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wir wünschen Ihnen einen angenehmen ___.",
+        "answer": "Aufenthalt",
+        "hint": "stay"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "wir",
+          "haben",
+          "Zimmer",
+          "reserviert",
+          "ein"
+        ],
+        "answer": "Wir haben ein Zimmer reserviert."
+      },
+      {
+        "type": "translation",
+        "sentence": "They welcomed us at the hotel.",
+        "answer": "Sie haben uns im Hotel willkommen geheißen."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 'eine Absteige'?",
+        "options": [
+          "A run-down / cheap hotel (dump)",
+          "A luxury hotel room",
+          "A boarding ticket for a flight",
+          "A travel agent guide"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "statement": "'Die Übernachtung' means 'overnight stay'.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich habe zwei ___ in einer Pension gebucht.",
+        "answer": "Übernachtungen",
+        "hint": "overnight stays (plural)"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Reading: My Best Holidays",
+    "titleDe": "Mein bester Urlaub",
+    "type": "reading",
+    "icon": "🏖️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Reading Passage",
+        "type": "reading",
+        "content": "<h4>Alex und Nils in New York</h4><p>Es ist Freitagabend, 21 Uhr. Alex und Louise sitzen in Louises Wohnzimmer und trinken Rotwein, denn draußen ist es regnerisch. Sie sprechen über ihre bisherigen Urlaube. Alex erzählt Louise von dem Trip mit Nils nach New York, denn das war der beste Urlaub bisher. Nils und Alex haben damals fast den Flug verpasst, denn Nils hat seinen Reisepass vergessen und dann konnte Alex sein Ticket nicht finden. Aber sie hatten Glück und waren gerade noch rechtzeitig am Flughafen. In New York haben die beiden Männer viele Sehenswürdigkeiten besichtigt, zum Beispiel die Freiheitsstatue und das Empire State Building. Vom Empire State Building hatte man eine super Aussicht und konnte die ganze Stadt sehen. Mit dem Hotel hatten die Männer zuerst nicht so viel Glück. Das erste Zimmer war sehr schmutzig. Also haben sie sich beschwert und gefragt, ob sie ein anderes Zimmer bekommen können. Das nächste Zimmer war zwar klein, aber gemütlich und sauber. Alex hofft trotzdem, nächstes Mal einen Urlaub abseits vom Massentourismus machen zu können, denn New York war sehr überfüllt mit Touristen. Alex möchte im nächsten Urlaub mehr Abenteuer erleben.</p><h4>Louise in Tansania</h4><p>Louise erzählt von ihrer Zeit in Tansania, wo sie nach der Schule für sechs Monate bei einer Gastfamilie gewohnt hat. Allein das traditionelle Leben dort war ein Abenteuer für Louise, denn es war ganz anders als ihr Leben in Frankreich. Sie hat mit den Einheimischen gelebt, gekocht und viel Spaß gehabt. Auch wenn die lokalen Bräuche sehr anders waren als in ihrer Heimat, hat Louise die Bräuche respektiert und sie lieben gelernt. Manchmal war das Leben ein bisschen beschwerlich, denn sie war von zu Hause mehr Luxus gewohnt und die Familie, bei der sie gelebt hat, lebte von der Hand in den Mund. Aber sie hat sich ins Ungewisse vorgewagt und so viele Abenteuer erlebt. Zum Beispiel ist sie mit fremden Leuten per Anhalter zum Strand gefahren, ohne Plan, ob sie eine Mitfahrgelegenheit zurück findet. Sie hat viele schöne Erfahrungen in Tansania gemacht. Nach dem Auslandsaufenthalt hatte sie immer Fernweh, denn sie wollte noch mehr entdecken. Deswegen hat sie sich entschlossen, auszuwandern. Wenn auch „nur“ nach Deutschland.</p>"
+      },
+      {
+        "sectionTitle": "Key Vocabulary & Grammar: Adjective 'super' and making assumptions",
+        "type": "vocabulary",
+        "content": "<h4>Vocabulary:</h4><ul><li><strong>per Anhalter fahren</strong> — to hitchhike</li><li><strong>abseits vom Massentourismus</strong> — away from mass tourism</li><li><strong>lokale Bräuche respektieren</strong> — to respect local customs</li><li><strong>die Vermutung, -en</strong> — assumption / conjecture</li></ul><h4>Grammar:</h4><h5>1. The Adjective 'super':</h5><p>The word <strong>super</strong> can be used as an adjective, but it does NOT take any endings when placed before a noun.</p><ul><li><em>Vom Empire State Building hatte man eine <strong>super</strong> Aussicht.</em> (Not: <em>supere</em>)</li><li><em>Stimmt und dann noch der <strong>super</strong> Sonnenuntergang.</em> (Not: <em>supere</em>)</li></ul><h5>2. Making Assumptions (Vermutungen anstellen):</h5><p>To express conjectures or theories, use these phrase starters:</p><ul><li><em>Ich denke, dass ...</em> (I think that ...)</li><li><em>Ich vermute, dass ...</em> (I assume/suspect that ...)</li><li><em>Ich kann mir vorstellen, dass ...</em> (I can imagine that ...)</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>von der Hand in den Mund leben</strong></p><p>Bedeutung: Sehr arm sein; das Geld, das man verdient, direkt wieder ausgeben (to live from hand to mouth).</p><p><em>Beispiel: Die Familie, bei der Louise gewohnt hat, war relativ arm. Sie haben von der Hand in den Mund gelebt.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Das erste Zimmer war sehr schmutzig. Also haben sie sich ___.",
+        "answer": "beschwert",
+        "hint": "complained (past participle)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is the meaning of 'von der Hand in den Mund leben'?",
+        "options": [
+          "To eat only raw food",
+          "To live from hand to mouth (be very poor)",
+          "To speak before thinking",
+          "To travel without a passport"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German expressions to their English meanings.",
+        "pairs": [
+          [
+            "per Anhalter fahren",
+            "to hitchhike"
+          ],
+          [
+            "abseits vom Massentourismus",
+            "away from mass tourism"
+          ],
+          [
+            "die Vermutung",
+            "the assumption"
+          ],
+          [
+            "respektieren",
+            "to respect"
+          ],
+          [
+            "schmutzig",
+            "dirty"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The adjective 'super' gets regular endings (like 'supere' or 'superer') before a noun.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Louise lived in Tanzania for six months.",
+        "target": "Louise hat für sechs Monate in Tansania gewohnt."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "dass",
+          "kommt",
+          "Ich",
+          "er",
+          "denke"
+        ],
+        "answer": "Ich denke dass er kommt."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Sie ist mit fremden Leuten per ___ zum Strand gefahren.",
+        "answer": "Anhalter",
+        "hint": "hitchhiker (part of phrase meaning 'to hitchhike')"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Why did Alex and Nils almost miss their flight?",
+        "options": [
+          "Because the flight was cancelled due to bad weather",
+          "Because Nils forgot his passport and Alex couldn't find his ticket",
+          "Because the taxi was delayed",
+          "Because they were sleeping in the hotel"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Louise decided to emigrate because she had Fernweh.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "They drink red wine because it is rainy outside.",
+        "target": "Sie trinken Rotwein, denn draußen ist es regnerisch."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'per Anhalter fahren' mean?",
+        "options": [
+          "To drive a car",
+          "To hitchhike",
+          "To go by boat",
+          "To take a taxi"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Alex hofft, nächstes Mal einen Urlaub abseits vom ___ zu machen.",
+        "answer": "Massentourismus",
+        "hint": "mass tourism"
+      },
+      {
+        "type": "true_false",
+        "statement": "In New York, Alex and Nils did not visit the Empire State Building.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of these phrases is correct?",
+        "options": [
+          "eine super Aussicht",
+          "eine supere Aussicht",
+          "eine superen Aussicht",
+          "eine superer Aussicht"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die Familie, bei der sie gelebt hat, lebte von der Hand in den ___.",
+        "answer": "Mund",
+        "hint": "mouth"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "kann",
+          "vorstellen",
+          "mir",
+          "dass",
+          "Ich"
+        ],
+        "answer": "Ich kann mir vorstellen dass"
+      },
+      {
+        "type": "translation",
+        "sentence": "Louise respected the local customs.",
+        "answer": "Louise hat die lokalen Bräuche respektiert."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How long did Louise live in Tanzania?",
+        "options": [
+          "Two weeks",
+          "Six months",
+          "One year",
+          "Six years"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "statement": "'Die Vermutung' means 'the experience'.",
+        "answer": false
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Nils hat seinen ___ vergessen.",
+        "answer": "Reisepass",
+        "hint": "passport"
+      }
+    ]
+  }
+]

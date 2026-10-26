@@ -1,0 +1,840 @@
+[
+  {
+    "id": 49,
+    "title": "Reading the news",
+    "titleDe": "Nachrichten lesen",
+    "type": "vocabulary",
+    "icon": "📰",
+    "lectureContent": [
+      {
+        "sectionTitle": "Wortschatz: Print- & Onlinemedien",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>das Abonnement, -s (Abo)</strong></td><td>subscription</td><td>Ich habe ein Abonnement für die Tageszeitung.</td></tr><tr><td><strong>die Paywall, -s</strong></td><td>paywall</td><td>Dieser Artikel ist leider hinter einer Paywall versteckt.</td></tr><tr><td><strong>Printmedien (Pl.)</strong></td><td>print media</td><td>Trotz des Internets lesen viele Leute immer noch Printmedien.</td></tr><tr><td><strong>reißerisch</strong></td><td>sensationalist / clickbaity</td><td>Der Titel des Artikels ist sehr reißerisch.</td></tr><tr><td><strong>auf dem neuesten Stand sein</strong></td><td>to be up to date</td><td>Ich will immer auf dem neuesten Stand sein.</td></tr><tr><td><strong>der Kanal, &auml;-e</strong></td><td>channel</td><td>Zeitungen findet man heute auf allen Kanälen.</td></tr><tr><td><strong>der Artikel, -</strong></td><td>article</td><td>Hast du den neuesten Artikel gelesen?</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Journalistische Textsorten",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beschreibung</th></tr></thead><tbody><tr><td><strong>der Bericht, -e</strong></td><td>report</td><td>Ein Bericht ist objektiv und beantwortet Fakten (wer, was, wann, wo).</td></tr><tr><td><strong>der Kommentar, -e</strong></td><td>commentary / editorial</td><td>Im Kommentar schreibt der Journalist seine eigene Meinung zu einem Thema.</td></tr><tr><td><strong>die Reportage, -n</strong></td><td>reportage / feature story</td><td>Hier stehen Menschen und Handlungen im Mittelpunkt, oft sehr lebendig geschrieben.</td></tr><tr><td><strong>die Kritik, -en / Rezension, -en</strong></td><td>review</td><td>Eine Bewertung von Filmen, Büchern oder Theaterstücken.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Redewendung des Tages",
+        "type": "idiom",
+        "content": "<p><strong>etwas an die gro&szlig;e Glocke h&auml;ngen</strong></p><p>Bedeutung: aus einer nicht so wichtigen Information eine gro&szlig;e Meldung machen (to publicize / shout from the rooftops).</p><p><em>Beispiel: Wenn ein Prominenter heiratet, h&auml;ngt die Boulevardpresse jedes Detail an die gro&szlig;e Glocke.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Ich habe fünf Nachrichten-Apps, ich will immer auf dem neuesten ___ sein!",
+        "answer": "Stand",
+        "hint": "up to date (state)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'reißerisch' mean?",
+        "options": [
+          "objective",
+          "sensationalist",
+          "scientific",
+          "boring"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [
+          [
+            "das Abonnement",
+            "subscription"
+          ],
+          [
+            "die Paywall",
+            "paywall"
+          ],
+          [
+            "Printmedien",
+            "print media"
+          ],
+          [
+            "der Kanal",
+            "channel"
+          ],
+          [
+            "der Artikel",
+            "article"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Ungefähr 54% der Deutschen lesen regelmäßig eine gedruckte Zeitung.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The tabloid press publicizes every detail.",
+        "target": "Die Boulevardpresse hängt jedes Detail an die große Glocke."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Zeitungen",
+          "man",
+          "findet",
+          "auf",
+          "Kanälen",
+          "allen"
+        ],
+        "answer": "Zeitungen findet man auf allen Kanälen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Ein ___ ist objektiv, die Meinung des Journalisten ist unwichtig.",
+        "answer": "Bericht",
+        "hint": "report"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is the meaning of the idiom 'etwas an die große Glocke hängen'?",
+        "options": [
+          "To ring a big bell in a church",
+          "To make a minor piece of information a big news story",
+          "To read print newspapers only",
+          "To write an objective report"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In einer Reportage schreibt der Journalist hauptsächlich seine eigene Meinung zu einem Theaterstück.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Articles are often hidden behind a paywall.",
+        "target": "Artikel sind oft hinter einer Paywall versteckt."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which text type is objective and answers questions about facts (who, what, when, where, why)?",
+        "options": [
+          "der Kommentar",
+          "der Bericht",
+          "die Glosse",
+          "die Rezension"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wir müssen für dieser Artikel bezahlen, da er hinter einer ___ liegt.",
+        "answer": "Paywall",
+        "hint": "paywall"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Auf dem neuesten Stand sein' means to have up-to-date information.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "He has a newspaper subscription.",
+        "answer": "Er hat ein Zeitungsabonnement."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "ist",
+          "wirklich",
+          "tot",
+          "Print",
+          "?"
+        ],
+        "answer": "Print ist wirklich tot?"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'das Abonnement' mean?",
+        "options": [
+          "A contract for a regular newspaper",
+          "A sensationalist article headline",
+          "An objective report about local news",
+          "A channel on social media"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Guck mal, so ein ___ Titel! Eigentlich geht es nur um neue Buspreise.",
+        "answer": "reißerischer",
+        "hint": "sensationalist"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Die Glosse' is an objective report where the writer's opinion is completely unimportant.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "sentence": "I don't like sensationalist titles.",
+        "answer": "Ich mag keine reißerischen Titel."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "hängt",
+          "die",
+          "Boulevardpresse",
+          "jedes",
+          "Detail",
+          "an",
+          "die",
+          "große",
+          "Glocke"
+        ],
+        "answer": "Die Boulevardpresse hängt jedes Detail an die große Glocke."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Journalism in social media",
+    "titleDe": "Journalismus in den sozialen Medien",
+    "type": "speaking",
+    "icon": "📱",
+    "lectureContent": [
+      {
+        "sectionTitle": "Wortschatz: Soziale Medien & Algorithmen",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Filterblase (nur Sg.)</strong></td><td>filter bubble</td><td>Der Algorithmus sorgt dafür, dass man in seiner Filterblase bleibt.</td></tr><tr><td><strong>der Algorithmus, die Algorithmen</strong></td><td>algorithm</td><td>Der Algorithmus bestimmt den Inhalt meines Newsfeeds.</td></tr><tr><td><strong>der Beitrag, &auml;-e</strong></td><td>post / contribution</td><td>Sie teilt jeden Tag interessante Beiträge.</td></tr><tr><td><strong>der Inhalt, -e</strong></td><td>content</td><td>Journalistische Inhalte verbreiten sich schnell in den sozialen Medien.</td></tr><tr><td><strong>sich verbreiten</strong></td><td>to spread / circulate</td><td>Meldungen verbreiten sich weltweit in Sekundenschnelle.</td></tr><tr><td><strong>die Quelle, -n</strong></td><td>source</td><td>Man sollte immer verschiedene Quellen vergleichen.</td></tr><tr><td><strong>skeptisch</strong></td><td>skeptical</td><td>Ich bin skeptisch, wenn eine Nachricht zu unglaublich klingt.</td></tr><tr><td><strong>verlässlich</strong></td><td>reliable / trustworthy</td><td>Ist diese Quelle wirklich verlässlich?</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Aussprache: Plosive und Auslautverh&auml;rtung",
+        "type": "grammar",
+        "content": "<p>Im Deutschen unterscheiden wir stimmhafte und stimmlose Plosive:</p><ul><li><strong>Stimmhaft:</strong> b, d, g (weich ausgesprochen, z.B. <em>die B&ouml;rse</em>, <em>das Bargeld</em>)</li><li><strong>Stimmlos:</strong> p, t, k (hart ausgesprochen, z.B. <em>die Kreditkarte</em>, <em>das Sparkonto</em>)</li></ul><p><strong>Auslautverh&auml;rtung (Final Devoicing):</strong> Wenn stimmhafte Plosive am Ende einer Silbe oder eines Wortes stehen, werden sie stimmlos ausgesprochen (b &rarr; p, d &rarr; t, g &rarr; k).<br/>Beispiele: <em>der Urlaub</em> (wie p), <em>das Geld</em> (wie t), <em>der Antrag</em> (wie k).</p>"
+      },
+      {
+        "sectionTitle": "Redewendung",
+        "type": "idiom",
+        "content": "<p><strong>blau&auml;ugig sein</strong></p><p>Bedeutung: naiv sein (to be naive / blue-eyed).</p><p><em>Beispiel: Man sollte nicht so blau&auml;ugig sein und alles glauben, was irgendwo im Internet steht.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Algorithmen bestimmen, welche Nachrichten wir im ___ sehen.",
+        "answer": "Newsfeed",
+        "hint": "newsfeed"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'blauäugig sein' mean?",
+        "options": [
+          "To have blue eyes",
+          "To be naive",
+          "To be skeptical",
+          "To use social networks"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [
+          [
+            "die Filterblase",
+            "filter bubble"
+          ],
+          [
+            "sich verbreiten",
+            "to spread"
+          ],
+          [
+            "skeptisch",
+            "skeptical"
+          ],
+          [
+            "verlässlich",
+            "reliable"
+          ],
+          [
+            "der Beitrag",
+            "post / contribution"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Falschmeldungen führen oft zu Missverständnissen und Ärger.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "One should not be naive.",
+        "target": "Man sollte nicht so blauäugig sein."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Filterblase",
+          "Nutzer",
+          "in",
+          "bleiben",
+          "ihrer",
+          "eigenen"
+        ],
+        "answer": "Nutzer bleiben in ihrer eigenen Filterblase."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "In sozialen Netzwerken bestimmen ___, was die Nutzer sehen.",
+        "answer": "Algorithmen",
+        "hint": "algorithms (plural)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Which of these is a voiced plosive (stimmhaft) in German?",
+        "options": [
+          "p",
+          "t",
+          "d",
+          "k"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Due to 'Auslautverhärtung', the letter 'd' at the end of 'Geld' is pronounced like 't'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "News spreads very fast.",
+        "target": "Meldungen verbreiten sich sehr schnell."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What determines which posts we see in our newsfeed?",
+        "options": [
+          "die Filterblase",
+          "der Algorithmus",
+          "die Echtheit",
+          "der Papiergeruch"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Es ist wichtig, dass wir die Echtheit der Nachrichten ___.",
+        "answer": "prüfen",
+        "hint": "to check / verify"
+      },
+      {
+        "type": "true_false",
+        "statement": "Algorithmen help to find compromises by showing diverse opinions.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "sentence": "I am always skeptical.",
+        "answer": "Ich bin immer skeptisch."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Inhalte",
+          "entscheidet",
+          "wir",
+          "sehen",
+          "welche",
+          "Der",
+          "Algorithmus"
+        ],
+        "answer": "Der Algorithmus entscheidet, welche Inhalte wir sehen."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word represents 'authenticity'?",
+        "options": [
+          "die Falschmeldung",
+          "die Echtheit",
+          "die Filterblase",
+          "die Ansicht"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wir müssen verschiedene ___ vergleichen, um uns zu schützen.",
+        "answer": "Quellen",
+        "hint": "sources (plural)"
+      },
+      {
+        "type": "true_false",
+        "statement": "Under Final Devoicing (Auslautverhärtung), 'b' at the end of 'Urlaub' is pronounced like 'p'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "Do you also read news there?",
+        "answer": "Liest du dort auch Nachrichten?"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "sich",
+          "schnell",
+          "über",
+          "sozialen",
+          "die",
+          "Medien",
+          "verbreiten",
+          "Inhalte"
+        ],
+        "answer": "Inhalte verbreiten sich schnell über die sozialen Medien."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Dealing with fake news",
+    "titleDe": "Mit Fake News umgehen",
+    "type": "reading",
+    "icon": "🔍",
+    "lectureContent": [
+      {
+        "sectionTitle": "Wortschatz: Fake News & Clickbait",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>anklicken</strong></td><td>to click on</td><td>Ich wollte den Link anklicken, um mehr zu lesen.</td></tr><tr><td><strong>auf etwas hereinfallen</strong></td><td>to fall for something</td><td>Er ist auf diese Falschmeldung hereingefallen.</td></tr><tr><td><strong>ins Auge springen</strong></td><td>to catch the eye</td><td>Clickbait-Schlagzeilen springen einem sofort ins Auge.</td></tr><tr><td><strong>der Content (nur Sg.)</strong></td><td>content</td><td>Im Internet gibt es unendlich viel Content.</td></tr><tr><td><strong>das Clickbait</strong></td><td>clickbait</td><td>Dieses Video ist reiner Clickbait.</td></tr><tr><td><strong>der Deepfake</strong></td><td>deepfake</td><td>Deepfakes sehen heute erschreckend realistisch aus.</td></tr><tr><td><strong>bezweifeln</strong></td><td>to doubt</td><td>Ich bezweifle, dass dieses Foto echt ist.</td></tr><tr><td><strong>scheinen</strong></td><td>to seem</td><td>Das Video scheint echt zu sein.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammatik: Zweifel ausdr&uuml;cken mit bezweifeln und scheinen",
+        "type": "grammar",
+        "content": "<p>Um Unsicherheit oder Zweifel zu formulieren, nutzt man häufig die Verben <strong>bezweifeln</strong> und <strong>scheinen</strong>:</p><ul><li><strong>bezweifeln + dass-Satz:</strong> Ich bezweifle, dass die Geschichte wahr ist. (I doubt that the story is true.)</li><li><strong>scheinen + zu + Infinitiv:</strong> Die Nachricht scheint gef&auml;lscht zu sein. (The news seems to be faked.)</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung",
+        "type": "idiom",
+        "content": "<p><strong>jemandem etwas abkaufen</strong></p><p>Bedeutung: jemandem eine L&uuml;ge glauben, ohne zu z&ouml;gern (to buy into something / believe someone's story).</p><p><em>Beispiel: Er wollte mir weismachen, das Foto sei echt, aber das kaufe ich ihm nicht ab.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Clickbait-Videos springen einem sofort ___ Auge.",
+        "answer": "ins",
+        "hint": "into (contraction of in + das)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'jemandem etwas abkaufen' mean?",
+        "options": [
+          "To buy something from someone",
+          "To believe someone's lie without hesitation",
+          "To click on a link",
+          "To create a deepfake"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [
+          [
+            "auf etwas hereinfallen",
+            "to fall for something"
+          ],
+          [
+            "bezweifeln",
+            "to doubt"
+          ],
+          [
+            "scheinen",
+            "to seem"
+          ],
+          [
+            "ins Auge springen",
+            "to catch the eye"
+          ],
+          [
+            "anklicken",
+            "to click on"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Ich bezweifle, dass...' is used to express that you are absolutely certain about something.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The video seems to be real.",
+        "target": "Das Video scheint echt zu sein."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "dass",
+          "bezweifle",
+          "das",
+          "echt",
+          "ist",
+          "Ich",
+          "Video"
+        ],
+        "answer": "Ich bezweifle, dass das Video echt ist."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Viele Leute fallen auf Fake News herein, weil sie so ___ aussehen.",
+        "answer": "realistisch",
+        "hint": "realistic"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Which term describes headlines designed to make people click on a link?",
+        "options": [
+          "Deepfake",
+          "Clickbait",
+          "Content",
+          "Newsfeed"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Fake News are stories that spread correct information.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I fell completely for it.",
+        "target": "Ich bin voll darauf reingefallen."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "How do you translate: 'I doubt that the video is real'?",
+        "options": [
+          "Das Video scheint echt zu sein.",
+          "Ich bezweifle, dass das Video echt ist.",
+          "Ich glaube, dass das Video echt ist.",
+          "Das Video ist definitiv echt."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Er versucht, nicht so lange durch die sozialen Medien zu ___.",
+        "answer": "scrollen",
+        "hint": "to scroll"
+      },
+      {
+        "type": "true_false",
+        "statement": "Deepfakes look very realistic, making them easy to fall for.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "Is this information from a reliable source?",
+        "answer": "Kommt diese Information aus einer verlässlichen Quelle?"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Internet",
+          "gibt",
+          "Heutzutage",
+          "im",
+          "Clickbait",
+          "viel",
+          "so"
+        ],
+        "answer": "Heutzutage gibt es so viel Clickbait im Internet."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which verb goes with 'zu sein' to express 'it seems to be'?",
+        "options": [
+          "bezweifeln",
+          "scheinen",
+          "anklicken",
+          "hereinfallen"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich habe ihm seine Ausrede nicht ___.",
+        "answer": "abgekauft",
+        "hint": "bought (believed a lie)"
+      },
+      {
+        "type": "true_false",
+        "statement": "Clickbait refers to posts that deliberately try to avoid drawing attention.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "sentence": "You should check the source!",
+        "answer": "Du musst die Quelle checken!"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "die",
+          "immer",
+          "Überschriften",
+          "sofort",
+          "springen",
+          "ins",
+          "Auge"
+        ],
+        "answer": "Die Überschriften springen immer sofort ins Auge."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Globalization",
+    "titleDe": "Globalisierung",
+    "type": "reading",
+    "icon": "🌐",
+    "lectureContent": [
+      {
+        "sectionTitle": "Wortschatz: Globalisierung & Wirtschaft",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Wohlstand (nur Sg.)</strong></td><td>prosperity / wealth</td><td>Dank der Globalisierung steigt global der Wohlstand.</td></tr><tr><td><strong>das Wirtschaftswachstum (Sg.)</strong></td><td>economic growth</td><td>Die Ökonomie profitiert vom stetigen Wirtschaftswachstum.</td></tr><tr><td><strong>der Welthandel (nur Sg.)</strong></td><td>world trade</td><td>Welthandel bedeutet freien Import und Export auf der ganzen Welt.</td></tr><tr><td><strong>die Mobilit&auml;t (nur Sg.)</strong></td><td>mobility</td><td>Die Mobilität erlaubt es Menschen, einfacher international zu reisen.</td></tr><tr><td><strong>der Informationsaustausch (Sg.)</strong></td><td>exchange of information</td><td>Das Internet beschleunigt den globalen Informationsaustausch.</td></tr><tr><td><strong>das Monopol, -e</strong></td><td>monopoly</td><td>Einige wenige Firmen besitzen ein Monopol.</td></tr><tr><td><strong>der Exportschlager, -</strong></td><td>export hit</td><td>Autos sind der bekannteste deutsche Exportschlager.</td></tr><tr><td><strong>Global Player (Pl.)</strong></td><td>global players / multinational companies</td><td>Global Player dominieren heute viele Wirtschaftsbereiche.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Kritik an der Globalisierung",
+        "type": "vocabulary",
+        "content": "<p>Obwohl die Globalisierung viele Vorteile bietet, gibt es auch erhebliche Kritik:</p><ul><li>Westliche L&auml;nder profitieren am meisten (Reiche werden reicher, Arme &auml;rmer).</li><li>Kleinere Unternehmen leiden unter der starken Konkurrenz durch Global Player.</li><li>Wirtschaftliche Abh&auml;ngigkeiten f&uuml;hren schnell zu politischen Konflikten.</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung",
+        "type": "idiom",
+        "content": "<p><strong>auch Schattenseiten haben</strong></p><p>Bedeutung: neben offensichtlichen positiven Seiten auch Nachteile haben (to have downsides / a dark side).</p><p><em>Beispiel: Die Globalisierung hat viele Vorteile, aber sie hat definitiv auch Schattenseiten.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Dank der Globalisierung steigt der ___ und es gibt keine Grenzen mehr.",
+        "answer": "Wohlstand",
+        "hint": "prosperity"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is 'der Welthandel'?",
+        "options": [
+          "National economy",
+          "World trade",
+          "Global language",
+          "Political conflict"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [
+          [
+            "das Wirtschaftswachstum",
+            "economic growth"
+          ],
+          [
+            "die Mobilität",
+            "mobility"
+          ],
+          [
+            "der Informationsaustausch",
+            "exchange of information"
+          ],
+          [
+            "die Sprachkenntnisse",
+            "language skills"
+          ],
+          [
+            "das Monopol",
+            "monopoly"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Auch Schattenseiten haben' means to have only positive effects.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Cars are the German export hit.",
+        "target": "Autos sind der deutsche Exportschlager."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "hat",
+          "Globalisierung",
+          "auch",
+          "Die",
+          "Schattenseiten"
+        ],
+        "answer": "Die Globalisierung hat auch Schattenseiten."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Große Konzerne, die weltweit agieren, nennt man ___.",
+        "answer": "Global Player",
+        "hint": "multinational corporations"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Who profits the most from globalization according to critics?",
+        "options": [
+          "Only small local businesses",
+          "Mainly western countries",
+          "Nobody at all",
+          "Developing countries only"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Globalization causes people to travel less and reduces mobility.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The rich become richer and the poor become poorer.",
+        "target": "Die Reichen werden reicher und die Armen ärmer."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'das Wirtschaftswachstum' mean?",
+        "options": [
+          "Economic decline",
+          "Economic growth",
+          "World trade",
+          "Monopoly"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Einige Firmen haben global besonders viel Einfluss, sie haben fast ein ___.",
+        "answer": "Monopol",
+        "hint": "monopoly"
+      },
+      {
+        "type": "true_false",
+        "statement": "Economic conflicts can quickly turn into political conflicts.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "We all benefit!",
+        "answer": "Wir profitieren alle!"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "um",
+          "Kultur",
+          "Sorgen",
+          "meine",
+          "Ich",
+          "mache",
+          "unsere",
+          "mir"
+        ],
+        "answer": "Ich mache mir Sorgen um unsere Kultur."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which term matches 'export hit'?",
+        "options": [
+          "der Welthandel",
+          "der Exportschlager",
+          "das Wirtschaftswachstum",
+          "der Wohlstand"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Das Internet ermöglicht einen schnellen ___.",
+        "answer": "Informationsaustausch",
+        "hint": "exchange of information"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Die Mobilität' means that people can travel more easily and move more freely.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "Globalization has downsides.",
+        "answer": "Die Globalisierung hat Schattenseiten."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "voneinander",
+          "abhängig",
+          "sind",
+          "weil",
+          "wir",
+          "so",
+          "sehr"
+        ],
+        "answer": "weil wir so sehr voneinander abhängig sind"
+      }
+    ]
+  }
+]

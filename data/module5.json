@@ -1,0 +1,759 @@
+[
+  {
+    "id": 17,
+    "title": "Review of Modal Verbs",
+    "titleDe": "Wiederholung der Modalverben",
+    "type": "grammar",
+    "icon": "📝",
+    "lectureContent": [
+      {
+        "sectionTitle": "Die Modalverben: Bedeutung",
+        "type": "grammar",
+        "content": "<p>German has six modal verbs, each expressing a different shade of meaning:</p><table><thead><tr><th>Modalverb</th><th>Bedeutung</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>können</strong></td><td>Fähigkeit / Möglichkeit (ability / possibility)</td><td>Ich <em>kann</em> gut singen.</td></tr><tr><td><strong>müssen</strong></td><td>Notwendigkeit / Zwang (necessity / obligation)</td><td>Wir <em>müssen</em> heute arbeiten.</td></tr><tr><td><strong>sollen</strong></td><td>Auftrag / Befehl (task / command)</td><td>Du <em>sollst</em> dein Zimmer aufräumen.</td></tr><tr><td><strong>dürfen</strong></td><td>Erlaubnis (permission)</td><td>Hier <em>darf</em> man parken.</td></tr><tr><td><strong>wollen</strong></td><td>Bedürfnis (want / desire)</td><td>Ich <em>will</em> jetzt schlafen.</td></tr><tr><td><strong>möchte(n)</strong></td><td>Bedürfnis – höflich (polite want)</td><td>Ich <em>möchte</em> ein Eis essen.</td></tr></tbody></table><p><em>möchte(n)</em> funktioniert wie ein Modalverb und ist höflicher als <em>wollen</em>.</p>"
+      },
+      {
+        "sectionTitle": "Die Modalverben im Präsens",
+        "type": "grammar",
+        "content": "<p>Complete present-tense conjugation of all six modal verbs:</p><table><thead><tr><th>Pronomen</th><th>können</th><th>müssen</th><th>sollen</th><th>dürfen</th><th>wollen</th><th>möchte(n)</th></tr></thead><tbody><tr><td><strong>ich</strong></td><td>kann</td><td>muss</td><td>soll</td><td>darf</td><td>will</td><td>möchte</td></tr><tr><td><strong>du</strong></td><td>kannst</td><td>musst</td><td>sollst</td><td>darfst</td><td>willst</td><td>möchtest</td></tr><tr><td><strong>er/sie/es</strong></td><td>kann</td><td>muss</td><td>soll</td><td>darf</td><td>will</td><td>möchte</td></tr><tr><td><strong>wir</strong></td><td>können</td><td>müssen</td><td>sollen</td><td>dürfen</td><td>wollen</td><td>möchten</td></tr><tr><td><strong>ihr</strong></td><td>könnt</td><td>müsst</td><td>sollt</td><td>dürft</td><td>wollt</td><td>möchtet</td></tr><tr><td><strong>sie/Sie</strong></td><td>können</td><td>müssen</td><td>sollen</td><td>dürfen</td><td>wollen</td><td>möchten</td></tr></tbody></table><p>Notice: <em>ich</em> and <em>er/sie/es</em> always share the same form. The <em>wir</em> and <em>sie/Sie</em> forms are identical to the infinitive.</p>"
+      },
+      {
+        "sectionTitle": "Die Modalverben im Präteritum",
+        "type": "grammar",
+        "content": "<p>The simple past (Präteritum) of modal verbs is used very frequently in spoken and written German:</p><table><thead><tr><th>Pronomen</th><th>können</th><th>müssen</th><th>sollen</th><th>dürfen</th><th>wollen</th></tr></thead><tbody><tr><td><strong>ich</strong></td><td>konnte</td><td>musste</td><td>sollte</td><td>durfte</td><td>wollte</td></tr><tr><td><strong>du</strong></td><td>konntest</td><td>musstest</td><td>solltest</td><td>durftest</td><td>wolltest</td></tr><tr><td><strong>er/sie/es</strong></td><td>konnte</td><td>musste</td><td>sollte</td><td>durfte</td><td>wollte</td></tr><tr><td><strong>wir</strong></td><td>konnten</td><td>mussten</td><td>sollten</td><td>durften</td><td>wollten</td></tr><tr><td><strong>ihr</strong></td><td>konntet</td><td>musstet</td><td>solltet</td><td>durftet</td><td>wolltet</td></tr><tr><td><strong>sie/Sie</strong></td><td>konnten</td><td>mussten</td><td>sollten</td><td>durften</td><td>wollten</td></tr></tbody></table><p>⚠️ <strong>Wichtig:</strong> Von <em>möchte(n)</em> gibt es kein Präteritum. Im Präteritum und Perfekt wird <em>möchte(n)</em> durch eine Form von <em>wollen</em> ersetzt.</p><p><strong>Beispiel:</strong> <em>Ich möchte ein Stück Erdbeerkuchen essen.</em> → Präteritum: <em>Ich <strong>wollte</strong> ein Stück Erdbeerkuchen essen.</em></p>"
+      },
+      {
+        "sectionTitle": "Modalverben im Perfekt: Der Doppelinfinitiv",
+        "type": "grammar",
+        "content": "<p>When a modal verb is used with a full verb (Vollverb) in the Perfekt, a special <strong>double infinitive</strong> construction is required. There is <strong>no Partizip II</strong> — instead both verbs appear as infinitives at the end of the sentence.</p><p><strong>Struktur:</strong> <em>haben</em> (konjugiert) + Vollverb (Infinitiv) + Modalverb (Infinitiv)</p><table><thead><tr><th>Präsens</th><th>Perfekt</th></tr></thead><tbody><tr><td>Ich <em>kann</em> gut singen.</td><td>Ich <em>habe</em> gut singen <em>können</em>.</td></tr><tr><td>Nina <em>muss</em> arbeiten.</td><td>Nina <em>hat</em> arbeiten <em>müssen</em>.</td></tr><tr><td>Ich <em>soll</em> mein Zimmer aufräumen.</td><td>Ich <em>habe</em> mein Zimmer aufräumen <em>sollen</em>.</td></tr><tr><td>Anita <em>darf</em> allein zur Schule fahren.</td><td>Anita <em>hat</em> allein zur Schule fahren <em>dürfen</em>.</td></tr><tr><td>Uta <em>will</em> noch nicht schlafen.</td><td>Uta <em>hat</em> noch nicht schlafen <em>wollen</em>.</td></tr><tr><td>Du <em>musst</em> heute arbeiten.</td><td>Du <em>hast</em> heute arbeiten <em>müssen</em>.</td></tr></tbody></table><p>Die Vergangenheitsform von <em>möchte(n)</em> wird mit <em>wollen</em> ersetzt: <em>Ihr möchtet ein neues Auto kaufen.</em> → <em>Ihr habt ein neues Auto kaufen <strong>wollen</strong>.</em></p>"
+      },
+      {
+        "sectionTitle": "Verneinte Modalverben",
+        "type": "grammar",
+        "content": "<p>To negate a modal verb, place <strong>nicht</strong> after the modal verb:</p><table><thead><tr><th>Positiv</th><th>Negativ</th></tr></thead><tbody><tr><td>Ich <em>will</em> jetzt schlafen.</td><td>Ich <em>will</em> jetzt <strong>nicht</strong> schlafen.</td></tr><tr><td>Hanna <em>kann</em> Auto fahren.</td><td>Hanna <em>kann</em> <strong>nicht</strong> Auto fahren.</td></tr><tr><td>Paul <em>möchte</em> lesen.</td><td>Paul <em>möchte</em> <strong>nicht</strong> lesen.</td></tr><tr><td>Anna <em>soll</em> den Hund füttern.</td><td>Anna <em>soll</em> <strong>nicht</strong> den Hund füttern.</td></tr><tr><td>Hier <em>darf</em> man rauchen.</td><td>Hier <em>darf</em> man <strong>nicht</strong> rauchen.</td></tr><tr><td>Ich <em>muss</em> kochen.</td><td>Ich <em>muss</em> <strong>nicht</strong> kochen.</td></tr></tbody></table><p>Bei den Modalverben ändert sich die Bedeutung bei der Verneinung nicht.</p>"
+      },
+      {
+        "sectionTitle": "Wortschatz",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>Englisch</th></tr></thead><tbody><tr><td>das Modalverb, -en</td><td>modal verb</td></tr><tr><td>die Erlaubnis</td><td>permission</td></tr><tr><td>die Fähigkeit, -en</td><td>ability</td></tr><tr><td>die Möglichkeit, -en</td><td>possibility</td></tr><tr><td>die Notwendigkeit</td><td>necessity</td></tr><tr><td>der Zwang</td><td>compulsion</td></tr><tr><td>der Auftrag, Aufträge</td><td>task / assignment</td></tr><tr><td>der Befehl, -e</td><td>command / order</td></tr><tr><td>das Bedürfnis, -se</td><td>need / desire</td></tr><tr><td>die Vergangenheitsform</td><td>past tense form</td></tr><tr><td>der Vollverb, -en</td><td>full/main verb</td></tr><tr><td>die Verneinung, -en</td><td>negation</td></tr><tr><td>aufräumen</td><td>to tidy up</td></tr><tr><td>rauchen</td><td>to smoke</td></tr><tr><td>füttern</td><td>to feed (an animal)</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Redewendung: Wer kann, der kann.",
+        "type": "culture",
+        "content": "<p><strong>Wer kann, der kann.</strong></p><p><em>Bedeutung:</em> Wenn man etwas besonders gut gemacht hat, kann man damit sein eigenes Selbstbewusstsein ausdrücken.</p><p><em>Beispiel:</em> „Wow, das hast du aber super gemacht!\" – „Tja, wer kann, der kann.\"</p><p><em>English equivalent:</em> \"If you've got it, flaunt it.\" / \"Those who can, can.\"</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Modalverb im Präsens.",
+        "sentence": "Sabine ___ sehr gut singen.",
+        "answer": "kann",
+        "hint": "können – describes an ability"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Modalverb im Präsens.",
+        "sentence": "Wir ___ heute lange arbeiten.",
+        "answer": "müssen",
+        "hint": "müssen – describes necessity"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Welches Modalverb beschreibt eine Erlaubnis?",
+        "question": "Welches Modalverb beschreibt eine Erlaubnis?",
+        "options": ["können", "dürfen", "sollen", "wollen"],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Modalverben ihrer Bedeutung zu.",
+        "pairs": [
+          ["können", "Fähigkeit / Möglichkeit"],
+          ["müssen", "Notwendigkeit / Zwang"],
+          ["sollen", "Auftrag / Befehl"],
+          ["dürfen", "Erlaubnis"],
+          ["wollen", "Bedürfnis"]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Von möchte(n) gibt es ein Präteritum.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze den Satz ins Deutsche.",
+        "source": "As a child, I was not allowed to watch TV.",
+        "target": "Als Kind habe ich nicht fernsehen dürfen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Schreibe den Satz im Perfekt (Doppelinfinitiv).",
+        "sentence": "Ich ___ gut singen können. (haben – Perfekt)",
+        "answer": "habe",
+        "hint": "haben + Vollverb-Infinitiv + Modalverb-Infinitiv"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": ["nicht", "ich", "arbeiten", "habe", "wollen"],
+        "answer": "Ich habe nicht arbeiten wollen."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Wie sagt man 'Ich möchte lesen' im Präteritum?",
+        "question": "Wie sagt man 'Ich möchte lesen' im Präteritum?",
+        "options": ["Ich möchtete lesen.", "Ich wollte lesen.", "Ich habe lesen möchten.", "Ich konnte lesen."],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Verneine den Satz.",
+        "sentence": "Hier darf man ___ rauchen.",
+        "answer": "nicht",
+        "hint": "nicht steht hinter dem Modalverb"
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das Modalverb im Präsens.",
+        "sentence": "Du ___ dein Zimmer aufräumen, Anna!",
+        "answer": "sollst",
+        "hint": "sollen – describes a command"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das Modalverb im Präsens.",
+        "sentence": "Hier ___ man rauchen.",
+        "answer": "darf",
+        "hint": "dürfen – describes permission"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Welche Form ist korrekt im Präteritum?",
+        "question": "'Als Kind ___ ich nicht Auto fahren.' (können)",
+        "options": ["konnte", "kann", "könnte", "gekonnt"],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Im Perfekt mit Modalverben gibt es meistens kein Partizip II, wenn ein Vollverb im Infinitiv dabei ist.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze ins Deutsche.",
+        "source": "Marina could not swim.",
+        "target": "Marina hat nicht schwimmen können."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": ["Anita", "zur", "allein", "hat", "dürfen", "fahren", "Schule"],
+        "answer": "Anita hat allein zur Schule fahren dürfen."
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Präteritumformen den Modalverben zu.",
+        "pairs": [
+          ["konnte", "können"],
+          ["musste", "müssen"],
+          ["sollte", "sollen"],
+          ["durfte", "dürfen"],
+          ["wollte", "wollen"]
+        ]
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Schreibe den Satz im Perfekt.",
+        "sentence": "Wir ___ die Küche putzen sollen.",
+        "answer": "haben",
+        "hint": "haben + Vollverb-Infinitiv + Modalverb-Infinitiv"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Was bedeutet 'Wer kann, der kann.'?",
+        "question": "Was bedeutet die Redewendung 'Wer kann, der kann.'?",
+        "options": ["Man drückt Selbstbewusstsein aus, wenn man etwas gut gemacht hat.", "Man soll immer alles alleine machen.", "Wer arbeitet, verdient Geld.", "Man braucht keine Hilfe."],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Verneine den Satz korrekt.",
+        "sentence": "Antonia muss heute ___ arbeiten.",
+        "answer": "nicht",
+        "hint": "nicht steht nach dem Modalverb"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Making Plans",
+    "titleDe": "Pläne machen",
+    "type": "vocabulary",
+    "icon": "📋",
+    "lectureContent": [
+      {
+        "sectionTitle": "Wortschatz: Pläne und Wünsche",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>Englisch</th><th>Beispiel</th></tr></thead><tbody><tr><td>der Plan, Pläne</td><td>plan</td><td>Ich habe viele Pläne für die Zukunft.</td></tr><tr><td>das Ziel, -e</td><td>goal</td><td>Mein Ziel ist, viel Geld zu verdienen.</td></tr><tr><td>der Traum, Träume</td><td>dream</td><td>Mein Traum ist, berühmt zu werden.</td></tr><tr><td>der Wunsch, Wünsche</td><td>wish</td><td>Ihr Wunsch ist, eine große Familie zu haben.</td></tr><tr><td>planen</td><td>to plan</td><td>Sie plant, ihr Studium zu beenden.</td></tr><tr><td>sich wünschen</td><td>to wish for</td><td>Leah wünscht sich, berühmt zu sein.</td></tr><tr><td>hoffen</td><td>to hope</td><td>Ich hoffe, den Job zu bekommen.</td></tr><tr><td>versprechen</td><td>to promise</td><td>Er verspricht, mehr Sport zu treiben.</td></tr><tr><td>vorhaben</td><td>to intend/plan</td><td>Tim hat vor, ein neues Auto zu kaufen.</td></tr><tr><td>hoffentlich</td><td>hopefully</td><td>Hoffentlich geht es ihr bald besser!</td></tr><tr><td>wahrscheinlich</td><td>probably</td><td>Er wird wahrscheinlich mehr Gemüse essen.</td></tr><tr><td>die Zukunft</td><td>future</td><td>Ich habe viele Pläne für die Zukunft.</td></tr><tr><td>die Beförderung, -en</td><td>promotion</td><td>Hoffentlich bekomme ich die Beförderung.</td></tr><tr><td>erfolgreich</td><td>successful</td><td>Sie möchte eine erfolgreiche Managerin werden.</td></tr><tr><td>das Studium</td><td>studies (university)</td><td>Leah plant, ihr Studium zu beenden.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Pläne vs. Wünsche",
+        "type": "vocabulary",
+        "content": "<p>It's important to distinguish between <em>Pläne</em> (plans — concrete intentions) and <em>Wünsche</em> (wishes — desires that may or may not come true).</p><table><thead><tr><th>Pläne 📋</th><th>Wünsche 💭</th></tr></thead><tbody><tr><td>der Plan</td><td>wünschen</td></tr><tr><td>das Ziel</td><td>hoffen</td></tr><tr><td>planen</td><td>der Traum</td></tr><tr><td></td><td>der Wunsch</td></tr><tr><td></td><td>hoffentlich</td></tr></tbody></table><p>Some words like <em>das Ziel</em> and <em>hoffen</em> can fit in both categories depending on context.</p>"
+      },
+      {
+        "sectionTitle": "Infinitivsätze mit zu",
+        "type": "grammar",
+        "content": "<p>German uses <strong>Infinitivsätze mit <em>zu</em></strong> (infinitive clauses with <em>zu</em>) to express plans, goals, and wishes. Key rules:</p><ul><li>The infinitive clause has <strong>no subject</strong> — it refers to the subject of the main clause.</li><li><em>zu</em> + Infinitiv stand <strong>am Ende</strong> des Infinitivsatzes.</li><li>A comma between the main clause and the infinitive clause is optional but recommended.</li></ul><table><thead><tr><th>Hauptsatz</th><th>Ergänzungen</th><th>zu + Infinitiv</th></tr></thead><tbody><tr><td>Ich habe vor,</td><td>ein neues Haus</td><td>zu bauen.</td></tr><tr><td>Ich habe den Plan,</td><td>mein Studium schnell</td><td>zu beenden.</td></tr><tr><td>Paolo hat das Ziel,</td><td>nächstes Jahr Deutsch</td><td>zu lernen.</td></tr><tr><td>Vera verspricht,</td><td>nicht mehr</td><td>zu lügen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Trennbare Verben im Infinitivsatz",
+        "type": "grammar",
+        "content": "<p>With <strong>separable verbs</strong> (trennbare Verben), <em>zu</em> is placed <strong>between</strong> the prefix and the verb stem:</p><table><thead><tr><th>Trennbares Verb</th><th>Infinitiv mit zu</th><th>Beispielsatz</th></tr></thead><tbody><tr><td>ab|nehmen</td><td>ab<strong>zu</strong>nehmen</td><td>Ich habe vor, fünf Kilo <strong>abzunehmen</strong>.</td></tr><tr><td>auf|stehen</td><td>auf<strong>zu</strong>stehen</td><td>Jenny hat den Plan, morgen früh <strong>aufzustehen</strong>.</td></tr><tr><td>an|ziehen</td><td>an<strong>zu</strong>ziehen</td><td>Das Kind verspricht, eine dicke Jacke <strong>anzuziehen</strong>.</td></tr><tr><td>um|ziehen</td><td>um<strong>zu</strong>ziehen</td><td>Hattet ihr nicht das Ziel, dieses Jahr <strong>umzuziehen</strong>?</td></tr><tr><td>ein|kaufen</td><td>ein<strong>zu</strong>kaufen</td><td>Ich habe vor, morgen <strong>einzukaufen</strong>.</td></tr></tbody></table><p>⚠️ Non-separable verbs work normally: <em>versprechen → zu versprechen</em>, <em>beenden → zu beenden</em>.</p>"
+      },
+      {
+        "sectionTitle": "Leahs Zukunftspläne (Lesetext)",
+        "type": "reading",
+        "content": "<p>Leah ist 22 Jahre alt und studiert Kunst an der Universität. Sie <strong>plant</strong>, nächstes Jahr ihr Studium <strong>zu beenden</strong>. Nach ihrem Studium möchte Leah ins Ausland gehen und Work & Travel machen. Leah hat den <strong>Plan</strong>, ein Jahr in Australien <strong>zu leben</strong>. Dort <strong>hat</strong> sie <strong>vor</strong>, zu arbeiten und viel Geld <strong>zu verdienen</strong>. Leahs beste Freundin <strong>verspricht</strong>, mit ihr nach Australien <strong>zu fliegen</strong>.</p><p>Nach dem Jahr in Australien hat Leah größere Pläne. Leah <strong>wünscht sich</strong>, in fünf Jahren eine erfolgreiche Schauspielerin <strong>zu sein</strong>. Sie hat das <strong>Ziel</strong>, dann berühmt <strong>zu sein</strong> und viel Geld <strong>zu verdienen</strong>.</p>"
+      },
+      {
+        "sectionTitle": "Redewendung: Pläne schmieden",
+        "type": "culture",
+        "content": "<p><strong>Pläne schmieden</strong></p><p><em>Bedeutung:</em> etwas planen (to make plans / to forge plans)</p><p><em>Beispiel:</em> „Ich freue mich so auf meinen Sommerurlaub. Mein Freund und ich schmieden schon Pläne, wohin wir fahren.\"</p><p><em>English equivalent:</em> \"to make plans\" / \"to forge plans\" (schmieden = to forge, like a blacksmith)</p>"
+      },
+      {
+        "sectionTitle": "So sagt man das!",
+        "type": "culture",
+        "content": "<p><strong>Hast du 'nen Plan, wie spät es ist?</strong></p><p>– Nee, hab' keinen Plan.</p><p><em>Bedeutung:</em> <em>keinen Plan haben</em> = etwas (nicht) wissen. It's colloquial German for \"I have no idea.\"</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "___ geht es ihr bald besser!",
+        "answer": "Hoffentlich",
+        "hint": "An adverb expressing hope"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Sie plant, bald etwas Neues zu ___.",
+        "answer": "versuchen",
+        "hint": "to try"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Was bedeutet 'vorhaben'?",
+        "question": "Was bedeutet 'vorhaben'?",
+        "options": ["etwas für sich selber planen", "etwas versprechen", "etwas vergessen", "etwas kaufen"],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Wörter ihrer Bedeutung zu.",
+        "pairs": [
+          ["der Plan", "plan"],
+          ["das Ziel", "goal"],
+          ["der Traum", "dream"],
+          ["der Wunsch", "wish"],
+          ["versprechen", "to promise"]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Im Infinitivsatz mit zu gibt es ein eigenes Subjekt.",
+        "answer": false
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Bilde den Infinitiv mit zu (trennbares Verb).",
+        "sentence": "Jenny hat den Plan, morgen früh ___. (aufstehen)",
+        "answer": "aufzustehen",
+        "hint": "Bei trennbaren Verben steht zu zwischen Präfix und Verbstamm"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": ["vor", "Fahrrad", "kaufen", "ich", "zu", "neues", "habe", "ein", "bald"],
+        "answer": "Ich habe vor, bald ein neues Fahrrad zu kaufen."
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze ins Deutsche. Benutze einen Infinitivsatz mit zu.",
+        "source": "Leah plans to finish her studies next year.",
+        "target": "Leah plant, nächstes Jahr ihr Studium zu beenden."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Was bedeutet die Redewendung 'Pläne schmieden'?",
+        "question": "Was bedeutet 'Pläne schmieden'?",
+        "options": ["etwas planen", "Pläne zerstören", "ohne Plan leben", "Schmied werden"],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Setze zu an die richtige Position.",
+        "sentence": "Hattet ihr nicht das Ziel, dieses Jahr ___? (umziehen)",
+        "answer": "umzuziehen",
+        "hint": "umziehen ist trennbar: um|ziehen → um-zu-ziehen"
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Wortschatz.",
+        "sentence": "Ich habe viele ___ für die Zukunft.",
+        "answer": "Pläne",
+        "hint": "Plural von Plan"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze den Infinitiv mit zu.",
+        "sentence": "Ich habe vor, ab morgen nicht mehr zu ___.",
+        "answer": "rauchen",
+        "hint": "to smoke"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Welcher Satz ist grammatisch korrekt?",
+        "question": "Welcher Infinitivsatz ist korrekt?",
+        "options": ["Nick wünscht sich, zehn Kilo abzunehmen.", "Nick wünscht sich, zehn Kilo zu abnehmen.", "Nick wünscht sich, zehn Kilo abnehmen zu.", "Nick wünscht sich, zu zehn Kilo abnehmen."],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Bei trennbaren Verben steht zu zwischen dem Präfix und dem Verbstamm.",
+        "answer": true
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die trennbaren Verben dem Infinitiv mit zu zu.",
+        "pairs": [
+          ["aufstehen", "aufzustehen"],
+          ["abnehmen", "abzunehmen"],
+          ["umziehen", "umzuziehen"],
+          ["anziehen", "anzuziehen"],
+          ["einkaufen", "einzukaufen"]
+        ]
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": ["wünscht", "eine", "zu", "Familie", "sich", "Leah", "haben", "große"],
+        "answer": "Leah wünscht sich, eine große Familie zu haben."
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze ins Deutsche.",
+        "source": "Nick's goal is to finish his studies in two years.",
+        "target": "Nick hat das Ziel, in zwei Jahren sein Studium zu beenden."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Thomas wird ___ mehr Gemüse essen.",
+        "answer": "wahrscheinlich",
+        "hint": "An adverb meaning 'probably'"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Was bedeutet 'keinen Plan haben'?",
+        "question": "Was bedeutet 'Hast du 'nen Plan?' umgangssprachlich?",
+        "options": ["Weißt du das?", "Hast du eine Idee für morgen?", "Hast du einen Kalender?", "Planst du eine Reise?"],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Leahs beste Freundin verspricht, mit ihr nach Australien zu fliegen.",
+        "answer": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Talking about the Future",
+    "titleDe": "Über die Zukunft sprechen",
+    "type": "speaking",
+    "icon": "🔮",
+    "lectureContent": [
+      {
+        "sectionTitle": "Futur I: werden + Infinitiv",
+        "type": "grammar",
+        "content": "<p>To talk about the future, German uses <strong>Futur I</strong>, formed with <em>werden</em> (conjugated) + Infinitiv at the end of the sentence.</p><table><thead><tr><th>Pronomen</th><th>werden</th><th>Beispiel</th></tr></thead><tbody><tr><td>ich</td><td>werde</td><td>Ich <em>werde</em> viel Geld <em>haben</em>.</td></tr><tr><td>du</td><td>wirst</td><td>Du <em>wirst</em> berühmt <em>werden</em>.</td></tr><tr><td>er/sie/es</td><td>wird</td><td>Er <em>wird</em> nie wieder arbeiten.</td></tr><tr><td>wir</td><td>werden</td><td>Wir <em>werden</em> glücklich <em>sein</em>.</td></tr><tr><td>ihr</td><td>werdet</td><td>Ihr <em>werdet</em> Erfolg <em>haben</em>.</td></tr><tr><td>sie/Sie</td><td>werden</td><td>Sie <em>werden</em> eine Weltreise <em>machen</em>.</td></tr></tbody></table><p>Futur I is used for:</p><ul><li><strong>Vorhersagen</strong> (predictions): <em>Mein Wahrsager sagt, ich werde reich werden.</em></li><li><strong>Vermutungen</strong> (assumptions): <em>Es wird wahrscheinlich regnen.</em></li><li><strong>Pläne und Absichten</strong> (plans): <em>Ich werde nächstes Jahr Deutsch lernen.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Wenn ..., dann ... (Konditionalsätze)",
+        "type": "grammar",
+        "content": "<p>The <strong>wenn...dann</strong> construction expresses conditions and their consequences:</p><table><thead><tr><th>Wenn-Satz (Bedingung)</th><th>Dann-Satz (Folge)</th></tr></thead><tbody><tr><td>Wenn ich in der Zukunft viel Geld verdiene,</td><td>dann kaufe ich ein Haus.</td></tr><tr><td>Wenn ich keinen Job finde,</td><td>dann muss ich weiter suchen.</td></tr><tr><td>Wenn ich morgen eine Million Euro gewinne,</td><td>dann reise ich um die Welt.</td></tr><tr><td>Wenn ich Deutsch gelernt habe,</td><td>dann kann ich in Deutschland arbeiten.</td></tr><tr><td>Wenn ich meine Ziele verfolge,</td><td>dann kann ich ein erfolgreiches Leben führen.</td></tr></tbody></table><p>⚠️ Im <em>wenn</em>-Satz steht das konjugierte Verb am <strong>Ende</strong>. Im <em>dann</em>-Satz steht das Verb direkt nach <em>dann</em> (Position 1).</p>"
+      },
+      {
+        "sectionTitle": "Die Aussprache von pf",
+        "type": "pronunciation",
+        "content": "<p>In German, <strong>pf</strong> is pronounced as a single sound — both the <em>p</em> and <em>f</em> are pronounced together, not separately.</p><table><thead><tr><th>Wort</th><th>Aussprache</th></tr></thead><tbody><tr><td>Apfel</td><td>/ˈap.fl̩/</td></tr><tr><td>Topf</td><td>/tɔpf/</td></tr><tr><td>Pflanze</td><td>/ˈpflan.tsə/</td></tr><tr><td>Pferd</td><td>/pfeːɐ̯t/</td></tr><tr><td>Kopf</td><td>/kɔpf/</td></tr><tr><td>Pfanne</td><td>/ˈpfa.nə/</td></tr><tr><td>kämpfen</td><td>/ˈkɛmp.fn̩/</td></tr><tr><td>pfeifen</td><td>/ˈpfaɪ̯.fn̩/</td></tr><tr><td>hüpfen</td><td>/ˈhʏp.fn̩/</td></tr><tr><td>Knopf</td><td>/knɔpf/</td></tr></tbody></table><p>Tip: Place your lips together (as for <em>p</em>), then release into <em>f</em> without a gap.</p><p><strong>f oder pf?</strong> Übe den Unterschied: fährt, Pferd, Pfadfinder, Abfall, Pflaster, Fehler, Pfeffer, falsch, Apfel.</p>"
+      },
+      {
+        "sectionTitle": "Wortschatz: Zukunft und Vorhersagen",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>Englisch</th></tr></thead><tbody><tr><td>sich wünschen</td><td>to wish for</td></tr><tr><td>die Zeit einteilen</td><td>to manage one's time</td></tr><tr><td>das Lebensziel, -e</td><td>life goal</td></tr><tr><td>die Vermutung, -en</td><td>assumption / guess</td></tr><tr><td>die Vorhersage, -n</td><td>prediction / forecast</td></tr><tr><td>Ziele haben</td><td>to have goals</td></tr><tr><td>bald</td><td>soon</td></tr><tr><td>hoffen</td><td>to hope</td></tr><tr><td>erfolgreich</td><td>successful</td></tr><tr><td>berühmt</td><td>famous</td></tr><tr><td>der Wahrsager, -</td><td>fortune teller</td></tr><tr><td>die Zukunft</td><td>future</td></tr><tr><td>verfolgen</td><td>to pursue</td></tr><tr><td>die Beziehung, -en</td><td>relationship</td></tr><tr><td>die Weltreise, -n</td><td>world trip</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Zukunftswünsche beschreiben",
+        "type": "speaking",
+        "content": "<p>Useful phrases for talking about your future:</p><ul><li><strong>Wie wird dein Leben in 20 Jahren aussehen?</strong> – What will your life look like in 20 years?</li><li><strong>Was ist dein Lebensziel?</strong> – What is your life goal?</li><li><strong>Welche Träume, Hoffnungen und Wünsche hast du?</strong> – What dreams, hopes, and wishes do you have?</li><li><em>Ich werde berühmt.</em> – I will become famous.</li><li><em>Ich werde viel Geld haben und muss nie wieder arbeiten.</em> – I will have a lot of money and never have to work again.</li></ul><p><strong>Bei der Wahrsagerin (Rollenspiel):</strong></p><p><em>Wahrsagerin:</em> Ich werde dir deine Zukunft vorhersagen.</p><p><em>John:</em> Was wird meine Zukunft bringen?</p>"
+      },
+      {
+        "sectionTitle": "Redewendung: nach vorn schauen",
+        "type": "culture",
+        "content": "<p><strong>nach vorn schauen</strong></p><p><em>Bedeutung:</em> an die (bessere) Zukunft denken — to look ahead / to look to the future</p><p><em>Beispiel:</em> „Mein Team hat heute verloren, aber wir schauen nach vorn. Das nächste Spiel gewinnen wir.\"</p><p><em>English equivalent:</em> \"to look forward\" / \"to look ahead\"</p>"
+      },
+      {
+        "sectionTitle": "So sagt man das!",
+        "type": "culture",
+        "content": "<p><strong>Wenn das Wörtchen 'wenn' nicht wär, … dann wär ich schon Millionär.</strong></p><p><em>Bedeutung:</em> A humorous saying about unrealistic conditional thinking. If only the word 'if' didn't exist, I'd already be a millionaire.</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze die richtige Form von 'werden'.",
+        "sentence": "Ich ___ viel Geld haben und muss nie wieder arbeiten.",
+        "answer": "werde",
+        "hint": "ich → werde"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Pia ___ sich, eine berühmte Schauspielerin zu werden.",
+        "answer": "wünscht",
+        "hint": "sich wünschen"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Wie wird 'pf' im Deutschen ausgesprochen?",
+        "question": "Wie wird 'pf' im Deutschen ausgesprochen?",
+        "options": ["p und f werden zusammen ausgesprochen", "Nur das f wird ausgesprochen", "Nur das p wird ausgesprochen", "p und f werden getrennt ausgesprochen"],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Wörter ihrer Bedeutung zu.",
+        "pairs": [
+          ["die Vorhersage", "prediction"],
+          ["die Vermutung", "assumption"],
+          ["das Lebensziel", "life goal"],
+          ["der Wahrsager", "fortune teller"],
+          ["die Weltreise", "world trip"]
+        ]
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": ["viel", "verdiene", "dann", "ein", "Haus", "wenn", "kaufe", "ich", "Geld", "ich"],
+        "answer": "Wenn ich viel Geld verdiene, dann kaufe ich ein Haus."
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Im wenn-Satz steht das konjugierte Verb am Ende.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Mia hat die ___, dass sie den Job nicht bekommen wird.",
+        "answer": "Vermutung",
+        "hint": "Assumption / guess"
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze ins Deutsche.",
+        "source": "If I find no job, then I will have to keep looking.",
+        "target": "Wenn ich keinen Job finde, dann muss ich weiter suchen."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Was bedeutet 'nach vorn schauen'?",
+        "question": "Was bedeutet die Redewendung 'nach vorn schauen'?",
+        "options": ["an die bessere Zukunft denken", "sich umdrehen", "in die Vergangenheit blicken", "nach vorne laufen"],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Bilde einen wenn...dann-Satz.",
+        "sentence": "___ ich Deutsch gelernt habe, dann kann ich in Deutschland arbeiten.",
+        "answer": "Wenn",
+        "hint": "Conditional conjunction"
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze die richtige Form von 'werden'.",
+        "sentence": "Du ___ berühmt werden.",
+        "answer": "wirst",
+        "hint": "du → wirst"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze die richtige Form von 'werden'.",
+        "sentence": "Sie (Plural) ___ eine Weltreise machen.",
+        "answer": "werden",
+        "hint": "sie (Plural) → werden"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Welches Wort enthält den Laut 'pf'?",
+        "question": "Welches Wort enthält den Laut 'pf'?",
+        "options": ["Pflanze", "Fehler", "falsch", "fahren"],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Futur I wird gebildet mit: werden (konjugiert) + Infinitiv.",
+        "answer": true
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": ["ich", "werde", "eine", "Weltreise", "machen", "morgen", "gewinne", "Euro", "dann", "Million", "wenn", "ich", "eine"],
+        "answer": "Wenn ich morgen eine Million Euro gewinne, dann werde ich eine Weltreise machen."
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die werden-Formen den Pronomen zu.",
+        "pairs": [
+          ["ich", "werde"],
+          ["du", "wirst"],
+          ["er/sie/es", "wird"],
+          ["ihr", "werdet"],
+          ["wir", "werden"]
+        ]
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze ins Deutsche.",
+        "source": "I hope that he is right.",
+        "target": "Ich hoffe, dass er recht hat."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Die Wahrsagerin macht eine ___ über meine Zukunft.",
+        "answer": "Vorhersage",
+        "hint": "prediction / forecast"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Was bedeutet 'Wenn das Wörtchen wenn nicht wär, dann wär ich schon Millionär'?",
+        "question": "Was drückt diese Redewendung aus?",
+        "options": ["Unrealistische Bedingungen ändern nichts an der Realität.", "Man wird bald Millionär.", "Das Wort 'wenn' existiert nicht.", "Man soll nie Pläne machen."],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Corinna muss sich ihre Zeit ___.",
+        "answer": "einteilen",
+        "hint": "to manage / divide one's time"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Plans for the Future",
+    "titleDe": "Pläne für die Zukunft",
+    "type": "reading",
+    "icon": "🎓",
+    "lectureContent": [
+      {
+        "sectionTitle": "Wichtige Wörter im Text",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>Englisch</th><th>Beispiel</th></tr></thead><tbody><tr><td>verschieden</td><td>different / various</td><td>Max und ich haben verschiedene Lieblingsfarben.</td></tr><tr><td>die Hoffnung, -en</td><td>hope</td><td>Du darfst die Hoffnung nicht aufgeben.</td></tr><tr><td>kompliziert</td><td>complicated</td><td>Medizin ist ein kompliziertes Studium.</td></tr><tr><td>die Pflegefachkraft</td><td>nursing professional</td><td>Max ist Pflegefachkraft. Er arbeitet im Krankenhaus.</td></tr><tr><td>beenden</td><td>to finish / complete</td><td>Hermine wird nächstes Jahr die Schule beenden.</td></tr><tr><td>das Praktikum, Praktika</td><td>internship</td><td>In einem Praktikum kann man einen Beruf kennenlernen.</td></tr><tr><td>die Zukunft</td><td>future</td><td>Hermine muss ihre Zukunft nach der Schule planen.</td></tr><tr><td>die Entscheidung, -en</td><td>decision</td><td>Das Praktikum hilft bei der Entscheidung.</td></tr><tr><td>der Realschulabschluss</td><td>secondary school certificate</td><td>Hermine hat dann einen Realschulabschluss.</td></tr><tr><td>das Abitur</td><td>university entrance qualification</td><td>Für ein Studium braucht man das Abitur.</td></tr><tr><td>die Berufswahl</td><td>career choice</td><td>Die Berufswahl war für sie schwierig.</td></tr><tr><td>unterstützen</td><td>to support</td><td>Sie unterstützt die Patienten direkt.</td></tr><tr><td>die Behandlung, -en</td><td>treatment</td><td>Sie diskutiert über die Behandlung.</td></tr><tr><td>die Körperpflege</td><td>personal care / hygiene</td><td>Körperpflege ist eine Aufgabe der Pflegefachkraft.</td></tr><tr><td>das Medikament, -e</td><td>medication</td><td>Als Ärztin entscheidet sie über die Medikamente.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Lesetext: Pläne für die Zukunft – Teil 1",
+        "type": "reading",
+        "content": "<p>Es ist Freitag, 19 Uhr. Alex' Nichte <strong>Hermine</strong> ist zu Besuch in Berlin. Alex und Hermine sitzen in einer Pizzeria. Sie essen eine leckere Pizza. Hermine trinkt eine kalte Cola und Alex trinkt ein kaltes Bier.</p><p>Hermine hat im Moment Sommerferien. Sie hat jetzt die 9. Klasse beendet. Nächstes Jahr <strong>wird</strong> Hermine die Schule <strong>beenden</strong>. Sie hat dann einen Realschulabschluss. Hermine muss bald ihre Zukunft nach der Schule planen.</p><p><strong>Alex:</strong> Hermine, was machst du in den Sommerferien noch?</p><p><strong>Hermine:</strong> Mama, Papa und ich fliegen im August für zwei Wochen nach Mallorca. Ich freue mich schon! Mama sagt, ich soll ein Praktikum machen. Ich muss meine Zukunft nach der Schule planen. Also möchte ich ein Praktikum im Krankenhaus machen.</p><p><strong>Alex:</strong> Das ist aber eine gute Idee.</p>"
+      },
+      {
+        "sectionTitle": "Lesetext: Pläne für die Zukunft – Teil 2",
+        "type": "reading",
+        "content": "<p><strong>Hermine:</strong> Hoffentlich gefällt mir die Arbeit im Krankenhaus.</p><p><strong>Alex:</strong> Was möchtest du mal werden? Weißt du das schon?</p><p><strong>Hermine:</strong> Ich bin mir noch nicht sicher. Ich möchte vielleicht Pflegefachkraft werden. Deswegen möchte ich das Praktikum im Krankenhaus machen. Aber ich weiß es noch nicht sicher. Meine beste Freundin Annika möchte Ärztin werden. Das finde ich auch interessant.</p><p><strong>Alex:</strong> Möchtest du auch Ärztin werden, Hermine?</p><p><strong>Hermine:</strong> Medizin ist spannend. Aber ich brauche für die Universität sehr gute Noten. Als Ärztin muss ich an der Universität studieren. Das ist ein langes und kompliziertes Studium. Ich glaube, ich kann das nicht.</p><p><strong>Alex:</strong> Du darfst die Hoffnung nicht aufgeben, Hermine. Wenn du wirklich Ärztin werden möchtest, dann schaffst du das Studium auch. Ich glaube an dich!</p>"
+      },
+      {
+        "sectionTitle": "Lesetext: Pläne für die Zukunft – Teil 3",
+        "type": "reading",
+        "content": "<p><strong>Hermine:</strong> Danke, Alex! Aber für ein Studium brauche ich auch das Abitur. Dann muss ich noch länger zur Schule gehen. Wenn mir das Praktikum im Krankenhaus gefällt, kann ich auch Pflegefachkraft werden. Ich <strong>werde</strong> sofort <strong>arbeiten</strong>. Die Arbeit ist medizinisch und sozial! Ich arbeite viel mit Patienten und unterstütze sie direkt. Ich glaube, der enge Kontakt gefällt mir.</p><p><strong>Alex:</strong> Ich hoffe, dass du dein Ziel erreichst! Als Ärztin entscheidest du über die Medikamente. Du diskutierst mit den Pflegefachkräften über die Behandlung. Als Pflegefachkraft sind auch Körperpflege und das Essen der Patienten deine Aufgaben. Deine Aufgaben sind jeden Tag verschieden. Ärztin und Pflegefachkraft sind beides wichtige Berufe. Entscheide, was dir mehr Spaß macht!</p><p>Komm, wir machen uns noch einen schönen Abend. Sollen wir ins Kino gehen und einen lustigen Film schauen?</p><p><strong>Hermine:</strong> Das ist eine sehr gute Idee, Alex!</p>"
+      },
+      {
+        "sectionTitle": "werden + Infinitiv im Text",
+        "type": "grammar",
+        "content": "<p>Im Text benutzen Alex und Hermine <strong>werden + Infinitiv</strong> (Futur I), um über die Zukunft zu sprechen:</p><ul><li><em>Nächstes Jahr <strong>wird</strong> Hermine die Schule <strong>beenden</strong>.</em></li><li><em>Ich <strong>werde</strong> sofort <strong>arbeiten</strong>.</em></li><li><em>Vielleicht <strong>werde</strong> ich Ärztin.</em></li></ul><p>Auch <strong>wenn...dann</strong>-Konstruktionen kommen vor:</p><ul><li><em><strong>Wenn</strong> du wirklich Ärztin werden möchtest, <strong>dann</strong> schaffst du das Studium auch.</em></li><li><em><strong>Wenn</strong> mir das Praktikum gefällt, kann ich auch Pflegefachkraft werden.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Nützliche Redemittel",
+        "type": "speaking",
+        "content": "<p><strong>Gut zureden (Encouragement):</strong></p><ul><li>Du schaffst das.</li><li>Ich glaube an dich.</li><li>Ich hoffe, dass du dein Ziel erreichst!</li></ul><p><strong>Unsicherheit ausdrücken (Expressing uncertainty):</strong></p><ul><li>Ich bin mir noch nicht sicher.</li><li>Vielleicht möchte ich ... werden.</li></ul><p><strong>Pläne formulieren (Expressing plans):</strong></p><ul><li>Ich plane ...</li><li>Ich möchte ... machen/werden.</li></ul><p><strong>Fragen über Zukunftspläne:</strong></p><ul><li>Was machst du in/am ...?</li><li>Was möchtest du mal werden?</li><li>Weißt du das schon?</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung: die Qual der Wahl haben",
+        "type": "culture",
+        "content": "<p><strong>die Qual der Wahl haben</strong></p><p><em>Bedeutung:</em> Wenn man viele Alternativen hat, ist es schwer, sich zu entscheiden.</p><p><em>Beispiel:</em> „Hermine hat die Qual der Wahl: Möchte sie Pflegefachkraft oder Ärztin werden?\"</p><p><em>English equivalent:</em> \"to be spoilt for choice\" / \"to have the agony of choice\"</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Text.",
+        "sentence": "Hermine wird im Sommer die Schule ___, sie ist dann fertig mit der Schule.",
+        "answer": "beenden",
+        "hint": "to finish / complete"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "In einem ___ kann man einen Beruf kennenlernen.",
+        "answer": "Praktikum",
+        "hint": "internship"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Was möchte Hermine vielleicht werden?",
+        "question": "Welchen Beruf möchte Hermine vielleicht machen?",
+        "options": ["Pflegefachkraft", "Lehrerin", "Managerin", "Schauspielerin"],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Hermine braucht das Abitur, um Medizin zu studieren.",
+        "answer": true
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Wörter ihrer Bedeutung zu.",
+        "pairs": [
+          ["kompliziert", "complicated"],
+          ["die Hoffnung", "hope"],
+          ["verschieden", "different"],
+          ["die Behandlung", "treatment"],
+          ["das Medikament", "medication"]
+        ]
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": ["Hermine", "die", "nächstes", "wird", "Schule", "Jahr", "beenden"],
+        "answer": "Nächstes Jahr wird Hermine die Schule beenden."
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze ins Deutsche.",
+        "source": "You must not give up hope, Hermine.",
+        "target": "Du darfst die Hoffnung nicht aufgeben, Hermine."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Was sagt Alex zu Hermine, um sie zu ermutigen?",
+        "question": "Was sagt Alex zu Hermine?",
+        "options": ["Ich glaube an dich!", "Du kannst das nicht.", "Vergiss die Medizin.", "Es ist zu schwierig."],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Medizin ist ein langes und ___ Studium.",
+        "answer": "kompliziertes",
+        "hint": "complicated"
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Die Redewendung 'die Qual der Wahl haben' bedeutet, dass man keine Alternativen hat.",
+        "answer": false
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Text.",
+        "sentence": "Max ist ___. Er arbeitet im Krankenhaus.",
+        "answer": "Pflegefachkraft",
+        "hint": "nursing professional"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Wo machen Alex und Hermine Pläne?",
+        "question": "Wo sitzen Alex und Hermine?",
+        "options": ["In einer Pizzeria", "Im Krankenhaus", "Zu Hause", "In der Schule"],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Hermines beste Freundin Annika möchte Pflegefachkraft werden.",
+        "answer": false
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Max und ich haben ___ Lieblingsfarben. Er mag Blau und ich mag Grün.",
+        "answer": "verschiedene",
+        "hint": "different / various"
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Sätze den richtigen Aussagen zu.",
+        "pairs": [
+          ["Hermine fliegt im August nach", "Mallorca"],
+          ["Hermine macht ein Praktikum im", "Krankenhaus"],
+          ["Annika möchte werden", "Ärztin"],
+          ["Hermine hat einen", "Realschulabschluss"],
+          ["Alex sagt 'Ich glaube", "an dich'"]
+        ]
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": ["die", "aufgeben", "nicht", "du", "Hoffnung", "darfst"],
+        "answer": "Du darfst die Hoffnung nicht aufgeben."
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze ins Deutsche.",
+        "source": "I am not sure yet. Maybe I want to become a nurse.",
+        "target": "Ich bin mir noch nicht sicher. Vielleicht möchte ich Pflegefachkraft werden."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Was braucht Hermine für ein Medizinstudium?",
+        "question": "Was braucht Hermine, um Medizin studieren zu können?",
+        "options": ["Das Abitur und sehr gute Noten", "Nur einen Realschulabschluss", "Ein Praktikum in einer Pizzeria", "Einen Job im Krankenhaus"],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Als Ärztin entscheidet sie über die ___.",
+        "answer": "Medikamente",
+        "hint": "medications"
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Hermine denkt am nächsten Tag über ihr Gespräch mit Alex nach und freut sich auf das Praktikum.",
+        "answer": true
+      }
+    ]
+  }
+]

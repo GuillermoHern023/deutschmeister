@@ -1,0 +1,833 @@
+[
+  {
+    "id": 41,
+    "title": "Properties for work",
+    "titleDe": "Eigenschaften für den Beruf",
+    "type": "vocabulary",
+    "icon": "💼",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Rund um die Arbeitswelt",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Vertrag, ⸚e</strong></td><td>contract</td><td>Haben Sie den Vertrag schon unterschrieben?</td></tr><tr><td><strong>die Bewerbung, -en</strong></td><td>application</td><td>Bis wann kann man eine Bewerbung abgeben?</td></tr><tr><td><strong>das Personal (nur Sg.)</strong></td><td>personnel / staff</td><td>Wir haben nicht genug Personal für dieses Projekt!</td></tr><tr><td><strong>das Anschreiben, -</strong></td><td>cover letter</td><td>Vor dem Lebenslauf kommt das Anschreiben.</td></tr><tr><td><strong>der Zeitplan, ⸚e</strong></td><td>schedule / timeline</td><td>Der Zeitplan für dieses Projekt funktioniert nicht.</td></tr><tr><td><strong>die Pünktlichkeit (nur Sg.)</strong></td><td>punctuality</td><td>Bei der Arbeit ist Pünktlichkeit sehr wichtig.</td></tr><tr><td><strong>die Erfahrung, -en</strong></td><td>experience</td><td>Deine berufliche Erfahrung ist sehr vielseitig!</td></tr><tr><td><strong>die Tagesordnung, -en</strong></td><td>agenda</td><td>Was steht heute auf der Tagesordnung?</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Fähigkeiten & Eigenschaften für den Beruf",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>fleißig</strong></td><td>hardworking / diligent</td><td>Ich bin fleißig, pünktlich und lernfähig.</td></tr><tr><td><strong>sorgfältig</strong></td><td>careful / meticulous</td><td>Bei der Arbeit ist ein sorgfältiges Vorgehen wichtig.</td></tr><tr><td><strong>ehrgeizig</strong></td><td>ambitious</td><td>Terence ist fleißig und ehrgeizig.</td></tr><tr><td><strong>lernfähig</strong></td><td>capable of learning</td><td>Sie ist flexibel und lernfähig.</td></tr><tr><td><strong>sozial</strong></td><td>social</td><td>In manchen Berufen muss man sehr sozial sein.</td></tr><tr><td><strong>erfahren</strong></td><td>experienced</td><td>Hannes hat wenig Erfahrung, aber sie ist erfahren.</td></tr><tr><td><strong>zuverlässig</strong></td><td>reliable</td><td>Fernanda ist empathisch und zuverlässig.</td></tr><tr><td><strong>pünktlich</strong></td><td>punctual</td><td>Pünktlich zu sein, macht einen guten Eindruck.</td></tr><tr><td><strong>kräftig</strong></td><td>strong / powerful</td><td>Für schwere Arbeit braucht man kräftige Mitarbeiter.</td></tr><tr><td><strong>geduldig</strong></td><td>patient</td><td>Als Lehrer muss man geduldig sein.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammatik & Aussprache: Endung -ig",
+        "type": "grammar",
+        "content": "<p>Wörter, die auf <strong>-ig</strong> enden, sind oft Adjektive und Zahlwörter (z. B. <em>fleißig, wenig, dreißig, langjährig</em>).</p><h4>Aussprache:</h4><ul><li>Die Endung <strong>-ig</strong> wird im Standarddeutschen meist als <strong>[ç]</strong> (wie in 'ich') ausgesprochen (z. B. /ˈﬂaɪ̯sɪç/).</li><li>Die Aussprache mit <strong>[k]</strong> am Ende ist ebenfalls korrekt (z. B. /ˈﬂaɪ̯sɪk/), es gibt jedoch regionale Unterschiede.</li></ul>"
+      },
+      {
+        "sectionTitle": "Umgangssprache & Redewendungen",
+        "type": "idiom",
+        "content": "<h4>Umgangssprachlich:</h4><p><strong>sich den Arsch/Hintern aufreißen</strong></p><p>Bedeutung: Sehr viel und fleißig arbeiten (to work one's butt off).</p><p><em>Ich habe mir in den letzten Wochen für das Projekt den Arsch aufgerissen.</em></p><h4>Redewendung:</h4><p><strong>einen Fuß in der Tür haben</strong></p><p>Bedeutung: Einen ersten Kontakt herstellen und hoffen, dass später mehr daraus wird (to get a foot in the door).</p><p><em>Diese Firma ist mein Traumarbeitgeber! Ich habe zwar nur eine Praktikumsstelle bekommen, aber wenigstens habe ich so schon mal einen Fuß in der Tür.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Bei der Arbeit ist ___ sehr wichtig.",
+        "answer": "Pünktlichkeit",
+        "hint": "punctuality"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is the meaning of the idiom 'einen Fuß in der Tür haben'?",
+        "options": [
+          "To break into a building",
+          "To establish a first contact in hopes of future opportunities",
+          "To have an accident at work",
+          "To be fired from a job"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German adjectives to their English meanings.",
+        "pairs": [
+          [
+            "fleißig",
+            "hardworking / diligent"
+          ],
+          [
+            "zuverlässig",
+            "reliable"
+          ],
+          [
+            "ehrgeizig",
+            "ambitious"
+          ],
+          [
+            "geduldig",
+            "patient"
+          ],
+          [
+            "lernfähig",
+            "capable of learning"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The suffix -ig in words like 'fleißig' is normally pronounced as [ç], but [k] is also correct.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "What is on the agenda today?",
+        "target": "Was steht heute auf der Tagesordnung?"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "lernfähig",
+          "und",
+          "Ich",
+          "pünktlich",
+          "bin",
+          "fleißig"
+        ],
+        "answer": "Ich bin fleißig, pünktlich und lernfähig."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Haben Sie den ___ schon unterschrieben?",
+        "answer": "Vertrag",
+        "hint": "contract"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct adjective for someone who works very carefully.",
+        "options": [
+          "sorgfältig",
+          "faul",
+          "unpünktlich",
+          "ehrgeizig"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Sich den Arsch aufreißen' means to be lazy and not work.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "We do not have enough staff for this project!",
+        "target": "Wir haben nicht genug Personal für dieses Projekt!"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which noun means staff or personnel?",
+        "options": [
+          "der Vertrag",
+          "das Anschreiben",
+          "das Personal",
+          "der Zeitplan"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Vor dem Lebenslauf kommt das ___.",
+        "answer": "Anschreiben",
+        "hint": "cover letter"
+      },
+      {
+        "type": "true_false",
+        "statement": "Words ending in -ig are often adjectives or numerals.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "If someone is described as 'ehrgeizig', they are:",
+        "options": [
+          "lazy",
+          "ambitious",
+          "strong",
+          "patient"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Der ___ für dieses Projekt funktioniert nicht. Wir brauchen noch zwei Wochen mehr!",
+        "answer": "Zeitplan",
+        "hint": "schedule / timeline"
+      },
+      {
+        "type": "translation",
+        "sentence": "I have torn my ass off for the project in recent weeks.",
+        "answer": "Ich habe mir in den letzten Wochen für das Projekt den Arsch aufgerissen."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "heute",
+          "der",
+          "Tagesordnung",
+          "Was",
+          "steht",
+          "auf"
+        ],
+        "answer": "Was steht heute auf der Tagesordnung?"
+      },
+      {
+        "type": "true_false",
+        "statement": "The noun 'die Pünktlichkeit' is typically used only in the singular.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the meaning of 'lernfähig'?",
+        "options": [
+          "incapable of learning",
+          "capable of learning",
+          "uninterested in studies",
+          "forgetful"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich habe zwar nur eine Praktikumsstelle bekommen, aber wenigstens habe ich so schon mal einen Fuß in der ___.",
+        "answer": "Tür",
+        "hint": "door"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "The job interview",
+    "titleDe": "Das Vorstellungsgespräch",
+    "type": "speaking",
+    "icon": "👔",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Das Bewerbungsverfahren",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>das Bewerbungsverfahren, -</strong></td><td>application process</td><td>Der Lebenslauf ist sehr wichtig im Bewerbungsverfahren.</td></tr><tr><td><strong>der Lebenslauf, ⸚e</strong></td><td>CV / resume</td><td>Im Lebenslauf steht, wo du vorher gearbeitet hast.</td></tr><tr><td><strong>das Zeugnis, -se</strong></td><td>certificate / transcript</td><td>Ein gutes Zeugnis ist wichtig bei der Jobsuche.</td></tr><tr><td><strong>die Berufserfahrung, -en</strong></td><td>work experience</td><td>Wenn du Berufserfahrung hast, kannst du dich bewerben.</td></tr><tr><td><strong>studieren</strong></td><td>to study (at university)</td><td>Ich werde Mathematik an der Uni studieren.</td></tr><tr><td><strong>etwas erlernen</strong></td><td>to learn / acquire (a trade/profession)</td><td>Eduard hat den Beruf des Arztes erlernt.</td></tr><tr><td><strong>fließend in Wort und Schrift</strong></td><td>fluent in spoken and written language</td><td>Sie beherrscht Englisch fließend in Wort und Schrift.</td></tr><tr><td><strong>die persönlichen Fähigkeiten</strong></td><td>personal skills / abilities</td><td>Persönliche Fähigkeiten sind zum Beispiel Flexibilität und Fleiß.</td></tr><tr><td><strong>arbeitslos sein</strong></td><td>to be unemployed</td><td>Martin ist seit gestern arbeitslos.</td></tr><tr><td><strong>der / die Personalleiter:in</strong></td><td>HR manager (m/f)</td><td>Die Personalleiterin kümmert sich um das Personal.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Berufstitel & Arbeitsformen",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der/die Einzelhandelskaufmann/frau</strong></td><td>retail salesman/saleswoman</td><td>Sie arbeitet in einem Laden und verkauft etwas.</td></tr><tr><td><strong>der/die Praktikant:in</strong></td><td>intern (m/f)</td><td>Der Praktikant sammelt erste berufliche Erfahrungen.</td></tr><tr><td><strong>der/die Hotelfachmann/frau</strong></td><td>hotel specialist (m/f)</td><td>Sie arbeitet in einem Hotel und kümmert sich um Gäste.</td></tr><tr><td><strong>der/die Kfz-Mechatroniker:in</strong></td><td>car mechanic (m/f)</td><td>Der Kfz-Mechatroniker repariert Autos.</td></tr><tr><td><strong>der/die Buchhalter:in</strong></td><td>accountant (m/f)</td><td>Sie kümmert sich um die Finanzen in einer Firma.</td></tr><tr><td><strong>das Handwerk (nur Sg.)</strong></td><td>craft / trade / handicraft</td><td>Viele Handwerksberufe kann man mit einer Ausbildung erlernen.</td></tr><tr><td><strong>freiberuflich</strong></td><td>freelance</td><td>Als Musiker arbeite ich freiberuflich.</td></tr><tr><td><strong>angestellt</strong></td><td>employed</td><td>Ich bin als Marketingexpertin in einer Firma angestellt.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Stärken, Schwächen & Fragen im Bewerbungsgespräch",
+        "type": "grammar",
+        "content": "<p>Im Vorstellungsgespräch spricht man oft über seine <strong>Stärken</strong> (Strengths) und <strong>Schwächen</strong> (Weaknesses):</p><ul><li><strong>Stärken</strong>: Ambition, Flexibilität, Zuverlässigkeit, Genauigkeit, Effizienz, Ehrlichkeit/Direktheit, Geduld.</li><li><strong>Schwächen</strong>: Unpünktlichkeit, Konzentrationsprobleme, Rechtschreibschwäche.</li></ul><p>Manche Fragen sind im Vorstellungsgespräch <strong>unangebracht</strong> (inappropriate/forbidden) und müssen nicht beantwortet werden (z. B. Kinderwunsch, chronische Krankheit, Religion/Glauben, Partner).</p>"
+      },
+      {
+        "sectionTitle": "Umgangssprache & Redewendungen",
+        "type": "idiom",
+        "content": "<h4>Umgangssprachlich:</h4><p><strong>etwas ergattern</strong></p><p>Bedeutung: Etwas bekommen, was viele wollen und schwierig zu erreichen ist (to snag / grab something).</p><p><em>Es gab sehr viele Bewerber, aber ich habe den Job ergattert!</em></p><h4>Redewendung:</h4><p><strong>Eindruck schinden</strong></p><p>Bedeutung: Versuchen, einen besonders guten Eindruck bei jemandem zu machen (to show off / try to impress).</p><p><em>Wie kann ich in meinem Bewerbungsgespräch Eindruck schinden?</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Eduard hat den Beruf des Arztes ___.",
+        "answer": "erlernt",
+        "hint": "learned / acquired"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is a 'Buchhalter'?",
+        "options": [
+          "A car mechanic",
+          "An accountant",
+          "A hotel specialist",
+          "A retail salesperson"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the professions to their descriptions.",
+        "pairs": [
+          [
+            "Kfz-Mechatroniker",
+            "überprüft und repariert Autos"
+          ],
+          [
+            "Einzelhandelskaufmann",
+            "arbeitet in einem Laden und verkauft etwas"
+          ],
+          [
+            "Hotelfachmann",
+            "kümmert sich um das Hotel und die Gäste"
+          ],
+          [
+            "Praktikant",
+            "sammelt erste berufliche Erfahrungen"
+          ],
+          [
+            "Buchhalter",
+            "kümmert sich um die Finanzen"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Questions about a candidate's plan to have children (Kinderwunsch) are considered inappropriate (unangebracht) in a job interview.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I am employed as a marketing expert in a company.",
+        "target": "Ich bin als Marketingexpertin in einer Firma angestellt."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "studieren",
+          "Uni",
+          "werde",
+          "der",
+          "Mathematik",
+          "an",
+          "Ich"
+        ],
+        "answer": "Ich werde Mathematik an der Uni studieren."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Es gab sehr viele Bewerber, aber ich habe den Job ___!",
+        "answer": "ergattert",
+        "hint": "snagged / got hold of"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct meaning of the idiom 'Eindruck schinden'.",
+        "options": [
+          "To avoid work",
+          "To try to make a big impression / show off",
+          "To submit application documents",
+          "To be unemployed"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Freiberuflich' means working as an employee with a fixed monthly salary.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "What are your strengths and weaknesses?",
+        "target": "Was sind Ihre Stärken und Schwächen?"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is considered a weakness (Schwäche) in the text?",
+        "options": [
+          "Zuverlässigkeit",
+          "Rechtschreibschwäche",
+          "Flexibilität",
+          "Effizienz"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Im ___ steht, wo du vorher gearbeitet hast.",
+        "answer": "Lebenslauf",
+        "hint": "CV / resume"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Ausbildung' is the typical way to learn a craft (Handwerk) in Germany.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who is responsible for all staff-related questions in a company?",
+        "options": [
+          "der Buchhalter",
+          "der Kfz-Mechatroniker",
+          "der Personalleiter",
+          "der Praktikant"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Sie beherrscht Englisch in Wort und ___.",
+        "answer": "Schrift",
+        "hint": "writing"
+      },
+      {
+        "type": "translation",
+        "sentence": "Can you handle stress well?",
+        "answer": "Können Sie gut mit Stress umgehen?"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "seit",
+          "gestern",
+          "arbeitslos",
+          "Martin",
+          "ist"
+        ],
+        "answer": "Martin ist seit gestern arbeitslos."
+      },
+      {
+        "type": "true_false",
+        "statement": "The noun 'das Handwerk' only has a singular form.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 'die Stellenanzeige'?",
+        "options": [
+          "Cover letter",
+          "Job advertisement",
+          "CV",
+          "Job interview"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Zu einer Bewerbung gehören Bewerbungsunterlagen wie Lebenslauf und ___.",
+        "answer": "Zeugnisse",
+        "hint": "certificates"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Meetings in the company",
+    "titleDe": "Besprechungen in der Firma",
+    "type": "speaking",
+    "icon": "📊",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Verben für Besprechungen",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>etwas verdeutlichen</strong></td><td>to clarify / explain clearly</td><td>Können Sie noch einmal verdeutlichen, warum wir so wenig Zeit haben?</td></tr><tr><td><strong>eine Nachricht hinterlassen</strong></td><td>to leave a message</td><td>Frau Maier ist nicht da. Möchten Sie eine Nachricht hinterlassen?</td></tr><tr><td><strong>zuhören</strong></td><td>to listen</td><td>Entschuldigung, ich habe gerade nicht zugehört.</td></tr><tr><td><strong>unterbrechen</strong></td><td>to interrupt</td><td>Darf ich dich kurz unterbrechen?</td></tr><tr><td><strong>besprechen</strong></td><td>to discuss</td><td>Dieses Thema werden wir morgen besprechen.</td></tr><tr><td><strong>eine Meinung vertreten</strong></td><td>to represent / hold an opinion</td><td>Welche Meinung vertreten Sie zu diesem Thema?</td></tr><tr><td><strong>den anderen ausreden lassen</strong></td><td>to let the other finish speaking</td><td>Lassen Sie mich bitte ausreden!</td></tr><tr><td><strong>zu Wort kommen</strong></td><td>to get a word in / get a chance to speak</td><td>Frau Maier ist heute noch nicht zu Wort gekommen.</td></tr><tr><td><strong>delegieren</strong></td><td>to delegate</td><td>Sie muss auch Aufgaben delegieren.</td></tr><tr><td><strong>sich einigen</strong></td><td>to agree / reach an agreement</td><td>Es ist schwierig, sich zu einigen.</td></tr><tr><td><strong>einen Termin vereinbaren</strong></td><td>to arrange/schedule an appointment</td><td>Können wir einen Termin vereinbaren?</td></tr><tr><td><strong>einen Termin verschieben</strong></td><td>to postpone an appointment</td><td>Leider muss ich den Termin verschieben.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Nomen rund um Besprechungen",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Tagesordnung, -en</strong></td><td>agenda</td><td>Wir starten mit Punkt 1 auf der Tagesordnung.</td></tr><tr><td><strong>die Pünktlichkeit (nur Sg.)</strong></td><td>punctuality</td><td>Bitte kommt nicht zu spät. Pünktlichkeit ist wichtig!</td></tr><tr><td><strong>der Zeitplan, ⸚e</strong></td><td>schedule / timeline</td><td>Wenn man ein Projekt plant, braucht man einen Zeitplan.</td></tr><tr><td><strong>die Unterbrechung, -en</strong></td><td>interruption</td><td>Falls es Fragen gibt, unterbrechen Sie mich einfach.</td></tr><tr><td><strong>das Organigramm, -e</strong></td><td>organizational chart</td><td>Ein Organigramm zeigt die Hierarchie in einer Firma.</td></tr><tr><td><strong>die Hierarchie, -n</strong></td><td>hierarchy</td><td>Die Hierarchie zeigt die Organisationsstruktur.</td></tr><tr><td><strong>die Arbeitsatmosphäre, -n</strong></td><td>work atmosphere</td><td>Für eine gute Zusammenarbeit ist die Arbeitsatmosphäre wichtig.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Umgangssprache & Redewendungen",
+        "type": "idiom",
+        "content": "<h4>Umgangssprachlich:</h4><p><strong>Vergiss deine Rede nicht! / Vergiss nicht, was du sagen wolltest.</strong></p><p>Bedeutung: Vergiss nicht, was du sagen wolltest, bevor ich dich kurz unterbrochen habe (Don't lose your train of thought).</p><p><em>– Heute sollten wir also dringend mit Frau Hirata sprechen. Außerdem...<br/>– Vergiss deine Rede nicht. Ganz kurz: Frau Hirata ist heute nur vormittags erreichbar.</em></p><h4>Redewendung:</h4><p><strong>an der Tagesordnung sein</strong></p><p>Bedeutung: Ein alltägliches, häufiges Vorkommnis sein (to be the order of the day / commonplace).</p><p><em>Seit die Brücke neu gemacht wird, sind Staus auf meinem Arbeitsweg an der Tagesordnung.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Bitte kommt nicht zu spät zur Besprechung. ___ ist wichtig!",
+        "answer": "Pünktlichkeit",
+        "hint": "punctuality"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'an der Tagesordnung sein' mean?",
+        "options": [
+          "To be scheduled for tomorrow",
+          "To be a common, daily occurrence",
+          "To be forbidden",
+          "To be written on paper"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the meeting verbs to their meanings.",
+        "pairs": [
+          [
+            "delegieren",
+            "eine Aufgabe weitergeben"
+          ],
+          [
+            "sich einigen",
+            "einen Kompromiss finden"
+          ],
+          [
+            "ausreden lassen",
+            "warten, bis jemand fertig geredet hat"
+          ],
+          [
+            "verdeutlichen",
+            "etwas genauer erklären"
+          ],
+          [
+            "unterbrechen",
+            "etwas sagen, während jemand spricht"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "An 'Organigramm' shows the hierarchy in a company.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Can we postpone our appointment?",
+        "target": "Können wir unseren Termin verschieben?"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "unterbrechen",
+          "dich",
+          "kurz",
+          "Darf",
+          "ich"
+        ],
+        "answer": "Darf ich dich kurz unterbrechen?"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Ein Organigramm zeigt die ___ in einer Firma.",
+        "answer": "Hierarchie",
+        "hint": "hierarchy"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct option to ask someone to let you finish speaking.",
+        "options": [
+          "Unterbrechen Sie mich!",
+          "Lassen Sie mich bitte ausreden!",
+          "Ich habe nicht zugehört.",
+          "Vergiss deine Rede nicht."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Sich einigen' means to have a strong disagreement that remains unresolved.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "What opinion do you represent on this topic?",
+        "target": "Welche Meinung vertreten Sie zu diesem Thema?"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following means 'to schedule an appointment'?",
+        "options": [
+          "einen Termin verschieben",
+          "einen Termin vereinbaren",
+          "einen Termin absagen",
+          "einen Termin vergessen"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wenn man ein Projekt plant, braucht man einen ___.",
+        "answer": "Zeitplan",
+        "hint": "schedule / timeline"
+      },
+      {
+        "type": "true_false",
+        "statement": "The noun 'die Arbeitsatmosphäre' has a plural form.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 'die Tagesordnung'?",
+        "options": [
+          "The daily routine",
+          "The agenda of a meeting",
+          "The working hours",
+          "The contract details"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich bin noch nicht fertig, lassen Sie mich bitte ___!",
+        "answer": "ausreden",
+        "hint": "finish speaking"
+      },
+      {
+        "type": "translation",
+        "sentence": "Sorry, I just wasn't listening.",
+        "answer": "Entschuldigung, ich habe gerade nicht zugehört."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Punkt",
+          "wir",
+          "Starten",
+          "mit",
+          "1"
+        ],
+        "answer": "Starten wir mit Punkt 1."
+      },
+      {
+        "type": "true_false",
+        "statement": "'Vergiss deine Rede nicht' is an expression used to remind someone of what they wanted to say before being interrupted.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "If a leader passes a task to a subordinate, they:",
+        "options": [
+          "agree",
+          "delegate",
+          "interrupt",
+          "postpone"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Können Sie noch einmal ___ , warum wir so wenig Zeit haben?",
+        "answer": "verdeutlichen",
+        "hint": "clarify / explain clearly"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Negotiating a contract",
+    "titleDe": "Einen Vertrag verhandeln",
+    "type": "reading",
+    "icon": "✍️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Der Arbeitsvertrag",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Arbeitsvertrag, ⸚e</strong></td><td>employment contract</td><td>Der Arbeitgeber und der Arbeitnehmer schließen einen Arbeitsvertrag ab.</td></tr><tr><td><strong>eingestellt sein</strong></td><td>to be hired</td><td>Herzlichen Glückwunsch, Sie sind eingestellt!</td></tr><tr><td><strong>die Einstellung, -en</strong></td><td>hiring / employment</td><td>Sie freut sich über ihre neue Einstellung.</td></tr><tr><td><strong>die Vollzeit, -en</strong></td><td>full-time</td><td>Vollzeit bedeutet acht Stunden pro Tag zu arbeiten.</td></tr><tr><td><strong>die Teilzeit, -en</strong></td><td>part-time</td><td>Jeder hat das Recht, in Teilzeit zu arbeiten.</td></tr><tr><td><strong>halbtags</strong></td><td>half-day / part-time</td><td>Stephen hat zwei kleine Kinder, deswegen arbeitet er halbtags.</td></tr><tr><td><strong>Überstunden abbummeln</strong></td><td>to take time off in lieu of overtime</td><td>Nein, ich bummel nur ein paar Überstunden ab.</td></tr><tr><td><strong>die Urlaubstage (Pl.)</strong></td><td>vacation days</td><td>An mindestens 20 Tagen im Jahr muss man nicht zur Arbeit kommen.</td></tr><tr><td><strong>die Versicherung, -en</strong></td><td>insurance</td><td>Das ist ein Schutz, falls man krank wird oder einen Unfall hat.</td></tr><tr><td><strong>die Probezeit, -en</strong></td><td>probationary period</td><td>Die ersten Monate sind wie ein Test für den neuen Mitarbeiter.</td></tr><tr><td><strong>die Kündigungsfrist, -en</strong></td><td>notice period</td><td>Wenn man den Job verlassen will, muss man rechtzeitig kündigen.</td></tr><tr><td><strong>die Gehaltsvorstellung, -en</strong></td><td>salary expectation</td><td>Wie hoch sind Ihre Gehaltsvorstellungen?</td></tr><tr><td><strong>die Arbeitszeiten (Pl.)</strong></td><td>working hours</td><td>Ich bin nicht ganz zufrieden mit den Arbeitszeiten.</td></tr><tr><td><strong>die Verantwortung (nur Sg.)</strong></td><td>responsibility</td><td>Als Personalleiter hat Thomas viel Verantwortung.</td></tr><tr><td><strong>befristet</strong></td><td>limited / temporary</td><td>Ihr Job ist auf ein Jahr befristet.</td></tr><tr><td><strong>unbefristet</strong></td><td>unlimited / permanent</td><td>Sein Vertrag ist unbefristet.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Arbeitswelt & Weiterbildung",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Auskunft</strong></td><td>information</td><td>Können Sie mir eine Auskunft zum Status meiner Bewerbung geben?</td></tr><tr><td><strong>zum Amt/Arbeitsamt gehen</strong></td><td>to go to the employment office</td><td>Wenn Sie arbeitslos sind, müssen Sie zum Arbeitsamt gehen.</td></tr><tr><td><strong>der Arbeitgeber, -</strong></td><td>employer</td><td>Meine Firma ist ein sehr moderner Arbeitgeber.</td></tr><tr><td><strong>der Arbeitnehmer, -</strong></td><td>employee</td><td>Als normaler Arbeitnehmer arbeitet man 8 Stunden täglich.</td></tr><tr><td><strong>empfehlen</strong></td><td>to recommend</td><td>Können Sie mir ein gutes Jobportal empfehlen?</td></tr><tr><td><strong>eine Prüfung ablegen</strong></td><td>to take / sit an exam</td><td>Wenn du diese Stelle haben willst, musst du eine Prüfung ablegen.</td></tr><tr><td><strong>die Dienstleistung, -en</strong></td><td>service</td><td>Was für Dienstleistungen bieten Sie an?</td></tr><tr><td><strong>das Training, -s</strong></td><td>training session / one-time course</td><td>Ein Training ist ein Kurs, der nur einmal stattfindet.</td></tr><tr><td><strong>die Fortbildung, -en</strong></td><td>further education / professional training</td><td>Eine Fortbildung läuft über eine längere Zeit.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Umgangssprache & Redewendungen",
+        "type": "idiom",
+        "content": "<h4>Redewendung:</h4><p><strong>mehrere Eisen im Feuer haben</strong></p><p>Bedeutung: Sich mehrere Möglichkeiten offen halten (to have several irons in the fire).</p><p><em>Ich habe zwar schon eine Zusage für den einen Job, aber ich warte noch auf die Antwort von der anderen Firma. Ich habe mehrere Eisen im Feuer.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Wenn man in ___ arbeitet, sind es weniger Stunden pro Tag oder weniger Tage in der Woche.",
+        "answer": "Teilzeit",
+        "hint": "part-time"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does the idiom 'mehrere Eisen im Feuer haben' mean?",
+        "options": [
+          "To work as a blacksmith",
+          "To have several options or opportunities open at the same time",
+          "To burn the contract",
+          "To have a lot of stress at work"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the contract terms to their definitions.",
+        "pairs": [
+          [
+            "Probezeit",
+            "Die ersten Monate als Test für den Mitarbeiter"
+          ],
+          [
+            "Kündigungsfrist",
+            "Zeit, in der man rechtzeitig kündigen muss"
+          ],
+          [
+            "Urlaubstage",
+            "Tage, an denen man nicht zur Arbeit kommen muss"
+          ],
+          [
+            "Überstunden",
+            "Extra-Stunden bei der Arbeit"
+          ],
+          [
+            "Versicherung",
+            "Schutz für Krankheit oder Unfall"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "A 'Fortbildung' is a training course that only takes place once.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I would like to speak with you about the contract.",
+        "target": "Ich würde gerne mit Ihnen über den Vertrag sprechen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "unbefristet",
+          "Vertrag",
+          "ist",
+          "Sein"
+        ],
+        "answer": "Sein Vertrag ist unbefristet."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Thomas hat in seinem Job als Personalleiter viel ___ für die Mitarbeiter.",
+        "answer": "Verantwortung",
+        "hint": "responsibility"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct definition of 'Dienstleistung'.",
+        "options": [
+          "A physical product",
+          "A service offered to clients",
+          "A government office",
+          "An employment contract"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Befristet' means that the contract has a specific end date and is not permanent.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Can you recommend a good job portal?",
+        "target": "Können Sie mir ein gutes Jobportal empfehlen?"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Who are the two parties that sign an employment contract (Arbeitsvertrag)?",
+        "options": [
+          "Arbeitnehmer und Arbeitgeber",
+          "Lehrer und Schüler",
+          "Arzt und Patient",
+          "Buchhalter und Praktikant"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Nein, ich bummel nur ein paar ___ ab.",
+        "answer": "Überstunden",
+        "hint": "overtime hours"
+      },
+      {
+        "type": "true_false",
+        "statement": "Every employee in Germany has the right to work part-time (Teilzeit).",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word means 'hired' or 'employed'?",
+        "options": [
+          "arbeitslos",
+          "eingestellt",
+          "befristet",
+          "freiberuflich"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wenn man den Job haben will, muss man eine Prüfung ___.",
+        "answer": "ablegen",
+        "hint": "take / sit (an exam)"
+      },
+      {
+        "type": "translation",
+        "sentence": "I am not completely satisfied with the working hours.",
+        "answer": "Ich bin nicht ganz zufrieden mit den Arbeitszeiten."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "ein",
+          "Training",
+          "nur",
+          "einmal",
+          "statt",
+          "findet",
+          "Ein"
+        ],
+        "answer": "Ein Training findet nur einmal statt."
+      },
+      {
+        "type": "true_false",
+        "statement": "'Halbtags' means working full-time, i.e., eight hours per day.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 'die Auskunft'?",
+        "options": [
+          "Information",
+          "Application",
+          "Notice period",
+          "Responsibility"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Jeffrey arbeitet seit drei Jahren als Buchhalter, sein Vertrag ist ___.",
+        "answer": "unbefristet",
+        "hint": "unlimited / permanent"
+      }
+    ]
+  }
+]

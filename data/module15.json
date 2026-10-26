@@ -1,0 +1,837 @@
+[
+  {
+    "id": 57,
+    "title": "Historical events",
+    "titleDe": "Historische Ereignisse",
+    "type": "vocabulary",
+    "icon": "⏳",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Wiedervereinigung, -en</strong></td><td>reunification</td><td>Der Begriff bezeichnet den Zusammenschluss von Ost- und Westdeutschland 1990.</td></tr><tr><td><strong>die Niederlage, -n</strong></td><td>defeat</td><td>Verliert ein Land einen Krieg, spricht man von einer Niederlage.</td></tr><tr><td><strong>die Epoche, -n</strong></td><td>epoch / era</td><td>Die Renaissance beschreibt eine Epoche zwischen dem 15. und 16. Jahrhundert.</td></tr><tr><td><strong>die Erfindung, -en</strong></td><td>invention</td><td>Die Druckerpresse war eine wichtige Erfindung des 15. Jahrhunderts.</td></tr><tr><td><strong>die Entdeckung, -en</strong></td><td>discovery</td><td>Die Entdeckung des Feuers ist vermutlich dem Zufall zu verdanken.</td></tr><tr><td><strong>das Jahrhundert, -e</strong></td><td>century</td><td>Wir leben im einundzwanzigsten Jahrhundert.</td></tr><tr><td><strong>die Vergangenheit (Sg.)</strong></td><td>past</td><td>Hinter uns liegt die Vergangenheit.</td></tr><tr><td><strong>die Gegenwart (Sg.)</strong></td><td>present</td><td>Jetzt gerade ist die Gegenwart.</td></tr><tr><td><strong>die Zukunft (Sg.)</strong></td><td>future</td><td>Vor uns liegt die Zukunft.</td></tr><tr><td><strong>damals</strong></td><td>back then</td><td>Damals lebte Gutenberg in Mainz und war Goldschmied.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Past Tenses & Time Expressions",
+        "type": "grammar",
+        "content": "<p>Es gibt drei Zeitformen, mit denen man über die Vergangenheit sprechen kann:</p><ul><li><strong>Präteritum</strong> (eher schriftlich) — <em>Johannes Gutenberg erfand im 15. Jahrhundert den Buchdruck.</em></li><li><strong>Perfekt</strong> (eher mündlich) — <em>Die Erfindung der Druckerpresse hat den Buchdruck revolutioniert.</em></li><li><strong>Plusquamperfekt</strong> (wenn Handlung vor einer anderen stattgefunden hat) — <em>Der Erste Weltkrieg hatte schon vier Jahre gedauert, als meine Großmutter geboren wurde.</em></li></ul><h4>Zeitangaben und temporale Adverbien:</h4><ul><li><strong>Zeitangaben ohne Präposition</strong>: <em>1749 wurde Johann Wolfgang von Goethe geboren.</em> (Nicht: In 1749...)</li><li><strong>Zeitangaben mit Präpositionen</strong>: <em>seit 1990</em>, <em>bis 2001</em>, <em>von 1916 bis 1918</em>, <em>zwischen 1939 und 1945</em>, <em>um 1900</em>, <em>ab 1871</em>.</li><li><strong>Für die Gegenwart</strong>: <em>heutzutage</em>, <em>jetzt</em>, <em>gegenwärtig</em>, <em>momentan</em>.</li><li><strong>Für die Vergangenheit</strong>: <em>früher</em>, <em>damals</em>, <em>einst</em>, <em>anfangs</em>.</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>etwas in- und auswendig kennen</strong></p><p>Bedeutung: etwas sehr gründlich und genau wissen (to know something inside out).</p><p><em>Franz interessiert sich für die deutsche Teilung. Er kennt alle wichtigen historischen Daten in- und auswendig.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Die Renaissance beschreibt eine ___ zwischen dem 15. und 16. Jahrhundert.",
+        "answer": "Epoche",
+        "hint": "epoch / era"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct translation.",
+        "question": "What does 'die Wiedervereinigung' mean?",
+        "options": [
+          "the discovery",
+          "the defeat",
+          "the reunification",
+          "the invention"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German temporal adverbs with their time periods.",
+        "pairs": [
+          [
+            "heutzutage",
+            "Gegenwart"
+          ],
+          [
+            "damals",
+            "Vergangenheit"
+          ],
+          [
+            "jetzt",
+            "Gegenwart"
+          ],
+          [
+            "früher",
+            "Vergangenheit"
+          ],
+          [
+            "momentan",
+            "Gegenwart"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In German, you should write 'In 1990 wurde Deutschland wiedervereinigt' as the standard grammatically correct way.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Johannes Gutenberg invented the printing press around 1450.",
+        "target": "Johannes Gutenberg erfand um 1450 die Druckerpresse."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Gutenberg",
+          "in",
+          "lebte",
+          "Mainz",
+          "Damals",
+          "war",
+          "und",
+          "Goldschmied"
+        ],
+        "answer": "Damals lebte Gutenberg in Mainz und war Goldschmied."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct past tense auxiliary verb.",
+        "sentence": "Der Erste Weltkrieg ___ schon vier Jahre gedauert, als meine Großmutter geboren wurde.",
+        "answer": "hatte",
+        "hint": "had (Plusquamperfekt)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct word.",
+        "question": "Verliert ein Land einen Krieg, spricht man von einer...",
+        "options": [
+          "Erfindung",
+          "Entdeckung",
+          "Wiedervereinigung",
+          "Niederlage"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'einst' is a temporal adverb used for the present (Gegenwart).",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German using the idiom.",
+        "source": "He knows all historical dates inside out.",
+        "target": "Er kennt alle historischen Daten in- und auswendig."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the German word for 'invention'?",
+        "options": [
+          "die Entdeckung",
+          "die Erfindung",
+          "die Epoche",
+          "die Niederlage"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die Druckerpresse war eine wichtige ___ des 15. Jahrhunderts.",
+        "answer": "Erfindung",
+        "hint": "invention"
+      },
+      {
+        "type": "true_false",
+        "statement": "'damals' is used to describe the past.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "We live in the twenty-first century.",
+        "answer": "Wir leben im einundzwanzigsten Jahrhundert."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "liegt",
+          "Vergangenheit",
+          "Hinter",
+          "die",
+          "uns"
+        ],
+        "answer": "Hinter uns liegt die Vergangenheit."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence is in the Plusquamperfekt?",
+        "options": [
+          "Gutenberg erfand die Druckerpresse.",
+          "Die Erfindung hat den Buchdruck revolutioniert.",
+          "Der Krieg hatte schon gedauert, als sie geboren wurde.",
+          "Wir leben im 21. Jahrhundert."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die ___ des Feuers ist vermutlich dem Zufall zu verdanken.",
+        "answer": "Entdeckung",
+        "hint": "discovery"
+      },
+      {
+        "type": "true_false",
+        "statement": "'heutzutage' means 'nowadays' and refers to the present.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "In 1749 Johann Wolfgang von Goethe was born.",
+        "answer": "1749 wurde Johann Wolfgang von Goethe geboren."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Epoche",
+          "eine",
+          "ist",
+          "Renaissance",
+          "Die"
+        ],
+        "answer": "Die Renaissance ist eine Epoche."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "The fall of the Berlin Wall",
+    "titleDe": "Der Fall der Berliner Mauer",
+    "type": "speaking",
+    "icon": "🧱",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Trennung, -en</strong></td><td>separation</td><td>Menschen wurden teilweise von ihren Familien und Arbeitsplätzen getrennt.</td></tr><tr><td><strong>abgrenzen</strong></td><td>to demarcate / separate</td><td>Die Berliner Mauer sollte Ost-Berlin von West-Berlin abgrenzen.</td></tr><tr><td><strong>die Grenze, -n</strong></td><td>border</td><td>Einige Grenzsoldaten entschlossen sich, die Übergänge zu öffnen.</td></tr><tr><td><strong>die Teilung, -en</strong></td><td>division</td><td>Die Teilung Deutschlands war nach 28 Jahren vorbei.</td></tr><tr><td><strong>die Wiedervereinigung, -en</strong></td><td>reunification</td><td>Der Fall der Berliner Mauer machte die Wiedervereinigung möglich.</td></tr><tr><td><strong>die Berliner Mauer</strong></td><td>the Berlin Wall</td><td>Am 9. November 1989 wurde die Berliner Mauer geöffnet.</td></tr><tr><td><strong>die Massenflucht (Sg.)</strong></td><td>mass flight / exodus</td><td>Die DDR-Regierung reagierte auf die Massenflucht von Bürgern in den Westen.</td></tr><tr><td><strong>unverzüglich in Kraft treten</strong></td><td>to take effect immediately</td><td>Das neue Reisegesetz tritt unverzüglich in Kraft.</td></tr><tr><td><strong>etwas zu Fall bringen</strong></td><td>to bring something down</td><td>Eine Pressekonferenz brachte die Berliner Mauer zu Fall.</td></tr><tr><td><strong>einen Antrag stellen</strong></td><td>to submit an application</td><td>Man musste einen Antrag stellen, um in den Westen zu reisen.</td></tr><tr><td><strong>einen Antrag genehmigen</strong></td><td>to approve an application</td><td>Dieser Antrag muss dann genehmigt werden.</td></tr><tr><td><strong>sich in den Armen liegen</strong></td><td>to embrace each other</td><td>Menschen liegen sich mit Tränen in den Augen in den Armen.</td></tr><tr><td><strong>überwachen</strong></td><td>to monitor / watch</td><td>Das Grenzgebiet wurde außerdem strengstens überwacht.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Expressing Opinion & Speaking",
+        "type": "grammar",
+        "content": "<p>Wenn man seine Meinung zu historischen Ereignissen äußert, kann man folgende Ausdrücke verwenden:</p><h4>Eigene Meinung äußern:</h4><ul><li><em>Ich denke, der Mauerfall war die direkte Konsequenz von Schabowskis Pressekonferenz.</em></li><li><em>Ich stimme der Meinung zu, dass die Mauer auch ohne Schabowski gefallen wäre.</em></li><li><em>Eigentlich hat das Volk der DDR die Berliner Mauer zu Fall gebracht.</em></li></ul><h4>Umgangssprachlicher Ausdruck:</h4><p><strong>mauern</strong> = nichts mehr sagen, sich distanzieren.</p><p><em>Wenn ich mit meinen Eltern über '89 sprechen will, mauern sie immer sofort. Echt schade!</em></p>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>(nicht) mit etwas rechnen</strong></p><p>Bedeutung: etwas (nicht) erwarten (to (not) expect something).</p><p><em>Es war eine Überraschung für mich, dass die Berliner Mauer geöffnet wurde. Ich habe nicht damit gerechnet.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Das neue Gesetz tritt unverzüglich in ___.",
+        "answer": "Kraft",
+        "hint": "force (to take effect)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct meaning of the colloquial expression 'mauern'.",
+        "question": "What does 'mauern' mean in: 'Wenn ich mit ihnen über '89 sprechen will, mauern sie'?",
+        "options": [
+          "to build a wall",
+          "to say nothing / distance oneself",
+          "to get angry",
+          "to cry"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German verbs/phrases to their English translations.",
+        "pairs": [
+          [
+            "abgrenzen",
+            "to demarcate"
+          ],
+          [
+            "überwachen",
+            "to monitor"
+          ],
+          [
+            "einen Antrag stellen",
+            "to submit an application"
+          ],
+          [
+            "zu Fall bringen",
+            "to bring down"
+          ],
+          [
+            "mit etwas rechnen",
+            "to expect something"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Die Berliner Mauer wurde am 3. Oktober 1990 gebaut.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The citizens expressed their anger in peaceful demonstrations.",
+        "target": "Die Bürger brachten in friedlichen Demonstrationen ihre Wut zum Ausdruck."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Mauer",
+          "die",
+          "zu",
+          "Fall",
+          "brachte",
+          "Günter",
+          "Schabowski"
+        ],
+        "answer": "Günter Schabowski brachte die Mauer zu Fall."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Die DDR-Regierung reagierte auf die ___ von DDR-Bürgern in den Westen.",
+        "answer": "Massenflucht",
+        "hint": "mass flight"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct word.",
+        "question": "Am 3. Oktober 1990 wurde Deutschland offiziell...",
+        "options": [
+          "geteilt",
+          "abgegrenzt",
+          "überwacht",
+          "wiedervereinigt"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The idiom 'mit etwas rechnen' means to calculate numbers.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I did not expect that.",
+        "target": "Ich habe nicht damit gerechnet."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'einen Antrag genehmigen' mean?",
+        "options": [
+          "to submit a request",
+          "to reject a request",
+          "to approve an application",
+          "to write an application"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Nach der Pressekonferenz machten sich viele Menschen auf den Weg zu den ___.",
+        "answer": "Grenzübergängen",
+        "hint": "border crossings"
+      },
+      {
+        "type": "true_false",
+        "statement": "The Berlin Wall divided Germany for 28 years.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "The border area was strictly monitored.",
+        "answer": "Das Grenzgebiet wurde strengstens überwacht."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Armen",
+          "in",
+          "lagen",
+          "sich",
+          "Menschen",
+          "den",
+          "die"
+        ],
+        "answer": "Die Menschen lagen sich in den Armen."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word means 'division' in German?",
+        "options": [
+          "die Trennung",
+          "die Grenze",
+          "die Teilung",
+          "die Wiedervereinigung"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wenn ich mit meinen Eltern sprechen will, ___ sie sofort.",
+        "answer": "mauern",
+        "hint": "distance themselves / shut down (colloquial)"
+      },
+      {
+        "type": "true_false",
+        "statement": "DDR citizens demanded travel freedom (Reisefreiheit).",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "We did not expect the opening of the border.",
+        "answer": "Wir haben nicht mit der Öffnung der Grenze gerechnet."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "wurde",
+          "Deutschland",
+          "wiedervereinigt",
+          "Am",
+          "3.",
+          "Oktober",
+          "1990"
+        ],
+        "answer": "Am 3. Oktober 1990 wurde Deutschland wiedervereinigt."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Berlin as a multicultural city",
+    "titleDe": "Berlin als multikulturelle Stadt",
+    "type": "reading",
+    "icon": "🏰",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Migrationshintergrund</strong></td><td>migration background</td><td>In Berlin leben viele Menschen mit türkischem Migrationshintergrund.</td></tr><tr><td><strong>die Wurzeln (Pl.)</strong></td><td>roots</td><td>Viele Berliner haben ihre Wurzeln in Polen oder Vietnam.</td></tr><tr><td><strong>der Bürger, - / die Bürgerin, -nen</strong></td><td>citizen</td><td>Für EU-Bürger ist es einfach, innerhalb von Europa umzuziehen.</td></tr><tr><td><strong>die Parade, -n</strong></td><td>parade</td><td>Kulturelle Gruppen ziehen in einer Parade durch die Stadt.</td></tr><tr><td><strong>das Einwanderungsland</strong></td><td>immigration country</td><td>Deutschland ist heute ein Einwanderungsland.</td></tr><tr><td><strong>kulturelle Vielfalt</strong></td><td>cultural diversity</td><td>Die Berliner sind stolz auf ihre kulturelle Vielfalt und Diversität.</td></tr><tr><td><strong>der Gastarbeiter, -</strong></td><td>guest worker</td><td>Man nannte sie Gastarbeiter, weil man dachte, sie würden nur ein paar Jahre bleiben.</td></tr><tr><td><strong>bunt</strong></td><td>colorful / diverse</td><td>Berlin ist eine sehr bunte Stadt mit vielen Kulturen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Reading: Facts & History",
+        "type": "grammar",
+        "content": "<p>Berlin ist eine der internationalsten Städte Deutschlands. Das zieht viele junge Menschen aus aller Welt für die Arbeit oder das Studium an.</p><h4>Einige Zahlen:</h4><ul><li>Von rund <strong>3,5 Millionen Einwohnern</strong> in Berlin kommen <strong>1,3 Millionen</strong> aus einem anderen Land oder haben keinen deutschen Pass.</li><li>Der Anteil liegt derzeit bei rund <strong>35 Prozent</strong>.</li></ul><h4>Kulturelles Angebot:</h4><ul><li><strong>Weltküche</strong>: Restaurants mit äthiopischer, israelischer oder mongolischer Küche.</li><li><strong>Karneval der Kulturen</strong>: Ein großes buntes Sommerfest, bei dem verschiedene Gruppen in einer Parade durch die Stadt ziehen.</li><li><strong>Gastarbeiter-Geschichte</strong>: In den 1950er und 1960er Jahren kamen viele Arbeiter aus der Türkei, Griechenland und Italien. Viele holten ihre Familien nach und bauten sich ein neues Leben in Deutschland auf.</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>aus aller Herren Länder</strong></p><p>Bedeutung: aus allen möglichen Ländern der Welt, von überall her (from all over the world).</p><p><em>Touristen aus aller Herren Länder kommen jedes Jahr zum Karneval der Kulturen.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct vocabulary word.",
+        "sentence": "Deutschland ist ein ___, da viele Menschen hierher auswandern.",
+        "answer": "Einwanderungsland",
+        "hint": "immigration country"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct meaning of 'bunt' in the context of Berlin.",
+        "question": "What does 'bunt' mean in the phrase 'Berlin ist eine bunte Stadt'?",
+        "options": [
+          "only has many colors",
+          "boring",
+          "diverse and multicultural",
+          "very clean"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the composite German words.",
+        "pairs": [
+          [
+            "Einwanderungs",
+            "land"
+          ],
+          [
+            "Migrations",
+            "hintergrund"
+          ],
+          [
+            "Gast",
+            "arbeiter"
+          ],
+          [
+            "kulturelle",
+            "Vielfalt"
+          ],
+          [
+            "Karneval der",
+            "Kulturen"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In Berlin gibt es streng abgegrenzte Bezirke wie Little Italy in New York.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Many Berliners have their roots in Poland or Vietnam.",
+        "target": "Viele Berliner haben ihre Wurzeln in Polen oder Vietnam."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "jeden",
+          "Sommer",
+          "den",
+          "Kulturen",
+          "Karneval",
+          "Es",
+          "gibt",
+          "der"
+        ],
+        "answer": "Es gibt jeden Sommer den Karneval der Kulturen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Die Berliner sind stolz auf ihre kulturelle ___.",
+        "answer": "Vielfalt",
+        "hint": "diversity"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Who were the 'Gastarbeiter'?",
+        "options": [
+          "Tourists who stayed for a week",
+          "Workers who came in the 50s/60s and built lives in Germany",
+          "Diplomats from EU countries",
+          "Students from Asia"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "About 35% of Berlin's population has a migration background or is from another country.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate using the idiom.",
+        "source": "Tourists from all over the world visit Berlin.",
+        "target": "Touristen aus aller Herren Länder besuchen Berlin."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does the word 'die Wurzeln' mean in a cultural context?",
+        "options": [
+          "plants",
+          "roots / origins",
+          "languages",
+          "borders"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Er hat einen türkischen ___.",
+        "answer": "Migrationshintergrund",
+        "hint": "migration background"
+      },
+      {
+        "type": "true_false",
+        "statement": "The 'Gastarbeiter' were expected to stay in Germany forever from the beginning.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "sentence": "Berlin is one of the most international cities in Germany.",
+        "answer": "Berlin ist eine der internationalsten Städte Deutschlands."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "türkischem",
+          "wohnen",
+          "mit",
+          "Die",
+          "meisten",
+          "Menschen",
+          "Migrationshintergrund",
+          "in",
+          "Kreuzberg"
+        ],
+        "answer": "Die meisten Menschen mit türkischem Migrationshintergrund wohnen in Kreuzberg."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which festival is celebrated in Berlin every summer?",
+        "options": [
+          "Oktoberfest",
+          "Ostern",
+          "Karneval der Kulturen",
+          "Weihnachten"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Viele Menschen kamen für die Arbeit oder das ___ nach Berlin.",
+        "answer": "Studium",
+        "hint": "studies"
+      },
+      {
+        "type": "true_false",
+        "statement": "It is relatively easy for EU citizens to move within Europe.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "They came from all over the world.",
+        "answer": "Sie kamen aus aller Herren Länder."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "ist",
+          "stolze",
+          "Berlin",
+          "eine",
+          "Stadt"
+        ],
+        "answer": "Berlin ist eine stolze Stadt."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "German traditions",
+    "titleDe": "Deutsche Traditionen",
+    "type": "reading",
+    "icon": "🥨",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Brauch, ⸚e</strong></td><td>custom / tradition</td><td>Ein Brauch ist, dass man zu Weihnachten einen Tannenbaum aufstellt.</td></tr><tr><td><strong>die Mentalität, -en</strong></td><td>mentality</td><td>Über die deutsche Mentalität sagt man, dass die Arbeit sehr wichtig ist.</td></tr><tr><td><strong>die Tugend, -en</strong></td><td>virtue</td><td>Stereotypische deutsche Tugenden sind Pünktlichkeit und Ordnung.</td></tr><tr><td><strong>das Klischee, -s</strong></td><td>cliché / stereotype</td><td>Ein Klischee hat oft eine negative Konnotation.</td></tr><tr><td><strong>die Plätzchen (Pl.)</strong></td><td>Christmas cookies</td><td>In der Weihnachtszeit backen viele Deutsche Plätzchen.</td></tr><tr><td><strong>der Heiligabend (Sg.)</strong></td><td>Christmas Eve</td><td>Heiligabend verbringen die meisten Deutschen mit ihrer Familie.</td></tr><tr><td><strong>der Adventskranz, ⸚e</strong></td><td>Advent wreath</td><td>Im Advent kauft man einen Adventskranz.</td></tr><tr><td><strong>der Weihnachtsmarkt, ⸚e</strong></td><td>Christmas market</td><td>Auf Weihnachtsmärkten kann man Glühwein trinken und Bratwurst essen.</td></tr><tr><td><strong>der Tannenbaum, ⸚e</strong></td><td>Christmas tree</td><td>Zu Weihnachten stellt man einen Tannenbaum ins Wohnzimmer.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Reading: Customs & Feiertage",
+        "type": "grammar",
+        "content": "<p>In Deutschland gibt es viele christliche Feiertage, da viele Menschen Christen sind. Doch auch nicht-religiöse Menschen feiern Weihnachten und Ostern.</p><h4>Wichtige Bräuche & Feste:</h4><ul><li><strong>Weihnachten</strong>: Die vier Wochen davor heißen Advent. Am 24. Dezember ist Heiligabend. Man isst zusammen und tauscht Geschenke aus.</li><li><strong>Ostern</strong>: Findet im Frühling statt. Kinder suchen Schokoladen-Ostereier, die der Osterhase versteckt hat.</li><li><strong>Oktoberfest</strong>: Stammt aus Bayern und findet im September statt. Es wird vom Bürgermeister Münchens mit den Worten „O’zapft is!“ geöffnet. Die Menschen tragen Tracht (Lederhosen für Männer, Dirndl für Frauen) und trinken Bier aus einer Maß (1 Liter).</li><li><strong>Qualität und Image</strong>: Das Label „Made in Germany“ gilt weltweit als Garantie für Qualität, besonders bei Automarken (Mercedes, BMW, Volkswagen) und Haushaltsgeräten (Bosch, Siemens, Miele).</li></ul><h4>Charaktereigenschaften:</h4><p>Man sagt, Deutsche seien ordentlich, genau, pünktlich, sauber und <strong>nehmen kein Blatt vor den Mund</strong> (direkt sagen, was man denkt, ohne Angst).</p>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>alle über einen Kamm scheren</strong></p><p>Bedeutung: alle Leute gleich behandeln und sich von Vorurteilen leiten lassen (to lump everyone together / paint everyone with the same brush).</p><p><em>Du kannst nicht alle Deutschen über einen Kamm scheren, meine Freundin Lisa kommt immer zu spät!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct vocabulary word.",
+        "sentence": "Ein bekanntes ___ ist, dass alle Deutschen Bier trinken.",
+        "answer": "Klischee",
+        "hint": "cliché / stereotype"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct definition of the idiom 'kein Blatt vor den Mund nehmen'.",
+        "question": "What does it mean if someone 'kein Blatt vor den Mund nimmt'?",
+        "options": [
+          "they speak very quietly",
+          "they speak directly and honestly",
+          "they lie often",
+          "they do not speak at all"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the traditions to their respective holidays.",
+        "pairs": [
+          [
+            "Ostereier",
+            "Ostern"
+          ],
+          [
+            "Adventskranz",
+            "Weihnachten"
+          ],
+          [
+            "Lederhose",
+            "Oktoberfest"
+          ],
+          [
+            "Osterhase",
+            "Ostern"
+          ],
+          [
+            "Glühwein",
+            "Weihnachten"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Das Oktoberfest wird traditionell im Norden Deutschlands gefeiert.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Stereotypical German virtues are punctuality and order.",
+        "target": "Stereotypische deutsche Tugenden sind Pünktlichkeit und Ordnung."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "dekorieren",
+          "Wohnung",
+          "Weihnachtszeit",
+          "Deutsche",
+          "der",
+          "Viele",
+          "in",
+          "ihre"
+        ],
+        "answer": "Viele Deutsche dekorieren in der Weihnachtszeit ihre Wohnung."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Auf dem Weihnachtsmarkt trinken viele Menschen ___.",
+        "answer": "Glühwein",
+        "hint": "mulled wine"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "What is a 'Maß'?",
+        "options": [
+          "A Christmas cookie",
+          "A 1-liter glass of beer",
+          "A traditional dress",
+          "A religious holiday"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The idiom 'alle über einen Kamm scheren' means to style everyone's hair the same way.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "You cannot lump everyone together.",
+        "target": "Du kannst nicht alle über einen Kamm scheren."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is NOT a holiday mentioned in the text?",
+        "options": [
+          "Weihnachten",
+          "Ostern",
+          "Oktoberfest",
+          "Erntedankfest"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Am 24. Dezember ist Heiligabend, der Höhepunkt der ___.",
+        "answer": "Adventszeit",
+        "hint": "Advent season"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Pünktlichkeit' and 'Ordnung' are often seen as typical German virtues.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "We bake cookies in the Advent season.",
+        "answer": "Wir backen Plätzchen in der Adventszeit."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Ostereier",
+          "Kinder",
+          "suchen",
+          "Die",
+          "aus",
+          "Schokolade"
+        ],
+        "answer": "Die Kinder suchen Ostereier aus Schokolade."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 'Tracht'?",
+        "options": [
+          "A traditional food",
+          "Traditional clothing like Lederhosen and Dirndl",
+          "A type of beer",
+          "A Christmas market decoration"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "In der Adventszeit kaufen viele Deutsche einen ___.",
+        "answer": "Adventskranz",
+        "hint": "Advent wreath"
+      },
+      {
+        "type": "true_false",
+        "statement": "Christians believe that Jesus was resurrected on Easter Sunday.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "sentence": "He speaks his mind frankly.",
+        "answer": "Er nimmt kein Blatt vor den Mund."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Man",
+          "stellt",
+          "einen",
+          "Tannenbaum",
+          "ins",
+          "Wohnzimmer"
+        ],
+        "answer": "Man stellt einen Tannenbaum ins Wohnzimmer."
+      }
+    ]
+  }
+]

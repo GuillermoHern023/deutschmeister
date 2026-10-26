@@ -1,0 +1,822 @@
+[
+  {
+    "id": 53,
+    "title": "Environmental problems and protection",
+    "titleDe": "Umweltprobleme und Umweltschutz",
+    "type": "vocabulary",
+    "icon": "🌱",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Abholzung</strong></td><td>deforestation</td><td>Durch die Abholzung verlieren Tiere ihren Lebensraum.</td></tr><tr><td><strong>die Vermüllung</strong></td><td>littering / waste pollution</td><td>Die Vermüllung der Meere ist ein großes Problem.</td></tr><tr><td><strong>die Überfischung</strong></td><td>overfishing</td><td>Die Überfischung bedroht viele Fischarten.</td></tr><tr><td><strong>der Klimawandel</strong></td><td>climate change</td><td>Der Klimawandel führt zu extremeren Wetterbedingungen.</td></tr><tr><td><strong>der Treibhauseffekt</strong></td><td>greenhouse effect</td><td>Durch den Treibhauseffekt wird das Klima immer wärmer.</td></tr><tr><td><strong>das Artensterben</strong></td><td>species extinction</td><td>Das Artensterben nimmt weltweit zu.</td></tr><tr><td><strong>die Luftverschmutzung</strong></td><td>air pollution</td><td>Die Luftverschmutzung gefährdet unsere Gesundheit.</td></tr><tr><td><strong>die Bodenerosion</strong></td><td>soil erosion</td><td>Intensive Landwirtschaft verstärkt die Bodenerosion.</td></tr><tr><td><strong>die Wasserverschmutzung</strong></td><td>water pollution</td><td>Die Wasserverschmutzung schadet der Tierwelt im Fluss.</td></tr><tr><td><strong>das Ozonloch</strong></td><td>ozone hole</td><td>Das Ozonloch wächst leider weiter.</td></tr><tr><td><strong>die Maßnahme, -n</strong></td><td>measure</td><td>Radfahren ist eine gute Maßnahme für den Umweltschutz.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: zu + Infinitiv or Konjunktion",
+        "type": "grammar",
+        "content": "<p>In German, expressing the necessity of environmental measures can be done in two ways: using a <strong>zu + Infinitiv</strong> clause or a <strong>subordinating conjunction</strong> (like <em>dass</em>, <em>wenn</em>, <em>ob</em>).</p><h4>Key Patterns:</h4><ul><li><strong>zu + Infinitiv</strong>:<br/><em>Es ist besser, den Müll zu trennen.</em><br/><em>Ich achte darauf, die Waschmaschine immer voll zu machen.</em></li><li><strong>Conjunction (dass, wenn, ob)</strong>:<br/><em>Es ist besser, wenn man den Müll trennt.</em><br/><em>Ich achte darauf, dass die Waschmaschine immer voll ist.</em><br/><em>Man sollte sich überlegen, ob man öffentliche Verkehrsmittel benutzen kann.</em></li></ul><h4>Expressing Necessity:</h4><p>Use these phrases to emphasize required actions:</p><ul><li><em>Es ist wichtig, ...</em></li><li><em>Es wäre sinnvoll, ...</em></li><li><em>Man sollte darauf achten, ...</em></li><li><em>Man sollte sich überlegen, ...</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>seinen Teil tun</strong></p><p>Bedeutung: Auch wenn man nur wenig machen kann, sollte man trotzdem sein Bestes geben. (To do one's part.)</p><p><em>Ich bin zwar nur eine Person, aber ich will auch meinen Teil tun, um die Umwelt zu schützen!</em></p><h4>Umgangssprachlicher Begriff:</h4><p><strong>die Chemiekeule rausholen</strong> = to use heavy chemical pesticides / options</p><p><em>Es wäre besser, gegen Insekten im Garten nicht immer gleich die Chemiekeule rauszuholen.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Durch den ___ wird das Klima immer wärmer.",
+        "answer": "Treibhauseffekt",
+        "hint": "greenhouse effect"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'die Abholzung' mean?",
+        "options": [
+          "deforestation",
+          "overpopulation",
+          "species extinction",
+          "littering"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German environmental terms to their English meanings.",
+        "pairs": [
+          [
+            "die Vermüllung",
+            "littering"
+          ],
+          [
+            "die Überfischung",
+            "overfishing"
+          ],
+          [
+            "das Artensterben",
+            "species extinction"
+          ],
+          [
+            "der Klimawandel",
+            "climate change"
+          ],
+          [
+            "die Maßnahme",
+            "measure"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'die Bodenerosion' means soil erosion.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German using 'zu + Infinitiv'.",
+        "source": "It is better to separate the garbage.",
+        "target": "Es ist besser, den Müll zu trennen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "ist",
+          "wichtig",
+          "Es",
+          "schützen",
+          "zu",
+          "die",
+          "Umwelt"
+        ],
+        "answer": "Es ist wichtig, die Umwelt zu schützen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct subordinating conjunction.",
+        "sentence": "Ich achte darauf, ___ die Waschmaschine immer voll ist.",
+        "answer": "dass",
+        "hint": "that"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct connector for the sentence: 'Es ist besser, ___ man den Müll trennt.'",
+        "options": [
+          "dass",
+          "wenn",
+          "ob",
+          "zu"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The idiom 'seinen Teil tun' means to do one's part.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "One should consider using public transport.",
+        "target": "Man sollte sich überlegen, öffentliche Verkehrsmittel zu benutzen."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'das Artensterben' refer to?",
+        "options": [
+          "overpopulation",
+          "species extinction",
+          "greenhouse effect",
+          "air pollution"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Mit dem Fahrrad zu fahren, ist eine wichtige ___ für den Umweltschutz.",
+        "answer": "Maßnahme",
+        "hint": "measure"
+      },
+      {
+        "type": "true_false",
+        "statement": "The phrase 'die Chemiekeule rausholen' refers to using organic gardening methods.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence is grammatically correct?",
+        "options": [
+          "Es ist besser, den Müll trennen zu.",
+          "Es ist besser, den Müll zu trennen.",
+          "Es ist besser, den Müll trennen.",
+          "Es ist besser, zu den Müll trennen."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Durch die ___ der Ozeane gibt es immer weniger Fische.",
+        "answer": "Überfischung",
+        "hint": "overfishing"
+      },
+      {
+        "type": "translation",
+        "sentence": "I want to do my part to protect the environment.",
+        "answer": "Ich will auch meinen Teil tun, um die Umwelt zu schützen."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Choose the correct translation of: 'Man sollte darauf achten, Energie zu sparen.'",
+        "options": [
+          "One should make sure to save energy.",
+          "One should think about saving energy.",
+          "It would make sense to save energy.",
+          "It is important to save energy."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "sinnvoll",
+          "wäre",
+          "Es",
+          "sparen",
+          "Strom",
+          "zu"
+        ],
+        "answer": "Es wäre sinnvoll, Strom zu sparen."
+      },
+      {
+        "type": "true_false",
+        "statement": "The noun 'die Vermüllung' is only used in the singular.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Man sollte sich überlegen, ___ man das Auto verkaufen kann.",
+        "answer": "ob",
+        "hint": "whether"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Environmental protection and recycling",
+    "titleDe": "Umweltschutz und Recycling",
+    "type": "speaking",
+    "icon": "♻️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Abfall, &Ouml;-e</strong></td><td>waste / trash</td><td>In den Biom&uuml;ll kommen die Abf&auml;lle vom Kochen.</td></tr><tr><td><strong>der M&uuml;ll</strong></td><td>garbage / rubbish</td><td>Papier, Glas oder Metall sind kein wertloser M&uuml;ll.</td></tr><tr><td><strong>M&uuml;ll trennen</strong></td><td>to separate garbage</td><td>Viele Abf&auml;lle kann man recyceln, wenn man M&uuml;ll trennt.</td></tr><tr><td><strong>wiederverwerten</strong></td><td>to reuse / recycle</td><td>Papier und Glas kann man wiederverwerten.</td></tr><tr><td><strong>der Restm&uuml;ll</strong></td><td>residual waste</td><td>Alles, was &uuml;brig bleibt, kommt in den Restm&uuml;ll.</td></tr><tr><td><strong>der Biom&uuml;ll</strong></td><td>organic waste</td><td>Bananenschalen und Teebeutel geh&ouml;ren in den Biom&uuml;ll.</td></tr><tr><td><strong>das Altpapier</strong></td><td>scrap paper</td><td>Die Zeitung von gestern kommt ins Altpapier.</td></tr><tr><td><strong>das Altglas</strong></td><td>scrap glass</td><td>Leere Marmeladengl&auml;ser kommen ins Altglas.</td></tr><tr><td><strong>der Sperrm&uuml;ll</strong></td><td>bulky waste</td><td>Alte M&ouml;bel kommen in den Sperrm&uuml;ll.</td></tr><tr><td><strong>der Elektroschrott</strong></td><td>electronic waste</td><td>Kaputte Elektroger&auml;te und Kabel sind Elektroschrott.</td></tr><tr><td><strong>der Kunststoff, -e</strong></td><td>plastic / synthetic material</td><td>Joghurtbecher bestehen aus Kunststoff.</td></tr><tr><td><strong>das Pfand</strong></td><td>deposit</td><td>Man bringt die Flaschen zur&uuml;ck und bekommt Pfand.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Imperative Sentences (Sätze im Imperativ)",
+        "type": "grammar",
+        "content": "<p>In German, the <strong>Imperative</strong> is used to give commands, advice, or suggestions. Here is how we transform advisory sentences into the informal singular imperative (<em>du</em>-form):</p><h4>Transformation Rules:</h4><ul><li>Drop the subject pronoun <em>du</em> and the verb ending <em>-st</em>. If the verb stem ends in <em>-d</em>, <em>-t</em>, or certain consonant clusters, add an <em>-e</em>.</li><li>For separable verbs, the prefix goes to the end of the sentence.</li></ul><h4>Examples:</h4><ul><li><em>Man sollte Pfandflaschen bevorzugen.</em> &rarr; <strong>Bevorzuge Pfandflaschen!</strong></li><li><em>Man sollte unverpacktes Obst oder Gem&uuml;se kaufen.</em> &rarr; <strong>Kauf unverpacktes Obst oder Gem&uuml;se!</strong></li><li><em>Man sollte die M&uuml;llt&uuml;te nicht mit in den Biom&uuml;ll werfen.</em> &rarr; <strong>Wirf die M&uuml;llt&uuml;te nicht mit in den Biom&uuml;ll!</strong> (note the vowel change <em>e &rarr; i</em> for strong verbs).</li><li><em>Man sollte zum Einkaufen eine Tasche mitnehmen.</em> &rarr; <strong>Nimm zum Einkaufen eine Tasche mit!</strong></li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>f&uuml;r die Tonne sein</strong></p><p>Bedeutung: nutzlos, wertlos, kann weg. (To be completely useless / go to waste.)</p><p><em>Oh Mann, jetzt ist meine ganze Arbeit f&uuml;r die Tonne gewesen!</em></p><h4>Umgangssprachlicher Begriff:</h4><p><strong>wegschmei&szlig;en</strong> / <strong>schmei&szlig;en</strong> = to throw away / dump</p><p><em>Das brauchen wir nicht mehr, schmei&szlig; das weg!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Das Obst ist schlecht geworden, ich muss es in den ___ werfen.",
+        "answer": "Biomüll",
+        "hint": "organic waste"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'Sperrmüll' mean?",
+        "options": [
+          "scrap paper",
+          "bulky waste",
+          "electronic waste",
+          "plastic"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the items with their correct waste category.",
+        "pairs": [
+          [
+            "Zeitung",
+            "Altpapier"
+          ],
+          [
+            "Bananenschale",
+            "Biomüll"
+          ],
+          [
+            "Joghurtbecher",
+            "Kunststoff"
+          ],
+          [
+            "Marmeladenglas",
+            "Altglas"
+          ],
+          [
+            "kaputtes Kabel",
+            "Elektroschrott"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'wegschmeißen' is a formal German word for 'to collect'.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German as an informal imperative (du-form).",
+        "source": "Avoid products with a lot of plastic packaging!",
+        "target": "Vermeide Produkte mit viel Plastik-Verpackung!"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Tasche",
+          "eine",
+          "Einkaufen",
+          "zum",
+          "Nimm",
+          "mit"
+        ],
+        "answer": "Nimm eine Tasche zum Einkaufen mit!"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Wenn man leere Flaschen zurück zum Supermarkt bringt, bekommt man ___.",
+        "answer": "Pfand",
+        "hint": "deposit"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct imperative form of 'Man sollte die Kartons kleiner machen'.",
+        "options": [
+          "Karton kleiner machen!",
+          "Mach die Kartons kleiner!",
+          "Du machst die Kartons kleiner!",
+          "Kartons kleiner machen!"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The idiom 'für die Tonne sein' means that something is very valuable.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Oh man, now all my work has gone to waste!",
+        "target": "Oh Mann, jetzt ist meine ganze Arbeit für die Tonne gewesen!"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'der Elektroschrott' mean?",
+        "options": [
+          "residual waste",
+          "scrap glass",
+          "electronic waste",
+          "scrap paper"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Alte Zeitungen und Kartons gehören ins ___.",
+        "answer": "Altpapier",
+        "hint": "scrap paper"
+      },
+      {
+        "type": "true_false",
+        "statement": "The plural of 'der Abfall' is 'die Abfälle'.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence is a correct imperative?",
+        "options": [
+          "Bevorzugst du Pfandflaschen!",
+          "Bevorzugen Sie Pfandflaschen!",
+          "Pfandflaschen bevorzugt!",
+          "Sie bevorzugen Pfandflaschen!"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Schmeiß das alte Sofa nicht auf die Straße, bring es zum ___.",
+        "answer": "Sperrmüll",
+        "hint": "bulky waste"
+      },
+      {
+        "type": "translation",
+        "sentence": "Do not throw the garbage bag into the organic waste!",
+        "answer": "Wirf die Mülltüte nicht mit in den Biomüll!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'wiederverwerten' mean?",
+        "options": [
+          "to throw away",
+          "to separate",
+          "to reuse/recycle",
+          "to collect"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Pfandflaschen",
+          "Bevorzuge",
+          "immer"
+        ],
+        "answer": "Bevorzuge immer Pfandflaschen!"
+      },
+      {
+        "type": "true_false",
+        "statement": "'schmeißen' is a colloquial synonym for 'werfen'.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Dieses alte Radio funktioniert nicht mehr, das ist nur noch ___.",
+        "answer": "Schrott",
+        "hint": "scrap metal/junk"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Air pollution",
+    "titleDe": "Luftverschmutzung",
+    "type": "reading",
+    "icon": "🌫️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Luftverschmutzung</strong></td><td>air pollution</td><td>Die Luftverschmutzung ist seit der Industrialisierung ein Problem.</td></tr><tr><td><strong>der Smog</strong></td><td>smog</td><td>Wenn es keinen Wind gibt, bildet sich Smog &uuml;ber Städten.</td></tr><tr><td><strong>die Auswirkung, -en</strong></td><td>impact / effect</td><td>Sch&auml;dliche Emissionen haben negative Auswirkungen.</td></tr><tr><td><strong>gef&auml;hrden</strong></td><td>to endanger</td><td>Luftverschmutzung gef&auml;hrdet die Gesundheit.</td></tr><tr><td><strong>die Luftqualit&auml;t</strong></td><td>air quality</td><td>Die Schweiz hat eine bessere Luftqualit&auml;t als viele L&auml;nder.</td></tr><tr><td><strong>das Fahrverbot, -e</strong></td><td>driving ban</td><td>Bei hoher Ozonkonzentration gibt es manchmal Fahrverbote.</td></tr><tr><td><strong>der saure Regen</strong></td><td>acid rain</td><td>Lokale Probleme wie saurer Regen schaden der Natur.</td></tr><tr><td><strong>die Emissionsquelle, -n</strong></td><td>emission source</td><td>Waldbr&auml;nde sind nat&uuml;rliche Emissionsquellen.</td></tr><tr><td><strong>menschengemacht</strong></td><td>man-made</td><td>Die Gr&uuml;nde f&uuml;r Luftverschmutzung sind oft menschengemacht.</td></tr><tr><td><strong>einatmen</strong></td><td>to breathe in</td><td>Es ist ungesund, verschmutzte Luft einzuatmen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Double Connectors & Passive (Doppelkonnektoren & Passiv)",
+        "type": "grammar",
+        "content": "<p>This lesson introduces the proportional double connector <strong>je ... desto</strong> and the past tense passive voice (<strong>wurde + Partizip II</strong>).</p><h4>Proportional Relationship (je ... desto):</h4><p>The connector <em>je</em> introduces a subordinate clause (verb at the end), and <em>desto</em> (or <em>umso</em>) introduces the main clause (verb in second position, right after the adjective).</p><ul><li><em>Je weniger Energie im Haushalt verbraucht wird, desto besser ist es f&uuml;r die Umwelt.</em></li><li><em>Je mehr wir Auto fahren, desto schlechter wird die Luft.</em></li></ul><h4>Passive Voice in Past Tense (Präteritum Passiv):</h4><p>We use the past tense of <em>werden</em> (<em>wurde/wurden</em>) with the past participle to describe past passive actions:</p><ul><li><em>Viele Fabriken wurden deswegen geschlossen.</em> (Many factories were closed because of this.)</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>dicke Luft sein / haben</strong></p><p>Bedeutung: Eine angespannte, negative Stimmung. (A tense atmosphere / thick air.)</p><p><em>Heute war dicke Luft im B&uuml;ro &ndash; meine Chefin hat sich mit meinem Kollegen gestritten.</em></p><h4>Anderer Ausdruck mit Luft:</h4><p><strong>jemandem die Luft zum Atmen nehmen</strong> = to stifle or suffocate someone metaphorically</p><p><em>Die ganzen Regeln hier nehmen mir die Luft zum Atmen.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Wenn es keinen Wind gibt, bildet sich ___ über den Städten.",
+        "answer": "Smog",
+        "hint": "mixture of smoke and fog"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'gefährden' mean?",
+        "options": [
+          "to improve",
+          "to endanger",
+          "to breathe",
+          "to prohibit"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German expressions to their English meanings.",
+        "pairs": [
+          [
+            "die Gesundheit gefährden",
+            "to endanger health"
+          ],
+          [
+            "verschmutzte Luft einatmen",
+            "to breathe in polluted air"
+          ],
+          [
+            "Fahrverbot vorschreiben",
+            "to mandate a driving ban"
+          ],
+          [
+            "unnötige Autofahrten vermeiden",
+            "to avoid unnecessary car trips"
+          ],
+          [
+            "Luftqualität verbessern",
+            "to improve air quality"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'menschengemacht' means natural or organic.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German using 'je... desto...'.",
+        "source": "The less energy we consume, the better it is.",
+        "target": "Je weniger Energie wir verbrauchen, desto besser ist es."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "wurden",
+          "Fabriken",
+          "geschlossen",
+          "Viele",
+          "deswegen"
+        ],
+        "answer": "Viele Fabriken wurden deswegen geschlossen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Vulkanexplosionen und Waldbrände sind natürliche ___.",
+        "answer": "Emissionsquellen",
+        "hint": "emission sources"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "What does the idiom 'dicke Luft' mean?",
+        "options": [
+          "fresh air",
+          "tense atmosphere",
+          "clean weather",
+          "heavy rain"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Air pollution is only a local problem in big cities.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "All the rules here suffocate me.",
+        "target": "Die ganzen Regeln hier nehmen mir die Luft zum Atmen."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a natural emission source?",
+        "options": [
+          "Industrie",
+          "Vulkanexplosionen",
+          "Haushalt",
+          "Verkehr"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Schmutzige Luft schadet dem Ökosystem und ___ unsere Gesundheit.",
+        "answer": "gefährdet",
+        "hint": "endangers"
+      },
+      {
+        "type": "true_false",
+        "statement": "Denmark has a better air quality than Germany, according to the text.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which connector fits: '___ mehr wir Auto fahren, desto schlechter wird die Luft.'",
+        "options": [
+          "Desto",
+          "Je",
+          "Wenn",
+          "Weil"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wenn die Ozonkonzentration zu hoch ist, gibt es oft ein ___ für Autofahrer.",
+        "answer": "Fahrverbot",
+        "hint": "driving ban"
+      },
+      {
+        "type": "translation",
+        "sentence": "Today there was a tense atmosphere in the office.",
+        "answer": "Heute war dicke Luft im Büro."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What are 'Atemwegserkrankungen'?",
+        "options": [
+          "cardiovascular diseases",
+          "respiratory diseases",
+          "skin allergies",
+          "eye infections"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Luftqualität",
+          "Es",
+          "wird",
+          "die",
+          "versucht",
+          "zu",
+          "verbessern"
+        ],
+        "answer": "Es wird versucht, die Luftqualität zu verbessern."
+      },
+      {
+        "type": "true_false",
+        "statement": "The noun 'die Auswirkung' has the plural form 'die Auswirkungen'.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die Luftverschmutzung hat negative ___ auf das Klima.",
+        "answer": "Auswirkungen",
+        "hint": "effects"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Natural disasters",
+    "titleDe": "Naturkatastrophen",
+    "type": "reading",
+    "icon": "🌪️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>das Erdbeben</strong></td><td>earthquake</td><td>Ein Erdbeben kann Tausende Menschenleben gef&auml;hrden.</td></tr><tr><td><strong>die D&uuml;rre, -n</strong></td><td>drought</td><td>Es gibt lange keinen Regen, die Natur wird durch die D&uuml;rre extrem trocken.</td></tr><tr><td><strong>der Vulkanausbruch, &Uuml;-e</strong></td><td>volcanic eruption</td><td>Sehr hei&szlig;e Masse kommt aus dem Inneren der Erde nach oben.</td></tr><tr><td><strong>der Waldbrand, &Uuml;-e</strong></td><td>forest fire</td><td>B&auml;ume brennen und das Feuer verbreitet sich im Waldbrand.</td></tr><tr><td><strong>der Tsunami, -s</strong></td><td>tsunami</td><td>Das Wort bedeutet gro&szlig;e Welle im Hafen.</td></tr><tr><td><strong>das Hochwasser</strong></td><td>flood</td><td>Sands&auml;cke bieten Schutz vor dem Hochwasser.</td></tr><tr><td><strong>der Tornado, -s</strong></td><td>tornado</td><td>Tornados sind im Verh&auml;ltnis zu Hurrikanen kleinere St&uuml;rme.</td></tr><tr><td><strong>der Hurrikan, -s</strong></td><td>hurricane</td><td>Hurrikane kommen in den USA, Mexiko und der Karibik vor.</td></tr><tr><td><strong>der Orkan, -e</strong></td><td>gale / hurricane-force storm</td><td>Ein Orkan bringt extrem starken Wind mit sich.</td></tr><tr><td><strong>die Naturkatastrophe, -n</strong></td><td>natural disaster</td><td>Naturkatastrophen sind leider nicht vorhersehbar.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Recommendations with 'sollte' (Ratschläge für den Notfall)",
+        "type": "grammar",
+        "content": "<p>When discussing emergency procedures or safety rules during natural disasters, German commonly uses the subjunctive modal verb <strong>sollte</strong> (should) combined with an infinitive at the end of the clause.</p><h4>Emergency Recommendations:</h4><ul><li><strong>Tornado / Hurrikan</strong>:<br/><em>Man sollte einen windgesch&uuml;tzten Ort aufsuchen.</em><br/><em>Am besten flieht man unter Br&uuml;cken oder ins Haus.</em><br/><em>Man sollte versuchen, immer quer zum Wind zu fl&uuml;chten.</em></li><li><strong>Erdbeben</strong>:<br/><em>Man sollte Schutz unter einem schweren Tisch oder stabilen M&ouml;beln suchen.</em></li><li><strong>Hochwasser</strong>:<br/><em>Man sollte Sands&auml;cke zum Schutz vor Fenster und T&uuml;ren legen.</em></li><li><strong>Tsunami</strong>:<br/><em>Man sollte so schnell wie m&ouml;glich den h&ouml;chsten Punkt in der Umgebung aufsuchen.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>f&uuml;r jemanden die Hand ins Feuer legen</strong></p><p>Bedeutung: Jemandem komplett vertrauen. (To vouch completely for someone / put one's hand in the fire for someone.)</p><p><em>F&uuml;r Stephan lege ich meine Hand ins Feuer. Ich vertraue ihm komplett.</em></p><h4>Ein weiteres Idiom:</h4><p><strong>ein Erdbeben ausl&ouml;sen</strong> = f&uuml;r gro&szlig;e Aufregung sorgen (to cause a huge stir / trigger an earthquake)</p><p><em>Die Nachricht, dass die Firma verkauft werden soll, hat unter den Angestellten ein Erdbeben ausgel&ouml;st.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Tektonische Platten bewegen sich und der Boden bebt. Das nennt man ___.",
+        "answer": "Erdbeben",
+        "hint": "earthquake"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is 'die Dürre'?",
+        "options": [
+          "drought",
+          "flood",
+          "forest fire",
+          "volcanic eruption"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the natural disasters to their descriptions.",
+        "pairs": [
+          [
+            "der Waldbrand",
+            "Bäume brennen im Wald"
+          ],
+          [
+            "der Vulkanausbruch",
+            "heiße Masse kommt nach oben"
+          ],
+          [
+            "das Hochwasser",
+            "Land steht unter Wasser"
+          ],
+          [
+            "der Tsunami",
+            "große Welle im Hafen"
+          ],
+          [
+            "die Dürre",
+            "Natur wird extrem trocken"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The word 'Tsunami' comes from Japanese and means a large wave in the harbor.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "One should seek protection under a heavy table.",
+        "target": "Man sollte Schutz unter einem schweren Tisch suchen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "vor",
+          "Sandsäcke",
+          "legen",
+          "Türen",
+          "Man",
+          "sollte"
+        ],
+        "answer": "Man sollte Sandsäcke vor Türen legen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Wie stark ein Erdbeben ist, misst man mit der ___.",
+        "answer": "Richterskala",
+        "hint": "Richter scale"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct advice for a Tsunami.",
+        "options": [
+          "Man sollte einen windgeschützten Ort aufsuchen.",
+          "Man sollte Sandsäcke vor Türen legen.",
+          "Man sollte so schnell wie möglich den höchsten Punkt aufsuchen.",
+          "Man sollte unter eine Brücke fliehen."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The idiom 'für jemanden die Hand ins Feuer legen' means you don't trust them.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The news caused a huge stir among the employees.",
+        "target": "Die Nachricht hat unter den Angestellten ein Erdbeben ausgelöst."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is 'der Orkan'?",
+        "options": [
+          "a drought",
+          "a hurricane-force storm",
+          "a volcanic eruption",
+          "a flood"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Bei einem ___ kommt sehr heiße Masse aus dem Inneren der Erde nach oben.",
+        "answer": "Vulkanausbruch",
+        "hint": "volcanic eruption"
+      },
+      {
+        "type": "true_false",
+        "statement": "Hurricanes occur in the USA, Mexico, and the Caribbean.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which recommendation is correct for a tornado?",
+        "options": [
+          "Man sollte unter Brücken oder ins Haus fliehen.",
+          "Man sollte Sandsäcke stapeln.",
+          "Man sollte einen hohen Baum klettern.",
+          "Man sollte im Auto bleiben."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ein Erdbeben kann Tausende ___ gefährden.",
+        "answer": "Menschenleben",
+        "hint": "human lives"
+      },
+      {
+        "type": "translation",
+        "sentence": "I trust him completely.",
+        "answer": "Ich vertraue ihm komplett."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'das Hochwasser' mean?",
+        "options": [
+          "tsunami",
+          "flood",
+          "drought",
+          "forest fire"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "nicht",
+          "vorhersehbar",
+          "Naturkatastrophen",
+          "sind"
+        ],
+        "answer": "Naturkatastrophen sind nicht vorhersehbar."
+      },
+      {
+        "type": "true_false",
+        "statement": "The four elements are fire, water, earth, and air.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Man sollte versuchen, immer quer zum ___ zu flüchten.",
+        "answer": "Wind",
+        "hint": "wind"
+      }
+    ]
+  }
+]

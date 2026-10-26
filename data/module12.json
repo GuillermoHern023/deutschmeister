@@ -1,0 +1,950 @@
+[
+  {
+    "id": 45,
+    "title": "Two-part prepositions",
+    "titleDe": "Zweiteilige Präpositionen",
+    "type": "grammar",
+    "icon": "🔗",
+    "lectureContent": [
+      {
+        "sectionTitle": "Grammatik: Zweiteilige Präpositionen",
+        "type": "grammar",
+        "content": "<p>Zweiteilige Präpositionen bestehen aus zwei Teilen. Sie helfen dabei, Beziehungen zwischen Dingen oder Zeiten genauer zu beschreiben.</p><h4>Struktur der zweiteiligen Präpositionen:</h4><ul><li><strong>Direkt hintereinander vor dem Nomen:</strong> Beide Teile stehen zusammen vor dem Nomen.<br/><em>Beispiel: Ich habe <strong>bis zum</strong> 31. August Urlaub. / Wir sollten dieses Projekt <strong>innerhalb von</strong> zwei Wochen beenden.</em></li><li><strong>Getrennt vor und hinter dem Nomen:</strong> Ein Teil steht vor dem Nomen, der andere dahinter.<br/><em>Beispiel: Der neue Mitarbeiter war mir <strong>von</strong> Anfang <strong>an</strong> sympathisch. / <strong>Vom</strong> Fenster <strong>aus</strong> kann ich den Fernsehturm sehen.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Die Fälle (Grammar Cases)",
+        "type": "grammar",
+        "content": "<p>Der Kasus (Akkusativ oder Dativ) wird durch den Teil der Präposition bestimmt, der <strong>direkt vor dem Nomen</strong> steht.</p><table><thead><tr><th>Präposition</th><th>Kasus</th><th>Bedeutung / Verwendung</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>bis auf ...</strong></td><td>Akkusativ</td><td>Ausnahme (except for)</td><td>Bis auf Jens sind heute alle anwesend.</td></tr><tr><td><strong>auf ... hin</strong></td><td>Akkusativ</td><td>Reaktion / Grund (in response to)</td><td>Auf deinen Rat hin verschieben wir die Deadline.</td></tr><tr><td><strong>innerhalb von ...</strong></td><td>Dativ</td><td>Zeitraum / Bereich (within)</td><td>Bitte sag mir innerhalb von zwei Tagen Bescheid.</td></tr><tr><td><strong>von ... an</strong></td><td>Dativ</td><td>Startzeitpunkt (from ... on)</td><td>Von Montag an arbeite ich in eurem Team.</td></tr><tr><td><strong>von ... aus</strong></td><td>Dativ</td><td>Perspektive / Startpunkt (from)</td><td>Von meinem Fenster aus kann ich den Park sehen.</td></tr><tr><td><strong>bis zu ...</strong></td><td>Dativ</td><td>Endpunkt / Distanz (up to)</td><td>Bis zur Bushaltestelle sind es nur 50 Meter.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Redewendung & Redemittel",
+        "type": "idiom",
+        "content": "<h4>Redemittel:</h4><ul><li><strong>Von mir aus...</strong>: Aus meiner Sicht einverstanden sein (As far as I'm concerned / Sure, why not).<br/><em>Beispiel: Wollen wir ins Kino gehen? – Von mir aus.</em></li></ul><h4>Redewendung:</h4><p><strong>bis über beide Ohren verliebt sein</strong></p><p>Bedeutung: Sehr stark verliebt sein (head over heels in love).</p><p><em>Beispiel: Mein Bruder hat eine neue Freundin – er ist bis über beide Ohren verliebt!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct preposition part.",
+        "sentence": "Von Montag ___ arbeite ich in eurem Team.",
+        "answer": "an",
+        "hint": "from Monday on"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct meaning of 'Von mir aus'.",
+        "question": "What does 'Von mir aus' mean?",
+        "options": [
+          "I am going home.",
+          "I do not agree.",
+          "As far as I am concerned / I agree.",
+          "Out of my sight."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the preposition to its correct grammatical case.",
+        "pairs": [
+          [
+            "bis auf",
+            "Akkusativ"
+          ],
+          [
+            "auf ... hin",
+            "Akkusativ"
+          ],
+          [
+            "von ... an",
+            "Dativ"
+          ],
+          [
+            "von ... aus",
+            "Dativ"
+          ],
+          [
+            "innerhalb von",
+            "Dativ"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'bis über beide Ohren verliebt sein' means to be head over heels in love.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Except for Jens, everyone is present today.",
+        "target": "Bis auf Jens sind heute alle anwesend."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Vom",
+          "Fenster",
+          "aus",
+          "sehen",
+          "wir",
+          "einen",
+          "schönen",
+          "Park",
+          "."
+        ],
+        "answer": "Vom Fenster aus sehen wir einen schönen Park."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct preposition.",
+        "sentence": "Bitte sag mir ___ von zwei Tagen Bescheid.",
+        "answer": "innerhalb",
+        "hint": "within"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct preposition to complete the sentence.",
+        "question": "Auf deinen Rat ___ werden wir die Deadline verschieben.",
+        "options": [
+          "an",
+          "aus",
+          "hin",
+          "von"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The preposition 'innerhalb von' is followed by the Accusative case.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "From tomorrow on I will learn ten new words every day.",
+        "target": "Von morgen an lerne ich jeden Tag zehn neue Wörter."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which case does the preposition 'bis auf' require?",
+        "options": [
+          "Dativ",
+          "Genitiv",
+          "Akkusativ",
+          "Nominativ"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Der neue Mitarbeiter war mir von Anfang ___ sympathisch.",
+        "answer": "an",
+        "hint": "from the very beginning"
+      },
+      {
+        "type": "true_false",
+        "statement": "In two-part prepositions, the part directly before the noun determines the case.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete the sentence: 'Bis ___ Bushaltestelle sind es nur 50 Meter.'",
+        "options": [
+          "zur",
+          "zum",
+          "den",
+          "die"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Mein Bruder ist bis über beide ___ verliebt.",
+        "answer": "Ohren",
+        "hint": "ears (plural)"
+      },
+      {
+        "type": "translation",
+        "sentence": "I have to answer within four days.",
+        "answer": "Ich muss innerhalb von vier Tagen antworten."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Bis",
+          "auf",
+          "Montag",
+          "habe",
+          "ich",
+          "jeden",
+          "Tag",
+          "Zeit",
+          "."
+        ],
+        "answer": "Bis auf Montag habe ich jeden Tag Zeit."
+      },
+      {
+        "type": "true_false",
+        "statement": "'von ... aus' is a two-part preposition that requires the Accusative case.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: '___ deine Empfehlung hin habe ich ein Zimmer im Hotel gebucht.'",
+        "options": [
+          "Auf",
+          "Von",
+          "Aus",
+          "Zu"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Innerhalb von drei ___ muss ich alles erledigen.",
+        "answer": "Tagen",
+        "hint": "days (plural, Dativ)"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Subjunctive II of modal verbs",
+    "titleDe": "Konjunktiv II der Modalverben",
+    "type": "grammar",
+    "icon": "💡",
+    "lectureContent": [
+      {
+        "sectionTitle": "Grammatik: Konjunktiv II der Modalverben in der Gegenwart",
+        "type": "grammar",
+        "content": "<p>Mit dem Konjunktiv II drücken wir Wünsche, irreale Bedingungen, Ratschläge und höfliche Bitten aus. Bei Modalverben bilden wir ihn direkt vom Präteritum-Stamm mit einem Umlaut (außer bei <em>sollen</em> und <em>wollen</em>).</p><h4>Formen der Modalverben im Konjunktiv II (Gegenwart):</h4><table><thead><tr><th>Pronomen</th><th>können</th><th>dürfen</th><th>müssen</th><th>sollen</th><th>wollen</th></tr></thead><tbody><tr><td><strong>ich</strong></td><td>könnte</td><td>dürfte</td><td>müsste</td><td>sollte</td><td>wollte</td></tr><tr><td><strong>du</strong></td><td>könntest</td><td>dürftest</td><td>müsstest</td><td>solltest</td><td>wolltest</td></tr><tr><td><strong>er/sie/es</strong></td><td>könnte</td><td>dürfte</td><td>müsste</td><td>sollte</td><td>wollte</td></tr><tr><td><strong>wir</strong></td><td>könnten</td><td>dürften</td><td>müssten</td><td>sollten</td><td>wollten</td></tr><tr><td><strong>ihr</strong></td><td>könntet</td><td>dürftet</td><td>müsstet</td><td>solltet</td><td>wolltet</td></tr><tr><td><strong>sie/Sie</strong></td><td>könnten</td><td>dürften</td><td>müssten</td><td>sollten</td><td>wollten</td></tr></tbody></table><p><em>Hinweis: <strong>sollen</strong> und <strong>wollen</strong> haben im Konjunktiv II keinen Umlaut!</em></p><p><strong>Satzbau:</strong> Das konjugierte Modalverb steht auf Position 2, der Infinitiv des Vollverbs steht am Satzende.<br/><em>Beispiel: Du <strong>könntest</strong> dich auf einem Jobportal <strong>anmelden</strong>.</em></p>"
+      },
+      {
+        "sectionTitle": "Grammatik: Konjunktiv II der Modalverben in der Vergangenheit",
+        "type": "grammar",
+        "content": "<p>Für die Vergangenheit benutzen wir die Form <strong>hätte (konjugiert) + Vollverb im Infinitiv + Modalverb im Infinitiv</strong> (Doppelinfinitiv) am Ende des Satzes.</p><ul><li><em>Beispiel: Ich <strong>hätte</strong> gestern <strong>arbeiten müssen</strong>.</em> (Gestern musste ich arbeiten, aber es war ein unerfüllter Wunsch.)</li><li><em>Beispiel: Das <strong>hättest</strong> du nicht <strong>sagen dürfen</strong>!</em> (Du hast es gesagt, aber es war verboten oder unhöflich.)</li></ul><p><strong>Satzbau in der Vergangenheit:</strong> Das konjugierte Verb <em>hätte</em> steht auf Position 2, der Doppelinfinitiv (Vollverb + Modalverb) steht ganz am Ende.</p>"
+      },
+      {
+        "sectionTitle": "Nützliche Ausdrücke & Redewendungen",
+        "type": "idiom",
+        "content": "<h4>Nützliche Ausdrücke & Ratschläge:</h4><ul><li><strong>An deiner Stelle wäre ich vorsichtig!</strong>: Ratschlag geben (If I were you, I would be careful!).</li><li><strong>Dürfte ich Sie kurz stören?</strong>: Eine höfliche Bitte ausdrücken (May I disturb you for a moment?).</li><li><strong>Nicht, dass ich wüsste!</strong>: Ausdrücken, dass man etwas nicht glaubt oder weiß (Not that I know of!).</li></ul><h4>Redewendung:</h4><p><strong>Das könnte dir so passen!</strong></p><p>Bedeutung: Unerwünschte Vorschläge ablehnen (You wish! / That would suit you!).</p><p><em>Beispiel: – Soll ich morgen deine Nachtschicht machen und dafür machst du meine am Freitag? – Das könnte dir so passen!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct Konjunktiv II form of the modal verb in brackets.",
+        "sentence": "Entschuldigen Sie, ___ (dürfen) ich Sie kurz etwas fragen?",
+        "answer": "dürfte",
+        "hint": "polite request"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct past tense Konjunktiv II form.",
+        "question": "Translate: 'I should have made a shopping list.'",
+        "options": [
+          "Ich hätte eine Einkaufsliste machen sollen.",
+          "Ich sollte eine Einkaufsliste gemacht haben.",
+          "Ich habe eine Einkaufsliste machen gesollt.",
+          "Ich hätte eine Einkaufsliste machen gesollt."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the infinitive verbs with their Konjunktiv II forms.",
+        "pairs": [
+          [
+            "können",
+            "könnte"
+          ],
+          [
+            "müssen",
+            "müsste"
+          ],
+          [
+            "sollen",
+            "sollte"
+          ],
+          [
+            "wollen",
+            "wollte"
+          ],
+          [
+            "haben",
+            "hätte"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The verbs 'wollen' and 'sollen' get an umlaut in the Konjunktiv II.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "You should eat more fruits and vegetables.",
+        "target": "Du solltest mehr Obst und Gemüse essen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Ich",
+          "hätte",
+          "gestern",
+          "arbeiten",
+          "müssen",
+          "."
+        ],
+        "answer": "Ich hätte gestern arbeiten müssen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct Konjunktiv II form.",
+        "sentence": "Ach, ich wünschte, ich ___ (müssen) morgen nicht arbeiten!",
+        "answer": "müsste",
+        "hint": "wishes/dreams"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer for 'Ist Paul heute im Büro?'.",
+        "question": "Which expression means 'Not that I know of!'?",
+        "options": [
+          "Nicht, dass ich wusste!",
+          "Nicht, dass ich wüsste!",
+          "Ich weiß es definitiv nicht.",
+          "Das könnte dir so passen!"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In the sentence 'Das hättest du nicht sagen dürfen!', the action happened in the past.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "If I were you, I would be careful!",
+        "target": "An deiner Stelle wäre ich vorsichtig!"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is the correct 3rd person plural form of 'dürfen' in Konjunktiv II?",
+        "options": [
+          "durften",
+          "dürften",
+          "dürftet",
+          "durftet"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Guten Tag, ich ___ bitte eine Bestellung aufgeben.",
+        "answer": "möchte",
+        "hint": "would like (polite request)"
+      },
+      {
+        "type": "true_false",
+        "statement": "In Konjunktiv II past tense with a modal verb, we use the double infinitive construction.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Das könnte dir so passen!' express?",
+        "options": [
+          "I'd love to help you.",
+          "Not that I know of.",
+          "You wish! (refusal of a proposal)",
+          "I am very sorry."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Du hättest mich anrufen ___.",
+        "answer": "dürfen",
+        "hint": "allowed to (infinitive)"
+      },
+      {
+        "type": "translation",
+        "sentence": "I wish I could ride a bike around the whole world!",
+        "answer": "Ach, ich wünschte, ich könnte mit dem Fahrrad um die ganze Welt fahren!"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Sie",
+          "hätten",
+          "viel",
+          "mehr",
+          "Wasser",
+          "trinken",
+          "sollen",
+          "."
+        ],
+        "answer": "Sie hätten viel mehr Wasser trinken sollen."
+      },
+      {
+        "type": "true_false",
+        "statement": "The sentence 'Maria hätte mehr lernen müssen.' implies that Maria actually studied enough.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Mit diesem Problem hätte ich dir nicht helfen ___.'",
+        "options": [
+          "können",
+          "gekonnt",
+          "kannst",
+          "könnte"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Frau Meier hätte ihre Steuererklärung schon letzten Monat machen ___.",
+        "answer": "müssen",
+        "hint": "had to (infinitive)"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Advanced use of the verb 'lassen'",
+    "titleDe": "Fortgeschrittene Verwendung des Verbs 'lassen'",
+    "type": "grammar",
+    "icon": "⚙️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Grammatik: Lassen als Vollverb & Hilfsverb",
+        "type": "grammar",
+        "content": "<p>Das Verb <strong>lassen</strong> ist sehr vielseitig. Es kann sowohl als Vollverb als auch als Hilfsverb verwendet werden.</p><h4>1. Lassen als Vollverb (ohne zweiten Infinitiv):</h4><ul><li><strong>Jemandem etwas geben/überlassen:</strong><br/><em>Beispiel: Ich lasse dir das Buch bis nächste Woche. / Meine Mutter lässt mir ihr Auto.</em></li><li><strong>Mit etwas aufhören:</strong><br/><em>Beispiel: Wann lasst ihr endlich das Rauchen? / Ich lasse das Lernen für heute.</em></li></ul><h4>2. Lassen als Hilfsverb (mit einem zweiten Infinitiv):</h4><ul><li><strong>Etwas erlauben oder verbieten:</strong><br/><em>Beispiel: Der Polizist lässt mich weiterfahren. / Nie lässt du mich aussprechen!</em></li><li><strong>Etwas veranlassen (delegieren):</strong><br/><em>Beispiel: Er lässt sich die Haare schneiden. (Er macht es nicht selbst)</em></li><li><strong>Etwas zurücklassen (nicht verändern):</strong><br/><em>Beispiel: Tom lässt sein Handy liegen. / Ich lasse meine Brille auf der Arbeit liegen.</em></li><li><strong>Vorschlag / Aufforderung:</strong><br/><em>Beispiel: Lasst uns mit der Arbeit beginnen! / Lass uns Deutsch sprechen!</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Grammatik: Sich lassen als Passiversatz",
+        "type": "grammar",
+        "content": "<p>Die Konstruktion <strong>sich lassen + Infinitiv</strong> wird oft als Ersatz für das Passiv (mit <em>können</em>) benutzt. Sie drückt aus, ob etwas möglich oder unmöglich ist.</p><table><thead><tr><th>Passivsatz</th><th>Ersatz mit \"sich lassen\"</th><th>Bedeutung</th></tr></thead><tbody><tr><td>Der Schrank wird schnell aufgebaut.</td><td>Der Schrank <strong>lässt sich</strong> schnell <strong>aufbauen</strong>.</td><td>Es ist möglich, ihn aufzubauen.</td></tr><tr><td>Das Auto kann nicht repariert werden.</td><td>Das Auto <strong>lässt sich nicht reparieren</strong>.</td><td>Es ist unmöglich, es zu reparieren.</td></tr><tr><td>Ich werde nicht leicht beeinflusst.</td><td>Ich <strong>lasse mich</strong> nicht leicht <strong>beeinflussen</strong>.</td><td>Man kann mich nicht leicht beeinflussen.</td></tr><tr><td>Das kann nicht geplant werden.</td><td>Das <strong>lässt sich</strong> nicht <strong>planen</strong>.</td><td>Es ist unmöglich zu planen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Perfekt & Redewendungen",
+        "type": "idiom",
+        "content": "<h4>3. Das Perfekt von \"lassen\":</h4><ul><li><strong>Als Vollverb:</strong> Konjugiertes <em>haben</em> + <strong>gelassen</strong>.<br/><em>Beispiel: Er hat das Rauchen endlich <strong>gelassen</strong>. / Ich habe den Schlüssel zu Hause <strong>gelassen</strong>.</em></li><li><strong>Als Hilfsverb:</strong> Konjugiertes <em>haben</em> + Infinitiv + <strong>lassen</strong> (Doppelinfinitiv).<br/><em>Beispiel: Ich habe mir helfen <strong>lassen</strong>. / Ich habe meine Haare schneiden <strong>lassen</strong>.</em></li></ul><h4>Redewendungen:</h4><ul><li><strong>fünfe gerade sein lassen</strong>: Fünfe gerade sein lassen bedeutet, mal nicht so streng oder genau zu sein (to turn a blind eye / let things slide).</li><li><strong>sich nicht unterkriegen lassen</strong>: Auch bei Problemen nicht aufgeben, nicht den Mut verlieren (not to let things get you down).</li></ul>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct present tense form of 'lassen'.",
+        "sentence": "Wenn wir nicht kochen wollen, ___ wir uns Essen liefern.",
+        "answer": "lassen",
+        "hint": "we let / we order"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct passive replacement.",
+        "question": "How do you rewrite 'Der Schrank wird schnell aufgebaut' using 'lassen'?",
+        "options": [
+          "Der Schrank wird sich schnell aufbauen.",
+          "Der Schrank lässt sich schnell aufbauen.",
+          "Der Schrank hat sich schnell aufbauen gelassen.",
+          "Der Schrank lässt schnell aufbauen."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the usage of 'lassen' to the correct sentence.",
+        "pairs": [
+          [
+            "Aufforderung",
+            "Lass uns bitte das Thema wechseln!"
+          ],
+          [
+            "Zulassen / Erlauben",
+            "Der Polizist lässt mich weiterfahren."
+          ],
+          [
+            "Zurücklassen",
+            "Tom lässt sein Handy liegen."
+          ],
+          [
+            "Vollverb (Aufgeben)",
+            "Er hat das Rauchen endlich gelassen."
+          ],
+          [
+            "Passiversatz",
+            "Das Auto lässt sich nicht reparieren."
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The idiom 'fünfe gerade sein lassen' means to be extremely strict with rules.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I do not let difficulties get me down!",
+        "target": "Ich lasse mich von Schwierigkeiten nicht unterkriegen!"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Ich",
+          "habe",
+          "mir",
+          "helfen",
+          "lassen",
+          "."
+        ],
+        "answer": "Ich habe mir helfen lassen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with 'lassen' or 'gelassen'.",
+        "sentence": "Ich habe neulich meine Tür offen ___.",
+        "answer": "gelassen",
+        "hint": "left open (past participle of Vollverb)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct form.",
+        "question": "Hannah ___ mich oft etwas von ihrem Essen probieren.",
+        "options": [
+          "lasst",
+          "lässt",
+          "lassen",
+          "gelassen"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In the sentence 'Ich habe sie von meinem Freund abschließen lassen.', 'lassen' acts as a helper verb, so it takes the infinitive form instead of 'gelassen'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Let us speak German!",
+        "target": "Lass uns Deutsch sprechen!"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence expresses that it is possible or impossible to do something?",
+        "options": [
+          "Er lässt sie die Lösungen abschreiben.",
+          "Er lässt seine Hemden bügeln.",
+          "Das Brot lässt sich nicht leicht schneiden.",
+          "Er hat das Rauchen gelassen."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Diese Technik lässt sich einfach durch nichts ___.",
+        "answer": "ersetzen",
+        "hint": "replace (infinitive)"
+      },
+      {
+        "type": "true_false",
+        "statement": "The Perfekt form of 'lassen' as a full verb uses 'gelassen'.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Zum Glück musste ich noch nie einen Schlüsseldienst kommen ___.'",
+        "options": [
+          "gelassen",
+          "lassen",
+          "lässt",
+          "lasst"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Danach habe ich einen Zweitschlüssel bei der Nachbarin ___.",
+        "answer": "gelassen",
+        "hint": "left (past participle)"
+      },
+      {
+        "type": "translation",
+        "sentence": "Tom leaves his phone lying around.",
+        "answer": "Tom lässt sein Handy liegen."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Lasst",
+          "uns",
+          "mit",
+          "der",
+          "Arbeit",
+          "beginnen",
+          "."
+        ],
+        "answer": "Lasst uns mit der Arbeit beginnen."
+      },
+      {
+        "type": "true_false",
+        "statement": "In the present tense, the conjugation for 'du' is 'du lasst'.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the correct passive voice meaning of 'Der Schrank lässt sich schnell aufbauen'?",
+        "options": [
+          "Der Schrank wird schnell aufgebaut.",
+          "Der Schrank hat schnell aufgebaut.",
+          "Man hat den Schrank aufgebaut.",
+          "Der Schrank muss sich aufbauen."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Manchmal muss man auch mal fünfe gerade sein ___.",
+        "answer": "lassen",
+        "hint": "let (infinitive)"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Making assumptions with Future I",
+    "titleDe": "Vermutungen äußern mit dem Futur I",
+    "type": "grammar",
+    "icon": "🔮",
+    "lectureContent": [
+      {
+        "sectionTitle": "Grammatik: Bildung und Bedeutung des Futur I",
+        "type": "grammar",
+        "content": "<p>Das Futur I wird verwendet, um über die Zukunft zu sprechen oder um Vermutungen in der Gegenwart oder Zukunft zu äußern.</p><h4>Bildung des Futur I:</h4><p><strong>konjugierte Form von werden + Infinitiv am Satzende</strong></p><ul><li><em>Beispiel (Fakt über die Zukunft): Ich <strong>werde</strong> am Sonntag ins Wahlbüro <strong>gehen</strong>.</em></li><li><em>Beispiel (Vermutung): Schau mal in den Brief, da <strong>wird</strong> die Adresse bestimmt <strong>drinstehen</strong>.</em></li></ul><h4>Vermeidung des doppelten Verbs \"werden\":</h4><p>Wenn nach <em>werden</em> ein Adjektiv oder Nomen mit dem Verb <em>werden</em> stehen müsste, kann man das zweite <em>werden</em> oft weglassen.</p><ul><li><em>Er wird wieder Kanzler werden. &rarr; Er wird wieder Kanzler.</em></li><li><em>Es wird knapp werden. &rarr; Es wird knapp.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Grammatik: Vermutungen mit Modalpartikeln & Verben",
+        "type": "grammar",
+        "content": "<p>Um eine Vermutung von einem Fakt zu unterscheiden, nutzen wir oft bestimmte Verben oder Modalpartikeln.</p><h4>1. Redeeinleitende Verben:</h4><p>Diese Verben zeigen, dass eine Aussage keine feste Tatsache ist, sondern eine Annahme:</p><ul><li><strong>vermuten</strong>: Ich vermute, das Wahlbüro ist in der Schule.</li><li><strong>schätzen</strong>: Ich schätze, Regina Kunz hat bessere Chancen.</li><li><strong>glauben</strong>: Ich glaube, es wird knapp.</li></ul><h4>2. Modalpartikeln für Vermutungen:</h4><p>Die Partikeln <strong>wohl</strong>, <strong>sicher</strong> und <strong>bestimmt</strong> stehen direkt <strong>hinter dem konjugierten Verb</strong> und kennzeichnen eine Vermutung:</p><ul><li><em>Das Wahlbüro wird <strong>wohl</strong> wieder in der Schule sein.</em></li><li><em>Die Adresse wird <strong>bestimmt</strong> im Brief stehen.</em></li><li><em>Martin Hinz wird <strong>sicher</strong> damit rechnen, wieder Kanzler zu werden.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Wortschatz & Redewendung",
+        "type": "vocabulary",
+        "content": "<h4>Schlüsselwortschatz:</h4><table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>abstimmen (hat abgestimmt)</strong></td><td>to vote</td><td>Hast du schon bei der Bundestagswahl abgestimmt?</td></tr><tr><td><strong>die Briefwahl</strong></td><td>postal vote</td><td>Ich stimme per Briefwahl ab.</td></tr><tr><td><strong>das Wahlbüro, -s</strong></td><td>polling station</td><td>Ich werde ins Wahlbüro gehen.</td></tr><tr><td><strong>die Stimme, -n</strong></td><td>vote / voice</td><td>Ich habe meine Stimme abgegeben.</td></tr><tr><td><strong>ausgehen (ist ausgegangen)</strong></td><td>to turn out / end</td><td>Wie wird die Wahl ausgehen?</td></tr><tr><td><strong>knapp</strong></td><td>close / tight</td><td>Es wird knapp!</td></tr></tbody></table><h4>Redewendung:</h4><p><strong>die Qual der Wahl</strong></p><p>Bedeutung: Es ist sehr schwierig, sich zwischen vielen Optionen zu entscheiden (the agony of choice).</p><p><em>Beispiel: Möchtest du Schokolade oder Eis? Du hast die Qual der Wahl!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct verb.",
+        "sentence": "Das Futur I wird aus einer konjugierten Form von ___ und einem Infinitiv gebildet.",
+        "answer": "werden",
+        "hint": "auxiliary verb"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Identify if the sentence is a fact or an assumption.",
+        "question": "'Ich werde am Sonntag ins Wahlbüro gehen.' is:",
+        "options": [
+          "ein Fakt (a fact)",
+          "eine Vermutung (an assumption)",
+          "eine Vergangenheit",
+          "eine Bitte"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their grammatical word type.",
+        "pairs": [
+          [
+            "schätzen",
+            "Verb"
+          ],
+          [
+            "Vorhersage",
+            "Nomen"
+          ],
+          [
+            "sicher",
+            "Modalpartikel"
+          ],
+          [
+            "Wahlbeteiligung",
+            "Nomen"
+          ],
+          [
+            "vermuten",
+            "Verb"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Modal particles like 'wohl', 'sicher', and 'bestimmt' are placed directly before the verb they modify.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "How will the election turn out?",
+        "target": "Wie wird die Wahl ausgehen?"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Das",
+          "Wahlbüro",
+          "wird",
+          "wohl",
+          "in",
+          "der",
+          "Schule",
+          "sein",
+          "."
+        ],
+        "answer": "Das Wahlbüro wird wohl in der Schule sein."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct noun.",
+        "sentence": "Heute ist Bundestagswahl! Ich habe meine Stimme per ___ abgegeben.",
+        "answer": "Briefwahl",
+        "hint": "postal vote"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct option that means 'We will see!'.",
+        "question": "Which expression is used to say 'We will see!'?",
+        "options": [
+          "Wir werden's sehen!",
+          "Es wird knapp!",
+          "Die Qual der Wahl!",
+          "Das könnte dir so passen!"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The sentence 'Es wird knapp.' is a shortened version of 'Es wird knapp werden.'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I estimate that Frau Kunz has better chances.",
+        "target": "Ich schätze, Frau Kunz hat bessere Chancen."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is a verb that introduces an assumption (redeeinleitendes Verb)?",
+        "options": [
+          "abstimmen",
+          "vermuten",
+          "ausgehen",
+          "wählen"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wenn du dich schwer zwischen Schokolade und Eis entscheiden kannst, hast du die Qual der ___.",
+        "answer": "Wahl",
+        "hint": "choice / election"
+      },
+      {
+        "type": "true_false",
+        "statement": "The sentence 'Schau mal in den Brief, da wird die Adresse bestimmt drinstehen.' contains an assumption.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete the sentence: 'Das Wahlbüro wird ___ in der Schule sein.'",
+        "options": [
+          "denn",
+          "bestimmt",
+          "weil",
+          "aber"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Viele junge Menschen wünschen sich einen neuen Kanzler oder eine neue ___.",
+        "answer": "Kanzlerin",
+        "hint": "female chancellor"
+      },
+      {
+        "type": "translation",
+        "sentence": "I have already voted by postal vote.",
+        "answer": "Ich habe schon per Briefwahl abgestimmt."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Martin",
+          "Hinz",
+          "wird",
+          "sicher",
+          "wieder",
+          "Kanzler",
+          "werden",
+          "."
+        ],
+        "answer": "Martin Hinz wird sicher wieder Kanzler werden."
+      },
+      {
+        "type": "true_false",
+        "statement": "The noun 'Wahlbeteiligung' means election turnout.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the meaning of the idiom 'die Qual der Wahl'?",
+        "options": [
+          "The agony of having too many choices.",
+          "The joy of voting.",
+          "A bad political decision.",
+          "A painful election process."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich kann gar nicht abschätzen, wie die Wahl ausgehen ___.",
+        "answer": "wird",
+        "hint": "will (singular)"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Connectors & Sentence Structure",
+    "titleDe": "Konnektoren & Satzbau (weil, obwohl, deshalb, trotzdem)",
+    "type": "grammar",
+    "icon": "🧩",
+    "lectureContent": [
+      {
+        "sectionTitle": "Die 3 Konnektoren-Familien (Die Satzbau-Regeln)",
+        "type": "grammar",
+        "content": "<p>Im Deutschen bestimmt das Verbindungswort (der Konnektor), an welcher Position das konjugierte Verb steht. Es gibt <strong>drei feste Typen</strong>:</p><h4>1. Typ ENDE (Subjunktionen): weil, obwohl, dass, wenn</h4><p>Das konjugierte Verb wird an das <strong>allerletzte Ende</strong> des Nebensatzes gestellt.</p><ul><li><em>Ich trinke Kaffee, weil ich müde <strong>bin</strong>.</em></li><li><em>Ich gehe spazieren, obwohl es <strong>regnet</strong>.</em></li><li><em>Ich weiß, dass Berlin eine tolle Stadt <strong>ist</strong>.</em></li></ul><h4>2. Typ POSITION 2 (Konjunktionaladverbien): deshalb, deswegen, trotzdem, außerdem</h4><p>Diese Wörter besetzen Position 1. Das konjugierte Verb folgt <strong>sofort an Position 2</strong> (Inversion)!</p><ul><li><em>Ich bin müde. Deshalb <strong>trinke</strong> ich einen Kaffee.</em></li><li><em>Es regnet. Trotzdem <strong>gehe</strong> ich spazieren.</em></li><li><em>Berlin ist spannend. Außerdem <strong>wohnt</strong> meine Fast-Freundin hier.</em></li></ul><h4>3. Typ POSITION 0 (Koordinierende Konjunktionen): und, aber, denn, oder</h4><p>Diese Wörter verbinden zwei Hauptsätze, ohne die normale Wortstellung (Subjekt + Verb) zu verändern.</p><ul><li><em>Ich trinke Kaffee, denn ich <strong>bin</strong> müde.</em></li><li><em>Ich wohne in Berlin, aber ich <strong>arbeite</strong> viel.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Direkter Vergleich: Ursache und Gegensätze",
+        "type": "grammar",
+        "content": "<table><thead><tr><th>Bedeutung</th><th>Typ ENDE (Nebensatz)</th><th>Typ POSITION 2 (Hauptsatz)</th><th>Typ POSITION 0</th></tr></thead><tbody><tr><td><strong>Grund (Cause)</strong></td><td><strong>weil</strong><br/>... weil ich lerne.</td><td><strong>deshalb / deswegen</strong><br/>... deshalb lerne ich.</td><td><strong>denn</strong><br/>... denn ich lerne.</td></tr><tr><td><strong>Gegensatz (Contrast)</strong></td><td><strong>obwohl</strong><br/>... obwohl es kalt ist.</td><td><strong>trotzdem</strong><br/>... trotzdem gehe ich raus.</td><td><strong>aber</strong><br/>... aber es ist kalt.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Redewendung & Alltagstipp",
+        "type": "idiom",
+        "content": "<p><strong>Redewendung: Nicht kleckern, sondern klotzen!</strong></p><p>Bedeutung: Keine halben Sachen machen; etwas richtig groß und gründlich anpacken.</p><p><em>Beispiel: Wenn wir schon Deutsch lernen, dann nicht kleckern, sondern klotzen!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "instruction": "Welcher Satz hat die richtige Wortstellung?",
+        "question": "Wähle den grammatikalisch korrekten Satz mit 'weil':",
+        "options": [
+          "Ich lerne Deutsch, weil ich wohne in Berlin.",
+          "Ich lerne Deutsch, weil ich in Berlin wohne.",
+          "Ich lerne Deutsch, weil in Berlin ich wohne.",
+          "Ich lerne Deutsch, weil wohne ich in Berlin."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Welcher Satz hat die richtige Wortstellung mit 'deshalb'?",
+        "question": "Wähle den korrekten Satz mit 'deshalb':",
+        "options": [
+          "Ich bin müde, deshalb ich trinke Kaffee.",
+          "Ich bin müde, deshalb trinke ich Kaffee.",
+          "Ich bin müde, deshalb trinken Kaffee ich.",
+          "Ich bin müde, deshalb Kaffee trinke ich."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze den passenden Konnektor (weil / obwohl / deshalb / trotzdem).",
+        "sentence": "Ich habe viel gearbeitet, ___ bin ich jetzt sehr müde.",
+        "answer": "deshalb",
+        "hint": "therefore (Verb an Position 2)"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze den passenden Konnektor (weil / obwohl / deshalb / trotzdem).",
+        "sentence": "Ich gehe zum Unterricht, ___ ich heute wenig geschlafen habe.",
+        "answer": "obwohl",
+        "hint": "although (Verb am Ende)"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge (Achte auf das Verb!).",
+        "words": [
+          "Ich",
+          "lerne,",
+          "weil",
+          "ich",
+          "in",
+          "Deutschland",
+          "wohne."
+        ],
+        "answer": "Ich lerne, weil ich in Deutschland wohne."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "instruction": "Prüfungsaufgabe: Konnektoren & Satzstellung",
+        "question": "Welche Aussage ist richtig?",
+        "options": [
+          "Nach 'weil' steht das finite Verb an Position 2.",
+          "Nach 'deshalb' steht das finite Verb am Satzende.",
+          "Nach 'obwohl' steht das finite Verb am Satzende.",
+          "Nach 'denn' steht das finite Verb vor dem Subjekt."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das Verb am richtigen Platz.",
+        "sentence": "Es regnet stark, trotzdem ___ Guillermo joggen.",
+        "answer": "geht",
+        "hint": "geht / gehen (Position 2)"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze die richtige Konjunktion.",
+        "sentence": "Er spielt Videospiele, ___ er Stress abbauen möchte.",
+        "answer": "weil",
+        "hint": "Verb am Ende (möchte)"
+      }
+    ]
+  }
+]

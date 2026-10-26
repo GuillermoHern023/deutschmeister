@@ -1,0 +1,930 @@
+[
+  {
+    "id": 21,
+    "title": "German Cuisine",
+    "titleDe": "Die deutsche Küche",
+    "type": "vocabulary",
+    "icon": "🌭",
+    "lectureContent": [
+      {
+        "sectionTitle": "Deutsche Esskultur",
+        "type": "culture",
+        "content": "<p>Die Küche der deutschsprachigen Länder ist deftig und kalorienreich. Viele traditionelle Gerichte bestehen aus drei Komponenten: <strong>Fleisch oder Fisch</strong> (oft mit Soße), <strong>Gemüse oder Salat</strong> und einer <strong>Sättigungsbeilage</strong>, wie z. B. Kartoffeln. Weitere beliebte Gerichte sind Eintöpfe und Aufläufe, die regional sehr unterschiedlich zubereitet werden.</p>"
+      },
+      {
+        "sectionTitle": "Spezialitäten aus den DACH-Ländern",
+        "type": "vocabulary",
+        "content": "<p>In den deutschsprachigen Ländern (Deutschland, Österreich, Schweiz) gibt es viele berühmte Spezialitäten:</p><table><thead><tr><th>Gericht</th><th>Herkunft / Beschreibung</th></tr></thead><tbody><tr><td><strong>Wiener Schnitzel</strong></td><td>Österreich – paniertes und frittiertes Kalbsfleisch</td></tr><tr><td><strong>Kaiserschmarrn</strong></td><td>Österreich – zerkleinerter, süßer Pfannkuchen mit Rosinen und Puderzucker</td></tr><tr><td><strong>Zürcher Geschnetzeltes</strong></td><td>Schweiz – geschnittenes Kalbfleisch in einer Rahmsoße</td></tr><tr><td><strong>Currywurst mit Pommes</strong></td><td>Deutschland (besonders Berlin) – Wurst mit Ketchup und Currypulver</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Wurstkultur in Deutschland",
+        "type": "culture",
+        "content": "<p>Deutschland ist weltbekannt für seine Vielfalt an Würsten:</p><ul><li><strong>Weißwurst:</strong> Eine bayerische Spezialität, die traditionell morgens mit Brezeln und süßem Senf gegessen wird.</li><li><strong>Wiener Würstchen:</strong> Werden gerne heiß zu Suppen und Eintöpfen serviert.</li><li><strong>Bratwurst:</strong> Ein beliebter Snack zum Mittag, serviert mit Brötchen, Sauerkraut oder Kartoffelsalat.</li></ul>"
+      },
+      {
+        "sectionTitle": "Regionale Bezeichnungen",
+        "type": "vocabulary",
+        "content": "<p>Manche Speisen haben je nach Region unterschiedliche Namen:</p><table><thead><tr><th>Speise</th><th>Westdeutschland & Schweiz</th><th>Bayern & Österreich</th><th>Ostdeutschland</th></tr></thead><tbody><tr><td>Gefülltes Hefegebäck</td><td><strong>Berliner</strong></td><td><strong>Krapfen</strong> (oder Faschingskrapfen)</td><td><strong>Pfannkuchen</strong></td></tr><tr><td>Flacher Eierteig</td><td><strong>Pfannkuchen</strong></td><td><strong>Palatschinken</strong></td><td><strong>Eierkuchen</strong></td></tr><tr><td>Kartoffelpuffer</td><td><strong>Kartoffelpuffer</strong></td><td><strong>Rösti</strong> (Schweiz)</td><td><strong>Kartoffelpuffer</strong></td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Wortschatz: Essen aus aller Welt",
+        "type": "vocabulary",
+        "content": "<p>Neben der traditionellen deutschen Küche essen die Menschen in DACH gerne Gerichte aus anderen Ländern:</p><table><thead><tr><th>Deutsch</th><th>Englisch</th></tr></thead><tbody><tr><td>deftig</td><td>hearty / savory</td></tr><tr><td>kalorienreich</td><td>calorie-rich</td></tr><tr><td>die Sättigungsbeilage, -n</td><td>filling side dish (e.g. potatoes, rice)</td></tr><tr><td>der Auflauf, -läufe</td><td>casserole / bake</td></tr><tr><td>der Eintopf, -töpfe</td><td>stew</td></tr><tr><td>die Spätzle (Pl.)</td><td>traditional egg noodles</td></tr><tr><td>der Kartoffelsalat, -e</td><td>potato salad</td></tr><tr><td>der Döner, -</td><td>doner kebab</td></tr><tr><td>mediterran / asiatisch / orientalisch</td><td>mediterranean / asian / oriental</td></tr><tr><td>das Lieblingsgericht, -e</td><td>favorite dish</td></tr><tr><td>die Länderküche, -n</td><td>regional / national cuisine</td></tr><tr><td>probieren</td><td>to try / taste</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Redewendung: Jetzt geht's um die Wurst!",
+        "type": "culture",
+        "content": "<p><strong>Jetzt geht's um die Wurst!</strong></p><p><em>Bedeutung:</em> Es geht um eine wichtige Entscheidung, meist um Sieg oder Niederlage (all or nothing / now or never).</p><p><em>Beispiel:</em> Toni und Lia stehen im Finale. Beide sind fast gleich gut. Jetzt geht's um die Wurst!</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Wortschatz.",
+        "sentence": "Die Küche der deutschsprachigen Länder ist deftig und ___.",
+        "answer": "kalorienreich",
+        "hint": "meaning high in calories"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Wortschatz.",
+        "sentence": "Ein ___ ist ein Gericht, das im Ofen gebacken und oft mit Käse überbacken wird.",
+        "answer": "Auflauf",
+        "hint": "casserole / bake"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Wähle das Land aus, aus dem die Spezialität kommt.",
+        "question": "In welchem Land sagt man traditionell \"die Rösti\"?",
+        "options": [
+          "Schweiz",
+          "Deutschland",
+          "Österreich",
+          "Türkei"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die regionalen Bezeichnungen zu.",
+        "pairs": [
+          [
+            "Westdeutschland & Schweiz",
+            "Berliner"
+          ],
+          [
+            "Bayern & Österreich",
+            "Krapfen"
+          ],
+          [
+            "Ostdeutschland (Gefülltes Gebäck)",
+            "Pfannkuchen"
+          ],
+          [
+            "Österreich (Flacher Eierteig)",
+            "Palatschinken"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Die beliebteste internationale Küche in den DACH-Ländern ist die asiatische Küche.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze die Redewendung ins Deutsche.",
+        "source": "Now it is all or nothing!",
+        "target": "Jetzt geht es um die Wurst!"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": [
+          "ist",
+          "Snack",
+          "Mittag",
+          "Bratwurst",
+          "zum",
+          "ein",
+          "beliebter"
+        ],
+        "answer": "Bratwurst ist ein beliebter Snack zum Mittag."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das fehlende Wort.",
+        "sentence": "In Bayern hat das Weißwurst-Frühstück mit Brezeln und süßem ___ Tradition.",
+        "answer": "Senf",
+        "hint": "sweet mustard"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage.",
+        "question": "Was ist ein Drei-Komponenten-Gericht?",
+        "options": [
+          "Fleisch/Fisch, Gemüse/Salat und eine Sättigungsbeilage",
+          "Vorspeise, Hauptspeise und Nachspeise",
+          "Suppe, Brot und ein Getränk",
+          "Drei verschiedene Wurstsorten"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Wortschatz.",
+        "sentence": "Der ___ ist besonders im Winter beliebt, weil er wärmt und Kartoffeln, Möhren und Linsen enthält.",
+        "answer": "Eintopf",
+        "hint": "stew"
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "In Ostdeutschland heißt das flache Gebäck, das in Österreich Palatschinken genannt wird, ___.",
+        "answer": "Eierkuchen",
+        "hint": "egg pancake"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage laut Text.",
+        "question": "Welche Wurst wird gerne zu Suppen und Eintöpfen serviert?",
+        "options": [
+          "Wiener Würstchen",
+          "Weißwurst",
+          "Currywurst",
+          "Bratwurst"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Weißwurst-Frühstück wird in Bayern traditionell mit Ketchup gegessen.",
+        "answer": false
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Speisen ihren Beschreibungen zu.",
+        "pairs": [
+          [
+            "der Auflauf",
+            "im Ofen gebacken und mit Käse überbacken"
+          ],
+          [
+            "der Döner",
+            "gewürztes Fleisch im Fladenbrot"
+          ],
+          [
+            "der Kartoffelsalat",
+            "kalte Beilage aus Kartoffeln"
+          ],
+          [
+            "die Käsespätzle",
+            "eine Art Nudeln mit Käse und Röstzwiebeln"
+          ]
+        ]
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze ins Deutsche.",
+        "source": "I would like to try Kaiserschmarrn.",
+        "target": "Ich möchte Kaiserschmarrn probieren."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Die Berliner Currywurst ist ziemlich ___ und wird meist mit Pommes gegessen.",
+        "answer": "scharf",
+        "hint": "spicy / hot"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": [
+          "deftig",
+          "Die",
+          "Küche",
+          "ist",
+          "deutschsprachigen",
+          "Länder",
+          "der"
+        ],
+        "answer": "Die Küche der deutschsprachigen Länder ist deftig."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage.",
+        "question": "Was bedeutet die Redewendung \"Jetzt geht's um die Wurst!\"?",
+        "options": [
+          "Es geht um eine wichtige Entscheidung.",
+          "Es gibt heute Wurst zum Essen.",
+          "Jemand hat großen Hunger.",
+          "Wurst ist sehr teuer geworden."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Rösti isst man traditionell mit Marmelade.",
+        "answer": false
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Hast du schon einmal eine vegetarische oder vegane ___ probiert?",
+        "answer": "Wurst",
+        "hint": "sausage"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "A Conversation about Food",
+    "titleDe": "Eine Unterhaltung über Essen",
+    "type": "speaking",
+    "icon": "🍽️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Wortakzent bei Komposita (Compound Nouns)",
+        "type": "pronunciation",
+        "content": "<p>In German compound nouns (Komposita), the stress or word accent (Wortakzent) is almost always on the <strong>first word</strong> (das erste Wort):</p><ul><li>der <strong>Schoko</strong>kuchen (Schoko + Kuchen)</li><li>der <strong>Weiß</strong>wein (Weiß + Wein)</li><li>die <strong>Gemüse</strong>pfanne (Gemüse + Pfanne)</li><li>die <strong>Saft</strong>schorle (Saft + Schorle)</li><li>die <strong>Auflauf</strong>form (Auflauf + Form)</li><li>das <strong>Wasser</strong>glas (Wasser + Glas)</li><li>das <strong>Brot</strong>messer (Brot + Messer)</li><li>der <strong>Back</strong>ofen (Back + Ofen)</li><li>die <strong>Extra</strong>wurst (Extra + Wurst)</li></ul>"
+      },
+      {
+        "sectionTitle": "Betonung von trennbaren und untrennbaren Verben",
+        "type": "pronunciation",
+        "content": "<p>Whether a verb is separable or inseparable affects where the stress falls:</p><ul><li>Bei <strong>trennbaren Verben</strong> liegt der Wortakzent auf dem <strong>Präfix</strong> (prefix).</li><li>Bei <strong>untrennbaren Verben</strong> liegt der Wortakzent auf dem <strong>Verb</strong>.</li></ul><table><thead><tr><th>Trennbare Verben (Betonung auf Präfix)</th><th>Untrennbare Verben (Betonung auf Verb)</th></tr></thead><tbody><tr><td><strong>um</strong>rühren (to stir)</td><td>be<strong>zahlen</strong> (to pay)</td></tr><tr><td><strong>zu</strong>bereiten (to prepare)</td><td>ver<strong>rühren</strong> (to mix/blend)</td></tr><tr><td><strong>an</strong>braten (to sear)</td><td>ver<strong>arbeiten</strong> (to process)</td></tr><tr><td><strong>auf</strong>backen (to bake up)</td><td>zer<strong>brechen</strong> (to break)</td></tr><tr><td><strong>ab</strong>kühlen (to cool down)</td><td>er<strong>klären</strong> (to explain)</td></tr><tr><td><strong>her</strong>stellen (to produce)</td><td>be<strong>stellen</strong> (to order)</td></tr><tr><td><strong>hin</strong>zugeben (to add)</td><td></td></tr><tr><td><strong>vor</strong>bereiten (to prepare)</td><td></td></tr><tr><td><strong>mit</strong>machen (to participate)</td><td></td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Gespräche über Essgewohnheiten",
+        "type": "speaking",
+        "content": "<p>Useful questions and phrases to discuss food and national cuisines:</p><ul><li><strong>Was ist das Nationalgericht in deinem Land?</strong> – What is the national dish in your country?</li><li><strong>Was ist das Nationalgetränk?</strong> – What is the national drink?</li><li><strong>Ernährst du dich vegetarisch oder vegan?</strong> – Do you eat a vegetarian or vegan diet?</li><li><strong>Hast du Allergien?</strong> – Do you have allergies?</li><li><strong>Was magst du gar nicht?</strong> – What do you not like at all?</li><li><strong>Welche Länderküche magst du am liebsten?</strong> – Which cuisine do you like best? (e.g. Indien, Frankreich, Japan, Spanien, USA, Marokko, Mexiko)</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendungen",
+        "type": "culture",
+        "content": "<p><strong>die Extrawurst:</strong></p><p><em>Beispiel:</em> Bei uns bekommt niemand eine Extrawurst. Alle werden gleich behandelt! (No one gets special treatment here. Everyone is treated the same!)</p><p><strong>Zu viele Köche verderben den Brei.</strong></p><p><em>Bedeutung:</em> Wenn viele Menschen gleichzeitig an einer Sache arbeiten, ist das Ergebnis oft schlecht (Too many cooks spoil the broth).</p><p><em>Beispiel:</em> Jetzt haben fünf Leute die Party geplant und sie ist trotzdem schlecht. Ich wusste es: Zu viele Köche verderben den Brei.</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das fehlende Wort.",
+        "sentence": "Bei trennbaren Verben liegt der Wortakzent auf dem ___.",
+        "answer": "Präfix",
+        "hint": "prefix"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das fehlende Wort.",
+        "sentence": "Bei untrennbaren Verben liegt der Wortakzent auf dem ___.",
+        "answer": "Verb",
+        "hint": "verb itself"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Wähle das untrennbare Verb aus.",
+        "question": "Welches dieser Verben ist untrennbar?",
+        "options": [
+          "anbraten",
+          "zubereiten",
+          "verrühren",
+          "abkühlen"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Verben ihrem Typ zu.",
+        "pairs": [
+          [
+            "herstellen",
+            "trennbar"
+          ],
+          [
+            "verarbeiten",
+            "nicht trennbar"
+          ],
+          [
+            "mitmachen",
+            "trennbar"
+          ],
+          [
+            "bezahlen",
+            "nicht trennbar"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Bei Komposita wie 'Schokokuchen' liegt der Wortakzent auf dem zweiten Wort.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze das Sprichwort ins Deutsche.",
+        "source": "Too many cooks spoil the broth.",
+        "target": "Zu viele Köche verderben den Brei."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": [
+          "bekommt",
+          "Extrawurst",
+          "eine",
+          "uns",
+          "Bei",
+          "niemand"
+        ],
+        "answer": "Bei uns bekommt niemand eine Extrawurst."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Wortschatz.",
+        "sentence": "Ich mag lieber Saftschorle als ___.",
+        "answer": "Weißwein",
+        "hint": "white wine"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Wähle das Kompositum aus.",
+        "question": "Welches Wort ist ein zusammengesetztes Nomen (Kompositum)?",
+        "options": [
+          "bezahlen",
+          "Brotmesser",
+          "anbraten",
+          "abkühlen"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Verb aus dem Wortschatz.",
+        "sentence": "Wenn Teig zubereitet wird, muss man ihn zuerst ___.",
+        "answer": "kneten",
+        "hint": "to knead"
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Wortschatz.",
+        "sentence": "Ein beliebtes Küchengerät zum Backen ist der ___.",
+        "answer": "Backofen",
+        "hint": "oven"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage laut Text.",
+        "question": "Was bedeutet die Redewendung 'Zu viele Köche verderben den Brei'?",
+        "options": [
+          "Wenn viele Leute gleichzeitig an etwas arbeiten, wird es oft schlecht.",
+          "Man sollte in der Küche nicht zu viele Köche anstellen.",
+          "Der Brei schmeckt nicht gut, wenn man zu viel kocht.",
+          "Köche sind schlechte Planer."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Das Verb 'zerbrechen' ist trennbar.",
+        "answer": false
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Nomen ihren englischen Übersetzungen zu.",
+        "pairs": [
+          [
+            "die Auflaufform",
+            "casserole dish"
+          ],
+          [
+            "die Saftschorle",
+            "juice spritzer"
+          ],
+          [
+            "die Gemüsepfanne",
+            "vegetable pan"
+          ],
+          [
+            "das Brotmesser",
+            "bread knife"
+          ]
+        ]
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze ins Deutsche.",
+        "source": "Everyone is treated equally.",
+        "target": "Alle werden gleich behandelt."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das fehlende Wort.",
+        "sentence": "Bei uns bekommt niemand eine ___!",
+        "answer": "Extrawurst",
+        "hint": "special treatment"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": [
+          "wird",
+          "Nationalgericht",
+          "wie",
+          "das",
+          "zubereitet"
+        ],
+        "answer": "Wie wird das Nationalgericht zubereitet?"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Wähle das trennbare Verb aus.",
+        "question": "Welches dieser Verben ist trennbar?",
+        "options": [
+          "bestellen",
+          "zerbrechen",
+          "erklären",
+          "abkühlen"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Bei dem Wort 'Wasserglas' liegt der Wortakzent auf 'Wasser'.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Verb aus dem Wortschatz.",
+        "sentence": "Man muss die Suppe gut ___.",
+        "answer": "umrühren",
+        "hint": "to stir"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Recipes",
+    "titleDe": "Rezepte",
+    "type": "grammar",
+    "icon": "📖",
+    "lectureContent": [
+      {
+        "sectionTitle": "Anweisungen in Rezepten (Infinitive Style)",
+        "type": "grammar",
+        "content": "<p>In German recipes, instructions are typically written using the <strong>infinitive</strong> form of the verb placed at the very <strong>end</strong> of the sentence. This functions as a neutral, polite instruction:</p><ul><li>Zwiebeln, Kartoffeln und Möhren klein <strong>schneiden</strong>. (Cut onions, potatoes, and carrots small.)</li><li>Öl in einen Topf <strong>geben</strong>. (Put oil in a pot.)</li><li>Zwiebeln und Tofu <strong>anbraten</strong>. (Sear onions and tofu.)</li><li>Gemüsebrühe <strong>hinzugeben</strong>. (Add vegetable broth.)</li><li>Bei 180 °C ca. 40 Minuten <strong>backen</strong>. (Bake at 180 °C for approx. 40 minutes.)</li></ul>"
+      },
+      {
+        "sectionTitle": "Hilfsmittel & Abkürzungen",
+        "type": "vocabulary",
+        "content": "<p>Common abbreviations and kitchen tools used in recipes:</p><table><thead><tr><th>Abkürzung / Hilfsmittel</th><th>Deutsch</th><th>Englisch</th></tr></thead><tbody><tr><td><strong>g</strong></td><td>das Gramm</td><td>gram</td></tr><tr><td><strong>ml</strong></td><td>der Milliliter</td><td>milliliter</td></tr><tr><td><strong>TL</strong></td><td>der Teelöffel</td><td>teaspoon</td></tr><tr><td><strong>EL</strong></td><td>der Esslöffel</td><td>tablespoon</td></tr><tr><td><strong>die Waage / Küchenwaage</strong></td><td>kitchen scale</td><td>scale</td></tr><tr><td><strong>der Messbecher</strong></td><td>measuring cup</td><td>measuring cup</td></tr><tr><td><strong>der Topf / Kochtopf</strong></td><td>pot / cooking pot</td><td>cooking pot</td></tr><tr><td><strong>die Pfanne</strong></td><td>pan / frying pan</td><td>frying pan</td></tr><tr><td><strong>die Schüssel</strong></td><td>bowl</td><td>bowl</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Verben rund ums Kochen und Backen",
+        "type": "vocabulary",
+        "content": "<p>Essential verbs for following or writing a recipe:</p><table><thead><tr><th>Verb</th><th>Bedeutung (Deutsch)</th><th>Bedeutung (Englisch)</th></tr></thead><tbody><tr><td>schneiden / schnippeln</td><td>Lebensmittel zerkleinern (schnippeln = umgangssprachlich)</td><td>to cut / chop</td></tr><tr><td>anbraten</td><td>in der Pfanne kurz scharf anhitzen</td><td>to sear / brown</td></tr><tr><td>köcheln lassen</td><td>bei niedriger Hitze kochen</td><td>to simmer</td></tr><tr><td>abschmecken</td><td>mit Gewürzen probieren und verfeinern</td><td>to season / taste</td></tr><tr><td>schmelzen</td><td>durch Hitze flüssig machen (z. B. Margarine, Schokolade)</td><td>to melt</td></tr><tr><td>mischen / zusammenmischen</td><td>trockene Zutaten vermengen</td><td>to mix</td></tr><tr><td>verrühren</td><td>Zutaten mit einem Löffel oder Mixer mischen</td><td>to stir / mix</td></tr><tr><td>kneten</td><td>Teig mit den Händen bearbeiten</td><td>to knead</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Redewendung: Sein eigenes Süppchen kochen",
+        "type": "culture",
+        "content": "<p><strong>sein eigenes Süppchen kochen</strong></p><p><em>Bedeutung:</em> Etwas alleine machen, ohne andere darüber zu informieren (to do one's own thing / go it alone).</p><p><em>Beispiel:</em> Wollen wir nicht alle zusammen für die Prüfung lernen? Das ist doch besser, als wenn jeder sein eigenes Süppchen kocht.</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das fehlende Wort.",
+        "sentence": "In Rezepten steht das Verb im Infinitiv am ___ des Satzes.",
+        "answer": "Ende",
+        "hint": "end"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Wortschatz.",
+        "sentence": "Die Abkürzung 'TL' steht für ___.",
+        "answer": "Teelöffel",
+        "hint": "teaspoon"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage.",
+        "question": "Was bedeutet die Abkürzung 'EL'?",
+        "options": [
+          "Esslöffel",
+          "Eierlikör",
+          "Extra leicht",
+          "Eimer"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Küchenutensilien ihren Funktionen zu.",
+        "pairs": [
+          [
+            "die Küchenwaage",
+            "Zutaten wiegen"
+          ],
+          [
+            "der Messbecher",
+            "Flüssigkeiten messen"
+          ],
+          [
+            "die Schüssel",
+            "Zutaten mischen"
+          ],
+          [
+            "der Kochtopf",
+            "Suppe kochen"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Umgangssprachlich bedeutet 'schnippeln' dasselbe wie 'schneiden'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze die Anweisung ins Deutsche (Infinitiv-Stil).",
+        "source": "Simmer the soup for one hour.",
+        "target": "Die Suppe eine Stunde köcheln lassen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": [
+          "Zutaten",
+          "Schüssel",
+          "in",
+          "eine",
+          "geben"
+        ],
+        "answer": "Zutaten in eine Schüssel geben."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Verb im Infinitiv.",
+        "sentence": "Margarine im Topf ___.",
+        "answer": "schmelzen",
+        "hint": "to melt"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage laut Text.",
+        "question": "Welche Zutat gehört nicht in den Schokokuchen aus dem Rezept?",
+        "options": [
+          "Backpulver",
+          "Kakao",
+          "Zitronenschale",
+          "Zucker"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Verb im Infinitiv.",
+        "sentence": "Zum Schluss die Suppe mit Salz und Pfeffer ___.",
+        "answer": "abschmecken",
+        "hint": "to season / taste"
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort für die Redewendung.",
+        "sentence": "Wollen wir nicht zusammen lernen? Jeder kocht sonst sein eigenes ___.",
+        "answer": "Süppchen",
+        "hint": "little soup"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage.",
+        "question": "Was bedeutet die Redewendung 'sein eigenes Süppchen kochen'?",
+        "options": [
+          "Etwas alleine machen, ohne andere zu informieren",
+          "Nur für sich selbst kochen",
+          "Eine Suppe ohne fremde Hilfe essen",
+          "Ein unhöflicher Gast sein"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Laut Rezept für die Linsensuppe werden die Zwiebeln und der Tofu zuerst geknetet.",
+        "answer": false
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Kochverben den Erklärungen zu.",
+        "pairs": [
+          [
+            "anbraten",
+            "in der Pfanne kurz scharf anhitzen"
+          ],
+          [
+            "backen",
+            "im Ofen zubereiten"
+          ],
+          [
+            "kneten",
+            "Teig mit den Händen bearbeiten"
+          ],
+          [
+            "schmelzen",
+            "durch Hitze flüssig machen"
+          ]
+        ]
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze das Rezept-Detail ins Deutsche.",
+        "source": "Bake at 180 °C for 40 minutes.",
+        "target": "Bei 180 °C ca. 40 Minuten backen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze die passende Zutat.",
+        "sentence": "Für die vegane Linsensuppe braucht man ___ statt Fleischbrühe.",
+        "answer": "Gemüsebrühe",
+        "hint": "vegetable broth"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": [
+          "kurz",
+          "Tofu",
+          "den",
+          "anbraten"
+        ],
+        "answer": "Den Tofu kurz anbraten."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage.",
+        "question": "Welches Hilfsmittel benutzt man laut Text, um 350 ml Wasser abzumessen?",
+        "options": [
+          "Messbecher",
+          "Waage",
+          "Teelöffel",
+          "Schüssel"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "In deutschen Rezepten werden Handlungsanweisungen meist mit dem konjugierten Verb an Position 2 geschrieben.",
+        "answer": false
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Verb im Infinitiv.",
+        "sentence": "Den Teig muss man vor dem Backen gut ___.",
+        "answer": "kneten",
+        "hint": "to knead"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Reading: A New Diet!",
+    "titleDe": "Ein neuer Ernährungsplan",
+    "type": "reading",
+    "icon": "🥗",
+    "lectureContent": [
+      {
+        "sectionTitle": "Lesetext: Ein neuer Ernährungsplan",
+        "type": "reading",
+        "content": "<p>Es ist Samstagabend, 19 Uhr. Alex und Louise kochen gemeinsam. Alex hat vor, abzunehmen und sich gesünder zu ernähren. Louise ernährt sich bereits sehr gesund und soll ihm helfen. Sie rät ihm, weniger Fast Food zu essen, einem Ernährungsplan zu folgen, heimische Produkte und Bioprodukte zu kaufen sowie Zutaten gesünder zuzubereiten (z. B. dämpfen statt frittieren).</p><p>Alex verrät seine Lieblingsspeisen: Döner, Kartoffelsalat, Hamburger und Schwarzwälder Kirschtorte (mit Sahne, Kirschen und Schokolade). Das findet Louise lecker, aber ungesund.</p><p>Beim Kochen einer Gemüsepfanne mit Reis und Hähnchen läuft etwas schief: Louise schneidet Gemüse, Alex brät Fleisch an. Louise hat nicht aufgepasst und das Gemüse gesalzen, nachdem Alex es schon gesalzen hatte. Das Essen ist völlig versalzen und schmeckt scheußlich! Sie beschließen, essen zu gehen: Es gibt Currywurst mit Pommes. Der Ernährungsplan muss bis morgen warten!</p>"
+      },
+      {
+        "sectionTitle": "Gesunde und ungesunde Zubereitung",
+        "type": "vocabulary",
+        "content": "<p>Der Text kontrastiert verschiedene Ernährungsweisen und Zubereitungsmethoden:</p><table><thead><tr><th>Gesund / Empfohlen</th><th>Ungesund / Zu vermeiden</th></tr></thead><tbody><tr><td><strong>heimische Produkte</strong> (local) & <strong>Bioprodukte</strong> (organic)</td><td><strong>Fast Food</strong> (Döner, Hamburger, Currywurst mit Pommes)</td></tr><tr><td><strong>dämpfen</strong> (to steam)</td><td><strong>frittieren</strong> (to deep-fry)</td></tr><tr><td>sich gesund <strong>ernähren</strong> (eat healthy)</td><td>das Essen <strong>versalzen</strong> (to oversalt)</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Wortschatz: Diät und Zutaten",
+        "type": "vocabulary",
+        "content": "<p>Wichtige Begriffe aus dem Lesetext:</p><table><thead><tr><th>Deutsch</th><th>Englisch</th></tr></thead><tbody><tr><td>abnehmen</td><td>to lose weight</td></tr><tr><td>zunehmen</td><td>to gain weight</td></tr><tr><td>der Vegetarier, - / die Vegetarierin, -nen</td><td>vegetarian</td></tr><tr><td>der Veganer, - / die Veganerin, -nen</td><td>vegan</td></tr><tr><td>die Zutat, -en</td><td>ingredient</td></tr><tr><td>die Beilage, -n</td><td>side dish</td></tr><tr><td>verfault</td><td>rotten / decayed (z. B. die Aubergine)</td></tr><tr><td>der Kühlschrank, -schränke</td><td>fridge / refrigerator</td></tr><tr><td>die Vorspeise, -n</td><td>appetizer</td></tr><tr><td>die Hauptspeise, -n</td><td>main course</td></tr><tr><td>die Nachspeise / Nachspeisen</td><td>dessert</td></tr><tr><td>Igitt!</td><td>Yuck! / Eww! (Ausruf bei ekligen Dingen)</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Redewendung: Salz in die Wunde streuen",
+        "type": "culture",
+        "content": "<p><strong>Salz in die Wunde streuen</strong></p><p><em>Bedeutung:</em> Jemanden auf einen Makel hinweisen oder an ein unschönes Erlebnis erinnern (to rub salt in the wound).</p><p><em>Beispiel:</em> Alex hält sich an seinen Ernährungsplan und hat seit zwei Wochen nichts Ungesundes mehr gegessen. Louise hat nun Schwarzwälder Kirschtorte probiert und findet sie so lecker, dass sie jeden Tag ein kleines Stückchen isst. Sie erzählt Alex aber nichts davon, denn sie will kein Salz in seine Wunden streuen.</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Wortschatz.",
+        "sentence": "Alex möchte sich gesünder ernähren und ___.",
+        "answer": "abnehmen",
+        "hint": "opposite of zunehmen"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Verb aus dem Wortschatz.",
+        "sentence": "Louise rät Alex, Gemüse zu dämpfen statt zu ___.",
+        "answer": "frittieren",
+        "hint": "to deep-fry"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage laut Text.",
+        "question": "Warum essen die beiden die Aubergine nicht?",
+        "options": [
+          "Sie mögen keine Auberginen.",
+          "Die Aubergine ist bereits verfault.",
+          "Sie sind allergisch gegen Auberginen.",
+          "Sie haben keine Pfanne dafür."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Begriffe ihren Bedeutungen zu.",
+        "pairs": [
+          [
+            "abnehmen",
+            "weniger wiegen wollen"
+          ],
+          [
+            "versalzen",
+            "zu viel Salz im Essen"
+          ],
+          [
+            "verfault",
+            "schlecht geworden / verrottet"
+          ],
+          [
+            "dämpfen",
+            "gesund garen mit Wasserdampf"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Louise ist Vegetarierin und isst überhaupt kein Fleisch.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze ins Deutsche.",
+        "source": "I have totally oversalted the food.",
+        "target": "Ich habe das Essen total versalzen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": [
+          "Essgewohnheiten",
+          "muss",
+          "seine",
+          "Alex",
+          "umstellen"
+        ],
+        "answer": "Alex muss seine Essgewohnheiten umstellen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze den passenden Ausruf.",
+        "sentence": "Als Louise das versalzene Essen probiert, sagt sie: \"Igitt! Das schmeckt schrecklich!\"",
+        "answer": "Igitt",
+        "hint": "Yuck / expression of disgust"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage laut Text.",
+        "question": "Was essen die beiden am Samstagabend am Ende?",
+        "options": [
+          "Gemüsepfanne mit Reis",
+          "Currywurst mit Pommes",
+          "Schwarzwälder Kirschtorte",
+          "Hamburger und Döner"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort aus dem Wortschatz.",
+        "sentence": "Eine Schwarzwälder Kirschtorte wird mit Kirschen, Sahne und ___ zubereitet.",
+        "answer": "Schokolade",
+        "hint": "chocolate"
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "\"Du bist doch nicht etwa ___?\", fragt Alex entsetzt, als Louise vorschlägt, Hähnchen zu kochen.",
+        "answer": "Vegetarierin",
+        "hint": "vegetarian (female)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage laut Text.",
+        "question": "Welchen Tipp gibt Louise Alex zum Einkaufen?",
+        "options": [
+          "Er soll heimische Produkte und Bioprodukte kaufen.",
+          "Er soll nur noch Fast Food kaufen.",
+          "Er soll im Restaurant essen.",
+          "Er soll keine Gewürze verwenden."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Alex hat viele Allergien und darf kein Hähnchen essen.",
+        "answer": false
+      },
+      {
+        "type": "matching",
+        "instruction": "Ordne die Speisen ihren Kategorien laut Text zu.",
+        "pairs": [
+          [
+            "Schwarzwälder Kirschtorte",
+            "Nachspeise"
+          ],
+          [
+            "Gemüsepfanne mit Reis und Hähnchen",
+            "Hauptspeise"
+          ],
+          [
+            "Currywurst mit Pommes",
+            "Fast Food"
+          ],
+          [
+            "Zwiebeln, Räuchertofu, Kartoffeln",
+            "Zutaten"
+          ]
+        ]
+      },
+      {
+        "type": "translation",
+        "instruction": "Übersetze die Redewendung.",
+        "source": "to rub salt in the wound",
+        "target": "Salz in die Wunde streuen"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Gegenteil.",
+        "sentence": "Das Gegenteil von abnehmen ist ___.",
+        "answer": "zunehmen",
+        "hint": "to gain weight"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Bringe die Wörter in die richtige Reihenfolge.",
+        "words": [
+          "morgen",
+          "wir",
+          "mit",
+          "fangen",
+          "Ernährungsplan",
+          "dem",
+          "an"
+        ],
+        "answer": "Wir fangen morgen mit dem Ernährungsplan an."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Beantworte die Frage.",
+        "question": "Was bedeutet die Redewendung 'Salz in die Wunde streuen'?",
+        "options": [
+          "Jemanden an ein unangenehmes Erlebnis erinnern",
+          "Das Essen noch mehr versalzen",
+          "Eine Wunde mit Kochsalz reinigen",
+          "Ein neues Rezept ausprobieren"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "Wahr oder falsch?",
+        "statement": "Alex freut sich am Ende des Abends auf die Currywurst.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Ergänze das passende Wort.",
+        "sentence": "Louise hat noch Zucchini, Karotten, Tomaten, Paprika und eine Aubergine im ___.",
+        "answer": "Kühlschrank",
+        "hint": "refrigerator"
+      }
+    ]
+  }
+]

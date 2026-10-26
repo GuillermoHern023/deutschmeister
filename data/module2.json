@@ -1,0 +1,1194 @@
+[
+  {
+    "id": 5,
+    "title": "My Home",
+    "titleDe": "Mein Zuhause",
+    "type": "vocabulary",
+    "icon": "🏠",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>drinnen</strong></td><td>inside</td><td>Wir sind drinnen.</td></tr><tr><td><strong>draußen</strong></td><td>outside</td><td>Der Garten ist draußen.</td></tr><tr><td><strong>das Erdgeschoss</strong></td><td>ground floor</td><td>Die Garage ist im Erdgeschoss.</td></tr><tr><td><strong>der Stock</strong></td><td>floor / story</td><td>Über dem Erdgeschoss ist der erste Stock.</td></tr><tr><td><strong>das Gebäude</strong></td><td>building</td><td>Das Gebäude ist sehr groß.</td></tr><tr><td><strong>die Baustelle</strong></td><td>construction site</td><td>Das Haus ist noch eine Baustelle.</td></tr><tr><td><strong>die Umgebung</strong></td><td>surroundings</td><td>Das Haus liegt in einer ruhigen Umgebung.</td></tr><tr><td><strong>die Nachbarschaft</strong></td><td>neighborhood</td><td>Die Nachbarschaft ist sehr nett.</td></tr><tr><td><strong>bauen</strong></td><td>to build</td><td>Wir bauen ein neues Haus.</td></tr><tr><td><strong>der Garten</strong></td><td>garden</td><td>Der Garten ist groß und grün.</td></tr><tr><td><strong>der Hof</strong></td><td>courtyard / yard</td><td>Die Kinder spielen gern im Hof.</td></tr><tr><td><strong>die Mauer</strong></td><td>wall</td><td>Um das Haus herum ist eine Mauer.</td></tr><tr><td><strong>das Tor</strong></td><td>gate</td><td>Vor dem Haus ist ein großes Tor.</td></tr><tr><td><strong>die Bruchbude</strong></td><td>shack / run-down house</td><td>Dieses Haus ist eine richtige Bruchbude.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar",
+        "type": "grammar",
+        "content": "<p>In this lesson, we look at <strong>local prepositions</strong> used to describe positions in and around a house. These prepositions typically take the <strong>dative case</strong> when answering the question <strong>'Wo?' (Where?)</strong>.</p><ul><li><strong>im</strong> (in + dem): Used for rooms and floors (e.g., <em>im Erdgeschoss</em>, <em>im ersten Stock</em>, <em>im Hof</em>).</li><li><strong>vor</strong>: In front of (e.g., <em>vor dem Haus</em>).</li><li><strong>hinter</strong>: Behind (e.g., <em>hinter dem Gebäude</em>).</li><li><strong>um ... herum</strong>: Around something. Note that 'um' takes the accusative case (e.g., <em>um das Haus herum</em>).</li></ul><p>Example sentences:</p><ul><li>Das Schlafzimmer ist <strong>im ersten Stock</strong>.</li><li>Wir spielen Fußball <strong>im Hof</strong>.</li><li>Vor <strong>dem Tor</strong> steht ein Auto.</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>ein volles Haus haben</strong> — viele Gäste haben (to have a full house / many guests)</p><p><em>Jane hatte gestern ein volles Haus. Auf ihrer Geburtstagsparty waren alle Freunde und Freundinnen und ihre ganze Familie.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Die Kinder spielen gern im ___.",
+        "answer": "Hof",
+        "hint": "courtyard"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is 'das Erdgeschoss'?",
+        "options": [
+          "ground floor",
+          "first floor",
+          "basement",
+          "attic"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the pairs.",
+        "pairs": [
+          [
+            "das Tor",
+            "gate"
+          ],
+          [
+            "die Mauer",
+            "wall"
+          ],
+          [
+            "der Hof",
+            "courtyard"
+          ],
+          [
+            "das Gebäude",
+            "building"
+          ],
+          [
+            "die Garage",
+            "garage"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'drinnen' means 'inside'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The house has a garden.",
+        "target": "Das Haus hat einen Garten."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in order.",
+        "words": [
+          "einen",
+          "hat",
+          "Garten",
+          "Das",
+          "Haus"
+        ],
+        "answer": "Das Haus hat einen Garten."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Das Haus ist noch eine ___.",
+        "answer": "Baustelle",
+        "hint": "construction site"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Where is the bedroom? 'Das Schlafzimmer ist im ersten ___.'",
+        "options": [
+          "Garten",
+          "Hof",
+          "Stock",
+          "Tor"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Die Bruchbude' means a beautiful luxury villa.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "We are building a house.",
+        "target": "Wir bauen ein Haus."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the German word for 'outside'?",
+        "options": [
+          "drinnen",
+          "draußen",
+          "oben",
+          "unten"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Die Garage ist im ___.'",
+        "options": [
+          "Mauer",
+          "Garten",
+          "Erdgeschoss",
+          "Baustelle"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'die Nachbarschaft' mean?",
+        "options": [
+          "neighborhood",
+          "surroundings",
+          "building",
+          "floor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Um das Haus herum ist eine ___.'",
+        "options": [
+          "Tor",
+          "Mauer",
+          "Erdgeschoss",
+          "Stock"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 'die Bruchbude'?",
+        "options": [
+          "a new building",
+          "a run-down house / shack",
+          "a garden",
+          "a garage"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does the idiom 'ein volles Haus haben' mean?",
+        "options": [
+          "to have many guests",
+          "to have a dirty house",
+          "to build a house",
+          "to live alone"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Translate: 'The surroundings are quiet.'",
+        "options": [
+          "Die Umgebung ist ruhig.",
+          "Die Nachbarschaft ist laut.",
+          "Das Gebäude ist alt.",
+          "Die Baustelle ist fertig."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Vor dem Haus steht ein großes ___.'",
+        "options": [
+          "Garten",
+          "Mauer",
+          "Tor",
+          "Erdgeschoss"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Wir ___ ein neues Haus.'",
+        "options": [
+          "wohnen",
+          "kochen",
+          "bauen",
+          "spielen"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which prepositional phrase is correct for 'on the first floor'?",
+        "options": [
+          "in der erste Stock",
+          "im ersten Stock",
+          "auf dem erste Stock",
+          "über den Stock"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "City Life",
+    "titleDe": "Stadtleben",
+    "type": "vocabulary",
+    "icon": "🏙️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Hauptstraße</strong></td><td>main street</td><td>Die Hauptstraße führt ins Stadtzentrum.</td></tr><tr><td><strong>die Buchhandlung</strong></td><td>bookstore</td><td>In der Buchhandlung gibt es viele Bücher.</td></tr><tr><td><strong>die Universität</strong></td><td>university</td><td>Er studiert gerne an der Universität.</td></tr><tr><td><strong>die Schule</strong></td><td>school</td><td>Die Schüler sind in der Schule.</td></tr><tr><td><strong>der Laden</strong></td><td>shop / store</td><td>Das ist mein Lieblingsladen.</td></tr><tr><td><strong>die Ampel</strong></td><td>traffic light</td><td>Die Ampel wird gleich rot.</td></tr><tr><td><strong>der Dom</strong></td><td>cathedral</td><td>Der Dom steht in der Innenstadt.</td></tr><tr><td><strong>die Kirche</strong></td><td>church</td><td>Das ist eine schöne Kirche.</td></tr><tr><td><strong>der Park</strong></td><td>park</td><td>Im Park fahren viele Menschen Fahrrad.</td></tr><tr><td><strong>der Markt</strong></td><td>market</td><td>Auf dem Markt gibt es frisches Gemüse.</td></tr><tr><td><strong>die Bank</strong></td><td>bank</td><td>Die Bank hat heute geschlossen.</td></tr><tr><td><strong>das Krankenhaus</strong></td><td>hospital</td><td>Das Krankenhaus ist sehr groß.</td></tr><tr><td><strong>die Apotheke</strong></td><td>pharmacy</td><td>Hier kann ich Medikamente kaufen.</td></tr><tr><td><strong>das Hochhaus</strong></td><td>skyscraper</td><td>In Frankfurt gibt es viele Hochhäuser.</td></tr><tr><td><strong>die Brücke</strong></td><td>bridge</td><td>Die Brücke führt über den Fluss.</td></tr><tr><td><strong>die Oper</strong></td><td>opera house</td><td>In der Oper wird viel gesungen.</td></tr><tr><td><strong>der Flughafen</strong></td><td>airport</td><td>Karin kommt am Flughafen an.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar",
+        "type": "grammar",
+        "content": "<p>When talking about locations in a city, we use different prepositions of place. These prepositions require the <strong>dative case</strong> when answering the question <strong>'Wo?' (Where?)</strong>:</p><ul><li><strong>in</strong>: Used for most enclosed buildings and spaces (e.g., <em>in der Schule</em>, <em>in der Apotheke</em>, <em>in der Buchhandlung</em>, <em>im Park</em>, <em>im Krankenhaus</em>).</li><li><strong>an</strong>: Specifically used with <em>Universität</em> when referring to studying or working there (e.g., <em>an der Universität studieren</em>).</li><li><strong>auf</strong>: Used for open public areas like markets and streets (e.g., <em>auf dem Markt</em>, <em>auf der Hauptstraße</em>).</li><li><strong>am</strong> (an + dem): Used for transit hubs (e.g., <em>am Flughafen</em>, <em>am Bahnhof</em>).</li></ul><p>Examples:</p><ul><li>Ich kaufe Obst <strong>auf dem Markt</strong>.</li><li>Er lernt <strong>in der Schule</strong>, und sie studiert <strong>an der Universität</strong>.</li><li>Wir treffen uns <strong>am Bahnhof</strong>.</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Rom — die ewige Stadt</strong> — Rome — the eternal city</p><p><em>Dieses Jahr mache ich Urlaub in der ewigen Stadt.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Die Autos müssen anhalten, wenn die ___ rot wird.",
+        "answer": "Ampel",
+        "hint": "traffic light"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Where can you buy medicine?",
+        "options": [
+          "die Post",
+          "die Apotheke",
+          "die Oper",
+          "der Bahnhof"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the pairs.",
+        "pairs": [
+          [
+            "die Apotheke",
+            "pharmacy"
+          ],
+          [
+            "das Krankenhaus",
+            "hospital"
+          ],
+          [
+            "der Bahnhof",
+            "train station"
+          ],
+          [
+            "der Dom",
+            "cathedral"
+          ],
+          [
+            "die Brücke",
+            "bridge"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In a 'Tante-Emma-Laden' you can buy airplane tickets.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Amsterdam is very beautiful.",
+        "target": "Amsterdam ist sehr schön."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in order.",
+        "words": [
+          "Kirchen",
+          "es",
+          "viele",
+          "Dort",
+          "gibt"
+        ],
+        "answer": "Dort gibt es viele Kirchen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Er studiert an der ___.",
+        "answer": "Universität",
+        "hint": "university"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is 'die Buchhandlung'?",
+        "options": [
+          "library",
+          "bookstore",
+          "school",
+          "bakery"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Die Hauptstraße' is the main street of a city.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "He is arriving at the airport.",
+        "target": "Er kommt am Flughafen an."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'das Hochhaus' mean?",
+        "options": [
+          "greenhouse",
+          "skyscraper",
+          "city hall",
+          "castle"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Where can you send letters and buy stamps?",
+        "options": [
+          "die Post",
+          "die Bank",
+          "die Oper",
+          "die Schule"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Wir gehen heute in die ___ und hören eine Oper von Mozart.'",
+        "options": [
+          "Apotheke",
+          "Drogerie",
+          "Oper",
+          "Schule"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'der Laden' mean?",
+        "options": [
+          "the street",
+          "the shop",
+          "the bridge",
+          "the center"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Die Brücke führt über den ___.'",
+        "options": [
+          "Himmel",
+          "Fluss",
+          "Dom",
+          "Park"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the German term for 'eternal city'?",
+        "options": [
+          "die grüne Stadt",
+          "die ewige Stadt",
+          "die große Stadt",
+          "die alte Stadt"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Where do you buy books?",
+        "options": [
+          "in der Apotheke",
+          "in der Bäckerei",
+          "in der Buchhandlung",
+          "im Supermarkt"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Auf dem ___ gibt es frisches Gemüse und Obst.'",
+        "options": [
+          "Markt",
+          "Hochhaus",
+          "Flughafen",
+          "Bahnhof"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which preposition goes with 'Universität' when saying 'at the university'?",
+        "options": [
+          "in der",
+          "auf der",
+          "an der",
+          "bei der"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Translate: 'The city has many parks.'",
+        "options": [
+          "Die Stadt hat viele Parks.",
+          "Die Stadt hat keine Parks.",
+          "Im Park gibt es viele Bäume.",
+          "Wir gehen in den Park."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Moving In and Out",
+    "titleDe": "Ein- und Ausziehen",
+    "type": "vocabulary",
+    "icon": "📦",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>einrichten</strong></td><td>to furnish / set up</td><td>Frieda muss die Wohnung neu einrichten.</td></tr><tr><td><strong>die Miete</strong></td><td>rent</td><td>Die Miete für das Haus ist 800 Euro.</td></tr><tr><td><strong>die Kaltmiete</strong></td><td>cold rent (excl. utilities)</td><td>Die Kaltmiete beträgt 600 Euro.</td></tr><tr><td><strong>die Nebenkosten (Pl.)</strong></td><td>utility/additional costs</td><td>Nebenkosten sind die Kosten für Strom, Wasser und Gas.</td></tr><tr><td><strong>die Kaution</strong></td><td>deposit</td><td>Tina muss 900 Euro Kaution bezahlen.</td></tr><tr><td><strong>der Grundriss</strong></td><td>floor plan</td><td>Das ist der Grundriss der neuen Wohnung.</td></tr><tr><td><strong>ziehen</strong></td><td>to move (general)</td><td>Sie muss von Leipzig nach Potsdam ziehen.</td></tr><tr><td><strong>umziehen</strong></td><td>to relocate / move house</td><td>Paul und Vera ziehen nächste Woche um.</td></tr><tr><td><strong>einziehen</strong></td><td>to move in</td><td>Familie Klümper zieht in das neue Haus ein.</td></tr><tr><td><strong>ausziehen</strong></td><td>to move out</td><td>Am Samstag zieht Selma aus ihrer alten Wohnung aus.</td></tr><tr><td><strong>der Umzug</strong></td><td>relocation / move</td><td>Heute ist der Umzug von Düsseldorf nach Dortmund.</td></tr><tr><td><strong>die Anzeige</strong></td><td>advertisement / listing</td><td>Sie sucht nach Anzeigen für Wohnungen.</td></tr><tr><td><strong>die Wohnungssuche</strong></td><td>apartment search</td><td>Gerd ist auf Wohnungssuche.</td></tr><tr><td><strong>mieten</strong></td><td>to rent</td><td>Sie möchte die Wohnung mieten.</td></tr><tr><td><strong>der Vermieter / die Vermieterin</strong></td><td>landlord / landlady</td><td>Herr Fuchs ist der Vermieter.</td></tr><tr><td><strong>der Mieter / die Mieterin</strong></td><td>tenant</td><td>Die neuen Mieter ziehen heute ein.</td></tr><tr><td><strong>möbliert</strong></td><td>furnished</td><td>Das Zimmer ist bereits möbliert.</td></tr><tr><td><strong>die Einbauküche</strong></td><td>fitted kitchen</td><td>In der Küche gibt es eine Einbauküche.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar",
+        "type": "grammar",
+        "content": "<p>In this lesson, we learn verbs related to moving house. Note that all of these verbs indicate a <strong>change of location</strong>, which means they form their <strong>Perfekt (past tense)</strong> using the auxiliary verb <strong>'sein'</strong> instead of 'haben':</p><ul><li><strong>ziehen</strong> (to move, e.g., <em>von Berlin nach München ziehen</em>) &rarr; <em>ist gezogen</em>.</li><li><strong>umziehen</strong> (to change apartments/relocate, separable: <em>zieht ... um</em>) &rarr; <em>ist umgezogen</em>.</li><li><strong>einziehen</strong> (to move into a new apartment, separable: <em>zieht ... ein</em>) &rarr; <em>ist eingezogen</em>.</li><li><strong>ausziehen</strong> (to vacate/move out of an apartment, separable: <em>zieht ... aus</em>) &rarr; <em>ist ausgezogen</em>.</li></ul><p>Example sentences:</p><ul><li>Wir <strong>sind</strong> letzte Woche <strong>umgezogen</strong>.</li><li>Wann <strong>bist</strong> du in deine neue Wohnung <strong>eingezogen</strong>?</li><li>Selma <strong>ist</strong> aus ihrer alten Wohnung <strong>ausgezogen</strong>.</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>mit der Tür ins Haus fallen</strong> — sofort sagen, was man möchte, ohne vorher Smalltalk zu machen (to get straight to the point)</p><p><em>- Kannst du mir dein Auto morgen leihen?<br/>- Wow, du fällst direkt mit der Tür ins Haus, sag doch erst einmal Hallo.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Paul und Vera ziehen nächste Woche ___.",
+        "answer": "um",
+        "hint": "to move/relocate"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is 'die Kaution'?",
+        "options": [
+          "rent",
+          "deposit",
+          "utility costs",
+          "floor plan"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the pairs.",
+        "pairs": [
+          [
+            "mieten",
+            "to rent"
+          ],
+          [
+            "einrichten",
+            "to furnish"
+          ],
+          [
+            "ausziehen",
+            "to move out"
+          ],
+          [
+            "einziehen",
+            "to move in"
+          ],
+          [
+            "umziehen",
+            "to relocate"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Der Vermieter' is the person who rents and lives in the apartment.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The rent is 800 euros per month.",
+        "target": "Die Miete ist 800 Euro pro Monat."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in order.",
+        "words": [
+          "muss",
+          "bezahlen",
+          "Kaution",
+          "Ich",
+          "die"
+        ],
+        "answer": "Ich muss die Kaution bezahlen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Dazu kommen noch ___ für Strom und Wasser.",
+        "answer": "Nebenkosten",
+        "hint": "utility costs"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "If an apartment already contains furniture, it is described as ___.",
+        "options": [
+          "dunkel",
+          "leer",
+          "möbliert",
+          "neu"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Mit der Tür ins Haus fallen' literally means to break a door.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "She is looking for apartment listings.",
+        "target": "Sie sucht nach Wohnungsanzeigen."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'umziehen' mean?",
+        "options": [
+          "to move in",
+          "to move out",
+          "to relocate/change apartments",
+          "to furnish"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which verb form completes the sentence: 'Wann bist du ___?'",
+        "options": [
+          "eingezogen",
+          "einzieht",
+          "einziehen",
+          "eingezieht"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 'die Einbauküche'?",
+        "options": [
+          "built-in wardrobe",
+          "fitted kitchen",
+          "bathroom",
+          "basement"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Der ___ zeigt die Zimmer und die Aufteilung der Wohnung.'",
+        "options": [
+          "Vermieter",
+          "Grundriss",
+          "Umzug",
+          "Keller"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What are 'Nebenkosten'?",
+        "options": [
+          "base rent",
+          "additional utility costs",
+          "deposit",
+          "moving costs"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Translate: 'The landlord is nice.'",
+        "options": [
+          "Der Mieter ist nett.",
+          "Der Vermieter ist nett.",
+          "Die Miete ist günstig.",
+          "Der Umzug ist fertig."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which verb completes: 'Wir ___ die Wohnung mit neuen Möbeln ___.'",
+        "options": [
+          "richten ... ein",
+          "ziehen ... um",
+          "richten ... aus",
+          "stellen ... vor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Am Samstag zieht Selma aus ihrer Wohnung ___.'",
+        "options": [
+          "ein",
+          "aus",
+          "um",
+          "herum"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'die Bude' mean colloquially in German?",
+        "options": [
+          "the garden",
+          "the building",
+          "the room / apartment",
+          "the box"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the meaning of 'mit der Tür ins Haus fallen'?",
+        "options": [
+          "to break the door",
+          "to get straight to the point",
+          "to buy a house",
+          "to lock yourself out"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "A Conversation about Moving",
+    "titleDe": "Ein Gespräch über den Umzug",
+    "type": "speaking",
+    "icon": "🏘️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>vergleichen</strong></td><td>to compare</td><td>Wir vergleichen die beiden Wohnungen.</td></tr><tr><td><strong>gemütlich</strong></td><td>cozy</td><td>Das Wohnzimmer ist sehr gemütlich.</td></tr><tr><td><strong>ungemütlich</strong></td><td>uncozy / uncomfortable</td><td>Das alte Zimmer war ungemütlich.</td></tr><tr><td><strong>hässlich</strong></td><td>ugly</td><td>Die alte Wohnung war hässlich.</td></tr><tr><td><strong>das Möbelgeschäft</strong></td><td>furniture store</td><td>Wir kaufen ein sofa im Möbelgeschäft.</td></tr><tr><td><strong>das Stockwerk</strong></td><td>floor / story</td><td>In welchem Stockwerk wohnst du?</td></tr><tr><td><strong>die Umgebung</strong></td><td>surroundings</td><td>Die Umgebung ist ruhig.</td></tr><tr><td><strong>die Nachbarschaft</strong></td><td>neighborhood</td><td>Das haus ist in einer netten Nachbarschaft.</td></tr><tr><td><strong>der Hof</strong></td><td>courtyard / yard</td><td>Wir haben einen Pool im Hof.</td></tr><tr><td><strong>die Mauer</strong></td><td>wall</td><td>Die Mauer ist sehr hoch.</td></tr><tr><td><strong>die Einbauküche</strong></td><td>fitted kitchen</td><td>Die neue Wohnung hat eine Einbauküche.</td></tr><tr><td><strong>der Pool</strong></td><td>pool</td><td>Der Pool ist im Hof.</td></tr><tr><td><strong>klingen</strong></td><td>to sound</td><td>Das klingt sehr gut!</td></tr><tr><td><strong>eng</strong></td><td>narrow / tight</td><td>Der flur ist sehr eng.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar",
+        "type": "grammar",
+        "content": "<p>In this lesson, we cover <strong>comparatives and superlatives</strong> of adjectives, and <strong>temporal prepositions</strong>:</p><p><strong>1. Comparatives & Superlatives:</strong></p><ul><li>Comparatives are formed by adding <strong>-er</strong> to the base adjective. Monosyllabic adjectives with a, o, u often take an umlaut (e.g., <em>groß &rarr; größer</em>, <em>alt &rarr; älter</em>, <em>lang &rarr; länger</em>).</li><li>If an adjective ends in <em>-el</em> or <em>-er</em>, it drops the 'e' before the comparative suffix (e.g., <em>dunkel &rarr; dunkler</em>, <em>teuer &rarr; teurer</em>).</li><li>Superlatives are formed with <strong>am ... -sten</strong> (e.g., <em>am größten</em>, <em>am ältesten</em>, <em>am längsten</em>).</li><li>Comparison structure: <strong>[A] ist [comparative] als [B]</strong> (e.g., <em>Das neue Haus ist größer als das alte Haus.</em>).</li></ul><p><strong>2. Temporal Prepositions:</strong></p><ul><li><strong>seit</strong> + Dative (since / for): Describes an action that started in the past and continues in the present (e.g., <em>seit fünf Jahren</em>).</li><li><strong>vor</strong> + Dative (ago): Describes an action completed in the past (e.g., <em>vor fünf Jahren nach Potsdam gezogen</em>).</li><li><strong>bis</strong> + time / event (until): (e.g., <em>bis Ende Mai</em>).</li><li><strong>ab</strong> + Dative (starting from): (e.g., <em>ab Juni</em>).</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Herein in die gute Stube!</strong> — Komm rein! / Willkommen in meiner Wohnung! (Welcome, step inside!)</p><p><em>Hey, schön, dass du da bist. Herein in die gute Stube! Ich mache uns erstmal einen Tee.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Das neue Haus ist viel ___ als das alte Haus.",
+        "answer": "größer",
+        "hint": "bigger"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Which word is the comparative of 'alt'?",
+        "options": [
+          "älteste",
+          "älter",
+          "altes",
+          "ältesten"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the pairs.",
+        "pairs": [
+          [
+            "groß",
+            "größer"
+          ],
+          [
+            "alt",
+            "älter"
+          ],
+          [
+            "lang",
+            "länger"
+          ],
+          [
+            "eng",
+            "enger"
+          ],
+          [
+            "gut",
+            "besser"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'seit vier Jahren' means 'four years ago'.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Welcome to my home! (Idiom)",
+        "target": "Herein in die gute Stube!"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in order.",
+        "words": [
+          "Jahren",
+          "seit",
+          "hier",
+          "Marina",
+          "wohnt",
+          "fünf"
+        ],
+        "answer": "Marina wohnt seit fünf Jahren hier."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Wann bist du nach Potsdam ___?",
+        "answer": "gezogen",
+        "hint": "moved (Perfekt of ziehen)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Complete: 'Das Schlafzimmer ist ___ als das Badezimmer.'",
+        "options": [
+          "größer",
+          "am größten",
+          "groß",
+          "große"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In German, the letter group 'ng' is pronounced by pronouncing the 'g' very clearly.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "She is looking for a new apartment.",
+        "target": "Sie sucht eine neue Wohnung."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the comparative of 'gemütlich'?",
+        "options": [
+          "gemütlicher",
+          "gemütlichste",
+          "am gemütlichsten",
+          "gemütlichere"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Marina wohnt ___ fünf Jahren in Potsdam.'",
+        "options": [
+          "vor",
+          "seit",
+          "bis",
+          "ab"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Sie ist vor fünf Jahren nach Potsdam ___.'",
+        "options": [
+          "ziehen",
+          "gezogen",
+          "gezieht",
+          "umziehen"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Herein in die gute Stube!' mean?",
+        "options": [
+          "Go out of the house!",
+          "Welcome, come inside!",
+          "The kitchen is clean.",
+          "We are moving."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of these words is the superlative of 'alt'?",
+        "options": [
+          "älter",
+          "am ältesten",
+          "älteste",
+          "altsten"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Die neue Wohnung ist erst ___ Juni frei.'",
+        "options": [
+          "vor",
+          "seit",
+          "ab",
+          "am"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word is the comparative of 'hoch'?",
+        "options": [
+          "höcher",
+          "höher",
+          "am höchsten",
+          "hoche"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Translate: 'Our hallway is very narrow.'",
+        "options": [
+          "Unser Flur ist sehr eng.",
+          "Unser Haus ist sehr groß.",
+          "Unsere Mauer ist hoch.",
+          "Unser Hof hat einen Pool."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Das Wohnzimmer ist viel ___ als die Küche.'",
+        "options": [
+          "am hellsten",
+          "heller",
+          "hell",
+          "hellere"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'hässlich' mean?",
+        "options": [
+          "beautiful",
+          "cozy",
+          "ugly",
+          "dark"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "The New Apartment",
+    "titleDe": "Die neue Wohnung",
+    "type": "reading",
+    "icon": "🔑",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Wohnungsanzeige</strong></td><td>apartment ad / listing</td><td>Louise schaut nach Wohnungsanzeigen im Internet.</td></tr><tr><td><strong>die Kaltmiete</strong></td><td>cold rent (excl. utilities)</td><td>Die Kaltmiete beträgt 600 Euro.</td></tr><tr><td><strong>die Altbauwohnung</strong></td><td>apartment in an old building</td><td>Louise schaut sich eine Altbauwohnung an.</td></tr><tr><td><strong>der Parkplatz</strong></td><td>parking spot</td><td>Gibt es einen Parkplatz für das Auto?</td></tr><tr><td><strong>modernisiert</strong></td><td>modernized</td><td>Die Altbauwohnung wurde komplett modernisiert.</td></tr><tr><td><strong>die Wohnungssuche</strong></td><td>apartment search</td><td>Louise braucht Hilfe bei der Wohnungssuche.</td></tr><tr><td><strong>unglücklich</strong></td><td>unhappy</td><td>Louise sits in ihrer Wohnung und ist unglücklich.</td></tr><tr><td><strong>fußläufig</strong></td><td>within walking distance</td><td>Die U-Bahn-Station ist fußläufig zu erreichen.</td></tr><tr><td><strong>Gehminuten</strong></td><td>minutes on foot</td><td>Die Straßenbahn ist 5 Gehminuten entfernt.</td></tr><tr><td><strong>begeistert</strong></td><td>enthusiastic / thrilled</td><td>Louise ist begeistert von der Wohnung.</td></tr><tr><td><strong>die Kiste</strong></td><td>box / crate</td><td>Ich packe die Kisten für den Umzug.</td></tr><tr><td><strong>hell</strong></td><td>bright / light</td><td>Die neue Wohnung soll heller sein.</td></tr><tr><td><strong>dunkel</strong></td><td>dark</td><td>Louises alte Wohnung ist dunkel.</td></tr><tr><td><strong>gemütlich</strong></td><td>cozy</td><td>Die neue Wohnung muss gemütlicher sein.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar",
+        "type": "grammar",
+        "content": "<p>When comparing nouns, we use the structure <strong>[comparative adjective] + als</strong> (e.g., <em>heller als</em>, <em>gemütlicher als</em>). Pay close attention to spelling changes in comparative adjectives:</p><ul><li>Adjectives ending in <strong>-el</strong> or <strong>-er</strong> drop the 'e' before adding '-er' (e.g., <em>dunkel &rarr; dunkler</em>, <em>teuer &rarr; teurer</em>).</li><li>Short monosyllabic adjectives containing <strong>a, o, u</strong> usually get an umlaut in the comparative form (e.g., <em>alt &rarr; älter</em>, <em>groß &rarr; größer</em>, <em>kalt &rarr; kälter</em>).</li></ul><p>Example sentences from the text:</p><ul><li>Die neue Wohnung ist viel <strong>größer und heller als</strong> meine alte Wohnung.</li><li>Die Umgebung ist <strong>ruhiger und schöner als</strong> bei der ersten Wohnung.</li><li>Die erste Wohnung ist noch <strong>dunkler und älter als</strong> Louises Wohnung.</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>ganz aus dem Häuschen sein</strong> — sich sehr freuen / begeistert sein (to be thrilled / over the moon / extremely excited)</p><p><em>Sie hat die neue Wohnung bekommen. Sie ist jetzt ganz aus dem Häuschen.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Die Wohnung ist viel größer und ___ als meine alte Wohnung.",
+        "answer": "heller",
+        "hint": "brighter"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is 'die Altbauwohnung'?",
+        "options": [
+          "apartment in a new building",
+          "apartment in an old building",
+          "garden house",
+          "basement room"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the pairs.",
+        "pairs": [
+          [
+            "hell",
+            "bright"
+          ],
+          [
+            "dunkel",
+            "dark"
+          ],
+          [
+            "gemütlich",
+            "cozy"
+          ],
+          [
+            "begeistert",
+            "thrilled"
+          ],
+          [
+            "modernisiert",
+            "modernized"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Gehminuten' indicates walking distance in minutes.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "She is over the moon. (Idiom)",
+        "target": "Sie ist ganz aus dem Häuschen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in order.",
+        "words": [
+          "sucht",
+          "Internet",
+          "Louise",
+          "eine",
+          "im",
+          "Wohnung"
+        ],
+        "answer": "Louise sucht eine Wohnung im Internet."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Die U-Bahn-Station ist ___ zu erreichen.",
+        "answer": "fußläufig",
+        "hint": "within walking distance"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'unglücklich' mean?",
+        "options": [
+          "happy",
+          "unhappy",
+          "tired",
+          "excited"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Kaltmiete' includes all heating and water costs.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The station is 10 minutes away.",
+        "target": "Die Station ist 10 Minuten entfernt."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'begeistert' mean?",
+        "options": [
+          "bored",
+          "scared",
+          "thrilled / enthusiastic",
+          "sad"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which is the correct comparative of 'dunkel'?",
+        "options": [
+          "dunkeler",
+          "dunkler",
+          "am dunkelsten",
+          "dunkelste"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which is the correct comparative of 'teuer'?",
+        "options": [
+          "teuerer",
+          "teurer",
+          "am teuersten",
+          "teure"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Sie ist ganz aus dem ___.'",
+        "options": [
+          "Hof",
+          "Garten",
+          "Häuschen",
+          "Stock"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'fußläufig' mean?",
+        "options": [
+          "by bus",
+          "within walking distance",
+          "by train",
+          "running fast"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Die Miete kostet 600 Euro ___.'",
+        "options": [
+          "Kaltmiete",
+          "Nebenkosten",
+          "Baustelle",
+          "Möbel"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Translate: 'The surroundings are quieter than here.'",
+        "options": [
+          "Die Umgebung ist ruhiger als hier.",
+          "Die Umgebung ist so laut wie hier.",
+          "Die Baustelle ist laut.",
+          "Der Garten ist kleiner."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Neben dem Gebäude ist eine große ___.'",
+        "options": [
+          "Garten",
+          "Baustelle",
+          "Kaution",
+          "Miete"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How do you say 'first apartment'?",
+        "options": [
+          "erste Wohnung",
+          "erstes Wohnung",
+          "erster Wohnung",
+          "erst Wohnung"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete: 'Hast du Lust, mit mir Möbel zu ___?'",
+        "options": [
+          "mieten",
+          "kaufen",
+          "wohnen",
+          "ausziehen"
+        ],
+        "answer": 1
+      }
+    ]
+  }
+]

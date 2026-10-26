@@ -1,0 +1,1062 @@
+[
+  {
+    "id": 14,
+    "title": "Culture and Art",
+    "titleDe": "Kultur und Kunst",
+    "type": "vocabulary",
+    "icon": "🎨",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary — Kulturveranstaltungen",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td>die Kulturveranstaltung, -en</td><td>cultural event</td><td>In Berlin gibt es viele Kulturveranstaltungen.</td></tr><tr><td>das Theaterstück, -e</td><td>theatre play</td><td>Das Theaterstück war wirklich wunderbar.</td></tr><tr><td>die Eintrittskarte, -n</td><td>admission ticket</td><td>Ich habe mir Eintrittskarten online gekauft.</td></tr><tr><td>die Veranstaltung, -en</td><td>event</td><td>Er muss bei der Veranstaltung eine Rede halten.</td></tr><tr><td>die Aufführung, -en</td><td>performance</td><td>Die Aufführung hat zwei Stunden gedauert.</td></tr><tr><td>das Publikum (nur Sg.)</td><td>audience</td><td>Das Publikum war ganz begeistert und hat um eine Zugabe gebeten.</td></tr><tr><td>die Pause, -n</td><td>intermission / break</td><td>In der Pause trinken wir etwas.</td></tr><tr><td>der Platz, ⸚e</td><td>seat</td><td>Entschuldigung, ist dieser Platz noch frei?</td></tr><tr><td>der Film, -e</td><td>film / movie</td><td>Hast du den Film schon gesehen?</td></tr><tr><td>das Museum, die Museen</td><td>museum</td><td>Im Museum gibt es viele Skulpturen und Gemälde.</td></tr><tr><td>die Ausstellung, -en</td><td>exhibition</td><td>Das ist eine Kunst-Ausstellung.</td></tr><tr><td>die Disco, -s</td><td>disco / nightclub</td><td>In der Disco tanzen alle.</td></tr><tr><td>spannend</td><td>exciting / thrilling</td><td>Der Film war zu spannend und zu gruselig.</td></tr><tr><td>anschauen</td><td>to look at / watch</td><td>Herbert und Luise schauen die Produkte an.</td></tr><tr><td>sich freuen über + Akk.</td><td>to be happy about</td><td>Sie freut sich über die Beförderung.</td></tr></tbody></table>",
+        "sectionTitleVi": "Từ vựng chính — Sự kiện văn hóa",
+        "contentVi": "<table><thead><tr><th>Deutsch</th><th>Tiếng Việt</th><th>Beispiel</th></tr></thead><tbody><tr><td>die Kulturveranstaltung, -en</td><td>sự kiện văn hóa</td><td>In Berlin gibt es viele Kulturveranstaltungen. (Ở Berlin có nhiều sự kiện văn hóa.)</td></tr><tr><td>das Theaterstück, -e</td><td>vở kịch</td><td>Das Theaterstück war wirklich wunderbar. (Vở kịch thực sự rất tuyệt vời.)</td></tr><tr><td>die Eintrittskarte, -n</td><td>vé vào cửa / vé xem</td><td>Ich habe mir Eintrittskarten online gekauft. (Tôi đã mua vé trực tuyến.)</td></tr><tr><td>die Veranstaltung, -en</td><td>sự kiện / buổi lễ</td><td>Er muss bei der Veranstaltung eine Rede halten. (Anh ấy phải phát biểu tại sự kiện.)</td></tr><tr><td>die Aufführung, -en</td><td>buổi biểu diễn</td><td>Die Aufführung hat zwei Stunden gedauert. (Buổi biểu diễn kéo dài hai tiếng.)</td></tr><tr><td>das Publikum (nur Sg.)</td><td>khán giả</td><td>Das Publikum war ganz begeistert và hat um eine Zugabe gebeten. (Khán giả vô cùng hào hứng và đã yêu cầu biểu diễn thêm.)</td></tr><tr><td>die Pause, -n</td><td>giờ nghỉ giải lao</td><td>In der Pause trinken wir etwas. (Trong giờ giải lao chúng tôi uống gì đó.)</td></tr><tr><td>der Platz, ⸚e</td><td>chỗ ngồi / vị trí</td><td>Entschuldigung, ist dieser Platz noch frei? (Xin lỗi, chỗ này còn trống không ạ?)</td></tr><tr><td>der Film, -e</td><td>bộ phim</td><td>Hast du den Film schon gesehen? (Bạn đã xem bộ phim này chưa?)</td></tr><tr><td>das Museum, die Museen</td><td>bảo tàng</td><td>Im Museum gibt es viele Skulpturen und Gemälde. (Trong bảo tàng có nhiều bức tượng và bức tranh.)</td></tr><tr><td>die Ausstellung, -en</td><td>triển lãm</td><td>Das ist eine Kunst-Ausstellung. (Đây là một cuộc triển lãm nghệ thuật.)</td></tr><tr><td>die Disco, -s</td><td>hộp đêm / sàn nhảy</td><td>In der Disco tanzen alle. (Trong hộp đêm mọi người đều khiêu vũ.)</td></tr><tr><td>spannend</td><td>kịch tính / hấp dẫn</td><td>Der Film war zu spannend und zu gruselig. (Bộ phim quá kịch tính và đáng sợ.)</td></tr><tr><td>anschauen</td><td>xem / ngắm nhìn</td><td>Herbert und Luise schauen die Produkte an. (Herbert và Luise đang xem các sản phẩm.)</td></tr><tr><td>sich freuen über + Akk.</td><td>vui mừng về cái gì</td><td>Sie freut sich über die Beförderung. (Cô ấy vui mừng về việc được thăng chức.)</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Talking about Films",
+        "type": "grammar",
+        "content": "<p>When talking about films and cultural events, use these useful questions and phrases:</p><ul><li><strong>Welchen Film möchtest du als Nächstes sehen?</strong> — Which film would you like to see next?</li><li><strong>Welchen Film hast du zuletzt gesehen?</strong> — Which film did you last see?</li><li><strong>Was ist dein Lieblingsfilm?</strong> — What is your favourite film?</li><li><strong>Wie gefällt dir das Theaterstück?</strong> — How do you like the play?</li><li><strong>Hast du Eintrittskarten gekauft?</strong> — Have you bought tickets?</li><li><strong>Ist der Platz noch frei?</strong> — Is the seat still free?</li></ul><p><strong>Kulturbanause</strong> — A <em>Kulturbanause</em> is someone who knows nothing about culture and has no interest in it. Example: <em>Shakespeare?! Nein, habe ich noch nie gehört! — Was? Du bist so ein Kulturbanause!</em></p>",
+        "sectionTitleVi": "Nói về các bộ phim",
+        "contentVi": "<p>Khi trò chuyện về các bộ phim và sự kiện văn hóa, hãy sử dụng các câu hỏi và cụm từ hữu ích sau:</p><ul><li><strong>Welchen Film möchtest du als Nächstes sehen?</strong> — Bạn muốn xem bộ phim nào tiếp theo?</li><li><strong>Welchen Film hast du zuletzt gesehen?</strong> — Bộ phim gần nhất bạn xem là phim gì?</li><li><strong>Was ist dein Lieblingsfilm?</strong> — Bộ phim yêu thích của bạn là gì?</li><li><strong>Wie gefällt dir das Theaterstück?</strong> — Bạn thấy vở kịch thế nào?</li><li><strong>Hast du Eintrittskarten gekauft?</strong> — Bạn đã mua vé chưa?</li><li><strong>Ist der Platz noch frei?</strong> — Chỗ này còn trống không?</li></ul><p><strong>Kulturbanause</strong> — Từ này chỉ một người mù tịt về văn hóa nghệ thuật và không có hứng thú với nó (kẻ vô văn hóa/mù nghệ thuật). Ví dụ: <em>Shakespeare?! Nein, habe ich noch nie gehört! — Was? Du bist so ein Kulturbanause!</em> (Shakespeare á?! Chưa, tôi chưa từng nghe bao giờ! — Cái gì cơ? Bạn đúng là đồ mù nghệ thuật!)</p>"
+      },
+      {
+        "sectionTitle": "Leisure Activities (Freizeitaktivitäten)",
+        "type": "grammar",
+        "content": "<p>Here are common leisure activities from the lesson:</p><ul><li><strong>lesen</strong> — to read</li><li><strong>fotografieren</strong> — to take photos</li><li><strong>malen</strong> — to paint</li><li><strong>ins Kino gehen</strong> — to go to the cinema</li><li><strong>Musik hören</strong> — to listen to music</li><li><strong>tanzen gehen</strong> — to go dancing</li><li><strong>zum Konzert gehen</strong> — to go to a concert</li></ul><p>These verbs and phrases appear frequently in conversations about culture and free time.</p>",
+        "sectionTitleVi": "Hoạt động lúc rảnh rỗi (Freizeitaktivitäten)",
+        "contentVi": "<p>Dưới đây là các hoạt động giải trí phổ biến trong bài học:</p><ul><li><strong>lesen</strong> — đọc sách</li><li><strong>fotografieren</strong> — chụp ảnh</li><li><strong>malen</strong> — vẽ tranh</li><li><strong>ins Kino gehen</strong> — đi xem phim</li><li><strong>Musik hören</strong> — nghe nhạc</li><li><strong>tanzen gehen</strong> — đi khiêu vũ / đi nhảy</li><li><strong>zum Konzert gehen</strong> — đi xem hòa nhạc</li></ul><p>Các động từ và cụm từ này xuất hiện rất thường xuyên trong các cuộc hội thoại về chủ đề văn hóa và thời gian rảnh rỗi.</p>"
+      },
+      {
+        "sectionTitle": "Reading: Im Kino — A Family Trip",
+        "type": "grammar",
+        "content": "<p>Read the following text about a family cinema visit:</p><blockquote>Heute Abend geht es ins Kino. Die ganze Familie geht, das heißt Mama, Papa, Toby und Sam. Die Kinder freuen sich schon sehr aufs Kino. Sie dürfen sich einen Film aussuchen. Im Kino kaufen Mama und Papa vier Eintrittskarten. Die ganze Familie geht zur Vorstellung, aber es gibt nicht genügend freie Plätze nebeneinander. Mama und Papa sitzen weit weg von Toby und Sam. Die Kinder sind begeistert vom Film. Er ist spannend und lustig. Nächstes Mal geht es ins Museum – für Mama und Papa.</blockquote><p><strong>Key facts:</strong></p><ul><li>Die <em>Eltern</em> kaufen die Eintrittskarten. ✔ Richtig</li><li>Die <em>Kinder</em> freuen sich aufs Kino (not the parents). ✔ Richtig (but note: the PDF says die Kinder, not die Eltern)</li><li>Mama und Papa sitzen <em>weit weg</em> von den Kindern, not next to them.</li><li>Die Kinder sind begeistert vom Film. ✔ Richtig</li></ul>",
+        "sectionTitleVi": "Bài đọc: Im Kino — Đi xem phim cùng gia đình",
+        "contentVi": "<p>Đọc văn bản sau về một chuyến đi xem phim của gia đình:</p><blockquote>Tối nay cả nhà đi xem phim. Cả gia đình đi, nghĩa là gồm Mẹ, Bố, Toby và Sam. Trẻ con rất hào hứng được đi xem phim. Chúng được tự chọn một bộ phim. Ở rạp phim, Bố và Mẹ mua bốn vé vào cửa. Cả nhà vào buổi chiếu phim, nhưng không có đủ chỗ trống bên cạnh nhau. Bố và Mẹ phải ngồi xa Toby và Sam. Trẻ con rất hào hứng với bộ phim. Nó rất kịch tính và vui nhộn. Lần tới sẽ là đi bảo tàng – dành cho Bố và Mẹ.</blockquote><p><strong>Sự thật chính trong bài:</strong></p><ul><li>Bố mẹ (Eltern) mua vé. ✔ Đúng (Richtig)</li><li>Trẻ con (Kinder) mới là người hào hứng đi xem phim (không phải bố mẹ). ✔ Đúng</li><li>Bố mẹ ngồi xa (weit weg) các con, chứ không ngồi cạnh nhau.</li><li>Lũ trẻ rất hào hứng với bộ phim. ✔ Đúng</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>im falschen Film sein</strong> — to feel as if you are in the wrong movie; to be confronted with an incomprehensible or unpleasant situation.</p><p><em>Bedeutung:</em> mit einer unverständlichen oder unangenehmen Situation konfrontiert sein.</p><p><em>Beispiel:</em> Gestern war ich in einer Ausstellung mit komplett schwarzen Bildern. Alle Besucher haben gesagt, wie interessant das ist. Aber ich habe gedacht, ich bin im falschen Film.</p>",
+        "sectionTitleVi": "Thành ngữ (Redewendung)",
+        "contentVi": "<p><strong>im falschen Film sein</strong> — cảm thấy như đang ở nhầm phim; đối mặt với một tình huống kỳ lạ, khó hiểu hoặc khó chịu.</p><p><em>Ý nghĩa:</em> Đối mặt với một tình huống khó chịu hoặc hoàn toàn không thể hiểu nổi.</p><p><em>Ví dụ:</em> Gestern war ich in einer Ausstellung mit komplett schwarzen Bildern. Alle Besucher haben gesagt, wie interessant das ist. Aber ich habe gedacht, ich bin im falschen Film. (Hôm qua tôi đi xem một cuộc triển lãm toàn tranh màu đen. Tất cả khách tham quan đều khen nó thú vị làm sao. Nhưng tôi thì nghĩ mình như đang ở nhầm phim - chả hiểu cái gì cả!)</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Fill in the blank with the correct vocabulary word.",
+        "sentence": "Entschuldigung, ist dieser ___ noch frei?",
+        "answer": "Platz",
+        "hint": "A word meaning 'seat'",
+        "instructionVi": "Điền vào chỗ trống với từ vựng đúng.",
+        "hintVi": "Từ có nghĩa là 'chỗ ngồi' (Platz)"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence with the missing word.",
+        "sentence": "Das ___ war ganz begeistert und hat um eine Zugabe gebeten.",
+        "answer": "Publikum",
+        "hint": "The people watching a performance",
+        "instructionVi": "Hoàn thành câu với từ còn thiếu.",
+        "hintVi": "Khán giả (Publikum)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct definition.",
+        "question": "Was ist ein 'Kulturbanause'?",
+        "options": [
+          "Jemand, der nichts von Kultur versteht",
+          "Ein berühmter Künstler",
+          "Ein Museumsbesucher",
+          "Ein Theaterregisseur"
+        ],
+        "answer": 0,
+        "instructionVi": "Chọn định nghĩa chính xác.",
+        "questionVi": "Kulturbanause nghĩa là gì?",
+        "optionsVi": [
+          "Một người không hiểu gì về văn hóa",
+          "Một nghệ sĩ nổi tiếng",
+          "Một khách tham quan bảo tàng",
+          "Một đạo diễn sân khấu"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Select the best answer.",
+        "question": "Was bedeutet die Redewendung 'im falschen Film sein'?",
+        "options": [
+          "Einen Film im Kino verpassen",
+          "Mit einer unverständlichen oder unangenehmen Situation konfrontiert sein",
+          "Einen langweiligen Film sehen",
+          "Ins falsche Kino gehen"
+        ],
+        "answer": 1,
+        "instructionVi": "Chọn câu trả lời đúng nhất.",
+        "questionVi": "Thành ngữ 'im falschen Film sein' nghĩa là gì?",
+        "optionsVi": [
+          "Bỏ lỡ một bộ phim ở rạp",
+          "Đối mặt với một tình huống khó hiểu hoặc khó chịu",
+          "Xem một bộ phim tẻ nhạt",
+          "Đi nhầm rạp phim"
+        ]
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words with their English translations.",
+        "pairs": [
+          [
+            "die Eintrittskarte",
+            "admission ticket"
+          ],
+          [
+            "das Theaterstück",
+            "theatre play"
+          ],
+          [
+            "die Aufführung",
+            "performance"
+          ],
+          [
+            "die Veranstaltung",
+            "event"
+          ],
+          [
+            "spannend",
+            "exciting"
+          ]
+        ],
+        "instructionVi": "Ghép các từ tiếng Đức với nghĩa tiếng Việt tương ứng.",
+        "pairsVi": [
+          [
+            "die Eintrittskarte",
+            "vé vào cửa"
+          ],
+          [
+            "das Theaterstück",
+            "vở kịch"
+          ],
+          [
+            "die Aufführung",
+            "buổi biểu diễn"
+          ],
+          [
+            "die Veranstaltung",
+            "sự kiện"
+          ],
+          [
+            "spannend",
+            "kịch tính / hấp dẫn"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "Read the statement and decide: true or false?",
+        "statement": "In the cinema text, the children sit next to their parents.",
+        "answer": false,
+        "instructionVi": "Đọc nhận định sau và quyết định: Đúng hay Sai?",
+        "statementVi": "Trong bài đọc về rạp phim, các con ngồi cạnh bố mẹ của chúng."
+      },
+      {
+        "type": "true_false",
+        "instruction": "Is this statement true or false based on the lesson?",
+        "statement": "Ein Kulturbanause weiß viel über Kultur.",
+        "answer": false,
+        "instructionVi": "Nhận định sau đây Đúng hay Sai dựa trên bài học?",
+        "statementVi": "Một Kulturbanause biết rất nhiều về văn hóa."
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate the sentence into German.",
+        "source": "I would like to see the new James Bond film.",
+        "target": "Ich würde gern den neuen James Bond sehen.",
+        "instructionVi": "Dịch câu sau đây sang tiếng Đức.",
+        "sourceVi": "Tôi muốn xem bộ phim James Bond mới."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order to form a sentence.",
+        "words": [
+          "mir",
+          "Eintrittskarten",
+          "habe",
+          "online",
+          "Ich",
+          "gekauft"
+        ],
+        "answer": "Ich habe mir Eintrittskarten online gekauft.",
+        "instructionVi": "Sắp xếp các từ theo thứ tự đúng để tạo thành câu hoàn chỉnh."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence with the correct word.",
+        "sentence": "Im Museum gibt es eine neue interessante ___.",
+        "answer": "Ausstellung",
+        "hint": "A word meaning 'exhibition'",
+        "instructionVi": "Hoàn thành câu với từ vựng đúng.",
+        "hintVi": "Từ có nghĩa là 'triển lãm' (Ausstellung)"
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "sentence": "Hast du den ___ schon gesehen? Das Ende war echt cool.",
+        "answer": "Film",
+        "hint": "A movie",
+        "hintVi": "Bộ phim (Film)"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Das ___ war wirklich wunderbar. Die Schauspieler auf der Bühne waren so talentiert.",
+        "answer": "Theaterstück",
+        "hint": "A play performed on stage",
+        "hintVi": "Vở kịch sân khấu (Theaterstück)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Wer kauft die Eintrittskarten im Text 'Im Kino'?",
+        "options": [
+          "Die Kinder",
+          "Mama und Papa",
+          "Toby allein",
+          "Der Kassierer"
+        ],
+        "answer": 1,
+        "instructionVi": "Chọn đáp án đúng.",
+        "questionVi": "Ai là người mua vé trong văn bản 'Im Kino'?",
+        "optionsVi": [
+          "Lũ trẻ",
+          "Bố và Mẹ",
+          "Toby một mình",
+          "Nhân viên bán vé"
+        ]
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "In der ___ gibt es viele Gemälde.",
+        "answer": "Ausstellung",
+        "hint": "An art showing",
+        "hintVi": "Triển lãm (Ausstellung)"
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Die Kinder sind begeistert vom Film. Er ist spannend und lustig.",
+        "answer": true,
+        "instructionVi": "Đúng hay Sai?",
+        "statementVi": "Lũ trẻ rất hào hứng với bộ phim. Nó kịch tính và vui nhộn."
+      },
+      {
+        "type": "matching",
+        "instruction": "Match each German word to its meaning.",
+        "pairs": [
+          [
+            "das Museum",
+            "museum"
+          ],
+          [
+            "die Pause",
+            "intermission"
+          ],
+          [
+            "der Platz",
+            "seat"
+          ],
+          [
+            "die Disco",
+            "nightclub"
+          ],
+          [
+            "anschauen",
+            "to watch"
+          ]
+        ],
+        "instructionVi": "Ghép các từ sau.",
+        "pairsVi": [
+          [
+            "das Publikum",
+            "khán giả"
+          ],
+          [
+            "die Pause",
+            "giờ nghỉ giải lao"
+          ],
+          [
+            "der Platz",
+            "chỗ ngồi"
+          ],
+          [
+            "der Film",
+            "bộ phim"
+          ],
+          [
+            "anschauen",
+            "xem / ngắm nhìn"
+          ]
+        ]
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate into German.",
+        "source": "She is happy about the promotion.",
+        "target": "Sie freut sich über die Beförderung.",
+        "instructionVi": "Chọn câu trả lời đúng.",
+        "questionVi": "Bộ phim cuối cùng bạn xem là phim gì?",
+        "optionsVi": [
+          "Welchen Film hast du zuletzt gesehen?",
+          "Welchen Film möchtest du als Nächstes sehen?",
+          "Was ist dein Lieblingsfilm?",
+          "Wie gefällt dir das Theaterstück?"
+        ]
+      },
+      {
+        "type": "reorder",
+        "instruction": "Arrange the words to form a correct sentence.",
+        "words": [
+          "Museum",
+          "gibt",
+          "Im",
+          "Skulpturen",
+          "viele",
+          "es",
+          "und",
+          "Gemälde"
+        ],
+        "answer": "Im Museum gibt es viele Skulpturen und Gemälde.",
+        "instructionVi": "Sắp xếp các từ."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Er muss bei der ___ eine Rede halten.",
+        "answer": "Veranstaltung",
+        "hint": "An organized event",
+        "instructionVi": "Dịch sang tiếng Đức.",
+        "sourceVi": "Chúng tôi đang xem các sản phẩm."
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Select the correct answer.",
+        "question": "Was machen die Kinder als Nächstes laut dem Text?",
+        "options": [
+          "Sie gehen ins Museum",
+          "Sie gehen wieder ins Kino",
+          "Sie gehen in die Disco",
+          "Sie gehen zum Konzert"
+        ],
+        "answer": 0,
+        "instructionVi": "Đúng hay Sai?",
+        "statementVi": "Thành ngữ 'im falschen Film sein' có nghĩa là bạn đang ở trong rạp chiếu phim sai."
+      }
+    ],
+    "titleVi": "Văn hóa & Nghệ thuật"
+  },
+  {
+    "id": 15,
+    "title": "A Conversation about Culture",
+    "titleDe": "Über kulturelle Interessen sprechen",
+    "type": "speaking",
+    "icon": "🎭",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary — Cultural Interests",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td>eine Vorliebe haben für + Akk.</td><td>to have a preference for</td><td>Sie hat eine Vorliebe fürs Theater.</td></tr><tr><td>sich begeistern für + Akk.</td><td>to be enthusiastic about</td><td>Ich begeistere mich für alte Bücher.</td></tr><tr><td>sich interessieren für + Akk.</td><td>to be interested in</td><td>Ich interessiere mich für neue Kulturen.</td></tr><tr><td>etwas empfehlen</td><td>to recommend something</td><td>Ich kann dir dieses Museum empfehlen.</td></tr><tr><td>die Theaterkarte reservieren</td><td>to reserve a theatre ticket</td><td>Sie reserviert ihre Karten lange im Voraus.</td></tr><tr><td>ins Kino gehen</td><td>to go to the cinema</td><td>Er geht jede Woche ins Kino.</td></tr><tr><td>das Reiseziel, -e</td><td>travel destination</td><td>Was denkst du über diese Reiseziele?</td></tr><tr><td>anderswohin</td><td>to somewhere else</td><td>Gehst du gerne ins Theater oder anderswohin?</td></tr><tr><td>gut besucht</td><td>well-attended</td><td>Die Veranstaltung war gut besucht.</td></tr><tr><td>Ich bin überzeugt davon, dass …</td><td>I am convinced that …</td><td>Ich bin überzeugt davon, dass man viele kulturelle Erfahrungen sammeln sollte!</td></tr><tr><td>Ich glaube/denke/finde, dass …</td><td>I believe/think/find that …</td><td>Ich finde, dass virtuelle Museen sehr interessant sind.</td></tr><tr><td>Ich bin dafür/dagegen, dass …</td><td>I am for/against …</td><td>Ich bin dafür, dass wir mehr Museen besuchen.</td></tr></tbody></table>",
+        "sectionTitleVi": "Từ vựng chính — Sở thích văn hóa",
+        "contentVi": "<table><thead><tr><th>Deutsch</th><th>Tiếng Việt</th><th>Beispiel</th></tr></thead><tbody><tr><td>das kulturelle Interesse, -n</td><td>sở thích văn hóa</td><td>Hast du kulturelle Interessen? (Bạn có sở thích văn hóa nào không?)</td></tr><tr><td>die Vorliebe, -n (für + Akk)</td><td>sở thích / sự ưu ái đặc biệt</td><td>Ich habe eine Vorliebe für Museen. (Tôi có một sự ưu ái đặc biệt dành cho các bảo tàng.)</td></tr><tr><td>sich begeistern für + Akk</td><td>đam mê / hào hứng với</td><td>Er begeistert sich für klassische Musik. (Anh ấy đam mê âm nhạc cổ điển.)</td></tr><tr><td>empfehlen (empfiehlt, empfahl, empfohlen)</td><td>giới thiệu / đề xuất / khuyên</td><td>Kannst du mir einen guten Film empfehlen? (Bạn có thể giới thiệu cho tôi một bộ phim hay không?)</td></tr><tr><td>reservieren</td><td>đặt trước / giữ chỗ</td><td>Ich möchte einen Tisch reservieren. (Tôi muốn đặt một bàn trước.)</td></tr><tr><td>die Theaterkarte, -n</td><td>vé xem kịch</td><td>Wir müssen die Theaterkarten reservieren. (Chúng ta phải đặt trước vé xem kịch.)</td></tr><tr><td>virtuell</td><td>ảo (thực tế ảo)</td><td>Ich mag virtuelle Ausstellungen. (Tôi thích các cuộc triển lãm ảo.)</td></tr><tr><td>die Technologie, -n</td><td>công nghệ</td><td>Moderne Technologie verändert die Kunst. (Công nghệ hiện đại đang thay đổi nghệ thuật.)</td></tr><tr><td>die Meinung, -en</td><td>ý kiến / quan điểm</td><td>Was ist deine Meinung zu diesem Buch? (Ý kiến của bạn về cuốn sách này thế nào?)</td></tr><tr><td>überzeugen</td><td>thuyết phục</td><td>Dieses Argument überzeugt mich nicht. (Luận điểm này không thuyết phục được tôi.)</td></tr><tr><td>überzeugt sein von + Dat</td><td>tin chắc về cái gì</td><td>Ich bin davon überzeugt, dass das klappt. (Tôi tin chắc rằng việc đó sẽ thành công.)</td></tr><tr><td>anderswohin</td><td>đi nơi khác</td><td>Wir gehen heute anderswohin. (Hôm nay chúng tôi đi nơi khác.)</td></tr><tr><td>das Reiseziel, -e</td><td>điểm đến du lịch</td><td>Spanien ist ein beliebtes Reiseziel. (Tây Ban Nha là một điểm đến du lịch được yêu thích.)</td></tr><tr><td>ins Kino gehen</td><td>đi xem phim</td><td>Wir gehen am Wochenende ins Kino. (Chúng tôi đi xem phim vào cuối tuần.)</td></tr><tr><td>gut/schlecht besucht</td><td>đông / vắng khách tham dự</td><td>Die Veranstaltung ist heute gut besucht. (Sự kiện hôm nay có rất đông người tham dự.)</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Pronunciation: Ach-Laut and st/sp Rules",
+        "type": "grammar",
+        "content": "<h3>Der Ach-Laut</h3><p>The <strong>Ach-Laut</strong> occurs when <em>ch</em> follows the vowels <strong>a</strong>, <strong>o</strong>, or <strong>u</strong>. It is a back consonant, produced in the back of the throat.</p><ul><li><strong>machen</strong> → ma<strong>ch</strong>en</li><li><strong>lachen</strong> → la<strong>ch</strong>en</li><li><strong>Nacht</strong> → Na<strong>ch</strong>t</li></ul><h3>Aussprache von st und sp</h3><p>When <strong>st</strong> or <strong>sp</strong> appears at the <em>beginning of a word</em> or at the <em>beginning of a syllable</em>, the <strong>s</strong> is pronounced as <strong>/ʃ/</strong> (like English 'sh'):</p><ul><li><strong>Stadt</strong> → /ʃtatt/</li><li><strong>Ausstellung</strong> → Aus-<strong>/ʃt/</strong>ellung</li><li><strong>sprechen</strong> → <strong>/ʃp/</strong>rechen</li><li><strong>Spaß</strong> → <strong>/ʃp/</strong>aß</li><li><strong>Spanisch</strong> → <strong>/ʃp/</strong>anisch</li></ul><p>When <strong>st</strong> or <strong>sp</strong> appears <em>in the middle or end</em> of a word (or belongs to different word parts), the <strong>s</strong> is pronounced as a normal <strong>/s/</strong>:</p><ul><li><strong>Wespe</strong> → We<strong>/s/</strong>pe</li><li><strong>auspacken</strong> → aus<strong>/s/</strong>packen (compound word: aus + packen)</li><li><strong>gestern</strong> → ge<strong>/s/</strong>tern</li><li><strong>Kunst</strong> → Kun<strong>/s/</strong>t</li></ul>",
+        "sectionTitleVi": "Quy tắc phát âm cho người Việt: Âm ch, st, sp",
+        "contentVi": "<h4>1. Âm Ach-Laut ([x]) — ch sau a, o, u</h4>\n<p><strong>Bí quyết:</strong> Âm này phát âm <strong>cực kỳ giống âm \"kh\"</strong> trong tiếng Việt (như trong <em>không, khó, khắp</em>). Hãy phát âm từ sâu trong cổ họng nhưng đẩy hơi dài và nhẹ hơn.</p>\n<ul>\n  <li><code>machen</code> $\rightarrow$ đọc giống như <em>\"ma-khừn\"</em></li>\n  <li><code>lachen</code> $\rightarrow$ đọc giống như <em>\"la-khừn\"</em></li>\n</ul>\n\n<h4>2. Âm \"st\" và \"sp\" ở đầu từ hoặc đầu âm tiết</h4>\n<p><strong>Quy tắc Đức:</strong> Đọc chữ \"s\" thành âm <strong>/ʃ/</strong> (tương tự như <strong>\"s\" (sờ nặng)</strong> chuẩn miền Nam/miền Trung Việt Nam: uốn cong lưỡi lên vòm họng).</p>\n<p><strong>Lỗi thường gặp:</strong> Người Việt hay phát âm tách thành hai âm (như <em>\"sờ-tát\"</em> cho <em>Stadt</em>) hoặc nuốt mất âm (chỉ đọc là <em>\"tát\"</em>). Hãy uốn lưỡi âm \"s\" (nặng) rồi lập tức chuyển nhanh sang bật âm \"t\" hoặc \"p\" mà không chèn nguyên âm vào giữa.</p>\n<ul>\n  <li><code>Stadt</code> $\rightarrow$ đọc nhanh: <em>S-tát</em></li>\n  <li><code>sprechen</code> $\rightarrow$ đọc nhanh: <em>S-p-rê-h-n</em></li>\n  <li><code>Ausstellung</code> $\rightarrow$ đọc là <em>\"Ao-s-tê-lung\"</em></li>\n</ul>\n\n<h4>3. Âm \"st\" và \"sp\" ở giữa hoặc cuối từ</h4>\n<p><strong>Quy tắc Đức:</strong> Đọc chữ \"s\" thành âm <strong>/s/</strong> (tương tự âm <strong>\"x\" (xờ nhẹ)</strong> trong tiếng Việt). Hãy nhớ phát âm và nhả hơi âm cuối rõ ràng (người Việt hay bị nuốt hơi cuối).</p>\n<ul>\n  <li><code>Kunst</code> $\rightarrow$ đọc là <em>\"Cun-s-t\"</em> (nhả hơi nhẹ âm \"s\" rồi kết thúc bằng \"t\")</li>\n  <li><code>gestern</code> $\rightarrow$ đọc là <em>\"ghét-x-tờn\"</em></li>\n</ul>"
+      },
+      {
+        "sectionTitle": "Expressing Opinions",
+        "type": "grammar",
+        "content": "<p>Use these phrases to express your opinion in a conversation about culture:</p><ul><li><strong>Ich glaube, dass …</strong> — I believe that …</li><li><strong>Ich denke, dass …</strong> — I think that …</li><li><strong>Ich finde, dass …</strong> — I find/feel that …</li><li><strong>Ich bin davon überzeugt, dass …</strong> — I am convinced that …</li><li><strong>Ich bin dafür, dass …</strong> — I am in favour of …</li><li><strong>Ich bin dagegen, dass …</strong> — I am against …</li></ul><p>Remember: after <strong>dass</strong>, the conjugated verb goes to the <em>end</em> of the clause!</p><p><em>Example:</em> Ich finde, dass virtuelle Technologie Museen viel interessanter <strong>macht</strong>.</p>",
+        "sectionTitleVi": "Bày tỏ ý kiến cá nhân",
+        "contentVi": "<p>Để bày tỏ ý kiến cá nhân trong tiếng Đức, bạn có thể dùng các cấu trúc sau. Hãy lưu ý quy tắc động từ chạy xuống cuối câu trong mệnh đề phụ bắt đầu bằng <strong>dass</strong>:</p>\n<ul>\n  <li><strong>Ich glaube/denke/finde, dass...</strong> — Tôi tin/nghĩ/thấy rằng...\n    <br><em>Ví dụ:</em> Ich finde, dass moderne Kunst spannend ist. (Tôi thấy rằng nghệ thuật hiện đại rất hấp dẫn.)</li>\n  <li><strong>Ich bin davon überzeugt, dass...</strong> — Tôi tin chắc rằng...\n    <br><em>Ví dụ:</em> Ich bin davon überzeugt, dass virtuelle Technologie Museen interessanter macht. (Tôi tin chắc rằng công nghệ thực tế ảo làm cho bảo tàng thú vị hơn.)</li>\n  <li><strong>Ich bin dafür/dagegen, dass...</strong> — Tôi ủng hộ / phản đối việc...\n    <br><em>Ví dụ:</em> Ich bin dafür, dass der Eintritt ins Museum kostenlos ist. (Tôi ủng hộ việc vào cửa bảo tàng miễn phí.)</li>\n</ul>"
+      },
+      {
+        "sectionTitle": "Tongue Twisters (Zungenbrecher)",
+        "type": "grammar",
+        "content": "<p>Practice your st/sp pronunciation with these tongue twisters from the lesson:</p><ol><li><em>Spinnende spanische Spanner verspannen spannende spanische Spinner.</em></li><li><em>Ein Stachelschwein, ein Stachelschwein, das muss ein Schwein mit Stacheln sein, doch hat es keine Stachelein, so ist es auch kein Stachelschwein.</em></li></ol><p>Try reading them aloud slowly, then faster!</p>",
+        "sectionTitleVi": "Câu líu lưỡi (Zungenbrecher)",
+        "contentVi": "<p>Hãy thử đọc thật nhanh các câu líu lưỡi sau để luyện phát âm âm <strong>st</strong>, <strong>sp</strong> và <strong>ch</strong>:</p>\n<ol>\n  <li><strong>Ein Stachelschwein, ein Stachelschwein, das muss ein Schwein mit Stacheln sein, doch hat es keine Stachelein, so ist es auch kein Stachelschwein.</strong>\n    <br><em>(Một con nhím, một con nhím, đó phải là con lợn có gai, nhưng nếu nó không có gai nhỏ, thì nó cũng không phải là con nhím.)</em>\n  </li>\n  <li style=\"margin-top:10px\"><strong>Spinnende spanische Spanner verspannen spannende spanische Spinner.</strong>\n    <br><em>(Những con sâu đo Tây Ban Nha đang giăng tơ làm căng thẳng những người thợ dệt Tây Ban Nha đầy thú vị.)</em>\n  </li>\n</ol>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Theater machen</strong> — to make a fuss, to overreact, to exaggerate.</p><p><em>Bedeutung:</em> Aufregung machen, übertreiben.</p><p><em>Beispiel:</em> Sandra war total sauer, dass ich kein Ticket für sie gekauft habe. Sie hat so ein Theater gemacht. Alle haben uns angeguckt.</p>",
+        "sectionTitleVi": "Thành ngữ (Redewendung)",
+        "contentVi": "<p><strong>Theater machen</strong> — làm mình làm mẩy, phóng đại vấn đề, làm quá lên, gây ầm ĩ vô cớ.</p>\n<p><em>Ý nghĩa:</em> Gây ồn ào, phản ứng quá mức trước một vấn đề nhỏ.</p>\n<p><em>Ví dụ:</em> Sandra war total sauer, dass ich kein Ticket für sie gekauft habe. Sie hat so ein Theater gemacht! Alle haben uns angeguckt. (Sandra đã cực kỳ nổi giận vì tôi không mua vé cho cô ấy. Cô ấy đã làm mình làm mẩy ghê lắm! Ai cũng ngoái lại nhìn chúng tôi.)</p>"
+      },
+      {
+        "sectionTitle": "Asking about Interests",
+        "type": "grammar",
+        "content": "<p>Useful questions for talking about cultural interests:</p><ul><li><strong>Was denkst du über …?</strong> — What do you think about …?</li><li><strong>Wofür interessierst du dich?</strong> — What are you interested in?</li><li><strong>Wofür begeisterst du dich?</strong> — What are you enthusiastic about?</li><li><strong>Hast du … erlebt?</strong> — Have you experienced …?</li><li><strong>Was kannst du einem Touristen in deiner Heimatstadt empfehlen?</strong> — What can you recommend to a tourist in your hometown?</li></ul>",
+        "sectionTitleVi": "Hỏi về sở thích",
+        "contentVi": "<p>Các câu hỏi thông dụng để bắt đầu một cuộc hội thoại về sở thích:</p>\n<ul>\n  <li><strong>Wofür interessierst du dich?</strong> — Bạn quan tâm đến điều gì? (Trả lời: <em>Ich interessiere mich für...</em>)</li>\n  <li><strong>Wofür begeisterst du dich?</strong> — Bạn đam mê cái gì? (Trả lời: <em>Ich begeistere mich für...</em>)</li>\n  <li><strong>Was kannst du empfehlen?</strong> — Bạn có thể giới thiệu cái gì không?</li>\n</ul>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Fill in the blank with the correct reflexive phrase.",
+        "sentence": "Ich ___ für neue Kulturen.",
+        "answer": "interessiere mich",
+        "hint": "sich interessieren für",
+        "instructionVi": "Điền vào chỗ trống từ đúng để hoàn thành câu.",
+        "hintVi": "Tôi quan tâm đến... (interessiere mich cho ngôi Ich)"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Sie hat eine ___ fürs Theater. Darum reserviert sie ihre Karten lange im Voraus.",
+        "answer": "Vorliebe",
+        "hint": "A word meaning 'preference'",
+        "instructionVi": "Điền từ thích hợp vào chỗ trống.",
+        "hintVi": "Đặt vé trước (reserviert)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct pronunciation rule.",
+        "question": "When is 'st' pronounced as /ʃt/?",
+        "options": [
+          "When st is at the beginning of a word or syllable",
+          "When st is at the end of a word",
+          "When st is in the middle of a compound word",
+          "Always"
+        ],
+        "answer": 0,
+        "instructionVi": "Hoàn thành câu.",
+        "hintVi": "Điểm đến du lịch (Reiseziel)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Select the correct meaning.",
+        "question": "Was bedeutet 'Theater machen'?",
+        "options": [
+          "Ins Theater gehen",
+          "Ein Theaterstück schreiben",
+          "Aufregung machen, übertreiben",
+          "Ein Theater bauen"
+        ],
+        "answer": 2,
+        "instructionVi": "Hoàn thành câu.",
+        "hintVi": "Sự kiện / Buổi biểu diễn (Veranstaltungen)"
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German phrases with their English meanings.",
+        "pairs": [
+          [
+            "eine Vorliebe haben für",
+            "to have a preference for"
+          ],
+          [
+            "sich begeistern für",
+            "to be enthusiastic about"
+          ],
+          [
+            "etwas empfehlen",
+            "to recommend something"
+          ],
+          [
+            "gut besucht",
+            "well-attended"
+          ],
+          [
+            "das Reiseziel",
+            "travel destination"
+          ]
+        ],
+        "instructionVi": "Ghép cặp từ tiếng Đức với nghĩa tiếng Việt tương ứng.",
+        "pairsVi": [
+          [
+            "sich begeistern für",
+            "đam mê / hào hứng với"
+          ],
+          [
+            "etwas empfehlen",
+            "giới thiệu cái gì"
+          ],
+          [
+            "die Theaterkarte",
+            "vé xem kịch"
+          ],
+          [
+            "eine Vorliebe haben",
+            "có sở thích đặc biệt"
+          ],
+          [
+            "ins Kino gehen",
+            "đi xem phim"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Der Ach-Laut entsteht, wenn nach a, o und u ein 'ch' steht.",
+        "answer": true,
+        "instructionVi": "Chọn câu trả lời đúng.",
+        "questionVi": "Câu nào sau đây dịch đúng: 'Tôi tin chắc rằng người ta nên học ngoại ngữ.'",
+        "optionsVi": [
+          "Ich bin überzeugt davon, dass man Sprachen lernen sollte.",
+          "Ich bin überzeugt davon, dass man Sprachen lernen soll.",
+          "Ich glaube, dass man Sprachen lernen.",
+          "Ich bin dagegen, dass man Sprachen lernt."
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In the word 'Wespe', the 's' is pronounced as /ʃ/ (sh).",
+        "answer": false,
+        "instructionVi": "Đúng hay Sai?",
+        "statementVi": "Từ 'Stadt' phát âm âm 'S' như âm 'X' nhẹ trong tiếng Việt."
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate into German.",
+        "source": "I am convinced that one should collect many cultural experiences.",
+        "target": "Ich bin überzeugt davon, dass man viele kulturelle Erfahrungen sammeln sollte.",
+        "instructionVi": "Dịch câu sau đây sang tiếng Đức.",
+        "sourceVi": "Tôi ủng hộ việc chúng ta đi xem phim."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Arrange the words to form a correct sentence.",
+        "words": [
+          "mich",
+          "begeistere",
+          "alte",
+          "für",
+          "Ich",
+          "Bücher"
+        ],
+        "answer": "Ich begeistere mich für alte Bücher.",
+        "instructionVi": "Sắp xếp từ để tạo thành câu hoàn chỉnh."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence with the correct word.",
+        "sentence": "Er geht jede Woche ins ___.",
+        "answer": "Kino",
+        "hint": "Where you watch movies",
+        "instructionVi": "Đúng hay Sai?",
+        "statementVi": "Thành ngữ 'Theater machen' có nghĩa là xây dựng một nhà hát mới."
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "sentence": "Ich ___ mich für moderne Technologie.",
+        "answer": "interessiere",
+        "hint": "sich interessieren für",
+        "instructionVi": "Điền từ thích hợp.",
+        "hintVi": "Sở thích đặc biệt (Vorliebe)"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die Veranstaltung war gut ___.",
+        "answer": "besucht",
+        "hint": "Well-attended",
+        "hintVi": "Sự kiện hôm nay đông khách (gut besucht)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "How is 'sp' in 'sprechen' pronounced?",
+        "options": [
+          "/sp/ (normal s + p)",
+          "/ʃp/ (sh + p)",
+          "/zp/ (z + p)",
+          "/sp/ but silent s"
+        ],
+        "answer": 1,
+        "instructionVi": "Chọn đáp án đúng.",
+        "questionVi": "Âm 'ch' trong từ 'lachen' được phát âm giống với âm nào trong tiếng Việt?",
+        "optionsVi": [
+          "Âm 'kh'",
+          "Âm 'ch'",
+          "Âm 'h'",
+          "Âm 'x'"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct completion.",
+        "question": "Ich bin ___, dass kulturelle Bildung die Welt besser macht.",
+        "options": [
+          "dafür überzeugt",
+          "davon überzeugt",
+          "dafür begeistert",
+          "davon interessiert"
+        ],
+        "answer": 1,
+        "instructionVi": "Đúng hay Sai?",
+        "statementVi": "Trong câu dùng liên từ 'dass', động từ đã chia luôn đứng ở cuối câu."
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In 'auspacken', the 's' is pronounced as /ʃ/ because 'sp' is at a syllable boundary.",
+        "answer": false,
+        "instructionVi": "Ghép cặp từ.",
+        "pairsVi": [
+          [
+            "die Meinung",
+            "ý kiến / quan điểm"
+          ],
+          [
+            "überzeugen",
+            "thuyết phục"
+          ],
+          [
+            "virtuell",
+            "ảo (thực tế ảo)"
+          ],
+          [
+            "anderswohin",
+            "đi nơi khác"
+          ],
+          [
+            "die Technologie",
+            "công nghệ"
+          ]
+        ]
+      },
+      {
+        "type": "matching",
+        "instruction": "Match each word with the correct pronunciation note.",
+        "pairs": [
+          [
+            "Stadt",
+            "st → /ʃt/"
+          ],
+          [
+            "Kunst",
+            "st → /st/"
+          ],
+          [
+            "sprechen",
+            "sp → /ʃp/"
+          ],
+          [
+            "Wespe",
+            "sp → /sp/"
+          ],
+          [
+            "lachen",
+            "ch → Ach-Laut"
+          ]
+        ],
+        "instructionVi": "Dịch sang tiếng Đức.",
+        "sourceVi": "Bên rạp kịch vở diễn hôm nay rất đắt khách (đông người xem)."
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate into German.",
+        "source": "What are you enthusiastic about?",
+        "target": "Wofür begeisterst du dich?",
+        "instructionVi": "Chọn đáp án đúng.",
+        "questionVi": "Ý nghĩa của câu thành ngữ 'Theater machen' là gì?",
+        "optionsVi": [
+          "Làm mình làm mẩy, làm quá vấn đề lên",
+          "Mua vé đi xem kịch",
+          "Trở thành một diễn viên sân khấu",
+          "Gặp gỡ bạn bè tại rạp kịch"
+        ]
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "überzeugt",
+          "bin",
+          "davon",
+          "Ich",
+          "dass",
+          "sollte",
+          "man",
+          "reisen"
+        ],
+        "answer": "Ich bin davon überzeugt, dass man reisen sollte.",
+        "instructionVi": "Sắp xếp các từ thành câu đúng."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Sandra hat so ein ___ gemacht. Alle haben uns angeguckt.",
+        "answer": "Theater",
+        "hint": "The idiom meaning 'to make a fuss'",
+        "instructionVi": "Điền từ thích hợp.",
+        "hintVi": "Khuyên / Giới thiệu (empfehlen)"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Seine Nase in ein ___ stecken bedeutet: lernen / lesen.",
+        "answer": "Buch",
+        "hint": "Something you read",
+        "instructionVi": "Đúng hay Sai?",
+        "statementVi": "Đại từ phản thân của động từ 'sich begeistern' ở ngôi 'ich' là 'mich'."
+      }
+    ],
+    "titleVi": "Trò chuyện về Văn hóa"
+  },
+  {
+    "id": 16,
+    "title": "The New Secretary",
+    "titleDe": "Die neue Sekretärin",
+    "type": "reading",
+    "icon": "💼",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary — Workplace",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td>das Gehalt</td><td>salary</td><td>Ich bekomme ein gutes Gehalt.</td></tr><tr><td>die Urlaubstage (Pl.)</td><td>vacation days</td><td>Meine Frau hat 30 Urlaubstage im Jahr.</td></tr><tr><td>die Probezeit (nur Sg.)</td><td>probation period</td><td>Zuerst hat Martina sechs Monate Probezeit.</td></tr><tr><td>die Unterlagen (Pl.)</td><td>documents</td><td>Welche Unterlagen muss ich für das Meeting mitbringen?</td></tr><tr><td>entlassen</td><td>to fire / dismiss</td><td>Warum wurdest du entlassen?</td></tr><tr><td>pendeln</td><td>to commute</td><td>Ich muss jeden Tag 1,5 Stunden zur Arbeit pendeln.</td></tr><tr><td>selbstständig</td><td>self-employed</td><td>Tim ist selbstständig, er ist sein eigener Chef.</td></tr><tr><td>die Bewerbung, -en</td><td>application</td><td>35 Personen haben sich um die Stelle beworben.</td></tr><tr><td>das Bewerbungsgespräch, -e</td><td>job interview</td><td>Tim möchte acht Personen zum Bewerbungsgespräch einladen.</td></tr><tr><td>sich bewerben</td><td>to apply (for a job)</td><td>Sie hat sich um die Stelle beworben.</td></tr><tr><td>der/die Angestellte, -n</td><td>employee</td><td>Tim hat vier Angestellte in der Firma.</td></tr><tr><td>der Sekretär / die Sekretärin</td><td>secretary</td><td>Tim braucht einen neuen Sekretär oder eine neue Sekretärin.</td></tr><tr><td>der Bewerber / die Bewerberin</td><td>applicant</td><td>Er muss sich für einen Bewerber entscheiden.</td></tr><tr><td>der Stapel, -</td><td>pile / stack</td><td>Vor ihm liegt ein großer Stapel Papier.</td></tr><tr><td>der Konferenzraum, ⸚e</td><td>conference room</td><td>Die Angestellte führt Martina in den Konferenzraum.</td></tr><tr><td>tippen</td><td>to type</td><td>Die Sekretärin muss schnell tippen können.</td></tr><tr><td>professionell</td><td>professional</td><td>Sie muss sehr professionell sein.</td></tr><tr><td>die Stärke, -n</td><td>strength</td><td>Was sind Ihre Stärken?</td></tr><tr><td>die Schwäche, -n</td><td>weakness</td><td>Was sind Ihre Schwächen?</td></tr></tbody></table>",
+        "sectionTitleVi": "Từ vựng chính — Nơi làm việc",
+        "contentVi": "<table><thead><tr><th>Deutsch</th><th>Tiếng Việt</th><th>Beispiel</th></tr></thead><tbody><tr><td>die Sekretärin, -nen</td><td>thư ký (nữ)</td><td>Die neue Sekretärin fängt heute an. (Cô thư ký mới bắt đầu làm việc từ hôm nay.)</td></tr><tr><td>das Vorstellungsgespräch, -e</td><td>buổi phỏng vấn xin việc</td><td>Ich bin nervös wegen des Vorstellungsgesprächs. (Tôi cảm thấy lo lắng về buổi phỏng vấn xin việc.)</td></tr><tr><td>die Erfahrung, -en</td><td>kinh nghiệm</td><td>Er hat viel Erfahrung im Marketing. (Anh ấy có nhiều kinh nghiệm trong ngành tiếp thị.)</td></tr><tr><td>der Lebenslauf, -e</td><td>sơ yếu lý lịch (CV)</td><td>Bitte senden Sie uns Ihren Lebenslauf. (Xin vui lòng gửi cho chúng tôi CV của bạn.)</td></tr><tr><td>die Eigenschaften (pl.)</td><td>phẩm chất / đặc tính</td><td>Pünktlichkeit ist một phẩm chất quan trọng. (Sự đúng giờ là một phẩm chất quan trọng.)</td></tr><tr><td>zuverlässig</td><td>đáng tin cậy</td><td>Unsere Sekretärin ist sehr zuverlässig. (Thư ký của chúng tôi rất đáng tin cậy.)</td></tr><tr><td>organisiert</td><td>có tổ chức / ngăn nắp</td><td>Sie arbeitet sehr organisiert. (Cô ấy làm việc rất có tổ chức.)</td></tr><tr><td>höflich</td><td>lịch sự / lễ phép</td><td>Das Personal war sehr höflich. (Nhân viên rất lịch sự.)</td></tr><tr><td>pünktlich</td><td>đúng giờ</td><td>Bitte sei pünktlich zum Treffen. (Xin vui lòng đến đúng giờ họp.)</td></tr><tr><td>die Besprechung, -en</td><td>cuộc họp / buổi thảo luận</td><td>Die Besprechung dauert bis 15 Uhr. (Cuộc họp kéo dài đến 3 giờ chiều.)</td></tr><tr><td>verhandeln</td><td>thương lượng / đàm phán</td><td>Wir müssen den Vertrag verhandeln. (Chúng ta phải đàm phán hợp đồng.)</td></tr><tr><td>der Vertrag, ⸚e</td><td>hợp đồng</td><td>Er unterschreibt den Vertrag. (Anh ấy ký hợp đồng.)</td></tr><tr><td>das Gehalt, ⸚er</td><td>tiền lương</td><td>Wir sprechen über das Gehalt. (Chúng ta đang thảo luận về tiền lương.)</td></tr><tr><td>die Arbeitszeit, -en</td><td>thời gian làm việc</td><td>Meine Arbeitszeiten sind flexibel. (Thời gian làm việc của tôi rất linh hoạt.)</td></tr><tr><td>einstellen</td><td>tuyển dụng / nhận vào làm</td><td>Wir stellen eine neue Sekretärin ein. (Chúng tôi đang tuyển dụng một thư ký mới.)</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Reading: Tim's Story — The New Secretary",
+        "type": "grammar",
+        "content": "<p>Read the full story of Tim and Martina:</p><h4>Part 1: Tim's Situation</h4><p>Es ist Montag, 9 Uhr. Alex' Bruder Tim sitzt am Schreibtisch in seinem Büro. Vor ihm liegt ein großer Stapel Papier. Tim ist <strong>Anwalt</strong>. Er ist <strong>selbstständig</strong>, er ist sein eigener Chef. Die Firma gehört ihm. Tims Firma ist in Berlin, aber er wohnt in Potsdam. Also <strong>pendelt</strong> er jeden Tag von Potsdam nach Berlin. Tim hat vier Angestellte in der Firma. Aber das reicht jetzt nicht mehr.</p><h4>Part 2: The Applications</h4><p>Es gibt so viel Arbeit in der Firma. Tim braucht mehr Angestellte. Er braucht einen neuen Sekretär oder eine neue Sekretärin. Der Stapel Papier vor ihm sind <strong>Bewerbungen</strong>. 35 Personen haben sich um die Stelle beworben. Tim muss alle Bewerbungen lesen. Er legt die Bewerbungen auf zwei Stapel: Die Bewerbungen auf dem linken Stapel gefallen ihm. Aber die Bewerbungen auf dem rechten Stapel passen nicht zur Firma. Nur <strong>acht Bewerbungen</strong> liegen auf dem linken Stapel.</p><h4>Part 3: The Interview</h4><p>Das erste Bewerbungsgespräch ist am Mittwoch um 11 Uhr. Die Bewerberin heißt <strong>Martina</strong>. Tims Angestellte führt Martina in den Konferenzraum. Martina setzt sich an den Tisch. Sie ist ein bisschen <strong>nervös</strong>. Tim kommt in den Raum. „Guten Morgen, Frau Zimmermann!\", begrüßt Tim sie.</p><p>Tim fragt Martina viel zu ihren anderen Arbeitsstellen und ihren Aufgaben dort. Die Sekretärin muss schnell <strong>tippen</strong> können, manchmal langweilige Aufgaben erledigen (z. B. Fotokopien machen), und manchmal <strong>Überstunden</strong> machen. Martina ist interessiert an dem Job.</p><h4>Part 4: The Decision</h4><p>Tim entscheidet sich für Martina. Sie passt gut zur Firma. Martina hat zuerst sechs Monate <strong>Probezeit</strong>. Danach wird sie fest angestellt. Sie bekommt <strong>30 Urlaubstage</strong> im Jahr. Und das <strong>Gehalt</strong> ist gut. Martina ist glücklich. Tim ist auch glücklich — endlich bekommt er Unterstützung!</p>",
+        "sectionTitleVi": "Bài đọc: Tim's Story — Cô thư ký mới",
+        "contentVi": "<p>Đọc câu chuyện sau về công việc văn phòng:</p><blockquote>Công ty của Tim đang tìm một thư ký mới vì cô thư ký cũ chuẩn bị nghỉ hưu. Tim tổ chức một vài buổi phỏng vấn xin việc. Có ba ứng viên nộp hồ sơ và gửi CV của họ. Tim muốn tìm một người đáng tin cậy và có tổ chức. Ứng viên đầu tiên đến muộn, Tim không thích điều đó. Ứng viên thứ hai rất lịch sự nhưng lại thiếu kinh nghiệm. Ứng viên thứ ba, cô Lisa, rất đúng giờ và đã có 5 năm kinh nghiệm làm thư ký. Buổi phỏng vấn diễn ra rất tốt đẹp. Tim quyết định tuyển dụng Lisa. Họ đàm phán hợp đồng, mức lương và thời gian làm việc vào ngày hôm sau. Lisa rất vui khi nhận được công việc này.</blockquote>"
+      },
+      {
+        "sectionTitle": "Job Interview Phrases",
+        "type": "grammar",
+        "content": "<h4>Fragen, die der Arbeitgeber stellt:</h4><ul><li><strong>Welche Stärken haben Sie?</strong> — What are your strengths?</li><li><strong>Was sind Ihre Schwächen?</strong> — What are your weaknesses?</li><li><strong>Warum möchten Sie diesen Job machen?</strong> — Why do you want this job?</li></ul><h4>Fragen, die ein Bewerber stellt:</h4><ul><li><strong>Wie viele Monate Probezeit habe ich?</strong> — How many months of probation do I have?</li><li><strong>Wie viele Urlaubstage bekomme ich?</strong> — How many vacation days do I get?</li><li><strong>Welche Aufgaben muss ich erledigen?</strong> — What tasks do I have to complete?</li><li><strong>Wie ist das Gehalt?</strong> — What is the salary?</li></ul>",
+        "sectionTitleVi": "Mẫu câu phỏng vấn xin việc",
+        "contentVi": "<p>Các câu hỏi và câu trả lời hữu ích trong phỏng vấn xin việc:</p><ul><li><strong>Erzählen Sie etwas über sich.</strong> — Hãy giới thiệu đôi chút về bản thân bạn.</li><li><strong>Warum möchten Sie bei uns arbeiten?</strong> — Tại sao bạn muốn làm việc cho chúng tôi?</li><li><strong>Was sind Ihre Stärken und Schwächen?</strong> — Điểm mạnh và điểm yếu của bạn là gì?</li><li><strong>Haben Sie Erfahrung in diesem Bereich?</strong> — Bạn có kinh nghiệm trong lĩnh vực này không?</li><li><strong>Über das Gehalt verhandeln:</strong> — Thương lượng về lương:<br><em>Ich stelle mir ein Gehalt von 3000 Euro vor.</em> (Tôi đề xuất mức lương khoảng 3000 Euro.)</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>bis zum Hals in Arbeit stecken</strong> — to be up to one's neck in work; to have a lot of work.</p><p><em>Bedeutung:</em> sehr viel Arbeit haben.</p><p><em>Beispiel:</em> Tim steckt bis zum Hals in Arbeit. Also braucht er einen Sekretär oder eine Sekretärin, der oder die ihm hilft.</p>",
+        "sectionTitleVi": "Thành ngữ nơi công sở",
+        "contentVi": "<p><strong>jemandem auf den Zahn fühlen</strong> — kiểm tra ai đó kỹ lưỡng; thăm dò ý kiến hoặc dò xét khả năng, năng lực của ai đó.</p><p><em>Ý nghĩa đen:</em> Sờ vào răng của ai đó (giống như nha sĩ kiểm tra răng hoặc thương lái kiểm tra răng ngựa để biết tuổi tác và sức khỏe).</p><p><em>Ý nghĩa bóng:</em> Kiểm tra kỹ càng, nắn gân, sờ gáy để làm rõ năng lực hoặc động cơ của ai đó.</p><p><em>Ví dụ:</em> Im Vorstellungsgespräch hat der Chef dem Bewerber genau auf den Zahn gefühlt. (Trong buổi phỏng vấn xin việc, vị sếp đã kiểm tra ứng viên cực kỳ kỹ lưỡng.)</p>"
+      },
+      {
+        "sectionTitle": "Idiom: jemandem auf den Zahn fühlen",
+        "type": "idiom",
+        "content": "<p><strong>jemandem auf den Zahn fühlen</strong> — to grill someone; to ask probing questions.</p><p><em>Example from the text:</em> Tim fühlt Martina auf den Zahn. → Tim fragt Martina viel zu ihren anderen Arbeitsstellen und ihren Aufgaben dort.</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Fill in the blank with the correct vocabulary word.",
+        "sentence": "Endlich ist meine ___ vorbei. Jetzt bin ich fest angestellt!",
+        "answer": "Probezeit",
+        "hint": "The first months at a new job",
+        "instructionVi": "Điền từ thích hợp vào chỗ trống.",
+        "hintVi": "Sơ yếu lý lịch / CV (Lebenslauf)"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence with the missing word.",
+        "sentence": "Ich muss jeden Tag 1,5 Stunden zur Arbeit ___.",
+        "answer": "pendeln",
+        "hint": "To travel regularly to work",
+        "instructionVi": "Điền từ thích hợp.",
+        "hintVi": "Mức lương (Gehalt)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer based on the reading.",
+        "question": "Welchen Beruf hat Tim?",
+        "options": [
+          "Sekretär",
+          "Anwalt",
+          "Lehrer",
+          "Arzt"
+        ],
+        "answer": 1,
+        "instructionVi": "Chọn định nghĩa chính xác cho phẩm chất.",
+        "questionVi": "Thế nào là một người 'zuverlässig'?",
+        "optionsVi": [
+          "Một người luôn làm việc đúng giờ và có thể tin cậy được",
+          "Một người luôn đến muộn",
+          "Một người làm việc cẩu thả",
+          "Một người không thích giao tiếp"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Select the correct answer.",
+        "question": "Wie viele Personen haben sich um die Stelle beworben?",
+        "options": [
+          "8",
+          "15",
+          "35",
+          "4"
+        ],
+        "answer": 2,
+        "instructionVi": "Chọn câu trả lời đúng nhất.",
+        "questionVi": "Thành ngữ 'jemandem auf den Zahn fühlen' có nghĩa là gì?",
+        "optionsVi": [
+          "Đưa ai đó đến phòng khám nha khoa",
+          "Kiểm tra ai đó kỹ lưỡng về năng lực hoặc động cơ",
+          "Mua một con ngựa mới",
+          "Nói chuyện phiếm với đồng nghiệp"
+        ]
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German workplace vocabulary with the English translations.",
+        "pairs": [
+          [
+            "das Gehalt",
+            "salary"
+          ],
+          [
+            "die Urlaubstage",
+            "vacation days"
+          ],
+          [
+            "entlassen",
+            "to fire"
+          ],
+          [
+            "die Unterlagen",
+            "documents"
+          ],
+          [
+            "die Bewerbung",
+            "application"
+          ]
+        ],
+        "instructionVi": "Ghép cặp từ tiếng Đức với nghĩa tiếng Việt tương ứng.",
+        "pairsVi": [
+          [
+            "die Sekretärin",
+            "thư ký"
+          ],
+          [
+            "das Vorstellungsgespräch",
+            "phỏng vấn xin việc"
+          ],
+          [
+            "die Besprechung",
+            "cuộc họp / thảo luận"
+          ],
+          [
+            "höflich",
+            "lịch sự / lễ phép"
+          ],
+          [
+            "pünktlich",
+            "đúng giờ"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "Read the statement and decide: true or false?",
+        "statement": "Tim hat schon eine Sekretärin, bevor er die Bewerbungen liest.",
+        "answer": false,
+        "instructionVi": "Đọc nhận định sau và quyết định: Đúng hay Sai?",
+        "statementVi": "Trong câu chuyện của Tim, ứng viên đầu tiên đến muộn nhưng vẫn được Tim tuyển dụng."
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false based on the reading?",
+        "statement": "Martina bekommt 30 Urlaubstage im Jahr.",
+        "answer": true,
+        "instructionVi": "Đúng hay Sai?",
+        "statementVi": "Lisa có 5 năm kinh nghiệm làm thư ký và là người đúng giờ."
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate the sentence into German.",
+        "source": "What are your strengths?",
+        "target": "Welche Stärken haben Sie?",
+        "instructionVi": "Dịch câu sau sang tiếng Đức.",
+        "sourceVi": "Tôi muốn đàm phán hợp đồng vào ngày mai."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order to form a sentence.",
+        "words": [
+          "sich",
+          "Tim",
+          "für",
+          "Martina",
+          "entscheidet"
+        ],
+        "answer": "Tim entscheidet sich für Martina.",
+        "instructionVi": "Sắp xếp từ để tạo thành câu đúng."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Meine Frau hat 30 ___ im Jahr. Ich habe nur 28.",
+        "answer": "Urlaubstage",
+        "hint": "Days off from work",
+        "instructionVi": "Đúng hay Sai?",
+        "statementVi": "Từ 'zuverlässig' có nghĩa là 'có tổ chức'."
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "sentence": "Tim ist ___, er ist sein eigener Chef.",
+        "answer": "selbstständig",
+        "hint": "Self-employed",
+        "instructionVi": "Điền từ thích hợp.",
+        "hintVi": "Phỏng vấn xin việc (Vorstellungsgespräch)"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Welche ___ muss ich für das Meeting mitbringen?",
+        "answer": "Unterlagen",
+        "hint": "Documents like a CV or cover letter",
+        "hintVi": "Hợp đồng (Vertrag)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Wo wohnt Tim?",
+        "options": [
+          "In Berlin",
+          "In Potsdam",
+          "In Hamburg",
+          "In München"
+        ],
+        "answer": 1,
+        "instructionVi": "Chọn đáp án đúng.",
+        "questionVi": "Tại sao ứng viên thứ hai không được nhận làm việc?",
+        "optionsVi": [
+          "Vì cô ấy đến muộn",
+          "Vì cô ấy không lịch sự",
+          "Vì cô ấy thiếu kinh nghiệm",
+          "Vì cô ấy đòi lương quá cao"
+        ]
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Select the correct answer.",
+        "question": "Was bedeutet 'bis zum Hals in Arbeit stecken'?",
+        "options": [
+          "Wenig Arbeit haben",
+          "Sehr viel Arbeit haben",
+          "Keine Arbeit finden",
+          "Die Arbeit verlieren"
+        ],
+        "answer": 1,
+        "instructionVi": "Đúng hay Sai?",
+        "statementVi": "Từ 'einstellen' trong tiếng Đức có nghĩa là tuyển dụng một nhân viên mới."
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Die Sekretärin muss nie Überstunden machen.",
+        "answer": false,
+        "instructionVi": "Ghép cặp từ.",
+        "pairsVi": [
+          [
+            "das Gehalt",
+            "tiền lương"
+          ],
+          [
+            "die Arbeitszeit",
+            "thời gian làm việc"
+          ],
+          [
+            "die Erfahrung",
+            "kinh nghiệm"
+          ],
+          [
+            "zuverlässig",
+            "đáng tin cậy"
+          ],
+          [
+            "einstellen",
+            "tuyển dụng"
+          ]
+        ]
+      },
+      {
+        "type": "matching",
+        "instruction": "Match each term with its definition.",
+        "pairs": [
+          [
+            "die Probezeit",
+            "the first six months at a firm"
+          ],
+          [
+            "das Gehalt",
+            "money for your work"
+          ],
+          [
+            "pendeln",
+            "commuting by car or train"
+          ],
+          [
+            "der Stapel",
+            "a pile of papers"
+          ],
+          [
+            "tippen",
+            "to type"
+          ]
+        ],
+        "instructionVi": "Dịch câu sang tiếng Đức.",
+        "sourceVi": "Tôi muốn xin vui lòng giới thiệu bản thân."
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate into German.",
+        "source": "How many vacation days do I get?",
+        "target": "Wie viele Urlaubstage bekomme ich?",
+        "instructionVi": "Chọn đáp án đúng.",
+        "questionVi": "Câu nào sau đây có chứa thành ngữ nghĩa là 'kiểm tra ai đó kỹ lưỡng'?",
+        "optionsVi": [
+          "Er fühlt ihm auf den Zahn.",
+          "Er ist im falschen Film.",
+          "Er macht ein großes Theater.",
+          "Er steckt seine Nase in ein Buch."
+        ]
+      },
+      {
+        "type": "reorder",
+        "instruction": "Arrange the words to form a correct sentence.",
+        "words": [
+          "Bewerbungsgespräch",
+          "zum",
+          "Personen",
+          "acht",
+          "möchte",
+          "Tim",
+          "einladen"
+        ],
+        "answer": "Tim möchte acht Personen zum Bewerbungsgespräch einladen.",
+        "instructionVi": "Sắp xếp các từ."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Tim steckt bis zum ___ in Arbeit.",
+        "answer": "Hals",
+        "hint": "A body part — the idiom means 'very busy'",
+        "instructionVi": "Điền từ thích hợp.",
+        "hintVi": "Thời gian làm việc (Arbeitszeit)"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Martina ist ein bisschen ___ beim Bewerbungsgespräch.",
+        "answer": "nervös",
+        "hint": "Feeling anxious",
+        "instructionVi": "Đúng hay Sai?",
+        "statementVi": "Lisa cảm thấy buồn khi nhận được công việc thư ký."
+      }
+    ],
+    "titleVi": "Thư ký mới"
+  }
+]

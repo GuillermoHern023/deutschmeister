@@ -1,0 +1,600 @@
+[
+  {
+    "id": 1,
+    "title": "Feelings & Emotions",
+    "titleDe": "Gefühle und Emotionen",
+    "type": "vocabulary",
+    "icon": "💔",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>wütend</strong></td><td>angry</td><td>Ich bin wütend auf dich.</td></tr><tr><td><strong>traurig</strong></td><td>sad</td><td>Sie ist traurig, weil sie den Job nicht bekommen hat.</td></tr><tr><td><strong>glücklich</strong></td><td>happy</td><td>Sie sind glücklich, weil sie zusammen sind.</td></tr><tr><td><strong>stolz</strong></td><td>proud</td><td>Er ist stolz auf seine Arbeit.</td></tr><tr><td><strong>nervös</strong></td><td>nervous</td><td>Sie ist nervös, weil sie gleich eine Prüfung hat.</td></tr><tr><td><strong>Angst haben</strong></td><td>to be afraid</td><td>Hab keine Angst. Der Zahnarzt tut dir nicht weh.</td></tr><tr><td><strong>enttäuscht</strong></td><td>disappointed</td><td>Emma ist enttäuscht von Paul.</td></tr><tr><td><strong>zufrieden</strong></td><td>satisfied / content</td><td>Jing ist zufrieden mit ihrem Projekt.</td></tr><tr><td><strong>froh</strong></td><td>glad</td><td>Er ist froh, weil er heute keinen Unterricht hat.</td></tr><tr><td><strong>unglücklich</strong></td><td>unhappy</td><td>Silvia ist unglücklich in ihrer Beziehung.</td></tr><tr><td><strong>lächeln</strong></td><td>to smile</td><td>Er lächelt so schön.</td></tr><tr><td><strong>lachen</strong></td><td>to laugh</td><td>Lachen ist gesund!</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Adjectives with Prepositions (Gefühlsadjektive mit Präpositionen)",
+        "type": "grammar",
+        "content": "<p>In German, many feeling adjectives require a specific preposition. The preposition determines the grammatical case of the following noun or pronoun.</p><h4>Key Combinations:</h4><ul><li><strong>zufrieden mit</strong> + Dativ — satisfied with<br/><em>Simone ist zufrieden mit ihrem Leben.</em></li><li><strong>wütend auf</strong> + Akkusativ — angry at<br/><em>Tim ist wütend auf seine Kolleginnen.</em></li><li><strong>stolz auf</strong> + Akkusativ — proud of<br/><em>Er ist stolz auf seine Arbeit.</em></li><li><strong>froh über</strong> + Akkusativ — glad about<br/><em>Bist du froh über dein Ergebnis?</em></li><li><strong>enttäuscht von</strong> + Dativ — disappointed by<br/><em>Emma ist enttäuscht von Paul. Er hat ihren Geburtstag vergessen.</em></li></ul><h4>Colloquial Expression:</h4><p><strong>Das ist mir egal.</strong> = I don't care.</p><p>Colloquial synonyms: <em>Das ist mir wurst.</em> / <em>Das ist mir wumpe.</em></p>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Jemandem ist eine Laus über die Leber gelaufen.</strong></p><p>Bedeutung: Die Person hat schlechte Laune. (The person is in a bad mood.)</p><p><em>Xavier ist heute eine Laus über die Leber gelaufen. Er redet mit niemandem und guckt wütend.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Ich bin so ___! Ich könnte explodieren!",
+        "answer": "wütend",
+        "hint": "angry"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'enttäuscht' mean?",
+        "options": ["proud", "disappointed", "nervous", "happy"],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German feelings to their English meanings.",
+        "pairs": [["wütend", "angry"], ["traurig", "sad"], ["stolz", "proud"], ["nervös", "nervous"], ["glücklich", "happy"]]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Zufrieden' uses the preposition 'mit' (+ Dativ).",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "She is disappointed by Paul.",
+        "target": "Sie ist enttäuscht von Paul."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["ist", "mit", "ihrem", "Jing", "zufrieden", "Projekt"],
+        "answer": "Jing ist zufrieden mit ihrem Projekt."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct preposition.",
+        "sentence": "Er ist stolz ___ seine Arbeit.",
+        "answer": "auf",
+        "hint": "preposition for 'stolz'"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Which preposition goes with 'froh'?",
+        "options": ["mit", "auf", "über", "von"],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Das ist mir wurst' is a colloquial way of saying 'I don't care'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I am proud of you.",
+        "target": "Ich bin stolz auf dich."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'traurig' mean?",
+        "options": ["angry", "happy", "sad", "proud"],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Simone ist zufrieden ___ ihrem Leben.",
+        "answer": "mit",
+        "hint": "preposition meaning 'with'"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Wütend' uses the preposition 'von'.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence is correct?",
+        "options": ["Er ist enttäuscht auf Paul.", "Er ist enttäuscht mit Paul.", "Er ist enttäuscht von Paul.", "Er ist enttäuscht über Paul."],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Lin hat den Job. Jetzt ist sie ___ und lächelt wieder.",
+        "answer": "glücklich",
+        "hint": "happy"
+      },
+      {
+        "type": "translation",
+        "sentence": "She is nervous because she has an exam soon.",
+        "answer": "Sie ist nervös, weil sie gleich eine Prüfung hat."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Jemandem ist eine Laus über die Leber gelaufen' mean?",
+        "options": ["Someone is very happy", "Someone is in a bad mood", "Someone is in love", "Someone is very tired"],
+        "answer": 1
+      },
+      {
+        "type": "reorder",
+        "words": ["bin", "auf", "Ich", "wütend", "meinen", "Bruder"],
+        "answer": "Ich bin wütend auf meinen Bruder."
+      },
+      {
+        "type": "true_false",
+        "statement": "'Froh' means 'glad' and takes the preposition 'über'.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Hab keine ___. Der Zahnarzt tut dir nicht weh.",
+        "answer": "Angst",
+        "hint": "fear"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Talk about Relationships",
+    "titleDe": "Über Beziehungen sprechen",
+    "type": "speaking",
+    "icon": "💑",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Hochzeit, -en</strong></td><td>wedding</td><td>Auf der Hochzeit gab es viele Gäste.</td></tr><tr><td><strong>die Ehe</strong></td><td>marriage</td><td>Auf die Ehe!</td></tr><tr><td><strong>heiraten</strong></td><td>to marry</td><td>Das Brautpaar heiratet heute.</td></tr><tr><td><strong>die Beziehung</strong></td><td>relationship</td><td>Kleinere Konflikte gehören zu einer Beziehung dazu.</td></tr><tr><td><strong>das Date</strong></td><td>date</td><td>Wie war dein erstes Date?</td></tr><tr><td><strong>die Scheidung</strong></td><td>divorce</td><td>Die Scheidung war sehr schwierig.</td></tr><tr><td><strong>die Trennung</strong></td><td>separation</td><td>Die Trennung war traurig.</td></tr><tr><td><strong>sich scheiden lassen</strong></td><td>to get divorced</td><td>Sie haben sich scheiden lassen.</td></tr><tr><td><strong>das Vertrauen</strong></td><td>trust</td><td>Das Vertrauen ist wichtig in einer Beziehung.</td></tr><tr><td><strong>das Paar</strong></td><td>couple</td><td>Das Paar ist schon lange zusammen.</td></tr><tr><td><strong>die Rose</strong></td><td>rose</td><td>Er hat ihr Rosen geschenkt.</td></tr><tr><td><strong>die Praline</strong></td><td>chocolate / praline</td><td>Er hat mir Pralinen gegeben.</td></tr><tr><td><strong>sich verloben</strong></td><td>to get engaged</td><td>Sie haben sich verlobt.</td></tr><tr><td><strong>sich daten</strong></td><td>to date (someone)</td><td>Sie daten sich seit zwei Monaten.</td></tr><tr><td><strong>jemanden ausführen</strong></td><td>to take someone out</td><td>Er hat mich zum Essen ausgeführt.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Diphthongs (Diphthonge)",
+        "type": "grammar",
+        "content": "<p>A <strong>Diphthong</strong> (Doppellaut) consists of two vowels that are spoken together as one sound.</p><h4>Rules:</h4><ul><li><strong>ei</strong> is pronounced like <em>ai</em> — e.g. <em>das Kleid</em> /klɑɪ̯t/</li><li><strong>eu</strong> and <strong>äu</strong> are pronounced like <em>oi</em> — e.g. <em>heute</em> /ˈhɔɪ̯tə/, <em>die Häuser</em> /ˈhɔɪ̯zɐ/</li></ul><h4>Practice Words:</h4><p><em>freuen, Feier, auch, Haus, Freund, Wein, Leute, beide, Bäume</em></p><h4>Tongue Twister:</h4><p><em>Blaukraut bleibt Blaukraut und Brautkleid bleibt Brautkleid.</em></p><h4>Relationship Everyday Life:</h4><p>Sonja and Franz describe their relationship:</p><ul><li><em>Wir verstehen uns gut und passen gut zusammen, weil wir viele gemeinsame Interessen haben.</em></li><li><em>Wir streiten uns manchmal.</em> — We argue sometimes.</li><li><em>Kleinere Konflikte gehören zu einer Beziehung einfach dazu.</em> — Small conflicts are simply part of a relationship.</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Liebe macht blind.</strong></p><p>Bedeutung: Wenn man verliebt ist, sieht man nicht die schlechten Seiten von einer Person. (When you're in love, you don't see the bad sides of a person.)</p><p><em>–Ich finde Jans neuen Freund echt arrogant.<br/>–Ich auch, aber Jan merkt das nicht.<br/>–Stimmt. Aber du weißt ja: Liebe macht blind.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Wie war dein erstes ___ mit Thomas?",
+        "answer": "Date",
+        "hint": "a planned romantic meeting"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is the German word for 'divorce'?",
+        "options": ["die Trennung", "die Scheidung", "die Hochzeit", "die Ehe"],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the pairs that belong together.",
+        "pairs": [["die Schokolade", "die Praline"], ["die Blume", "die Rose"], ["die Hochzeit", "die Ehe"], ["die Trennung", "die Scheidung"], ["die Verabredung", "das Date"]]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'ei' in German is pronounced like 'ai' (as in 'Kleid').",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Love makes you blind.",
+        "target": "Liebe macht blind."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["uns", "verstehen", "gut", "Wir", "und", "zusammen", "passen", "gut"],
+        "answer": "Wir verstehen uns gut und passen gut zusammen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Er hat mich zum Essen ___.",
+        "answer": "ausgeführt",
+        "hint": "to take someone out (past participle)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "How are 'eu' and 'äu' pronounced in German?",
+        "options": ["like 'ai'", "like 'oi'", "like 'ou'", "like 'ee'"],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "According to the text, Sonja and Franz never argue.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "They got divorced.",
+        "target": "Sie haben sich scheiden lassen."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'das Vertrauen' mean?",
+        "options": ["the wedding", "the trust", "the separation", "the date"],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Das Brautpaar ___ heute.",
+        "answer": "heiratet",
+        "hint": "to marry (3rd person singular)"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Liebe macht blind' means 'Love hurts'.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word means 'to get engaged'?",
+        "options": ["sich daten", "sich verloben", "sich trennen", "sich scheiden lassen"],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Kleinere Konflikte gehören zu einer ___ einfach dazu.",
+        "answer": "Beziehung",
+        "hint": "relationship"
+      },
+      {
+        "type": "reorder",
+        "words": ["sich", "haben", "scheiden", "Sie", "lassen"],
+        "answer": "Sie haben sich scheiden lassen."
+      },
+      {
+        "type": "translation",
+        "sentence": "He gave her roses.",
+        "answer": "Er hat ihr Rosen geschenkt."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is a 'Diphthong'?",
+        "options": ["A single vowel sound", "Two vowels spoken together", "A consonant cluster", "A silent letter"],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "statement": "'Blaukraut bleibt Blaukraut und Brautkleid bleibt Brautkleid' is a tongue twister (Zungenbrecher).",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Seid ihr jetzt ___?",
+        "answer": "zusammen",
+        "hint": "together"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "The First Date",
+    "titleDe": "Das erste Date",
+    "type": "reading",
+    "icon": "🌹",
+    "lectureContent": [
+      {
+        "sectionTitle": "Reading Passage",
+        "type": "reading",
+        "content": "<h4>Das erste Date — Alex und Louise in Berlin</h4><p>Es ist Freitag, 14 Uhr. Alex ist nervös, weil er heute das erste richtige Date mit Louise hat. Er möchte, dass es perfekt wird, weil er Louise beeindrucken möchte.</p><p>Zuerst besichtigen Alex und Louise den Berliner Dom, weil Louise ihn noch nie von innen gesehen hat. Danach kaufen sie im Supermarkt Lebensmittel und Getränke, weil sie ein Picknick im Park machen wollen. Sie kaufen Erdbeeren, Kuchen und sogar Champagner.</p><p>Danach gehen sie in ein Museum auf der Museumsinsel. Alex findet das Museum ein bisschen langweilig, weil er sich nicht für Geschichte interessiert. Louise findet es auch langweilig. „Lass uns lieber spazieren gehen\", schlägt Alex vor.</p><p>Am Abend lädt Alex Louise ins beste und teuerste Restaurant in Berlin ein. „Das ist das leckerste Steak, das ich je gegessen habe!\", sagt Louise.</p><p>Später gehen Alex und Louise in die Oper. Louise ist begeistert von der Oper. Am Ende gibt Louise Alex einen Kuss auf die Wange. „Vielen Dank für das tolle erste Date, Alex!\"</p>"
+      },
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>besichtigen</strong></td><td>to visit / sightsee</td><td>Sie besichtigen den Berliner Dom.</td></tr><tr><td><strong>vorschlagen</strong></td><td>to suggest</td><td>Alex schlägt vor, spazieren zu gehen.</td></tr><tr><td><strong>begeistert</strong></td><td>enthusiastic / thrilled</td><td>Louise ist begeistert von der Oper.</td></tr><tr><td><strong>Händchen halten</strong></td><td>to hold hands</td><td>Am Ende halten Tim und Fiona Händchen.</td></tr><tr><td><strong>die Ausstellung</strong></td><td>exhibition</td><td>Die neue Ausstellung ist sehr interessant.</td></tr><tr><td><strong>die Eintrittskarten</strong></td><td>admission tickets</td><td>Tim hat Eintrittskarten für das Museum gekauft.</td></tr><tr><td><strong>das Publikum</strong></td><td>audience</td><td>Im Publikum sitzen noch nicht viele Leute.</td></tr><tr><td><strong>großartig</strong></td><td>great / magnificent</td><td>Das ist eine großartige Idee!</td></tr><tr><td><strong>der Kuss, -̈e</strong></td><td>kiss</td><td>Louise gibt Alex einen Kuss auf die Wange.</td></tr><tr><td><strong>gelungen</strong></td><td>successful</td><td>Es war ein gelungenes Date.</td></tr><tr><td><strong>langweilig</strong></td><td>boring</td><td>Ich finde das Museum langweilig.</td></tr><tr><td><strong>Zum Glück!</strong></td><td>Luckily!</td><td>Zum Glück! Das ist das langweiligste Museum!</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Superlative & 'weil' Clauses",
+        "type": "grammar",
+        "content": "<p>The reading uses <strong>superlative forms</strong> and <strong>'weil' clauses</strong> extensively.</p><h4>Superlative (der/die/das + Adjektiv + -ste):</h4><ul><li><em>Das ist das <strong>leckerste</strong> Steak, das ich je gegessen habe!</em></li><li><em>Das ist das <strong>langweiligste</strong> Museum!</em></li><li><em>Das ist die <strong>spannendste</strong> und <strong>schönste</strong> Oper!</em></li></ul><h4>'weil' Clauses (verb goes to the end):</h4><ul><li><em>Alex ist nervös, <strong>weil</strong> er heute das erste Date mit Louise <strong>hat</strong>.</em></li><li><em>Alex findet das Museum langweilig, <strong>weil</strong> er sich nicht für Geschichte <strong>interessiert</strong>.</em></li><li><em>Louise ist begeistert, <strong>weil</strong> sie die Musik sehr <strong>mag</strong>.</em></li></ul><h4>Useful Phrases for Opinions:</h4><ul><li><em>Ich muss ehrlich sagen, dass …</em> — I must honestly say that …</li><li><em>Vielen Dank, dass du mir … gezeigt hast!</em> — Thank you so much for showing me …!</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Auf Wolke sieben schweben</strong></p><p>Bedeutung: sehr glücklich und / oder verliebt sein. (To be very happy and/or in love — to be on cloud nine.)</p><p><em>Nach dem Date mit Louise schwebt Alex auf Wolke sieben.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word from the story.",
+        "sentence": "Zuerst ___ Alex und Louise den Berliner Dom.",
+        "answer": "besichtigen",
+        "hint": "to visit / sightsee"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer based on the reading.",
+        "question": "Why is Alex nervous?",
+        "options": ["He has a job interview.", "He has his first date with Louise.", "He lost his wallet.", "He is late for work."],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [["besichtigen", "to visit"], ["vorschlagen", "to suggest"], ["begeistert", "thrilled"], ["langweilig", "boring"], ["großartig", "great"]]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false based on the reading?",
+        "statement": "Alex finds the museum very exciting.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "That is the tastiest steak I have ever eaten!",
+        "target": "Das ist das leckerste Steak, das ich je gegessen habe!"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["uns", "spazieren", "lieber", "gehen", "Lass"],
+        "answer": "Lass uns lieber spazieren gehen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Louise ist ___ von der Oper, weil sie die Musik sehr mag.",
+        "answer": "begeistert",
+        "hint": "thrilled / enthusiastic"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'auf Wolke sieben schweben' mean?",
+        "options": ["to be angry", "to be very happy and in love", "to be tired", "to be confused"],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false based on the reading?",
+        "statement": "Louise gives Alex a kiss on the cheek at the end of the date.",
+        "answer": true
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["nervös", "ist", "Alex", "er", "weil", "Date", "hat", "ein"],
+        "answer": "Alex ist nervös, weil er ein Date hat."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Where do Alex and Louise go first on their date?",
+        "options": ["To a restaurant", "To the opera", "To the Berliner Dom", "To a museum"],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Alex ___ vor, spazieren zu gehen.",
+        "answer": "schlägt",
+        "hint": "suggests (3rd person singular of 'vorschlagen')"
+      },
+      {
+        "type": "true_false",
+        "statement": "Louise thinks the museum is interesting and exciting.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do Alex and Louise buy at the supermarket?",
+        "options": ["Bread and butter", "Erdbeeren, Kuchen und Champagner", "Wine and cheese", "Pizza and salad"],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Das ist das ___ Steak, das ich je gegessen habe!",
+        "answer": "leckerste",
+        "hint": "tastiest (superlative)"
+      },
+      {
+        "type": "translation",
+        "sentence": "That is a great idea!",
+        "answer": "Das ist eine großartige Idee!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'knutschen' mean?",
+        "options": ["to argue", "to kiss", "to dance", "to sing"],
+        "answer": 1
+      },
+      {
+        "type": "reorder",
+        "words": ["einen", "Louise", "Alex", "gibt", "Kuss", "die", "auf", "Wange"],
+        "answer": "Louise gibt Alex einen Kuss auf die Wange."
+      },
+      {
+        "type": "true_false",
+        "statement": "Alex hopes there will be a second date.",
+        "answer": true
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Tim hat extra ___ für eine interessante neue Ausstellung gekauft.",
+        "answer": "Eintrittskarten",
+        "hint": "admission tickets"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "The Wedding",
+    "titleDe": "Die Hochzeit",
+    "type": "reading",
+    "icon": "💒",
+    "lectureContent": [
+      {
+        "sectionTitle": "Reading Passage",
+        "type": "reading",
+        "content": "<h4>Die Hochzeit — Alex auf Petra und Jens' Hochzeit</h4><p>Es ist Sonntag 11 Uhr. Alex ist noch müde und möchte nicht aufstehen. Aber er lächelt und ist zufrieden. Er hatte gestern einen schönen Tag. Gestern war Alex auf der Hochzeit von Petra und Jens.</p><p>Alex kam um Viertel vor drei an der Kirche an. Aber viele andere Gäste waren schon vor ihm angekommen. Die Kirche war schon fast voll. Zum Glück hatte Louise einen Platz für ihn reserviert.</p><p>Neben Alex und Louise saßen Gwyneth und ihr Freund Max. Sie hatten sich vor sieben Jahren kennengelernt. Auch Tina war in der Kirche, aber allein. Tina und Paul haben sich getrennt.</p><p>Nachdem der Pfarrer viel über Partnerschaft, Liebe und Ehe gesprochen hatte, schaute Alex zu Louise. „Warum weinst du denn, Louise?\" — „Vor Freude! Ich freue mich so für Petra und Jens.\"</p><p>Nach der Kirche fand eine Feier in einem schönen Hotel statt. „Auf das Brautpaar!\", rief Alex. „Auf die Ehe!\", antwortete Jens. „Und auf die Freundschaft!\", fügte Louise hinzu.</p><p>Alex und Louise tanzten lange und lachten viel. „Es ist schon 5 Uhr morgens!\", rief Louise. Dann fuhren die Freunde glücklich und zufrieden nach Hause.</p>"
+      },
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>das Brautpaar, -e</strong></td><td>bridal couple</td><td>Das Brautpaar war überglücklich.</td></tr><tr><td><strong>der Anzug, -̈e</strong></td><td>suit</td><td>Der Anzug steht dem Bräutigam.</td></tr><tr><td><strong>der Pfarrer, -</strong></td><td>pastor / priest</td><td>Der Pfarrer hatte über Liebe und Ehe geredet.</td></tr><tr><td><strong>die Tanzfläche, -n</strong></td><td>dance floor</td><td>Viele Gäste waren auf der Tanzfläche.</td></tr><tr><td><strong>der Gast, -̈e</strong></td><td>guest</td><td>Viele Gäste haben die Hochzeit besucht.</td></tr><tr><td><strong>die Feier, -n</strong></td><td>celebration / party</td><td>Die Feier fand in einem schönen Hotel statt.</td></tr><tr><td><strong>einen Platz reservieren</strong></td><td>to reserve a seat</td><td>Louise hatte einen Platz für Alex reserviert.</td></tr><tr><td><strong>zusammen sein</strong></td><td>to be together</td><td>Sie sind seit sieben Jahren zusammen.</td></tr><tr><td><strong>sich trennen</strong></td><td>to break up</td><td>Tina und Paul haben sich getrennt.</td></tr><tr><td><strong>überglücklich</strong></td><td>overjoyed</td><td>Das Brautpaar war überglücklich.</td></tr><tr><td><strong>nervös</strong></td><td>nervous</td><td>Alex war nervös, als er Louise zum Tanzen fragte.</td></tr><tr><td><strong>zufrieden sein</strong></td><td>to be content</td><td>Er lächelt und ist zufrieden.</td></tr><tr><td><strong>eine Träne verdrücken müssen</strong></td><td>to have to hold back a tear</td><td>Dann musste auch er eine Träne verdrücken.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: 'Nachdem' Clauses (Past Perfect + Simple Past)",
+        "type": "grammar",
+        "content": "<p><strong>Nachdem</strong> (after) is used to connect two events in sequence. The <em>nachdem</em> clause uses the <strong>Plusquamperfekt</strong> (past perfect) and the main clause uses the <strong>Präteritum</strong> or <strong>Perfekt</strong>.</p><h4>Structure:</h4><p><em>Nachdem + Subject + … + Partizip II + hatte/war, Hauptsatz (Präteritum/Perfekt)</em></p><h4>Examples from the text:</h4><ul><li><em><strong>Nachdem</strong> der Pfarrer viel über Liebe und Ehe <strong>gesprochen hatte</strong>, <strong>schaute</strong> Alex zu Louise.</em></li><li><em><strong>Nachdem</strong> alle Gäste einen Sekt zur Begrüßung <strong>getrunken hatten</strong>, <strong>aßen</strong> sie zu Abend.</em></li><li><em><strong>Nachdem</strong> Alex am Samstagmorgen die Einladung <strong>gelesen hatte</strong>, <strong>zog</strong> er seinen Anzug an.</em></li></ul><h4>Useful Phrases for Narrating Sequences:</h4><ul><li><em>zuerst</em> — first</li><li><em>dann</em> — then</li><li><em>nachdem</em> — after</li><li><em>später</em> — later</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Auf zwei Hochzeiten tanzen</strong></p><p>Bedeutung: zwei Aufgaben gleichzeitig machen, die man eigentlich nicht parallel machen kann. (To try to do two things at once that can't really be done at the same time.)</p><p><em>Entscheide dich: Möchtest du die Dekoration oder das Essen machen? Du kannst nicht auf zwei Hochzeiten tanzen.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word from the story.",
+        "sentence": "Das Brautpaar heiratet heute und ist ___.",
+        "answer": "nervös",
+        "hint": "nervous"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer based on the reading.",
+        "question": "Whose wedding did Alex attend?",
+        "options": ["Louise and Max", "Tina and Paul", "Petra and Jens", "Gwyneth and Max"],
+        "answer": 2
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [["das Brautpaar", "bridal couple"], ["der Anzug", "suit"], ["der Pfarrer", "pastor"], ["die Tanzfläche", "dance floor"], ["die Feier", "celebration"]]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false based on the reading?",
+        "statement": "Tina came to the wedding with her boyfriend Paul.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "To the bridal couple!",
+        "target": "Auf das Brautpaar!"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["hatte", "einen", "für", "Platz", "Louise", "reserviert", "ihn"],
+        "answer": "Louise hatte einen Platz für ihn reserviert."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Die Gäste waren mit dem Essen sehr ___.",
+        "answer": "zufrieden",
+        "hint": "satisfied / content"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Why did Louise cry at the church?",
+        "options": ["She was sad.", "She was angry.", "She cried tears of joy.", "She was scared."],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Auf zwei Hochzeiten tanzen' means to attend two weddings on the same day.",
+        "answer": false
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["und", "Paul", "sich", "Tina", "getrennt", "haben"],
+        "answer": "Tina und Paul haben sich getrennt."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What time is it when the story begins on Sunday?",
+        "options": ["9 Uhr", "10 Uhr", "11 Uhr", "12 Uhr"],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Der ___ steht dem Bräutigam.",
+        "answer": "Anzug",
+        "hint": "suit"
+      },
+      {
+        "type": "true_false",
+        "statement": "Alex was one of the first guests to arrive at the church.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How long have Gwyneth and Max been together?",
+        "options": ["3 years", "5 years", "7 years", "10 years"],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Nachdem der Pfarrer viel über Liebe und Ehe gesprochen ___, schaute Alex zu Louise.",
+        "answer": "hatte",
+        "hint": "auxiliary for Plusquamperfekt"
+      },
+      {
+        "type": "translation",
+        "sentence": "And to the friendship!",
+        "answer": "Und auf die Freundschaft!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'eine Träne verdrücken müssen' mean?",
+        "options": ["to laugh out loud", "to have to hold back a tear", "to cry loudly", "to feel angry"],
+        "answer": 1
+      },
+      {
+        "type": "reorder",
+        "words": ["Freunde", "nach", "zufrieden", "die", "fuhren", "Hause", "glücklich", "und"],
+        "answer": "Die Freunde fuhren glücklich und zufrieden nach Hause."
+      },
+      {
+        "type": "true_false",
+        "statement": "The celebration after the church took place in a restaurant.",
+        "answer": false
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Tina und Paul haben sich ___.",
+        "answer": "getrennt",
+        "hint": "broken up (past participle)"
+      }
+    ]
+  }
+]

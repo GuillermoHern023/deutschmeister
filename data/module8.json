@@ -1,0 +1,835 @@
+[
+  {
+    "id": 29,
+    "title": "Technology",
+    "titleDe": "Technologie",
+    "type": "vocabulary",
+    "icon": "💻",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>erfinden</strong></td><td>to invent</td><td>Jemand müsste mal eine Pfanne erfinden, die sich selbst putzt.</td></tr><tr><td><strong>die Erfindung, -en</strong></td><td>invention</td><td>Das Internet ist die wichtigste Erfindung des 20. Jahrhunderts.</td></tr><tr><td><strong>die Glühbirne, -n</strong></td><td>light bulb</td><td>Thomas Edison hat die Glühbirne verbessert und modernisiert.</td></tr><tr><td><strong>der Strom</strong></td><td>electricity</td><td>Ohne die Zufuhr von Strom gäbe es kein Licht.</td></tr><tr><td><strong>die Stromleitung, -en</strong></td><td>power line</td><td>Durch die Stromleitung fließt der Strom.</td></tr><tr><td><strong>der Motor, -en</strong></td><td>engine / motor</td><td>Carl Benz baut seinen Motor im Jahr 1886.</td></tr><tr><td><strong>der Anschluss, ⸚e</strong></td><td>connection</td><td>Früher brauchte man für einen Anschluss ans Internet immer ein Kabel.</td></tr><tr><td><strong>das Kabel, -</strong></td><td>cable</td><td>Ich brauche ein Kabel für meinen Drucker.</td></tr><tr><td><strong>die Energie, -n</strong></td><td>energy</td><td>In den letzten Jahren wird viel Energie produziert.</td></tr><tr><td><strong>innovativ</strong></td><td>innovative</td><td>Man muss sehr innovativ sein, wenn man mit neuen Smartphones erfolgreich sein will.</td></tr><tr><td><strong>künstlich</strong></td><td>artificial</td><td>Sie lässt sich künstlich die Wimpern verlängern.</td></tr><tr><td><strong>die WLAN-Verbindung, -en</strong></td><td>Wi-Fi connection</td><td>Wir haben eine gute WLAN-Verbindung zu Hause.</td></tr><tr><td><strong>das drahtlose Netzwerk, -e</strong></td><td>wireless network</td><td>WLAN bedeutet drahtloses Netzwerk.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Reading: Der Fortschritt der Technik",
+        "type": "reading",
+        "content": "<p>Vor mehr als 100 Jahren waren die Glühbirne oder das Telefon noch ein Luxus. 1862 wird der Ottomotor von Nikolaus Otto erfunden. 1876 findet das erste Telefongespräch statt. 1989 entwickelt man die Basis des World Wide Webs, danach haben immer mehr Leute Zugang zum Internet. 2001 werden die ersten internetfähigen Mobiltelefone verkauft.</p><p>Die Technik wird immer moderner und innovativer, sie erleichtert unser Leben. Heute kann sich niemand mehr vorstellen, in einem Hotel ohne WLAN-Verbindung zu übernachten und in einem Büro ohne drahtlose Netzwerke zu arbeiten.</p>"
+      },
+      {
+        "sectionTitle": "Redewendungen (Idioms)",
+        "type": "idiom",
+        "content": "<p><strong>das Rad neu erfinden</strong> — to reinvent the wheel<br/><em>Du musst doch das Rad nicht neu erfinden! Mach einfach eine Excel-Tabelle und gut ist.</em></p><p><strong>unter Strom stehen</strong> — sehr aktiv / nervös sein (to be under tension / very nervous)<br/><em>– Was ist los? Du stehst heute schon den ganzen Tag unter Strom.<br/>– Ich habe nachher noch ein Date und ich bin so aufgeregt!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence from the text.",
+        "sentence": "Technologie ___ immer.",
+        "answer": "begeistert",
+        "hint": "enthuses / excites"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'die Erfindung' mean?",
+        "options": [
+          "invention",
+          "power line",
+          "engine",
+          "connection"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [
+          [
+            "erfinden",
+            "to invent"
+          ],
+          [
+            "die Glühbirne",
+            "light bulb"
+          ],
+          [
+            "der Strom",
+            "electricity"
+          ],
+          [
+            "das Kabel",
+            "cable"
+          ],
+          [
+            "innovativ",
+            "innovative"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Das Rad neu erfinden' means you should build a physical wheel.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Through the power line flows the electricity.",
+        "target": "Durch die Stromleitung fließt der Strom."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "wichtig",
+          "Technik",
+          "sind",
+          "Veränderungen",
+          "für",
+          "die"
+        ],
+        "answer": "Veränderungen sind wichtig für die Technik."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Ich brauche ein ___ für meinen Drucker.",
+        "answer": "Kabel",
+        "hint": "cable"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct translation.",
+        "question": "Which word means 'artificial'?",
+        "options": [
+          "künstlich",
+          "innovativ",
+          "begeistert",
+          "zukünftig"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Unter Strom stehen' means to be very active or nervous.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "In the future, everything will be automated.",
+        "target": "Zukünftig wird alles automatisiert sein."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is 'der Anschluss'?",
+        "options": [
+          "connection",
+          "cable",
+          "energy",
+          "motor"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Mein Auto hat Probleme mit dem ___.",
+        "answer": "Motor",
+        "hint": "engine"
+      },
+      {
+        "type": "true_false",
+        "statement": "In 1876, the first phone call (Telefongespräch) took place.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is correct for 'to assemble something'?",
+        "options": [
+          "zusammenbauen",
+          "erfinden",
+          "tippen",
+          "klingeln"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Zukünftig wird alles ___ sein.",
+        "answer": "automatisiert",
+        "hint": "automated"
+      },
+      {
+        "type": "translation",
+        "sentence": "The internet is the most important invention of the 20th century.",
+        "answer": "Das Internet ist die wichtigste Erfindung des 20. Jahrhunderts."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "wir",
+          "zu",
+          "Hause",
+          "eine",
+          "WLAN-Verbindung",
+          "gute",
+          "haben"
+        ],
+        "answer": "Wir haben eine gute WLAN-Verbindung zu Hause."
+      },
+      {
+        "type": "true_false",
+        "statement": "Carl Benz built his motor in 1886.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the meaning of 'zukünftig'?",
+        "options": [
+          "in the future",
+          "shortly",
+          "enthusiastic",
+          "innovative"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Sie lässt sich ___ die Wimpern verlängern.",
+        "answer": "künstlich",
+        "hint": "artificially"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "A Conversation about Technology",
+    "titleDe": "Ein Gespräch über Technologie",
+    "type": "speaking",
+    "icon": "📱",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Medienkonsum</strong></td><td>media consumption</td><td>Berichte den anderen im Kurs über deinen Medienkonsum.</td></tr><tr><td><strong>daddeln</strong></td><td>to fiddle/play on the phone (colloq.)</td><td>Nein, ich mag es nicht, wenn die Kinder immer so viel am Handy daddeln.</td></tr><tr><td><strong>politischer Aktivismus</strong></td><td>political activism</td><td>Politischer Aktivismus ist ein wichtiges Thema in sozialen Medien.</td></tr><tr><td><strong>psychische Gesundheit</strong></td><td>mental health</td><td>Soziale Medien können Einfluss auf die psychische Gesundheit haben.</td></tr><tr><td><strong>bahnbrechend</strong></td><td>groundbreaking</td><td>Die Erfindung des Rades war bahnbrechend.</td></tr><tr><td><strong>die Ergänzung, -en</strong></td><td>supplement / addition</td><td>Das Handy ist eine gute Ergänzung.</td></tr><tr><td><strong>kommentieren</strong></td><td>to comment</td><td>Wie oft kommentierst du Beiträge auf Social Media?</td></tr><tr><td><strong>der Zeitungsartikel, -</strong></td><td>newspaper article</td><td>Wie oft liest du Zeitungsartikel (gedruckt oder digital)?</td></tr><tr><td><strong>spenden</strong></td><td>to donate</td><td>Die Leute werden Geld spenden, um zu helfen.</td></tr><tr><td><strong>die globale Erwärmung</strong></td><td>global warming</td><td>Wir lesen oft über die globale Erwärmung.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Pronunciation Rules: The Letter 'R' & Umlaute",
+        "type": "grammar",
+        "content": "<p>In this lesson, we practice speaking and focus on pronunciation rules for the letter <strong>R</strong> and Umlaute.</p><h4>Pronunciation of R:</h4><ul><li><strong>Konsonantisches R</strong>: Pronounced as a consonant at the beginning of a word, after consonants, and in double 'rr' (e.g., <em>Herren</em>, <em>Frage</em>, <em>Ruhe</em>, <em>krank</em>, <em>knurren</em>, <em>Reise</em>, <em>beherrschen</em>, <em>drucken</em>, <em>tragen</em>).</li><li><strong>Vokalisches R</strong>: Pronounced like a short, unstressed 'a' after a vowel (e.g., <em>Computer</em>, <em>lieber</em>, <em>lernen</em>, <em>Peter</em>, <em>wir</em>, <em>Stern</em>, <em>modern</em>).</li></ul><h4>Pronunciation of Umlaute (ä, ö, ü):</h4><ul><li><strong>Long Umlaut</strong>: When followed by a single consonant or a silent 'h' (e.g., <em>Schüler</em>, <em>Glühbirne</em>, <em>Träne</em>, <em>Grüße</em>, <em>Übung</em>, <em>Kanäle</em>, <em>Städte</em>, <em>böse</em>).</li><li><strong>Short Umlaut</strong>: When followed by a double consonant (e.g., <em>öffnen</em>, <em>veröffentlichen</em>, <em>Küsse</em>, <em>Eröffnung</em>, <em>Pässe</em>).</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>ein Vöglein hat mir gezwitschert</strong> — a little bird told me (used when you know a secret but don't want to say from whom)<br/><em>Ein Vöglein hat mir gezwitschert, dass du heute Geburtstag hast.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence from the text.",
+        "sentence": "Nein, ich mag es nicht, wenn die Kinder immer so viel am Handy ___.",
+        "answer": "daddeln",
+        "hint": "play/fiddle (colloquial)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'der Medienkonsum' mean?",
+        "options": [
+          "media consumption",
+          "newspaper article",
+          "groundbreaking",
+          "mental health"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [
+          [
+            "daddeln",
+            "to fiddle on the phone"
+          ],
+          [
+            "bahnbrechend",
+            "groundbreaking"
+          ],
+          [
+            "die Ergänzung",
+            "supplement"
+          ],
+          [
+            "der Beitrag",
+            "post / contribution"
+          ],
+          [
+            "hören",
+            "to hear"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'vokalisches r' is pronounced like a short 'a' after a vowel, like in the word 'Computer'.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "A little bird told me that you have your birthday today.",
+        "target": "Ein Vöglein hat mir gezwitschert, dass du heute Geburtstag hast."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Netzwerke",
+          "die",
+          "besser",
+          "wird",
+          "Durch",
+          "soziale",
+          "Welt"
+        ],
+        "answer": "Durch soziale Netzwerke wird die Welt besser."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Wie oft kommentierst du ___ auf Social Media?",
+        "answer": "Beiträge",
+        "hint": "posts"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct option.",
+        "question": "How is the Umlaut pronounced in 'Küsse'?",
+        "options": [
+          "long, because of double 'ss'",
+          "short, because of double 'ss'",
+          "not pronounced",
+          "like a normal 'u'"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The 'r' in 'Frage' is a vokalisches r.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Social networks make us broken!",
+        "target": "Soziale Netzwerke machen uns kaputt!"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'bahnbrechend' mean?",
+        "options": [
+          "groundbreaking",
+          "useless",
+          "expensive",
+          "broken"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Social Media kann die ___ Gesundheit von Jugendlichen belasten.",
+        "answer": "psychische",
+        "hint": "mental"
+      },
+      {
+        "type": "true_false",
+        "statement": "Umlaute are pronounced short when the following consonant is doubled.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word has a 'vokalisches r'?",
+        "options": [
+          "lernen",
+          "Reise",
+          "tragen",
+          "Frage"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ein Vöglein hat mir ___, dass du heute Geburtstag hast.",
+        "answer": "gezwitschert",
+        "hint": "whispered/chirped"
+      },
+      {
+        "type": "translation",
+        "sentence": "How old were you when you got your first mobile phone?",
+        "answer": "Wie alt warst du, als du dein erstes Handy bekommen hast?"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "oft",
+          "fern",
+          "du",
+          "Wie",
+          "siehst"
+        ],
+        "answer": "Wie oft siehst du fern?"
+      },
+      {
+        "type": "true_false",
+        "statement": "The 'r' in 'Herren' is a vokalisches r.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 'die Ergänzung'?",
+        "options": [
+          "the addition/supplement",
+          "the device",
+          "the network",
+          "the communication"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Liest du ___ gedruckt oder digital?",
+        "answer": "Zeitungsartikel",
+        "hint": "newspaper articles"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Social Networks",
+    "titleDe": "Soziale Netzwerke",
+    "type": "vocabulary",
+    "icon": "🌐",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Karrierekiller, -</strong></td><td>career killer</td><td>Soziale Netzwerke können zum Karrierekiller werden.</td></tr><tr><td><strong>die Konferenz, -en</strong></td><td>conference</td><td>Ihr organisiert eine Konferenz zu sozialen Netzwerken.</td></tr><tr><td><strong>die Werbung</strong></td><td>advertising</td><td>Kleine Unternehmen machen Werbung in sozialen Medien.</td></tr><tr><td><strong>der/die Nutzer:in, -nen</strong></td><td>user</td><td>In Deutschland gibt es viele YouTube-Nutzer:innen.</td></tr><tr><td><strong>hochladen</strong></td><td>to upload</td><td>Problematische Fotos werden manchmal ins Netz hochgeladen.</td></tr><tr><td><strong>herunterladen</strong></td><td>to download</td><td>Mehr als drei Milliarden Menschen haben die App TikTok heruntergeladen.</td></tr><tr><td><strong>veröffentlichen</strong></td><td>to publish</td><td>Journalisten können ihre Recherchen sofort veröffentlichen.</td></tr><tr><td><strong>teilen</strong></td><td>to share</td><td>Falsche Informationen werden oft veröffentlicht und geteilt.</td></tr><tr><td><strong>profitieren von</strong></td><td>to benefit / profit from</td><td>Kleine Unternehmen profitieren von den Algorithmen.</td></tr><tr><td><strong>verzichten auf</strong></td><td>to do without</td><td>Ich kann nicht mehr auf mein Handy verzichten.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Verbs with Prepositions & Prefix Verbs",
+        "type": "grammar",
+        "content": "<p>In this lesson, we study verbs with prepositions and separable prefixes that are common in technology and social media:</p><h4>Verbs with Prepositions:</h4><ul><li><strong>verzichten auf + Akkusativ</strong> (to do without / give up)<br/><em>Viele Berufe können nicht mehr auf soziale Netzwerke verzichten.</em></li><li><strong>profitieren von + Dativ</strong> (to benefit / profit from)<br/><em>Kleine Unternehmen profitieren von den Algorithmen.</em></li></ul><h4>Separable Prefix Verbs:</h4><ul><li><strong>hochladen</strong> (to upload) — <em>Viele Nutzer laden Videos im Internet hoch.</em></li><li><strong>herunterladen</strong> (to download) — <em>Ich habe mir die neue App heruntergeladen.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>nicht mehr wegzudenken sein</strong> — to be indispensable / impossible to imagine without<br/><em>Mein Handy ist aus meinem Leben nicht mehr wegzudenken.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence from the text.",
+        "sentence": "Soziale Netzwerke können zum ___ werden.",
+        "answer": "Karrierekiller",
+        "hint": "career killer"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'herunterladen' mean?",
+        "options": [
+          "to download",
+          "to upload",
+          "to publish",
+          "to share"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [
+          [
+            "hochladen",
+            "to upload"
+          ],
+          [
+            "teilen",
+            "to share"
+          ],
+          [
+            "veröffentlichen",
+            "to publish"
+          ],
+          [
+            "profitieren",
+            "to benefit"
+          ],
+          [
+            "die Werbung",
+            "advertising"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'verzichten auf' takes the Dativ case.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "My mobile phone is indispensable from my life.",
+        "target": "Mein Handy ist aus meinem Leben nicht mehr wegzudenken."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "nicht",
+          "auf",
+          "Wir",
+          "verzichten",
+          "können",
+          "Internet",
+          "das"
+        ],
+        "answer": "Wir können nicht auf das Internet verzichten."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Kleine Unternehmen profitieren ___ den Algorithmen.",
+        "answer": "von",
+        "hint": "preposition meaning 'from' (takes Dativ)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Which verb means 'to invite'?",
+        "options": [
+          "einladen",
+          "organisieren",
+          "thematisieren",
+          "veröffentlichen"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "More than 70% of all brands have an Instagram account.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Journalists publish their research immediately.",
+        "target": "Journalisten veröffentlichen ihre Recherchen sofort."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does the idiom 'nicht mehr wegzudenken sein' mean?",
+        "options": [
+          "To be indispensable",
+          "To be forgotten",
+          "To be broken",
+          "To be cheap"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Er hat sich die App TikTok ___.",
+        "answer": "heruntergeladen",
+        "hint": "downloaded"
+      },
+      {
+        "type": "true_false",
+        "statement": "Elon Musk bought Twitter for 44 billion US dollars.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which preposition goes with 'verzichten'?",
+        "options": [
+          "auf",
+          "von",
+          "mit",
+          "über"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Problematische Fotos werden oft ins Netz ___.",
+        "answer": "hochgeladen",
+        "hint": "uploaded"
+      },
+      {
+        "type": "translation",
+        "sentence": "Many people have found their job through social networks.",
+        "answer": "Viele Menschen haben durch die sozialen Netzwerke ihren Beruf gefunden."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "organisiert",
+          "eine",
+          "Sie",
+          "Konferenz",
+          "haben"
+        ],
+        "answer": "Sie haben eine Konferenz organisiert."
+      },
+      {
+        "type": "true_false",
+        "statement": "The word 'der Nutzer' means 'the device'.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the German word for 'to share'?",
+        "options": [
+          "teilen",
+          "posten",
+          "profitieren",
+          "einladen"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Auf Instagram kann man Fotos ___.",
+        "answer": "hochladen",
+        "hint": "upload"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Media",
+    "titleDe": "Medien",
+    "type": "reading",
+    "icon": "📰",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Fernsehsender, -</strong></td><td>TV station / channel</td><td>Es gibt öffentliche und private Fernsehsender.</td></tr><tr><td><strong>die Sendung, -en</strong></td><td>broadcast / show</td><td>Die Tagesschau ist eine bekannte Sendung.</td></tr><tr><td><strong>einschalten</strong></td><td>to turn / switch on</td><td>Ich schalte sofort den Fernseher ein.</td></tr><tr><td><strong>ausschalten</strong></td><td>to turn / switch off</td><td>Wenn mich jemand anruft, muss ich das Radio ausschalten.</td></tr><tr><td><strong>die Abendnachrichten</strong></td><td>evening news</td><td>Um 20 Uhr kommen in Deutschland die Abendnachrichten.</td></tr><tr><td><strong>verfolgen</strong></td><td>to follow / track</td><td>Es fällt mir oft schwer, die Nachrichten zu verfolgen.</td></tr><tr><td><strong>der Krimi, -s</strong></td><td>crime thriller</td><td>Heute Abend werde ich mir nur noch einen Krimi reinziehen.</td></tr><tr><td><strong>die Komödie, -n</strong></td><td>comedy</td><td>Komödien gehören zu den beliebtesten Genres.</td></tr><tr><td><strong>die Unterhaltung</strong></td><td>entertainment</td><td>Dieser Film ist großartige Unterhaltung.</td></tr><tr><td><strong>der Dokumentarfilm, -e</strong></td><td>documentary film</td><td>Naturdokumentationen werden immer beliebter.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Separable Verbs (einschalten / ausschalten)",
+        "type": "grammar",
+        "content": "<p>The verbs <strong>einschalten</strong> (to turn/switch on) and <strong>ausschalten</strong> (to turn/switch off) are separable verbs (trennbare Verben):</p><h4>Present Tense:</h4><ul><li><em>Ich <strong>schalte</strong> den Fernseher <strong>ein</strong>.</em></li><li><em>Er <strong>schaltet</strong> das Radio <strong>aus</strong>.</em></li></ul><h4>Perfect Tense (with 'haben'):</h4><ul><li><em>Ich habe das Radio <strong>eingeschaltet</strong>.</em></li><li><em>Sie hat den Fernseher <strong>ausgeschaltet</strong>.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendungen (Idioms)",
+        "type": "idiom",
+        "content": "<p><strong>viereckige Augen bekommen</strong> — to get square eyes (having eye strain from watching too much TV or looking at screens)<br/><em>Ich habe den ganzen Tag nur Serien geguckt. Ich bekomme ganz viereckige Augen.</em></p><p><strong>sich einen Film reinziehen</strong> — to watch/binge a movie (colloquial)<br/><em>Heute Abend werde ich mir nur noch einen Krimi reinziehen und dann ins Bett gehen.</em></p>"
+      },
+      {
+        "sectionTitle": "Reading: Dokumentationen als Trend",
+        "type": "reading",
+        "content": "<p>Dokumentationen sind in den letzten Jahren immer beliebter geworden. Das zeigt nicht nur der Blick in das Angebot wichtiger Streamingdienste. Auch im Smalltalk mit Bekannten, Kollegen und Kolleginnen geht es oft um den Trend. Angefangen hat das Ganze mit den sogenannten True-Crime-Dokumentationen. Das sind Filme über echte Verbrechen. Aber auch Naturdokumentationen werden mit der neuesten Technik immer besser und beliebter. Für viele ersetzen Dokumentationen sogar das Bücherlesen. Kein Wunder: Einfacher ist es nach einem langen Arbeitstag auf jeden Fall.</p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence from the text.",
+        "sentence": "Heute Abend werde ich mir nur noch einen Krimi ___ und dann ins Bett gehen.",
+        "answer": "reinziehen",
+        "hint": "watch/consume (colloquial)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'die Unterhaltung' mean?",
+        "options": [
+          "entertainment",
+          "evening news",
+          "comedy",
+          "broadcast"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [
+          [
+            "einschalten",
+            "to turn on"
+          ],
+          [
+            "ausschalten",
+            "to turn off"
+          ],
+          [
+            "der Fernsehsender",
+            "TV channel"
+          ],
+          [
+            "die Sendung",
+            "broadcast / show"
+          ],
+          [
+            "der Krimi",
+            "crime thriller"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Viereckige Augen bekommen' means to get eye strain from watching too much TV.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Can you turn off the TV?",
+        "target": "Kannst du den Fernseher ausschalten?"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Fernsehsender",
+          "RTL",
+          "deutscher",
+          "ein",
+          "bekannter",
+          "ist"
+        ],
+        "answer": "RTL ist ein bekannter deutscher Fernsehsender."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Ich habe mal das Radio ___.",
+        "answer": "eingeschaltet",
+        "hint": "turned on (past participle)"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Which word is the short form of 'Kriminalfilm'?",
+        "options": [
+          "Krimi",
+          "Komödie",
+          "Sendung",
+          "Unterhaltung"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "True-Crime-Dokumentationen are films about fictional crimes.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I prefer to watch comedies rather than crime thrillers.",
+        "target": "Ich schaue lieber Komödien als Krimis."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is 'die Abendnachrichten'?",
+        "options": [
+          "evening news",
+          "documentary films",
+          "TV stations",
+          "entertainments"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wenn mich jemand anruft, muss ich das Radio ___.",
+        "answer": "ausschalten",
+        "hint": "turn off"
+      },
+      {
+        "type": "true_false",
+        "statement": "For some people, documentaries replace reading books.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'viereckige Augen bekommen' refer to?",
+        "options": [
+          "staring at screens too long",
+          "wearing glasses",
+          "sleeping too much",
+          "reading books"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die Tagesschau ist eine ___ auf ARD.",
+        "answer": "Sendung",
+        "hint": "show/broadcast"
+      },
+      {
+        "type": "translation",
+        "sentence": "When I come home from work, I immediately turn on the TV.",
+        "answer": "Wenn ich von der Arbeit nach Hause komme, schalte ich sofort den Fernseher ein."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "großartige",
+          "Film",
+          "Unterhaltung",
+          "Dieser",
+          "ist"
+        ],
+        "answer": "Dieser Film ist großartige Unterhaltung."
+      },
+      {
+        "type": "true_false",
+        "statement": "The past participle of 'einschalten' is 'einschaltet'.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which channel is mentioned as a well-known German TV channel?",
+        "options": [
+          "RTL",
+          "BBC",
+          "CNN",
+          "NBC"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich schaue lieber ___ als Krimis.",
+        "answer": "Komödien",
+        "hint": "comedies"
+      }
+    ]
+  }
+]

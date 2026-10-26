@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+
+# Editor / Antigravity
+.gemini/
+.vscode/
+.idea/
+verify.py
+add_lesson61.py
+update_deutschmeister.py

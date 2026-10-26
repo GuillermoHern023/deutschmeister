@@ -1,0 +1,3487 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>__APP_TITLE__</title>
+<meta name="description" content="__APP_DESCRIPTION__">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ============================================
+   DEUTSCHMEISTER — DARK ACADEMIA THEME
+   ============================================ */
+:root {
+  --bg-primary: #0f1117;
+  --bg-secondary: #161923;
+  --bg-card: rgba(26, 30, 44, 0.85);
+  --bg-card-hover: rgba(35, 40, 58, 0.95);
+  --bg-glass: rgba(255,255,255,0.04);
+  --border-subtle: rgba(255,255,255,0.06);
+  --border-accent: rgba(212,175,55,0.3);
+  --text-primary: #e8e6e3;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  --gold: #d4af37;
+  --gold-light: #f0d060;
+  --gold-dark: #a08520;
+  --accent-blue: #5b8def;
+  --accent-green: #34d399;
+  --accent-red: #ef4444;
+  --accent-purple: #a78bfa;
+  --accent-orange: #f59e0b;
+  --success: #22c55e;
+  --error: #ef4444;
+  --warning: #f59e0b;
+  --radius: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --shadow: 0 4px 24px rgba(0,0,0,0.3);
+  --shadow-lg: 0 8px 40px rgba(0,0,0,0.4);
+  --shadow-gold: 0 0 30px rgba(212,175,55,0.15);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Playfair Display', Georgia, serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* Background pattern */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(212,175,55,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 100%, rgba(91,141,239,0.04) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: rgba(212,175,55,0.3); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+/* ============================================
+   LAYOUT
+   ============================================ */
+#app {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  min-height: 100vh;
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border-subtle);
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  z-index: 100;
+  transition: transform 0.3s ease;
+}
+
+.sidebar-header {
+  padding: 28px 24px 20px;
+  border-bottom: 1px solid var(--border-subtle);
+  text-align: center;
+}
+
+.sidebar-header h1 {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold), var(--gold-dark));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 0.5px;
+}
+
+.sidebar-header .subtitle {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 4px;
+}
+
+/* XP Bar */
+.xp-bar-container {
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.xp-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.xp-bar {
+  height: 8px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.xp-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold), var(--gold-light));
+  border-radius: 4px;
+  transition: width 0.6s ease;
+  box-shadow: 0 0 12px rgba(212,175,55,0.4);
+}
+
+.level-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(212,175,55,0.15);
+  color: var(--gold);
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+/* Streak */
+.streak-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(239,68,68,0.12);
+  color: #f87171;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-left: 6px;
+}
+
+/* Level Tabs */
+.level-tabs {
+  display: flex;
+  padding: 10px 16px;
+  background: rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid var(--border-subtle);
+  gap: 8px;
+}
+
+.level-tab-btn {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.level-tab-btn:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.level-tab-btn.active {
+  color: var(--gold);
+  background: rgba(212, 175, 55, 0.08);
+  border-color: rgba(212, 175, 55, 0.2);
+}
+
+/* Module groups */
+.module-group {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.module-title {
+  padding: 10px 24px 6px;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.lesson-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+  border-left: 3px solid transparent;
+}
+
+.lesson-item:hover {
+  background: var(--bg-glass);
+  border-left-color: var(--gold);
+}
+
+.lesson-item.active {
+  background: rgba(212,175,55,0.08);
+  border-left-color: var(--gold);
+}
+
+.lesson-item.locked {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.lesson-item.locked:hover {
+  background: transparent;
+  border-left-color: transparent;
+}
+
+.lesson-item.completed {
+  opacity: 0.8;
+}
+
+.lesson-icon {
+  font-size: 1.2rem;
+  width: 32px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.lesson-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.lesson-info .lesson-name {
+  font-size: 0.82rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lesson-info .lesson-type {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.lesson-stars {
+  font-size: 0.75rem;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.lesson-lock {
+  font-size: 0.85rem;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  margin-left: 300px;
+  padding: 40px;
+  max-width: 900px;
+}
+
+/* ============================================
+   DASHBOARD VIEW
+   ============================================ */
+.dashboard-hero {
+  text-align: center;
+  padding: 40px 0 50px;
+}
+
+.dashboard-hero h2 {
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--text-primary), var(--gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+
+.dashboard-hero p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin: 30px 0 40px;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  padding: 20px;
+  text-align: center;
+  transition: var(--transition);
+  backdrop-filter: blur(10px);
+}
+
+.stat-card:hover {
+  border-color: var(--border-accent);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-gold);
+}
+
+.stat-card .stat-icon {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.stat-card .stat-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: var(--gold);
+}
+
+.stat-card .stat-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+
+.continue-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+  color: #0f1117;
+  border: none;
+  padding: 14px 32px;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-body);
+  box-shadow: 0 4px 20px rgba(212,175,55,0.3);
+}
+
+.continue-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 30px rgba(212,175,55,0.5);
+}
+
+/* Module cards */
+.modules-section h3 {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+}
+
+.module-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 16px;
+  transition: var(--transition);
+  backdrop-filter: blur(10px);
+}
+
+.module-card:hover {
+  border-color: var(--border-accent);
+  box-shadow: var(--shadow);
+}
+
+.module-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.module-card-header h4 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--gold-light);
+}
+
+.module-progress {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.module-bar {
+  height: 6px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.module-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold-dark), var(--gold));
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+
+/* ============================================
+   LESSON VIEW
+   ============================================ */
+.lesson-header {
+  margin-bottom: 32px;
+}
+
+.lesson-breadcrumb {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.lesson-header h2 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.lesson-header .lesson-subtitle {
+  color: var(--gold);
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* Phase tabs */
+.phase-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 32px;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  padding: 4px;
+  border: 1px solid var(--border-subtle);
+}
+
+.phase-tab {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: var(--transition);
+  font-family: var(--font-body);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.phase-tab:hover { color: var(--text-primary); background: var(--bg-glass); }
+
+.phase-tab.active {
+  background: rgba(212,175,55,0.15);
+  color: var(--gold);
+  font-weight: 600;
+}
+
+.phase-tab.locked {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Lecture content */
+.lecture-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+  animation: fadeInUp 0.4s ease;
+}
+
+.lecture-section h3 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--gold-light);
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.lecture-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+}
+
+.lecture-section th {
+  background: rgba(212,175,55,0.1);
+  color: var(--gold);
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--border-accent);
+}
+
+.lecture-section td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: 0.9rem;
+}
+
+.lecture-section tr:hover td {
+  background: var(--bg-glass);
+}
+
+.lecture-section p { margin-bottom: 12px; color: var(--text-secondary); }
+.lecture-section ul, .lecture-section ol { margin: 10px 0; padding-left: 24px; color: var(--text-secondary); }
+.lecture-section li { margin-bottom: 6px; }
+.lecture-section strong { color: var(--text-primary); }
+.lecture-section em { color: var(--gold); font-style: italic; }
+
+.idiom-box {
+  background: rgba(212,175,55,0.05);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin: 16px 0;
+}
+
+.next-phase-btn {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  margin-top: 24px;
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+  color: #0f1117;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-body);
+}
+
+.next-phase-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 30px rgba(212,175,55,0.4);
+}
+
+/* ============================================
+   EXERCISES
+   ============================================ */
+.exercise-container {
+  animation: fadeInUp 0.4s ease;
+}
+
+.exercise-progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.exercise-progress-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 3px;
+  margin: 0 16px;
+  overflow: hidden;
+}
+
+.exercise-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+
+.exercise-counter {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.exercise-score {
+  font-size: 0.8rem;
+  color: var(--gold);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.exercise-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  backdrop-filter: blur(10px);
+  animation: fadeInUp 0.3s ease;
+}
+
+.exercise-card .exercise-type-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  background: rgba(91,141,239,0.12);
+  color: var(--accent-blue);
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.exercise-card .exercise-instruction {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.exercise-card .exercise-question {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+/* Fill in the blank */
+.fill-blank-input {
+  display: inline-block;
+  min-width: 150px;
+  padding: 8px 16px;
+  background: rgba(255,255,255,0.06);
+  border: 2px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-family: var(--font-body);
+  outline: none;
+  transition: var(--transition);
+}
+
+.fill-blank-input:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(212,175,55,0.15);
+}
+
+.fill-blank-input.correct {
+  border-color: var(--success);
+  background: rgba(34,197,94,0.08);
+}
+
+.fill-blank-input.incorrect {
+  border-color: var(--error);
+  background: rgba(239,68,68,0.08);
+}
+
+.hint-text {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* Multiple choice */
+.mc-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mc-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background: rgba(255,255,255,0.03);
+  border: 2px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+  font-size: 0.95rem;
+}
+
+.mc-option:hover {
+  border-color: rgba(212,175,55,0.3);
+  background: rgba(212,175,55,0.05);
+}
+
+.mc-option.selected {
+  border-color: var(--gold);
+  background: rgba(212,175,55,0.08);
+}
+
+.mc-option.correct {
+  border-color: var(--success);
+  background: rgba(34,197,94,0.08);
+}
+
+.mc-option.incorrect {
+  border-color: var(--error);
+  background: rgba(239,68,68,0.08);
+}
+
+.mc-option .mc-letter {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+/* Matching */
+.matching-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 24px;
+}
+
+.match-item {
+  padding: 12px 16px;
+  background: rgba(255,255,255,0.03);
+  border: 2px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: center;
+  font-size: 0.92rem;
+}
+
+.match-item:hover { border-color: rgba(212,175,55,0.4); }
+.match-item.selected { border-color: var(--gold); background: rgba(212,175,55,0.1); }
+.match-item.matched { border-color: var(--success); background: rgba(34,197,94,0.08); opacity: 0.7; pointer-events: none; }
+.match-item.wrong { border-color: var(--error); animation: shake 0.4s ease; }
+
+/* True/False */
+.tf-options {
+  display: flex;
+  gap: 16px;
+}
+
+.tf-btn {
+  flex: 1;
+  padding: 16px;
+  border: 2px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius);
+  background: rgba(255,255,255,0.03);
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-body);
+}
+
+.tf-btn:hover { border-color: rgba(212,175,55,0.3); }
+.tf-btn.selected { border-color: var(--gold); background: rgba(212,175,55,0.08); }
+.tf-btn.correct { border-color: var(--success); background: rgba(34,197,94,0.1); }
+.tf-btn.incorrect { border-color: var(--error); background: rgba(239,68,68,0.1); }
+
+/* Reorder */
+.reorder-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  min-height: 50px;
+}
+
+.reorder-tile {
+  padding: 8px 16px;
+  background: rgba(91,141,239,0.1);
+  border: 1px solid rgba(91,141,239,0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+  font-size: 0.92rem;
+  user-select: none;
+}
+
+.reorder-tile:hover { background: rgba(91,141,239,0.2); }
+.reorder-tile.used { opacity: 0.3; pointer-events: none; }
+
+.reorder-answer-area {
+  min-height: 50px;
+  padding: 12px;
+  background: rgba(255,255,255,0.02);
+  border: 2px dashed rgba(255,255,255,0.1);
+  border-radius: var(--radius);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.reorder-placed {
+  padding: 8px 16px;
+  background: rgba(212,175,55,0.12);
+  border: 1px solid rgba(212,175,55,0.3);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.92rem;
+}
+
+/* Translation */
+.translation-source {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 16px;
+  background: rgba(255,255,255,0.03);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  border-left: 3px solid var(--accent-blue);
+}
+
+.translation-input {
+  width: 100%;
+  padding: 14px 16px;
+  background: rgba(255,255,255,0.04);
+  border: 2px solid rgba(255,255,255,0.1);
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-family: var(--font-body);
+  outline: none;
+  transition: var(--transition);
+}
+
+.translation-input:focus {
+  border-color: var(--gold);
+}
+
+/* Submit & feedback */
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-body);
+}
+
+.submit-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 20px rgba(91,141,239,0.3); }
+.submit-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+
+.feedback-box {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  animation: fadeInUp 0.3s ease;
+}
+
+.feedback-box.correct {
+  background: rgba(34,197,94,0.08);
+  border: 1px solid rgba(34,197,94,0.3);
+  color: var(--success);
+}
+
+.feedback-box.incorrect {
+  background: rgba(239,68,68,0.08);
+  border: 1px solid rgba(239,68,68,0.3);
+  color: var(--error);
+}
+
+.feedback-box .correct-answer {
+  color: var(--text-secondary);
+  margin-top: 6px;
+  font-size: 0.85rem;
+}
+
+.next-exercise-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  background: rgba(212,175,55,0.15);
+  color: var(--gold);
+  border: 1px solid rgba(212,175,55,0.3);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-body);
+}
+
+.next-exercise-btn:hover { background: rgba(212,175,55,0.25); }
+
+/* ============================================
+   EXAM VIEW
+   ============================================ */
+.exam-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.exam-timer {
+  font-size: 2rem;
+  font-family: var(--font-heading);
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.exam-timer.warning { color: var(--warning); }
+.exam-timer.danger { color: var(--error); animation: pulse 1s infinite; }
+
+/* ============================================
+   RESULTS VIEW
+   ============================================ */
+.results-card {
+  text-align: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-xl);
+  padding: 48px 40px;
+  backdrop-filter: blur(10px);
+  animation: fadeInUp 0.5s ease;
+}
+
+.results-card .result-emoji {
+  font-size: 4rem;
+  margin-bottom: 16px;
+}
+
+.results-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.results-card .result-score {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 16px 0;
+}
+
+.results-stars {
+  font-size: 2.5rem;
+  margin: 16px 0;
+  letter-spacing: 8px;
+}
+
+.results-card .result-message {
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+.results-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.results-actions button {
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-body);
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+  color: #0f1117;
+}
+
+.btn-secondary {
+  background: rgba(255,255,255,0.06);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle) !important;
+}
+
+/* ============================================
+   FINAL EXAM
+   ============================================ */
+.final-exam-intro {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.final-exam-intro h2 {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.certificate-card {
+  text-align: center;
+  background: linear-gradient(135deg, rgba(212,175,55,0.08), rgba(26,30,44,0.9));
+  border: 2px solid var(--gold);
+  border-radius: var(--radius-xl);
+  padding: 60px 40px;
+  box-shadow: var(--shadow-gold);
+  animation: fadeInUp 0.6s ease;
+}
+
+.certificate-card h2 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--gold);
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes starPop {
+  0% { transform: scale(0); }
+  60% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+@keyframes xpFloat {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-40px); }
+}
+
+.xp-float {
+  position: fixed;
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 1.2rem;
+  pointer-events: none;
+  animation: xpFloat 1s ease forwards;
+  z-index: 1000;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .sidebar { transform: translateX(-100%); width: 280px; }
+  .sidebar.open { transform: translateX(0); }
+  .main-content { margin-left: 0; padding: 20px; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .mobile-toggle {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 200;
+    width: 40px;
+    height: 40px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-toggle { display: none; }
+}
+
+/* Hidden utility */
+.hidden { display: none !important; }
+
+/* Flashcards styling */
+.flashcard-wrapper {
+  perspective: 1000px;
+  width: 100%;
+  max-width: 500px;
+  height: 320px;
+  margin: 40px auto 24px;
+  cursor: pointer;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.flashcard-wrapper.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front, .flashcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-accent);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(10px);
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+  background: rgba(26, 30, 44, 0.95);
+  border-color: rgba(91, 141, 239, 0.3);
+}
+
+.flashcard-german {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  color: var(--gold-light);
+  font-weight: 700;
+  margin-bottom: 12px;
+  word-break: break-word;
+}
+
+.flashcard-english {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 16px;
+  word-break: break-word;
+}
+
+.flashcard-example {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  max-width: 90%;
+  line-height: 1.4;
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 12px;
+  word-break: break-word;
+}
+
+.lang-selector {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.lang-btn {
+  padding: 4px 10px;
+  font-size: 0.72rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-subtle);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-weight: 600;
+  font-family: var(--font-body);
+  transition: var(--transition);
+}
+
+.lang-btn:hover {
+  color: var(--text-primary);
+  border-color: rgba(255,255,255,0.2);
+}
+
+.lang-btn.active {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #0f1117;
+  box-shadow: 0 0 10px rgba(212,175,55,0.3);
+}
+
+/* ============================================
+   HERR PROFESSOR — INTERACTIVE TUTOR & HUB
+   ============================================ */
+.professor-fab {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 990;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #2a2010 0%, #1a1e2c 50%, #251e12 100%);
+  border: 1px solid var(--gold);
+  border-radius: 50px;
+  color: var(--gold-light);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.92rem;
+  cursor: pointer;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.25);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.professor-fab:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6), 0 0 28px rgba(212, 175, 55, 0.4);
+  color: #fff;
+  border-color: var(--gold-light);
+}
+
+.professor-fab-avatar {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.professor-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 12, 18, 0.65);
+  backdrop-filter: blur(4px);
+  z-index: 998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.professor-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.professor-hub {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 460px;
+  max-width: 96vw;
+  height: 100vh;
+  background: var(--bg-secondary);
+  border-left: 1px solid var(--border-accent);
+  box-shadow: -10px 0 40px rgba(0,0,0,0.65);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.professor-hub.open {
+  transform: translateX(0);
+}
+
+.prof-header {
+  padding: 18px 22px;
+  background: rgba(212, 175, 55, 0.06);
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prof-title-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.prof-avatar-large {
+  font-size: 2rem;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid var(--border-accent);
+  border-radius: 12px;
+}
+
+.prof-header h3 {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--gold-light);
+  margin-bottom: 2px;
+}
+
+.prof-status {
+  font-size: 0.75rem;
+  color: var(--accent-green);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  background: var(--accent-green);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--accent-green);
+  display: inline-block;
+}
+
+.prof-close-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.4rem;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.prof-close-btn:hover {
+  background: var(--bg-glass);
+  color: var(--text-primary);
+}
+
+.prof-nav-tabs {
+  display: flex;
+  background: rgba(0,0,0,0.25);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 0 8px;
+}
+
+.prof-tab {
+  flex: 1;
+  padding: 12px 8px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.prof-tab:hover {
+  color: var(--text-primary);
+}
+
+.prof-tab.active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.prof-tab-content {
+  display: none;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 18px;
+}
+
+.prof-tab-content.active {
+  display: flex;
+}
+
+/* Chat styles */
+.prof-chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-bottom: 14px;
+}
+
+.prof-msg {
+  display: flex;
+  gap: 10px;
+  max-width: 90%;
+  animation: fadeIn 0.3s ease;
+}
+
+.prof-msg.professor {
+  align-self: flex-start;
+}
+
+.prof-msg.user {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.prof-msg-avatar {
+  font-size: 1.25rem;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: var(--bg-glass);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.prof-msg-bubble {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+.prof-msg.user .prof-msg-bubble {
+  background: rgba(212, 175, 55, 0.12);
+  border-color: rgba(212, 175, 55, 0.3);
+  color: var(--gold-light);
+}
+
+.prof-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.prof-chip {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.prof-chip:hover {
+  background: rgba(212, 175, 55, 0.1);
+  border-color: var(--gold);
+  color: var(--gold-light);
+}
+
+.prof-chat-input-bar {
+  display: flex;
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.prof-chat-input-bar input {
+  flex: 1;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+}
+
+.prof-chat-input-bar input:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+}
+
+.prof-send-btn {
+  background: var(--gold);
+  color: #0f1117;
+  border: none;
+  border-radius: 8px;
+  width: 42px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.prof-send-btn:hover {
+  background: var(--gold-light);
+  transform: scale(1.05);
+}
+
+/* Corrector styles */
+.prof-corrector-intro {
+  margin-bottom: 14px;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+.prof-textarea {
+  width: 100%;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  padding: 14px;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.prof-textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.18);
+}
+
+.prof-char-counter {
+  text-align: right;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.prof-action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.prof-btn-primary {
+  flex: 1;
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+  color: #0f1117;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.prof-btn-primary:hover {
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  transform: translateY(-1px);
+}
+
+.prof-btn-secondary {
+  flex: 1;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.prof-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--text-secondary);
+}
+
+.prof-result-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Professor Praxis Phase in Lesson */
+.praxis-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+
+.praxis-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(212, 175, 55, 0.15);
+  color: var(--gold);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.praxis-mission {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.praxis-instruction {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.praxis-examples {
+  background: rgba(0, 0, 0, 0.2);
+  border-left: 3px solid var(--gold);
+  padding: 12px 16px;
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 20px;
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+}
+
+/* Toast notification */
+.prof-toast {
+  position: fixed;
+  bottom: 84px;
+  right: 24px;
+  background: #10b981;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  z-index: 1001;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.prof-toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+</style>
+</head>
+<body>
+
+<button class="mobile-toggle" onclick="toggleSidebar()">☰</button>
+
+<div id="app">
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>DeutschMeister</h1>
+      <div class="subtitle" id="ui-app-subtitle">A2 Deutschkurs</div>
+      <div class="lang-selector">
+        <button id="lang-btn-en" class="lang-btn active" onclick="setLanguage('en')">EN</button>
+        <button id="lang-btn-vi" class="lang-btn" onclick="setLanguage('vi')">VI</button>
+      </div>
+    </div>
+    <div class="xp-bar-container">
+      <div class="xp-label">
+        <span id="xp-current">0 XP</span>
+        <span id="xp-next">100 XP</span>
+      </div>
+      <div class="xp-bar"><div class="xp-bar-fill" id="xp-bar-fill" style="width:0%"></div></div>
+      <div style="display:flex;justify-content:center;gap:4px;margin-top:8px">
+        <span class="level-badge" id="level-badge">⭐ Level 1</span>
+        <span class="streak-badge" id="streak-badge">🔥 0 Tage</span>
+      </div>
+    </div>
+    <!-- Level Selector Tabs -->
+    <div class="level-tabs">
+      <button class="level-tab-btn active" id="btn-level-a21" onclick="changeLevel('A2.1')">Level A2.1</button>
+      <button class="level-tab-btn" id="btn-level-a22" onclick="changeLevel('A2.2')">Level A2.2</button>
+      <button class="level-tab-btn" id="btn-level-b1" onclick="changeLevel('B1')">Level B1</button>
+    </div>
+    <div id="sidebar-lessons"></div>
+    <div class="module-group" style="padding:16px 24px">
+      <div class="lesson-item" onclick="showFinalExam()" id="final-exam-nav" style="opacity:0.35;cursor:not-allowed">
+        <span class="lesson-icon">🏆</span>
+        <div class="lesson-info">
+          <div class="lesson-name" id="final-exam-name">Abschlussprüfung</div>
+          <div class="lesson-type" id="final-exam-type">Final Exam</div>
+        </div>
+        <span class="lesson-lock">🔒</span>
+      </div>
+      <div class="lesson-item" onclick="resetProgress()" style="margin-top:8px;opacity:0.5">
+        <span class="lesson-icon">⚙️</span>
+        <div class="lesson-info">
+          <div class="lesson-name" id="ui-reset-title">Fortschritt zurücksetzen</div>
+          <div class="lesson-type" id="ui-reset-subtitle">Reset Progress</div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content" id="main-content">
+    <!-- Content rendered by JS -->
+  </main>
+</div>
+
+<script>
+/* ============================================
+   LESSON DATA — PLACEHOLDER (replaced by assembler)
+   ============================================ */
+const LESSONS = __LESSON_DATA_PLACEHOLDER__;
+
+const MODULES = [
+  { id: 1, title: "Gefühle & Beziehungen", titleEn: "Feelings & Relationships", titleVi: "Cảm xúc & Mối quan hệ", icon: "❤️", lessons: [1,2,3,4], level: "A2.1" },
+  { id: 2, title: "Wohnen & Stadt", titleEn: "Living & City", titleVi: "Đời sống & Thành thị", icon: "🏠", lessons: [5,6,7,8,9], level: "A2.1" },
+  { id: 3, title: "Sport & Fitness", titleEn: "Sports & Fitness", titleVi: "Thể thao & Sức khỏe", icon: "⚽", lessons: [10,11,12,13], level: "A2.1" },
+  { id: 4, title: "Kultur & Arbeit", titleEn: "Culture & Work", titleVi: "Văn hóa & Công việc", icon: "🎨", lessons: [14,15,16], level: "A2.1" },
+  { id: 5, title: "Zukunft & Grammatik", titleEn: "Future & Grammar", titleVi: "Tương lai & Ngữ pháp", icon: "🔮", lessons: [17,18,19,20], level: "A2.1" },
+  { id: 6, title: "Essen & Trinken", titleEn: "Food & Drink", titleVi: "Ẩm thực & Ăn uống", icon: "🌭", lessons: [21,22,23,24], level: "A2.2" },
+  { id: 7, title: "Reisen & Abenteuer", titleEn: "Travel & Vacations", titleVi: "Du lịch & Kỳ nghỉ", icon: "🗺️", lessons: [25,26,27,28], level: "A2.2" },
+  { id: 8, title: "Medien & Technologie", titleEn: "Media & Tech", titleVi: "Truyền thông & Công nghệ", icon: "💻", lessons: [29,30,31,32], level: "A2.2" },
+  { id: 9, title: "Natur & Umwelt", titleEn: "Nature & Environment", titleVi: "Tự nhiên & Môi trường", icon: "🌲", lessons: [33,34,35,36], level: "A2.2" },
+  { id: 10, title: "Alltag, Geld & Arbeit", titleEn: "Life, Money & Work", titleVi: "Đời sống, Tiền bạc & Việc làm", icon: "💶", lessons: [37,38,39,40], level: "A2.2" },
+  { id: 11, title: "Beruf & Karriere", titleEn: "Work & Career", titleVi: "Công việc & Sự nghiệp", icon: "💼", lessons: [41,42,43,44], level: "B1" },
+  { id: 12, title: "B1 Grammatik-Meister", titleEn: "B1 Grammar Mastery", titleVi: "Làm chủ Ngữ pháp B1", icon: "🔗", lessons: [45,46,47,48,61], level: "B1" },
+  { id: 13, title: "Gesellschaft & Medien", titleEn: "Society & Media", titleVi: "Xã hội & Truyền thông", icon: "📰", lessons: [49,50,51,52], level: "B1" },
+  { id: 14, title: "Umwelt & Natur", titleEn: "Environment & Nature", titleVi: "Môi trường & Tự nhiên", icon: "🌱", lessons: [53,54,55,56], level: "B1" },
+  { id: 15, title: "Geschichte & Kultur", titleEn: "History & Culture", titleVi: "Lịch sử & Văn hóa", icon: "⏳", lessons: [57,58,59,60], level: "B1" }
+];
+
+/* ============================================
+   APP STATE
+   ============================================ */
+const STORAGE_KEY = 'deutschmeister_v1';
+
+function getDefaultState() {
+  return {
+    lang: "__DEFAULT_LANG__",
+    xp: 0,
+    streak: 0,
+    lastActiveDate: null,
+    completedLessons: {},  // {lessonId: {stars, score, bestScore}}
+    currentLesson: null,
+    activeLevel: "A2.1",
+    finalExamScore: { "A2.1": null, "A2.2": null, "B1": null },
+    finalExamCompleted: { "A2.1": false, "A2.2": false, "B1": false }
+  };
+}
+
+function loadState() {
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      // Migrate old schema if it has a single boolean/number for final exams
+      if (typeof parsed.finalExamCompleted === 'boolean') {
+        const oldCompleted = parsed.finalExamCompleted;
+        const oldScore = parsed.finalExamScore;
+        parsed.finalExamCompleted = { "A2.1": oldCompleted, "A2.2": false, "B1": false };
+        parsed.finalExamScore = { "A2.1": oldScore, "A2.2": null, "B1": null };
+      }
+      // Ensure structures are correct in case of incomplete migration
+      if (parsed.finalExamCompleted && typeof parsed.finalExamCompleted === 'object') {
+        if (!parsed.finalExamCompleted.hasOwnProperty("B1")) {
+          parsed.finalExamCompleted["B1"] = false;
+        }
+      } else {
+        parsed.finalExamCompleted = { "A2.1": false, "A2.2": false, "B1": false };
+      }
+      if (parsed.finalExamScore && typeof parsed.finalExamScore === 'object') {
+        if (!parsed.finalExamScore.hasOwnProperty("B1")) {
+          parsed.finalExamScore["B1"] = null;
+        }
+      } else {
+        parsed.finalExamScore = { "A2.1": null, "A2.2": null, "B1": null };
+      }
+      return { ...getDefaultState(), ...parsed };
+    }
+  } catch(e) {}
+  return getDefaultState();
+}
+
+function saveState() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+let state = loadState();
+
+/* ============================================
+   TRANSLATION HELPERS
+   ============================================ */
+function t(de, vi) {
+  return state.lang === 'vi' ? vi : de;
+}
+
+function setLanguage(lang) {
+  state.lang = lang;
+  saveState();
+  updateLanguageUI();
+  updateSidebar();
+  if (state.currentLesson) {
+    openLesson(state.currentLesson);
+  } else {
+    showDashboard();
+  }
+}
+
+function updateLanguageUI() {
+  const isVi = state.lang === 'vi';
+  
+  const btnEn = document.getElementById('lang-btn-en');
+  const btnVi = document.getElementById('lang-btn-vi');
+  if (btnEn && btnVi) {
+    if (isVi) {
+      btnEn.classList.remove('active');
+      btnVi.classList.add('active');
+    } else {
+      btnEn.classList.add('active');
+      btnVi.classList.remove('active');
+    }
+  }
+
+  const appSubtitle = document.getElementById('ui-app-subtitle');
+  if (appSubtitle) appSubtitle.textContent = isVi ? 'Khóa học tiếng Đức A2' : 'A2 Deutschkurs';
+  
+  const resetTitle = document.getElementById('ui-reset-title');
+  const resetSubtitle = document.getElementById('ui-reset-subtitle');
+  if (resetTitle) resetTitle.textContent = isVi ? 'Đặt lại tiến trình' : 'Fortschritt zurücksetzen';
+  if (resetSubtitle) resetSubtitle.textContent = isVi ? 'Reset Progress' : 'Reset Progress';
+
+  const btnA21 = document.getElementById('btn-level-a21');
+  const btnA22 = document.getElementById('btn-level-a22');
+  const btnB1 = document.getElementById('btn-level-b1');
+  if (btnA21) btnA21.textContent = isVi ? 'Cấp độ A2.1' : 'Level A2.1';
+  if (btnA22) btnA22.textContent = isVi ? 'Cấp độ A2.2' : 'Level A2.2';
+  if (btnB1) btnB1.textContent = isVi ? 'Cấp độ B1' : 'Level B1';
+}
+
+function translateType(type) {
+  if (state.lang !== 'vi') return type;
+  const types = {
+    'vocabulary': 'Từ vựng',
+    'grammar': 'Ngự pháp',
+    'reading': 'Bài đọc',
+    'idiom': 'Thành ngữ',
+    'dialogue': 'Hội thoại'
+  };
+  return types[type.toLowerCase()] || type;
+}
+
+/* ============================================
+   PROGRESSION LOGIC
+   ============================================ */
+function isLessonUnlocked(lessonId) {
+  if (lessonId === 1) return true;
+  return !!state.completedLessons[lessonId - 1];
+}
+
+function isLessonCompleted(lessonId) {
+  return !!state.completedLessons[lessonId];
+}
+
+function getLessonStars(lessonId) {
+  const d = state.completedLessons[lessonId];
+  return d ? d.stars : 0;
+}
+
+function getLevel() {
+  return Math.floor(state.xp / 100) + 1;
+}
+
+function getXpInLevel() {
+  return state.xp % 100;
+}
+
+function addXp(amount) {
+  state.xp += amount;
+  saveState();
+  updateSidebar();
+}
+
+function scoreToStars(pct) {
+  if (pct >= 90) return 3;
+  if (pct >= 70) return 2;
+  if (pct >= 50) return 1;
+  return 0;
+}
+
+function getLessonLevel(lessonId) {
+  if (lessonId <= 20) return "A2.1";
+  if (lessonId <= 40) return "A2.2";
+  return "B1";
+}
+
+function changeLevel(level) {
+  state.activeLevel = level;
+  saveState();
+  updateSidebar();
+  if (state.currentLesson === null) {
+    showDashboard();
+  }
+}
+
+function updateStreak() {
+  const today = new Date().toDateString();
+  if (state.lastActiveDate !== today) {
+    const yesterday = new Date(Date.now() - 86400000).toDateString();
+    if (state.lastActiveDate === yesterday) {
+      state.streak++;
+    } else if (state.lastActiveDate !== today) {
+      state.streak = 1;
+    }
+    state.lastActiveDate = today;
+    saveState();
+  }
+}
+
+/* ============================================
+   RENDERING: SIDEBAR
+   ============================================ */
+function updateSidebar() {
+  // XP
+  const level = getLevel();
+  const xpInLevel = getXpInLevel();
+  const isVi = state.lang === 'vi';
+  document.getElementById('xp-current').textContent = `${state.xp} XP`;
+  document.getElementById('xp-next').textContent = `${level * 100} XP`;
+  document.getElementById('xp-bar-fill').style.width = `${xpInLevel}%`;
+  document.getElementById('level-badge').textContent = isVi ? `⭐ Cấp ${level}` : `⭐ Level ${level}`;
+  document.getElementById('streak-badge').textContent = isVi ? `🔥 ${state.streak} ngày` : `🔥 ${state.streak} Tage`;
+
+  // Update Level tab active classes
+  const activeLevel = state.activeLevel || "A2.1";
+  const btn21 = document.getElementById('btn-level-a21');
+  const btn22 = document.getElementById('btn-level-a22');
+  const btnb1 = document.getElementById('btn-level-b1');
+  if (btn21) btn21.className = `level-tab-btn ${activeLevel === 'A2.1' ? 'active' : ''}`;
+  if (btn22) btn22.className = `level-tab-btn ${activeLevel === 'A2.2' ? 'active' : ''}`;
+  if (btnb1) btnb1.className = `level-tab-btn ${activeLevel === 'B1' ? 'active' : ''}`;
+
+  // Lessons
+  const container = document.getElementById('sidebar-lessons');
+  let html = '';
+  MODULES.filter(mod => mod.level === activeLevel).forEach(mod => {
+    const modTitle = isVi ? (mod.titleVi || mod.titleEn || mod.title) : mod.title;
+    html += `<div class="module-group"><div class="module-title">${mod.icon} ${modTitle}</div>`;
+    mod.lessons.forEach(lid => {
+      const lesson = LESSONS.find(l => l.id === lid);
+      if (!lesson) return;
+      const unlocked = isLessonUnlocked(lid);
+      const completed = isLessonCompleted(lid);
+      const stars = getLessonStars(lid);
+      const active = state.currentLesson === lid;
+      const cls = [
+        'lesson-item',
+        !unlocked ? 'locked' : '',
+        completed ? 'completed' : '',
+        active ? 'active' : ''
+      ].filter(Boolean).join(' ');
+
+      const lessonTitle = isVi ? (lesson.titleVi || lesson.title) : lesson.title;
+      const lessonType = isVi ? translateType(lesson.type) : lesson.type;
+      html += `<div class="${cls}" onclick="${unlocked ? `openLesson(${lid})` : ''}">
+        <span class="lesson-icon">${lesson.icon}</span>
+        <div class="lesson-info">
+          <div class="lesson-name">${lessonTitle}</div>
+          <div class="lesson-type">${lessonType}</div>
+        </div>
+        ${completed ? `<span class="lesson-stars">${'★'.repeat(stars)}${'☆'.repeat(3-stars)}</span>` :
+          (!unlocked ? '<span class="lesson-lock">🔒</span>' : '')}
+      </div>`;
+    });
+    html += '</div>';
+  });
+  container.innerHTML = html;
+
+  // Final exam nav
+  const levelLessons = LESSONS.filter(l => getLessonLevel(l.id) === activeLevel);
+  const levelDone = levelLessons.every(l => isLessonCompleted(l.id));
+  
+  const finalNav = document.getElementById('final-exam-nav');
+  const finalExamName = document.getElementById('final-exam-name');
+  const finalExamType = document.getElementById('final-exam-type');
+  
+  if (finalExamName) finalExamName.textContent = isVi ? `${activeLevel} Thi cuối khóa` : `${activeLevel} Abschlussprüfung`;
+  if (finalExamType) finalExamType.textContent = isVi ? `${activeLevel} Final Exam` : `${activeLevel} Final Exam`;
+  
+  const examCompleted = state.finalExamCompleted[activeLevel];
+  
+  if (finalNav) {
+    if (levelDone) {
+      finalNav.style.opacity = '1';
+      finalNav.style.cursor = 'pointer';
+      finalNav.querySelector('.lesson-lock').textContent = examCompleted ? '🏆' : '→';
+    } else {
+      finalNav.style.opacity = '0.35';
+      finalNav.style.cursor = 'not-allowed';
+      finalNav.querySelector('.lesson-lock').textContent = '🔒';
+    }
+  }
+}
+
+/* ============================================
+   RENDERING: DASHBOARD
+   ============================================ */
+function showDashboard() {
+  state.currentLesson = null;
+  saveState();
+  updateSidebar();
+
+  const activeLevel = state.activeLevel || "A2.1";
+  const levelLessons = LESSONS.filter(l => getLessonLevel(l.id) === activeLevel);
+  const completedCount = levelLessons.filter(l => isLessonCompleted(l.id)).length;
+  const totalStars = levelLessons.reduce((s,l) => {
+    const d = state.completedLessons[l.id];
+    return s + (d ? (d.stars || 0) : 0);
+  }, 0);
+  const maxStars = levelLessons.length * 3;
+  const nextLesson = levelLessons.find(l => !isLessonCompleted(l.id) && isLessonUnlocked(l.id));
+  
+  const levelDone = levelLessons.every(l => isLessonCompleted(l.id));
+  const examCompleted = state.finalExamCompleted[activeLevel];
+
+  document.getElementById('main-content').innerHTML = `
+    <div class="dashboard-hero">
+      <h2>${t('Willkommen zurück!', 'Chào mừng trở lại!')}</h2>
+      <p>${t(`Dein persönlicher Deutschkurs (${activeLevel}) — Schritt für Schritt zum Erfolg.`, `Khóa học tiếng Đức của bạn (${activeLevel}) — Từng bước tới thành công.`)}</p>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon">📚</div>
+        <div class="stat-value">${completedCount}/${levelLessons.length}</div>
+        <div class="stat-label">${t('Lektionen', 'Bài học')} (${activeLevel})</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">⭐</div>
+        <div class="stat-value">${totalStars}/${maxStars}</div>
+        <div class="stat-label">${t('Sterne', 'Ngôi sao')} (${activeLevel})</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">⚡</div>
+        <div class="stat-value">${state.xp}</div>
+        <div class="stat-label">${t('XP Punkte', 'Điểm XP')}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🔥</div>
+        <div class="stat-value">${state.streak}</div>
+        <div class="stat-label">${t('Tage Serie', 'Ngày liên tiếp')}</div>
+      </div>
+    </div>
+    ${nextLesson ? `<div style="text-align:center;margin-bottom:40px">
+      <button class="continue-btn" onclick="openLesson(${nextLesson.id})">
+        ${t('Weiterlernen', 'Tiếp tục học')} → ${t('Lektion', 'Bài')} ${nextLesson.id}: ${state.lang === 'vi' && nextLesson.titleVi ? nextLesson.titleVi : nextLesson.title}
+      </button>
+    </div>` : (levelDone && !examCompleted ? `<div style="text-align:center;margin-bottom:40px">
+      <button class="continue-btn" onclick="showFinalExam()">
+        🏆 ${t(`${activeLevel} Abschlussprüfung starten`, `Bảt đầu thi cuối khóa ${activeLevel}`)}
+      </button>
+    </div>` : '')}
+    <div class="modules-section">
+      <h3>${t('Module', 'Mô-đun')} (${activeLevel})</h3>
+      ${MODULES.filter(mod => mod.level === activeLevel).map(mod => {
+        const modLessons = mod.lessons;
+        const done = modLessons.filter(id => isLessonCompleted(id)).length;
+        const pct = Math.round((done / modLessons.length) * 100);
+        const modTitle = isVi ? (mod.titleVi || mod.titleEn || mod.title) : mod.title;
+        return `<div class="module-card">
+          <div class="module-card-header">
+            <h4>${mod.icon} ${modTitle}</h4>
+            <span class="module-progress">${done}/${modLessons.length} ${t('abgeschlossen', 'hoàn thành')}</span>
+          </div>
+          <div class="module-bar"><div class="module-bar-fill" style="width:${pct}%"></div></div>
+        </div>`;
+      }).join('')}
+    </div>
+  `;
+}
+
+/* ============================================
+   RENDERING: LESSON
+   ============================================ */
+let currentPhase = 'lecture'; // lecture | flashcards | exercises | exam
+let exerciseIndex = 0;
+let exerciseScore = 0;
+let exerciseAnswered = false;
+let examMode = false;
+let examTimer = null;
+let examTimeLeft = 0;
+let matchState = { selected: null, matched: [] };
+let reorderState = [];
+let flashcardIndex = 0;
+let flashcardsList = [];
+let originalVocabList = [];
+let flashcardResults = [];
+
+function openLesson(lessonId) {
+  if (!isLessonUnlocked(lessonId)) return;
+  state.activeLevel = getLessonLevel(lessonId);
+  state.currentLesson = lessonId;
+  currentPhase = 'lecture';
+  exerciseIndex = 0;
+  exerciseScore = 0;
+  exerciseAnswered = false;
+  examMode = false;
+  updateStreak();
+  saveState();
+  updateSidebar();
+  renderLesson();
+}
+
+function renderLesson() {
+  const lesson = LESSONS.find(l => l.id === state.currentLesson);
+  if (!lesson) return showDashboard();
+
+  const completed = isLessonCompleted(lesson.id);
+  const lectureActive = currentPhase === 'lecture';
+  const flashcardsActive = currentPhase === 'flashcards';
+  const exerciseActive = currentPhase === 'exercises';
+  const examActive = currentPhase === 'exam';
+  const professorActive = currentPhase === 'professor';
+
+  const modInfo = MODULES.find(m => m.lessons.includes(lesson.id));
+
+  document.getElementById('main-content').innerHTML = `
+    <div class="lesson-header">
+      <div class="lesson-breadcrumb">${modInfo ? modInfo.title : ''} — Lektion ${lesson.id}</div>
+      <h2>${lesson.icon} ${lesson.title}</h2>
+      <div class="lesson-subtitle">${lesson.titleDe}</div>
+    </div>
+    <div class="phase-tabs">
+      <button class="phase-tab ${lectureActive?'active':''}" onclick="setPhase('lecture')">📖 Vorlesung</button>
+      <button class="phase-tab ${flashcardsActive?'active':''}" onclick="setPhase('flashcards')">🎴 Karteikarten</button>
+      <button class="phase-tab ${exerciseActive?'active':''}" onclick="setPhase('exercises')">✍️ Übungen</button>
+      <button class="phase-tab ${examActive?'active':''}" onclick="setPhase('exam')">🎓 Prüfung</button>
+      <button class="phase-tab ${professorActive?'active':''}" onclick="setPhase('professor')">👨‍🏫 Professor-Praxis</button>
+    </div>
+    <div id="phase-content"></div>
+  `;
+
+  if (lectureActive) renderLecture(lesson);
+  else if (flashcardsActive) renderFlashcards(lesson);
+  else if (exerciseActive) renderExercise(lesson);
+  else if (examActive) renderExam(lesson);
+  else if (professorActive) renderProfessorPraxis(lesson);
+}
+
+function setPhase(phase) {
+  currentPhase = phase;
+  if (phase === 'exercises') { exerciseIndex = 0; exerciseScore = 0; exerciseAnswered = false; }
+  if (phase === 'exam') { exerciseIndex = 0; exerciseScore = 0; exerciseAnswered = false; examMode = true; }
+  if (phase === 'flashcards') {
+    flashcardIndex = 0;
+    const lesson = LESSONS.find(l => l.id === state.currentLesson);
+    originalVocabList = getLessonVocab(lesson);
+    flashcardsList = [...originalVocabList];
+    flashcardResults = new Array(flashcardsList.length).fill(null);
+  }
+  renderLesson();
+}
+
+/* ============================================
+   LECTURE RENDERER
+   ============================================ */
+function renderLecture(lesson) {
+  const container = document.getElementById('phase-content');
+  let html = '';
+  (lesson.lectureContent || []).forEach(section => {
+    const isIdiom = section.type === 'idiom';
+    html += `<div class="lecture-section ${isIdiom ? 'idiom-box' : ''}">
+      <h3>${section.sectionTitle}</h3>
+      ${section.content}
+    </div>`;
+  });
+  html += `<button class="next-phase-btn" onclick="setPhase('flashcards')">Weiter zu den Karteikarten →</button>`;
+  container.innerHTML = html;
+}
+
+/* ============================================
+   FLASHCARDS RENDERER
+   ============================================ */
+function getLessonVocab(lesson) {
+  const vocabSection = (lesson.lectureContent || []).find(s => s.type === 'vocabulary');
+  if (!vocabSection) return [];
+  
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(vocabSection.content, 'text/html');
+  const rows = doc.querySelectorAll('tbody tr');
+  const vocabList = [];
+  rows.forEach(row => {
+    const cols = row.querySelectorAll('td');
+    if (cols.length >= 2) {
+      const german = cols[0].innerText.replace(/[\n\r]/g, '').trim();
+      const english = cols[1].innerText.replace(/[\n\r]/g, '').trim();
+      const example = cols.length >= 3 ? cols[2].innerText.replace(/[\n\r]/g, '').trim() : '';
+      vocabList.push({ german, english, example });
+    }
+  });
+  return vocabList;
+}
+
+function renderFlashcards(lesson) {
+  const container = document.getElementById('phase-content');
+  if (flashcardsList.length === 0) {
+    container.innerHTML = `
+      <div class="lecture-section" style="text-align:center;padding:40px">
+        <h3>🎴 Karteikarten</h3>
+        <p style="color:var(--text-secondary);margin-bottom:20px">Diese Lektion enthält keine Vokabelliste.</p>
+        <button class="next-phase-btn" onclick="setPhase('exercises')">Weiter zu den Übungen →</button>
+      </div>
+    `;
+    return;
+  }
+
+  if (flashcardIndex >= flashcardsList.length) {
+    const correctCount = flashcardResults.filter(r => r === 'right').length;
+    const wrongCount = flashcardsList.length - correctCount;
+    const pct = flashcardsList.length > 0 ? Math.round((correctCount / flashcardsList.length) * 100) : 0;
+
+    container.innerHTML = `
+      <div class="results-card" style="margin-top:20px">
+        <div class="result-emoji">🎴</div>
+        <h3>Karteikartenergebnis</h3>
+        <div class="result-score">${pct}%</div>
+        <p class="result-message">Du hast ${correctCount} von ${flashcardsList.length} Wörtern gewusst!</p>
+        <div class="results-actions" style="flex-direction: column; gap: 10px; max-width: 320px; margin: 0 auto; width: 100%;">
+          <button class="btn-primary" style="width:100%" onclick="setPhase('exercises')">Weiter zu den Übungen →</button>
+          ${wrongCount > 0 ? `<button class="btn-secondary" style="width:100%" onclick="reviewWrongFlashcards()">🔁 Nur falsche wiederholen (${wrongCount})</button>` : ''}
+          <button class="btn-secondary" style="width:100%" onclick="restartAllFlashcards()">🔁 Alle wiederholen</button>
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  const card = flashcardsList[flashcardIndex];
+  const pct = Math.round((flashcardIndex / flashcardsList.length) * 100);
+
+  container.innerHTML = `
+    <div class="exercise-container">
+      <div class="exercise-progress" style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:20px;">
+        <span class="exercise-counter">Karte ${flashcardIndex + 1} von ${flashcardsList.length}</span>
+        <div class="exercise-progress-bar" style="flex:1;"><div class="exercise-progress-fill" style="width:${pct}%"></div></div>
+        <button class="btn-secondary" style="padding: 4px 12px; font-size: 0.75rem; border-radius: 6px; cursor: pointer;" onclick="shuffleFlashcards()">🔀 Mischen</button>
+      </div>
+      
+      <div class="flashcard-wrapper" id="flashcard-element" onclick="flipFlashcard()">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">
+            <div style="font-size:0.75rem;color:var(--gold);text-transform:uppercase;letter-spacing:1px;margin-bottom:16px">Deutsch</div>
+            <div class="flashcard-german">${card.german}</div>
+            <div style="font-size:0.8rem;color:var(--text-muted);margin-top:20px">Klicken zum Umdrehen ↻</div>
+          </div>
+          <div class="flashcard-back">
+            <div style="font-size:0.75rem;color:var(--accent-blue);text-transform:uppercase;letter-spacing:1px;margin-bottom:16px">Englisch</div>
+            <div class="flashcard-english">${card.english}</div>
+            ${card.example ? `<div class="flashcard-example"><strong>Beispiel:</strong><br>${card.example}</div>` : ''}
+            <div style="font-size:0.8rem;color:var(--text-muted);margin-top:20px">Klicken zum Umdrehen ↻</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="max-width:500px;margin:0 auto">
+        <div id="front-btns" style="display:flex;justify-content:center;gap:12px">
+          <button class="btn-secondary" style="flex:1" onclick="prevFlashcard()" ${flashcardIndex === 0 ? 'disabled' : ''}>◀ Zurück</button>
+          <button class="btn-primary" style="flex:2" onclick="flipFlashcard()">↻ Umdrehen</button>
+        </div>
+
+        <div id="back-btns" class="hidden" style="display:flex;justify-content:center;gap:12px">
+          <button class="btn-secondary" style="background:#ef444415; border-color:#ef444444; color:#f87171; flex:1" onclick="markFlashcard('wrong')">❌ Falsch</button>
+          <button class="btn-secondary" style="flex:1" onclick="flipFlashcard()">↻ Umdrehen</button>
+          <button class="btn-primary" style="background:#22c55e15; border-color:#22c55e44; color:#4ade80; flex:1" onclick="markFlashcard('right')">✅ Richtig</button>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function flipFlashcard() {
+  const el = document.getElementById('flashcard-element');
+  if (!el) return;
+  el.classList.toggle('flipped');
+  
+  const isFlipped = el.classList.contains('flipped');
+  const frontBtns = document.getElementById('front-btns');
+  const backBtns = document.getElementById('back-btns');
+  
+  if (frontBtns && backBtns) {
+    if (isFlipped) {
+      frontBtns.classList.add('hidden');
+      backBtns.classList.remove('hidden');
+    } else {
+      frontBtns.classList.remove('hidden');
+      backBtns.classList.add('hidden');
+    }
+  }
+}
+
+function markFlashcard(result) {
+  if (flashcardIndex < flashcardsList.length) {
+    flashcardResults[flashcardIndex] = result;
+  }
+  
+  const el = document.getElementById('flashcard-element');
+  if (el) el.classList.remove('flipped');
+  
+  const frontBtns = document.getElementById('front-btns');
+  const backBtns = document.getElementById('back-btns');
+  if (frontBtns && backBtns) {
+    frontBtns.classList.remove('hidden');
+    backBtns.classList.add('hidden');
+  }
+  
+  setTimeout(() => {
+    flashcardIndex++;
+    renderLesson();
+  }, 200);
+}
+
+function nextFlashcard() {
+  flashcardIndex++;
+  renderLesson();
+}
+
+function prevFlashcard() {
+  if (flashcardIndex > 0) {
+    const el = document.getElementById('flashcard-element');
+    if (el) el.classList.remove('flipped');
+    
+    const frontBtns = document.getElementById('front-btns');
+    const backBtns = document.getElementById('back-btns');
+    if (frontBtns && backBtns) {
+      frontBtns.classList.remove('hidden');
+      backBtns.classList.add('hidden');
+    }
+    
+    setTimeout(() => {
+      flashcardIndex--;
+      renderLesson();
+    }, 200);
+  }
+}
+
+function shuffleFlashcards() {
+  // Shuffle flashcardsList using Fisher-Yates
+  for (let i = flashcardsList.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [flashcardsList[i], flashcardsList[j]] = [flashcardsList[j], flashcardsList[i]];
+  }
+  flashcardIndex = 0;
+  flashcardResults = new Array(flashcardsList.length).fill(null);
+  renderLesson();
+}
+
+function reviewWrongFlashcards() {
+  const wrongCards = [];
+  flashcardsList.forEach((card, idx) => {
+    if (flashcardResults[idx] === 'wrong') {
+      wrongCards.push(card);
+    }
+  });
+  
+  flashcardsList = wrongCards;
+  flashcardIndex = 0;
+  flashcardResults = new Array(flashcardsList.length).fill(null);
+  renderLesson();
+}
+function restartAllFlashcards() {
+  flashcardsList = [...originalVocabList];
+  flashcardIndex = 0;
+  flashcardResults = new Array(flashcardsList.length).fill(null);
+  renderLesson();
+}
+
+/* ============================================
+   EXERCISE RENDERER
+   ============================================ */
+function renderExercise(lesson) {
+  const exercises = examMode ? (lesson.exam || []) : (lesson.exercises || []);
+  const container = document.getElementById('phase-content');
+
+  if (exerciseIndex >= exercises.length) {
+    renderResults(lesson);
+    return;
+  }
+
+  const ex = exercises[exerciseIndex];
+  const total = exercises.length;
+  const pct = Math.round((exerciseIndex / total) * 100);
+  exerciseAnswered = false;
+
+  let html = `
+    <div class="exercise-container">
+      <div class="exercise-progress">
+        <span class="exercise-counter">${exerciseIndex + 1} / ${total}</span>
+        <div class="exercise-progress-bar"><div class="exercise-progress-fill" style="width:${pct}%"></div></div>
+        <span class="exercise-score">✓ ${exerciseScore}</span>
+      </div>
+      <div class="exercise-card" id="exercise-card">
+  `;
+
+  switch (ex.type) {
+    case 'fill_blank': html += renderFillBlank(ex); break;
+    case 'multiple_choice': html += renderMultipleChoice(ex); break;
+    case 'matching': html += renderMatching(ex); break;
+    case 'true_false': html += renderTrueFalse(ex); break;
+    case 'translation': html += renderTranslation(ex); break;
+    case 'reorder': html += renderReorder(ex); break;
+    default: html += `<p>Unknown exercise type: ${ex.type}</p>`;
+  }
+
+  html += `</div></div>`;
+  container.innerHTML = html;
+}
+
+function renderFillBlank(ex) {
+  const parts = ex.sentence.split('___');
+  return `
+    <div class="exercise-type-badge">Fill in the Blank</div>
+    <p class="exercise-instruction">${ex.instruction || 'Complete the sentence with the correct word.'}</p>
+    <p class="exercise-question">
+      ${parts[0]}<input type="text" class="fill-blank-input" id="fill-input" autocomplete="off" autofocus
+        onkeydown="if(event.key==='Enter')checkFillBlank()">${parts.length > 1 ? parts[1] : ''}
+    </p>
+    ${ex.hint ? `<p class="hint-text">💡 Hint: ${ex.hint}</p>` : ''}
+    <button class="submit-btn" onclick="checkFillBlank()">Überprüfen</button>
+    <div id="feedback"></div>
+  `;
+}
+
+function checkFillBlank() {
+  if (exerciseAnswered) return;
+  const input = document.getElementById('fill-input');
+  const val = input.value.trim();
+  if (!val) return;
+  exerciseAnswered = true;
+
+  const exercises = examMode ? LESSONS.find(l=>l.id===state.currentLesson).exam : LESSONS.find(l=>l.id===state.currentLesson).exercises;
+  const ex = exercises[exerciseIndex];
+  const correct = val.toLowerCase() === ex.answer.toLowerCase();
+
+  input.classList.add(correct ? 'correct' : 'incorrect');
+  input.disabled = true;
+
+  if (correct) {
+    exerciseScore++;
+    addXp(10);
+    showFloatingXp('+10 XP');
+  }
+
+  showFeedback(correct, ex.answer);
+}
+
+function renderMultipleChoice(ex) {
+  const letters = ['A','B','C','D','E','F'];
+  return `
+    <div class="exercise-type-badge">Multiple Choice</div>
+    <p class="exercise-instruction">${ex.instruction || 'Choose the correct answer.'}</p>
+    <p class="exercise-question">${ex.question}</p>
+    <div class="mc-options">
+      ${ex.options.map((opt, i) => `
+        <div class="mc-option" id="mc-${i}" onclick="checkMC(${i})">
+          <span class="mc-letter">${letters[i]}</span>
+          <span>${opt}</span>
+        </div>
+      `).join('')}
+    </div>
+    <div id="feedback"></div>
+  `;
+}
+
+function checkMC(idx) {
+  if (exerciseAnswered) return;
+  exerciseAnswered = true;
+
+  const exercises = examMode ? LESSONS.find(l=>l.id===state.currentLesson).exam : LESSONS.find(l=>l.id===state.currentLesson).exercises;
+  const ex = exercises[exerciseIndex];
+  const correct = idx === ex.answer;
+
+  document.getElementById(`mc-${idx}`).classList.add(correct ? 'correct' : 'incorrect');
+  if (!correct) document.getElementById(`mc-${ex.answer}`).classList.add('correct');
+
+  document.querySelectorAll('.mc-option').forEach(el => el.style.pointerEvents = 'none');
+
+  if (correct) { exerciseScore++; addXp(10); showFloatingXp('+10 XP'); }
+  showFeedback(correct, ex.options[ex.answer]);
+}
+
+function renderTrueFalse(ex) {
+  return `
+    <div class="exercise-type-badge">True or False</div>
+    <p class="exercise-instruction">${ex.instruction || 'Is this statement true or false?'}</p>
+    <p class="exercise-question">${ex.statement}</p>
+    <div class="tf-options">
+      <button class="tf-btn" id="tf-true" onclick="checkTF(true)">✓ Richtig (True)</button>
+      <button class="tf-btn" id="tf-false" onclick="checkTF(false)">✗ Falsch (False)</button>
+    </div>
+    <div id="feedback"></div>
+  `;
+}
+
+function checkTF(val) {
+  if (exerciseAnswered) return;
+  exerciseAnswered = true;
+
+  const exercises = examMode ? LESSONS.find(l=>l.id===state.currentLesson).exam : LESSONS.find(l=>l.id===state.currentLesson).exercises;
+  const ex = exercises[exerciseIndex];
+  const correct = val === ex.answer;
+
+  const btnId = val ? 'tf-true' : 'tf-false';
+  document.getElementById(btnId).classList.add(correct ? 'correct' : 'incorrect');
+  if (!correct) {
+    document.getElementById(ex.answer ? 'tf-true' : 'tf-false').classList.add('correct');
+  }
+
+  document.querySelectorAll('.tf-btn').forEach(b => b.disabled = true);
+
+  if (correct) { exerciseScore++; addXp(10); showFloatingXp('+10 XP'); }
+  showFeedback(correct, ex.answer ? 'Richtig (True)' : 'Falsch (False)');
+}
+
+function renderMatching(ex) {
+  matchState = { selected: null, matched: [], pairs: ex.pairs };
+  const left = ex.pairs.map((p,i) => ({text: p[0], idx: i}));
+  const right = ex.pairs.map((p,i) => ({text: p[1], idx: i}));
+  // Shuffle both sides independently
+  for (let i = left.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [left[i], left[j]] = [left[j], left[i]];
+  }
+  for (let i = right.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [right[i], right[j]] = [right[j], right[i]];
+  }
+
+  return `
+    <div class="exercise-type-badge">Matching</div>
+    <p class="exercise-instruction">${ex.instruction || 'Match the German words with their English translations.'}</p>
+    <div class="matching-container" id="matching-grid">
+      <div>
+        ${left.map(l => `<div class="match-item" id="ml-${l.idx}" onclick="selectMatch('left',${l.idx})" style="margin-bottom:10px">${l.text}</div>`).join('')}
+      </div>
+      <div>
+        ${right.map(r => `<div class="match-item" id="mr-${r.idx}" onclick="selectMatch('right',${r.idx})" style="margin-bottom:10px">${r.text}</div>`).join('')}
+      </div>
+    </div>
+    <div id="feedback"></div>
+  `;
+}
+
+function selectMatch(side, idx) {
+  if (matchState.matched.includes(idx) && side === 'left') return;
+
+  if (side === 'left') {
+    document.querySelectorAll('.matching-container > div:first-child .match-item').forEach(el => el.classList.remove('selected'));
+    document.getElementById(`ml-${idx}`).classList.add('selected');
+    matchState.selected = { side: 'left', idx };
+  } else {
+    if (!matchState.selected || matchState.selected.side !== 'left') return;
+    const leftIdx = matchState.selected.idx;
+    if (leftIdx === idx) {
+      // Correct match!
+      matchState.matched.push(idx);
+      document.getElementById(`ml-${idx}`).classList.add('matched');
+      document.getElementById(`ml-${idx}`).classList.remove('selected');
+      document.getElementById(`mr-${idx}`).classList.add('matched');
+      matchState.selected = null;
+
+      if (matchState.matched.length === matchState.pairs.length) {
+        exerciseAnswered = true;
+        exerciseScore++;
+        addXp(10);
+        showFloatingXp('+10 XP');
+        showFeedback(true, 'Alle Paare richtig!');
+      }
+    } else {
+      document.getElementById(`mr-${idx}`).classList.add('wrong');
+      setTimeout(() => document.getElementById(`mr-${idx}`).classList.remove('wrong'), 400);
+    }
+  }
+}
+
+function renderTranslation(ex) {
+  return `
+    <div class="exercise-type-badge">Translation</div>
+    <p class="exercise-instruction">${ex.instruction || 'Translate the following sentence.'}</p>
+    <div class="translation-source">${ex.source}</div>
+    <input type="text" class="translation-input" id="trans-input" placeholder="Type your translation..." autocomplete="off"
+      onkeydown="if(event.key==='Enter')checkTranslation()">
+    <button class="submit-btn" onclick="checkTranslation()">Überprüfen</button>
+    <div id="feedback"></div>
+  `;
+}
+
+function checkTranslation() {
+  if (exerciseAnswered) return;
+  const input = document.getElementById('trans-input');
+  const val = input.value.trim();
+  if (!val) return;
+  exerciseAnswered = true;
+
+  const exercises = examMode ? LESSONS.find(l=>l.id===state.currentLesson).exam : LESSONS.find(l=>l.id===state.currentLesson).exercises;
+  const ex = exercises[exerciseIndex];
+
+  // Normalize both strings for comparison
+  const normalize = s => s.toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ').trim();
+  const correct = normalize(val) === normalize(ex.target);
+
+  input.classList.add(correct ? 'correct' : 'incorrect');
+  input.style.borderColor = correct ? 'var(--success)' : 'var(--error)';
+  input.disabled = true;
+
+  if (correct) { exerciseScore++; addXp(10); showFloatingXp('+10 XP'); }
+  showFeedback(correct, ex.target);
+}
+
+function renderReorder(ex) {
+  reorderState = [];
+  const shuffled = [...ex.words];
+  // Fisher-Yates shuffle
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return `
+    <div class="exercise-type-badge">Word Order</div>
+    <p class="exercise-instruction">${ex.instruction || 'Put the words in the correct order to form a sentence.'}</p>
+    <div class="reorder-answer-area" id="reorder-answer" onclick=""></div>
+    <div class="reorder-tiles" id="reorder-tiles">
+      ${shuffled.map((w,i) => `<div class="reorder-tile" id="rtile-${i}" data-word="${w}" onclick="addReorderWord(this, ${i})">${w}</div>`).join('')}
+    </div>
+    <button class="submit-btn" onclick="checkReorder()">Überprüfen</button>
+    <div id="feedback"></div>
+  `;
+}
+
+function addReorderWord(el, idx) {
+  if (exerciseAnswered) return;
+  if (el.classList.contains('used')) return;
+  el.classList.add('used');
+  reorderState.push(el.dataset.word);
+  renderReorderAnswer();
+}
+
+function removeReorderWord(idx) {
+  if (exerciseAnswered) return;
+  const word = reorderState[idx];
+  reorderState.splice(idx, 1);
+  // Un-use the tile
+  document.querySelectorAll('.reorder-tile').forEach(el => {
+    if (el.dataset.word === word && el.classList.contains('used')) {
+      el.classList.remove('used');
+    }
+  });
+  renderReorderAnswer();
+}
+
+function renderReorderAnswer() {
+  const area = document.getElementById('reorder-answer');
+  area.innerHTML = reorderState.map((w,i) =>
+    `<div class="reorder-placed" onclick="removeReorderWord(${i})">${w}</div>`
+  ).join('');
+}
+
+function checkReorder() {
+  if (exerciseAnswered) return;
+  if (reorderState.length === 0) return;
+  exerciseAnswered = true;
+
+  const exercises = examMode ? LESSONS.find(l=>l.id===state.currentLesson).exam : LESSONS.find(l=>l.id===state.currentLesson).exercises;
+  const ex = exercises[exerciseIndex];
+
+  const userAnswer = reorderState.join(' ');
+  const normalize = s => s.toLowerCase().replace(/[.,!?;:'"]/g, '').replace(/\s+/g, ' ').trim();
+  const correct = normalize(userAnswer) === normalize(ex.answer);
+
+  if (correct) { exerciseScore++; addXp(10); showFloatingXp('+10 XP'); }
+  showFeedback(correct, ex.answer);
+}
+
+/* ============================================
+   FEEDBACK & NAVIGATION
+   ============================================ */
+function showFeedback(correct, correctAnswer) {
+  const fb = document.getElementById('feedback');
+  fb.innerHTML = `
+    <div class="feedback-box ${correct ? 'correct' : 'incorrect'}">
+      ${correct ? '✓ Sehr gut! Richtig!' : '✗ Leider falsch.'}
+      ${!correct ? `<div class="correct-answer">Richtige Antwort: <strong>${correctAnswer}</strong></div>` : ''}
+    </div>
+    <button class="next-exercise-btn" onclick="nextExercise()">
+      Weiter →
+    </button>
+  `;
+}
+
+function nextExercise() {
+  exerciseIndex++;
+  const lesson = LESSONS.find(l => l.id === state.currentLesson);
+  const exercises = examMode ? (lesson.exam || []) : (lesson.exercises || []);
+
+  if (exerciseIndex >= exercises.length) {
+    renderResults(lesson);
+  } else {
+    renderExercise(lesson);
+  }
+}
+
+function showFloatingXp(text) {
+  const el = document.createElement('div');
+  el.className = 'xp-float';
+  el.textContent = text;
+  el.style.left = '50%';
+  el.style.top = '50%';
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 1100);
+}
+
+/* ============================================
+   RESULTS
+   ============================================ */
+function renderResults(lesson) {
+  const exercises = examMode ? (lesson.exam || []) : (lesson.exercises || []);
+  const total = exercises.length;
+  const pct = total > 0 ? Math.round((exerciseScore / total) * 100) : 0;
+  const stars = scoreToStars(pct);
+  const passed = pct >= 50;
+
+  let emoji, message;
+  if (pct >= 90) { emoji = '🏆'; message = 'Ausgezeichnet! Du bist ein Deutschprofi!'; }
+  else if (pct >= 70) { emoji = '🎉'; message = 'Sehr gut! Weiter so!'; }
+  else if (pct >= 50) { emoji = '👍'; message = 'Gut gemacht! Raum für Verbesserung.'; }
+  else { emoji = '💪'; message = 'Weiter üben! Du schaffst das!'; }
+
+  if (lesson.id === 999) {
+    if (passed) {
+      const activeLevel = state.activeLevel || "A2.1";
+      state.finalExamCompleted[activeLevel] = true;
+      state.finalExamScore[activeLevel] = pct;
+      addXp(100);
+      showFloatingXp('+100 XP');
+      saveState();
+      updateSidebar();
+    }
+  } else if (examMode && passed) {
+    // Record completion
+    const prev = state.completedLessons[lesson.id];
+    if (!prev || pct > (prev.bestScore || 0)) {
+      state.completedLessons[lesson.id] = { stars, score: pct, bestScore: pct };
+    }
+    saveState();
+    updateSidebar();
+  }
+
+  const container = document.getElementById('phase-content') || document.getElementById('main-content');
+  
+  let actionsHtml = '';
+  if (lesson.id === 999) {
+    if (passed) {
+      actionsHtml = `<button class="btn-primary" onclick="showFinalExamCertificate()">🎓 Zertifikat anzeigen</button>`;
+    } else {
+      actionsHtml = `<button class="btn-primary" onclick="startFinalExam()">Nochmal versuchen</button>`;
+    }
+    actionsHtml += `<button class="btn-secondary" onclick="showDashboard()">🏠 Dashboard</button>`;
+  } else {
+    actionsHtml = `
+      ${examMode && passed ? `<button class="btn-primary" onclick="goToNextLesson()">Nächste Lektion →</button>` : ''}
+      ${examMode && !passed ? `<button class="btn-primary" onclick="setPhase('exam')">Nochmal versuchen</button>` : ''}
+      ${!examMode ? `<button class="btn-primary" onclick="setPhase('exam')">Zur Prüfung →</button>` : ''}
+      <button class="btn-secondary" onclick="setPhase('lecture')">📖 Vorlesung</button>
+      <button class="btn-secondary" onclick="showDashboard()">🏠 Dashboard</button>
+    `;
+  }
+
+  container.innerHTML = `
+    <div class="results-card">
+      <div class="result-emoji">${emoji}</div>
+      <h3>${lesson.id === 999 ? 'Ergebnis der Abschlussprüfung' : (examMode ? 'Prüfungsergebnis' : 'Übungsergebnis')}</h3>
+      <div class="result-score">${pct}%</div>
+      <div class="results-stars">${'⭐'.repeat(stars)}${'☆'.repeat(3-stars)}</div>
+      <p class="result-message">${message}<br>${exerciseScore} von ${total} richtig</p>
+      <div class="results-actions">
+        ${actionsHtml}
+      </div>
+    </div>
+  `;
+}
+
+function goToNextLesson() {
+  const current = state.currentLesson;
+  const next = LESSONS.find(l => l.id === current + 1);
+  if (next) openLesson(next.id);
+  else showDashboard();
+}
+
+/* ============================================
+   EXAM (reuses exercise renderer with examMode=true)
+   ============================================ */
+function renderExam(lesson) {
+  examMode = true;
+  renderExercise(lesson);
+}
+
+/* ============================================
+   FINAL EXAM
+   ============================================ */
+function showFinalExam() {
+  const activeLevel = state.activeLevel || "A2.1";
+  const levelLessons = LESSONS.filter(l => getLessonLevel(l.id) === activeLevel);
+  const levelDone = levelLessons.every(l => isLessonCompleted(l.id));
+  if (!levelDone) return;
+
+  const examCompleted = state.finalExamCompleted[activeLevel];
+  if (examCompleted) {
+    showFinalExamCertificate();
+    return;
+  }
+
+  state.currentLesson = null;
+  updateSidebar();
+
+  document.getElementById('main-content').innerHTML = `
+    <div class="final-exam-intro">
+      <h2>🏆 ${activeLevel} Abschlussprüfung</h2>
+      <p style="color:var(--text-secondary);max-width:500px;margin:0 auto 24px">
+        Dies ist die umfassende Abschlussprüfung über alle Lektionen des Levels ${activeLevel}.
+        50 Fragen aus allen Modulen. Viel Erfolg!
+      </p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:400px;margin:0 auto 30px">
+        <div class="stat-card"><div class="stat-value">50</div><div class="stat-label">Fragen</div></div>
+        <div class="stat-card"><div class="stat-value">45</div><div class="stat-label">Minuten</div></div>
+        <div class="stat-card"><div class="stat-value">70%</div><div class="stat-label">Bestehen</div></div>
+      </div>
+      <button class="continue-btn" onclick="startFinalExam()">Prüfung starten →</button>
+    </div>
+  `;
+}
+
+function startFinalExam() {
+  const activeLevel = state.activeLevel || "A2.1";
+  const levelLessons = LESSONS.filter(l => getLessonLevel(l.id) === activeLevel);
+
+  // Gather 50 random exam questions from active level lessons (2-3 per lesson)
+  const allQuestions = [];
+  levelLessons.forEach(lesson => {
+    const pool = [...(lesson.exam || []), ...(lesson.exercises || [])];
+    const shuffled = pool.sort(() => Math.random() - 0.5);
+    allQuestions.push(...shuffled.slice(0, 3));
+  });
+  // Shuffle and take 50
+  const finalQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, 50);
+
+  // Create a virtual "final exam lesson"
+  const finalLesson = {
+    id: 999,
+    title: `Abschlussprüfung ${activeLevel}`,
+    titleDe: `Final Comprehensive Exam ${activeLevel}`,
+    icon: '🏆',
+    type: 'exam',
+    lectureContent: [],
+    exercises: [],
+    exam: finalQuestions
+  };
+
+  // Temporarily add to LESSONS
+  const existingIdx = LESSONS.findIndex(l => l.id === 999);
+  if (existingIdx >= 0) LESSONS.splice(existingIdx, 1);
+  LESSONS.push(finalLesson);
+
+  state.currentLesson = 999;
+  currentPhase = 'exam';
+  exerciseIndex = 0;
+  exerciseScore = 0;
+  exerciseAnswered = false;
+  examMode = true;
+
+  document.getElementById('main-content').innerHTML = `
+    <div class="lesson-header">
+      <div class="lesson-breadcrumb">${activeLevel} Abschlussprüfung</div>
+      <h2>🏆 Umfassende Abschlussprüfung</h2>
+      <div class="lesson-subtitle">50 Fragen aus allen Modulen von Level ${activeLevel}</div>
+    </div>
+    <div id="phase-content"></div>
+  `;
+
+  renderExercise(finalLesson);
+}
+
+function showFinalExamCertificate() {
+  const activeLevel = state.activeLevel || "A2.1";
+  const score = state.finalExamScore[activeLevel] || 0;
+  document.getElementById('main-content').innerHTML = `
+    <div class="certificate-card">
+      <div style="font-size:4rem;margin-bottom:16px">🎓</div>
+      <h2>Zertifikat</h2>
+      <p style="color:var(--text-secondary);font-size:1.1rem;margin:16px 0">DeutschMeister ${activeLevel} Kurs</p>
+      <div style="font-size:3rem;font-weight:800;color:var(--gold);margin:20px 0">${score}%</div>
+      <p style="color:var(--text-secondary)">Herzlichen Glückwunsch! Du hast den Kurs ${activeLevel} erfolgreich abgeschlossen.</p>
+      <p style="color:var(--text-muted);font-size:0.8rem;margin-top:24px">${new Date().toLocaleDateString('de-DE', {year:'numeric',month:'long',day:'numeric'})}</p>
+      <button class="btn-primary" style="margin-top:24px" onclick="showDashboard()">Zurück zum Dashboard</button>
+    </div>
+  `;
+}
+
+/* ============================================
+   UTILITIES
+   ============================================ */
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+}
+
+function resetProgress() {
+  if (confirm('Bist du sicher? Aller Fortschritt wird gelöscht!\n\nAre you sure? All progress will be deleted!')) {
+    localStorage.removeItem(STORAGE_KEY);
+    state = getDefaultState();
+    showDashboard();
+  }
+}
+
+/* ============================================
+   INIT
+   ============================================ */
+updateStreak();
+showDashboard();
+
+/* ============================================
+   HERR PROFESSOR — CONTROLLER & AI LOGIC
+   ============================================ */
+let profState = {
+  tab: 'chat',
+  apiKey: localStorage.getItem('dm_gemini_api_key') || '',
+  langPref: localStorage.getItem('dm_prof_lang_pref') || 'de_en',
+  chatHistory: []
+};
+
+function toggleProfessorHub() {
+  const hub = document.getElementById('professor-hub');
+  const backdrop = document.getElementById('professor-backdrop');
+  const isOpen = hub.classList.contains('open');
+  if (isOpen) {
+    closeProfessorHub();
+  } else {
+    hub.classList.add('open');
+    backdrop.classList.add('open');
+    // Load stored key into input
+    const keyInput = document.getElementById('prof-api-key-input');
+    if (keyInput) keyInput.value = profState.apiKey;
+    const prefSelect = document.getElementById('prof-lang-pref');
+    if (prefSelect) prefSelect.value = profState.langPref;
+  }
+}
+
+function closeProfessorHub() {
+  document.getElementById('professor-hub').classList.remove('open');
+  document.getElementById('professor-backdrop').classList.remove('open');
+}
+
+function switchProfTab(tab) {
+  profState.tab = tab;
+  ['chat', 'corrector', 'settings'].forEach(t => {
+    const btn = document.getElementById('prof-tab-btn-' + t);
+    const content = document.getElementById('prof-content-' + t);
+    if (btn) btn.classList.toggle('active', t === tab);
+    if (content) content.classList.toggle('active', t === tab);
+  });
+}
+
+function showProfToast(msg) {
+  const toast = document.getElementById('prof-toast');
+  if (!toast) return;
+  toast.textContent = msg;
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 2800);
+}
+
+function toggleApiKeyVisibility() {
+  const input = document.getElementById('prof-api-key-input');
+  if (!input) return;
+  input.type = input.type === 'password' ? 'text' : 'password';
+}
+
+function saveApiKey() {
+  const input = document.getElementById('prof-api-key-input');
+  if (!input) return;
+  profState.apiKey = input.value.trim();
+  localStorage.setItem('dm_gemini_api_key', profState.apiKey);
+  showProfToast('API-Key erfolgreich gespeichert! 🔑');
+}
+
+function saveProfLangPref() {
+  const select = document.getElementById('prof-lang-pref');
+  if (!select) return;
+  profState.langPref = select.value;
+  localStorage.setItem('dm_prof_lang_pref', profState.langPref);
+  showProfToast('Spracheinstellungen aktualisiert! 🌐');
+}
+
+// Text counter
+document.addEventListener('DOMContentLoaded', () => {
+  const txt = document.getElementById('prof-corrector-text');
+  const cnt = document.getElementById('prof-char-count');
+  if (txt && cnt) {
+    txt.addEventListener('input', () => { cnt.textContent = txt.value.length; });
+  }
+});
+
+// Chat suggestion click
+function askProfSuggestion(text) {
+  const input = document.getElementById('prof-chat-input');
+  if (input) {
+    input.value = text;
+    sendProfChatMessage(new Event('submit'));
+  }
+}
+
+async function sendProfChatMessage(e) {
+  if (e && e.preventDefault) e.preventDefault();
+  const input = document.getElementById('prof-chat-input');
+  if (!input) return;
+  const message = input.value.trim();
+  if (!message) return;
+
+  appendProfChatMsg('user', message);
+  input.value = '';
+
+  const messagesDiv = document.getElementById('prof-chat-messages');
+  // Loading indicator
+  const loadingId = 'loading-' + Date.now();
+  const loadingEl = document.createElement('div');
+  loadingEl.id = loadingId;
+  loadingEl.className = 'prof-msg professor';
+  loadingEl.innerHTML = `
+    <div class="prof-msg-avatar">👨‍🏫</div>
+    <div class="prof-msg-bubble"><em>Herr Professor tippt...</em></div>
+  `;
+  messagesDiv.appendChild(loadingEl);
+  messagesDiv.scrollTop = messagesDiv.scrollHeight;
+
+  const currentLessonObj = LESSONS.find(l => l.id === state.currentLesson);
+  const lessonContext = currentLessonObj ? `Aktuelle Lektion: ${currentLessonObj.id} - ${currentLessonObj.titleDe}` : 'Allgemeine B1 Praxis';
+
+  if (profState.apiKey) {
+    try {
+      const systemPrompt = `Du bist Herr Professor, ein geduldiger, herzlicher und pädagogisch brillanter Deutschlehrer für Guillermo (Niveau B1, wohnt in Berlin).
+Erkläre kurz, präzise und lebendig. Wenn er Fehler macht, korrigiere sie sanft.
+Kontext: ${lessonContext}.
+Bevorzugte Sprache für Erklärungen: ${profState.langPref}.
+Halte Antworten kompakt (max 3-4 Absätze).`;
+
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${profState.apiKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [
+            { role: 'user', parts: [{ text: `${systemPrompt}\n\nSchüler fragt: ${message}` }] }
+          ]
+        })
+      });
+      const data = await response.json();
+      const reply = data?.candidates?.[0]?.content?.parts?.[0]?.text || 'Entschuldigung, ich konnte das gerade nicht verarbeiten.';
+      loadingEl.remove();
+      appendProfChatMsg('professor', reply.replace(/\n/g, '<br>'));
+      return;
+    } catch (err) {
+      console.warn('Gemini API call failed:', err);
+    }
+  }
+
+  // Fallback intelligent simulation
+  setTimeout(() => {
+    loadingEl.remove();
+    let reply = '';
+    const lower = message.toLowerCase();
+    if (lower.includes('weil') && lower.includes('deshalb')) {
+      reply = `<strong>Der Unterschied zwischen weil und deshalb ist die Satzstellung:</strong><br><br>
+1. <strong>weil (Nebensatz)</strong>: Das Verb muss ans <em>allerletzte Ende</em>!<br>
+👉 <em>„Ich bleibe zu Hause, weil ich krank <strong>bin</strong>.“</em><br><br>
+2. <strong>deshalb (Hauptsatz)</strong>: Das Verb steht direkt an <em>Position 2</em> (Inversion)!<br>
+👉 <em>„Ich bin krank, deshalb <strong>bleibe</strong> ich zu Hause.“</em>`;
+    } else if (lower.includes('obwohl')) {
+      reply = `<strong>„obwohl“ leitet einen Nebensatz ein (Verb am Ende):</strong><br><br>
+👉 <em>„Ich gehe heute spazieren, obwohl es in Berlin <strong>regnet</strong>.“</em><br><br>
+Der Gegensatz dazu mit Position 2 ist <strong>trotzdem</strong>:<br>
+👉 <em>„Es regnet in Berlin. Trotzdem <strong>gehe</strong> ich spazieren.“</em>`;
+    } else if (lower.includes('berlin') || lower.includes('smalltalk')) {
+      reply = `<strong>Schön! Lass uns auf Deutsch sprechen.</strong><br><br>
+Wie gefällt dir das Leben in Berlin bisher? Was ist dein Lieblingsbezirk, und hast du am Wochenende Zeit zum Zocken oder gehst du raus?`;
+    } else {
+      reply = `Sehr gut, Guillermo! Ich habe deine Nachricht erhalten.<br><br>
+<em>„${message}“</em><br><br>
+💡 <strong>Tipp:</strong> Trage unter ⚙️ Einstellungen deinen kostenlosen Gemini API Key ein, damit ich dir in Echtzeit auf jede Frage individuell antworten kann. Oder klicke auf <strong>„Für Antigravity kopieren“</strong>, um mit mir im Hauptchat zu schreiben!`;
+    }
+    appendProfChatMsg('professor', reply);
+  }, 600);
+}
+
+function appendProfChatMsg(role, html) {
+  const container = document.getElementById('prof-chat-messages');
+  if (!container) return;
+  const msgEl = document.createElement('div');
+  msgEl.className = `prof-msg ${role}`;
+  msgEl.innerHTML = `
+    <div class="prof-msg-avatar">${role === 'user' ? '👤' : '👨‍🏫'}</div>
+    <div class="prof-msg-bubble">${html}</div>
+  `;
+  container.appendChild(msgEl);
+  container.scrollTop = container.scrollHeight;
+}
+
+// Corrector & Analysis
+function loadLessonPracticePrompt() {
+  const lesson = LESSONS.find(l => l.id === state.currentLesson);
+  const textarea = document.getElementById('prof-corrector-text');
+  if (!textarea) return;
+  if (lesson && lesson.id === 61) {
+    textarea.value = `1. Ich lerne Deutsch, weil ...\n2. Ich habe viel Stress bei der Arbeit, deshalb ...\n3. Ich gehe spazieren, obwohl ...`;
+  } else if (lesson) {
+    textarea.value = `Aufgabe zu Lektion ${lesson.id} (${lesson.titleDe}):\nSchreibe 2-3 Sätze zum Thema ${lesson.titleDe}...`;
+  } else {
+    textarea.value = `Ich wohne in Berlin und lerne Deutsch für meinen Beruf als Projektmanager.`;
+  }
+  const cnt = document.getElementById('prof-char-count');
+  if (cnt) cnt.textContent = textarea.value.length;
+}
+
+async function analyzeTextWithProfessor() {
+  const text = (document.getElementById('prof-corrector-text')?.value || '').trim();
+  const resultDiv = document.getElementById('prof-corrector-result');
+  if (!resultDiv) return;
+  if (!text) {
+    alert('Bitte gib zuerst einen Text auf Deutsch ein!');
+    return;
+  }
+
+  resultDiv.style.display = 'block';
+  resultDiv.innerHTML = '<div style="color:var(--gold);text-align:center;padding:12px">👨‍🏫 Herr Professor prüft deinen Satzbau und die Grammatik...</div>';
+
+  if (profState.apiKey) {
+    try {
+      const prompt = `Analysiere diesen deutschen Text eines B1-Schülers (Guillermo aus Honduras, lebt in Berlin):
+"${text}"
+
+Gib strukturiertes Feedback im HTML-Format:
+1. <strong>Gesamturteil:</strong> (Lob & Verständnis)
+2. <strong>Korrekturen:</strong> Liste jeden Fehler mit Erklärung (besonders Verbstellung bei weil/obwohl/deshalb, Akkusativ/Dativ, Nomen-Großschreibung).
+3. <strong>Perfekte Version:</strong> Korrigierter Satz.
+4. <strong>B1-Sprachtipp:</strong> Klingt noch natürlicher.
+Sprache der Erklärung: ${profState.langPref}.`;
+
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${profState.apiKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ role: 'user', parts: [{ text: prompt }] }]
+        })
+      });
+      const data = await response.json();
+      const reply = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      resultDiv.innerHTML = reply.replace(/\n/g, '<br>');
+      return;
+    } catch (e) {
+      console.warn('AI analysis error:', e);
+    }
+  }
+
+  // Heuristic rule-based grammar check
+  setTimeout(() => {
+    let issues = [];
+    let lower = text.toLowerCase();
+
+    // Check weil + verb
+    if (/weil\s+([a-zäöü]+)\s+(bin|habe|ist|kann|muss|wohne|spiele)/i.test(text)) {
+      issues.push(`⚠️ <strong>Verbstellung bei „weil“:</strong> Bei <em>weil</em> wandert das Verb ans Satzende (z. B. <em>„... weil ich in Berlin <strong>wohne</strong>.“</em>, nicht <em>„weil ich wohne in Berlin“</em>).`);
+    }
+
+    // Check deshalb + inversion
+    if (/deshalb\s+([a-zäöü]+)\s+(bin|habe|ist|kann|muss|spiele|lerne)/i.test(text) && !/deshalb\s+(bin|habe|ist|kann|muss|spiele|lerne)/i.test(text)) {
+      issues.push(`⚠️ <strong>Verbstellung bei „deshalb“:</strong> <em>deshalb</em> besetzt Position 1, das Verb muss sofort an Position 2 folgen (z. B. <em>„... deshalb <strong>lerne</strong> ich“</em>, nicht <em>„deshalb ich lerne“</em>).`);
+    }
+
+    // Check lowercase nouns
+    const commonNouns = ['eltern', 'deutschland', 'berlin', 'arbeit', 'freundin', 'videospiele', 'woche', 'zeit'];
+    commonNouns.forEach(n => {
+      const reg = new RegExp('\\b' + n + '\\b', 'g');
+      if (reg.test(text)) {
+        issues.push(`💡 <strong>Großschreibung:</strong> Nomen werden im Deutschen großgeschrieben: <em>${n.charAt(0).toUpperCase() + n.slice(1)}</em>.`);
+      }
+    });
+
+    let html = `
+      <div style="font-weight:700;color:var(--gold);margin-bottom:8px">📋 Analyse von Herrn Professor:</div>
+      <div style="margin-bottom:10px">Dein Text: <em>"${text}"</em></div>
+    `;
+
+    if (issues.length > 0) {
+      html += `<div style="background:rgba(239,68,68,0.1);border-left:3px solid var(--accent-red);padding:10px;margin-bottom:12px;border-radius:4px">
+        ${issues.join('<br><br>')}
+      </div>`;
+    } else {
+      html += `<div style="background:rgba(34,197,94,0.1);border-left:3px solid var(--success);padding:10px;margin-bottom:12px;border-radius:4px">
+        ✅ <strong>Sehr gut!</strong> Keine offensichtlichen Satzbaufehler bei den Hauptkonnektoren gefunden.
+      </div>`;
+    }
+
+    html += `
+      <div style="font-size:0.8rem;color:var(--text-muted);margin-top:10px">
+        💡 <strong>Tipp:</strong> Klicke auf <em>„Für Antigravity kopieren“</em>, um den Text im Unterricht mit deinem Professor im Hauptchat auszuwerten!
+      </div>
+    `;
+    resultDiv.innerHTML = html;
+  }, 400);
+}
+
+function copyTextForChat() {
+  const text = (document.getElementById('prof-corrector-text')?.value || '').trim();
+  const lesson = LESSONS.find(l => l.id === state.currentLesson);
+  const lessonTitle = lesson ? `Lektion ${lesson.id}: ${lesson.titleDe}` : 'B1 Übung';
+
+  const exportText = `Hallo Professor! Hier ist meine Aufgabe zu [${lessonTitle}]:\n\n${text}\n\nKannst du meine Sätze bitte analysieren und korrigieren?`;
+  navigator.clipboard.writeText(exportText).then(() => {
+    showProfToast('Kopiert! Füge es einfach im Chat ein 📋');
+  }).catch(() => {
+    alert('Konnte nicht kopieren. Bitte markiere den Text manuell.');
+  });
+}
+
+// 5th Phase: Professor Praxis View
+function renderProfessorPraxis(lesson) {
+  const container = document.getElementById('phase-content');
+  if (!container) return;
+
+  let missionText = '';
+  let instruction = '';
+  let example = '';
+
+  if (lesson.id === 61) {
+    missionText = '🧩 Dein Satzbau-Workout: Verbinde dein Leben in Berlin mit weil, deshalb und obwohl!';
+    instruction = 'Schreibe 3 vollständige Sätze über dich selbst (deine Arbeit als Projektmanager, Videospiele, deine Fast-Freundin oder das Wetter in Berlin). Achte genau auf das Verb:';
+    example = '1. <em>Ich lerne Deutsch, weil ich in Berlin lebe.</em> (Verb am Ende)<br>2. <em>Ich mag Videospiele, deshalb spiele ich abends Pokémon.</em> (Verb an Pos. 2)<br>3. <em>Ich gehe spazieren, obwohl es in Berlin regnet.</em> (Verb am Ende)';
+  } else {
+    missionText = `🗣️ Freie Konversationsaufgabe: ${lesson.titleDe}`;
+    instruction = `Wende das Gelernte aus Lektion ${lesson.id} an und bilde 2-3 eigene Sätze:`;
+    example = `Benutze den Wortschatz und die Redemittel dieser Lektion in deinem eigenen Kontext.`;
+  }
+
+  container.innerHTML = `
+    <div class="praxis-card">
+      <div class="praxis-badge">👨‍🏫 Individuelle Professor-Aufgabe</div>
+      <div class="praxis-mission">${missionText}</div>
+      <p class="praxis-instruction">${instruction}</p>
+      <div class="praxis-examples">${example}</div>
+
+      <textarea id="praxis-input" class="prof-textarea" rows="5" placeholder="Schreib hier deine Sätze auf Deutsch..."></textarea>
+      
+      <div style="display:flex;gap:12px;margin-top:16px;flex-wrap:wrap">
+        <button class="btn-primary" onclick="submitPraxisToProfessor()">⚡ Mit Professor analysieren</button>
+        <button class="btn-secondary" onclick="copyPraxisToClipboard()">📋 Für Antigravity-Chat kopieren</button>
+      </div>
+    </div>
+  `;
+}
+
+function submitPraxisToProfessor() {
+  const input = document.getElementById('praxis-input');
+  if (!input || !input.value.trim()) {
+    alert('Bitte schreibe zuerst deine Sätze in das Textfeld!');
+    return;
+  }
+  toggleProfessorHub();
+  switchProfTab('corrector');
+  const correctorText = document.getElementById('prof-corrector-text');
+  if (correctorText) {
+    correctorText.value = input.value.trim();
+    const cnt = document.getElementById('prof-char-count');
+    if (cnt) cnt.textContent = correctorText.value.length;
+  }
+  analyzeTextWithProfessor();
+}
+
+function copyPraxisToClipboard() {
+  const input = document.getElementById('praxis-input');
+  if (!input || !input.value.trim()) {
+    alert('Bitte schreibe zuerst deine Sätze in das Textfeld!');
+    return;
+  }
+  const lesson = LESSONS.find(l => l.id === state.currentLesson);
+  const lessonTitle = lesson ? `Lektion ${lesson.id}: ${lesson.titleDe}` : 'B1 Übung';
+  const exportText = `Hallo Professor! Hier ist meine Antwort zur Praxisaufgabe [${lessonTitle}]:\n\n${input.value.trim()}\n\nWie bewertest du meinen Satzbau und mein Deutsch?`;
+  navigator.clipboard.writeText(exportText).then(() => {
+    showProfToast('Kopiert! Füge es einfach im Antigravity-Chat ein 📋');
+  });
+}
+
+</script>
+
+<!-- Floating Professor FAB Button -->
+<button class="professor-fab" onclick="toggleProfessorHub()" title="Dein persönlicher Deutschlehrer & Korrektor">
+  <span class="professor-fab-avatar">👨‍🏫</span>
+  <span class="professor-fab-label">Herr Professor</span>
+</button>
+
+<!-- Backdrop -->
+<div class="professor-backdrop" id="professor-backdrop" onclick="closeProfessorHub()"></div>
+
+<!-- Sliding Professor Hub Drawer -->
+<aside class="professor-hub" id="professor-hub" aria-label="Professor Assistant">
+  <div class="prof-header">
+    <div class="prof-title-box">
+      <div class="prof-avatar-large">👨‍🏫</div>
+      <div>
+        <h3>Herr Professor</h3>
+        <div class="prof-status"><span class="status-dot"></span> Bereit für Fragen & Feedback</div>
+      </div>
+    </div>
+    <button class="prof-close-btn" onclick="closeProfessorHub()" aria-label="Schließen">✕</button>
+  </div>
+
+  <div class="prof-nav-tabs">
+    <button class="prof-tab active" id="prof-tab-btn-chat" onclick="switchProfTab('chat')">💬 Live-Chat</button>
+    <button class="prof-tab" id="prof-tab-btn-corrector" onclick="switchProfTab('corrector')">✍️ Text-Korrektor</button>
+    <button class="prof-tab" id="prof-tab-btn-settings" onclick="switchProfTab('settings')">⚙️ Einstellungen</button>
+  </div>
+
+  <!-- Tab 1: Live Chat -->
+  <div class="prof-tab-content active" id="prof-content-chat">
+    <div class="prof-chat-messages" id="prof-chat-messages">
+      <div class="prof-msg professor">
+        <div class="prof-msg-avatar">👨‍🏫</div>
+        <div class="prof-msg-bubble">
+          <strong>Hallo Guillermo!</strong><br>
+          Ich bin dein Deutschlehrer. Frag mich alles zur Grammatik, teste Sätze oder führe ein kurzes Alltagsgespräch mit mir auf Deutsch!
+        </div>
+      </div>
+    </div>
+    
+    <div class="prof-suggestions" id="prof-suggestions">
+      <button class="prof-chip" onclick="askProfSuggestion('Erklär mir den Unterschied zwischen weil und deshalb!')">💡 weil vs. deshalb</button>
+      <button class="prof-chip" onclick="askProfSuggestion('Wie baue ich einen Satz mit obwohl?')">💡 Satz mit 'obwohl'</button>
+      <button class="prof-chip" onclick="askProfSuggestion('Lass uns ein kurzes Alltagsgespräch über Berlin führen!')">☕ Smalltalk auf Deutsch</button>
+    </div>
+
+    <form class="prof-chat-input-bar" onsubmit="sendProfChatMessage(event)">
+      <input type="text" id="prof-chat-input" placeholder="Schreib deinem Professor auf Deutsch..." autocomplete="off">
+      <button type="submit" class="prof-send-btn" id="prof-send-btn">➤</button>
+    </form>
+  </div>
+
+  <!-- Tab 2: Corrector & Homework -->
+  <div class="prof-tab-content" id="prof-content-corrector">
+    <div class="prof-corrector-intro">
+      <p>Schreib hier deine Sätze oder Hausaufgaben auf Deutsch. Ich analysiere Satzbau, Verbstellung und Grammatikfehler:</p>
+      <button class="prof-chip" style="margin-top:8px" onclick="loadLessonPracticePrompt()">📝 Aufgabe aus aktueller Lektion laden</button>
+    </div>
+
+    <textarea id="prof-corrector-text" class="prof-textarea" rows="6" placeholder="Beispiel: Ich lerne Deutsch, weil ich wohne in Berlin..."></textarea>
+    <div class="prof-char-counter"><span id="prof-char-count">0</span> Zeichen</div>
+
+    <div class="prof-action-buttons">
+      <button class="prof-btn-primary" onclick="analyzeTextWithProfessor()">⚡ Im Browser analysieren</button>
+      <button class="prof-btn-secondary" onclick="copyTextForChat()">📋 Für Antigravity kopieren</button>
+    </div>
+
+    <div id="prof-corrector-result" class="prof-result-container" style="display:none"></div>
+  </div>
+
+  <!-- Tab 3: Settings -->
+  <div class="prof-tab-content" id="prof-content-settings">
+    <div style="background:var(--bg-card);border:1px solid var(--border-subtle);border-radius:12px;padding:16px">
+      <h4 style="color:var(--gold-light);margin-bottom:8px">🤖 Gemini KI-Anbindung</h4>
+      <p style="font-size:0.83rem;color:var(--text-secondary);margin-bottom:12px;line-height:1.5">
+        Für unbegrenzte, intelligente Live-Korrekturen und Chat im Browser kannst du deinen kostenlosen <strong>Google Gemini API Key</strong> eintragen. Er wird sicher ausschließlich lokal in deinem Browser (localStorage) gespeichert.
+      </p>
+      <label style="font-size:0.8rem;color:var(--gold);font-weight:600;display:block;margin-bottom:4px">Gemini API Key:</label>
+      <div style="display:flex;gap:8px;margin-bottom:12px">
+        <input type="password" id="prof-api-key-input" class="prof-textarea" style="min-height:auto;padding:8px 12px;flex:1" placeholder="AIzaSy...">
+        <button class="prof-btn-secondary" style="flex:none;padding:0 12px" onclick="toggleApiKeyVisibility()">👁️</button>
+      </div>
+      <button class="prof-btn-primary" style="width:100%;margin-bottom:12px" onclick="saveApiKey()">Key speichern</button>
+      <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener" style="color:var(--accent-blue);font-size:0.8rem;text-decoration:none;display:inline-block">
+        🔗 Kostenlosen Gemini Key auf Google AI Studio holen (30 Sek.) →
+      </a>
+
+      <hr style="border:0;border-top:1px solid var(--border-subtle);margin:18px 0">
+
+      <h4 style="color:var(--gold-light);margin-bottom:8px">🗣️ Sprache für Grammatikerklärungen</h4>
+      <select id="prof-lang-pref" class="prof-textarea" style="min-height:auto;padding:8px 12px" onchange="saveProfLangPref()">
+        <option value="de_en">Deutsch mit englischen Erklärungen</option>
+        <option value="de_es">Deutsch mit spanischen Erklärungen</option>
+        <option value="de_only">100% Deutsch (Immersion)</option>
+      </select>
+    </div>
+  </div>
+</aside>
+
+<!-- Toast -->
+<div id="prof-toast" class="prof-toast">In die Zwischenablage kopiert!</div>
+
+</body>
+</html>

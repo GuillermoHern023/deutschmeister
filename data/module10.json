@@ -1,0 +1,826 @@
+[
+  {
+    "id": 37,
+    "title": "Money",
+    "titleDe": "Das Geld",
+    "type": "vocabulary",
+    "icon": "💶",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Alltag & Geld",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>das Girokonto, -en</strong></td><td>checking account</td><td>Bei der Bank kann man ein Girokonto eröffnen.</td></tr><tr><td><strong>Geld abheben</strong></td><td>to withdraw money</td><td>Er möchte Geld vom Konto abheben.</td></tr><tr><td><strong>Geld einzahlen</strong></td><td>to deposit money</td><td>Ich zahle Geld auf mein Girokonto ein.</td></tr><tr><td><strong>das Bargeld (Sg.)</strong></td><td>cash</td><td>In Deutschland sollte man immer etwas Bargeld dabei haben.</td></tr><tr><td><strong>die Kreditkarte, -n</strong></td><td>credit card</td><td>Zahlen Sie bar oder mit Kreditkarte?</td></tr><tr><td><strong>die EC-Karte, -n</strong></td><td>debit card</td><td>Normalerweise benutzt man seine EC-Karte.</td></tr><tr><td><strong>sparen</strong></td><td>to save</td><td>Wenn ich genug spare, kann ich mir ein Auto leisten.</td></tr><tr><td><strong>sich etwas leisten</strong></td><td>to afford something</td><td>Das kann ich mir leider nicht leisten.</td></tr><tr><td><strong>die Währung, -en</strong></td><td>currency</td><td>Die meisten Länder der EU haben eine gemeinsame Währung.</td></tr><tr><td><strong>der Wechselkurs, -e</strong></td><td>exchange rate</td><td>Der Wechselkurs zwischen Euro und Dollar steht gut.</td></tr><tr><td><strong>Geld wechseln</strong></td><td>to exchange money</td><td>Für unseren Urlaub müssen wir Geld wechseln.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Investitionen & Wirtschaft",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>anlegen</strong></td><td>to invest</td><td>Stefan überlegt, wie er sein Geld am besten anlegen kann.</td></tr><tr><td><strong>die Investition, -en</strong></td><td>investment</td><td>Immobilien are meistens eine sichere Investition.</td></tr><tr><td><strong>die Aktie, -n</strong></td><td>share / stock</td><td>An der Börse wird mit Aktien gehandelt.</td></tr><tr><td><strong>die Immobilie, -n</strong></td><td>real estate / property</td><td>Auch in Immobilien kann man investieren.</td></tr><tr><td><strong>exportieren</strong></td><td>to export</td><td>In Deutschland werden mehr Güter exportiert als importiert.</td></tr><tr><td><strong>importieren</strong></td><td>to import</td><td>Die Wirtschaft importiert Rohstoffe aus anderen Ländern.</td></tr><tr><td><strong>sich verschulden</strong></td><td>to get into debt</td><td>Sich zu verschulden kann schlimm sein.</td></tr><tr><td><strong>die Schulden (Pl.)</strong></td><td>debts</td><td>Er hat viele Schulden gemacht und ist jetzt arm.</td></tr><tr><td><strong>der Kapitalismus</strong></td><td>capitalism</td><td>Im Kapitalismus wird der Markt nicht durch den Staat gelenkt.</td></tr><tr><td><strong>die Schere zwischen Arm und Reich</strong></td><td>the gap between rich and poor</td><td>Die Schere zwischen Arm und Reich geht immer weiter auseinander.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Umgangssprache & Redewendung",
+        "type": "idiom",
+        "content": "<h4>Umgangssprachlich:</h4><ul><li><strong>der Fünfer / der Zehner</strong>: Fünf-Euro- und Zehn-Euro-Scheine.<br/><em>Kannst du mir den 20-Euro-Schein kleinmachen? – Klar, ich habe zwei Fünfer und einen Zehner.</em></li><li><strong>kleinmachen</strong>: to break a bill / get change.<br/><em>Kannst du mir einen Fünfziger kleinmachen?</em></li></ul><h4>Redewendung:</h4><p><strong>Geld auf der hohen Kante haben</strong></p><p>Bedeutung: Geld gespart haben (to have money put aside / saved up).</p><p><em>Mein Auto ist kaputtgegangen und ich musste schnell ein neues kaufen. Gut, dass ich etwas Geld auf der hohen Kante hatte.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Bei der Bank kann man ein ___ eröffnen.",
+        "answer": "Girokonto",
+        "hint": "checking account"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'das Bargeld' mean?",
+        "options": [
+          "credit card",
+          "real estate",
+          "cash",
+          "investment"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their English meanings.",
+        "pairs": [
+          [
+            "Girokonto",
+            "checking account"
+          ],
+          [
+            "sparen",
+            "to save"
+          ],
+          [
+            "einzahlen",
+            "to deposit"
+          ],
+          [
+            "abheben",
+            "to withdraw"
+          ],
+          [
+            "anlegen",
+            "to invest"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Sich zu verschulden' means to get into debt.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I want to invest my money in real estate.",
+        "target": "Ich möchte mein Geld in Immobilien anlegen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "Geld",
+          "Ich",
+          "für",
+          "ein",
+          "neues",
+          "spare",
+          "Fahrrad"
+        ],
+        "answer": "Ich spare Geld für ein neues Fahrrad."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Kannst du mir den 20 €-Schein ___?",
+        "answer": "kleinmachen",
+        "hint": "to break / change a bill"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is the meaning of the idiom 'Geld auf der hohen Kante haben'?",
+        "options": [
+          "To have no money left",
+          "To have saved money",
+          "To invest in stocks",
+          "To lose money at the stock exchange"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In Germany, most people prefer to pay with credit cards.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Do you pay in cash or with card?",
+        "target": "Zahlen Sie bar oder mit Karte?"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following means 'checking account'?",
+        "options": [
+          "das Sparschwein",
+          "das Girokonto",
+          "die Schulden",
+          "der Wechselkurs"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "In Deutschland sollte man immer etwas ___ dabei haben.",
+        "answer": "Bargeld",
+        "hint": "cash"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Geld abheben' means to deposit money.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the correct translation of 'exchange rate'?",
+        "options": [
+          "die Währung",
+          "die Börse",
+          "der Wechselkurs",
+          "die Investition"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Man kann auf das Konto Geld einzahlen oder vom Konto Geld ___.",
+        "answer": "abheben",
+        "hint": "to withdraw"
+      },
+      {
+        "type": "translation",
+        "sentence": "If I save enough, I can afford a car.",
+        "answer": "Wenn ich genug spare, kann ich mir ein Auto leisten."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "schlimm",
+          "Sich",
+          "zu",
+          "kann",
+          "sein",
+          "verschulden"
+        ],
+        "answer": "Sich zu verschulden kann schlimm sein."
+      },
+      {
+        "type": "true_false",
+        "statement": "'Fünfer und Zehner' refers to five and ten euro bills.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Where are stocks (Aktien) traded?",
+        "options": [
+          "An der Börse",
+          "Auf dem Girokonto",
+          "Im Sparschwein",
+          "In der Währung"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die meisten Länder der EU haben eine gemeinsame ___.",
+        "answer": "Währung",
+        "hint": "currency"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "A Conversation about Money",
+    "titleDe": "Eine Unterhaltung über Geld",
+    "type": "speaking",
+    "icon": "💳",
+    "lectureContent": [
+      {
+        "sectionTitle": "Aussprache: Die Plosive (Plosives)",
+        "type": "grammar",
+        "content": "<p>In German, plosives are divided into voiced (stimmhaft) and voiceless (stimmlos) sounds:</p><ul><li><strong>b, g, d</strong> are <strong>stimmhaft</strong> (voiced) and pronounced softly.<br/><em>Examples: die Börse, das Bargeld, das Date</em></li><li><strong>p, t, k</strong> are <strong>stimmlos</strong> (voiceless) and pronounced hard.<br/><em>Examples: die Kreditkarte, das Sparkonto, der Reisepass</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Aussprache: Auslautverhärtung (Final Devoicing)",
+        "type": "grammar",
+        "content": "<p>When the voiced plosives <strong>b, d, g</strong> appear at the very end of a word or syllable, they undergo <strong>Auslautverhärtung</strong> (final devoicing) and are pronounced like their voiceless counterparts <strong>p, t, k</strong>:</p><ul><li><strong>b</strong> is pronounced like <strong>p</strong> — e.g., <em>der Urlaub</em></li><li><strong>d</strong> is pronounced like <strong>t</strong> — e.g., <em>das Geld, das Kleid</em></li><li><strong>g</strong> is pronounced like <strong>k</strong> — e.g., <em>der Antrag, der Zug</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Umgangssprachlich & Redewendung",
+        "type": "idiom",
+        "content": "<h4>Umgangssprachlich:</h4><p><strong>Das geht auf mein Konto.</strong></p><p>Bedeutung: Ich bin für etwas verantwortlich oder habe etwas gemacht (I'll take the blame / it's my responsibility).</p><p><em>– Wer hat meine Lieblingstasse zerbrochen?<br/>– Das geht auf mein Konto. Ich repariere das.</em></p><h4>Redewendung:</h4><p><strong>Zeit ist Geld.</strong></p><p>Bedeutung: Was viel Zeit dauert, kostet Geld. / Man sollte seine Zeit gut nutzen (Time is money).</p><p><em>Sie will ihren Laden schnell eröffnen, denn Zeit ist Geld.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Wer hat meine Lieblingstasse zerbrochen? – Das geht auf mein ___.",
+        "answer": "Konto",
+        "hint": "account / responsibility"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What happens in 'Auslautverhärtung' when 'b', 'd', or 'g' are at the end of a word?",
+        "options": [
+          "They are pronounced like p, t, or k",
+          "They are pronounced like a, e, or o",
+          "They are not pronounced",
+          "They are pronounced softly"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their phonetic devoicing rules.",
+        "pairs": [
+          [
+            "Urlaub",
+            "b is pronounced as p"
+          ],
+          [
+            "Geld",
+            "d is pronounced as t"
+          ],
+          [
+            "Antrag",
+            "g is pronounced as k"
+          ],
+          [
+            "stimmhaft",
+            "voiced (b, g, d)"
+          ],
+          [
+            "stimmlos",
+            "voiceless (p, t, k)"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Zeit ist Geld' means that time is valuable and should be used well.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Time is money.",
+        "target": "Zeit ist Geld."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "auf",
+          "Konto",
+          "Das",
+          "geht",
+          "mein"
+        ],
+        "answer": "Das geht auf mein Konto."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "b, g und d sind ___ und werden weich ausgesprochen.",
+        "answer": "stimmhaft",
+        "hint": "voiced"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Which of the following are voiceless (stimmlos) plosives?",
+        "options": [
+          "b, g, d",
+          "p, t, k",
+          "a, e, o",
+          "l, m, n"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In German, the letter 'g' in 'Antrag' is pronounced like 'g' in 'go'.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Do you use online banking?",
+        "target": "Nutzt du Online-Banking?"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does the expression 'Das geht auf mein Konto' mean?",
+        "options": [
+          "I will deposit money",
+          "I take the responsibility / blame",
+          "I need to open a bank account",
+          "I am rich"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wenn b, d oder g am Ende des Wortes stehen, werden sie wie p, t oder k ausgesprochen. Dies nennt man ___.",
+        "answer": "Auslautverhärtung",
+        "hint": "final devoicing"
+      },
+      {
+        "type": "true_false",
+        "statement": "The letters p, t, and k are voiceless (stimmlos) plosives.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word is pronounced with a /p/ sound at the end?",
+        "options": [
+          "Urlaub",
+          "Geld",
+          "Antrag",
+          "Zug"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Sie will ihren Laden schnell eröffnen, denn Zeit ist ___.",
+        "answer": "Geld",
+        "hint": "money"
+      },
+      {
+        "type": "translation",
+        "sentence": "Who broke my favorite cup?",
+        "answer": "Wer hat meine Lieblingstasse zerbrochen?"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Banking",
+          "du",
+          "Nutzt",
+          "Online"
+        ],
+        "answer": "Nutzt du Online-Banking?"
+      },
+      {
+        "type": "true_false",
+        "statement": "'b, g und d' are stimmhaft and soft.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which letter is pronounced like 't' in the word 'Geld'?",
+        "options": [
+          "G",
+          "e",
+          "l",
+          "d"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich repariere das. Das geht auf mein ___.",
+        "answer": "Konto",
+        "hint": "account"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Writing a CV",
+    "titleDe": "Einen Lebenslauf schreiben",
+    "type": "vocabulary",
+    "icon": "📄",
+    "lectureContent": [
+      {
+        "sectionTitle": "Der Bewerbungsprozess (The Application Process)",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>auf Arbeitssuche sein</strong></td><td>to be looking for work</td><td>Deshalb ist sie auf Arbeitssuche.</td></tr><tr><td><strong>die Stellenanzeige, -n</strong></td><td>job advertisement</td><td>Sie hat eine interessante Stellenanzeige gefunden.</td></tr><tr><td><strong>sich bewerben um</strong></td><td>to apply for</td><td>Sie möchte sich um die Stelle bewerben.</td></tr><tr><td><strong>das Anschreiben, -</strong></td><td>cover letter</td><td>Sie verfasst dann ein Anschreiben.</td></tr><tr><td><strong>die Bewerbung einreichen</strong></td><td>to submit the application</td><td>Sie reicht ihre Bewerbung ein.</td></tr><tr><td><strong>das Vorstellungsgespräch, -e</strong></td><td>job interview</td><td>Sie wird zum Vorstellungsgespräch eingeladen.</td></tr><tr><td><strong>der Arbeitgeber, -</strong></td><td>employer</td><td>Ihr potenzieller neuer Arbeitgeber fragt sie nach Stärken.</td></tr><tr><td><strong>die Arbeitnehmerin, -nen</strong></td><td>employee (female)</td><td>Enisa möchte als neue Arbeitnehmerin mehr wissen.</td></tr><tr><td><strong>der Verdienst</strong></td><td>earnings / salary</td><td>Sie möchte mehr über die Tätigkeit und den Verdienst wissen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Struktur des Lebenslaufs (CV Structure)",
+        "type": "vocabulary",
+        "content": "<p>Ein Lebenslauf wird in <strong>tabellarischer Form</strong> geschrieben und ist meistens <strong>umgekehrt chronologisch</strong> aufgebaut.</p><h4>Wichtige Abschnitte:</h4><ul><li><strong>Persönliche Daten</strong>: Name, Geburtsdatum, Geburtsort, Staatsangehörigkeit, Kontaktdaten.</li><li><strong>Berufserfahrung</strong>: Arbeitsstellen, Praktika.</li><li><strong>Berufsausbildung / Studium</strong>: Ausbildung, Hochschulstudium.</li><li><strong>Schulbildung</strong>: Hauptschule, Realschule oder Gymnasium.</li><li><strong>Weitere Qualifikationen</strong>: Sprachkenntnisse, EDV-Kenntnisse, Führerschein.</li><li><strong>Ehrenamt</strong>: Freiwillige Arbeit (z. B. Foodsaverin).</li><li><strong>Interessen</strong>: Hobbys, Sport, Musik.</li></ul>"
+      },
+      {
+        "sectionTitle": "Sprachkenntnisse & Redewendung",
+        "type": "idiom",
+        "content": "<h4>Sprachkenntnisse angeben (A1 bis C2):</h4><ol><li><strong>Grundkenntnisse</strong> (Basic)</li><li><strong>konversationssicher</strong> (Conversational)</li><li><strong>fließend in Wort und Schrift</strong> (Fluent)</li><li><strong>verhandlungssicher</strong> (Business fluent)</li><li><strong>Muttersprache / Erstsprache</strong> (Native)</li></ol><h4>Redewendung:</h4><p><strong>Jemanden ins rechte Licht rücken</strong></p><p>Bedeutung: Jemanden gut präsentieren (to present someone in a favorable light).</p><p><em>Mit einem guten Lebenslauf kann man sich bei potenziellen Arbeitgebern ins rechte Licht rücken.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Enisa ist unglücklich an ihrem aktuellen Arbeitsplatz. Deshalb ist sie auf ___.",
+        "answer": "Arbeitssuche",
+        "hint": "looking for work"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'verhandlungssicher' mean in a CV?",
+        "options": [
+          "Basic knowledge",
+          "Conversational",
+          "Business fluent",
+          "Native speaker"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the CV sections to their examples.",
+        "pairs": [
+          [
+            "Persönliche Daten",
+            "Geburtsort: Berlin"
+          ],
+          [
+            "Berufserfahrung",
+            "Teamleiterin Marketing"
+          ],
+          [
+            "Berufsausbildung",
+            "Ausbildung zur Immobilienkauffrau"
+          ],
+          [
+            "Weitere Qualifikationen",
+            "Führerschein Klasse B"
+          ],
+          [
+            "Interessen",
+            "Klavier spielen"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "A German CV (Lebenslauf) is usually written in tabular form (tabellarischer Form).",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "She wants to apply for the job as a cook.",
+        "target": "Sie möchte sich um die Stelle als Köchin bewerben."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "einen",
+          "Lebenslauf",
+          "erstellen",
+          "muss",
+          "Man"
+        ],
+        "answer": "Man muss einen Lebenslauf erstellen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Mit einem guten Lebenslauf kann man sich ins rechte ___ rücken.",
+        "answer": "Licht",
+        "hint": "light"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What is the German term for 'cover letter'?",
+        "options": [
+          "die Stellenanzeige",
+          "das Anschreiben",
+          "die Bewerbung",
+          "der Lebenslauf"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "'Das Ehrenamt' refers to volunteer work.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "She submits her application.",
+        "target": "Sie reicht ihre Bewerbung ein."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the correct German word for 'employer'?",
+        "options": [
+          "der Arbeitnehmer",
+          "der Arbeitgeber",
+          "der Arbeitsplatz",
+          "der Lebenslauf"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wenn man eine Fremdsprache sehr gut kann, beherrscht man diese Sprache ___ in Wort und Schrift.",
+        "answer": "fließend",
+        "hint": "fluent"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Der Arbeitnehmer' refers to the employer.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which level of language skills is between 'Grundkenntnisse' and 'fließend'?",
+        "options": [
+          "verhandlungssicher",
+          "Muttersprache",
+          "konversationssicher",
+          "Erstsprache"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Enisa möchte als potenzielle neue Arbeitnehmerin mehr über die Tätigkeit und den ___ wissen.",
+        "answer": "Verdienst",
+        "hint": "earnings / salary"
+      },
+      {
+        "type": "translation",
+        "sentence": "She is on a job search.",
+        "answer": "Sie ist auf Arbeitssuche."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "zum",
+          "eingeladen",
+          "Sie",
+          "wird",
+          "Vorstellungsgespräch"
+        ],
+        "answer": "Sie wird zum Vorstellungsgespräch eingeladen."
+      },
+      {
+        "type": "true_false",
+        "statement": "'EDV-Kenntnisse' refers to computer and IT skills.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What goes at the very bottom of a German CV?",
+        "options": [
+          "Name und E-Mail-Adresse",
+          "Ort, Datum und Unterschrift",
+          "Berufserfahrung",
+          "Hobbys"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Sie hat eine interessante ___ gefunden.",
+        "answer": "Stellenanzeige",
+        "hint": "job advertisement"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Reading: Hermine's Story",
+    "titleDe": "Hermines Geschichte",
+    "type": "reading",
+    "icon": "🎓",
+    "lectureContent": [
+      {
+        "sectionTitle": "Leseverständnis: Hermines Geschichte",
+        "type": "reading",
+        "content": "<p>Hermine besucht Alex in Berlin. Sie hat bald ihren Realschulabschluss, weiß aber noch nicht, was sie tun möchte. Sie schwankt zwischen einer Ausbildung zur Pflegefachkraft und einem Medizinstudium.</p><h4>Hermines Optionen:</h4><ul><li><strong>Ausbildung zur Pflegefachkraft</strong>: Sie müsste bald Bewerbungen schreiben, um einen Ausbildungsplatz zu bekommen. Dafür braucht sie einen Lebenslauf.</li><li><strong>Medizinstudium</strong>: Sie müsste zuerst ihr Abitur machen und sehr gute Noten haben, um zugelassen zu werden. Das Studium dauert viele Jahre und beinhaltet Vorlesungen, Seminare, Prüfungen und Praktika.</li></ul>"
+      },
+      {
+        "sectionTitle": "Wortschatz: Schule & Universität",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Realschulabschluss</strong></td><td>intermediate school certificate</td><td>Hermine erwirbt bald ihren Realschulabschluss.</td></tr><tr><td><strong>das Abitur</strong></td><td>high school diploma (university track)</td><td>Für ein Medizinstudium müsste ich mein Abitur machen.</td></tr><tr><td><strong>der Ausbildungsplatz, ⸚e</strong></td><td>training position / apprenticeship</td><td>Sie sucht einen Ausbildungsplatz.</td></tr><tr><td><strong>die Vorlesung, -en</strong></td><td>lecture</td><td>Ich hätte viele Vorlesungen im Studium.</td></tr><tr><td><strong>das Seminar, -e</strong></td><td>seminar</td><td>Man muss an Seminaren teilnehmen.</td></tr><tr><td><strong>Prüfungen bestehen</strong></td><td>to pass exams</td><td>Sie muss viele schwere Prüfungen bestehen.</td></tr><tr><td><strong>das Praktikum, die Praktika</strong></td><td>internship</td><td>Ich müsste bestimmt auch oft Praktika machen.</td></tr><tr><td><strong>zugelassen werden</strong></td><td>to be admitted</td><td>Nur Schüler mit den besten Noten werden zugelassen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Umgangssprache & Redewendung",
+        "type": "idiom",
+        "content": "<h4>Umgangssprachlich (Schnupper-):</h4><p>Das Präfix <strong>Schnupper-</strong> bezeichnet eine kurze Probe oder ein Kennenlernen.</p><ul><li><strong>der Schnuppertag</strong>: taster day / trial day</li><li><strong>die Schnupperstunde</strong>: taster lesson / trial lesson</li><li><strong>das Schnuppertraining</strong>: trial training session</li></ul><h4>Redewendung:</h4><p><strong>Plan B</strong></p><p>Bedeutung: Eine Alternative, falls der erste Plan nicht funktioniert (Plan B / backup plan).</p><p><em>Das Studium ist Hermines Plan B. Oder doch die Ausbildung?</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word from the story.",
+        "sentence": "Hermine erwirbt bald ihren ___.",
+        "answer": "Realschulabschluss",
+        "hint": "intermediate school certificate"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Where did Hermine have her Schnuppertag?",
+        "options": [
+          "An der Humboldt-Universität",
+          "An der Freien Universität",
+          "An der Musikschule",
+          "Im Fitnessstudio"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the educational terms to their English meanings.",
+        "pairs": [
+          [
+            "das Abitur",
+            "high school graduation diploma"
+          ],
+          [
+            "die Vorlesung",
+            "university lecture"
+          ],
+          [
+            "das Praktikum",
+            "internship"
+          ],
+          [
+            "das Seminar",
+            "seminar"
+          ],
+          [
+            "die Ausbildung",
+            "vocational training"
+          ]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Hermine wants to study medicine because she wants to help people as a doctor.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I would have to pass many exams.",
+        "target": "Ich müsste viele Prüfungen bestehen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": [
+          "zuerst",
+          "müsste",
+          "mein",
+          "Abitur",
+          "Ich",
+          "machen"
+        ],
+        "answer": "Ich müsste zuerst mein Abitur machen."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Das Studium ist Hermines ___.",
+        "answer": "Plan B",
+        "hint": "backup plan"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Who is admitted to a medical study in Germany?",
+        "options": [
+          "Only students with the best grades",
+          "Anyone who finishes high school",
+          "Only people with experience in nursing",
+          "Only male students"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Alex wrote his CV just a few days ago.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "She is still unsure.",
+        "target": "Sie ist sich immer noch unsicher."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is a 'Schnuppertag'?",
+        "options": [
+          "A day of final exams",
+          "A trial or taster day",
+          "A vacation day",
+          "A graduation ceremony"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Zuerst müsste ich mein Abitur machen. Meine Schulzeit würde also noch ein paar Jahre länger ___.",
+        "answer": "dauern",
+        "hint": "to last / take"
+      },
+      {
+        "type": "true_false",
+        "statement": "To study medicine in Germany, you need the Abitur.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following means 'to pass exams'?",
+        "options": [
+          "Prüfungen schreiben",
+          "Prüfungen bestehen",
+          "Prüfungen wiederholen",
+          "Prüfungen korrigieren"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Zu einem Medizinstudium werden nur die Schüler mit den besten Noten ___.",
+        "answer": "zugelassen",
+        "hint": "admitted"
+      },
+      {
+        "type": "translation",
+        "sentence": "I need a training position.",
+        "answer": "Ich brauche einen Ausbildungsplatz."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "unsicher",
+          "noch",
+          "immer",
+          "sich",
+          "ist",
+          "Sie"
+        ],
+        "answer": "Sie ist sich immer noch unsicher."
+      },
+      {
+        "type": "true_false",
+        "statement": "'Plan B' means an alternative plan if the first one fails.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the plural of 'das Praktikum'?",
+        "options": [
+          "die Praktikanten",
+          "die Praktiken",
+          "die Praktika",
+          "die Praktikums"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich müsste bestimmt auch oft ___ machen, damit ich Berufserfahrung sammeln kann.",
+        "answer": "Praktika",
+        "hint": "internships"
+      }
+    ]
+  }
+]

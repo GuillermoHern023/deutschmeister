@@ -1,0 +1,664 @@
+[
+  {
+    "id": 10,
+    "title": "Sports",
+    "titleDe": "Sport treiben",
+    "type": "vocabulary",
+    "icon": "⚽",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>gewinnen</strong></td><td>to win</td><td>Ihr Team gewinnt das Fußballspiel.</td></tr><tr><td><strong>verlieren</strong></td><td>to lose</td><td>Der FC Hintertupfingen verliert das Spiel.</td></tr><tr><td><strong>der Sieg, -e</strong></td><td>the victory</td><td>Die Fans feiern den Sieg ihres Teams.</td></tr><tr><td><strong>die Niederlage, -n</strong></td><td>the defeat</td><td>Die Niederlage macht ihn traurig.</td></tr><tr><td><strong>die Mannschaft, -en</strong></td><td>the team</td><td>Ein anderes Wort für die Mannschaft ist das Team.</td></tr><tr><td><strong>der Sportler, - / die Sportlerin, -nen</strong></td><td>the athlete (m/f)</td><td>Hannes schwimmt professionell. Er ist Sportler.</td></tr><tr><td><strong>das Training, -s</strong></td><td>the training</td><td>Die Mannschaft hat dreimal pro Woche Training.</td></tr><tr><td><strong>der Wettkampf, ⸚e</strong></td><td>the competition</td><td>Marina nimmt an einem Wettkampf teil.</td></tr><tr><td><strong>teilnehmen an + Akk.</strong></td><td>to participate in</td><td>Er nimmt an Wettkämpfen teil.</td></tr><tr><td><strong>das Finale, die Finals</strong></td><td>the final(s)</td><td>Das Finale ist die letzte Runde im Wettkampf.</td></tr><tr><td><strong>der Platz, ⸚e</strong></td><td>the place / position</td><td>Der Gewinner ist auf dem ersten Platz.</td></tr><tr><td><strong>die Medaille, -n</strong></td><td>the medal</td><td>Der Gewinner bekommt eine Medaille.</td></tr><tr><td><strong>die Goldmedaille, -n</strong></td><td>the gold medal</td><td>Er bekommt eine Goldmedaille.</td></tr><tr><td><strong>das Fußballspiel, -e</strong></td><td>the football match</td><td>Niko schaut heute Fußball im Fernsehen.</td></tr><tr><td><strong>das Siegertreppchen, -</strong></td><td>the podium</td><td>Oskar steht auf dem Siegertreppchen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Sports Types (Sportarten)",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th></tr></thead><tbody><tr><td>reiten</td><td>horse riding</td></tr><tr><td>Handball</td><td>handball</td></tr><tr><td>Basketball</td><td>basketball</td></tr><tr><td>Ski fahren</td><td>skiing</td></tr><tr><td>joggen</td><td>jogging</td></tr><tr><td>schwimmen</td><td>swimming</td></tr><tr><td>Fechten</td><td>fencing</td></tr><tr><td>Kampfsport</td><td>martial arts</td></tr><tr><td>Yoga</td><td>yoga</td></tr><tr><td>Boxen</td><td>boxing</td></tr><tr><td>Tischtennis</td><td>table tennis</td></tr><tr><td>Eishockey</td><td>ice hockey</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Key Phrases",
+        "type": "grammar",
+        "content": "<p><strong>Sport treiben</strong> — to do sport / to play sport</p><p>This is a fixed expression in German. You don't say <em>Sport machen</em> (informal) as often in formal contexts.</p><p><strong>an einem Wettkampf teilnehmen</strong> — to take part in a competition. Note the separable prefix: <em>Ich nehme an einem Wettkampf teil.</em></p><p><strong>eine Niederlage kassieren</strong> — to suffer a defeat (idiomatic). Example: <em>Johannas Team hat eine Niederlage kassiert.</em></p><p><strong>Sport ist nicht immer Mord.</strong> — Sport isn't always murder (i.e., sport can be fun too).</p>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Die Letzten werden die Ersten sein.</strong> — The last shall be first.</p><p>Meaning: Used to console someone who has lost.</p><p><em>–Ich habe schon wieder verloren. –Ist nicht schlimm. Du weißt doch: Die Letzten werden die Ersten sein!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Niko hofft, dass Dortmund das Spiel heute ___.",
+        "answer": "gewinnt",
+        "hint": "wins"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Schalke hat ___. Johanna ist traurig über die Niederlage.",
+        "answer": "verloren",
+        "hint": "lost"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Schwimmen, Basketball, Fußball und Tennis sind verschiedene ___.",
+        "options": ["Sportarten", "Mannschaften", "Trainings", "Siege"],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Nina gewinnt den ___.",
+        "options": ["Training", "Wettkampf", "Mannschaft", "Niederlage"],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words with their English meanings.",
+        "pairs": [
+          ["gewinnen", "to win"],
+          ["verlieren", "to lose"],
+          ["die Mannschaft", "the team"],
+          ["der Wettkampf", "the competition"],
+          ["die Medaille", "the medal"]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Das Finale ist die letzte Runde im Wettkampf.",
+        "answer": true
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Ein anderes Wort für die Mannschaft ist die Kollegen.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The team has training three times per week.",
+        "target": "Die Mannschaft hat dreimal pro Woche Training."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["nimmt", "einem", "teil", "Marina", "Wettkampf", "an"],
+        "answer": "Marina nimmt an einem Wettkampf teil."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Oskar kommt auf den dritten ___ und gewinnt die Bronzemedaille.",
+        "answer": "Platz",
+        "hint": "place / position"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'eine Niederlage kassieren' mean?",
+        "options": ["to win a medal", "to suffer a defeat", "to take part in a competition", "to train hard"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Die Mannschaft hat dreimal pro Woche ___.",
+        "options": ["Niederlage", "Sieg", "Training", "Finale"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the correct German word for 'athlete' (female)?",
+        "options": ["der Sportler", "die Sportlerin", "die Mannschaft", "die Medaille"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Louis spielt nicht in einer Mannschaft, sondern ___.",
+        "options": ["im Team", "im Finale", "alleine", "im Stadion"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does the idiom 'Die Letzten werden die Ersten sein' mean?",
+        "options": ["The winners celebrate first", "You should always be first", "A consolation for someone who lost", "The last game is the best"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Dortmund spielt gegen Schalke. Am Ende steht es 3:1 für Dortmund. Who won?",
+        "options": ["Schalke", "Dortmund", "Both teams", "Neither team"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Der Gewinner ist auf dem ersten Platz und bekommt eine ___.",
+        "options": ["Niederlage", "Bronzemedaille", "Goldmedaille", "Training"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which sport is NOT mentioned in the lesson?",
+        "options": ["Fechten", "Eishockey", "Golf", "Boxen"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Oskar fährt professionell Fahrrad. Wie heißen seine Wettkämpfe?",
+        "options": ["Fußballspiele", "Radrennen", "Marathons", "Turniere"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'teilnehmen an' require?",
+        "options": ["Dativ", "Genitiv", "Akkusativ", "Nominativ"],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Staying Fit",
+    "titleDe": "Fit bleiben",
+    "type": "vocabulary",
+    "icon": "💪",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>fit bleiben</strong></td><td>to stay fit</td><td>Oma Gerda und Opa Heinrich fahren mit dem Fahrrad, um fit zu bleiben.</td></tr><tr><td><strong>trainieren</strong></td><td>to train / work out</td><td>Marie und Jannis trainieren für die Weltmeisterschaft.</td></tr><tr><td><strong>das Fitnessstudio, -s</strong></td><td>the gym</td><td>Max geht jeden Tag ins Fitnessstudio.</td></tr><tr><td><strong>laufen</strong></td><td>to run / walk</td><td>Maria läuft einen Marathon.</td></tr><tr><td><strong>rennen</strong></td><td>to sprint / run fast</td><td>Markus muss zum Bus rennen.</td></tr><tr><td><strong>die Ernährung (nur Sg.)</strong></td><td>the nutrition / diet</td><td>Mit einer gesunden Ernährung bleibt man fit.</td></tr><tr><td><strong>die Diät, -en</strong></td><td>the diet</td><td>Tim möchte abnehmen, also macht er eine Diät.</td></tr><tr><td><strong>abnehmen</strong></td><td>to lose weight</td><td>Ina möchte abnehmen.</td></tr><tr><td><strong>fettarm</strong></td><td>low-fat</td><td>Die Milch hat wenig Fett. Sie ist fettarm.</td></tr><tr><td><strong>die Kohlenhydrate (Pl.)</strong></td><td>carbohydrates</td><td>Brot, Nudeln und Reis haben viele Kohlenhydrate.</td></tr><tr><td><strong>die Entspannung, -en</strong></td><td>the relaxation</td><td>Entspannung ist gut für die Gesundheit.</td></tr><tr><td><strong>sich entspannen</strong></td><td>to relax</td><td>Ich entspanne mich im Park.</td></tr><tr><td><strong>die Entspannungsübung, -en</strong></td><td>the relaxation exercise</td><td>Meditation ist eine Entspannungsübung.</td></tr><tr><td><strong>sich erholen</strong></td><td>to recover / rest</td><td>Fritz und Lena erholen sich von dem anstrengenden Arbeitstag.</td></tr><tr><td><strong>Stress vermeiden</strong></td><td>to avoid stress</td><td>Die Managerin möchte ab jetzt Stress vermeiden.</td></tr><tr><td><strong>(das) Yoga (nur Sg.)</strong></td><td>yoga</td><td>Nadja macht dreimal pro Woche abends Yoga.</td></tr><tr><td><strong>der Kraftsport (nur Sg.)</strong></td><td>strength training</td><td>Antonio macht Kraftsport im Fitnessstudio.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Healthy Eating Tips",
+        "type": "grammar",
+        "content": "<p>German uses <strong>mehr</strong> (more) and <strong>weniger</strong> (less) to give health advice:</p><ul><li><strong>Mehr:</strong> selbst kochen, Obst essen, fettarm essen, Gemüse essen, Kohlenhydrate essen</li><li><strong>Weniger:</strong> Süßigkeiten essen, Alkohol trinken, Fast Food essen</li></ul><p><strong>naschen</strong> = to snack / nibble on sweets. <em>Nächstes Jahr möchte ich weniger naschen.</em></p><p><strong>Gute Vorsätze für das neue Jahr</strong> — New Year's resolutions. Common pattern: <em>Ich möchte mich gesünder ernähren.</em> (I want to eat healthier.)</p>"
+      },
+      {
+        "sectionTitle": "Maria's Story: Recovery & Health",
+        "type": "grammar",
+        "content": "<p>Maria ist Managerin. Ihr Job ist sehr stressig. Maria weiß, dass zu viel Stress ungesund ist. Also möchte sie ab jetzt Stress vermeiden. Sie will sich mehr erholen.</p><p>She now:</p><ul><li>Goes to <strong>Yoga</strong> every evening</li><li>Does <strong>Entspannungsübungen</strong></li><li>Sleeps more — goes to bed earlier</li><li>Eats <strong>weniger Fast Food</strong></li><li>Cooks <strong>fettarm</strong> more often</li><li>Eats Süßigkeiten only <em>ab und zu</em> (now and then)</li></ul>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>fit wie ein Turnschuh sein</strong> — to be fit as a fiddle (lit. 'fit like a sneaker')</p><p>Meaning: to be healthy, fit, and well-trained.</p><p><em>Wer fit wie ein Turnschuh sein will, muss viel trainieren.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Maria ___ einen Marathon.",
+        "answer": "läuft",
+        "hint": "runs"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Jonas geht ins ___, um dort zu trainieren.",
+        "answer": "Fitnessstudio",
+        "hint": "gym"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Fast Food hat viel Fett, Gemüse ist sehr ___.",
+        "options": ["fettarm", "Kohlenhydrate", "Diät", "Ernährung"],
+        "answer": 0
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Reis, Brot und Nudeln haben viele ___.",
+        "options": ["Diäten", "Kohlenhydrate", "Entspannungsübungen", "Gewichte"],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words with their English meanings.",
+        "pairs": [
+          ["abnehmen", "to lose weight"],
+          ["sich erholen", "to recover"],
+          ["die Ernährung", "nutrition"],
+          ["sich entspannen", "to relax"],
+          ["Stress vermeiden", "to avoid stress"]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Entspannung ist gut für die Gesundheit.",
+        "answer": true
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Maria isst jetzt mehr Fast Food und Süßigkeiten.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I want to stay fit and eat healthily.",
+        "target": "Ich möchte fit bleiben und mich gesund ernähren."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["achtet", "eine", "Ernährung", "auf", "Maria", "gesunde"],
+        "answer": "Maria achtet auf eine gesunde Ernährung."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Ina macht eine ___, sie isst kein Fast Food und keine Süßigkeiten.",
+        "answer": "Diät",
+        "hint": "diet"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'fit wie ein Turnschuh sein' mean?",
+        "options": ["to be as fast as a shoe", "to be fit as a fiddle", "to buy new sneakers", "to run in sneakers"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Oma Gerda und Opa Heinrich fahren mit dem Fahrrad, um ___ zu bleiben.",
+        "options": ["gesund", "fettarm", "fit", "stark"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'naschen' mean?",
+        "options": ["to cook", "to exercise", "to snack on sweets", "to sleep"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Why does Maria want to avoid stress?",
+        "options": ["Because she has no time", "Because stress is unhealthy", "Because she likes yoga", "Because her boss told her"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does Maria do to relax?",
+        "options": ["Goes swimming", "Watches TV", "Does yoga and relaxation exercises", "Plays football"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word means 'to lose weight' in German?",
+        "options": ["zunehmen", "abnehmen", "aufnehmen", "mitnehmen"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Tim möchte abnehmen, also macht er eine ___.",
+        "options": ["Entspannungsübung", "Ernährung", "Diät", "Yoga"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which is NOT a tip for healthy eating from the lesson?",
+        "options": ["Mehr Obst essen", "Weniger Alkohol trinken", "Mehr Fast Food essen", "Mehr Gemüse essen"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'sich erholen' mean?",
+        "options": ["to hurry up", "to recover / rest", "to lose weight", "to cook"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Die Milch hat wenig Fett. Sie ist ___.",
+        "options": ["fettarm", "kohlenhydratreich", "ungesund", "stressig"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "A Conversation about Sport",
+    "titleDe": "Über Sport und Freizeit sprechen",
+    "type": "speaking",
+    "icon": "🗣️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Pronunciation: f, v, and w",
+        "type": "grammar",
+        "content": "<p><strong>F</strong> and <strong>v</strong> are pronounced the same — both sound like <strong>[f]</strong>.</p><ul><li>Examples: <em>Fußball, fechten, verlieren, viel, Volk, brav</em></li></ul><p><strong>W</strong> is softer and voiced — it sounds like English <strong>[v]</strong>.</p><ul><li>Examples: <em>schwimmen, gewinnen, Winter, wissen</em></li></ul><p><strong>Exception — Foreign words (Fremdwörter):</strong> In loanwords, <strong>v</strong> can be pronounced as <strong>[v]</strong> (like w) when it appears at the <em>beginning</em> or <em>inside</em> the word:</p><ul><li>Examples: <em>virtuell, Version, Klavier, Pullover, Olive, Kurve, Universität, Navigation</em></li></ul><p>At the <strong>end</strong> of a word, <strong>v</strong> is always pronounced as <strong>[f]</strong>:</p><ul><li>Examples: <em>Advent, definitiv, Adjektiv, Motiv, Detektiv</em></li></ul><p><strong>Tongue twister:</strong> <em>Viel warmes Wasser fließt durch den Fluss. Durch den Fluss fließt viel warmes Wasser.</em></p>"
+      },
+      {
+        "sectionTitle": "The Verb 'lassen'",
+        "type": "grammar",
+        "content": "<p>The verb <strong>lassen</strong> means <em>to let / to have someone do something</em>. It is used to express having others do things for you or allowing something.</p><table><thead><tr><th>Person</th><th>Konjugation</th></tr></thead><tbody><tr><td>ich</td><td>lasse</td></tr><tr><td>du</td><td>lässt</td></tr><tr><td>er/sie/es</td><td>lässt</td></tr><tr><td>wir</td><td>lassen</td></tr><tr><td>ihr</td><td>lasst</td></tr><tr><td>sie/Sie</td><td>lassen</td></tr></tbody></table><p>Example: <em>Ich lasse mein Auto reparieren.</em> (I have my car repaired.)</p><p>The speaking exercise asks: <em>Was lässt du andere Personen für dich machen?</em> — What do you have other people do for you?</p>"
+      },
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>sich erholen</strong></td><td>to recover</td><td>Fred erholt sich auf dem Sofa.</td></tr><tr><td><strong>trainieren</strong></td><td>to train</td><td>Er trainiert immer abends im Fitnessstudio.</td></tr><tr><td><strong>fit bleiben</strong></td><td>to stay fit</td><td>Fred macht viel Sport, weil er fit bleiben möchte.</td></tr><tr><td><strong>gesunde Ernährung</strong></td><td>healthy nutrition</td><td>Außerdem achtet Fred auf eine gesunde Ernährung.</td></tr><tr><td><strong>der Gewinner</strong></td><td>the winner</td><td>Der Gewinner feiert seinen Sieg.</td></tr><tr><td><strong>der Verein</strong></td><td>the club</td><td>Ich spiele Fußball in einem Verein.</td></tr><tr><td><strong>zufrieden</strong></td><td>satisfied</td><td>Sie ist zufrieden mit dem Ergebnis.</td></tr><tr><td><strong>die Freizeit</strong></td><td>free time</td><td>Was machst du in deiner Freizeit?</td></tr><tr><td><strong>abschalten</strong></td><td>to switch off / unwind</td><td>Abschalten bedeutet sich erholen.</td></tr><tr><td><strong>feiern</strong></td><td>to celebrate</td><td>Die Fans feiern den Sieg.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Speaking: Expressing Opinions",
+        "type": "grammar",
+        "content": "<p>Use these phrases to express your opinion in a conversation:</p><ul><li><strong>Ich bin dafür, dass …</strong> — I am in favor of …</li><li><strong>Ich bin dagegen, dass …</strong> — I am against …</li><li><strong>Ich glaube, dass …</strong> — I believe that …</li><li><strong>Ich bin der Meinung, dass …</strong> — I am of the opinion that …</li></ul><p>Example debate topic: <strong>Sport ist Mord.</strong> — Is sport really 'murder' (too exhausting)?</p>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>Sport ist Mord.</strong> — Sport is murder (i.e., sport is exhausting / too much effort).</p><p>Meaning: Used humorously to say that exercise is hard or that one doesn't enjoy it.</p><p><em>–Hast du Lust, morgen mit mir joggen zu gehen? –Nee, danke. Sport ist Mord!</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Fred macht viel Sport, ___ er fit bleiben möchte.",
+        "answer": "weil",
+        "hint": "because"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Ich ___ mein Auto reparieren. (to have something done)",
+        "answer": "lasse",
+        "hint": "lassen — ich form"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "How are 'f' and 'v' pronounced in German native words?",
+        "options": ["Both like [v]", "Both like [f]", "f like [f] and v like [v]", "They are silent"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "In which word is 'v' pronounced like [v] (as in English)?",
+        "options": ["Volk", "brav", "Klavier", "viel"],
+        "answer": 2
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the expressions with their meanings.",
+        "pairs": [
+          ["Sport ist Mord", "Sport is exhausting"],
+          ["abschalten", "to unwind / switch off"],
+          ["Ich bin dafür", "I am in favor"],
+          ["Ich bin dagegen", "I am against"],
+          ["zufrieden", "satisfied"]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Abschalten bedeutet sich erholen.",
+        "answer": true
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In the word 'Detektiv', the 'v' is pronounced like [v] (English w sound).",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "I believe that healthy nutrition is important.",
+        "target": "Ich glaube, dass gesunde Ernährung wichtig ist."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["erholt", "dem", "Fred", "auf", "sich", "Sofa"],
+        "answer": "Fred erholt sich auf dem Sofa."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the conjugation: du ___. (lassen)",
+        "sentence": "Du ___ das Kind spielen.",
+        "answer": "lässt",
+        "hint": "lassen — du form"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Sport ist Mord' mean?",
+        "options": ["Sport is healthy", "Sport is murder / too exhausting", "Sport is fun", "Sport is boring"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which conjugation of 'lassen' is correct for 'er/sie/es'?",
+        "options": ["lasst", "lasse", "lässt", "lassen"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "In German, how is 'w' pronounced?",
+        "options": ["Like English 'w'", "Like English 'v' (voiced, soft)", "Like English 'f'", "It is silent"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "In which category of words is 'v' pronounced as [v] (like w)?",
+        "options": ["All German words", "Foreign words (Fremdwörter) at word-beginning or inside", "Words ending in -v", "Only verbs"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which phrase means 'I am of the opinion that...'?",
+        "options": ["Ich glaube, dass...", "Ich bin dafür, dass...", "Ich bin der Meinung, dass...", "Ich bin dagegen, dass..."],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Fred macht viel Sport, ___ er fit bleiben möchte.",
+        "options": ["dass", "weil", "aber", "oder"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which word has 'v' pronounced as [f]?",
+        "options": ["Universität", "Navigation", "Olive", "Volk"],
+        "answer": 3
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'abschalten' mean in the context of relaxation?",
+        "options": ["to turn on the TV", "to switch off / unwind", "to exercise harder", "to eat less"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Complete the tongue twister: Viel warmes ___ fließt durch den Fluss.",
+        "options": ["Bier", "Wasser", "Wetter", "Wein"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'lassen' express when used with another verb?",
+        "options": ["Obligation", "Having someone do something / allowing", "Past tense", "Negation"],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "A New Type of Sport",
+    "titleDe": "Eine neue Sportart",
+    "type": "reading",
+    "icon": "📖",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>ein Tor schießen</strong></td><td>to score a goal</td><td>Der Fußballspieler schießt ein Tor.</td></tr><tr><td><strong>das Stadion, die Stadien</strong></td><td>the stadium</td><td>Louise war heute im Fußballstadion.</td></tr><tr><td><strong>werfen</strong></td><td>to throw</td><td>Der Baseballspieler wirft den Ball.</td></tr><tr><td><strong>fangen</strong></td><td>to catch</td><td>Der andere Spieler fängt den Ball.</td></tr><tr><td><strong>das Laufband, ⸚er</strong></td><td>the treadmill</td><td>Max läuft auf dem Laufband.</td></tr><tr><td><strong>Gewichte heben</strong></td><td>to lift weights</td><td>Im Fitnessstudio hebt Tom Gewichte.</td></tr><tr><td><strong>rennen</strong></td><td>to sprint / run</td><td>Beim Training ist sie viel gerannt.</td></tr><tr><td><strong>das Fitnessstudio, -s</strong></td><td>the gym</td><td>Sie hat sich im Fitnessstudio angemeldet.</td></tr><tr><td><strong>langweilig</strong></td><td>boring</td><td>Louise findet das Fitnessstudio langweilig.</td></tr><tr><td><strong>anstrengend</strong></td><td>exhausting / tiring</td><td>Schwimmen ist sehr anstrengend.</td></tr><tr><td><strong>pumpen</strong></td><td>to pump (lift weights, slang)</td><td>Pumpen heißt Gewichte heben.</td></tr><tr><td><strong>die Bahn, -en</strong></td><td>the lane (swimming)</td><td>Sie schwimmen viele Bahnen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Louise's Story — Part 1: A Football Fan",
+        "type": "grammar",
+        "content": "<p>It's Saturday evening. <strong>Louise</strong> was at the football stadium with her best friend <strong>Nils</strong>. Her favorite team, <em>Bayer Leverkusen</em>, played against <em>1. FC Köln</em>.</p><p>Unfortunately, Leverkusen lost <strong>2:3</strong>. Louise is sad.</p><p>As a child, Louise played football herself — she trained <strong>three times per week</strong>, ran a lot, and scored many goals. Her team almost never lost (<em>Ihre Mannschaft hat fast nie verloren</em>).</p>"
+      },
+      {
+        "sectionTitle": "Louise's Story — Part 2: Searching for a Sport",
+        "type": "grammar",
+        "content": "<p>Now Louise no longer plays football. She believes she is <strong>too old</strong> for it. She watches sport on TV: basketball, volleyball, and tennis.</p><p>She signed up at a gym (<em>hat sich im Fitnessstudio angemeldet</em>) but finds it <strong>boring</strong> — just Aerobic courses and the treadmill. She always trains <strong>alone</strong>, which she doesn't like. She'd prefer a <strong>team sport</strong>.</p><p>She can't throw or catch well, so <strong>Handball</strong> and <strong>Basketball</strong> are not options. But she knows Nils goes swimming — and she can swim well too!</p>"
+      },
+      {
+        "sectionTitle": "Louise's Story — Part 3: Finding Her Sport",
+        "type": "grammar",
+        "content": "<p>Louise goes swimming with Nils. They swim many lanes for almost <strong>two hours</strong>. But swimming is <em>very tiring</em>, they can't talk while swimming, and it's <strong>not a team sport</strong>.</p><p>On the way home, Louise sees a <strong>poster</strong>: <em>\"Wir suchen neue Fußballspieler. Wir sind Frauen zwischen 30 und 50 und spielen gern Fußball.\"</em></p><p>Louise realizes: <strong>\"Vielleicht bin ich doch nicht zu alt für Fußball!\"</strong> She decides to go to football training next week. She's excited!</p>"
+      },
+      {
+        "sectionTitle": "Redewendung (Idiom)",
+        "type": "idiom",
+        "content": "<p><strong>am Ball bleiben</strong> — to stay on the ball / to not give up</p><p>Meaning: to persist, to keep going, to not give up.</p><p><em>Auch wenn das Üben ihr manchmal wenig Spaß macht, will Louise unbedingt besser am Klavier werden. Also bleibt sie am Ball und geht trotzdem jede Woche zum Unterricht.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence from the story.",
+        "sentence": "Bayer Leverkusen hat nur 2 Tore ___.",
+        "answer": "geschossen",
+        "hint": "scored / shot"
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence from the story.",
+        "sentence": "Louise findet das Fitnessstudio ___.",
+        "answer": "langweilig",
+        "hint": "boring"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "How often did Louise train as a child?",
+        "options": ["Once a week", "Twice a week", "Three times a week", "Four times a week"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Why are Handball and Basketball not good for Louise?",
+        "options": ["She doesn't like them", "She can't throw or catch well", "They are too expensive", "She is too old"],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words with their English meanings.",
+        "pairs": [
+          ["ein Tor schießen", "to score a goal"],
+          ["werfen", "to throw"],
+          ["fangen", "to catch"],
+          ["das Laufband", "the treadmill"],
+          ["langweilig", "boring"]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false according to the story?",
+        "statement": "Louises Lieblingsteam hat das Fußballspiel gewonnen.",
+        "answer": false
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false according to the story?",
+        "statement": "Louise findet das Fitnessstudio langweilig, weil sie immer allein trainiert.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The baseball player throws the ball.",
+        "target": "Der Baseballspieler wirft den Ball."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["Fitnessstudio", "Tom", "im", "Gewichte", "hebt"],
+        "answer": "Im Fitnessstudio hebt Tom Gewichte."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete the sentence.",
+        "sentence": "Louise und Nils schwimmen fast zwei Stunden ___.",
+        "answer": "lang",
+        "hint": "long (duration)"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'am Ball bleiben' mean?",
+        "options": ["to play ball", "to stay on the ball / not give up", "to throw the ball", "to catch the ball"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What was the final score of the football match Louise watched?",
+        "options": ["2:1 for Leverkusen", "3:2 for Köln", "1:1 draw", "3:0 for Leverkusen"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Why doesn't Louise play football anymore?",
+        "options": ["She was injured", "She thinks she is too old", "She moved to another city", "She doesn't like football"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does Louise see on the way home from the swimming pool?",
+        "options": ["A new gym", "A poster for a women's football team", "A sports store", "A tennis court"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Why does Louise find swimming unsuitable?",
+        "options": ["She can't swim", "It's too expensive", "She can't talk while swimming and it's not a team sport", "The pool is too far away"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'pumpen' mean in gym slang?",
+        "options": ["to run fast", "to lift weights", "to swim laps", "to stretch"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "As a child, Louise's team almost never ___.",
+        "options": ["gewonnen", "trainiert", "verloren", "gespielt"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does Louise do at the gym?",
+        "options": ["Plays basketball", "Does Aerobic courses and runs on the treadmill", "Lifts heavy weights", "Swims laps"],
+        "answer": 1
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who is Nils?",
+        "options": ["Louise's brother", "Louise's coach", "Louise's best friend", "Louise's husband"],
+        "answer": 2
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What excites Louise about the poster?",
+        "options": ["A free gym membership", "A marathon nearby", "A women's football team for ages 30-50", "A swimming competition"],
+        "answer": 2
+      }
+    ]
+  }
+]

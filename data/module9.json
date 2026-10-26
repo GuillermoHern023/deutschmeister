@@ -1,0 +1,694 @@
+[
+  {
+    "id": 33,
+    "title": "The Nature",
+    "titleDe": "In der Natur",
+    "type": "vocabulary",
+    "icon": "🌲",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Ausflug, ⸚e</strong></td><td>excursion / trip</td><td>Endlich machen wir einen Ausflug!</td></tr><tr><td><strong>das Zelt, -e</strong></td><td>tent</td><td>Wir bauen das Zelt auf einer Lichtung auf.</td></tr><tr><td><strong>der Schlafsack, ⸚e</strong></td><td>sleeping bag</td><td>Ich habe Wanderschuhe, Schlafsäcke und unser Zelt eingepackt.</td></tr><tr><td><strong>der Proviant</strong></td><td>provisions / food</td><td>Wir haben genug Proviant für das Wochenende.</td></tr><tr><td><strong>die Naturkatastrophe, -n</strong></td><td>natural disaster</td><td>Vielleicht gibt es eine Naturkatastrophe, wie eine Überschwemmung?</td></tr><tr><td><strong>die Überschwemmung, -en</strong></td><td>flood</td><td>Der viele Regen hat eine Überschwemmung verursacht.</td></tr><tr><td><strong>der Tornado, -s</strong></td><td>tornado</td><td>Gibt es in diesem Wald einen Tornado?</td></tr><tr><td><strong>der Ratschlag, ⸚e</strong></td><td>piece of advice</td><td>Gib mir einen guten Ratschlag.</td></tr><tr><td><strong>ankommen</strong></td><td>to arrive</td><td>Als sie am Wald ankommen, finden sie einen Platz.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Idioms & Expressions",
+        "type": "idiom",
+        "content": "<p><strong>Es schüttet wie aus Eimern.</strong></p><p>Bedeutung: Es regnet sehr stark. (It is pouring cats and dogs / raining heavily.)</p><p><em>Zunächst regnet es noch nicht, doch dann fängt es plötzlich an, wie aus Eimern zu schütten.</em></p><br/><p><strong>Den Wald vor lauter Bäumen nicht mehr sehen.</strong></p><p>Bedeutung: Etwas Offensichtliches nicht sehen; etwas wegen zu vieler Informationen nicht verstehen. (Not see the forest for the trees.)</p><p><em>Bei so vielen Informationen sieht man ja den Wald vor lauter Bäumen nicht.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Zunächst regnet es noch nicht, doch dann fängt es plötzlich an, wie aus ___ zu schütten.",
+        "answer": "Eimern",
+        "hint": "buckets"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'Es schüttet wie aus Eimern' mean?",
+        "options": [
+          "It is raining a little bit.",
+          "It is raining very heavily.",
+          "It is a sunny day.",
+          "It is snowing."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German terms to their English meanings.",
+        "pairs": [
+          ["das Zelt", "tent"],
+          ["der Ausflug", "excursion"],
+          ["die Überschwemmung", "flood"],
+          ["der Ratschlag", "advice"],
+          ["der Proviant", "provisions"]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "In the text, Alex and Louise decided to cancel their trip and go straight to the wellness hotel on Thursday evening.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Finally, we are making an excursion!",
+        "target": "Endlich machen wir einen Ausflug!"
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["Sie", "bauen", "das", "Zelt", "im", "Wald", "auf", "."],
+        "answer": "Sie bauen das Zelt im Wald auf."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Vielleicht gibt es eine Naturkatastrophe, eine Überschwemmung oder einen ___?",
+        "answer": "Tornado",
+        "hint": "tornado"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What did Alex pack for the trip?",
+        "options": [
+          "Only some food.",
+          "Hiking boots, sleeping bags, their tent, and provisions.",
+          "A hotel reservation and swimsuits.",
+          "A television and books."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The idiom 'den Wald vor lauter Bäumen nicht sehen' means not understanding something because of too much information.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Do we have everything we need?",
+        "target": "Haben wir alles, was wir brauchen?"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the German word for 'natural disaster'?",
+        "options": [
+          "die Überschwemmung",
+          "die Naturkatastrophe",
+          "der Ratschlag",
+          "der Ausflug"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Als sie am Wald ___, finden sie schnell einen Platz für ihr Zelt.",
+        "answer": "ankommen",
+        "hint": "arrive (plural, present)"
+      },
+      {
+        "type": "true_false",
+        "statement": "Alex is afraid of bears when it gets dark in the forest.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Where did Alex check the weather forecast?",
+        "options": [
+          "On TV.",
+          "In a newspaper.",
+          "On his phone.",
+          "On the radio."
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Es soll fast den ganzen Tag regnen und ___.",
+        "answer": "gewittern",
+        "hint": "thunder/lightning"
+      },
+      {
+        "type": "translation",
+        "sentence": "I have my hiking shoes.",
+        "answer": "Ich habe meine Wanderschuhe."
+      },
+      {
+        "type": "true_false",
+        "statement": "Alex and Louise are soaking wet within five minutes of rain.",
+        "answer": true
+      },
+      {
+        "type": "reorder",
+        "words": ["Es", "gibt", "noch", "freie", "Zimmer", "."],
+        "answer": "Es gibt noch freie Zimmer."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What kind of hotel did Alex and Louise enter?",
+        "options": [
+          "A budget hotel.",
+          "A wellness hotel.",
+          "A business hotel.",
+          "A farm house."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich habe schon lange keine ___ mehr gemacht.",
+        "answer": "Fahrradtour",
+        "hint": "bicycle tour"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Let's Talk about Nature",
+    "titleDe": "Über die Natur sprechen",
+    "type": "speaking",
+    "icon": "⛰️",
+    "lectureContent": [
+      {
+        "sectionTitle": "Pronunciation: Long & Short Vowels",
+        "type": "pronunciation",
+        "content": "<p>In German, vowels can be pronounced long or short. Distinguishing them is crucial for correct pronunciation.</p><h4>Lange Vokale (Long Vowels):</h4><p>Vowels are pronounced long when followed by the combination <em>ie</em>, a silent <em>h</em> (Dehnungs-h), or only a single consonant. Double vowels (e.g. <em>ee</em>) and diphthongs (<em>au, ei, eu, äu</em>) are also long.</p><ul><li><strong>das Beet</strong> — flower bed</li><li><strong>die Wohnung</strong> — apartment</li><li><strong>der Wal</strong> — whale</li><li><strong>das Vieh</strong> — cattle</li><li><strong>der Ruhm</strong> — fame</li><li><strong>der Bote</strong> — messenger</li><li><strong>der Regen</strong> — rain</li><li><strong>die Schule</strong> — school</li><li><strong>der Mut</strong> — courage</li></ul><h4>Kurze Vokale (Short Vowels):</h4><p>Vowels are pronounced short when followed by two or more consonants (double consonants like <em>ll</em>, or combinations like <em>ck</em>, <em>tz</em>, <em>tt</em>, etc.).</p><ul><li><strong>der Mann</strong> — man</li><li><strong>hell</strong> — bright</li><li><strong>die Mücke</strong> — mosquito</li><li><strong>der Platz</strong> — place / square</li><li><strong>der Architekt</strong> — architect</li><li><strong>der Schatz</strong> — treasure / darling</li><li><strong>die Glocke</strong> — bell</li><li><strong>backen</strong> — to bake</li><li><strong>rennen</strong> — to run</li><li><strong>trotzig</strong> — defiant</li></ul>"
+      },
+      {
+        "sectionTitle": "Idioms & Expressions",
+        "type": "idiom",
+        "content": "<p><strong>Den Tatsachen ins Auge sehen</strong></p><p>Bedeutung: Eine unangenehme Wahrheit erkennen. (To face facts.)</p><p><em>Man sollte den Tatsachen ins Auge sehen: Der Mensch ist oft zu faul.</em></p><br/><p><strong>In jemandes Natur liegen</strong></p><p>Bedeutung: Ein Teil des Charakters von jemandem sein. (To be in someone's nature.)</p><p><em>Es liegt einfach in meiner Natur, immer alles ordentlich haben zu wollen.</em></p>"
+      },
+      {
+        "sectionTitle": "Wild Animals",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beschreibung</th></tr></thead><tbody><tr><td><strong>der Bär, -en</strong></td><td>bear</td><td>Großes, starkes Tier in Nordamerika, oft braun, schwarz oder weiß.</td></tr><tr><td><strong>der Wolf, ⸚e</strong></td><td>wolf</td><td>Mit dem Hund verwandt, meist grau/braun, lebt im Rudel (zusammen).</td></tr><tr><td><strong>der Tiger, -</strong></td><td>tiger</td><td>Orange-schwarz gestreiftes Raubtier aus Asien, schläft am Tag.</td></tr><tr><td><strong>der Hai, -e</strong></td><td>shark</td><td>Bis zu 5 Meter langes Wassertier, vor dem Menschen oft Angst haben.</td></tr><tr><td><strong>der Löwe, -n</strong></td><td>lion</td><td>Großes Raubtier, auch bekannt als König der Tiere.</td></tr><tr><td><strong>der Adler, -</strong></td><td>eagle</td><td>Ein großer Raubvogel.</td></tr></tbody></table>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Es liegt einfach in meiner ___, immer alles ordentlich haben zu wollen.",
+        "answer": "Natur",
+        "hint": "nature"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'den Tatsachen ins Auge sehen' mean?",
+        "options": [
+          "To close one's eyes to reality.",
+          "To face an unpleasant truth.",
+          "To look at someone in the eyes.",
+          "To dream about the future."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the German words to their vowel length.",
+        "pairs": [
+          ["das Beet", "long vowel"],
+          ["der Mann", "short vowel"],
+          ["die Schule", "long vowel"],
+          ["der Platz", "short vowel"],
+          ["die Glocke", "short vowel"]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Vowels are short when they are followed by a Dehnungs-h.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "It lies in my nature.",
+        "target": "Es liegt in meiner Natur."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["Der", "Hai", "lebt", "unter", "Wasser", "."],
+        "answer": "Der Hai lebt unter Wasser."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Man sollte den ___ ins Auge sehen.",
+        "answer": "Tatsachen",
+        "hint": "facts"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Which animal is related to the dog and lives in a pack?",
+        "options": [
+          "der Hai",
+          "der Bär",
+          "der Wolf",
+          "der Tiger"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Double vowels (like in 'das Beet') are pronounced long.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Where do you want to spend your vacation?",
+        "target": "Wo möchtest du deinen Urlaub verbringen?"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which vowel rule is correct for short vowels?",
+        "options": [
+          "Vowels are short before a silent h.",
+          "Vowels are short when followed by two consonants.",
+          "Vowels are short before ie.",
+          "Diphthongs are short."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Dieses Tier lebt in Nordamerika, ist oft braun und sehr stark. Es ist der ___.",
+        "answer": "Bär",
+        "hint": "bear"
+      },
+      {
+        "type": "true_false",
+        "statement": "'Der Regen' has a short vowel sound.",
+        "answer": false
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What animal kills other animals for food, sleeps during the day, and lives in Asia?",
+        "options": [
+          "der Bär",
+          "der Tiger",
+          "der Wolf",
+          "der Hai"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Es liegt in seiner Natur, immer alles ___ haben zu wollen.",
+        "answer": "ordentlich",
+        "hint": "neat / orderly"
+      },
+      {
+        "type": "translation",
+        "sentence": "We must face the facts.",
+        "answer": "Wir müssen den Tatsachen ins Auge sehen."
+      },
+      {
+        "type": "true_false",
+        "statement": "Vowels before a single consonant are usually pronounced short.",
+        "answer": false
+      },
+      {
+        "type": "reorder",
+        "words": ["Es", "ist", "hell", "."],
+        "answer": "Es ist hell."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following has a short vowel?",
+        "options": [
+          "die Schule",
+          "der Bote",
+          "der Mut",
+          "das Blatt"
+        ],
+        "answer": 3
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Menschen haben oft Angst vor dem ___.",
+        "answer": "Hai",
+        "hint": "shark"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "The Environment and Animals",
+    "titleDe": "Die Umwelt und die Tiere",
+    "type": "vocabulary",
+    "icon": "🐾",
+    "lectureContent": [
+      {
+        "sectionTitle": "Vocabulary: Environment & Climate",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Umwelt</strong></td><td>environment</td><td>Wir müssen die Umwelt schützen.</td></tr><tr><td><strong>die Tierart, -en</strong></td><td>animal species</td><td>Löwen und Wale sind verschiedene Tierarten.</td></tr><tr><td><strong>eine bedrohte Tierart</strong></td><td>endangered animal species</td><td>Der Gorilla ist eine bedrohte Tierart.</td></tr><tr><td><strong>vom Aussterben bedroht</strong></td><td>threatened with extinction</td><td>Viele Tierarten sind vom Aussterben bedroht.</td></tr><tr><td><strong>globale Erwärmung</strong></td><td>global warming</td><td>Die globale Erwärmung lässt die Eiskappen schmelzen.</td></tr><tr><td><strong>die Regenzeit, -en</strong></td><td>rainy season</td><td>In manchen Regionen regnet es nur in der Regenzeit.</td></tr><tr><td><strong>die Trockenzeit, -en</strong></td><td>dry season</td><td>Nach der Regenzeit kommt die Trockenzeit.</td></tr><tr><td><strong>die Dürre, -n</strong></td><td>drought</td><td>Wenn es sehr trocken ist, spricht man von einer Dürre.</td></tr><tr><td><strong>die Umweltverschmutzung</strong></td><td>environmental pollution</td><td>Recycling hilft gegen die Umweltverschmutzung.</td></tr><tr><td><strong>der ökologische Fußabdruck</strong></td><td>ecological footprint</td><td>Wir müssen unseren ökologischen Fußabdruck verkleinern.</td></tr><tr><td><strong>der Urwald, ⸚er / der Dschungel</strong></td><td>jungle / primeval forest</td><td>Gorillas leben im Urwald oder Dschungel.</td></tr><tr><td><strong>die Artenvielfalt</strong></td><td>biodiversity</td><td>Im Great Barrier Riff gibt es eine große Artenvielfalt.</td></tr><tr><td><strong>das Artensterben</strong></td><td>species extinction</td><td>Das Artensterben nimmt durch die globale Erwärmung zu.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Idioms & Expressions",
+        "type": "idiom",
+        "content": "<p><strong>Mutter Natur</strong></p><p>Bedeutung: Die Natur als schöpferische Kraft. (Mother Nature.)</p><p><em>Wir müssen Mutter Natur wieder besser behandeln.</em></p><br/><p><strong>Von Natur aus</strong></p><p>Bedeutung: Ursprünglich, vom Charakter her. (By nature / inherently.)</p><p><em>Ich bin von Natur aus ein sparsamer Mensch.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Wenn es sehr, sehr trocken ist, spricht man von einer ___.",
+        "answer": "Dürre",
+        "hint": "drought"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'vom Aussterben bedroht' mean?",
+        "options": [
+          "Threatened with extinction.",
+          "Thriving in the wild.",
+          "Domesticated by humans.",
+          "Extremely common."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the environmental terms.",
+        "pairs": [
+          ["das Artensterben", "species extinction"],
+          ["die Artenvielfalt", "biodiversity"],
+          ["die Dürre", "drought"],
+          ["der ökologische Fußabdruck", "ecological footprint"],
+          ["die Umweltverschmutzung", "environmental pollution"]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Globale Erwärmung means the global temperature is rising.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "We must protect the environment.",
+        "target": "Wir müssen die Umwelt schützen."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["Wir", "müssen", "unseren", "ökologischen", "Fußabdruck", "reduzieren", "."],
+        "answer": "Wir müssen unseren ökologischen Fußabdruck reduzieren."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "In manchen Regionen regnet es nur zu bestimmten Zeiten. Das ist die ___.",
+        "answer": "Regenzeit",
+        "hint": "rainy season"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "What does 'von Natur aus' mean?",
+        "options": [
+          "Outside in nature.",
+          "Inherently / by nature.",
+          "Protecting nature.",
+          "Against nature."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "Recycling helps to reduce environmental pollution.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "The gorilla is an endangered animal species.",
+        "target": "Der Gorilla ist eine bedrohte Tierart."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'das Artensterben' mean?",
+        "options": [
+          "biodiversity",
+          "species extinction",
+          "natural disaster",
+          "global warming"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wir müssen unseren ___ Fußabdruck verkleinern.",
+        "answer": "ökologischen",
+        "hint": "ecological"
+      },
+      {
+        "type": "true_false",
+        "statement": "Dschungel and Urwälder are dense, tropical forests near the equator.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What causes the ice caps at the North and South Poles to melt?",
+        "options": [
+          "Recycling",
+          "Droughts",
+          "Pollution and global warming",
+          "Bears"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wir müssen ___ Natur wieder besser behandeln.",
+        "answer": "Mutter",
+        "hint": "Mother"
+      },
+      {
+        "type": "translation",
+        "sentence": "I am by nature a thrifty person.",
+        "answer": "Ich bin von Natur aus ein sparsamer Mensch."
+      },
+      {
+        "type": "true_false",
+        "statement": "A species (Spezies) is also called a Tierart.",
+        "answer": true
+      },
+      {
+        "type": "reorder",
+        "words": ["Wir", "müssen", "die", "Umwelt", "schützen", "."],
+        "answer": "Wir müssen die Umwelt schützen."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which term refers to the dry period of the year in certain regions?",
+        "options": [
+          "die Regenzeit",
+          "die Trockenzeit",
+          "die Dürre",
+          "das Artensterben"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Gorillas sind vom ___ bedroht.",
+        "answer": "Aussterben",
+        "hint": "extinction"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Sentences with 'damit'",
+    "titleDe": "Finalsätze: damit und um... zu",
+    "type": "grammar",
+    "icon": "💡",
+    "lectureContent": [
+      {
+        "sectionTitle": "Grammar: Finalsätze (Purpose Clauses)",
+        "type": "grammar",
+        "content": "<p>Final clauses (Finalsätze) describe a goal, purpose, or intention. They answer the questions <strong>Wozu?</strong> (What for?) or <strong>Zu welchem Zweck?</strong> (For what purpose?).</p><h4>1. Die Subjunktion <em>damit</em>:</h4><ul><li>Connects a main clause and a subordinate clause.</li><li>The conjugated verb in the subordinate clause goes to the <strong>very end</strong>.</li><li>Can be used with any subjects, and <strong>must</strong> be used when the subject of the main clause and the subordinate clause are different.</li><li><em>Ich erzähle meiner Tochter eine Geschichte, damit sie besser schläft.</em> (Subjects: <em>ich</em> ≠ <em>sie</em>)</li></ul><h4>2. Die Subjunktion <em>um... zu</em>:</h4><ul><li>Used <strong>only</strong> when the subject in both clauses is the same. The subject is not repeated in the final clause.</li><li>The verb goes to the end in the infinitive form, preceded by <em>zu</em>.</li><li><em>Marie lernt alles auswendig, um die Prüfung zu bestehen.</em> (Subject: <em>Marie</em> in both clauses)</li></ul><h4>3. Special Rules for <em>um... zu</em>:</h4><ul><li><strong>Separable Verbs</strong>: <em>zu</em> is placed between the prefix and the verb stem.<br/><em>... um in Ruhe auf<strong>zu</strong>wachsen.</em></li><li><strong>Modal & Auxiliary Verbs</strong>: <em>zu</em> is placed directly before the modal/auxiliary verb.<br/><em>... um einen Ausflug machen <strong>zu</strong> können.</em></li></ul><h4>4. Clause Position:</h4><p>The final clause can also be placed first. When this happens, the main clause starts with the conjugated verb.<br/><em>Damit er später Philosophie studieren kann, geht Erik aufs Gymnasium.</em></p>"
+      },
+      {
+        "sectionTitle": "Idioms & Expressions",
+        "type": "idiom",
+        "content": "<p><strong>Sinn der Sache sein</strong></p><p>Bedeutung: Der eigentliche Zweck oder das Ziel sein. (To be the point/purpose.)</p><p><em>Ich erzähle ihr eine Geschichte. Sinn der Sache ist, dass sie besser schläft.</em></p><br/><p><strong>Mittel zum Zweck sein</strong></p><p>Bedeutung: Nur ein Werkzeug oder Instrument sein, um etwas zu erreichen. (To be a means to an end.)</p><p><em>Für mich ist Yoga nur ein Mittel zum Zweck.</em></p>"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word (damit or um... zu).",
+        "sentence": "Ich lerne Deutsch, ___ in Deutschland arbeiten zu können.",
+        "answer": "um",
+        "hint": "connector for identical subjects with zu"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "When must you use 'damit' instead of 'um... zu'?",
+        "options": [
+          "When the verb is separable.",
+          "When the subjects of the main and final clauses are different.",
+          "When the verb is in the past tense.",
+          "When the final clause comes first."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "matching",
+        "instruction": "Match the main clauses with the correct final clauses.",
+        "pairs": [
+          ["Ich mache Sport,", "um mich besser zu fühlen."],
+          ["Eva lernt viel,", "um die Prüfung zu bestehen."],
+          ["Ich helfe dir,", "damit du keine Angst hast."],
+          ["Wir heizen,", "damit die Kinder warm sind."],
+          ["Er spart Geld,", "um ein Auto zu kaufen."]
+        ]
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "With separable verbs in an 'um... zu' clause, 'zu' goes between the prefix and the verb stem.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "For me, yoga is only a means to an end.",
+        "target": "Für mich ist Yoga nur ein Mittel zum Zweck."
+      },
+      {
+        "type": "reorder",
+        "instruction": "Put the words in the correct order.",
+        "words": ["Sinn", "der", "Sache", "ist", ",", "dass", "sie", "besser", "schläft", "."],
+        "answer": "Sinn der Sache ist, dass sie besser schläft."
+      },
+      {
+        "type": "fill_blank",
+        "instruction": "Complete with the correct word.",
+        "sentence": "Ich erzähle meiner Tochter eine Geschichte, ___ sie besser schläft.",
+        "answer": "damit",
+        "hint": "connector when subjects are different"
+      },
+      {
+        "type": "multiple_choice",
+        "instruction": "Choose the correct answer.",
+        "question": "Where is 'zu' placed with 'anfangen' in an 'um... zu' clause?",
+        "options": ["zuanfangen", "anfangen zu", "anzufangen", "an zu fangen"],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "instruction": "True or false?",
+        "statement": "The connector 'um... zu' can only be used if the subject in both clauses is the same.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "instruction": "Translate to German.",
+        "source": "Marie learns everything by heart to pass the exam.",
+        "target": "Marie lernt alles auswendig, um die Prüfung zu bestehen."
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Choose the correct final clause starting with the verb: 'Damit die ganze Familie den gleichen Namen hat, ...'",
+        "options": [
+          "wollten wir damals heiraten.",
+          "wir wollten damals heiraten.",
+          "damals heiraten wir wollten.",
+          "heiraten wollten wir damals."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich habe mir Fredericks Telefonnummer geben lassen, um mit ihm Kontakt ___.",
+        "answer": "aufzunehmen",
+        "hint": "separable verb 'aufnehmen' in um... zu clause"
+      },
+      {
+        "type": "true_false",
+        "statement": "Final clauses (Finalsätze) answer the question 'Wozu?' or 'Zu welchem Zweck?'.",
+        "answer": true
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of the following is correct for 'seen' (Perfekt) in an 'um... zu' clause?",
+        "options": [
+          "um gesehen zu haben",
+          "um zu gesehen haben",
+          "um gesehen haben zu",
+          "um zugesehen haben"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wir suchen ein großes Haus, ___ die Kinder Platz zum Spielen haben.",
+        "answer": "damit",
+        "hint": "so that (different subjects: wir vs. die Kinder)"
+      },
+      {
+        "type": "translation",
+        "sentence": "I have made the training to get a better job.",
+        "answer": "Ich habe die Fortbildung gemacht, um einen besseren Job zu bekommen."
+      },
+      {
+        "type": "true_false",
+        "statement": "If the subjects are different, you can still use 'um... zu'.",
+        "answer": false
+      },
+      {
+        "type": "reorder",
+        "words": ["Ich", "lerne", "Deutsch", ",", "um", "zu", "arbeiten", "."],
+        "answer": "Ich lerne Deutsch, um zu arbeiten."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Sinn der Sache' mean?",
+        "options": [
+          "A means to an end.",
+          "The point or purpose.",
+          "A difficult condition.",
+          "A feeling of joy."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Sie braucht einen Anwalt, um sich scheiden zu ___.",
+        "answer": "lassen",
+        "hint": "to let / get divorced"
+      }
+    ]
+  }
+]
