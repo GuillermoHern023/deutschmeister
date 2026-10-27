@@ -8,7 +8,7 @@ BODY_CONTENT = """
   <nav class="sidebar" id="sidebar">
     <div class="sidebar-header">
       <h1>🇩🇪 DeutschMeister</h1>
-      <div class="subtitle">Busuu-Lernpfad • A2.1 bis B1 & Goethe</div>
+      <div class="subtitle">Busuu-Lernpfad • A1 bis B1 & Goethe-Zertifikat</div>
     </div>
 
     <!-- Main Navigation Arenas -->
@@ -188,6 +188,141 @@ BODY_CONTENT = """
     </div>
   </div>
 </aside>
+
+<!-- Learning Methodology & Exercise Guide Modal -->
+<div class="guide-modal-backdrop" id="guide-modal-backdrop" onclick="closeGuideModal()">
+  <div class="guide-modal-card" onclick="event.stopPropagation()">
+    <div class="guide-modal-header">
+      <div style="display:flex;align-items:center;gap:12px">
+        <span style="font-size:1.8rem">💡</span>
+        <div>
+          <h2 style="font-size:1.2rem;color:#fff;margin:0">Didaktik & Übungstypen im Überblick</h2>
+          <div style="font-size:0.8rem;color:var(--text-secondary)">Busuu- & Duolingo-inspiriertes Mikrolern-System für Guillermo</div>
+        </div>
+      </div>
+      <button class="guide-modal-close" onclick="closeGuideModal()" title="Schließen">✕</button>
+    </div>
+    
+    <div class="guide-modal-body">
+      <div class="guide-item-card">
+        <div class="guide-item-icon">💬</div>
+        <div>
+          <div class="guide-item-title">
+            1. Wortschatz-Entdeckung & Audio
+            <span class="guide-item-badge" style="background:rgba(59,130,246,0.2);color:#60a5fa">Busuu Core</span>
+          </div>
+          <div class="guide-item-desc">
+            Neues Vokabular mit nativer Aussprache (normale Geschwindigkeit & Zeitlupen-Modus) sowie Farbcodierung nach grammatikalischem Geschlecht (<span style="color:#60a5fa">der</span> / <span style="color:#f87171">die</span> / <span style="color:#34d399">das</span>).
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-item-card">
+        <div class="guide-item-icon">🇪🇸</div>
+        <div>
+          <div class="guide-item-title">
+            2. Tipp für Guillermo (Spanisch-Sprecher)
+            <span class="guide-item-badge" style="background:rgba(245,158,11,0.2);color:#fbbf24">Personalisiert</span>
+          </div>
+          <div class="guide-item-desc">
+            Präzise Vergleiche zwischen Spanisch und Deutsch: Falsche Freunde (Falsche Kognaten), Präpositionen-Kontraste (<em>wütend auf</em> vs. <em>enojado con</em>) und typische Wortstellungsfallen.
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-item-card">
+        <div class="guide-item-icon">⚡</div>
+        <div>
+          <div class="guide-item-title">
+            3. Instant Recall Micro-Drill
+            <span class="guide-item-badge" style="background:rgba(139,92,246,0.2);color:#c4b5fd">Duolingo Haptik</span>
+          </div>
+          <div class="guide-item-desc">
+            Schnelles Multiple-Choice Quiz zur sofortigen Verankerung des neuen Worts mit prozeduralem Web Audio Feedback (Dur-Akkord bei Erfolg, sanftes Brummen bei Fehlern).
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-item-card">
+        <div class="guide-item-icon">✏️</div>
+        <div>
+          <div class="guide-item-title">
+            4. Lückentext-Meister (Fill-in-the-Blank)
+            <span class="guide-item-badge" style="background:rgba(16,185,129,0.2);color:#34d399">Aktive Erinnerung</span>
+          </div>
+          <div class="guide-item-desc">
+            Gezieltes Ergänzen fehlender Verben, Artikel und Präpositionen im Satzkontext inklusive virtueller Umlaut-Tastatur (<kbd>ä</kbd>, <kbd>ö</kbd>, <kbd>ü</kbd>, <kbd>ß</kbd>).
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-item-card">
+        <div class="guide-item-icon">📖</div>
+        <div>
+          <div class="guide-item-title">
+            5. Busuu Grammatik-Snapshot
+            <span class="guide-item-badge" style="background:rgba(245,158,11,0.2);color:#fbbf24">Busuu Snapshot</span>
+          </div>
+          <div class="guide-item-desc">
+            Kompakte 2-Satz-Grammatikregeln mit visuellen Satzbau-Blöcken: Keine verwirrenden Lehrbuch-Bleiwüsten, sondern klare Heuristiken für den Alltag.
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-item-card">
+        <div class="guide-item-icon">🧩</div>
+        <div>
+          <div class="guide-item-title">
+            6. Wortpaare verbinden (Interactive Matching)
+            <span class="guide-item-badge" style="background:rgba(59,130,246,0.2);color:#60a5fa">Spiele-Didaktik</span>
+          </div>
+          <div class="guide-item-desc">
+            Interaktive 3D-Karten verbinden deutsche Wörter und englische/spanische Bedeutungen – mit automatischem Audio beim Antippen und Erfolgsfanfare.
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-item-card">
+        <div class="guide-item-icon">🎧</div>
+        <div>
+          <div class="guide-item-title">
+            7. Echtes Gespräch in Berlin (WhatsApp-Stil)
+            <span class="guide-item-badge" style="background:rgba(16,185,129,0.2);color:#34d399">Immersiv</span>
+          </div>
+          <div class="guide-item-desc">
+            Realistische Chat-Dialoge zwischen Kollegen, Vermietern oder Freunden im Berliner Alltag mit Zeile-für-Zeile nativer Sprachausgabe.
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-item-card">
+        <div class="guide-item-icon">🧱</div>
+        <div>
+          <div class="guide-item-title">
+            8. Satzbau-Meister (Word Tiles)
+            <span class="guide-item-badge" style="background:rgba(139,92,246,0.2);color:#c4b5fd">Syntax Training</span>
+          </div>
+          <div class="guide-item-desc">
+            3D-Wortchips durch Antippen in die richtige Reihenfolge bringen, um deutsche Verbpositionen (Position 2 im Hauptsatz, Satzende bei <em>weil</em>/<em>obwohl</em>) intuitiv einzuschleifen.
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-item-card">
+        <div class="guide-item-icon">👨‍🏫</div>
+        <div>
+          <div class="guide-item-title">
+            9. Aktive Produktion (Sprechen & Schreiben)
+            <span class="guide-item-badge" style="background:rgba(245,158,11,0.2);color:#fbbf24">Goethe-Zertifikat</span>
+          </div>
+          <div class="guide-item-desc">
+            Freies Sprechen über Mikrofon-Spracherkennung oder Schreiben zu Goethe-Prüfungsformaten mit sofortiger KI-Grammatikanalyse durch <em>Herrn Professor</em>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div id="prof-toast" class="prof-toast">In die Zwischenablage kopiert! 📋</div>
 """

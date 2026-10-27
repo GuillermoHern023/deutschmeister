@@ -403,9 +403,14 @@ function showDashboard() {
           ${nextLesson.title} • ⏱️ ca. 4–5 Min. • Wortschatz, Grammatik-Bisschen & Dialog
         </div>
       </div>
-      <button class="btn-primary" style="padding:14px 28px;font-size:1rem" onclick="startLessonFlow(${nextLesson.id})">
-        ▶ Lektion ${nextLesson.id} jetzt starten →
-      </button>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <button class="btn-secondary" style="padding:14px 20px;font-size:0.92rem;display:inline-flex;align-items:center;gap:8px" onclick="openGuideModal()">
+          💡 Übungs-Guide & Didaktik
+        </button>
+        <button class="btn-primary" style="padding:14px 28px;font-size:1rem" onclick="startLessonFlow(${nextLesson.id})">
+          ▶ Lektion ${nextLesson.id} jetzt starten →
+        </button>
+      </div>
     </div>
 
     <!-- Busuu Vertical Stepping-Stone Timeline -->
@@ -601,7 +606,22 @@ function startLessonFlow(lessonId) {
     chosenIdx: null
   });
 
-  // Step 3: Busuu Grammar Snapshot
+  // Step 3: Interactive Fill-in-the-Blank (Lückentext)
+  const fillEx = exercises.find(e => e.type === 'fill_blank');
+  if (fillEx && fillEx.sentence && fillEx.answer) {
+    steps.push({
+      type: 'fill_blank',
+      title: 'Lückentext-Meister',
+      instruction: fillEx.instruction || 'Ergänze das fehlende deutsche Wort:',
+      sentence: fillEx.sentence,
+      answer: fillEx.answer,
+      hint: fillEx.hint || '',
+      answered: false,
+      userAnswer: ''
+    });
+  }
+
+  // Step 4: Busuu Grammar Snapshot
   if (grammarSection) {
     steps.push({
       type: 'grammar_snapshot',
@@ -612,7 +632,27 @@ function startLessonFlow(lessonId) {
     });
   }
 
-  // Step 4: Native Dialogue in Action
+  // Step 5: Interactive Word Matching Pairs (Wortpaare verbinden)
+  const matchingEx = exercises.find(e => e.type === 'matching');
+  if (matchingEx && matchingEx.pairs && matchingEx.pairs.length > 0) {
+    const rawPairs = matchingEx.pairs.slice(0, 4).map(p => ({
+      de: Array.isArray(p) ? p[0] : p.de,
+      en: Array.isArray(p) ? p[1] : p.en
+    }));
+    steps.push({
+      type: 'matching_pairs',
+      title: 'Wortpaare verbinden',
+      instruction: matchingEx.instruction || 'Tippe auf das deutsche Wort und die passende Bedeutung:',
+      pairs: rawPairs,
+      leftItems: rawPairs.map((p, i) => ({ id: i, text: p.de })).sort(() => Math.random() - 0.5),
+      rightItems: rawPairs.map((p, i) => ({ id: i, text: p.en })).sort(() => Math.random() - 0.5),
+      matchedIds: [],
+      selectedLeft: null,
+      selectedRight: null
+    });
+  }
+
+  // Step 6: Native Dialogue in Action
   if (dialogueLines.length > 0) {
     steps.push({
       type: 'dialogue',
@@ -770,6 +810,95 @@ function renderRunnerStepContent(step, idx) {
         </div>
 
         <div id="drill-feedback-container"></div>
+      </div>
+    `;
+  }
+
+  if (step.type === 'fill_blank') {
+    const parts = step.sentence.split('___');
+    const displaySentence = parts.length > 1
+      ? `${escapeHtml(parts[0])} <span class="blank-placeholder" id="fill-blank-target">______</span> ${escapeHtml(parts[1])}`
+      : escapeHtml(step.sentence);
+
+    return `
+      <div class="fill-blank-stage">
+        <div class="vocab-category-tag" style="background:rgba(59,130,246,0.15);color:#60a5fa">
+          ✏️ ${escapeHtml(step.title)}
+        </div>
+        <div class="drill-instruction">${escapeHtml(step.instruction)}</div>
+
+        <div class="fill-blank-sentence-card">
+          <div style="margin-bottom:8px">${displaySentence}</div>
+          ${step.hint ? `<div class="fill-blank-hint">💡 Hinweis: ${escapeHtml(step.hint)}</div>` : ''}
+        </div>
+
+        <div class="umlaut-bar" style="margin-bottom:14px">
+          <button type="button" class="umlaut-key" onclick="insertFillBlankUmlaut('ä')">ä</button>
+          <button type="button" class="umlaut-key" onclick="insertFillBlankUmlaut('ö')">ö</button>
+          <button type="button" class="umlaut-key" onclick="insertFillBlankUmlaut('ü')">ü</button>
+          <button type="button" class="umlaut-key" onclick="insertFillBlankUmlaut('ß')">ß</button>
+        </div>
+
+        <div class="fill-blank-input-group">
+          <input type="text" id="fill-blank-input" class="fill-blank-input" placeholder="Wort eintippen..." autofocus onkeydown="if(event.key==='Enter')handleFillBlankCheck()" />
+          <button class="btn-primary" id="btn-check-blank" onclick="handleFillBlankCheck()">Prüfen ✓</button>
+        </div>
+
+        <div id="fill-blank-feedback-container"></div>
+      </div>
+    `;
+  }
+
+  if (step.type === 'matching_pairs') {
+    const allMatched = step.matchedIds.length === step.pairs.length;
+    return `
+      <div class="matching-stage">
+        <div class="vocab-category-tag" style="background:rgba(16,185,129,0.15);color:#34d399">
+          🧩 ${escapeHtml(step.title)}
+        </div>
+        <div class="drill-instruction">${escapeHtml(step.instruction)}</div>
+
+        <div class="matching-grid" id="matching-grid">
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em">🇩🇪 Deutsch</div>
+            ${step.leftItems.map(item => {
+              const isMatched = step.matchedIds.includes(item.id);
+              const isSelected = step.selectedLeft === item.id;
+              return `
+                <div class="matching-card ${isMatched ? 'matched' : ''} ${isSelected ? 'selected' : ''}" id="match-left-${item.id}" onclick="handleMatchCardClick('left', ${item.id})">
+                  ${isMatched ? '✓ ' : ''}${escapeHtml(item.text)}
+                </div>
+              `;
+            }).join('')}
+          </div>
+
+          <div style="display:flex;flex-direction:column;gap:12px">
+            <div style="font-size:0.75rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em">🌐 Bedeutung</div>
+            ${step.rightItems.map(item => {
+              const isMatched = step.matchedIds.includes(item.id);
+              const isSelected = step.selectedRight === item.id;
+              return `
+                <div class="matching-card ${isMatched ? 'matched' : ''} ${isSelected ? 'selected' : ''}" id="match-right-${item.id}" onclick="handleMatchCardClick('right', ${item.id})">
+                  ${isMatched ? '✓ ' : ''}${escapeHtml(item.text)}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+
+        <div id="matching-feedback-container">
+          ${allMatched ? `
+            <div class="runner-feedback-sheet correct" style="margin-top:16px">
+              <div>
+                <div class="feedback-text-title">🎉 Alle Wortpaare verbunden!</div>
+                <div class="feedback-text-desc">Ausgezeichnet! Alle ${step.pairs.length} Paare fehlerfrei gematcht.</div>
+              </div>
+              <button class="btn-primary" id="btn-feedback-next" style="padding:10px 22px" onclick="nextRunnerStep()">
+                Weiter →
+              </button>
+            </div>
+          ` : ''}
+        </div>
       </div>
     `;
   }
@@ -957,6 +1086,202 @@ function nextRunnerStep() {
     runnerState.currentStepIndex++;
     renderRunner();
   }
+}
+
+
+function insertFillBlankUmlaut(char) {
+  const inp = document.getElementById('fill-blank-input');
+  if (!inp) return;
+  const start = inp.selectionStart;
+  const end = inp.selectionEnd;
+  inp.value = inp.value.substring(0, start) + char + inp.value.substring(end);
+  inp.focus();
+  inp.selectionStart = inp.selectionEnd = start + 1;
+}
+
+function handleFillBlankCheck() {
+  const step = runnerState.steps[runnerState.currentStepIndex];
+  if (!step || step.type !== 'fill_blank') return;
+  if (step.answered) return;
+
+  const inp = document.getElementById('fill-blank-input');
+  const btn = document.getElementById('btn-check-blank');
+  const container = document.getElementById('fill-blank-feedback-container');
+  const targetPlaceholder = document.getElementById('fill-blank-target');
+  if (!inp) return;
+
+  const val = inp.value.trim();
+  if (!val) return;
+
+  step.answered = true;
+  step.userAnswer = val;
+
+  const cleanUser = val.toLowerCase().replace(/[.,!?:;]/g, '');
+  const cleanAns = step.answer.toLowerCase().replace(/[.,!?:;]/g, '');
+
+  const isCorrect = (cleanUser === cleanAns);
+
+  if (targetPlaceholder) {
+    targetPlaceholder.innerText = step.answer;
+  }
+
+  if (isCorrect) {
+    soundEngine.correct();
+    addXp(10);
+    inp.classList.add('correct');
+    speakGerman(step.sentence.replace('___', step.answer));
+    if (container) {
+      container.innerHTML = `
+        <div class="runner-feedback-sheet correct">
+          <div>
+            <div class="feedback-text-title">✓ Richtig gelöst!</div>
+            <div class="feedback-text-desc">„${escapeHtml(step.sentence.replace('___', step.answer))}“</div>
+          </div>
+          <button class="btn-primary" id="btn-feedback-next" style="padding:10px 22px" onclick="nextRunnerStep()">
+            Weiter →
+          </button>
+        </div>
+      `;
+    }
+  } else {
+    soundEngine.wrong();
+    inp.classList.add('wrong');
+    if (container) {
+      container.innerHTML = `
+        <div class="runner-feedback-sheet wrong">
+          <div>
+            <div class="feedback-text-title">Fast richtig!</div>
+            <div class="feedback-text-desc">Die richtige Antwort ist: <strong>${escapeHtml(step.answer)}</strong></div>
+          </div>
+          <button class="btn-secondary" id="btn-feedback-next" style="padding:10px 22px" onclick="nextRunnerStep()">
+            Weiter →
+          </button>
+        </div>
+      `;
+    }
+  }
+
+  if (btn) {
+    btn.style.display = 'none';
+  }
+  inp.disabled = true;
+  setTimeout(() => document.getElementById('btn-feedback-next')?.focus(), 100);
+}
+
+function updateMatchingUI() {
+  const step = runnerState.steps[runnerState.currentStepIndex];
+  if (!step || step.type !== 'matching_pairs') return;
+
+  step.leftItems.forEach(item => {
+    const el = document.getElementById(`match-left-${item.id}`);
+    if (!el) return;
+    el.className = 'matching-card';
+    if (step.matchedIds.includes(item.id)) {
+      el.classList.add('matched');
+      el.innerHTML = `✓ ${escapeHtml(item.text)}`;
+    } else if (step.selectedLeft === item.id) {
+      el.classList.add('selected');
+      el.innerHTML = escapeHtml(item.text);
+    } else {
+      el.innerHTML = escapeHtml(item.text);
+    }
+  });
+
+  step.rightItems.forEach(item => {
+    const el = document.getElementById(`match-right-${item.id}`);
+    if (!el) return;
+    el.className = 'matching-card';
+    if (step.matchedIds.includes(item.id)) {
+      el.classList.add('matched');
+      el.innerHTML = `✓ ${escapeHtml(item.text)}`;
+    } else if (step.selectedRight === item.id) {
+      el.classList.add('selected');
+      el.innerHTML = escapeHtml(item.text);
+    } else {
+      el.innerHTML = escapeHtml(item.text);
+    }
+  });
+}
+
+function handleMatchCardClick(side, id) {
+  const step = runnerState.steps[runnerState.currentStepIndex];
+  if (!step || step.type !== 'matching_pairs') return;
+  if (step.matchedIds.includes(id)) return;
+
+  soundEngine.click();
+
+  if (side === 'left') {
+    step.selectedLeft = id;
+    if (step.pairs[id]) {
+      speakGerman(step.pairs[id].de);
+    }
+  } else {
+    step.selectedRight = id;
+  }
+
+  updateMatchingUI();
+
+  // If both left and right are selected, evaluate match
+  if (step.selectedLeft !== null && step.selectedRight !== null) {
+    const leftId = step.selectedLeft;
+    const rightId = step.selectedRight;
+
+    if (leftId === rightId) {
+      // Match!
+      soundEngine.correct();
+      addXp(5);
+      step.matchedIds.push(leftId);
+      step.selectedLeft = null;
+      step.selectedRight = null;
+      updateMatchingUI();
+
+      if (step.matchedIds.length === step.pairs.length) {
+        soundEngine.fanfare();
+        addXp(10);
+        const container = document.getElementById('matching-feedback-container');
+        if (container) {
+          container.innerHTML = `
+            <div class="runner-feedback-sheet correct" style="margin-top:16px">
+              <div>
+                <div class="feedback-text-title">🎉 Alle Wortpaare verbunden!</div>
+                <div class="feedback-text-desc">Großartige Arbeit, Guillermo! Alle Paare gemeistert.</div>
+              </div>
+              <button class="btn-primary" id="btn-feedback-next" style="padding:10px 22px" onclick="nextRunnerStep()">
+                Weiter →
+              </button>
+            </div>
+          `;
+          setTimeout(() => document.getElementById('btn-feedback-next')?.focus(), 100);
+        }
+      }
+    } else {
+      // Mismatch
+      soundEngine.wrong();
+      const elLeft = document.getElementById(`match-left-${leftId}`);
+      const elRight = document.getElementById(`match-right-${rightId}`);
+      if (elLeft) elLeft.classList.add('wrong');
+      if (elRight) elRight.classList.add('wrong');
+
+      setTimeout(() => {
+        step.selectedLeft = null;
+        step.selectedRight = null;
+        updateMatchingUI();
+      }, 500);
+    }
+  }
+}
+
+function openGuideModal() {
+  const m = document.getElementById('guide-modal-backdrop');
+  if (m) {
+    m.classList.add('open');
+    soundEngine.click();
+  }
+}
+
+function closeGuideModal() {
+  const m = document.getElementById('guide-modal-backdrop');
+  if (m) m.classList.remove('open');
 }
 
 function handleDrillAnswer(chosenIdx) {

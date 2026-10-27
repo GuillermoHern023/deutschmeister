@@ -1563,6 +1563,237 @@ body {
 }
 .prof-toast.show { transform: translateX(-50%) translateY(0); }
 
+/* Step 2b: Fill-in-the-Blank (Lückentext) */
+.fill-blank-stage {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.fill-blank-sentence-card {
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 26px 22px;
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.6;
+}
+.blank-placeholder {
+  display: inline-block;
+  min-width: 90px;
+  border-bottom: 3px solid #60a5fa;
+  color: #60a5fa;
+  font-weight: 800;
+  padding: 0 8px;
+}
+.fill-blank-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: #fbbf24;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: var(--radius-full);
+  padding: 4px 14px;
+  margin-top: 14px;
+}
+.fill-blank-input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+.fill-blank-input {
+  flex: 1;
+  background: var(--bg-surface-elevated);
+  border: 2px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #fff;
+  transition: var(--transition);
+}
+.fill-blank-input:focus {
+  outline: none;
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.2);
+}
+.fill-blank-input.correct {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+}
+.fill-blank-input.wrong {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+}
+
+/* Step 4b: Word Matching Pairs (Wortpaare verbinden) */
+.matching-stage {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.matching-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.matching-card {
+  background: var(--bg-surface-elevated);
+  border: 2px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 16px 14px;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 4px 0 #0f172a;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.matching-card:hover {
+  background: var(--bg-card-hover);
+  border-color: #60a5fa;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #0f172a;
+}
+.matching-card:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #0f172a;
+}
+.matching-card.selected {
+  border-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.22);
+  color: #93c5fd;
+  box-shadow: 0 4px 0 #1e40af, 0 0 12px rgba(59, 130, 246, 0.4);
+  transform: translateY(-2px);
+}
+.matching-card.matched {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+  cursor: default;
+  pointer-events: none;
+  box-shadow: none;
+  opacity: 0.88;
+}
+.matching-card.wrong {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.25);
+  color: #f87171;
+  animation: matchShake 0.4s ease;
+}
+@keyframes matchShake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+
+/* Method & Exercise Guide Modal */
+.guide-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 0.25s ease;
+}
+.guide-modal-backdrop.open {
+  display: flex;
+}
+.guide-modal-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-lg);
+  max-width: 760px;
+  width: 100%;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+  animation: slideInUp 0.3s ease;
+  overflow: hidden;
+}
+.guide-modal-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-surface-elevated);
+}
+.guide-modal-close {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: var(--radius-xs);
+  transition: var(--transition);
+}
+.guide-modal-close:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+.guide-modal-body {
+  padding: 24px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.guide-item-card {
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.guide-item-icon {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.guide-item-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.guide-item-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.guide-item-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
 /* Mobile Hamburger Toggle */
 .mobile-toggle {
   display: none;
