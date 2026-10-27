@@ -1658,7 +1658,8 @@ body {
     <!-- Level Selector Tabs -->
     <div style="padding:4px 14px 2px;font-size:0.75rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em">Stufe wählen:</div>
     <div class="level-tabs" id="level-tabs-container">
-      <button class="level-tab-btn active" id="btn-level-a21" onclick="changeLevel('A2.1')">A2.1</button>
+      <button class="level-tab-btn active" id="btn-level-a1" onclick="changeLevel('A1')">A1</button>
+      <button class="level-tab-btn" id="btn-level-a21" onclick="changeLevel('A2.1')">A2.1</button>
       <button class="level-tab-btn" id="btn-level-a22" onclick="changeLevel('A2.2')">A2.2</button>
       <button class="level-tab-btn" id="btn-level-b1" onclick="changeLevel('B1')">B1</button>
     </div>
@@ -1798,6 +1799,7 @@ body {
 
 const STORAGE_KEY = 'deutschmeister_state_v3';
 const MODULES = [
+  { id: 0, title: "A1 Fundament & Berliner Alltag", titleEn: "A1 Foundations & Berlin Daily Life", icon: "🌱", desc: "Aussprache, Alphabet, Begrüßung in Berlin, sein & haben, der/die/das, Akkusativ und W-Fragen von Null an.", lessons: [71,72,73,74,75], level: "A1" },
   { id: 1, title: "Gefühle & Beziehungen", titleEn: "Feelings & Relationships", icon: "❤️", desc: "Lerne über Gefühle zu sprechen, Emotionen auszudrücken und Alltagsbeziehungen in Berlin zu beschreiben.", lessons: [1,2,3,4], level: "A2.1" },
   { id: 2, title: "Wohnen, Stadt & Bürgeramt", titleEn: "Living, City & Registration", icon: "🏠", desc: "Wohnungssuche in Berlin, Mietvertrag verstehen, Nachbarn kennenlernen und Anmeldung beim Bürgeramt.", lessons: [5,6,7,8,9], level: "A2.1" },
   { id: 3, title: "Gesundheit & Sport", titleEn: "Health, Doctor & Fitness", icon: "⚽", desc: "Arztbesuch bei Doctolib, Symptome und Schmerzen beschreiben, Sportarten und Fitness-Routinen.", lessons: [10,11,12,13], level: "A2.1" },
@@ -1835,7 +1837,7 @@ function getDefaultState() {
     xp: 0,
     streak: 1,
     lastActiveDate: new Date().toISOString().split('T')[0],
-    activeLevel: 'A2.1',
+    activeLevel: 'A1',
     freeMode: false,
     soundEnabled: true,
     activeNavMode: 'course',
@@ -2060,7 +2062,7 @@ function switchNavMode(mode) {
 
 function isLessonUnlocked(id) {
   if (state.freeMode) return true;
-  if (id === 1) return true;
+  if (id === 1 || id === 71) return true;
   const prevLesson = LESSONS.find(l => l.id === id - 1);
   if (!prevLesson) return true;
   return isLessonCompleted(prevLesson.id);
@@ -2075,6 +2077,7 @@ function getLessonStars(id) {
 }
 
 function getLessonLevel(id) {
+  if (id >= 71 && id <= 75) return 'A1';
   if (id <= 20) return 'A2.1';
   if (id <= 40) return 'A2.2';
   return 'B1';
@@ -2083,6 +2086,21 @@ function getLessonLevel(id) {
 /* Spanish Speaker Context Helpers (Custom-tailored for Guillermo) */
 function getSpanishTip(lesson) {
   const id = lesson.id;
+  if (id === 71) {
+    return "💡 <strong>Aussprache-Tipp für Hispanohablantes:</strong> La 'W' en alemán suena como nuestra 'V' (<em>Wasser</em> = 'Vasser'). Y 'EI' siempre suena como 'AI' en español (<em>mein</em> = 'main'), mientras que 'IE' suena como 'I' larga (<em>Bier</em> = 'Biir').";
+  }
+  if (id === 72) {
+    return "💡 <strong>La Regla de Oro (Posición 2):</strong> En español el orden es libre ('Hoy trabajo en Berlín' o 'Yo hoy en Berlín trabajo'). En alemán, el verbo conjugado está <strong>SIEMPRE en Posición 2</strong>: <em>Heute [arbeite] ich in Berlin</em>.";
+  }
+  if (id === 73) {
+    return "💡 <strong>El secreto del Acusativo:</strong> ¡Solo cambia el masculino! <em>der -> den</em> (<em>ein -> einen</em>). Femenino y neutro se quedan exactamente iguales: <em>Ich nehme einen Kaffee (masc), ein Wasser (neutro) und eine Brezel (fem).</em>";
+  }
+  if (id === 74) {
+    return "💡 <strong>Números al revés y la media hora:</strong> A partir del 21 dices primero las unidades: <em>einundzwanzig</em> (uno y veinte). Y cuidado: <em>halb acht</em> NO es 8:30, ¡es 'media hora para las ocho', o sea las <strong>7:30</strong>!";
+  }
+  if (id === 75) {
+    return "💡 <strong>Preguntas directas (W-Fragen):</strong> La palabra con W va primero, y el verbo va INMEDIATAMENTE en posición 2: <em>Wo [wohnst] du?</em>, <em>Wann [fängt] das Meeting an?</em>.";
+  }
   if (id === 1) {
     return "💡 <strong>Ojo hispanohablantes:</strong> En español decimos <em>enojado CON</em> o <em>satisfecho CON</em>. En alemán, las preposiciones cambian: <strong>wütend auf + Akkusativ</strong> (enojado con) y <strong>zufrieden mit + Dativ</strong> (satisfecho con).";
   }
@@ -2148,7 +2166,10 @@ function showDashboard() {
       </div>
 
       <!-- Quick Level Switcher Tabs -->
-      <div style="display:flex;gap:8px;margin-top:14px;width:100%">
+      <div style="display:flex;gap:8px;margin-top:14px;width:100%;flex-wrap:wrap">
+        <button class="level-tab-btn ${activeLevel === 'A1' ? 'active' : ''}" style="padding:10px 14px;font-size:0.84rem" onclick="changeLevel('A1')">
+          🌱 Fundament • A1 von Null
+        </button>
         <button class="level-tab-btn ${activeLevel === 'A2.1' ? 'active' : ''}" style="padding:10px 14px;font-size:0.84rem" onclick="changeLevel('A2.1')">
           Stufe 1 • A2.1 Grundlagen
         </button>

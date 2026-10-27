@@ -59,7 +59,8 @@ BODY_CONTENT = """
     <!-- Level Selector Tabs -->
     <div style="padding:4px 14px 2px;font-size:0.75rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em">Stufe wählen:</div>
     <div class="level-tabs" id="level-tabs-container">
-      <button class="level-tab-btn active" id="btn-level-a21" onclick="changeLevel('A2.1')">A2.1</button>
+      <button class="level-tab-btn active" id="btn-level-a1" onclick="changeLevel('A1')">A1</button>
+      <button class="level-tab-btn" id="btn-level-a21" onclick="changeLevel('A2.1')">A2.1</button>
       <button class="level-tab-btn" id="btn-level-a22" onclick="changeLevel('A2.2')">A2.2</button>
       <button class="level-tab-btn" id="btn-level-b1" onclick="changeLevel('B1')">B1</button>
     </div>

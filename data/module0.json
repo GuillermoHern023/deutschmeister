@@ -1,0 +1,907 @@
+[
+  {
+    "id": 71,
+    "title": "Pronunciation, Alphabet & Greetings in Berlin",
+    "titleDe": "Aussprache, Alphabet & Berliner Begrüßung",
+    "type": "Foundations",
+    "icon": "🗣️",
+    "level": "A1",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Greetings & Politeness",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>Hallo</strong></td><td>Hello / Hi</td><td>Hallo Guillermo! Wie geht's?</td></tr><tr><td><strong>Guten Morgen</strong></td><td>Good morning</td><td>Guten Morgen, Herr Müller!</td></tr><tr><td><strong>Guten Tag</strong></td><td>Good day / Hello</td><td>Guten Tag! Ich habe einen Termin.</td></tr><tr><td><strong>Guten Abend</strong></td><td>Good evening</td><td>Guten Abend zusammen!</td></tr><tr><td><strong>Tschüss</strong></td><td>Bye / Goodbye (informal)</td><td>Tschüss, bis morgen!</td></tr><tr><td><strong>Auf Wiedersehen</strong></td><td>Goodbye (formal)</td><td>Auf Wiedersehen, Frau Schmidt!</td></tr><tr><td><strong>Schönen Feierabend!</strong></td><td>Have a nice evening / end of work!</td><td>Danke, dir auch einen schönen Feierabend!</td></tr><tr><td><strong>Bitte</strong></td><td>Please / You're welcome</td><td>Einen Kaffee, bitte.</td></tr><tr><td><strong>Danke schön</strong></td><td>Thank you very much</td><td>Danke schön für Ihre Hilfe!</td></tr><tr><td><strong>Entschuldigung</strong></td><td>Excuse me / Sorry</td><td>Entschuldigung, wo ist die U-Bahn?</td></tr><tr><td><strong>Wie geht es dir?</strong></td><td>How are you? (informal)</td><td>Wie geht es dir heute?</td></tr><tr><td><strong>Sehr gut, danke!</strong></td><td>Very good, thanks!</td><td>Mir geht es sehr gut, danke!</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: German Sound Rules & Alphabet Secrets",
+        "type": "grammar",
+        "content": "<p>German pronunciation is phonetic and remarkably consistent once you know the core sound rules:</p><ul><li><strong>EI = 'eye':</strong> <em>mein</em> (my), <em>nein</em> (no), <em>arbeiten</em>.</li><li><strong>IE = 'ee':</strong> <em>Sie</em> (you), <em>hier</em> (here), <em>Bier</em> (beer). Tip: The second letter gives the sound!</li><li><strong>W = 'V':</strong> <em>Wasser</em> sounds like 'Vasser', <em>wohnen</em> sounds like 'vohnen'.</li><li><strong>V = 'F':</strong> <em>viel</em> sounds like 'feel', <em>von</em> sounds like 'fon'.</li><li><strong>SP / ST at the start = 'Shp' / 'Sht':</strong> <em>Sport</em> = 'Shport', <em>Straße</em> = 'Shtrasse'.</li><li><strong>Umlauts:</strong> <em>ä</em> (like 'air'), <em>ö</em> (round your lips and say 'ay'), <em>ü</em> (round your lips and say 'ee').</li><li><strong>ß (Eszett / Sharp S):</strong> Pronounced like a double 's' (e.g. <em>heiß</em>, <em>Straße</em>).</li></ul>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: Survival Phrase",
+        "type": "idiom",
+        "content": "<p><strong>Schönen Feierabend!</strong></p><p>Bedeutung: 'Have a great end of work!' In Germany, <em>Feierabend</em> is a cultural institution. Colleague leaving at 17:00? Say <em>„Schönen Feierabend!“</em>.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Lukas (Kollege)",
+        "de": "Guten Morgen, Guillermo! Willkommen im Büro!",
+        "en": "Good morning, Guillermo! Welcome to the office!"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Guten Morgen, Lukas! Danke schön. Wie geht es dir?",
+        "en": "Good morning, Lukas! Thank you. How are you?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Sehr gut, danke! Möchtest du einen Kaffee zum Start?",
+        "en": "Very good, thanks! Would you like a coffee to start?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ja, sehr gerne, bitte! Das hilft immer.",
+        "en": "Yes, gladly, please! That always helps."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Schönen Feierabend!' mean?",
+        "options": [
+          "Good morning!",
+          "Have a nice end of the workday!",
+          "Excuse me!",
+          "Welcome to Berlin!"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Guten ___, Guillermo! Wie geht es dir?",
+        "answer": "Morgen",
+        "hint": "Morning"
+      },
+      {
+        "type": "true_false",
+        "statement": "In German, the letter combination 'EI' sounds like 'ee' in English.",
+        "answer": false
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "Guten Tag",
+            "en": "Good day / Hello"
+          },
+          {
+            "de": "Auf Wiedersehen",
+            "en": "Goodbye (formal)"
+          },
+          {
+            "de": "Danke schön",
+            "en": "Thank you very much"
+          },
+          {
+            "de": "Entschuldigung",
+            "en": "Excuse me / Sorry"
+          }
+        ]
+      },
+      {
+        "type": "translation",
+        "source": "Excuse me, where is the subway?",
+        "target": "Entschuldigung, wo ist die U-Bahn?"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Guten",
+          "Lukas",
+          "Morgen",
+          "geht",
+          "wie",
+          "dir",
+          "es"
+        ],
+        "answer": "Guten Morgen Lukas wie geht es dir"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ein Wasser, ___ schön!",
+        "answer": "bitte",
+        "hint": "please"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How do you say goodbye informally to friends or colleagues?",
+        "options": [
+          "Guten Abend",
+          "Tschüss",
+          "Guten Morgen",
+          "Bitte"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "statement": "The German letter 'W' is pronounced like an English 'V' (e.g. Wasser).",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "source": "Very good, thanks!",
+        "target": "Sehr gut, danke!"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Which greeting is used specifically in the morning?",
+        "options": [
+          "Guten Abend",
+          "Guten Morgen",
+          "Gute Nacht",
+          "Tschüss"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Auf ___, Herr Müller!",
+        "answer": "Wiedersehen",
+        "hint": "formal goodbye"
+      },
+      {
+        "type": "translation",
+        "source": "Have a nice evening / end of work!",
+        "target": "Schönen Feierabend!"
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A1/A2 — Erste Nachricht schreiben",
+      "wordTarget": "20–30 Wörter",
+      "situation": "Du schreibst eine kurze Begrüßungsnachricht an deinen Kollegen Lukas.",
+      "points": [
+        "Sag Guten Morgen / Hallo.",
+        "Frag wie es ihm geht.",
+        "Wünsch ihm einen guten Tag."
+      ],
+      "usefulPhrases": [
+        "Hallo Lukas, wie geht es dir?",
+        "Ich wünsche dir einen schönen Tag!",
+        "Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nwie geht es dir? Ich wünsche dir einen schönen Tag im Büro und bis später!\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A1 — Sich vorstellen",
+      "prompt": "Begrüße jemanden auf Deutsch und frag nach dem Befinden.",
+      "talkingPoints": [
+        "Begrüßung (Guten Tag / Hallo)",
+        "Wie geht es Ihnen / dir?",
+        "Höflichkeit (Danke, gut!)"
+      ],
+      "keyPhrases": [
+        "Guten Tag! Wie geht es Ihnen?",
+        "Mir geht es sehr gut, danke!",
+        "Und Ihnen?"
+      ],
+      "sampleResponse": "Hallo! Mein Name ist Guillermo. Mir geht es sehr gut, danke! Wie geht es dir?"
+    }
+  },
+  {
+    "id": 72,
+    "title": "The Engine: sein, haben & Regular Verbs",
+    "titleDe": "Das Fundament: sein, haben & Verben im Präsens",
+    "type": "Grammar",
+    "icon": "⚡",
+    "level": "A1",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Verbs: The Building Blocks",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Infinitiv</th><th>English</th><th>ich (I)</th><th>du (you)</th><th>er/sie/es</th></tr></thead><tbody><tr><td><strong>sein</strong></td><td>to be (ser/estar)</td><td>ich bin</td><td>du bist</td><td>er/sie/es ist</td></tr><tr><td><strong>haben</strong></td><td>to have (tener)</td><td>ich habe</td><td>du hast</td><td>er/sie/es hat</td></tr><tr><td><strong>kommen</strong></td><td>to come (venir)</td><td>ich komme</td><td>du kommst</td><td>er kommt</td></tr><tr><td><strong>wohnen</strong></td><td>to live/reside</td><td>ich wohne</td><td>du wohnst</td><td>er wohnt</td></tr><tr><td><strong>arbeiten</strong></td><td>to work (trabajar)</td><td>ich arbeite</td><td>du arbeitest</td><td>er arbeitet</td></tr><tr><td><strong>heißen</strong></td><td>to be called (llamarse)</td><td>ich heiße</td><td>du heißt</td><td>er heißt</td></tr><tr><td><strong>sprechen</strong></td><td>to speak (hablar)</td><td>ich spreche</td><td>du sprichst</td><td>er spricht</td></tr><tr><td><strong>lernen</strong></td><td>to learn / study</td><td>ich lerne</td><td>du lernst</td><td>er lernt</td></tr><tr><td><strong>machen</strong></td><td>to do / make (hacer)</td><td>ich mache</td><td>du machst</td><td>er macht</td></tr><tr><td><strong>trinken</strong></td><td>to drink (beber)</td><td>ich trinke</td><td>du trinkst</td><td>er trinkt</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: The Golden Endings Formula",
+        "type": "grammar",
+        "content": "<p>In German, all regular verbs follow a strict, unshakeable pattern. Remove <strong>-en</strong> from the infinitive, and attach these endings:</p><ul><li><strong>ich</strong> -> <strong>-e</strong> (<em>ich wohn-e</em>)</li><li><strong>du</strong> -> <strong>-st</strong> (<em>du wohn-st</em>)</li><li><strong>er / sie / es</strong> -> <strong>-t</strong> (<em>er wohn-t</em>)</li><li><strong>wir</strong> -> <strong>-en</strong> (<em>wir wohn-en</em>)</li><li><strong>ihr</strong> -> <strong>-t</strong> (<em>ihr wohn-t</em>)</li><li><strong>sie / Sie</strong> -> <strong>-en</strong> (<em>sie wohn-en</em>)</li></ul><p><strong>Iron Rule 1:</strong> In a regular main clause, the conjugated verb is <strong>ALWAYS in Position 2</strong>.</p><p><em>Ich <strong>wohne</strong> in Berlin.</em> (1: Ich, 2: wohne)<br><em>In Berlin <strong>wohne</strong> ich.</em> (1: In Berlin, 2: wohne -> Inversion!)</p>"
+      },
+      {
+        "sectionTitle": "💡 Tipp für Guillermo (Spanisch-Sprecher)",
+        "type": "idiom",
+        "content": "<p>En español decimos 'tengo 30 años' (tener). En alemán usamos <strong>sein</strong> (ser/estar):<br><em>„Ich <strong>bin</strong> 30 Jahre alt.“</em> (NO <em>ich habe</em>).</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "de": "Hallo! Woher kommst du und wo wohnst du?",
+        "en": "Hello! Where do you come from and where do you live?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ich komme aus Honduras, aber ich wohne und arbeite jetzt in Berlin.",
+        "en": "I come from Honduras, but I live and work in Berlin now."
+      },
+      {
+        "speaker": "Sarah",
+        "de": "Toll! Was machst du beruflich?",
+        "en": "Great! What do you do professionally?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ich bin Projektmanager und ich lerne fleißig Deutsch.",
+        "en": "I am a project manager and I am diligently learning German."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "sentence": "Ich ___ Guillermo und ich komme aus Honduras.",
+        "answer": "heiße",
+        "hint": "am called"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which verb form completes: 'Lukas und ich ___ in Berlin.'?",
+        "options": [
+          "wohne",
+          "wohnst",
+          "wohnen",
+          "wohnt"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "statement": "To say your age in German, you say 'Ich habe ... Jahre alt'.",
+        "answer": false
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Guillermo ___ als Projektmanager in Berlin.",
+        "answer": "arbeitet",
+        "hint": "works"
+      },
+      {
+        "type": "translation",
+        "source": "I live in Berlin and speak Spanish and English.",
+        "target": "Ich wohne in Berlin und spreche Spanisch und Englisch."
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Berlin",
+          "wohne",
+          "ich",
+          "In"
+        ],
+        "answer": "In Berlin wohne ich"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the correct 'du' form of the verb 'sein'?",
+        "options": [
+          "bin",
+          "bist",
+          "ist",
+          "sind"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wir ___ heute einen Termin im Büro.",
+        "answer": "haben",
+        "hint": "have"
+      },
+      {
+        "type": "true_false",
+        "statement": "In a German main clause, the conjugated verb is always in Position 2.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "source": "What are you doing today?",
+        "target": "Was machst du heute?"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Conjugate: 'Er ___ aus Honduras.'",
+        "options": [
+          "komme",
+          "kommst",
+          "kommt",
+          "kommen"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich ___ Projektmanager.",
+        "answer": "bin",
+        "hint": "am"
+      },
+      {
+        "type": "translation",
+        "source": "Where do you live?",
+        "target": "Wo wohnst du?"
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A1 — Steckbrief / Vorstellung",
+      "wordTarget": "30–40 Wörter",
+      "situation": "Schreibe 3–4 Sätze über dich für dein Profil im Deutschkurs.",
+      "points": [
+        "Name und Herkunft (Ich heiße... / Ich komme aus...)",
+        "Wohnort und Beruf (Ich wohne in... / Ich arbeite als...)",
+        "Sprachen (Ich spreche...)"
+      ],
+      "usefulPhrases": [
+        "Ich heiße Guillermo.",
+        "Ich komme aus Honduras.",
+        "Ich wohne in Berlin und arbeite als Projektmanager.",
+        "Ich lerne Deutsch."
+      ],
+      "modelAnswer": "Hallo! Ich heiße Guillermo und ich komme aus Honduras. Jetzt wohne ich in Berlin und arbeite als Projektmanager. Meine Muttersprache ist Spanisch und ich lerne Deutsch."
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A1 — Teil 1: Sich vorstellen",
+      "prompt": "Stelle dich in 4 Sätzen vor: Name, Herkunft, Wohnort, Beruf.",
+      "talkingPoints": [
+        "Name (Ich heiße / Mein Name ist)",
+        "Herkunft (Ich komme aus...)",
+        "Wohnort (Ich wohne in Berlin)",
+        "Beruf (Ich bin Projektmanager)"
+      ],
+      "keyPhrases": [
+        "Mein Name ist Guillermo.",
+        "Ich komme ursprünglich aus Honduras.",
+        "Seit einiger Zeit lebe ich in Berlin.",
+        "Ich arbeite als Projektmanager."
+      ],
+      "sampleResponse": "Mein Name ist Guillermo Hernandez. Ich komme aus Honduras und lebe in Berlin. Ich arbeite als Projektmanager."
+    }
+  },
+  {
+    "id": 73,
+    "title": "Der, Die, Das & Ordering in Berlin",
+    "titleDe": "Der, Die, Das & Akkusativ (Kaffee & Essen bestellen)",
+    "type": "Vocabulary & Grammar",
+    "icon": "☕",
+    "level": "A1",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Food & Drinks",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Artikel</th><th>Nomen</th><th>English</th><th>Im Akkusativ (einen/eine/ein)</th></tr></thead><tbody><tr><td>der</td><td><strong>Kaffee</strong></td><td>coffee</td><td>Ich nehme <strong>einen</strong> Kaffee.</td></tr><tr><td>der</td><td><strong>Tee</strong></td><td>tea</td><td>Ich trinke <strong>einen</strong> Tee.</td></tr><tr><td>das</td><td><strong>Wasser</strong></td><td>water</td><td>Ich hätte gerne <strong>ein</strong> Wasser.</td></tr><tr><td>das</td><td><strong>Bier</strong></td><td>beer</td><td>Noch <strong>ein</strong> Bier, bitte!</td></tr><tr><td>die</td><td><strong>Rechnung</strong></td><td>the bill / check</td><td><strong>Die</strong> Rechnung, bitte!</td></tr><tr><td>das</td><td><strong>Brötchen</strong></td><td>bread roll</td><td>Ich nehme <strong>ein</strong> Brötchen.</td></tr><tr><td>die</td><td><strong>Brezel</strong></td><td>pretzel</td><td>Ich möchte <strong>eine</strong> Brezel.</td></tr><tr><td>der</td><td><strong>Kuchen</strong></td><td>cake</td><td>Möchtest du <strong>einen</strong> Kuchen?</td></tr><tr><td>der</td><td><strong>Salat</strong></td><td>salad</td><td>Ich esse <strong>einen</strong> Salat.</td></tr><tr><td>die</td><td><strong>Suppe</strong></td><td>soup</td><td>Ich nehme <strong>eine</strong> Suppe.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: The Magic of Akkusativ (Only DER changes!)",
+        "type": "grammar",
+        "content": "<p>Why do German articles change? Because cases indicate who is doing what!</p><p>When you want, see, buy, or order something, it is the <strong>Akkusativ (Direct Object)</strong>.</p><p><strong>The Great Secret:</strong> Only <strong>MASCOLINE (der)</strong> changes! Everything else stays identical:</p><ul><li><strong>DER</strong> -> <strong>DEN</strong> (or <em>ein</em> -> <strong>einen</strong>) -> <em>Ich trinke <strong>einen</strong> Kaffee.</em></li><li><strong>DIE</strong> -> <strong>DIE</strong> (or <em>eine</em> -> <strong>eine</strong>) -> <em>Ich esse <strong>eine</strong> Brezel.</em></li><li><strong>DAS</strong> -> <strong>DAS</strong> (or <em>ein</em> -> <strong>ein</strong>) -> <em>Ich nehme <strong>ein</strong> Wasser.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: Ordering Like a Local",
+        "type": "idiom",
+        "content": "<p><strong>Ich hätte gerne... / Ich nehme...</strong></p><p>Don't say 'Ich will'. In a Berlin café or bakery, always say:<br><em>„Ich hätte gerne einen Cappuccino mit Hafermilch, bitte.“</em> (I would gladly have a cappuccino with oat milk, please).</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Barista (Kreuzberg)",
+        "de": "Hallo! Was darf es sein?",
+        "en": "Hello! What can I get you?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Hallo! Ich hätte gerne einen großen Kaffee und eine Brezel, bitte.",
+        "en": "Hello! I would like a large coffee and a pretzel, please."
+      },
+      {
+        "speaker": "Barista",
+        "de": "Gerne. Mit Hafermilch oder Kuhmilch?",
+        "en": "Gladly. With oat milk or cow milk?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Mit Hafermilch, bitte. Und was kostet das zusammen?",
+        "en": "With oat milk, please. And how much is that together?"
+      },
+      {
+        "speaker": "Barista",
+        "de": "Das macht 4 Euro 80, bitte.",
+        "en": "That comes to 4 euros 80, please."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "fill_blank",
+        "sentence": "Ich nehme ___ Kaffee mit Milch, bitte.",
+        "answer": "einen",
+        "hint": "masculine akkusativ of ein"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which article goes with 'Bier'?",
+        "options": [
+          "der",
+          "die",
+          "das",
+          "den"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich hätte gerne ___ Wasser ohne Kohlensäure.",
+        "answer": "ein",
+        "hint": "neuter akkusativ of ein"
+      },
+      {
+        "type": "true_false",
+        "statement": "In the Akkusativ case, feminine nouns ('die Brezel') change their article to 'den'.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "source": "The bill, please!",
+        "target": "Die Rechnung, bitte!"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "hätte",
+          "Ich",
+          "einen",
+          "Kaffee",
+          "gerne"
+        ],
+        "answer": "Ich hätte gerne einen Kaffee"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How do you politely order in a German café?",
+        "options": [
+          "Ich will Bier",
+          "Ich hätte gerne...",
+          "Gib mir das",
+          "Kaffee her"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wir essen heute ___ Suppe und einen Salat.",
+        "answer": "eine",
+        "hint": "feminine akkusativ of ein"
+      },
+      {
+        "type": "true_false",
+        "statement": "Only masculine nouns change from 'der/ein' to 'den/einen' in the Akkusativ.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "source": "How much does that cost?",
+        "target": "Was kostet das?"
+      }
+    ],
+    "exam": [
+      {
+        "type": "fill_blank",
+        "sentence": "Ich trinke ___ Tee.",
+        "answer": "einen",
+        "hint": "masculine akkusativ (der Tee)"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence has correct articles?",
+        "options": [
+          "Ich nehme ein Kaffee und ein Brezel.",
+          "Ich nehme einen Kaffee und eine Brezel.",
+          "Ich nehme eine Kaffee und einen Brezel.",
+          "Ich nehme den Kaffee und den Brezel."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "translation",
+        "source": "I would like a water, please.",
+        "target": "Ich hätte gerne ein Wasser, bitte."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A1 — Notiz / Bestellung",
+      "wordTarget": "20–30 Wörter",
+      "situation": "Du schreibst deinem Mitbewohner in Berlin, was er aus dem Supermarkt mitbringen soll.",
+      "points": [
+        "Sag Hallo.",
+        "Nenne 2 Dinge (z.B. Kaffee, Brot, Milch).",
+        "Bedanke dich."
+      ],
+      "usefulPhrases": [
+        "Hallo Lukas!",
+        "Kannst du bitte Kaffee und Brot kaufen?",
+        "Danke schön!"
+      ],
+      "modelAnswer": "Hallo Lukas,\n\nkannst du bitte aus dem Supermarkt einen Kaffee und ein Brot mitbringen? Das wäre super. Danke schön und bis heute Abend!\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A1 — Teil 2: Im Restaurant bestellen",
+      "prompt": "Bestelle ein Getränk und ein Essen in einem Berliner Café.",
+      "talkingPoints": [
+        "Höfliche Begrüßung",
+        "Bestellung (Ich hätte gerne...)",
+        "Nach dem Preis fragen (Was kostet das?)"
+      ],
+      "keyPhrases": [
+        "Guten Tag! Ich hätte gerne einen Cappuccino.",
+        "Dazu nehme ich ein Croissant, bitte.",
+        "Was kostet das zusammen?"
+      ],
+      "sampleResponse": "Guten Tag! Ich hätte gerne einen Cappuccino mit Hafermilch und ein Brötchen, bitte. Was kostet das zusammen?"
+    }
+  },
+  {
+    "id": 74,
+    "title": "Numbers, Time & Your Profile",
+    "titleDe": "Über dich sprechen: Herkunft, Beruf & Zahlen",
+    "type": "Alltag",
+    "icon": "🆔",
+    "level": "A1",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Numbers & Time",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Zahl</th><th>Deutsch</th><th>Uhrzeit</th><th>Deutsch</th></tr></thead><tbody><tr><td>1, 2, 3</td><td>eins, zwei, drei</td><td>8:00 Uhr</td><td>acht Uhr</td></tr><tr><td>4, 5, 6</td><td>vier, fünf, sechs</td><td>8:30 Uhr</td><td>halb neun (half to nine!)</td></tr><tr><td>7, 8, 9, 10</td><td>sieben, acht, neun, zehn</td><td>8:15 Uhr</td><td>Viertel nach acht</td></tr><tr><td>11, 12, 20</td><td>elf, zwölf, zwanzig</td><td>8:45 Uhr</td><td>Viertel vor neun</td></tr><tr><td>21</td><td><strong>einundzwanzig</strong> (1 and 20)</td><td>am Vormittag</td><td>in the morning</td></tr><tr><td>30, 40, 50</td><td>dreißig, vierzig, fünfzig</td><td>am Nachmittag</td><td>in the afternoon</td></tr><tr><td>100</td><td>hundert</td><td>am Feierabend</td><td>after work</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: German Number Mechanics (Backwards!)",
+        "type": "grammar",
+        "content": "<p>In German, numbers from 21 to 99 are read <strong>ones first, then tens</strong> with 'und':</p><ul><li>21 = <em>ein-und-zwanzig</em> (one-and-twenty)</li><li>35 = <em>fünf-und-dreißig</em> (five-and-thirty)</li><li>99 = <em>neun-und-neunzig</em> (nine-and-ninety)</li></ul><p><strong>Half Hour Warning:</strong> <em>halb acht</em> does NOT mean half past eight! It means <strong>half to eight (7:30)</strong>!</p>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: Asking the Time",
+        "type": "idiom",
+        "content": "<p><strong>Wie viel Uhr ist es? / Wie spät ist es?</strong></p><p><em>„Entschuldigung, wie spät ist es?“ — „Es ist viertel vor sechs.“ (5:45).</em></p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Kollege (Berlin)",
+        "de": "Guillermo, wann fängt unser Meeting heute an?",
+        "en": "Guillermo, when does our meeting start today?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Das Meeting fängt um 14 Uhr 30 an — also um halb drei.",
+        "en": "The meeting starts at 14:30 — so at half past two."
+      },
+      {
+        "speaker": "Kollege",
+        "de": "Super, danke. Und wie lange dauert es?",
+        "en": "Great, thanks. And how long does it take?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Es dauert genau 45 Minuten, bis Viertel nach drei.",
+        "en": "It takes exactly 45 minutes, until quarter past three."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What time is 'halb vier' in German?",
+        "options": [
+          "4:30",
+          "3:30",
+          "4:15",
+          "3:45"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die Zahl 25 heißt auf Deutsch fünfund___.",
+        "answer": "zwanzig",
+        "hint": "twenty"
+      },
+      {
+        "type": "true_false",
+        "statement": "In German, numbers like 42 are read as 'two-and-forty' (zweiundvierzig).",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "source": "What time is it?",
+        "target": "Wie spät ist es?"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Meeting",
+          "um",
+          "fängt",
+          "Das",
+          "an",
+          "Uhr",
+          "10"
+        ],
+        "answer": "Das Meeting fängt um 10 Uhr an"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Es ist Viertel ___ acht (8:15).",
+        "answer": "nach",
+        "hint": "after / past"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How do you say 100 in German?",
+        "options": [
+          "zehn",
+          "zwanzig",
+          "hundert",
+          "tausend"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "true_false",
+        "statement": "'Viertel vor fünf' means 5:15.",
+        "answer": false
+      },
+      {
+        "type": "translation",
+        "source": "The appointment is at 3 o'clock.",
+        "target": "Der Termin ist um 3 Uhr."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich habe heute ___ 18 Uhr Feierabend.",
+        "answer": "um",
+        "hint": "at (preposition for clock time)"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "What is 7:30 in conversational German?",
+        "options": [
+          "halb sieben",
+          "halb acht",
+          "viertel nach sieben",
+          "viertel vor acht"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Der Termin beginnt ___ 15 Uhr.",
+        "answer": "um",
+        "hint": "at"
+      },
+      {
+        "type": "translation",
+        "source": "It is quarter past nine.",
+        "target": "Es ist Viertel nach neun."
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A1 — Termin vereinbaren",
+      "wordTarget": "25–35 Wörter",
+      "situation": "Du schreibst einem Kollegen über einen Termin am Freitag.",
+      "points": [
+        "Sag wann du Zeit hast (Uhrzeit).",
+        "Frag ob es ihm passt.",
+        "Verabschiedung."
+      ],
+      "usefulPhrases": [
+        "Hast du am Freitag um 14 Uhr Zeit?",
+        "Passt dir das?",
+        "Viele Grüße, Guillermo"
+      ],
+      "modelAnswer": "Hallo Sarah,\n\nhast du am Freitag um 14:30 Uhr Zeit für unser Projekt? Passt dir das? Sag mir bitte kurz Bescheid.\n\nViele Grüße\nGuillermo"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A1 — Einen Termin ausmachen",
+      "prompt": "Vereinbare einen Termin mit einem Kollegen für Donnerstag Nachmittag.",
+      "talkingPoints": [
+        "Tag vorschlagen (Donnerstag)",
+        "Uhrzeit vorschlagen (um 16 Uhr / um halb fünf)",
+        "Frage: Passt es dir?"
+      ],
+      "keyPhrases": [
+        "Wollen wir uns am Donnerstag treffen?",
+        "Um wie viel Uhr hast du Zeit?",
+        "Passt es dir um halb fünf?"
+      ],
+      "sampleResponse": "Hallo! Hast du am Donnerstag Zeit? Wollen wir uns um halb fünf im Büro treffen? Passt dir das?"
+    }
+  },
+  {
+    "id": 75,
+    "title": "Everyday Questions & Asking Directions",
+    "titleDe": "Fragen stellen im Alltag: W-Fragen & Satzbau",
+    "type": "Grammar & Conversation",
+    "icon": "❓",
+    "level": "A1",
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: The W-Question Words",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>W-Wort</th><th>Bedeutung (English / Español)</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>Wer</strong></td><td>Who? (¿Quién?)</td><td><strong>Wer</strong> ist das?</td></tr><tr><td><strong>Was</strong></td><td>What? (¿Qué?)</td><td><strong>Was</strong> machst du?</td></tr><tr><td><strong>Wo</strong></td><td>Where? (¿Dónde?)</td><td><strong>Wo</strong> ist der Bahnhof?</td></tr><tr><td><strong>Wohin</strong></td><td>Where to? (¿A dónde?)</td><td><strong>Wohin</strong> gehst du?</td></tr><tr><td><strong>Woher</strong></td><td>Where from? (¿De dónde?)</td><td><strong>Woher</strong> kommst du?</td></tr><tr><td><strong>Wann</strong></td><td>When? (¿Cuándo?)</td><td><strong>Wann</strong> beginnt der Kurs?</td></tr><tr><td><strong>Warum</strong></td><td>Why? (¿Por qué?)</td><td><strong>Warum</strong> lernst du Deutsch?</td></tr><tr><td><strong>Wie</strong></td><td>How? (¿Cómo?)</td><td><strong>Wie</strong> heißt du?</td></tr><tr><td><strong>Wie viel</strong></td><td>How much? (¿Cuánto?)</td><td><strong>Wie viel</strong> kostet das?</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Question Word Order",
+        "type": "grammar",
+        "content": "<p>In German, there are two types of questions:</p><p><strong>1. W-Fragen (Open Questions):</strong><br>Question Word + <strong>Verb (Position 2)</strong> + Subject + Rest?<br><em>Wo <strong>wohnt</strong> Guillermo?</em><br><em>Wann <strong>fängt</strong> die Arbeit an?</em></p><p><strong>2. Ja/Nein Fragen (Yes/No Questions):</strong><br><strong>Verb (Position 1)</strong> + Subject + Rest?<br><em><strong>Lernst</strong> du Deutsch in Berlin?</em> — <em>„Ja, ich lerne Deutsch.“</em><br><em><strong>Trinkst</strong> du Kaffee?</em> — <em>„Nein, ich trinke Tee.“</em></p>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: Asking for Directions",
+        "type": "idiom",
+        "content": "<p><strong>Entschuldigung, wie komme ich zu...?</strong></p><p><em>„Entschuldigung, wie komme ich zum Alexanderplatz?“</em> — <em>„Ganz einfach: Nimm die U2 Richtung Pankow.“</em></p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tourist in Berlin",
+        "de": "Entschuldigung, sprechen Sie Deutsch?",
+        "en": "Excuse me, do you speak German?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ja, ein bisschen. Wie kann ich Ihnen helfen?",
+        "en": "Yes, a little. How can I help you?"
+      },
+      {
+        "speaker": "Tourist",
+        "de": "Wo ist hier die nächste U-Bahn Station?",
+        "en": "Where is the nearest subway station here?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Gleich da vorne links, etwa zwei Minuten zu Fuß.",
+        "en": "Right up there on the left, about two minutes on foot."
+      },
+      {
+        "speaker": "Tourist",
+        "de": "Vielen Dank! Schönen Tag noch!",
+        "en": "Thank you very much! Have a nice day!"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Which question word means 'Where to?' (direction)?",
+        "options": [
+          "Wo",
+          "Wohin",
+          "Woher",
+          "Wann"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "___ wohnst du in Berlin? — In Kreuzberg.",
+        "answer": "Wo",
+        "hint": "Where"
+      },
+      {
+        "type": "true_false",
+        "statement": "In a Yes/No question in German, the verb moves to Position 1.",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "source": "Why are you learning German?",
+        "target": "Warum lernst du Deutsch?"
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "du",
+          "Kaffee",
+          "heute",
+          "Trinkst"
+        ],
+        "answer": "Trinkst du heute Kaffee"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "___ kostet der Kaffee? — Drei Euro.",
+        "answer": "Wie viel",
+        "hint": "How much"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which question is grammatically correct?",
+        "options": [
+          "Wann du hast Zeit?",
+          "Wann hast du Zeit?",
+          "Du hast wann Zeit?",
+          "Hast wann du Zeit?"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "true_false",
+        "statement": "'Woher' asks for the origin (Where from?).",
+        "answer": true
+      },
+      {
+        "type": "translation",
+        "source": "Do you live in Berlin?",
+        "target": "Wohnst du in Berlin?"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "___ ist das? — Das ist mein Kollege Lukas.",
+        "answer": "Wer",
+        "hint": "Who"
+      }
+    ],
+    "exam": [
+      {
+        "type": "multiple_choice",
+        "question": "Where does the verb go in a W-question?",
+        "options": [
+          "Position 1",
+          "Position 2",
+          "At the very end",
+          "Anywhere"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "___ kommst du? — Aus Honduras.",
+        "answer": "Woher",
+        "hint": "Where from"
+      },
+      {
+        "type": "translation",
+        "source": "Excuse me, where is the station?",
+        "target": "Entschuldigung, wo ist der Bahnhof?"
+      }
+    ],
+    "goetheWriting": {
+      "taskType": "Goethe-Zertifikat A1 — Auskunft erfragen",
+      "wordTarget": "25–35 Wörter",
+      "situation": "Du schreibst einer Sprachschule in Berlin und hast 2 Fragen.",
+      "points": [
+        "Sag wer du bist.",
+        "Frag wann der Kurs beginnt.",
+        "Frag wie viel der Kurs kostet."
+      ],
+      "usefulPhrases": [
+        "Mein Name ist Guillermo.",
+        "Wann beginnt der nächste B1-Kurs?",
+        "Wie viel kostet der Kurs?"
+      ],
+      "modelAnswer": "Guten Tag,\n\nmein Name ist Guillermo. Ich interessiere mich für Ihren Deutschkurs. Wann beginnt der nächste Kurs und wie viel kostet er? Vielen Dank für Ihre Auskunft!\n\nMit freundlichen Grüßen\nGuillermo Hernandez"
+    },
+    "goetheSpeaking": {
+      "taskType": "Goethe-Zertifikat A1 — Teil 3: Bitten & Fragen formulieren",
+      "prompt": "Frage auf der Straße in Berlin höflich nach dem Weg.",
+      "talkingPoints": [
+        "Entschuldigung sagen",
+        "Nach dem Weg fragen (Wo ist... / Wie komme ich zu...)",
+        "Bedanken (Vielen Dank!)"
+      ],
+      "keyPhrases": [
+        "Entschuldigung, darf ich Sie kurz etwas fragen?",
+        "Wo ist hier der nächste Bahnhof?",
+        "Vielen Dank für Ihre Hilfe!"
+      ],
+      "sampleResponse": "Entschuldigung, wo ist hier die nächste U-Bahn Station? Vielen Dank für Ihre Hilfe und einen schönen Tag!"
+    }
+  }
+]
