@@ -487,16 +487,16 @@ function showDashboard() {
     </div>
 
     <!-- Hero Card: Next Recommended Lesson -->
-    <div style="background:linear-gradient(135deg, rgba(37,99,235,0.18), rgba(30,41,59,0.9));border:1px solid rgba(59,130,246,0.35);border-radius:var(--radius-lg);padding:24px 28px;margin-bottom:36px;box-shadow:var(--shadow-lg);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px">
+    <div class="hero-next-card">
       <div>
-        <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(59,130,246,0.25);color:#93c5fd;font-size:0.75rem;font-weight:800;padding:4px 12px;border-radius:var(--radius-full);margin-bottom:10px;letter-spacing:0.05em">
+        <div class="hero-badge">
           🚀 NÄCHSTE LEKTION (EMPFOHLEN)
         </div>
-        <h2 style="font-size:1.4rem;font-weight:800;color:#fff;margin-bottom:4px">
+        <h2 class="hero-title">
           ${nextLesson.icon} Lektion ${nextLesson.id}: ${nextLesson.titleDe}
         </h2>
-        <div style="font-size:0.9rem;color:var(--text-secondary)">
-          ${nextLesson.title} • ⏱️ ca. 4–5 Min. • Wortschatz, Grammatik-Bisschen & Dialog
+        <div class="hero-desc">
+          ${nextLesson.title} • ⏱️ ca. 4–5 Min. • Wortschatz, Grammatik & Dialog
         </div>
       </div>
       <button class="btn-primary" style="padding:14px 32px;font-size:1rem" onclick="startLessonFlow(${nextLesson.id})">
@@ -1841,7 +1841,31 @@ function resetProgress() {
   }
 }
 
+/* Theme Management (Pastel Tag & Pastel Nacht) */
+function initTheme() {
+  const saved = localStorage.getItem('deutschmeister_theme') || 'light';
+  document.documentElement.setAttribute('data-theme', saved);
+  updateThemeButton(saved);
+}
+
+function toggleTheme() {
+  soundEngine.click();
+  const current = document.documentElement.getAttribute('data-theme') || 'light';
+  const next = current === 'light' ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('deutschmeister_theme', next);
+  updateThemeButton(next);
+}
+
+function updateThemeButton(theme) {
+  const btn = document.getElementById('btn-theme-toggle');
+  if (btn) {
+    btn.innerText = theme === 'light' ? '🌸 Pastel Tag' : '🌙 Pastel Nacht';
+  }
+}
+
 /* Initialization */
+initTheme();
 updateStreak();
 showDashboard();
 """

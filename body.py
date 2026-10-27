@@ -32,7 +32,7 @@ BODY_CONTENT = """
           <span style="font-size:1.25rem">⏱️</span>
           <div style="text-align:left">
             <div style="font-size:0.68rem;text-transform:uppercase;color:var(--text-muted);font-weight:700;letter-spacing:0.04em">15-Min. Tagesziel</div>
-            <div style="font-size:1rem;font-weight:800;color:#fff" class="timer-display-text" id="sidebar-timer-display">15:00</div>
+            <div style="font-size:1rem;font-weight:800;color:var(--text-primary)" class="timer-display-text" id="sidebar-timer-display">15:00</div>
           </div>
         </div>
         <span class="timer-status-badge" id="sidebar-timer-badge">Start</span>
@@ -54,6 +54,11 @@ BODY_CONTENT = """
     <!-- Sidebar Bottom Controls -->
     <div style="padding:14px 18px;border-top:1px solid var(--border-subtle);display:flex;flex-direction:column;gap:10px">
       <div class="sidebar-options">
+        <span>Thema:</span>
+        <button class="toggle-pill" id="btn-theme-toggle" onclick="toggleTheme()" title="Zwischen Pastel Tag und Pastel Nacht wechseln">🌸 Pastel Tag</button>
+      </div>
+
+      <div class="sidebar-options" style="padding-top:2px">
         <span>Fortschritt:</span>
         <button class="toggle-pill" id="btn-unlock-toggle" onclick="toggleFreeMode()" title="Lerne der Reihe nach oder schalte alle Lektionen frei">🔒 Schritt für Schritt</button>
       </div>
