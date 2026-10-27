@@ -301,22 +301,55 @@ function showDashboard() {
   let html = `
     <!-- Top Sticky Navigation Pill on Main Content -->
     <div class="timeline-top-nav">
-      <div class="course-identity">
-        <div class="flag-avatar">🇩🇪</div>
-        <div>
-          <div class="course-name">Deutsch ${activeLevel} • Alltag & Goethe</div>
-          <div class="course-sub">Dein persönlicher Weg zur echten Sprachbeherrschung in Berlin</div>
+      <div style="display:flex;justify-content:space-between;align-items:center;width:100%;flex-wrap:wrap;gap:14px">
+        <div class="course-identity">
+          <div class="flag-avatar">🇩🇪</div>
+          <div>
+            <div class="course-name">Deutsch ${activeLevel} • Alltag & Goethe</div>
+            <div class="course-sub">Dein persönlicher Weg zur echten Sprachbeherrschung in Berlin</div>
+          </div>
+        </div>
+
+        <div class="top-stats-row">
+          <div class="stat-pill streak" title="Tage Lern-Serie">🔥 ${state.streak} Tage</div>
+          <div class="stat-pill xp" title="Gesamt-Erfahrungspunkte">⚡ ${state.xp} XP</div>
+          <div class="stat-pill level" title="Fortschritt im aktuellen Level">📚 ${completedCount}/${levelLessons.length} (${pctTotal}%)</div>
+          <button class="sound-toggle-btn" onclick="toggleSound()" title="Soundeffekte an/aus">
+            ${state.soundEnabled ? '🔊' : '🔇'}
+          </button>
         </div>
       </div>
 
-      <div class="top-stats-row">
-        <div class="stat-pill streak" title="Tage Lern-Serie">🔥 ${state.streak} Tage</div>
-        <div class="stat-pill xp" title="Gesamt-Erfahrungspunkte">⚡ ${state.xp} XP</div>
-        <div class="stat-pill level" title="Fortschritt im aktuellen Level">📚 ${completedCount}/${levelLessons.length} (${pctTotal}%)</div>
-        <button class="sound-toggle-btn" onclick="toggleSound()" title="Soundeffekte an/aus">
-          ${state.soundEnabled ? '🔊' : '🔇'}
+      <!-- Quick Level Switcher Tabs -->
+      <div style="display:flex;gap:8px;margin-top:14px;width:100%">
+        <button class="level-tab-btn ${activeLevel === 'A2.1' ? 'active' : ''}" style="padding:10px 14px;font-size:0.84rem" onclick="changeLevel('A2.1')">
+          Stufe 1 • A2.1 Grundlagen
+        </button>
+        <button class="level-tab-btn ${activeLevel === 'A2.2' ? 'active' : ''}" style="padding:10px 14px;font-size:0.84rem" onclick="changeLevel('A2.2')">
+          Stufe 2 • A2.2 Alltag & Beruf
+        </button>
+        <button class="level-tab-btn ${activeLevel === 'B1' ? 'active' : ''}" style="padding:10px 14px;font-size:0.84rem" onclick="changeLevel('B1')">
+          Stufe 3 • B1 Goethe-Meisterschaft
         </button>
       </div>
+    </div>
+
+    <!-- Hero Card: Next Recommended Lesson -->
+    <div style="background:linear-gradient(135deg, rgba(37,99,235,0.18), rgba(30,41,59,0.9));border:1px solid rgba(59,130,246,0.35);border-radius:var(--radius-lg);padding:24px 28px;margin-bottom:36px;box-shadow:var(--shadow-lg);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px">
+      <div>
+        <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(59,130,246,0.25);color:#93c5fd;font-size:0.75rem;font-weight:800;padding:4px 12px;border-radius:var(--radius-full);margin-bottom:10px;letter-spacing:0.05em">
+          🚀 NÄCHSTE LEKTION (EMPFOHLEN)
+        </div>
+        <h2 style="font-size:1.4rem;font-weight:800;color:#fff;margin-bottom:4px">
+          ${nextLesson.icon} Lektion ${nextLesson.id}: ${nextLesson.titleDe}
+        </h2>
+        <div style="font-size:0.9rem;color:var(--text-secondary)">
+          ${nextLesson.title} • ⏱️ ca. 4–5 Min. • Wortschatz, Grammatik-Bisschen & Dialog
+        </div>
+      </div>
+      <button class="btn-primary" style="padding:14px 28px;font-size:1rem" onclick="startLessonFlow(${nextLesson.id})">
+        ▶ Lektion ${nextLesson.id} jetzt starten →
+      </button>
     </div>
 
     <!-- Busuu Vertical Stepping-Stone Timeline -->
@@ -402,7 +435,7 @@ function showDashboard() {
               <div class="milestone-stone-circle" title="Kapitel-Abschlussprüfung">
                 ${allModDone ? '👑' : '🏆'}
               </div>
-              <div class="stone-card-preview" style="border-color:var(--gold-star)">
+              <div class="stone-card-preview" style="border-color:var(--brand-amber)">
                 <div class="stone-card-title">Kapitel ${mod.id} Goethe-Check</div>
                 <div class="stone-card-sub">Zusammenfassender Abschlusstest</div>
                 <div class="stone-card-meta" style="color:#fbbf24">🏅 +50 XP Bonus</div>
