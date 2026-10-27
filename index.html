@@ -1508,6 +1508,122 @@ body {
   75% { transform: translateX(6px); }
 }
 
+/* 15-Minute Daily Study Timer */
+.stat-pill.timer-pill {
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  color: #fbbf24;
+  cursor: pointer;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+}
+.stat-pill.timer-pill:hover {
+  background: rgba(245, 158, 11, 0.22);
+  border-color: #f59e0b;
+  transform: translateY(-1px);
+}
+.stat-pill.timer-pill.running {
+  background: rgba(16, 185, 129, 0.18);
+  border-color: #10b981;
+  color: #34d399;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.35);
+  animation: timerPulse 2s infinite ease-in-out;
+}
+@keyframes timerPulse {
+  0%, 100% { box-shadow: 0 0 6px rgba(16, 185, 129, 0.2); }
+  50% { box-shadow: 0 0 16px rgba(16, 185, 129, 0.5); }
+}
+
+.runner-timer-pill {
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  color: #fbbf24;
+  border-radius: var(--radius-full);
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: var(--transition);
+}
+.runner-timer-pill:hover {
+  background: rgba(245, 158, 11, 0.22);
+  border-color: #f59e0b;
+}
+.runner-timer-pill.running {
+  background: rgba(16, 185, 129, 0.18);
+  border-color: #10b981;
+  color: #34d399;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.35);
+}
+
+.sidebar-timer-card {
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+  transition: var(--transition);
+  width: 100%;
+  margin-top: 12px;
+}
+.sidebar-timer-card:hover {
+  border-color: #60a5fa;
+  background: var(--bg-card-hover);
+}
+.sidebar-timer-card.running {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.12);
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.2);
+}
+.timer-status-badge {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+  transition: var(--transition);
+}
+.sidebar-timer-card.running .timer-status-badge {
+  background: rgba(16, 185, 129, 0.25);
+  color: #34d399;
+}
+
+.timer-finish-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 0.25s ease;
+}
+.timer-finish-card {
+  background: var(--bg-surface);
+  border: 2px solid #10b981;
+  border-radius: var(--radius-lg);
+  max-width: 440px;
+  width: 100%;
+  padding: 32px 28px;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.6), 0 0 30px rgba(16, 185, 129, 0.3);
+  animation: slideInUp 0.3s ease;
+}
+
 /* Mobile Hamburger Toggle */
 .mobile-toggle {
   display: none;
@@ -1558,6 +1674,18 @@ body {
         <span class="level-badge" id="level-badge">⭐ Level 1</span>
         <span class="streak-badge" id="streak-badge">🔥 0 Tage</span>
       </div>
+
+      <!-- 15-Minute Daily Study Timer Card -->
+      <button class="sidebar-timer-card" id="sidebar-timer-card" onclick="toggleDailyTimer()" title="15 Minuten täglicher Fokus: Klicke zum Starten/Pausieren">
+        <div style="display:flex;align-items:center;gap:10px">
+          <span style="font-size:1.25rem">⏱️</span>
+          <div style="text-align:left">
+            <div style="font-size:0.68rem;text-transform:uppercase;color:var(--text-muted);font-weight:700;letter-spacing:0.04em">15-Min. Tagesziel</div>
+            <div style="font-size:1rem;font-weight:800;color:#fff" class="timer-display-text" id="sidebar-timer-display">15:00</div>
+          </div>
+        </div>
+        <span class="timer-status-badge" id="sidebar-timer-badge">Start</span>
+      </button>
     </div>
 
     <!-- Level Selector Tabs -->
@@ -20677,6 +20805,109 @@ function getSpanishTip(lesson) {
 }
 
 /* ============================================
+   15-MINUTE DAILY STUDY TIMER
+   ============================================ */
+let timerState = {
+  totalSeconds: 15 * 60,
+  remainingSeconds: 15 * 60,
+  isRunning: false,
+  intervalId: null
+};
+
+function formatTimerTime(secs) {
+  const m = Math.floor(secs / 60);
+  const s = secs % 60;
+  return `${m}:${s < 10 ? '0' : ''}${s}`;
+}
+
+function updateAllTimerDisplays() {
+  const formatted = formatTimerTime(timerState.remainingSeconds);
+  document.querySelectorAll('.timer-display-text').forEach(el => {
+    el.innerText = formatted;
+  });
+
+  const sidebarCard = document.getElementById('sidebar-timer-card');
+  const sidebarBadge = document.getElementById('sidebar-timer-badge');
+  if (sidebarCard) {
+    if (timerState.isRunning) sidebarCard.classList.add('running');
+    else sidebarCard.classList.remove('running');
+  }
+  if (sidebarBadge) {
+    sidebarBadge.innerText = timerState.isRunning ? 'Pause' : (timerState.remainingSeconds < timerState.totalSeconds ? 'Weiter' : 'Start');
+  }
+
+  document.querySelectorAll('.timer-pill, .runner-timer-pill').forEach(btn => {
+    if (timerState.isRunning) btn.classList.add('running');
+    else btn.classList.remove('running');
+  });
+}
+
+function toggleDailyTimer() {
+  soundEngine.click();
+  if (timerState.isRunning) {
+    pauseDailyTimer();
+  } else {
+    startDailyTimer();
+  }
+}
+
+function startDailyTimer() {
+  if (timerState.remainingSeconds <= 0) {
+    timerState.remainingSeconds = timerState.totalSeconds;
+  }
+  timerState.isRunning = true;
+  if (timerState.intervalId) clearInterval(timerState.intervalId);
+
+  timerState.intervalId = setInterval(() => {
+    if (timerState.remainingSeconds > 0) {
+      timerState.remainingSeconds--;
+      updateAllTimerDisplays();
+    } else {
+      finishDailyTimer();
+    }
+  }, 1000);
+
+  updateAllTimerDisplays();
+}
+
+function pauseDailyTimer() {
+  timerState.isRunning = false;
+  if (timerState.intervalId) {
+    clearInterval(timerState.intervalId);
+    timerState.intervalId = null;
+  }
+  updateAllTimerDisplays();
+}
+
+function finishDailyTimer() {
+  pauseDailyTimer();
+  soundEngine.fanfare();
+  addXp(50);
+  launchConfetti();
+
+  const existingAlert = document.getElementById('timer-finish-alert');
+  if (existingAlert) existingAlert.remove();
+
+  const alertBox = document.createElement('div');
+  alertBox.id = 'timer-finish-alert';
+  alertBox.className = 'timer-finish-overlay';
+  alertBox.innerHTML = `
+    <div class="timer-finish-card">
+      <div style="font-size:3rem;margin-bottom:8px">🎉</div>
+      <h2 style="color:#fff;font-size:1.5rem;font-weight:800;margin-bottom:6px">15 Minuten gemeistert!</h2>
+      <div style="color:#34d399;font-size:1.05rem;font-weight:700;margin-bottom:12px">+50 Fokus-XP verdient ⚡</div>
+      <p style="color:var(--text-secondary);font-size:0.92rem;line-height:1.5;margin-bottom:20px">
+        Hervorragende Beständigkeit, Guillermo! Genau diese 15 Minuten täglicher Gewohnheit bringen dich fließend zur Goethe A2/B1 Prüfung.
+      </p>
+      <button class="btn-primary" style="width:100%" onclick="document.getElementById('timer-finish-alert').remove()">
+        Weiterlernen →
+      </button>
+    </div>
+  `;
+  document.body.appendChild(alertBox);
+}
+
+/* ============================================
    BUSUU TIMELINE VIEW (THE CORE DASHBOARD)
    ============================================ */
 function showDashboard() {
@@ -20707,6 +20938,9 @@ function showDashboard() {
         </div>
 
         <div class="top-stats-row">
+          <button class="stat-pill timer-pill ${timerState.isRunning ? 'running' : ''}" onclick="toggleDailyTimer()" title="15 Minuten täglicher Fokus (Klicke zum Starten/Pausieren)">
+            ⏱️ <span class="timer-display-text">${formatTimerTime(timerState.remainingSeconds)}</span>
+          </button>
           <div class="stat-pill streak" title="Tage Lern-Serie">🔥 ${state.streak} Tage</div>
           <div class="stat-pill xp" title="Gesamt-Erfahrungspunkte">⚡ ${state.xp} XP</div>
           <div class="stat-pill level" title="Fortschritt im aktuellen Level">📚 ${completedCount}/${levelLessons.length} (${pctTotal}%)</div>
@@ -21054,6 +21288,10 @@ function renderRunner() {
         <div class="runner-progress-container" title="Fortschritt">
           <div class="runner-progress-fill" style="width:${progressPct}%"></div>
         </div>
+
+        <button class="runner-timer-pill ${timerState.isRunning ? 'running' : ''}" onclick="toggleDailyTimer()" title="15-Minuten-Fokustimer">
+          ⏱️ <span class="timer-display-text">${formatTimerTime(timerState.remainingSeconds)}</span>
+        </button>
 
         <div class="runner-step-badge">
           Schritt ${currentStepIndex + 1} von ${steps.length}

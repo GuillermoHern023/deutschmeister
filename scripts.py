@@ -324,6 +324,109 @@ function getSpanishTip(lesson) {
 }
 
 /* ============================================
+   15-MINUTE DAILY STUDY TIMER
+   ============================================ */
+let timerState = {
+  totalSeconds: 15 * 60,
+  remainingSeconds: 15 * 60,
+  isRunning: false,
+  intervalId: null
+};
+
+function formatTimerTime(secs) {
+  const m = Math.floor(secs / 60);
+  const s = secs % 60;
+  return `${m}:${s < 10 ? '0' : ''}${s}`;
+}
+
+function updateAllTimerDisplays() {
+  const formatted = formatTimerTime(timerState.remainingSeconds);
+  document.querySelectorAll('.timer-display-text').forEach(el => {
+    el.innerText = formatted;
+  });
+
+  const sidebarCard = document.getElementById('sidebar-timer-card');
+  const sidebarBadge = document.getElementById('sidebar-timer-badge');
+  if (sidebarCard) {
+    if (timerState.isRunning) sidebarCard.classList.add('running');
+    else sidebarCard.classList.remove('running');
+  }
+  if (sidebarBadge) {
+    sidebarBadge.innerText = timerState.isRunning ? 'Pause' : (timerState.remainingSeconds < timerState.totalSeconds ? 'Weiter' : 'Start');
+  }
+
+  document.querySelectorAll('.timer-pill, .runner-timer-pill').forEach(btn => {
+    if (timerState.isRunning) btn.classList.add('running');
+    else btn.classList.remove('running');
+  });
+}
+
+function toggleDailyTimer() {
+  soundEngine.click();
+  if (timerState.isRunning) {
+    pauseDailyTimer();
+  } else {
+    startDailyTimer();
+  }
+}
+
+function startDailyTimer() {
+  if (timerState.remainingSeconds <= 0) {
+    timerState.remainingSeconds = timerState.totalSeconds;
+  }
+  timerState.isRunning = true;
+  if (timerState.intervalId) clearInterval(timerState.intervalId);
+
+  timerState.intervalId = setInterval(() => {
+    if (timerState.remainingSeconds > 0) {
+      timerState.remainingSeconds--;
+      updateAllTimerDisplays();
+    } else {
+      finishDailyTimer();
+    }
+  }, 1000);
+
+  updateAllTimerDisplays();
+}
+
+function pauseDailyTimer() {
+  timerState.isRunning = false;
+  if (timerState.intervalId) {
+    clearInterval(timerState.intervalId);
+    timerState.intervalId = null;
+  }
+  updateAllTimerDisplays();
+}
+
+function finishDailyTimer() {
+  pauseDailyTimer();
+  soundEngine.fanfare();
+  addXp(50);
+  launchConfetti();
+
+  const existingAlert = document.getElementById('timer-finish-alert');
+  if (existingAlert) existingAlert.remove();
+
+  const alertBox = document.createElement('div');
+  alertBox.id = 'timer-finish-alert';
+  alertBox.className = 'timer-finish-overlay';
+  alertBox.innerHTML = `
+    <div class="timer-finish-card">
+      <div style="font-size:3rem;margin-bottom:8px">🎉</div>
+      <h2 style="color:#fff;font-size:1.5rem;font-weight:800;margin-bottom:6px">15 Minuten gemeistert!</h2>
+      <div style="color:#34d399;font-size:1.05rem;font-weight:700;margin-bottom:12px">+50 Fokus-XP verdient ⚡</div>
+      <p style="color:var(--text-secondary);font-size:0.92rem;line-height:1.5;margin-bottom:20px">
+        Hervorragende Beständigkeit, Guillermo! Genau diese 15 Minuten täglicher Gewohnheit bringen dich fließend zur Goethe A2/B1 Prüfung.
+      </p>
+      <button class="btn-primary" style="width:100%" onclick="document.getElementById('timer-finish-alert').remove()">
+        Weiterlernen →
+      </button>
+    </div>
+  `;
+  document.body.appendChild(alertBox);
+}
+
+/* ============================================
    BUSUU TIMELINE VIEW (THE CORE DASHBOARD)
    ============================================ */
 function showDashboard() {
@@ -354,6 +457,9 @@ function showDashboard() {
         </div>
 
         <div class="top-stats-row">
+          <button class="stat-pill timer-pill ${timerState.isRunning ? 'running' : ''}" onclick="toggleDailyTimer()" title="15 Minuten täglicher Fokus (Klicke zum Starten/Pausieren)">
+            ⏱️ <span class="timer-display-text">${formatTimerTime(timerState.remainingSeconds)}</span>
+          </button>
           <div class="stat-pill streak" title="Tage Lern-Serie">🔥 ${state.streak} Tage</div>
           <div class="stat-pill xp" title="Gesamt-Erfahrungspunkte">⚡ ${state.xp} XP</div>
           <div class="stat-pill level" title="Fortschritt im aktuellen Level">📚 ${completedCount}/${levelLessons.length} (${pctTotal}%)</div>
@@ -701,6 +807,10 @@ function renderRunner() {
         <div class="runner-progress-container" title="Fortschritt">
           <div class="runner-progress-fill" style="width:${progressPct}%"></div>
         </div>
+
+        <button class="runner-timer-pill ${timerState.isRunning ? 'running' : ''}" onclick="toggleDailyTimer()" title="15-Minuten-Fokustimer">
+          ⏱️ <span class="timer-display-text">${formatTimerTime(timerState.remainingSeconds)}</span>
+        </button>
 
         <div class="runner-step-badge">
           Schritt ${currentStepIndex + 1} von ${steps.length}

@@ -25,6 +25,18 @@ BODY_CONTENT = """
         <span class="level-badge" id="level-badge">⭐ Level 1</span>
         <span class="streak-badge" id="streak-badge">🔥 0 Tage</span>
       </div>
+
+      <!-- 15-Minute Daily Study Timer Card -->
+      <button class="sidebar-timer-card" id="sidebar-timer-card" onclick="toggleDailyTimer()" title="15 Minuten täglicher Fokus: Klicke zum Starten/Pausieren">
+        <div style="display:flex;align-items:center;gap:10px">
+          <span style="font-size:1.25rem">⏱️</span>
+          <div style="text-align:left">
+            <div style="font-size:0.68rem;text-transform:uppercase;color:var(--text-muted);font-weight:700;letter-spacing:0.04em">15-Min. Tagesziel</div>
+            <div style="font-size:1rem;font-weight:800;color:#fff" class="timer-display-text" id="sidebar-timer-display">15:00</div>
+          </div>
+        </div>
+        <span class="timer-status-badge" id="sidebar-timer-badge">Start</span>
+      </button>
     </div>
 
     <!-- Level Selector Tabs -->
