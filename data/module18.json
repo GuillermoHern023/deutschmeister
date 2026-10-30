@@ -1,0 +1,542 @@
+[
+  {
+    "id": 84,
+    "title": "Process vs. State Passive in All Tenses",
+    "titleDe": "Vorgangspassiv vs. Zustandspassiv in Fachtexten",
+    "type": "B2 Grammar & Reading",
+    "icon": "⚙️",
+    "level": "B2",
+    "readingText": {
+      "title": "Die Transformation der Berliner Stadtplanung",
+      "text": "In den letzten Jahrzehnten wurde das Berliner Stadtbild grundlegend verändert. Ehemalige Industriegebiete an der Spree sind schrittweise in moderne Kultur- und Büroquartiere umgewandelt worden. Während neue Wohngebäude derzeit unter strengen ökologischen Auflagen errichtet werden, sind viele historische Fassaden bereits vollständig restauriert. Sobald die laufenden Bauarbeiten am Ostbahnhof abgeschlossen sein werden, wird das gesamte Ufer für Fußgänger geöffnet.",
+      "glossary": [
+        {
+          "de": "wurde ... verändert (Vorgangspassiv Präteritum)",
+          "en": "was changed (process)"
+        },
+        {
+          "de": "sind ... umgewandelt worden (Passiv Perfekt)",
+          "en": "have been converted"
+        },
+        {
+          "de": "sind ... restauriert (Zustandspassiv)",
+          "en": "are restored (resulting state)"
+        },
+        {
+          "de": "die Auflage, -n",
+          "en": "requirement / regulation"
+        }
+      ],
+      "question": "Was drückt der Satzteil „viele historische Fassaden sind bereits vollständig restauriert“ aus?",
+      "options": [
+        "Einen abgeschlossenen Zustand (Zustandspassiv: Die Restaurierung ist bereits fertig).",
+        "Einen Vorgang, der erst in zehn Jahren beginnt.",
+        "Dass die Fassaden abgerissen werden müssen.",
+        "Eine persönliche Meinung des Architekten."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Urban Development & Passive Structures",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>errichten / erbauen</strong></td><td>to erect / construct (formal)</td><td>Das Gebäude wurde 1920 errichtet.</td></tr><tr><td><strong>um·wandeln (in + Akk.)</strong></td><td>to convert / transform into</td><td>Die Fabrik ist in ein Museum umgewandelt worden.</td></tr><tr><td><strong>restaurieren / sanieren</strong></td><td>to restore / renovate</td><td>Die Altbauwohnungen sind bereits saniert.</td></tr><tr><td><strong>ab·schließen (abgeschlossen)</strong></td><td>to conclude / complete</td><td>Das Projekt ist erfolgreich abgeschlossen.</td></tr><tr><td><strong>die Auflage, -n</strong></td><td>condition / regulatory requirement</td><td>Unter strengen Auflagen wurde der Bau genehmigt.</td></tr><tr><td><strong>von (+ Dat.) vs. durch (+ Akk.)</strong></td><td>by (person/agent) vs. through/by (means/instrument)</td><td>Der Plan wurde von den Experten durch eine Analyse geprüft.</td></tr><tr><td><strong>wird gemacht vs. ist gemacht</strong></td><td>is being done (process) vs. is done (state)</td><td>Der Vertrag wird unterschrieben vs. ist unterschrieben.</td></tr><tr><td><strong>worden (Passiv Perfekt!)</strong></td><td>been (without 'ge-' in passive!)</td><td>Das Problem ist gestern gelöst worden.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Vorgangspassiv (werden) vs. Zustandspassiv (sein)",
+        "type": "grammar",
+        "content": "<p>In B2 newspapers, academic writing, and project reports, the <strong>Passive Voice</strong> is everywhere because the action or result matters more than who did it:</p><ul><li><strong>1. Vorgangspassiv (Process = werden + Partizip II):</strong> Emphasizes the ongoing action or process.<br><em>Präsens:</em> Das Projekt <strong>wird</strong> heute <strong>geplant</strong>.<br><em>Präteritum:</em> Das Projekt <strong>wurde</strong> gestern <strong>geplant</strong>.<br><em>Perfekt:</em> Das Projekt <strong>ist</strong> gestern <strong>geplant worden</strong> (never 'geworden'!).</li><li><strong>2. Zustandspassiv (Resulting State = sein + Partizip II):</strong> Emphasizes the finished state after the action is complete.<br><em>Das Fenster <strong>wird</strong> geöffnet</em> (someone is opening it right now) vs. <em>Das Fenster <strong>ist</strong> geöffnet</em> (it is open).</li><li><strong>3. Agent vs. Means:</strong> Use <strong>von + Dative</strong> for a person/institution (<em>vom Senat</em>) and <strong>durch + Accusative</strong> for a process or instrument (<em>durch neue Gesetze</em>).</li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'worden' am Satzende erkennen",
+        "type": "idiom",
+        "content": "<p><strong>sind ... [Partizip II] worden = Passive Perfect!</strong></p><p>Bedeutung: Whenever you read a long sentence starting with <em>„Die Maßnahmen sind ...“</em>, scan the very end of the clause. If it ends in <strong>Partizip II + worden</strong>, translate it immediately as <em>'have been [verb]ed'</em>!</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Projektleiterin",
+        "de": "Guillermo, wird der neue Quartalsbericht noch bearbeitet oder ist er schon fertig?",
+        "en": "Guillermo, is the new quarterly report still being processed or is it already finished?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Die Zahlen sind gestern Abend von unserem Finanzteam geprüft worden.",
+        "en": "The figures were checked by our finance team last night."
+      },
+      {
+        "speaker": "Projektleiterin",
+        "de": "Sehr gut! Ist das Dokument also bereits für den Vorstand freigegeben?",
+        "en": "Very good! So is the document already approved/released for the board?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ja, der Bericht ist komplett freigegeben und wird um zehn Uhr präsentiert.",
+        "en": "Yes, the report is completely approved and will be presented at ten o'clock."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence is in the Passive Perfect (Vorgangspassiv Perfekt)?",
+        "options": [
+          "Der Vertrag wurde gestern unterschrieben.",
+          "Der Vertrag ist gestern unterschrieben worden.",
+          "Der Vertrag ist gestern unterschrieben geworden.",
+          "Der Vertrag wird morgen unterschrieben."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die neue Brücke ist im letzten Jahr von der Stadt errichtet ___.",
+        "answer": "worden",
+        "hint": "Passive Perfect participle of werden (without ge-)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "Das Büro wird geschlossen.",
+            "en": "The office is being closed (process)."
+          },
+          {
+            "de": "Das Büro ist geschlossen.",
+            "en": "The office is closed (state)."
+          },
+          {
+            "de": "Das Büro wurde geschlossen.",
+            "en": "The office was closed."
+          },
+          {
+            "de": "Das Büro ist geschlossen worden.",
+            "en": "The office has been closed."
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Die",
+          "Zahlen",
+          "sind",
+          "gestern",
+          "geprüft",
+          "worden"
+        ],
+        "answer": "Die Zahlen sind gestern geprüft worden"
+      },
+      {
+        "type": "translation",
+        "source": "The report is already finished and approved.",
+        "target": "Der Bericht ist bereits fertig und freigegeben."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Passive Alternatives (Passiversatzformen)",
+    "titleDe": "Passiversatzformen: sein...zu, sich lassen, -bar & -lich",
+    "type": "B2 Grammar & Reading",
+    "icon": "🔄",
+    "level": "B2",
+    "readingText": {
+      "title": "Herausforderungen der modernen Cybersicherheit",
+      "text": "In einer vernetzten Wirtschaft lassen sich digitale Risiken nicht mehr vollständig vermeiden. Dennoch sind viele Sicherheitslücken durch regelmäßige Software-Updates leicht zu schließen. Komplexe Passwörter und Zwei-Faktor-Authentifizierung sind für alle Mitarbeiterinnen und Mitarbeiter zwingend einzuhalten. Wo sensible Kundendaten verarbeitet werden, ist besondere Vorsicht geboten, denn ein Vertrauensverlust nach einem Datenleck ist kaum wiederherstellbar.",
+      "glossary": [
+        {
+          "de": "lässt sich ... vermeiden",
+          "en": "can be avoided (= kann vermieden werden)"
+        },
+        {
+          "de": "sind ... zu schließen",
+          "en": "can / must be closed (= können/müssen geschlossen werden)"
+        },
+        {
+          "de": "zwingend einzuhalten",
+          "en": "mandatory to be observed"
+        },
+        {
+          "de": "wiederherstellbar",
+          "en": "restorable / recoverable (-bar = can be done)"
+        }
+      ],
+      "question": "Was bedeutet die Formulierung „Sicherheitslücken sind leicht zu schließen“?",
+      "options": [
+        "Sicherheitslücken können leicht geschlossen werden.",
+        "Sicherheitslücken wurden bereits geschlossen.",
+        "Es ist verboten, Sicherheitslücken zu schließen.",
+        "Sicherheitslücken schließen sich von selbst."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: B2 Passive Substitutes",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>sich lassen + Infinitiv</strong></td><td>can be [verb]ed</td><td>Das Problem lässt sich schnell lösen.</td></tr><tr><td><strong>sein + zu + Infinitiv</strong></td><td>can or must be [verb]ed</td><td>Die Frist ist unbedingt einzuhalten.</td></tr><tr><td><strong>machbar / lösbar / vermeidbar</strong></td><td>doable / solvable / avoidable</td><td>Ein kleiner Fehler ist kaum vermeidbar.</td></tr><tr><td><strong>verständlich / nachvollziehbar</strong></td><td>understandable / comprehensible</td><td>Seine Kritik ist völlig nachvollziehbar.</td></tr><tr><td><strong>ein·halten (Fristen / Regeln)</strong></td><td>to comply with / meet (deadlines)</td><td>Alle Sicherheitsregeln sind strikt einzuhalten.</td></tr><tr><td><strong>vermeiden (vermied, vermieden)</strong></td><td>to avoid</td><td>Dieses Risiko lässt sich leicht vermeiden.</td></tr><tr><td><strong>geboten sein</strong></td><td>to be required / advisable</td><td>Hier ist höchste Vorsicht geboten.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Decoding Passive Alternatives in B2 Texts",
+        "type": "grammar",
+        "content": "<p>German authors avoid repeating <em>kann/muss + Partizip II + werden</em> by using three elegant B2 structures:</p><ul><li><strong>1. sich lassen + Infinitiv (= kann gemacht werden):</strong><br><em>Das Projekt <strong>lässt sich</strong> bis Freitag <strong>abschließen</strong></em> = Das Projekt kann bis Freitag abgeschlossen werden.</li><li><strong>2. sein + zu + Infinitiv (= kann OR muss gemacht werden):</strong><br><em>Die Aufgabe <strong>ist</strong> leicht <strong>zu lösen</strong></em> (= kann gelöst werden).<br><em>Die Gebühr <strong>ist</strong> sofort <strong>zu zahlen</strong></em> (= muss gezahlt werden).</li><li><strong>3. Adjectives ending in -bar or -lich (= kann gemacht werden):</strong><br><em>lös<strong>bar</strong></em> (solvable), <em>mach<strong>bar</strong></em> (feasible), <em>erklär<strong>bar</strong></em> (explainable), <em>verständ<strong>lich</strong></em> (understandable).</li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'ist ... zu [Infinitiv]' sofort entschlüsseln",
+        "type": "idiom",
+        "content": "<p><strong>Die Regel ist zu beachten = The rule must be observed!</strong></p><p>Bedeutung: In German contracts, letters from the <em>Finanzamt</em> or <em>Bürgeramt</em>, and business emails, <strong>ist + zu + Infinitiv</strong> is the standard way to express obligation without sounding personal.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Kunde",
+        "de": "Lässt sich der Liefertermin für die neue Software noch um eine Woche vorziehen?",
+        "en": "Can the delivery date for the new software be moved up by a week?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Das ist leider kaum machbar, da noch wichtige Sicherheitstests durchzuführen sind.",
+        "en": "Unfortunately that is hardly feasible, since important security tests still have to be carried out."
+      },
+      {
+        "speaker": "Kunde",
+        "de": "Das ist absolut nachvollziehbar. Sicherheit hat Vorrang.",
+        "en": "That is completely understandable. Security takes priority."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Danke! Der ursprüngliche Termin am Freitag ist aber problemlos einzuhalten.",
+        "en": "Thanks! However, the original deadline on Friday can be met without any problem."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Das Problem lässt sich schnell lösen' mean?",
+        "options": [
+          "The problem solved itself.",
+          "The problem can be solved quickly.",
+          "The problem must not be solved.",
+          "The problem lets us go."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die neuen Datenschutzregeln sind von allen Teams strikt ___ beachten.",
+        "answer": "zu",
+        "hint": "sein + ___ + Infinitiv"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "lässt sich reparieren",
+            "en": "can be repaired"
+          },
+          {
+            "de": "ist sofort zu zahlen",
+            "en": "must be paid immediately"
+          },
+          {
+            "de": "nachvollziehbar",
+            "en": "comprehensible / understandable"
+          },
+          {
+            "de": "kaum vermeidbar",
+            "en": "hardly avoidable"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Das",
+          "Problem",
+          "lässt",
+          "sich",
+          "heute",
+          "leicht",
+          "lösen"
+        ],
+        "answer": "Das Problem lässt sich heute leicht lösen"
+      },
+      {
+        "type": "translation",
+        "source": "Your criticism is completely understandable.",
+        "target": "Deine Kritik ist völlig nachvollziehbar."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Extended Participial Attributes (The Key to B2 Reading)",
+    "titleDe": "Erweiterte Partizipialattribute knacken (Linksattribute)",
+    "type": "B2 Grammar & Reading",
+    "icon": "🔍",
+    "level": "B2",
+    "readingText": {
+      "title": "Wirtschaftsbericht: Investitionen in grüne Technologien",
+      "text": "Die im vergangenen Jahr von der Bundesregierung beschlossenen Förderprogramme zeigen erste Erfolge. Viele in Berlin ansässige Technologieunternehmen nutzen die neu geschaffenen Möglichkeiten, um klimafreundliche Produkte zu entwickeln. Ein kürzlich vom Wirtschaftsinstitut veröffentlichter Bericht bestätigt jedoch, dass die für das nächste Jahrzehnt geplanten Ziele nur durch eine noch engere Zusammenarbeit zwischen Wissenschaft und Industrie erreicht werden können.",
+      "glossary": [
+        {
+          "de": "die ... beschlossenen Förderprogramme",
+          "en": "the funding programs passed [last year by the government]"
+        },
+        {
+          "de": "in Berlin ansässige Unternehmen",
+          "en": "companies based in Berlin"
+        },
+        {
+          "de": "ein ... veröffentlichter Bericht",
+          "en": "a report published [recently by the institute]"
+        },
+        {
+          "de": "das Förderprogramm, -e",
+          "en": "funding / subsidy program"
+        }
+      ],
+      "question": "Wie liest man den Ausdruck „die im vergangenen Jahr von der Bundesregierung beschlossenen Förderprogramme“ am besten?",
+      "options": [
+        "Man springt vom Artikel „Die“ zum Nomen „Förderprogramme“ und liest das Partizip „beschlossenen“ als Relativsatz („die Förderprogramme, die ... beschlossen wurden“).",
+        "Man ignoriert das Wort „Förderprogramme“ komplett.",
+        "Das Wort „Bundesregierung“ ist das Subjekt des Satzes.",
+        "Es handelt sich um eine Frage."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Academic & Newspaper Modifiers",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>beschließen (beschlossen)</strong></td><td>to pass / decide on</td><td>das gestern beschlossene Gesetz</td></tr><tr><td><strong>veröffentlichen (veröffentlicht)</strong></td><td>to publish</td><td>die heute veröffentlichte Studie</td></tr><tr><td><strong>wachsend (Partizip I)</strong></td><td>growing (active, ongoing)</td><td>die schnell wachsende Nachfrage</td></tr><tr><td><strong>steigend / sinkend (Partizip I)</strong></td><td>rising / falling</td><td>die ständig steigenden Mieten in Berlin</td></tr><tr><td><strong>geplant / geschaffen (Partizip II)</strong></td><td>planned / created (passive/completed)</td><td>die für 2027 geplanten Maßnahmen</td></tr><tr><td><strong>ansässig (in + Dat.)</strong></td><td>based / resident in</td><td>die in Berlin ansässigen Start-ups</td></tr><tr><td><strong>betroffen (von + Dat.)</strong></td><td>affected by</td><td>die vom Streik betroffenen Fahrgäste</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: How to Decode Extended Participial Phrases in 3 Seconds",
+        "type": "grammar",
+        "content": "<p><strong>This is the #1 secret to reading B2/C1 German newspapers (Der Spiegel, Die Zeit) effortlessly!</strong> Instead of putting a relative clause <em>after</em> the noun like English does, formal German packs the entire description <strong>between the article and the noun</strong>:</p><ul><li><strong>Formula:</strong> <code>[Article] + [Time/Place/Agent details] + [Participle + Adjective Ending] + [NOUN]</code></li><li><strong>Example:</strong> <em>„<strong>Der</strong> [gestern vom Vorstand] <strong>veröffentlichte Bericht</strong>...“</em></li><li><strong>How to Read It:</strong><ol><li>Spot the opening article (<strong>Der</strong>) and scan right to the capital noun after the participle (<strong>Bericht</strong>).</li><li>Read the participle + noun first: <em>„The published report...“</em></li><li>Fill in the middle details: <em>„...that was published yesterday by the board.“</em></li></ol></li><li><strong>Partizip I (-end = active/ongoing):</strong> <em>die in Berlin <strong>lebenden</strong> Menschen</em> (= die Menschen, die in Berlin leben).</li><li><strong>Partizip II (ge-...-t/-en = passive/completed):</strong> <em>das von uns <strong>entwickelte</strong> System</em> (= das System, das von uns entwickelt wurde).</li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: Die Klammer zwischen Artikel und Nomen",
+        "type": "idiom",
+        "content": "<p><strong>Mental Relative Clause Conversion</strong></p><p>Bedeutung: Whenever you see an article (<em>der, die, das, ein</em>) followed immediately by a preposition (<em>in, von, auf, für, mit</em>) or time word (<em>gestern, kürzlich, seit</em>), you are inside an <strong>Extended Participial Attribute</strong>! Jump straight to the noun at the end of the phrase to anchor your understanding.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "de": "Hast du die heute Morgen vom Kunden gesendete E-Mail schon gelesen?",
+        "en": "Have you already read the email sent by the client this morning?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ja! Die darin vorgeschlagenen Änderungen am Design sind sehr sinnvoll.",
+        "en": "Yes! The changes to the design proposed in it make a lot of sense."
+      },
+      {
+        "speaker": "Sarah",
+        "de": "Stimmt. Und was ist mit den für nächste Woche geplanten Workshops?",
+        "en": "True. And what about the workshops planned for next week?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Die finden wie geplant statt. Alle vom Projekt betroffenen Teams sind informiert.",
+        "en": "They are taking place as planned. All teams affected by the project have been informed."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'die vom Streik betroffenen Fahrgäste' mean in a relative clause?",
+        "options": [
+          "Die Fahrgäste, die den Streik organisiert haben.",
+          "Die Fahrgäste, die vom Streik betroffen sind.",
+          "Der Streik, der die Fahrgäste betrifft.",
+          "Die Fahrgäste streiken morgen."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die ständig ___ (steigen -> Partizip I + -en) Mieten in Berlin sind ein großes Thema.",
+        "answer": "steigenden",
+        "hint": "steigend + -en"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "die wachsende Stadt",
+            "en": "the growing city (active/ongoing)"
+          },
+          {
+            "de": "das beschlossene Gesetz",
+            "en": "the law that was passed (passive/completed)"
+          },
+          {
+            "de": "der veröffentlichte Bericht",
+            "en": "the published report"
+          },
+          {
+            "de": "die geplanten Ziele",
+            "en": "the planned goals"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Die",
+          "gestern",
+          "veröffentlichte",
+          "Studie",
+          "ist",
+          "sehr",
+          "interessant"
+        ],
+        "answer": "Die gestern veröffentlichte Studie ist sehr interessant"
+      },
+      {
+        "type": "translation",
+        "source": "The study published yesterday is very interesting.",
+        "target": "Die gestern veröffentlichte Studie ist sehr interessant."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Advanced Complex Sentences & Subordinating Connectors",
+    "titleDe": "Komplexe Satzgefüge: indem, sodass, je ... desto, anstatt dass",
+    "type": "B2 Grammar & Reading",
+    "icon": "🔗",
+    "level": "B2",
+    "readingText": {
+      "title": "Nachhaltige Mobilität und Homeoffice",
+      "text": "Viele Unternehmen reduzieren heute ihren ökologischen Fußabdruck, indem sie flexible Homeoffice-Modelle einführen. Dadurch entfallen Millionen Pendelkilometer, sodass der morgendliche Berufsverkehr in Großstädten spürbar abnimmt. Anstatt dass Beschäftigte täglich eine Stunde im Stau stehen, können sie diese Zeit für Sport oder Familie nutzen. Je flexibler die Arbeitszeiten gestaltet werden, desto höher ist laut aktuellen Studien auch die Zufriedenheit der Mitarbeitenden.",
+      "glossary": [
+        {
+          "de": "indem (+ Nebensatz)",
+          "en": "by [doing something] (method/means)"
+        },
+        {
+          "de": "sodass (+ Nebensatz)",
+          "en": "so that / with the result that (consequence)"
+        },
+        {
+          "de": "anstatt dass / anstatt ... zu",
+          "en": "instead of [doing]"
+        },
+        {
+          "de": "je [Komparativ] ..., desto [Komparativ]",
+          "en": "the more ..., the more ..."
+        }
+      ],
+      "question": "Wie reduzieren viele Unternehmen laut dem Text ihren ökologischen Fußabdruck?",
+      "options": [
+        "Indem sie flexible Homeoffice-Modelle einführen.",
+        "Indem sie alle Büros in Berlin schließen.",
+        "Anstatt dass sie Computer benutzen.",
+        "Sodass der Berufsverkehr zunimmt."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: B2 Logical Connectors",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>indem (+ verb at end)</strong></td><td>by [doing something] (means/instrument)</td><td>Man lernt eine Sprache, indem man täglich liest.</td></tr><tr><td><strong>sodass / so dass (+ verb at end)</strong></td><td>so that / with the result that</td><td>Es schneite stark, sodass die Züge ausfielen.</td></tr><tr><td><strong>anstatt ... zu + Inf. / anstatt dass</strong></td><td>instead of [doing]</td><td>Anstatt lange zu warten, rief er direkt an.</td></tr><tr><td><strong>ohne ... zu + Inf. / ohne dass</strong></td><td>without [doing]</td><td>Er ging nach Hause, ohne sich zu verabschieden.</td></tr><tr><td><strong>je ..., desto / umso ...</strong></td><td>the [more] ..., the [more] ...</td><td>Je mehr man liest, desto größer wird der Wortschatz.</td></tr><tr><td><strong>sofern / vorausgesetzt, dass</strong></td><td>provided that / as long as</td><td>Wir starten am Montag, sofern alle zustimmen.</td></tr><tr><td><strong>spürbar / erheblich</strong></td><td>noticeably / considerably</td><td>Die Kosten sind erheblich gesunken.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Mastering 'indem', 'sodass' & 'je ... desto'",
+        "type": "grammar",
+        "content": "<ul><li><strong>1. indem (How / By what means?):</strong> Answers <em>Wie? / Wodurch?</em> Verb goes to the end!<br><em>Wir sparen Zeit, <strong>indem</strong> wir den Prozess <strong>automatisieren</strong>.</em> (We save time by automating the process.)</li><li><strong>2. sodass (What is the consequence?):</strong> Expresses the result of the main clause. Verb goes to the end!<br><em>Das System fiel aus, <strong>sodass</strong> niemand arbeiten <strong>konnte</strong>.</em></li><li><strong>3. je ... desto (Proportional Comparison):</strong><br>Part 1 (<strong>Je</strong> + comparative) is a subordinate clause &rarr; <strong>verb at the end!</strong><br>Part 2 (<strong>desto / umso</strong> + comparative) acts as Position 1 of a main clause &rarr; <strong>verb comes immediately after the comparative!</strong><br>Example: <em><strong>Je länger</strong> ich in Berlin <strong>lebe</strong>, <strong>desto besser verstehe</strong> ich die Kultur.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'indem' vs. 'in dem'",
+        "type": "idiom",
+        "content": "<p><strong>indem (one word = 'by doing') vs. in dem (two words = 'in which')</strong></p><p>Bedeutung: Watch the spacing when reading! <em>Das Haus, <strong>in dem</strong> ich wohne</em> ('the house in which I live') is a relative clause, whereas <em>Ich lerne, <strong>indem</strong> ich übe</em> means 'I learn by practicing'!</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Lukas",
+        "de": "Wie habt ihr die Ladezeit der Webseite eigentlich so stark verkürzt?",
+        "en": "How did you actually shorten the loading time of the website so much?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Indem wir alle großen Bilder komprimiert und den Code aufgeräumt haben.",
+        "en": "By compressing all large images and cleaning up the code."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Stark! Je schneller die Seite lädt, desto zufriedener sind unsere Nutzer.",
+        "en": "Great! The faster the page loads, the more satisfied our users are."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Genau, sodass wir diesen Monat schon zwanzig Prozent mehr Anmeldungen haben.",
+        "en": "Exactly, with the result that we already have twenty percent more sign-ups this month."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Which word order is correct in the second half of a 'Je ..., desto ...' sentence?",
+        "options": [
+          "Je mehr ich lese, desto ich verstehe mehr.",
+          "Je mehr ich lese, desto besser verstehe ich komplexe Texte.",
+          "Je ich mehr lese, desto verstehe ich besser.",
+          "Je mehr lese ich, desto besser ich verstehe."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Man verbessert seinen Wortschatz, ___ man jeden Tag fünfzehn Minuten liest.",
+        "answer": "indem",
+        "hint": "by [doing something] (one word)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "indem man übt",
+            "en": "by practicing"
+          },
+          {
+            "de": "sodass alles klappt",
+            "en": "with the result that everything works out"
+          },
+          {
+            "de": "ohne zu fragen",
+            "en": "without asking"
+          },
+          {
+            "de": "anstatt zu warten",
+            "en": "instead of waiting"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Je",
+          "mehr",
+          "du",
+          "liest",
+          "desto",
+          "besser",
+          "verstehst",
+          "du"
+        ],
+        "answer": "Je mehr du liest desto besser verstehst du"
+      },
+      {
+        "type": "translation",
+        "source": "We save time by automating the process.",
+        "target": "Wir sparen Zeit, indem wir den Prozess automatisieren."
+      }
+    ]
+  }
+]

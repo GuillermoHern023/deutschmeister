@@ -1,0 +1,541 @@
+[
+  {
+    "id": 80,
+    "title": "Navigating Berlin, Transport & Dative Prepositions",
+    "titleDe": "In der Stadt, BVG & Dativ-Präpositionen",
+    "type": "Foundations",
+    "icon": "🚇",
+    "level": "A1",
+    "readingText": {
+      "title": "Mit der U-Bahn quer durch Berlin",
+      "text": "Jeden Morgen fahre ich mit der U-Bahn zur Arbeit. Meine Wohnung liegt in der Nähe vom Bahnhof Samariterstraße. Ich gehe zu Fuß zur Station und fahre mit der Linie U5 bis zum Alexanderplatz. Dort steige ich in die U2 um. Manchmal fahre ich im Sommer auch mit dem Fahrrad durch den Park. Nach der Arbeit treffe ich mich oft mit meinen Freunden bei einem Italiener gegenüber vom Büro.",
+      "glossary": [
+        {
+          "de": "mit der U-Bahn / mit dem Fahrrad",
+          "en": "by subway / by bike (Dative!)"
+        },
+        {
+          "de": "umsteigen (steigt ... um)",
+          "en": "to transfer / change trains"
+        },
+        {
+          "de": "zu Fuß gehen",
+          "en": "to walk / go on foot"
+        },
+        {
+          "de": "gegenüber von",
+          "en": "across from / opposite"
+        }
+      ],
+      "question": "Wo steigt der Erzähler morgens in die Linie U2 um?",
+      "options": [
+        "An der Samariterstraße.",
+        "Am Alexanderplatz.",
+        "Am Hauptbahnhof.",
+        "Er fährt immer mit dem Auto."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: City & Public Transport (BVG)",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die U-Bahn / die S-Bahn</strong></td><td>subway / urban rail</td><td>Ich fahre jeden Tag mit der U-Bahn.</td></tr><tr><td><strong>der Bahnhof, ¨e / die Haltestelle, -n</strong></td><td>train station / stop</td><td>Wo ist die nächste Bushaltestelle?</td></tr><tr><td><strong>um·steigen</strong></td><td>to transfer / change trains</td><td>Am Alexanderplatz müssen Sie umsteigen.</td></tr><tr><td><strong>geradeaus / links / rechts</strong></td><td>straight ahead / left / right</td><td>Gehen Sie geradeaus und dann die erste Straße links.</td></tr><tr><td><strong>mit dem Bus / mit der Bahn</strong></td><td>by bus / by train</td><td>Fährst du mit dem Bus oder mit dem Fahrrad?</td></tr><tr><td><strong>zu Fuß</strong></td><td>on foot</td><td>Das Café ist nah, wir gehen zu Fuß.</td></tr><tr><td><strong>zum (zu dem) / zur (zu der)</strong></td><td>to the (destination within city)</td><td>Wie komme ich zum Bahnhof / zur Bank?</td></tr><tr><td><strong>in der Nähe von</strong></td><td>near / close to</td><td>Ich wohne in der Nähe vom Boxhagener Platz.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: The Dative Case with 'mit', 'nach', 'zu', 'bei', 'von', 'aus'",
+        "type": "grammar",
+        "content": "<p>The prepositions <strong>aus, bei, mit, nach, seit, von, zu</strong> ALWAYS trigger the <strong>Dative case</strong>! Watch how the articles change:</p><ul><li><strong>der / das &rarr; dem:</strong> <em>Ich fahre mit <strong>dem</strong> Bus / mit <strong>dem</strong> Fahrrad / zu <strong>dem</strong> (zum) Arzt.</em></li><li><strong>die &rarr; der:</strong> <em>Ich fahre mit <strong>der</strong> U-Bahn / zu <strong>der</strong> (zur) Arbeit / aus <strong>der</strong> Türkei.</em></li><li><strong>die (Plural) &rarr; den (+n):</strong> <em>Ich esse mit mein<strong>en</strong> Kollegen.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: 'Ringbahn' & 'Schienenersatzverkehr (SEV)'",
+        "type": "idiom",
+        "content": "<p><strong>der Schienenersatzverkehr (SEV)</strong></p><p>Bedeutung: 'Rail replacement bus service.' One of the longest and most important words in Berlin when the U-Bahn or S-Bahn has construction work!</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Tourist",
+        "de": "Entschuldigung, wie komme ich am besten zum Brandenburger Tor?",
+        "en": "Excuse me, what's the best way to get to the Brandenburg Gate?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Sie können hier direkt mit der U5 fahren. Es sind nur drei Stationen.",
+        "en": "You can take the U5 right here. It's only three stops."
+      },
+      {
+        "speaker": "Tourist",
+        "de": "Muss ich unterwegs umsteigen?",
+        "en": "Do I have to change trains on the way?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Nein, Sie fahren direkt bis zur Haltestelle Brandenburger Tor.",
+        "en": "No, you ride directly to the Brandenburg Gate stop."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Which article is correct after 'mit' for 'die U-Bahn' (feminine)?",
+        "options": [
+          "mit die U-Bahn",
+          "mit der U-Bahn",
+          "mit dem U-Bahn",
+          "mit den U-Bahn"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Im Sommer fahre ich sehr gern mit ___ Fahrrad ins Büro.",
+        "answer": "dem",
+        "hint": "das Fahrrad in Dative after 'mit'"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "mit dem Fahrrad",
+            "en": "by bicycle"
+          },
+          {
+            "de": "mit der U-Bahn",
+            "en": "by subway"
+          },
+          {
+            "de": "zu Fuß gehen",
+            "en": "to walk / go on foot"
+          },
+          {
+            "de": "umsteigen",
+            "en": "to change trains"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Ich",
+          "fahre",
+          "mit",
+          "der",
+          "U-Bahn",
+          "zur",
+          "Arbeit"
+        ],
+        "answer": "Ich fahre mit der U-Bahn zur Arbeit"
+      },
+      {
+        "type": "translation",
+        "source": "I take the subway to work.",
+        "target": "Ich fahre mit der U-Bahn zur Arbeit."
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Apartment Living, Furniture & Two-Way Prepositions",
+    "titleDe": "Wohnung, Möbel & Wechselpräpositionen (in, auf, unter)",
+    "type": "Foundations",
+    "icon": "🛋️",
+    "level": "A1",
+    "readingText": {
+      "title": "Meine neue Altbauwohnung in Berlin",
+      "text": "Seit einem Monat wohne ich in einer schönen Altbauwohnung im dritten Stock. Die Wohnung hat hohe Decken und große Fenster. Im Wohnzimmer steht ein gemütliches Sofa neben dem Bücherregal. Auf dem Schreibtisch am Fenster steht mein Laptop, weil ich dort oft arbeite. In der Küche gibt es einen großen Holztisch. An der Wand über dem Sofa hängt ein buntes Bild aus Madrid. Ich fühle mich hier schon richtig zu Hause!",
+      "glossary": [
+        {
+          "de": "die Altbauwohnung, -en",
+          "en": "pre-war apartment with high ceilings"
+        },
+        {
+          "de": "der Schreibtisch, -e",
+          "en": "desk"
+        },
+        {
+          "de": "neben / über / auf",
+          "en": "next to / above / on"
+        },
+        {
+          "de": "sich zu Hause fühlen",
+          "en": "to feel at home"
+        }
+      ],
+      "question": "Wo steht der Laptop des Erzählers?",
+      "options": [
+        "Unter dem Bett im Schlafzimmer.",
+        "Auf dem Schreibtisch am Fenster.",
+        "Auf dem Balkon.",
+        "Im Kühlschrank in der Küche."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Rooms & Furniture",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>das Wohnzimmer / das Schlafzimmer</strong></td><td>living room / bedroom</td><td>Im Wohnzimmer steht ein großes Sofa.</td></tr><tr><td><strong>die Küche, -n / das Bad, ¨er</strong></td><td>kitchen / bathroom</td><td>Wir sitzen abends immer in der Küche.</td></tr><tr><td><strong>der Tisch, -e / der Stuhl, ¨e</strong></td><td>table / chair</td><td>Der Kaffee steht schon auf dem Tisch.</td></tr><tr><td><strong>das Bett, -en / der Schrank, ¨e</strong></td><td>bed / wardrobe, cabinet</td><td>Meine Jacke hängt im (in dem) Schrank.</td></tr><tr><td><strong>der Kühlschrank, ¨e</strong></td><td>refrigerator</td><td>Das Bier ist kalt im Kühlschrank.</td></tr><tr><td><strong>der Stock / die Etage</strong></td><td>floor / story (of a building)</td><td>Ich wohne im dritten Stock (3. OG).</td></tr><tr><td><strong>in / auf / unter / neben / vor / hinter / über / zwischen</strong></td><td>in / on / under / next to / in front of / behind / above / between</td><td>Die Katze schläft unter dem Tisch.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Where is it? (Wo? = Dative Location)",
+        "type": "grammar",
+        "content": "<p>When describing <strong>where</strong> something is located (<em>Wo?</em> — static position, no movement to a new place), prepositions like <strong>in, auf, an, neben, über, unter, vor, hinter, zwischen</strong> take the <strong>Dative case</strong>:</p><ul><li><strong>Masculine (der) & Neuter (das) &rarr; dem:</strong><br><em>im (in dem) Wohnzimmer</em>, <em>auf <strong>dem</strong> Tisch</em>, <em>im (in dem) Kühlschrank</em>, <em>neben <strong>dem</strong> Bett</em>.</li><li><strong>Feminine (die) &rarr; der:</strong><br><em>in <strong>der</strong> Küche</em>, <em>an <strong>der</strong> Wand</em>, <em>auf <strong>der</strong> Straße</em>.</li></ul>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: 'Erdgeschoss (EG)' vs. '1. Stock'",
+        "type": "idiom",
+        "content": "<p><strong>Erdgeschoss (EG), 1. OG, Vorderhaus (VH) & Hinterhof (HH)</strong></p><p>Bedeutung: In Germany, the ground floor is <em>Erdgeschoss (EG)</em>, and the floor above it is the <em>1. Stock / 1. Obergeschoss (1. OG)</em>. Berlin buildings also often have a front building (<em>Vorderhaus</em>) and a quiet courtyard building (<em>Hinterhaus / Seitenflügel</em>)!</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Guillermo",
+        "de": "Lukas, wo ist eigentlich mein Schlüssel? Ich finde ihn nicht!",
+        "en": "Lukas, where is my key actually? I can't find it!"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Hast du schon auf dem Küchentisch geschaut?",
+        "en": "Have you looked on the kitchen table already?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Auf dem Tisch liegt nur mein Handy, aber kein Schlüssel.",
+        "en": "Only my phone is lying on the table, but no key."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Ah, schau mal! Er steckt noch an der Wohnungstür!",
+        "en": "Ah, look! It's still in the apartment door!"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Why do we say 'Ich koche in DER Küche' (die Küche)?",
+        "options": [
+          "Because 'in' with a static location (Wo?) uses the Dative case ('die' becomes 'der')",
+          "Because 'Küche' is masculine in German",
+          "Because 'Küche' is plural",
+          "Because it is in the future tense"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Mein Laptop steht auf ___ Schreibtisch im Wohnzimmer.",
+        "answer": "dem",
+        "hint": "der Schreibtisch -> Dative (Wo?)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "auf dem Tisch",
+            "en": "on the table"
+          },
+          {
+            "de": "in der Küche",
+            "en": "in the kitchen"
+          },
+          {
+            "de": "im Kühlschrank",
+            "en": "in the fridge"
+          },
+          {
+            "de": "an der Wand",
+            "en": "on the wall"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Der",
+          "Kaffee",
+          "steht",
+          "schon",
+          "auf",
+          "dem",
+          "Tisch"
+        ],
+        "answer": "Der Kaffee steht schon auf dem Tisch"
+      },
+      {
+        "type": "translation",
+        "source": "We are sitting in the kitchen.",
+        "target": "Wir sitzen in der Küche."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Health, Body, Weather & Making Appointments",
+    "titleDe": "Gesundheit, Körper, Wetter & Arzttermin",
+    "type": "Foundations",
+    "icon": "🩺",
+    "level": "A1",
+    "readingText": {
+      "title": "Ein kalter Wintertag in Berlin",
+      "text": "Im Januar ist das Wetter in Berlin oft grau, windig und sehr kalt. Heute Morgen sind es minus zwei Grad und es schneit leicht. Leider fühle ich mich heute nicht gut: Mein Hals tut weh, ich habe Kopfschmerzen und leichtes Fieber. Deshalb schreibe ich meinem Team eine Nachricht und bleibe im Bett. Um zehn Uhr rufe ich in der Arztpraxis an, weil ich für morgen eine Krankschreibung für die Arbeit brauche.",
+      "glossary": [
+        {
+          "de": "wehtun (tut weh)",
+          "en": "to hurt / ache"
+        },
+        {
+          "de": "die Kopfschmerzen (Pl.)",
+          "en": "headache"
+        },
+        {
+          "de": "es schneit / es regnet",
+          "en": "it is snowing / it is raining"
+        },
+        {
+          "de": "die Krankschreibung, -en",
+          "en": "sick note for the employer"
+        }
+      ],
+      "question": "Warum ruft der Erzähler in der Arztpraxis an?",
+      "options": [
+        "Weil er dort als Arzt arbeitet.",
+        "Weil er krank ist und einen Termin sowie eine Krankschreibung braucht.",
+        "Weil das Wetter heute sonnig und warm ist.",
+        "Weil er ein neues Fahrrad kaufen möchte."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Health, Body & Weather",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Kopf / der Hals / der Rücken</strong></td><td>head / throat (neck) / back</td><td>Mein Kopf und mein Hals tun weh.</td></tr><tr><td><strong>die Kopfschmerzen / die Erkältung</strong></td><td>headache / cold</td><td>Ich habe eine starke Erkältung.</td></tr><tr><td><strong>das Fieber / der Husten</strong></td><td>fever / cough</td><td>Hast du Fieber?</td></tr><tr><td><strong>der Termin, -e / die Praxis</strong></td><td>appointment / doctor's office</td><td>Ich brauche heute dringend einen Termin beim Arzt.</td></tr><tr><td><strong>die Gesundheitskarte / Krankenkasse</strong></td><td>health insurance card / insurance</td><td>Haben Sie Ihre Gesundheitskarte dabei?</td></tr><tr><td><strong>Gute Besserung!</strong></td><td>Get well soon!</td><td>Bleib im Bett und gute Besserung!</td></tr><tr><td><strong>es regnet / es schneit / die Sonne scheint</strong></td><td>it rains / it snows / the sun shines</td><td>Heute scheint endlich wieder die Sonne!</td></tr><tr><td><strong>warm / kalt / bewölkt</strong></td><td>warm / cold / cloudy</td><td>Im Winter ist es in Berlin oft kalt und bewölkt.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Expressing Pain & Imperative Advice",
+        "type": "grammar",
+        "content": "<p>There are two natural ways to describe symptoms at the doctor's office:</p><ul><li><strong>1. Ich habe + Noun (-schmerzen / Fieber / eine Erkältung):</strong><br><em>Ich habe Kopfschmerzen / Halsschmerzen / Rückenschmerzen / Fieber.</em></li><li><strong>2. Mein(e) [Body Part] tut weh (singular) / tun weh (plural):</strong><br><em>Mein Hals <strong>tut weh</strong>. Meine Augen <strong>tun weh</strong>.</em></li><li><strong>Calling in sick at work:</strong> <em>„Hallo zusammen, ich bin heute leider krank und kann nicht arbeiten.“</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: 'Gute Besserung!'",
+        "type": "idiom",
+        "content": "<p><strong>Gute Besserung!</strong></p><p>Bedeutung: 'Get well soon!' Whenever a colleague writes in Slack or Teams that they are sick, the whole team replies with <em>„Gute Besserung!“</em>.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Arzthelferin",
+        "de": "Praxis Dr. Hoffmann, guten Morgen! Wie kann ich Ihnen helfen?",
+        "en": "Dr. Hoffmann's office, good morning! How can I help you?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Guten Morgen! Ich bin krank, ich habe Fieber und Halsschmerzen. Haben Sie heute noch einen Termin frei?",
+        "en": "Good morning! I am sick, I have a fever and a sore throat. Do you still have an appointment available today?"
+      },
+      {
+        "speaker": "Arzthelferin",
+        "de": "Ja, Sie können um elf Uhr vorbeikommen. Bringen Sie bitte Ihre Versichertenkarte mit.",
+        "en": "Yes, you can come by at eleven o'clock. Please bring your insurance card with you."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Vielen Dank! Bis um elf Uhr.",
+        "en": "Thank you very much! See you at eleven."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What do you say to a colleague or friend who is sick?",
+        "options": [
+          "Schönen Feierabend!",
+          "Guten Appetit!",
+          "Gute Besserung!",
+          "Stimmt so!"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich kann heute leider nicht arbeiten, weil ich starke ___ habe.",
+        "answer": "Kopfschmerzen",
+        "hint": "headache"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "Gute Besserung!",
+            "en": "Get well soon!"
+          },
+          {
+            "de": "die Erkältung",
+            "en": "the cold (illness)"
+          },
+          {
+            "de": "Es regnet",
+            "en": "It is raining"
+          },
+          {
+            "de": "die Sonne scheint",
+            "en": "the sun is shining"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Ich",
+          "brauche",
+          "heute",
+          "einen",
+          "Termin",
+          "beim",
+          "Arzt"
+        ],
+        "answer": "Ich brauche heute einen Termin beim Arzt"
+      },
+      {
+        "type": "translation",
+        "source": "I have a fever and a headache.",
+        "target": "Ich habe Fieber und Kopfschmerzen."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Talking About the Past: Introduction to Perfekt",
+    "titleDe": "Über die Vergangenheit sprechen: Das Perfekt (A1-Meilenstein)",
+    "type": "Foundations",
+    "icon": "⏳",
+    "level": "A1",
+    "readingText": {
+      "title": "Was hast du am Wochenende gemacht?",
+      "text": "Am letzten Wochenende war das Wetter in Berlin wunderschön. Am Samstag habe ich lange geschlafen und danach meine Wohnung geputzt. Am Nachmittag bin ich mit dem Fahrrad zum Tempelhofer Feld gefahren. Dort habe ich meine Freunde getroffen und wir haben zusammen Pizza gegessen und ein kaltes Bier getrunken. Am Sonntag habe ich zwei Stunden lang Deutsch gelernt und am Abend mit meinen Eltern in Spanien telefoniert.",
+      "glossary": [
+        {
+          "de": "ich habe gemacht / gelernt",
+          "en": "I did / I learned (Perfekt with haben)"
+        },
+        {
+          "de": "ich bin gefahren / gegangen",
+          "en": "I rode / I went (Perfekt with sein)"
+        },
+        {
+          "de": "gegessen / getrunken",
+          "en": "eaten / drunk (Past Participles)"
+        },
+        {
+          "de": "getroffen",
+          "en": "met (from treffen)"
+        }
+      ],
+      "question": "Wohin ist der Erzähler am Samstagnachmittag mit dem Fahrrad gefahren?",
+      "options": [
+        "Nach Madrid.",
+        "Ins Büro in Berlin-Mitte.",
+        "Zum Tempelhofer Feld.",
+        "In den Supermarkt."
+      ],
+      "answer": 2
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Essential Past Participles (Partizip II)",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>gemacht (machen)</strong></td><td>done / made</td><td>Was hast du am Wochenende gemacht?</td></tr><tr><td><strong>gearbeitet (arbeiten)</strong></td><td>worked</td><td>Gestern habe ich bis 18 Uhr gearbeitet.</td></tr><tr><td><strong>gelernt (lernen)</strong></td><td>learned / studied</td><td>Heute habe ich viel Deutsch gelernt.</td></tr><tr><td><strong>gegessen (essen)</strong></td><td>eaten</td><td>Wir haben gestern Abend Pasta gegessen.</td></tr><tr><td><strong>getrunken (trinken)</strong></td><td>drunk (Warning: NOT 'getrinkt'!)</td><td>Ich habe heute Morgen einen Kaffee getrunken.</td></tr><tr><td><strong>geschlafen (schlafen)</strong></td><td>slept</td><td>Hast du gut geschlafen?</td></tr><tr><td><strong>gesprochen / getroffen</strong></td><td>spoken / met</td><td>Ich habe gestern meine Freunde getroffen.</td></tr><tr><td><strong>gegangen (sein!) / gefahren (sein!)</strong></td><td>gone / driven, ridden (uses SEIN!)</td><td>Ich bin gestern nach Hamburg gefahren.</td></tr><tr><td><strong>geblieben (sein!)</strong></td><td>stayed (uses SEIN!)</td><td>Am Sonntag bin ich zu Hause geblieben.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: How to Build the Spoken Past Tense (Das Perfekt)",
+        "type": "grammar",
+        "content": "<p>In everyday spoken German, 95% of past actions use the <strong>Perfekt</strong> tense! It uses a 2-part Sentence Bracket (<em>Satzklammer</em>):</p><ul><li><strong>Position 2:</strong> Helper verb <strong>haben</strong> (or <strong>sein</strong> for movement/change of state) conjugated in the present.</li><li><strong>End of the Sentence:</strong> The Past Participle (<strong>Partizip II</strong>, usually starting with <strong>ge-</strong>).</li><li><strong>Rule 1 (Regular Verbs = ge-...-t):</strong> <em>machen &rarr; gemacht</em>, <em>arbeiten &rarr; gearbeitet</em>, <em>kaufen &rarr; gekauft</em>.<br>Example: <em>Gestern <strong>habe</strong> ich acht Stunden <strong>gearbeitet</strong>.</em> (Notice: <em>habe</em> is in Position 2 right after <em>Gestern</em>!).</li><li><strong>Rule 2 (Irregular Verbs = ge-...-en):</strong> <em>trinken &rarr; <strong>getrunken</strong></em>, <em>essen &rarr; <strong>gegessen</strong></em>, <em>helfen &rarr; <strong>geholfen</strong></em>.</li><li><strong>Rule 3 (Movement Verbs use SEIN):</strong> <em>Ich <strong>bin</strong> ins Kino <strong>gegangen</strong>. Wir <strong>sind</strong> nach Berlin <strong>geflogen</strong>.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: 'War gestern nett!'",
+        "type": "idiom",
+        "content": "<p><strong>Use 'war' (was) and 'hatte' (had) for 'sein' & 'haben'!</strong></p><p>Bedeutung: While almost all verbs use the Perfekt in conversation, for <em>sein</em> (to be) and <em>haben</em> (have), Germans prefer the short form: <em>„Das Wetter <strong>war</strong> super!“</em> and <em>„Ich <strong>hatte</strong> gestern viel Arbeit.“</em></p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Anna",
+        "de": "Guten Morgen, Guillermo! Wie war dein Wochenende? Was hast du gemacht?",
+        "en": "Good morning, Guillermo! How was your weekend? What did you do?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Es war super! Am Samstag bin ich in den Park gegangen und habe Freunde getroffen.",
+        "en": "It was great! On Saturday I went to the park and met friends."
+      },
+      {
+        "speaker": "Anna",
+        "de": "Habt ihr auch etwas Schönes gegessen?",
+        "en": "Did you also eat something nice?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ja, wir haben Pizza gegessen und zusammen ein Bier getrunken.",
+        "en": "Yes, we ate pizza and drank a beer together."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Which sentence has the correct word order (Position 2 rule) and past participle?",
+        "options": [
+          "Gestern ich habe einen Kaffee getrinkt.",
+          "Gestern habe ich einen Kaffee getrunken.",
+          "Gestern getrunken ich habe einen Kaffee.",
+          "Ich gestern habe getrunken einen Kaffee."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Am Samstag ___ ich mit dem Fahrrad durch Berlin gefahren.",
+        "answer": "bin",
+        "hint": "fahren (movement) uses 'sein' in the Perfekt!"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "trinken -> ...",
+            "en": "getrunken"
+          },
+          {
+            "de": "arbeiten -> ...",
+            "en": "gearbeitet"
+          },
+          {
+            "de": "essen -> ...",
+            "en": "gegessen"
+          },
+          {
+            "de": "gehen -> ...",
+            "en": "ist gegangen"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Gestern",
+          "habe",
+          "ich",
+          "einen",
+          "Kaffee",
+          "getrunken"
+        ],
+        "answer": "Gestern habe ich einen Kaffee getrunken"
+      },
+      {
+        "type": "translation",
+        "source": "Yesterday I worked and drank a coffee.",
+        "target": "Gestern habe ich gearbeitet und einen Kaffee getrunken."
+      }
+    ]
+  }
+]

@@ -1,0 +1,543 @@
+[
+  {
+    "id": 92,
+    "title": "Noun-Verb Combinations (Funktionsverbgefüge)",
+    "titleDe": "Nomen-Verb-Verbindungen (Funktionsverbgefüge)",
+    "type": "B2 Grammar & Reading",
+    "icon": "💼",
+    "level": "B2",
+    "readingText": {
+      "title": "Strategische Entscheidungen im Projektmanagement",
+      "text": "Bevor das Unternehmen das neue Produkt auf den Markt bringt, müssen noch einige wichtige Entscheidungen getroffen werden. In der gestrigen Sitzung brachte die Projektleitung das Thema Datensicherheit zur Sprache. Dabei stellte die IT-Abteilung allen Teams eine neue Verschlüsselungssoftware zur Verfügung. Obwohl die Einführung zusätzliche Kosten verursacht, nehmen die Verantwortlichen diesen Aufwand bewusst in Kauf, um die Daten der Kunden optimal zu schützen.",
+      "glossary": [
+        {
+          "de": "eine Entscheidung treffen",
+          "en": "to make a decision"
+        },
+        {
+          "de": "zur Sprache bringen",
+          "en": "to bring up / raise a topic"
+        },
+        {
+          "de": "zur Verfügung stellen",
+          "en": "to make available / provide"
+        },
+        {
+          "de": "in Kauf nehmen",
+          "en": "to accept (a disadvantage/cost)"
+        }
+      ],
+      "question": "Was bedeutet die Formulierung „die Verantwortlichen nehmen diesen Aufwand bewusst in Kauf“?",
+      "options": [
+        "Sie kaufen ein neues Bürogebäude.",
+        "Sie akzeptieren den zusätzlichen Aufwand bewusst als notwendigen Nachteil.",
+        "Sie lehnen den Aufwand komplett ab.",
+        "Sie verkaufen die neue Software an Kunden."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Essential B2 Funktionsverbgefüge",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>eine Entscheidung treffen</strong></td><td>to make a decision (never 'machen'!)</td><td>Wir müssen heute eine klare Entscheidung treffen.</td></tr><tr><td><strong>zur Verfügung stellen</strong></td><td>to provide / make available</td><td>Ich stelle Ihnen die Unterlagen gern zur Verfügung.</td></tr><tr><td><strong>zur Verfügung stehen</strong></td><td>to be available</td><td>Für Rückfragen stehe ich Ihnen jederzeit zur Verfügung.</td></tr><tr><td><strong>in Frage kommen</strong></td><td>to be an option / be considered</td><td>Eine Verschiebung des Termins kommt nicht in Frage.</td></tr><tr><td><strong>in Kauf nehmen</strong></td><td>to accept / put up with (a downside)</td><td>Für die hohe Qualität nehmen wir den Preis in Kauf.</td></tr><tr><td><strong>zur Sprache bringen</strong></td><td>to bring up / mention a topic</td><td>Er brachte das Problem im Meeting direkt zur Sprache.</td></tr><tr><td><strong>in Anspruch nehmen</strong></td><td>to make use of / claim / take up (time)</td><td>Das Projekt nimmt viel Zeit in Anspruch.</td></tr><tr><td><strong>Kritik üben (an + Dat.)</strong></td><td>to criticize</td><td>Die Presse übte scharfe Kritik an dem Entwurf.</td></tr><tr><td><strong>einen Beitrag leisten (zu + Dat.)</strong></td><td>to make a contribution to</td><td>Jeder kann einen Beitrag zum Umweltschutz leisten.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Why Formal German Loves Noun-Verb Combinations",
+        "type": "grammar",
+        "content": "<p>In B2 business, academic, and official German, simple verbs are frequently replaced by a <strong>Noun + Function Verb</strong> pair (<em>Funktionsverbgefüge</em>). The verb loses its literal meaning, and the noun carries the action:</p><ul><li><em>entscheiden</em> &rarr; <strong>eine Entscheidung treffen</strong></li><li><em>bereitstellen</em> &rarr; <strong>zur Verfügung stellen</strong></li><li><em>beanspruchen</em> &rarr; <strong>in Anspruch nehmen</strong></li><li><em>berücksichtigen</em> &rarr; <strong>in Betracht ziehen</strong> (to take into consideration)</li><li><strong>Word Order Rule:</strong> The prepositional phrase or noun behaves like a separable prefix and stands at the <strong>end of the middle field</strong> right before the final verb:<br><em>Ich <strong>stelle</strong> meinem Team heute alle Dokumente <strong>zur Verfügung</strong>.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'stehen ... zur Verfügung' in E-Mails",
+        "type": "idiom",
+        "content": "<p><strong>„Für weitere Fragen stehe ich Ihnen jederzeit gerne zur Verfügung.“</strong></p><p>Bedeutung: The gold-standard closing line in every professional German email ('I am gladly at your disposal for any further questions at any time').</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Kunde",
+        "de": "Können Sie uns die aktuellen Testdaten bis morgen Mittag zur Verfügung stellen?",
+        "en": "Can you make the current test data available to us by tomorrow noon?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Selbstverständlich! Die Aufbereitung nimmt nur etwa eine Stunde in Anspruch.",
+        "en": "Of course! Preparing them only takes up about an hour."
+      },
+      {
+        "speaker": "Kunde",
+        "de": "Perfekt. Dann können wir am Nachmittag im Vorstand eine endgültige Entscheidung treffen.",
+        "en": "Perfect. Then we can make a final decision in the board meeting in the afternoon."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Für Rückfragen stehe ich Ihnen morgen jederzeit telefonisch zur Verfügung.",
+        "en": "I am available to you by phone at any time tomorrow for any questions."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Which verb pairs with 'eine Entscheidung' (to make a decision) in German?",
+        "options": [
+          "eine Entscheidung machen",
+          "eine Entscheidung treffen",
+          "eine Entscheidung tun",
+          "eine Entscheidung stellen"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Für Rückfragen stehe ich Ihnen jederzeit gerne zur ___.",
+        "answer": "Verfügung",
+        "hint": "zur ___ stehen (at your disposal / available)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "zur Verfügung stellen",
+            "en": "to provide / make available"
+          },
+          {
+            "de": "in Anspruch nehmen",
+            "en": "to take up (time) / make use of"
+          },
+          {
+            "de": "in Kauf nehmen",
+            "en": "to accept (a disadvantage)"
+          },
+          {
+            "de": "einen Beitrag leisten",
+            "en": "to make a contribution"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Wir",
+          "müssen",
+          "heute",
+          "eine",
+          "wichtige",
+          "Entscheidung",
+          "treffen"
+        ],
+        "answer": "Wir müssen heute eine wichtige Entscheidung treffen"
+      },
+      {
+        "type": "translation",
+        "source": "The project takes up a lot of time.",
+        "target": "Das Projekt nimmt viel Zeit in Anspruch."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Nominal Style vs. Verbal Style in Non-Fiction",
+    "titleDe": "Nominalstil vs. Verbalstil in Sachtexten & Wissenschaft",
+    "type": "B2 Grammar & Reading",
+    "icon": "🏛️",
+    "level": "B2",
+    "readingText": {
+      "title": "Analyse zur Digitalisierung der Verwaltung",
+      "text": "Trotz der Einführung digitaler Bürgerdienste klagen viele Berlinerinnen und Berliner weiterhin über lange Wartezeiten bei Behördengängen. Zur Beschleunigung der Antragsbearbeitung plant der Senat nun die Einstellung zusätzlicher Fachkräfte sowie den Ausbau von Online-Formularen. Vor der endgültigen Umsetzung des neuen Systems bedarf es jedoch einer gründlichen Schulung des Personals. Bei erfolgreicher Modernisierung könnten künftig Millionen Papierdokumente eingespart werden.",
+      "glossary": [
+        {
+          "de": "trotz der Einführung (= obwohl ... eingeführt wurde)",
+          "en": "despite the introduction"
+        },
+        {
+          "de": "zur Beschleunigung (= um ... zu beschleunigen)",
+          "en": "for the acceleration / in order to speed up"
+        },
+        {
+          "de": "vor der Umsetzung (= bevor ... umgesetzt wird)",
+          "en": "before the implementation"
+        },
+        {
+          "de": "bei erfolgreicher Modernisierung (= wenn ... modernisiert wird)",
+          "en": "in the case of successful modernization"
+        }
+      ],
+      "question": "Wie lautet der Nominalausdruck „Zur Beschleunigung der Antragsbearbeitung“ im Verbalstil (Nebensatz)?",
+      "options": [
+        "Um die Antragsbearbeitung zu beschleunigen / Damit die Antragsbearbeitung beschleunigt wird.",
+        "Obwohl die Antragsbearbeitung langsam war.",
+        "Nachdem die Anträge bearbeitet wurden.",
+        "Weil keine Anträge mehr bearbeitet werden."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Nominal vs. Verbal Bridges",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch (Nominalstil)</th><th>Verbalstil (Nebensatz)</th><th>English</th></tr></thead><tbody><tr><td><strong>wegen / aufgrund (+ Gen.)</strong></td><td>weil / da ...</td><td>because of / due to</td></tr><tr><td><strong>trotz (+ Gen.)</strong></td><td>obwohl ...</td><td>despite / in spite of</td></tr><tr><td><strong>vor / nach (+ Dat.)</strong></td><td>bevor / nachdem ...</td><td>before / after</td></tr><tr><td><strong>während (+ Gen.) / bei (+ Dat.)</strong></td><td>während / wenn (als) ...</td><td>during / when, if</td></tr><tr><td><strong>zur (+ Dat. -ung)</strong></td><td>um ... zu / damit ...</td><td>for the purpose of / in order to</td></tr><tr><td><strong>durch (+ Akk. -ung)</strong></td><td>indem / dadurch, dass ...</td><td>by means of / through</td></tr><tr><td><strong>die Umsetzung / die Einführung</strong></td><td>umsetzen / einführen</td><td>implementation / introduction</td></tr><tr><td><strong>die Überprüfung / die Verbesserung</strong></td><td>überprüfen / verbessern</td><td>review, check / improvement</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Unpacking Dense Nominal Phrases When Reading",
+        "type": "grammar",
+        "content": "<p>German non-fiction, journalism, and official letters pack entire clauses into <strong>Preposition + Noun (-ung, -heit, -keit, Infinitive Noun) + Genitive</strong>. This is called <strong>Nominalstil</strong>. When reading at B2 level, mentally unpack them into verbs:</p><ul><li><strong>Causal (Why?):</strong> <em><strong>Aufgrund des starken Wachstums</strong> stellen wir neue Leute ein</em> &rarr; <em>Weil wir stark wachsen...</em></li><li><strong>Conditional / Temporal (When / If?):</strong> <em><strong>Bei Fragen</strong> wenden Sie sich an uns</em> &rarr; <em>Wenn Sie Fragen haben...</em></li><li><strong>Purpose (What for?):</strong> <em><strong>Zur Vermeidung von Fehlern</strong> testen wir den Code</em> &rarr; <em>Um Fehler zu vermeiden...</em></li><li><strong>Means (How?):</strong> <em><strong>Durch die Modernisierung der Bahn</strong> sinkt die Reisezeit</em> &rarr; <em>Indem die Bahn modernisiert wird...</em></li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: Nomen auf '-ung' als Verben lesen",
+        "type": "idiom",
+        "content": "<p><strong>Every '-ung' Noun is a Hidden Verb!</strong></p><p>Bedeutung: Whenever a German sentence feels overloaded with nouns ending in <strong>-ung</strong> (<em>Veröffentlichung, Genehmigung, Berücksichtigung, Verzögerung</em>), strip off <em>-ung</em> and add <em>-en</em> in your head to feel the action immediately!</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Behörde (Brief)",
+        "de": "Zur Bearbeitung Ihres Antrags benötigen wir noch eine Kopie Ihres Mietvertrags.",
+        "en": "To process your application, we still need a copy of your rental contract."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Lukas, schau mal diesen Brief vom Amt an! Heißt „Zur Bearbeitung“, dass sie meinen Antrag erst bearbeiten, wenn ich den Vertrag schicke?",
+        "en": "Lukas, look at this letter from the office! Does 'Zur Bearbeitung' mean they will only process my application once I send the contract?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Genau! Das ist typischer Nominalstil: „Um Ihren Antrag zu bearbeiten, brauchen wir den Mietvertrag.“",
+        "en": "Exactly! That's typical nominal style: 'In order to process your application, we need the lease.'"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Alles klar! Nach dem Hochladen des Dokuments sollte dann alles erledigt sein.",
+        "en": "Got it! After uploading the document, everything should be taken care of then."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Which subordinate clause matches the nominal phrase 'Trotz des starken Regens'?",
+        "options": [
+          "Weil es stark regnete",
+          "Obwohl es stark regnete",
+          "Damit es stark regnet",
+          "Bevor es stark regnete"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "___ (In the case of / If you have) Fragen erreichen Sie unseren Kundenservice jederzeit per E-Mail.",
+        "answer": "Bei",
+        "hint": "Bei Fragen = Wenn Sie Fragen haben"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "aufgrund (+ Gen.)",
+            "en": "weil / da (because of)"
+          },
+          {
+            "de": "trotz (+ Gen.)",
+            "en": "obwohl (despite)"
+          },
+          {
+            "de": "zur Vermeidung",
+            "en": "um ... zu vermeiden (to avoid)"
+          },
+          {
+            "de": "durch den Einsatz",
+            "en": "indem man ... einsetzt (by using)"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Zur",
+          "Vermeidung",
+          "von",
+          "Fehlern",
+          "prüfen",
+          "wir",
+          "alles"
+        ],
+        "answer": "Zur Vermeidung von Fehlern prüfen wir alles"
+      },
+      {
+        "type": "translation",
+        "source": "If you have questions, please contact us.",
+        "target": "Bei Fragen wenden Sie sich bitte an uns."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Two-Part Connectors (Zweiteilige Konnektoren)",
+    "titleDe": "Zweiteilige Konnektoren: sowohl ... als auch, weder ... noch, zwar ... aber",
+    "type": "B2 Grammar & Reading",
+    "icon": "⚖️",
+    "level": "B2",
+    "readingText": {
+      "title": "Künstliche Intelligenz im modernen Arbeitsalltag",
+      "text": "Der Einsatz von Künstlicher Intelligenz verändert sowohl die Softwareentwicklung als auch das klassische Projektmanagement. Neue KI-Werkzeuge können zwar routinemäßige Aufgaben wie das Zusammenfassen von Protokollen erheblich beschleunigen, aber strategische Entscheidungen erfordern weiterhin menschliche Erfahrung. Viele Fachkräfte betrachten die Technologie daher weder als Bedrohung noch als bloßen Trend, sondern nutzen sie gezielt zur Steigerung ihrer Produktivität.",
+      "glossary": [
+        {
+          "de": "sowohl ... als auch",
+          "en": "both ... and ..."
+        },
+        {
+          "de": "zwar ..., aber ...",
+          "en": "admittedly / it is true that ..., but ..."
+        },
+        {
+          "de": "weder ... noch",
+          "en": "neither ... nor"
+        },
+        {
+          "de": "nicht nur ..., sondern auch",
+          "en": "not only ..., but also"
+        }
+      ],
+      "question": "Welche Funktion hat die Struktur „zwar ..., aber ...“ im zweiten Satz des Textes?",
+      "options": [
+        "Sie räumt zunächst ein positives Argument ein (zwar) und schränkt es im zweiten Teil wieder ein (aber).",
+        "Sie verneint beide Aussagen komplett.",
+        "Sie drückt eine zeitliche Reihenfolge in der Vergangenheit aus.",
+        "Sie stellt eine direkte Frage."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: The 6 B2 Double Connectors",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>sowohl ... als auch</strong></td><td>both ... and ...</td><td>Er spricht sowohl Spanisch als auch fließend Deutsch.</td></tr><tr><td><strong>nicht nur ..., sondern auch</strong></td><td>not only ..., but also</td><td>Berlin ist nicht nur grün, sondern auch kulturell vielfältig.</td></tr><tr><td><strong>weder ... noch</strong></td><td>neither ... nor</td><td>Ich habe heute weder Zeit noch Lust auf Überstunden.</td></tr><tr><td><strong>entweder ... oder</strong></td><td>either ... or</td><td>Entweder wir fahren mit der Bahn, oder wir nehmen das Rad.</td></tr><tr><td><strong>zwar ..., aber (dennoch)</strong></td><td>admittedly / while ..., (nevertheless)</td><td>Die Wohnung ist zwar teuer, aber sie liegt perfekt.</td></tr><tr><td><strong>einerseits ..., andererseits</strong></td><td>on the one hand ..., on the other hand</td><td>Einerseits spart das Zeit, andererseits kostet es viel Geld.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Word Order & Nuance with Double Connectors",
+        "type": "grammar",
+        "content": "<p>Two-part connectors give B2 texts rhythm, precision, and persuasive structure:</p><ul><li><strong>1. zwar ..., aber (Concession + Counterargument):</strong><br>This is the #1 rhetorical tool in German essays and meetings! <em><strong>Zwar</strong></em> signals right away: 'I admit this first point is true, <strong>BUT</strong> a counterpoint is coming!'<br><em>Das Projekt ist <strong>zwar</strong> komplex, <strong>aber</strong> wir liegen gut im Zeitplan.</em></li><li><strong>2. weder ... noch (Double Negation):</strong><br>When linking two full clauses, the verb sits immediately after <strong>noch</strong>:<br><em>Er hat <strong>weder</strong> angerufen, <strong>noch hat</strong> er eine E-Mail geschrieben.</em></li><li><strong>3. einerseits ..., andererseits (Inversion!):</strong><br>Both sit in Position 1, so the verb follows immediately:<br><em><strong>Einerseits bietet</strong> Berlin viele Jobs, <strong>andererseits steigen</strong> die Mieten.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'Zwar' als Frühwarnsystem beim Lesen",
+        "type": "idiom",
+        "content": "<p><strong>Spot 'zwar' &rarr; Expect 'aber / jedoch / doch'!</strong></p><p>Bedeutung: In reading comprehension exams (like Goethe-Zertifikat B2), questions often test the author's true opinion. Whenever a sentence contains <strong>zwar</strong>, the author's real emphasis is ALWAYS in the second half after <strong>aber / jedoch</strong>!</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "de": "Sollen wir für den Workshop nächste Woche den großen Konferenzraum buchen?",
+        "en": "Should we book the large conference room for the workshop next week?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Der Raum ist zwar sehr modern ausgestattet, aber er ist für unser kleines Team eigentlich zu groß.",
+        "en": "While the room is equipped very modernly, it is actually too big for our small team."
+      },
+      {
+        "speaker": "Sarah",
+        "de": "Stimmt. Außerdem brauchen wir sowohl ein Whiteboard als auch einen großen Bildschirm.",
+        "en": "True. Besides, we need both a whiteboard and a large screen."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Dann nehmen wir Raum B! Der hat nicht nur beides, sondern liegt auch direkt neben der Kaffeeküche.",
+        "en": "Then let's take Room B! It not only has both, but is also located right next to the coffee kitchen."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Complete the two-part connector: 'Das Angebot ist ___ günstig, ___ die Lieferzeit ist leider zu lang.'",
+        "options": [
+          "weder ... noch",
+          "zwar ... aber",
+          "sowohl ... als auch",
+          "entweder ... oder"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Er spricht ___ Spanisch als auch Deutsch und Englisch im Büro.",
+        "answer": "sowohl",
+        "hint": "___ ... als auch (both ... and)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "sowohl ... als auch",
+            "en": "both ... and"
+          },
+          {
+            "de": "weder ... noch",
+            "en": "neither ... nor"
+          },
+          {
+            "de": "zwar ..., aber",
+            "en": "admittedly ..., but"
+          },
+          {
+            "de": "nicht nur ..., sondern auch",
+            "en": "not only ..., but also"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Die",
+          "Wohnung",
+          "ist",
+          "zwar",
+          "klein",
+          "aber",
+          "sehr",
+          "hell"
+        ],
+        "answer": "Die Wohnung ist zwar klein aber sehr hell"
+      },
+      {
+        "type": "translation",
+        "source": "He speaks both Spanish and German.",
+        "target": "Er spricht sowohl Spanisch als auch Deutsch."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Verbs & Adjectives with Prepositional Objects (da- & wo- Compounds)",
+    "titleDe": "Präpositionalobjekte & Pronominaladverbien (dafür, worauf, darüber)",
+    "type": "B2 Grammar & Reading",
+    "icon": "🎯",
+    "level": "B2",
+    "readingText": {
+      "title": "Erfolgsfaktoren für internationale Teams",
+      "text": "Der Erfolg eines internationalen Projekts hängt maßgeblich davon ab, wie klar die Teammitglieder miteinander kommunizieren. Gute Führungskräfte achten besonders darauf, dass kulturelle Unterschiede respektiert werden und sich alle im Team wohlfühlen. Wer neu nach Berlin zieht, muss sich anfangs oft erst an den direkten Kommunikationsstil im Büro gewöhnen. Worauf es am Ende jedoch wirklich ankommt, sind gegenseitiges Vertrauen und Verlässlichkeit.",
+      "glossary": [
+        {
+          "de": "abhängen von (+ Dat.) / davon abhängen",
+          "en": "to depend on / depend on whether..."
+        },
+        {
+          "de": "achten auf (+ Akk.) / darauf achten",
+          "en": "to pay attention to / make sure that..."
+        },
+        {
+          "de": "sich gewöhnen an (+ Akk.)",
+          "en": "to get used to"
+        },
+        {
+          "de": "ankommen auf (+ Akk.) / worauf es ankommt",
+          "en": "to come down to / what really matters"
+        }
+      ],
+      "question": "Was bedeutet der Satz „Worauf es am Ende wirklich ankommt, sind Vertrauen und Verlässlichkeit“?",
+      "options": [
+        "Wann der Zug am Bahnhof ankommt, ist ungewiss.",
+        "Was am Ende wirklich wichtig und entscheidend ist, sind Vertrauen und Verlässlichkeit.",
+        "Niemand im Team vertraut den anderen.",
+        "Man muss sich nicht an neue Situationen gewöhnen."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: B2 Verbs with Fixed Prepositions",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>abhängen von (+ Dat.)</strong></td><td>to depend on</td><td>Das hängt ganz vom Wetter ab.</td></tr><tr><td><strong>achten auf (+ Akk.)</strong></td><td>to pay attention to / watch out for</td><td>Bitte achten Sie auf die Qualität.</td></tr><tr><td><strong>es kommt an auf (+ Akk.)</strong></td><td>it comes down to / what matters is</td><td>Es kommt auf eine gute Vorbereitung an.</td></tr><tr><td><strong>sich gewöhnen an (+ Akk.)</strong></td><td>to get used to</td><td>Ich habe mich schnell an das Berliner Wetter gewöhnt.</td></tr><tr><td><strong>beitragen zu (+ Dat.)</strong></td><td>to contribute to</td><td>Das neue Tool trägt zur Effizienz bei.</td></tr><tr><td><strong>rechnen mit (+ Dat.)</strong></td><td>to count on / expect</td><td>Wir rechnen nächste Woche mit einer Antwort.</td></tr><tr><td><strong>aus·gehen von (+ Dat.)</strong></td><td>to assume / take as a starting point</td><td>Ich gehe davon aus, dass das Meeting stattfindet.</td></tr><tr><td><strong>überzeugt sein von (+ Dat.)</strong></td><td>to be convinced of</td><td>Wir sind von diesem Konzept fest überzeugt.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Anticipatory 'da(r)-' Words (Korrelat) in Complex Sentences",
+        "type": "grammar",
+        "content": "<p>In B2 German, when a verb with a fixed preposition is followed by a <em>dass-</em>clause or an infinitive (<em>zu + Inf.</em>), German inserts a <strong>da(r)+preposition placeholder</strong> in the main clause pointing forward to the subordinate clause:</p><ul><li><strong>ausgehen von &rarr; davon ausgehen, dass...:</strong><br><em>Ich <strong>gehe davon aus</strong>, <strong>dass</strong> wir das Projekt pünktlich abschließen.</em> (I assume that...)</li><li><strong>achten auf &rarr; darauf achten, dass...:</strong><br><em>Wir müssen <strong>darauf achten</strong>, <strong>dass</strong> das Budget eingehalten wird.</em></li><li><strong>beitragen zu &rarr; dazu beitragen, ... zu ...:</strong><br><em>Sport <strong>trägt dazu bei</strong>, gesund <strong>zu bleiben</strong>.</em></li><li><strong>Questions & Relative Clauses use wo(r)+preposition:</strong><br><em><strong>Worauf</strong> kommt es an?</em> (What does it come down to?)</li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'Ich gehe davon aus, dass...'",
+        "type": "idiom",
+        "content": "<p><strong>davon ausgehen, dass... = to assume that...</strong></p><p>Bedeutung: Don't translate <em>ausgehen</em> literally as 'to go out'! In 99% of B2 texts and work meetings, <em>„Wir gehen davon aus, dass...“</em> means <strong>'We assume / expect that...'</strong></p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Projektleiterin",
+        "de": "Guillermo, gehst du davon aus, dass das Release am Donnerstag planmäßig klappt?",
+        "en": "Guillermo, do you assume that the release on Thursday will work out as planned?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ja, wir rechnen fest damit. Das Entwicklerteam achtet gerade besonders darauf, alle letzten Bugs zu beheben.",
+        "en": "Yes, we are firmly counting on it. The developer team is currently paying special attention to fixing all final bugs."
+      },
+      {
+        "speaker": "Projektleiterin",
+        "de": "Sehr gut! Worauf müssen wir bei der Präsentation vor dem Kunden noch achten?",
+        "en": "Very good! What else do we need to pay attention to during the presentation to the client?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Es kommt vor allem darauf an, die neuen Sicherheitsfunktionen klar und verständlich zu zeigen.",
+        "en": "Above all, it comes down to showing the new security features clearly and understandably."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Ich gehe davon aus, dass er heute kommt' mean?",
+        "options": [
+          "I am going out of the house with him today.",
+          "I assume / expect that he is coming today.",
+          "I forbid him from coming today.",
+          "I am walking away from him."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wir müssen besonders ___ achten, dass alle Daten gesichert sind.",
+        "answer": "darauf",
+        "hint": "achten auf -> da + r + auf"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "davon ausgehen, dass...",
+            "en": "to assume that..."
+          },
+          {
+            "de": "es kommt darauf an",
+            "en": "it depends / what matters is"
+          },
+          {
+            "de": "sich gewöhnen an (+ Akk.)",
+            "en": "to get used to"
+          },
+          {
+            "de": "rechnen mit (+ Dat.)",
+            "en": "to expect / count on"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Ich",
+          "gehe",
+          "davon",
+          "aus",
+          "dass",
+          "alles",
+          "klappt"
+        ],
+        "answer": "Ich gehe davon aus dass alles klappt"
+      },
+      {
+        "type": "translation",
+        "source": "It depends entirely on the weather.",
+        "target": "Das hängt ganz vom Wetter ab."
+      }
+    ]
+  }
+]

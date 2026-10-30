@@ -6,7 +6,7 @@
 <title>__APP_TITLE__</title>
 <meta name="description" content="__APP_DESCRIPTION__">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 /* ============================================
    DEUTSCHMEISTER • FRIENDLY PASTEL DESIGN SYSTEM
@@ -39,6 +39,7 @@
   --pastel-sky-border: #bae6fd;
   --pastel-sky-shadow: #0284c7;
   --pastel-sky-text: #0369a1;
+  --pastel-sky-dark: #0369a1;
 
   /* 2. Pastel Mint (Das / Success / Level Progression) */
   --pastel-mint: #34d399;
@@ -135,6 +136,7 @@
   --pastel-sky-bg: rgba(56, 189, 248, 0.18);
   --pastel-sky-border: rgba(56, 189, 248, 0.35);
   --pastel-sky-text: #7dd3fc;
+  --pastel-sky-dark: #7dd3fc;
 
   --pastel-mint-bg: rgba(52, 211, 153, 0.18);
   --pastel-mint-border: rgba(52, 211, 153, 0.35);
@@ -1837,6 +1839,254 @@ body {
   .stone-row.stagger-left, .stone-row.stagger-right { transform: translateX(0); }
 }
 
+/* Stone Preview Card Inner Typography & Milestone Stones */
+.stone-card-title {
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.stone-card-sub {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+.stone-card-meta {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--pastel-sky-text);
+  background: var(--pastel-sky-bg);
+  border-radius: var(--radius-full);
+  padding: 4px 10px;
+}
+.milestone-stone-circle {
+  width: 92px;
+  height: 92px;
+  background: linear-gradient(145deg, #fbbf24 0%, #f59e0b 100%) !important;
+  border: 3.5px solid #fde68a !important;
+  box-shadow: 0 9px 0 #b45309, 0 14px 28px rgba(245, 158, 11, 0.3) !important;
+  color: #fff !important;
+}
+.milestone-beacon {
+  background: linear-gradient(135deg, #a855f7, #7e22ce) !important;
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.35) !important;
+}
+.milestone-beacon::after {
+  border-color: #7e22ce transparent transparent !important;
+}
+
+/* Multi-Word Vocabulary Deck Switcher */
+.vocab-deck-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.vocab-deck-pill {
+  padding: 6px 13px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid var(--border-medium);
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 2px 0 var(--border-medium);
+}
+.vocab-deck-pill:hover {
+  border-color: var(--pastel-sky);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+.vocab-deck-pill.active {
+  background: var(--pastel-sky);
+  border-color: var(--pastel-sky-shadow);
+  color: #ffffff;
+  box-shadow: 0 3px 0 var(--pastel-sky-shadow);
+}
+.vocab-deck-pill.seen:not(.active) {
+  background: var(--pastel-mint-bg);
+  border-color: var(--pastel-mint-border);
+  color: var(--pastel-mint-text);
+}
+.vocab-deck-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+/* Step: Reading Comprehension (Lesetext & Verstehen) */
+.reading-stage {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.reading-article-card {
+  background: var(--bg-surface-elevated);
+  border: 2px solid var(--border-subtle);
+  border-left: 6px solid var(--pastel-lavender);
+  border-radius: var(--radius-md);
+  padding: 22px 24px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow-sm);
+}
+.reading-article-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+.reading-article-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+.reading-article-body {
+  font-size: 1.06rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.reading-glossary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.reading-glossary-item {
+  background: var(--pastel-lavender-bg);
+  border: 1px solid var(--pastel-lavender-border);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  font-size: 0.82rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.reading-glossary-de {
+  font-weight: 800;
+  color: var(--pastel-lavender-text);
+}
+.reading-glossary-en {
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+}
+
+/* Dark Mode Overrides for Callout Boxes & Chat Bubbles */
+[data-theme="dark"] .hero-next-card {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.16) 0%, rgba(52, 211, 153, 0.14) 100%);
+  border-color: rgba(56, 189, 248, 0.35);
+}
+[data-theme="dark"] .hero-badge {
+  background: #0f172a;
+  color: #7dd3fc;
+  border-color: rgba(56, 189, 248, 0.4);
+}
+[data-theme="dark"] .spanish-helper-box {
+  background: rgba(251, 191, 36, 0.12);
+  border-color: rgba(251, 191, 36, 0.35);
+}
+[data-theme="dark"] .spanish-helper-header { color: #fde047; }
+[data-theme="dark"] .spanish-helper-text { color: #fef3c7; }
+[data-theme="dark"] .berlin-example-box {
+  background: rgba(52, 211, 153, 0.12);
+  border-color: rgba(52, 211, 153, 0.35);
+}
+[data-theme="dark"] .berlin-example-label { color: #6ee7b7; }
+[data-theme="dark"] .chat-msg-row.left .chat-bubble {
+  background: #28354f;
+  border-color: rgba(255,255,255,0.12);
+  color: #f8fafc;
+}
+[data-theme="dark"] .chat-msg-row.right .chat-bubble {
+  background: rgba(56, 189, 248, 0.2);
+  border-color: rgba(56, 189, 248, 0.4);
+  color: #f0f9ff;
+}
+[data-theme="dark"] .chat-msg-row.right .chat-speaker { color: #7dd3fc; }
+[data-theme="dark"] .runner-feedback-sheet.correct {
+  background: rgba(52, 211, 153, 0.18);
+  border-color: rgba(52, 211, 153, 0.45);
+}
+[data-theme="dark"] .runner-feedback-sheet.correct .feedback-text-title { color: #6ee7b7; }
+[data-theme="dark"] .runner-feedback-sheet.wrong {
+  background: rgba(251, 113, 133, 0.18);
+  border-color: rgba(251, 113, 133, 0.45);
+}
+[data-theme="dark"] .runner-feedback-sheet.wrong .feedback-text-title { color: #fda4af; }
+[data-theme="dark"] .drill-option-btn.selected-correct {
+  background: rgba(52, 211, 153, 0.22);
+  border-color: #34d399;
+  color: #6ee7b7;
+}
+[data-theme="dark"] .drill-option-btn.selected-wrong {
+  background: rgba(251, 113, 133, 0.22);
+  border-color: #fb7185;
+  color: #fda4af;
+}
+
+/* Friendly Pastel Toast Notification */
+.app-toast {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 2px solid var(--pastel-sky);
+  border-radius: var(--radius-full);
+  padding: 12px 24px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.18), 0 4px 0 var(--pastel-sky-shadow);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 9999;
+}
+.app-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Reference Mode Tables */
+.reference-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+}
+.reference-content th {
+  background: var(--pastel-sky-bg);
+  color: var(--pastel-sky-text);
+  text-align: left;
+  padding: 10px 14px;
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+.reference-content td {
+  padding: 10px 14px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+.reference-content tr:nth-child(even) td {
+  background: var(--bg-surface-elevated);
+}
+
 </style>
 </head>
 <body>
@@ -1848,7 +2098,7 @@ body {
   <nav class="sidebar" id="sidebar">
     <div class="sidebar-header">
       <h1>🇩🇪 DeutschMeister</h1>
-      <div class="subtitle">Lernpfad • A1 bis B1</div>
+      <div class="subtitle">Lernpfad • A1 bis B2</div>
     </div>
 
     <!-- XP Bar & Daily Stats -->
@@ -1883,6 +2133,7 @@ body {
       <button class="level-tab-btn" id="btn-level-a21" onclick="changeLevel('A2.1')">A2.1</button>
       <button class="level-tab-btn" id="btn-level-a22" onclick="changeLevel('A2.2')">A2.2</button>
       <button class="level-tab-btn" id="btn-level-b1" onclick="changeLevel('B1')">B1</button>
+      <button class="level-tab-btn" id="btn-level-b2" onclick="changeLevel('B2')">B2</button>
     </div>
 
     <!-- Quick Navigation to Chapter on Timeline -->
@@ -1917,6 +2168,9 @@ body {
   </main>
 </div>
 
+<!-- Friendly Pastel Toast Notification -->
+<div class="app-toast" id="app-toast" role="status" aria-live="polite"></div>
+
 
 <script>
 /* ============================================
@@ -1926,7 +2180,9 @@ body {
 
 const STORAGE_KEY = 'deutschmeister_state_v3';
 const MODULES = [
-  { id: 0, title: "A1 Fundament & Berliner Alltag", titleEn: "A1 Foundations & Berlin Daily Life", icon: "🌱", desc: "Aussprache, Alphabet, Begrüßung in Berlin, sein & haben, der/die/das, Akkusativ und W-Fragen von Null an.", lessons: [71,72,73,74,75], level: "A1" },
+  { id: 0, title: "A1.1 Erste Schritte in Berlin", titleEn: "A1.1 First Steps in Berlin", icon: "🌱", desc: "Aussprache, Alphabet, Begrüßung in Berlin, sein & haben, der/die/das, Akkusativ und W-Fragen von Null an.", lessons: [71,72,73,74,75], level: "A1" },
+  { id: 16, title: "A1.1 Familie, Einkaufen & Alltag", titleEn: "A1.1 Family, Shopping & Daily Routine", icon: "🥐", desc: "Possessivartikel (mein/dein), Supermarkt & Café, Uhrzeit, trennbare Verben und Modalverben (können, müssen).", lessons: [76,77,78,79], level: "A1" },
+  { id: 17, title: "A1.2 Stadt, Wohnung & Das Perfekt", titleEn: "A1.2 City, Apartment & Spoken Past Tense", icon: "🚇", desc: "Unterwegs mit der BVG (Dativ mit/zu), Altbauwohnung (Wo? = Dativ), Gesundheit & Wetter und Einführung ins Perfekt.", lessons: [80,81,82,83], level: "A1" },
   { id: 1, title: "Gefühle & Beziehungen", titleEn: "Feelings & Relationships", icon: "❤️", desc: "Lerne über Gefühle zu sprechen, Emotionen auszudrücken und Alltagsbeziehungen in Berlin zu beschreiben.", lessons: [1,2,3,4], level: "A2.1" },
   { id: 2, title: "Wohnen, Stadt & Bürgeramt", titleEn: "Living, City & Registration", icon: "🏠", desc: "Wohnungssuche in Berlin, Mietvertrag verstehen, Nachbarn kennenlernen und Anmeldung beim Bürgeramt.", lessons: [5,6,7,8,9], level: "A2.1" },
   { id: 3, title: "Gesundheit & Sport", titleEn: "Health, Doctor & Fitness", icon: "⚽", desc: "Arztbesuch bei Doctolib, Symptome und Schmerzen beschreiben, Sportarten und Fitness-Routinen.", lessons: [10,11,12,13], level: "A2.1" },
@@ -1941,7 +2197,11 @@ const MODULES = [
   { id: 12, title: "B1 Grammatik-Meister", titleEn: "B1 Grammar Mastery", icon: "🔗", desc: "Konnektoren (weil, obwohl, deshalb, trotzdem), Infinitiv mit zu, Verben mit festen Präpositionen.", lessons: [45,46,47,48,61,62,63,64], level: "B1" },
   { id: 13, title: "Nachrichten & Gesellschaft", titleEn: "News & Society", icon: "📰", desc: "Zeitungsberichte verstehen, gesellschaftliche Themen diskutieren und eigene Meinung argumentieren.", lessons: [49,50,51,52], level: "B1" },
   { id: 14, title: "Umwelt & Nachhaltigkeit", titleEn: "Environment & Sustainability", icon: "♻️", desc: "Klimaschutz, erneuerbare Energien, Mülltrennung und nachhaltiges Leben in Deutschland.", lessons: [53,54,55,56], level: "B1" },
-  { id: 15, title: "Geschichte & Meisterschaft", titleEn: "History & Goethe B1 Final", icon: "🏆", desc: "Deutsche Geschichte (Mauerfall), Goethe B1 Prüfungs-Simulation und offizielle Zertifikatsreife.", lessons: [57,58,59,60], level: "B1" }
+  { id: 15, title: "Geschichte & B1-Meilenstein", titleEn: "History & Goethe B1 Milestone", icon: "🏆", desc: "Deutsche Geschichte (Mauerfall), Plusquamperfekt und Übergang in die B2-Oberstufe.", lessons: [57,58,59,60], level: "B1" },
+  { id: 18, title: "B2.1 Passiv, Satzgefüge & Partizipialattribute", titleEn: "B2.1 Passive, Complex Clauses & Participial Attributes", icon: "🔍", desc: "Der Schlüssel zu komplexen Texten: Vorgangs-/Zustandspassiv, Passiversatzformen (sich lassen, sein...zu), erweiterte Partizipialattribute und je...desto.", lessons: [84,85,86,87], level: "B2" },
+  { id: 19, title: "B2.1 Medien, Konjunktiv I & Genitiv-Präpositionen", titleEn: "B2.1 Media, Indirect Speech & Genitive Prepositions", icon: "🏛️", desc: "Indirekte Rede in Nachrichten (sei, habe, gebe), subjektive Modalverben (soll/will gemacht haben, dürfte), Genitiv-Präpositionen (angesichts, infolge) und irreale Vergangenheit.", lessons: [88,89,90,91], level: "B2" },
+  { id: 20, title: "B2.2 Funktionsverbgefüge & Nominalstil", titleEn: "B2.2 Noun-Verb Combinations & Nominal Style", icon: "⚖️", desc: "Nomen-Verb-Verbindungen (zur Verfügung stellen, in Kauf nehmen), Nominalstil vs. Verbalstil in Sachtexten, zweiteilige Konnektoren (zwar...aber) und Präpositionalobjekte (davon ausgehen).", lessons: [92,93,94,95], level: "B2" },
+  { id: 21, title: "B2.2 Lese-Meisterschaft: Wissenschaft, Wirtschaft & Feuilleton", titleEn: "B2.2 Reading Mastery: Science, Economics & Culture", icon: "🎓", desc: "Anspruchsvolle B2-Lesetexte souverän verstehen: Zukunftstechnologien, Arbeitsmarkt, Feuilleton, Psychologie und literarische Essays.", lessons: [96,97,98,99], level: "B2" }
 ];
 
 const LESSONS = __LESSON_DATA_PLACEHOLDER__;
@@ -2161,11 +2421,37 @@ function toggleFreeMode() {
   showDashboard();
 }
 
+function getOrderedLessonIds() {
+  const ordered = [];
+  MODULES.forEach(m => {
+    m.lessons.forEach(lid => ordered.push(lid));
+  });
+  return ordered;
+}
+
+let toastTimeout = null;
+function showToast(msg) {
+  const el = document.getElementById('app-toast');
+  if (!el) return;
+  el.innerHTML = msg;
+  el.classList.add('show');
+  if (toastTimeout) clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => {
+    el.classList.remove('show');
+  }, 3400);
+}
+
+function showProfToast(msg) {
+  showToast(msg);
+}
+
 function changeLevel(level) {
   state.activeLevel = level;
   saveState();
-  document.querySelectorAll('.level-tab-btn').forEach(b => {
-    b.classList.toggle('active', b.innerText.includes(level));
+  const idMap = { 'A1': 'btn-level-a1', 'A2.1': 'btn-level-a21', 'A2.2': 'btn-level-a22', 'B1': 'btn-level-b1', 'B2': 'btn-level-b2' };
+  document.querySelectorAll('#level-tabs-container .level-tab-btn').forEach(b => {
+    if (b.id === idMap[level]) b.classList.add('active');
+    else b.classList.remove('active');
   });
   showDashboard();
 }
@@ -2179,10 +2465,14 @@ function switchNavMode(mode) {
 
 function isLessonUnlocked(id) {
   if (state.freeMode) return true;
-  if (id === 1 || id === 71) return true;
-  const prevLesson = LESSONS.find(l => l.id === id - 1);
-  if (!prevLesson) return true;
-  return isLessonCompleted(prevLesson.id);
+  const ordered = getOrderedLessonIds();
+  const idx = ordered.indexOf(id);
+  if (idx <= 0) return true;
+  // Also unlock the first lesson of each level so learners can jump to their level or test in
+  const mod = MODULES.find(m => m.lessons.includes(id));
+  if (mod && mod.lessons[0] === id && [0, 1, 6, 11, 18].includes(mod.id)) return true;
+  const prevId = ordered[idx - 1];
+  return isLessonCompleted(prevId);
 }
 
 function isLessonCompleted(id) {
@@ -2194,9 +2484,12 @@ function getLessonStars(id) {
 }
 
 function getLessonLevel(id) {
-  if (id >= 71 && id <= 75) return 'A1';
+  const mod = MODULES.find(m => m.lessons.includes(id));
+  if (mod) return mod.level;
+  if (id >= 71 && id <= 83) return 'A1';
   if (id <= 20) return 'A2.1';
   if (id <= 40) return 'A2.2';
+  if (id >= 84) return 'B2';
   return 'B1';
 }
 
@@ -2238,6 +2531,21 @@ function getSpanishTip(lesson) {
   }
   if (id === 62) {
     return "💡 <strong>Infinitivo con 'zu':</strong> Equivale a 'para + infinitivo' en español: <strong>um ... zu</strong> (<em>Ich lerne Deutsch, um einen Job zu finden</em>).";
+  }
+  if (id >= 76 && id <= 79) {
+    return "💡 <strong>Verbos separables y modales (A1):</strong> En alemán se forma un 'paréntesis' (<em>Satzklammer</em>): el verbo conjugado va en Posición 2 y el prefijo separable (<em>Ich stehe um 7 Uhr <strong>auf</strong></em>) o el infinitivo (<em>Ich muss heute <strong>arbeiten</strong></em>) viaja al final.";
+  }
+  if (id >= 80 && id <= 83) {
+    return "💡 <strong>El pasado hablado (Perfekt):</strong> Para hablar del pasado en Berlín, usa siempre <strong>haben/sein (Posición 2) + Partizip II (al final)</strong>: <em>Gestern <strong>habe</strong> ich gearbeitet und einen Kaffee <strong>getrunken</strong></em> (¡cuidado: nunca 'getrinkt'!).";
+  }
+  if (id >= 84 && id <= 87) {
+    return "💡 <strong>Secreto de lectura B2 (Atributos participiales):</strong> Cuando veas un artículo seguido de una preposición (<em>Die <strong>im letzten Jahr von der Regierung beschlossenen</strong> Gesetze</em>), salta mentalmente del artículo (<em>Die</em>) al sustantivo (<em>Gesetze</em>) y lee el resto como 'que fueron aprobadas...'.";
+  }
+  if (id >= 88 && id <= 91) {
+    return "💡 <strong>Prensa alemana (Konjunktiv I y modales subjetivos):</strong> En periódicos, <em>sei, habe, gebe</em> indican discurso indirecto neutral ('según dijo...'). Y <em>Er <strong>soll</strong> das gemacht haben</em> significa 'Se dice / corre el rumor de que lo hizo'.";
+  }
+  if (id >= 92 && id <= 99) {
+    return "💡 <strong>Estilo nominal y conectores dobles B2:</strong> En textos avanzados, transforma sustantivos en <em>-ung</em> en verbos mentales (<em>Zur Beschleunigung = para acelerar</em>) y usa <em>zwar ..., aber ...</em> ('si bien es cierto que..., sin embargo...') para seguir el argumento del autor.";
   }
   return "💡 <strong>Tipp für Guillermo:</strong> Achte auf das grammatikalische Geschlecht (der/die/das) und sprich die Beispielsätze laut mit, um Akzent und Sprachmelodie zu festigen!";
 }
@@ -2332,7 +2640,7 @@ function finishDailyTimer() {
   alertBox.innerHTML = `
     <div class="timer-finish-card">
       <div style="font-size:3rem;margin-bottom:8px">🎉</div>
-      <h2 style="color:#fff;font-size:1.5rem;font-weight:800;margin-bottom:6px">15 Minuten gemeistert!</h2>
+      <h2 style="color:var(--text-primary);font-size:1.5rem;font-weight:800;margin-bottom:6px">15 Minuten gemeistert!</h2>
       <div style="color:#34d399;font-size:1.05rem;font-weight:700;margin-bottom:12px">+50 Fokus-XP verdient ⚡</div>
       <p style="color:var(--text-secondary);font-size:0.92rem;line-height:1.5;margin-bottom:20px">
         Hervorragende Beständigkeit, Guillermo! Genau diese 15 Minuten täglicher Gewohnheit bringen dich fließend zur Goethe A2/B1 Prüfung.
@@ -2390,17 +2698,20 @@ function showDashboard() {
 
       <!-- Quick Level Switcher Tabs -->
       <div style="display:flex;gap:8px;margin-top:14px;width:100%;flex-wrap:wrap">
-        <button class="level-tab-btn ${activeLevel === 'A1' ? 'active' : ''}" style="padding:10px 14px;font-size:0.84rem" onclick="changeLevel('A1')">
-          🌱 Fundament • A1 von Null
+        <button class="level-tab-btn ${activeLevel === 'A1' ? 'active' : ''}" style="padding:10px 12px;font-size:0.82rem" onclick="changeLevel('A1')">
+          🌱 A1 • Von Null (13 Lektionen)
         </button>
-        <button class="level-tab-btn ${activeLevel === 'A2.1' ? 'active' : ''}" style="padding:10px 14px;font-size:0.84rem" onclick="changeLevel('A2.1')">
-          Stufe 1 • A2.1 Grundlagen
+        <button class="level-tab-btn ${activeLevel === 'A2.1' ? 'active' : ''}" style="padding:10px 12px;font-size:0.82rem" onclick="changeLevel('A2.1')">
+          🌿 A2.1 • Grundlagen (20 Lektionen)
         </button>
-        <button class="level-tab-btn ${activeLevel === 'A2.2' ? 'active' : ''}" style="padding:10px 14px;font-size:0.84rem" onclick="changeLevel('A2.2')">
-          Stufe 2 • A2.2 Alltag & Beruf
+        <button class="level-tab-btn ${activeLevel === 'A2.2' ? 'active' : ''}" style="padding:10px 12px;font-size:0.82rem" onclick="changeLevel('A2.2')">
+          🌳 A2.2 • Alltag & Beruf (20 Lektionen)
         </button>
-        <button class="level-tab-btn ${activeLevel === 'B1' ? 'active' : ''}" style="padding:10px 14px;font-size:0.84rem" onclick="changeLevel('B1')">
-          Stufe 3 • B1 Goethe-Meisterschaft
+        <button class="level-tab-btn ${activeLevel === 'B1' ? 'active' : ''}" style="padding:10px 12px;font-size:0.82rem" onclick="changeLevel('B1')">
+          🎯 B1 • Mittelstufe (24 Lektionen)
+        </button>
+        <button class="level-tab-btn ${activeLevel === 'B2' ? 'active' : ''}" style="padding:10px 12px;font-size:0.82rem" onclick="changeLevel('B2')">
+          🎓 B2 • Oberstufe & Lesen (16 Lektionen)
         </button>
       </div>
     </div>
@@ -2536,8 +2847,12 @@ function handleStoneClick(lessonId) {
 function openChapterMilestone(moduleId) {
   const mod = MODULES.find(m => m.id === moduleId);
   if (!mod) return;
-  const firstLessonId = mod.lessons[0];
-  startLessonFlow(firstLessonId);
+  const nextInMod = mod.lessons.find(id => !isLessonCompleted(id) && isLessonUnlocked(id)) || mod.lessons[mod.lessons.length - 1];
+  if (isLessonUnlocked(nextInMod)) {
+    startLessonFlow(nextInMod);
+  } else {
+    showToast('🔒 Schließe zuerst die Lektionen in diesem Kapitel ab, um den Meilenstein zu starten!');
+  }
 }
 
 /* Sidebar Chapter Quick Jump */
@@ -2574,6 +2889,83 @@ let runnerState = {
   viewMode: 'flow' // 'flow' | 'reference'
 };
 
+function buildReadingStepForLesson(lesson, vocabItems) {
+  if (lesson.readingText && lesson.readingText.text) {
+    return {
+      type: 'reading_comprehension',
+      title: lesson.readingText.title || `Lesetext: ${lesson.titleDe}`,
+      text: lesson.readingText.text,
+      glossary: lesson.readingText.glossary || vocabItems.slice(0, 4).map(v => ({ de: v.de, en: v.en })),
+      question: lesson.readingText.question || 'Welche Aussage passt zum Text?',
+      options: lesson.readingText.options || ['Der Text handelt von ' + lesson.titleDe, 'Es geht um ein anderes Thema'],
+      correctIndex: typeof lesson.readingText.answer === 'number' ? lesson.readingText.answer : 0,
+      answered: false,
+      chosenIdx: null
+    };
+  }
+
+  // Synthesize a coherent, level-appropriate reading passage from the lesson's authentic example sentences & idiom
+  const lvl = getLessonLevel(lesson.id);
+  const examples = vocabItems.map(v => v.ex).filter(Boolean);
+  const idiomSec = (lesson.lectureContent || []).find(s => s.type === 'idiom');
+  let idiomSentence = '';
+  if (idiomSec && idiomSec.content) {
+    const emMatch = idiomSec.content.match(/<em>([^<]+)<\/em>/i);
+    if (emMatch) idiomSentence = emMatch[1].trim();
+  }
+
+  let bodySentences = [];
+  if (lvl === 'A1') {
+    bodySentences.push(`In Berlin lernt Guillermo jeden Tag neue Wörter zum Thema „${lesson.titleDe}“.`);
+  } else if (lvl === 'A2.1' || lvl === 'A2.2') {
+    bodySentences.push(`Im Berliner Alltag und im Büro spielt das Thema „${lesson.titleDe}“ eine wichtige Rolle.`);
+  } else {
+    bodySentences.push(`In aktuellen Diskussionen rund um das Thema „${lesson.titleDe}“ zeigen sich interessante Zusammenhänge.`);
+  }
+
+  examples.slice(0, 5).forEach(ex => {
+    if (ex && !bodySentences.includes(ex)) bodySentences.push(ex);
+  });
+  if (idiomSentence) bodySentences.push(idiomSentence);
+
+  const fullText = bodySentences.join(' ');
+  const glossary = vocabItems.slice(0, 4).map(v => ({ de: v.de, en: v.en }));
+
+  // Pull a multiple_choice or true_false question from lesson.exercises or build a comprehension check
+  const mcEx = (lesson.exercises || []).find(e => e.type === 'multiple_choice');
+  const tfEx = (lesson.exercises || []).find(e => e.type === 'true_false');
+  let qText = `Worum geht es im Text und in dieser Lektion hauptsächlich?`;
+  let qOpts = [
+    `Um das Thema „${lesson.titleDe}“ (${lesson.title})`,
+    `Um eine Schiffsreise in der Antarktis`,
+    `Um mittelalterliche Architektur in Japan`,
+    `Um ein Fußballspiel ohne Zuschauer`
+  ];
+  let qAns = 0;
+
+  if (mcEx && mcEx.question && Array.isArray(mcEx.options)) {
+    qText = mcEx.question;
+    qOpts = mcEx.options;
+    qAns = mcEx.answer;
+  } else if (tfEx && tfEx.statement !== undefined) {
+    qText = `Richtig oder Falsch: „${tfEx.statement}“`;
+    qOpts = ['Richtig (Wahr)', 'Falsch'];
+    qAns = tfEx.answer === true ? 0 : 1;
+  }
+
+  return {
+    type: 'reading_comprehension',
+    title: `Lesetext (${lvl}): ${lesson.titleDe}`,
+    text: fullText,
+    glossary: glossary,
+    question: qText,
+    options: qOpts,
+    correctIndex: qAns,
+    answered: false,
+    chosenIdx: null
+  };
+}
+
 function startLessonFlow(lessonId) {
   const lesson = LESSONS.find(l => l.id === lessonId);
   if (!lesson) return;
@@ -2590,16 +2982,36 @@ function startLessonFlow(lessonId) {
 
   const steps = [];
 
-  // Step 1: Vocab Discovery (Target word 1)
-  const v1 = vocabItems[0] || { de: lesson.titleDe, en: lesson.title, ex: 'Ich lerne Deutsch in Berlin.', exEn: 'I learn German in Berlin.' };
+  // Step 1: Multi-Word Interactive Vocabulary Deck (up to 8 core words per lesson!)
+  const deckWords = vocabItems.length > 0
+    ? vocabItems.slice(0, 8).map(v => ({
+        word: v.de,
+        gender: guessGender(v.de),
+        meaning: v.en,
+        example: v.ex,
+        exampleEn: v.exEn || ''
+      }))
+    : [{
+        word: lesson.titleDe,
+        gender: guessGender(lesson.titleDe),
+        meaning: lesson.title,
+        example: 'Ich lerne jeden Tag fünfzehn Minuten Deutsch in Berlin.',
+        exampleEn: 'I learn German for fifteen minutes every day in Berlin.'
+      }];
+
+  const v1 = vocabItems[0] || { de: deckWords[0].word, en: deckWords[0].meaning, ex: deckWords[0].example };
+
   steps.push({
     type: 'vocab_intro',
-    title: 'Neues Wort entdecken',
-    word: v1.de,
-    gender: guessGender(v1.de),
-    meaning: v1.en,
-    example: v1.ex,
-    exampleEn: v1.exEn || 'Example in context',
+    title: 'Wortschatz-Deck entdecken',
+    deck: deckWords,
+    currentCardIdx: 0,
+    seenIndices: [0],
+    word: deckWords[0].word,
+    gender: deckWords[0].gender,
+    meaning: deckWords[0].meaning,
+    example: deckWords[0].example,
+    exampleEn: deckWords[0].exampleEn || '',
     spanishTip: getSpanishTip(lesson)
   });
 
@@ -2607,11 +3019,11 @@ function startLessonFlow(lessonId) {
   const recallOptions = buildRecallOptions(v1, vocabItems);
   steps.push({
     type: 'micro_drill',
-    instruction: 'Wähle die richtige Bedeutung:',
+    instruction: 'Wortschatz-Check: Wähle die richtige Bedeutung:',
     prompt: v1.de,
     options: recallOptions.options,
     correctIndex: recallOptions.correctIndex,
-    explanation: `${v1.de} bedeutet auf Englisch ${v1.en}.`,
+    explanation: `„${v1.de}“ bedeutet „${v1.en}“.`,
     answered: false,
     chosenIdx: null
   });
@@ -2635,14 +3047,17 @@ function startLessonFlow(lessonId) {
   if (grammarSection) {
     steps.push({
       type: 'grammar_snapshot',
-      title: 'Busuu Grammatik-Tipp',
+      title: 'Grammatik-Schlüssel',
       sectionTitle: grammarSection.sectionTitle,
       htmlContent: grammarSection.content,
       lessonId: lesson.id
     });
   }
 
-  // Step 5: Interactive Word Matching Pairs (Wortpaare verbinden)
+  // Step 5: Graded Reading Comprehension (Lesetext & Textverständnis)
+  steps.push(buildReadingStepForLesson(lesson, vocabItems));
+
+  // Step 6: Interactive Word Matching Pairs (Wortpaare verbinden)
   const matchingEx = exercises.find(e => e.type === 'matching');
   if (matchingEx && matchingEx.pairs && matchingEx.pairs.length > 0) {
     const rawPairs = matchingEx.pairs.slice(0, 4).map(p => ({
@@ -2662,7 +3077,7 @@ function startLessonFlow(lessonId) {
     });
   }
 
-  // Step 6: Native Dialogue in Action
+  // Step 7: Native Dialogue in Action
   if (dialogueLines.length > 0) {
     steps.push({
       type: 'dialogue',
@@ -2671,7 +3086,7 @@ function startLessonFlow(lessonId) {
     });
   }
 
-  // Step 5: Sentence Builder (Word Tiles)
+  // Step 8: Sentence Builder (Word Tiles)
   const reorderEx = exercises.find(e => e.type === 'reorder') || {
     answer: v1.ex || `${v1.de} ist wichtig für mich.`
   };
@@ -2685,16 +3100,16 @@ function startLessonFlow(lessonId) {
     dropTokens: []
   });
 
-  // Step 6: Active Production (Speaking / Writing with Herr Professor)
+  // Step 9: Active Production (Speaking / Writing with Herr Professor)
   steps.push({
     type: 'active_production',
     title: 'Jetzt bist du dran: Sprich oder schreibe!',
-    prompt: lesson.goetheWriting?.situation || `Schreibe oder sprich 1–2 Sätze über das Thema "${lesson.titleDe}".`,
-    points: lesson.goetheWriting?.points || ['Beschreibe kurz deine Situation.', 'Nutze weil oder deshalb.'],
-    modelAnswer: lesson.goetheWriting?.modelAnswer || 'Hallo! Ich bin in Berlin und lerne Deutsch.'
+    prompt: lesson.goetheWriting?.situation || `Schreibe oder sprich 1–2 Sätze zum Thema „${lesson.titleDe}“.`,
+    points: lesson.goetheWriting?.points || ['Nutze 1–2 neue Wörter aus dieser Lektion.', 'Achte auf Verbposition 2 im Hauptsatz (oder Verb am Ende bei weil/dass/indem).'],
+    modelAnswer: lesson.goetheWriting?.modelAnswer || (v1.ex || 'Ich lebe in Berlin und verbessere jeden Tag mein Deutsch.')
   });
 
-  // Step 7: Celebration Screen
+  // Step 10: Celebration Screen
   steps.push({
     type: 'celebration',
     title: 'Lektion abgeschlossen!',
@@ -2709,6 +3124,24 @@ function startLessonFlow(lessonId) {
     viewMode: 'flow'
   };
 
+  renderRunner();
+}
+
+function selectVocabDeckCard(cardIdx) {
+  const step = runnerState.steps[runnerState.currentStepIndex];
+  if (!step || step.type !== 'vocab_intro' || !step.deck) return;
+  if (cardIdx < 0 || cardIdx >= step.deck.length) return;
+
+  step.currentCardIdx = cardIdx;
+  if (!step.seenIndices.includes(cardIdx)) step.seenIndices.push(cardIdx);
+  const card = step.deck[cardIdx];
+  step.word = card.word;
+  step.gender = card.gender;
+  step.meaning = card.meaning;
+  step.example = card.example;
+  step.exampleEn = card.exampleEn || '';
+
+  soundEngine.click();
   renderRunner();
 }
 
@@ -2736,7 +3169,7 @@ function renderRunner() {
         </div>
 
         <button class="runner-mode-toggle" onclick="toggleRunnerViewMode()">
-          ${viewMode === 'flow' ? '📖 Alle Inhalte (Referenz)' : '⚡ Busuu Flow'}
+          ${viewMode === 'flow' ? '📖 Alle Inhalte (Referenz)' : '⚡ Interaktiver Flow'}
         </button>
       </div>
   `;
@@ -2756,7 +3189,7 @@ function renderRunner() {
 
   // Auto-play audio on Step 1 (Vocab) if sound enabled
   if (currentStep.type === 'vocab_intro' && state.soundEnabled) {
-    setTimeout(() => speakGerman(currentStep.word), 400);
+    setTimeout(() => speakGerman(currentStep.word), 250);
   }
 
   // Trigger celebration effects on final step
@@ -2772,9 +3205,28 @@ function toggleRunnerViewMode() {
 
 function renderRunnerStepContent(step, idx) {
   if (step.type === 'vocab_intro') {
+    const deck = step.deck || [];
+    const curIdx = step.currentCardIdx || 0;
+    const totalCards = deck.length;
+
     return `
       <div class="vocab-stage">
-        <div class="vocab-category-tag">💬 Neues Wort entdecken</div>
+        <div class="vocab-category-tag">
+          💬 Wortschatz-Deck • Wort ${curIdx + 1} von ${totalCards}
+        </div>
+
+        ${totalCards > 1 ? `
+          <div class="vocab-deck-bar">
+            ${deck.map((d, dIdx) => `
+              <button type="button"
+                      class="vocab-deck-pill ${dIdx === curIdx ? 'active' : ''} ${(step.seenIndices || []).includes(dIdx) ? 'seen' : ''}"
+                      onclick="selectVocabDeckCard(${dIdx})">
+                ${dIdx + 1}. ${escapeHtml(d.word.split(',')[0])}
+              </button>
+            `).join('')}
+          </div>
+        ` : ''}
+
         <div class="vocab-word-hero">${escapeHtml(step.word)}</div>
         <div class="vocab-gender-pill gender-${step.gender}">${step.gender.toUpperCase()}</div>
         
@@ -2784,23 +3236,42 @@ function renderRunnerStepContent(step, idx) {
 
         <div class="vocab-meaning">${escapeHtml(step.meaning)}</div>
 
-        <div class="spanish-helper-box">
-          <div class="spanish-helper-header">🇪🇸 Für Guillermo (Spanisch-Sprecher)</div>
-          <div class="spanish-helper-text">${step.spanishTip}</div>
-        </div>
-
         <div class="berlin-example-box">
-          <div class="berlin-example-label">📍 Im Berliner Alltag</div>
+          <div class="berlin-example-label">📍 Beispiel im Kontext</div>
           <div class="berlin-example-de">
             <span>„${escapeHtml(step.example)}“</span>
             <button class="audio-btn" onclick="speakCurrentStepExample()">🔊</button>
           </div>
-          <div class="berlin-example-en">${escapeHtml(step.exampleEn)}</div>
+          ${step.exampleEn ? `<div class="berlin-example-en">${escapeHtml(step.exampleEn)}</div>` : ''}
         </div>
 
-        <button class="btn-primary" style="width:100%;margin-top:auto" onclick="nextRunnerStep()">
-          Weiter →
-        </button>
+        <div class="spanish-helper-box">
+          <div class="spanish-helper-header">🇪🇸 Lern-Brücke für Guillermo</div>
+          <div class="spanish-helper-text">${step.spanishTip}</div>
+        </div>
+
+        <div class="vocab-deck-nav">
+          ${curIdx > 0 ? `
+            <button type="button" class="btn-secondary" onclick="selectVocabDeckCard(${curIdx - 1})">
+              ← Vorheriges Wort
+            </button>
+          ` : `<div></div>`}
+
+          ${curIdx < totalCards - 1 ? `
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <button type="button" class="btn-secondary" onclick="nextRunnerStep()">
+                Direkt zur Übung →
+              </button>
+              <button type="button" class="btn-primary" onclick="selectVocabDeckCard(${curIdx + 1})">
+                Nächstes Wort (${curIdx + 2}/${totalCards}) →
+              </button>
+            </div>
+          ` : `
+            <button type="button" class="btn-primary" style="flex:1;max-width:320px" onclick="nextRunnerStep()">
+              Alle Wörter gesehen • Weiter zur Übung →
+            </button>
+          `}
+        </div>
       </div>
     `;
   }
@@ -2828,6 +3299,57 @@ function renderRunnerStepContent(step, idx) {
     `;
   }
 
+  if (step.type === 'reading_comprehension') {
+    return `
+      <div class="reading-stage">
+        <div class="vocab-category-tag" style="background:var(--pastel-lavender-bg);color:var(--pastel-lavender-text);border-color:var(--pastel-lavender-border)">
+          📖 Lesetext & Textverständnis
+        </div>
+
+        <div class="reading-article-card">
+          <div class="reading-article-header">
+            <div class="reading-article-title">${escapeHtml(step.title)}</div>
+            <div style="display:flex;gap:8px">
+              <button type="button" class="audio-btn" onclick="speakReadingText(1.0)">🔊 Vorlesen</button>
+              <button type="button" class="audio-btn" onclick="speakReadingText(0.82)">🐢 Langsam (0.8x)</button>
+            </div>
+          </div>
+          <div class="reading-article-body">${escapeHtml(step.text)}</div>
+        </div>
+
+        ${step.glossary && step.glossary.length > 0 ? `
+          <div style="font-size:0.76rem;font-weight:800;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px">
+            🔑 Schlüsselwörter im Text (Klicke zum Anhören):
+          </div>
+          <div class="reading-glossary-grid">
+            ${step.glossary.map((g, gIdx) => `
+              <div class="reading-glossary-item" style="cursor:pointer" onclick="speakGlossaryItem(${gIdx})">
+                <span class="reading-glossary-de">🔊 ${escapeHtml(g.de)}</span>
+                <span class="reading-glossary-en">${escapeHtml(g.en)}</span>
+              </div>
+            `).join('')}
+          </div>
+        ` : ''}
+
+        <div class="drill-instruction" style="margin-top:4px">🧠 Verständnisfrage zum Text:</div>
+        <div style="font-size:1.08rem;font-weight:800;color:var(--text-primary);margin-bottom:14px">
+          ${escapeHtml(step.question)}
+        </div>
+
+        <div class="drill-options-grid" id="reading-options">
+          ${step.options.map((opt, oIdx) => `
+            <button class="drill-option-btn" id="reading-opt-${oIdx}" onclick="handleReadingAnswer(${oIdx})">
+              <span style="color:var(--text-muted);font-size:0.85rem">${String.fromCharCode(65 + oIdx)}.</span>
+              <span>${escapeHtml(opt)}</span>
+            </button>
+          `).join('')}
+        </div>
+
+        <div id="reading-feedback-container"></div>
+      </div>
+    `;
+  }
+
   if (step.type === 'fill_blank') {
     const parts = step.sentence.split('___');
     const displaySentence = parts.length > 1
@@ -2836,7 +3358,7 @@ function renderRunnerStepContent(step, idx) {
 
     return `
       <div class="fill-blank-stage">
-        <div class="vocab-category-tag" style="background:rgba(59,130,246,0.15);color:#60a5fa">
+        <div class="vocab-category-tag">
           ✏️ ${escapeHtml(step.title)}
         </div>
         <div class="drill-instruction">${escapeHtml(step.instruction)}</div>
@@ -2867,7 +3389,7 @@ function renderRunnerStepContent(step, idx) {
     const allMatched = step.matchedIds.length === step.pairs.length;
     return `
       <div class="matching-stage">
-        <div class="vocab-category-tag" style="background:rgba(16,185,129,0.15);color:#34d399">
+        <div class="vocab-category-tag" style="background:var(--pastel-mint-bg);color:var(--pastel-mint-text);border-color:var(--pastel-mint-border)">
           🧩 ${escapeHtml(step.title)}
         </div>
         <div class="drill-instruction">${escapeHtml(step.instruction)}</div>
@@ -2920,26 +3442,26 @@ function renderRunnerStepContent(step, idx) {
   if (step.type === 'grammar_snapshot') {
     return `
       <div class="grammar-snapshot-stage">
-        <div class="vocab-category-tag" style="background:rgba(245,158,11,0.15);color:#fbbf24">
+        <div class="vocab-category-tag" style="background:var(--pastel-amber-bg);color:var(--pastel-amber-text);border-color:var(--pastel-amber-border)">
           📖 ${escapeHtml(step.title)}
         </div>
         
         <div class="grammar-hero-card">
-          <h3 style="color:#fbbf24;margin-bottom:12px">${escapeHtml(step.sectionTitle)}</h3>
+          <h3 style="color:var(--pastel-amber-text);margin-bottom:12px">${escapeHtml(step.sectionTitle)}</h3>
           <div class="grammar-rule-summary">
             ${step.htmlContent}
           </div>
         </div>
 
         <div class="spanish-helper-box">
-          <div class="spanish-helper-header">💡 Satzbau-Geheimnis</div>
+          <div class="spanish-helper-header">💡 Satzbau- & Lese-Geheimnis</div>
           <div class="spanish-helper-text">
-            Im Deutschen ist die Verbstellung entscheidend! Im Hauptsatz steht das konjugierte Verb an <strong>Position 2</strong>. In Nebensätzen mit <em>weil/obwohl/dass</em> wandert das Verb ans <strong>Satzende</strong>.
+            Im Deutschen bildet der Satz eine <strong>Klammer</strong>: Im Hauptsatz steht das konjugierte Verb an <strong>Position 2</strong> und das zweite Verbteil (Infinitiv, Partizip, Präfix) ganz am <strong>Satzende</strong>. Beim Lesen komplexer Sätze lohnt sich immer ein kurzer Blick ans Satzende!
           </div>
         </div>
 
         <button class="btn-primary" style="width:100%;margin-top:auto" onclick="nextRunnerStep()">
-          Verstanden! Weiter →
+          Verstanden! Weiter zum Lesetext →
         </button>
       </div>
     `;
@@ -2948,7 +3470,7 @@ function renderRunnerStepContent(step, idx) {
   if (step.type === 'dialogue') {
     return `
       <div class="dialogue-stage">
-        <div class="vocab-category-tag" style="background:rgba(16,185,129,0.15);color:#34d399">
+        <div class="vocab-category-tag" style="background:var(--pastel-mint-bg);color:var(--pastel-mint-text);border-color:var(--pastel-mint-border)">
           🎧 ${escapeHtml(step.title)}
         </div>
 
@@ -2987,7 +3509,7 @@ function renderRunnerStepContent(step, idx) {
   if (step.type === 'sentence_builder') {
     return `
       <div class="tiles-stage">
-        <div class="vocab-category-tag" style="background:rgba(139,92,246,0.15);color:#c4b5fd">
+        <div class="vocab-category-tag" style="background:var(--pastel-lavender-bg);color:var(--pastel-lavender-text);border-color:var(--pastel-lavender-border)">
           ⚡ ${escapeHtml(step.title)}
         </div>
 
@@ -3019,7 +3541,7 @@ function renderRunnerStepContent(step, idx) {
   if (step.type === 'active_production') {
     return `
       <div class="production-stage">
-        <div class="vocab-category-tag" style="background:rgba(245,158,11,0.15);color:#fbbf24">
+        <div class="vocab-category-tag" style="background:var(--pastel-amber-bg);color:var(--pastel-amber-text);border-color:var(--pastel-amber-border)">
           ✍️ Aktive Anwendung (Fluency)
         </div>
 
@@ -3045,7 +3567,7 @@ function renderRunnerStepContent(step, idx) {
 
         <div style="display:flex;gap:10px;margin-bottom:14px">
           <button class="btn-secondary" style="flex:1" onclick="gradeRunnerWithProfessor()">
-            👨‍🏫 Von Herrn Professor prüfen lassen
+            👨‍🏫 Satzbau prüfen lassen
           </button>
           <button class="btn-secondary" style="font-size:0.8rem" onclick="toggleRunnerModelAnswer()">
             💡 Musterlösung
@@ -3094,6 +3616,71 @@ function renderRunnerStepContent(step, idx) {
   return `<div>Schritt wird geladen...</div>`;
 }
 
+function speakReadingText(rate = 1.0) {
+  const step = runnerState.steps[runnerState.currentStepIndex];
+  if (step && step.text) speakGerman(step.text, rate);
+}
+
+function speakGlossaryItem(gIdx) {
+  const step = runnerState.steps[runnerState.currentStepIndex];
+  if (step && step.glossary && step.glossary[gIdx]) {
+    speakGerman(step.glossary[gIdx].de.split('(')[0].split('/')[0]);
+  }
+}
+
+function handleReadingAnswer(chosenIdx) {
+  const step = runnerState.steps[runnerState.currentStepIndex];
+  if (!step || step.type !== 'reading_comprehension') return;
+  if (step.answered) return;
+
+  step.answered = true;
+  step.chosenIdx = chosenIdx;
+
+  const isCorrect = chosenIdx === step.correctIndex;
+  const container = document.getElementById('reading-feedback-container');
+  const btn = document.getElementById(`reading-opt-${chosenIdx}`);
+
+  document.querySelectorAll('#reading-options .drill-option-btn').forEach(b => b.style.pointerEvents = 'none');
+
+  if (isCorrect) {
+    soundEngine.correct();
+    if (btn) btn.classList.add('selected-correct');
+    addXp(10);
+    if (container) {
+      container.innerHTML = `
+        <div class="runner-feedback-sheet correct">
+          <div>
+            <div class="feedback-text-title">✓ Text richtig verstanden!</div>
+            <div class="feedback-text-desc">Starkes Leseverständnis! +10 XP</div>
+          </div>
+          <button class="btn-primary" id="btn-feedback-next" style="padding:10px 22px" onclick="nextRunnerStep()">
+            Weiter →
+          </button>
+        </div>
+      `;
+    }
+  } else {
+    soundEngine.wrong();
+    if (btn) btn.classList.add('selected-wrong');
+    const correctBtn = document.getElementById(`reading-opt-${step.correctIndex}`);
+    if (correctBtn) correctBtn.classList.add('selected-correct');
+    if (container) {
+      container.innerHTML = `
+        <div class="runner-feedback-sheet wrong">
+          <div>
+            <div class="feedback-text-title">Fast richtig!</div>
+            <div class="feedback-text-desc">Richtige Antwort: <strong>${escapeHtml(step.options[step.correctIndex])}</strong></div>
+          </div>
+          <button class="btn-secondary" id="btn-feedback-next" style="padding:10px 22px" onclick="nextRunnerStep()">
+            Weiter →
+          </button>
+        </div>
+      `;
+    }
+  }
+  setTimeout(() => document.getElementById('btn-feedback-next')?.focus(), 100);
+}
+
 function nextRunnerStep() {
   soundEngine.click();
   if (runnerState.currentStepIndex < runnerState.steps.length - 1) {
@@ -3101,7 +3688,6 @@ function nextRunnerStep() {
     renderRunner();
   }
 }
-
 
 function insertFillBlankUmlaut(char) {
   const inp = document.getElementById('fill-blank-input');
@@ -3235,13 +3821,11 @@ function handleMatchCardClick(side, id) {
 
   updateMatchingUI();
 
-  // If both left and right are selected, evaluate match
   if (step.selectedLeft !== null && step.selectedRight !== null) {
     const leftId = step.selectedLeft;
     const rightId = step.selectedRight;
 
     if (leftId === rightId) {
-      // Match!
       soundEngine.correct();
       addXp(5);
       step.matchedIds.push(leftId);
@@ -3269,7 +3853,6 @@ function handleMatchCardClick(side, id) {
         }
       }
     } else {
-      // Mismatch
       soundEngine.wrong();
       const elLeft = document.getElementById(`match-left-${leftId}`);
       const elRight = document.getElementById(`match-right-${rightId}`);
@@ -3285,8 +3868,6 @@ function handleMatchCardClick(side, id) {
   }
 }
 
-
-
 function handleDrillAnswer(chosenIdx) {
   const step = runnerState.steps[runnerState.currentStepIndex];
   if (!step || step.type !== 'micro_drill') return;
@@ -3299,8 +3880,7 @@ function handleDrillAnswer(chosenIdx) {
   const container = document.getElementById('drill-feedback-container');
   const btn = document.getElementById(`drill-opt-${chosenIdx}`);
 
-  // Disable all options
-  document.querySelectorAll('.drill-option-btn').forEach(b => b.style.pointerEvents = 'none');
+  document.querySelectorAll('#drill-options .drill-option-btn').forEach(b => b.style.pointerEvents = 'none');
 
   if (isCorrect) {
     soundEngine.correct();
@@ -3447,7 +4027,7 @@ function toggleRunnerMic() {
   const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
 
   if (!SpeechRec) {
-    alert('Spracherkennung wird von diesem Browser nicht nativ unterstützt. Bitte verwende Chrome oder Edge!');
+    showToast('🎙️ Spracherkennung wird in Chrome und Edge unterstützt.');
     return;
   }
 
@@ -3497,36 +4077,39 @@ function gradeRunnerWithProfessor() {
   if (!box) return;
 
   if (!text) {
-    alert('Bitte schreibe zuerst einen Satz auf Deutsch oder nutze das Mikrofon!');
+    showToast('✍️ Bitte schreibe zuerst einen Satz auf Deutsch oder nutze das Mikrofon!');
     return;
   }
 
   box.style.display = 'block';
-  box.innerHTML = `<div style="color:#fbbf24;padding:12px;text-align:center">👨‍🏫 Herr Professor analysiert deinen Satzbau...</div>`;
+  box.innerHTML = `<div style="color:var(--pastel-amber-text);padding:12px;text-align:center;font-weight:700">👨‍🏫 Dein Satzbau wird analysiert...</div>`;
 
   setTimeout(() => {
     let corrections = [];
     if (/weil\s+([a-zäöü]+)\s+(bin|habe|ist|kann|muss|wohne|arbeite)/i.test(text)) {
-      corrections.push(`⚠️ <strong>Verbstellung bei „weil“:</strong> Das Verb muss ans Satzende: <em>... weil ich in Berlin <strong>arbeite</strong></em>.`);
+      corrections.push(`⚠️ <strong>Verbstellung bei „weil“:</strong> Das konjugierte Verb wandert ans Satzende: <em>... weil ich in Berlin <strong>arbeite</strong></em>.`);
     }
     if (/obwohl\s+([a-zäöü]+)\s+(bin|habe|ist|kann|muss)/i.test(text)) {
       corrections.push(`⚠️ <strong>Verbstellung bei „obwohl“:</strong> Auch hier gehört das Verb ans Satzende!`);
     }
+    if (/getrinkt/i.test(text)) {
+      corrections.push(`⚠️ <strong>Partizip II von trinken:</strong> Das Partizip heißt <strong>getrunken</strong> (nicht „getrinkt“).`);
+    }
+    if (/^(gestern|heute|morgen)\s+ich\s+/i.test(text)) {
+      corrections.push(`⚠️ <strong>Verbposition 2 (Inversion):</strong> Nach einer Zeitangabe am Anfang folgt sofort das Verb: <em>Gestern <strong>habe</strong> ich... / Morgen <strong>arbeite</strong> ich...</em>`);
+    }
 
     let html = `
-      <div class="berlin-example-box" style="border-color:#fbbf24">
-        <div style="font-weight:700;color:#fbbf24;margin-bottom:6px">👨‍🏫 Urteil von Herrn Professor:</div>
-        <div style="font-size:0.9rem;line-height:1.45;color:var(--text-primary)">
-          ${corrections.length > 0 ? corrections.join('<br>') : '✅ <strong>Sehr gut gemacht!</strong> Der Satzbau und die Verbstellung stimmen mit den A2/B1-Regeln überein.'}
-        </div>
-        <div style="font-size:0.78rem;color:var(--text-secondary);margin-top:8px">
-          💡 <em>Tipp:</em> Du kannst diesen Satz auch direkt in den Professor-Chat kopieren für ausführliche Konversation!
+      <div class="spanish-helper-box" style="margin-bottom:0">
+        <div class="spanish-helper-header">👨‍🏫 Satzbau-Feedback:</div>
+        <div class="spanish-helper-text" style="color:var(--text-primary)">
+          ${corrections.length > 0 ? corrections.join('<br>') : '✅ <strong>Sehr gut gemacht!</strong> Dein Satzbau und die Verbstellung sehen sauber aus (+10 XP).'}
         </div>
       </div>
     `;
     box.innerHTML = html;
     addXp(10);
-  }, 350);
+  }, 300);
 }
 
 function toggleRunnerModelAnswer() {
@@ -3535,9 +4118,9 @@ function toggleRunnerModelAnswer() {
   if (!box || !step) return;
   box.style.display = 'block';
   box.innerHTML = `
-    <div class="berlin-example-box">
-      <div style="font-weight:700;color:#34d399;margin-bottom:6px">💡 Musterlösung:</div>
-      <div style="font-size:0.95rem;color:#fff;font-style:italic">„${escapeHtml(step.modelAnswer)}“</div>
+    <div class="berlin-example-box" style="margin-bottom:0">
+      <div class="berlin-example-label">💡 Musterlösung:</div>
+      <div style="font-size:1rem;color:var(--text-primary);font-weight:700;font-style:italic">„${escapeHtml(step.modelAnswer)}“</div>
       <button class="audio-btn" style="margin-top:8px" onclick="speakRunnerModelAnswer()">🔊 Vorlesen lassen</button>
     </div>
   `;
@@ -3569,10 +4152,17 @@ function onLessonCompleted(lessonId) {
 }
 
 function finishLessonAndGoNext() {
-  const nextId = runnerState.lesson.id + 1;
-  const nextLesson = LESSONS.find(l => l.id === nextId);
+  const ordered = getOrderedLessonIds();
+  const curIdx = ordered.indexOf(runnerState.lesson.id);
+  const nextId = curIdx !== -1 && curIdx + 1 < ordered.length ? ordered[curIdx + 1] : null;
+  const nextLesson = nextId ? LESSONS.find(l => l.id === nextId) : null;
 
   if (nextLesson && isLessonUnlocked(nextId)) {
+    const nextLevel = getLessonLevel(nextId);
+    if (nextLevel !== state.activeLevel) {
+      state.activeLevel = nextLevel;
+      saveState();
+    }
     startLessonFlow(nextId);
   } else {
     showDashboard();
@@ -3588,7 +4178,7 @@ function launchConfetti() {
   canvas.height = canvas.parentElement.clientHeight;
 
   const pieces = [];
-  const colors = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#fbbf24'];
+  const colors = ['#38bdf8', '#34d399', '#fbbf24', '#fb7185', '#c084fc', '#60a5fa'];
 
   for (let i = 0; i < 70; i++) {
     pieces.push({
@@ -3603,7 +4193,6 @@ function launchConfetti() {
     });
   }
 
-  let animationFrame;
   let elapsed = 0;
 
   function update() {
@@ -3623,7 +4212,7 @@ function launchConfetti() {
 
     elapsed++;
     if (elapsed < 140) {
-      animationFrame = requestAnimationFrame(update);
+      requestAnimationFrame(update);
     } else {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
@@ -3634,17 +4223,15 @@ function launchConfetti() {
 
 /* Global Keyboard Interaction */
 document.addEventListener('keydown', (e) => {
-  // Ignore typing inside inputs/textareas
   if (e.target && (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT')) return;
 
   if (runnerState.lesson && runnerState.viewMode === 'flow') {
     const step = runnerState.steps[runnerState.currentStepIndex];
     if (!step) return;
 
-    // Enter key: next or check
     if (e.key === 'Enter') {
       e.preventDefault();
-      if (step.type === 'micro_drill') {
+      if (step.type === 'micro_drill' || step.type === 'reading_comprehension') {
         if (step.answered) nextRunnerStep();
       } else if (step.type === 'sentence_builder') {
         const btn = document.getElementById('btn-check-tiles');
@@ -3658,23 +4245,23 @@ document.addEventListener('keydown', (e) => {
       return;
     }
 
-    // Space key: replay audio on vocab or drill prompt
     if (e.key === ' ') {
       e.preventDefault();
       if (step.type === 'vocab_intro') speakCurrentStepWord();
       else if (step.type === 'micro_drill') speakCurrentStepPrompt();
+      else if (step.type === 'reading_comprehension') speakReadingText(1.0);
       return;
     }
 
-    // Number keys 1-4 or A-D for micro-drill options
-    if (step.type === 'micro_drill' && !step.answered) {
+    if ((step.type === 'micro_drill' || step.type === 'reading_comprehension') && !step.answered) {
+      const handler = step.type === 'micro_drill' ? handleDrillAnswer : handleReadingAnswer;
       if (['1', '2', '3', '4'].includes(e.key)) {
         e.preventDefault();
-        handleDrillAnswer(parseInt(e.key) - 1);
+        handler(parseInt(e.key) - 1);
       } else if (['a', 'b', 'c', 'd'].includes(e.key.toLowerCase())) {
         e.preventDefault();
         const map = { a: 0, b: 1, c: 2, d: 3 };
-        handleDrillAnswer(map[e.key.toLowerCase()]);
+        handler(map[e.key.toLowerCase()]);
       }
     }
   }
@@ -3711,7 +4298,7 @@ function buildRecallOptions(correctItem, allItems) {
     .filter(it => it.en !== correctItem.en)
     .map(it => it.en);
   
-  const fallbacks = ['to arrive', 'friendly', 'happy', 'busy', 'because of', 'together'];
+  const fallbacks = ['to arrive on time', 'friendly and helpful', 'in the afternoon', 'because of the weather', 'to make a decision', 'together with friends'];
   while (distractors.length < 3) {
     distractors.push(fallbacks.pop());
   }
@@ -3726,20 +4313,20 @@ function buildRecallOptions(correctItem, allItems) {
 /* Reference Mode Renderer (Full Lecture Tables & Exercises) */
 function renderReferenceView(lesson) {
   return `
-    <div style="background:var(--bg-surface);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:32px;box-shadow:var(--shadow-lg)">
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+    <div style="background:var(--bg-surface);border:2px solid var(--border-subtle);border-radius:var(--radius-lg);padding:32px;box-shadow:var(--shadow-lg)">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:12px">
         <div>
-          <h2 style="color:#fff">${lesson.icon} Lektion ${lesson.id}: ${escapeHtml(lesson.titleDe)}</h2>
+          <h2 style="color:var(--text-primary);font-weight:800">${lesson.icon} Lektion ${lesson.id}: ${escapeHtml(lesson.titleDe)}</h2>
           <div style="color:var(--text-secondary);font-size:0.9rem">${escapeHtml(lesson.title)}</div>
         </div>
-        <button class="btn-primary" onclick="toggleRunnerViewMode()">⚡ Zurück zum Busuu Flow</button>
+        <button class="btn-primary" onclick="toggleRunnerViewMode()">⚡ Zurück zum Interaktiven Flow</button>
       </div>
 
       <div class="reference-content">
         ${(lesson.lectureContent || []).map(sec => `
           <div style="margin-bottom:28px">
-            <h3 style="color:#60a5fa;margin-bottom:12px;border-bottom:1px solid var(--border-subtle);padding-bottom:6px">${escapeHtml(sec.sectionTitle)}</h3>
-            <div>${sec.content}</div>
+            <h3 style="color:var(--pastel-sky-text);margin-bottom:12px;border-bottom:2px solid var(--border-subtle);padding-bottom:6px;font-weight:800">${escapeHtml(sec.sectionTitle)}</h3>
+            <div style="line-height:1.65;color:var(--text-primary)">${sec.content}</div>
           </div>
         `).join('')}
       </div>

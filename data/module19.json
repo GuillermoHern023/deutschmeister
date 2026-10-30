@@ -1,0 +1,542 @@
+[
+  {
+    "id": 88,
+    "title": "Indirect Speech (Konjunktiv I) in News & Reports",
+    "titleDe": "Indirekte Rede (Konjunktiv I) in Medien & Berichten",
+    "type": "B2 Grammar & Reading",
+    "icon": "📰",
+    "level": "B2",
+    "readingText": {
+      "title": "Pressekonferenz zur Wirtschaftslage",
+      "text": "Auf der gestrigen Pressekonferenz in Berlin erklärte die Wirtschaftsministerin, die Inflation gehe schneller zurück als ursprünglich erwartet. Sie betonte, die deutsche Wirtschaft habe sich trotz globaler Krisen als widerstandsfähig erwiesen. Kritiker aus der Opposition entgegneten jedoch, es gebe weiterhin zu viel Bürokratie für mittelständische Betriebe. Der Verband der Start-ups forderte, die Regierung müsse Genehmigungsverfahren deutlich beschleunigen.",
+      "glossary": [
+        {
+          "de": "gehe / habe / gebe / müsse (Konjunktiv I)",
+          "en": "neutral reported speech in news (says that it goes / has / is / must)"
+        },
+        {
+          "de": "sich erweisen als",
+          "en": "to prove to be"
+        },
+        {
+          "de": "widerstandsfähig",
+          "en": "resilient"
+        },
+        {
+          "de": "entgegnen / betonen",
+          "en": "to reply, counter / to emphasize"
+        }
+      ],
+      "question": "Warum stehen die Verben „gehe“, „habe“, „gebe“ und „müsse“ in diesem Zeitungsartikel im Konjunktiv I?",
+      "options": [
+        "Weil der Journalist neutral wiedergibt, was andere Personen gesagt haben (Indirekte Rede).",
+        "Weil es sich um Rechtschreibfehler handelt.",
+        "Weil die Ereignisse vor hundert Jahren stattfanden.",
+        "Weil es Befehle an den Leser sind."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Media & Reporting Verbs",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>er sei / sie habe / es gebe</strong></td><td>he is / she has / there is (Konjunktiv I)</td><td>Der Sprecher sagte, er sei zuversichtlich.</td></tr><tr><td><strong>er könne / er müsse / er wolle</strong></td><td>he can / he must / he wants (Konjunktiv I)</td><td>Sie erklärte, man müsse sofort handeln.</td></tr><tr><td><strong>betonen / hervor·heben</strong></td><td>to emphasize / highlight</td><td>Der Vorstand betonte, das Quartal sei erfolgreich gewesen.</td></tr><tr><td><strong>behaupten</strong></td><td>to claim / assert</td><td>Er behauptet, er habe nichts davon gewusst.</td></tr><tr><td><strong>berichten / mitteilen</strong></td><td>to report / announce</td><td>Die Zeitung berichtet, die Mieten seien gestiegen.</td></tr><tr><td><strong>laut (+ Dat.) / zufolge (nachgestellt + Dat.)</strong></td><td>according to</td><td>Laut dem Bericht / Dem Bericht zufolge wächst der Markt.</td></tr><tr><td><strong>widerstandsfähig</strong></td><td>resilient / robust</td><td>Das Geschäftsmodell erwies sich als widerstandsfähig.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Recognizing Konjunktiv I in German Media",
+        "type": "grammar",
+        "content": "<p>When reading German news (<em>Tagesschau, Spiegel, FAZ</em>), you will constantly see verb forms like <strong>sei, habe, werde, gebe, könne, müsse</strong>. This is <strong>Konjunktiv I</strong> — used to report someone else's words neutrally without vouching for their truth:</p><ul><li><strong>Formula (3rd Person Singular er/sie/es):</strong> Verb stem + <strong>-e</strong> (no stem vowel change!):<ul><li><em>sein &rarr; er/sie <strong>sei</strong></em> (plural: <em>sie <strong>seien</strong></em>)</li><li><em>haben &rarr; er/sie <strong>habe</strong></em></li><li><em>geben &rarr; es <strong>gebe</strong></em> (instead of <em>es gibt</em>)</li><li><em>können / müssen &rarr; er <strong>könne</strong> / er <strong>müsse</strong></em></li></ul></li><li><strong>Past Tense in Konjunktiv I:</strong> Always formed with <strong>habe / sei + Partizip II</strong>:<br><em>Er sagte, er <strong>habe</strong> den Vertrag bereits <strong>unterschrieben</strong>.</em></li><li><strong>Replacement Rule:</strong> When the 3rd person plural (<em>sie haben / sie machen</em>) looks identical to the normal present tense, German switches to <strong>Konjunktiv II (hätten / würden)</strong> to keep it clear!</li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'Dem Bericht zufolge'",
+        "type": "idiom",
+        "content": "<p><strong>Laut dem Bericht vs. Dem Bericht zufolge</strong></p><p>Bedeutung: Both mean 'According to the report', but notice that <strong>zufolge</strong> comes <em>after</em> the Dative noun: <em>„<strong>Experten zufolge</strong> wird der Sommer heiß.“</em></p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Guillermo",
+        "de": "Was hat der Geschäftsführer gestern in der Versammlung gesagt?",
+        "en": "What did the CEO say in the meeting yesterday?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Er sagte, das Unternehmen sei auf einem sehr guten Weg und plane neue Standorte.",
+        "en": "He said the company was on a very good path and was planning new locations."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Hat er auch etwas über das Budget für unser Team erwähnt?",
+        "en": "Did he also mention anything about the budget for our team?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Ja, er betonte, es gebe ab nächstem Quartal mehr Mittel für neue Entwickler.",
+        "en": "Yes, he emphasized that there would be more funds for new developers starting next quarter."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the Konjunktiv I form of 'ist' in 'Die Ministerin sagte, die Lage ___ stabil'?",
+        "options": [
+          "wäre",
+          "sei",
+          "ist",
+          "war"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Der Zeuge behauptete vor Gericht, er ___ (haben, Konjunktiv I) den Vorfall nicht gesehen.",
+        "answer": "habe",
+        "hint": "3rd person singular Konjunktiv I of haben"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "er ist -> Indirekte Rede",
+            "en": "er sei"
+          },
+          {
+            "de": "es gibt -> Indirekte Rede",
+            "en": "es gebe"
+          },
+          {
+            "de": "er hat -> Indirekte Rede",
+            "en": "er habe"
+          },
+          {
+            "de": "Experten zufolge",
+            "en": "according to experts"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Er",
+          "sagte",
+          "er",
+          "sei",
+          "heute",
+          "im",
+          "Büro"
+        ],
+        "answer": "Er sagte er sei heute im Büro"
+      },
+      {
+        "type": "translation",
+        "source": "He claimed he had not known anything about it.",
+        "target": "Er behauptete, er habe nichts davon gewusst."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Subjective Modal Verbs: Rumors, Claims & Probability",
+    "titleDe": "Subjektive Modalverben: sollen, wollen, dürften & müssen",
+    "type": "B2 Grammar & Reading",
+    "icon": "🕵️",
+    "level": "B2",
+    "readingText": {
+      "title": "Gerüchte um eine spektakuläre Firmenübernahme",
+      "text": "In der Berliner Finanzwelt sorgt ein mögliches Geschäft für Aufsehen: Ein internationaler Technologiekonzern soll ein bekanntes Berliner KI-Start-up für mehrere hundert Millionen Euro gekauft haben. Der Gründer des Start-ups will von den Medienberichten allerdings nichts gewusst haben und lehnte einen Kommentar ab. Branchenkenner schätzen, dass die offiziellen Verhandlungen bereits seit Monaten laufen dürften. Bis Ende der Woche müsste eine offizielle Pressemitteilung vorliegen.",
+      "glossary": [
+        {
+          "de": "soll ... gekauft haben",
+          "en": "is said to / reportedly bought (external rumor)"
+        },
+        {
+          "de": "will ... gewusst haben",
+          "en": "claims to have known (doubtful self-claim)"
+        },
+        {
+          "de": "dürften ... laufen",
+          "en": "are probably running (~75% probability)"
+        },
+        {
+          "de": "für Aufsehen sorgen",
+          "en": "to cause a stir / sensation"
+        }
+      ],
+      "question": "Was bedeutet der Satz „Ein Konzern soll das Start-up gekauft haben“?",
+      "options": [
+        "Der Konzern hat die Pflicht, das Start-up zu kaufen.",
+        "Man hört das Gerücht / Medien berichten, dass der Konzern das Start-up gekauft hat.",
+        "Der Konzern möchte das Start-up nicht kaufen.",
+        "Der Kauf fand definitiv nicht statt."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Nuance, Rumor & Estimation",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>soll ... gemacht haben</strong></td><td>is said to / reportedly did (rumor about someone)</td><td>Der Film soll ausgezeichnet sein!</td></tr><tr><td><strong>will ... gemacht haben</strong></td><td>claims to have done (skepticism about self-claim)</td><td>Er will zur Tatzeit zu Hause gewesen sein.</td></tr><tr><td><strong>dürfte (+ Infinitiv)</strong></td><td>is probably / likely (~75% certainty)</td><td>Das Projekt dürfte rund 50.000 Euro kosten.</td></tr><tr><td><strong>muss (+ Partizip II + haben/sein)</strong></td><td>must have (~95% logical deduction)</td><td>Er muss den Zug verpasst haben.</td></tr><tr><td><strong>kann (+ Infinitiv)</strong></td><td>may / could (~50% possibility)</td><td>Die Verspätung kann am Wetter liegen.</td></tr><tr><td><strong>das Gerücht, -e</strong></td><td>rumor</td><td>Es gibt Gerüchte über eine Fusion.</td></tr><tr><td><strong>für Aufsehen sorgen</strong></td><td>to cause a stir / attract attention</td><td>Die Nachricht sorgte in Berlin für großes Aufsehen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Subjective Meaning of Modal Verbs (B2 Essential!)",
+        "type": "grammar",
+        "content": "<p>At B2 level, modal verbs don't just mean 'must' or 'want'—they express <strong>how certain the speaker is</strong> or <strong>where the information came from</strong>:</p><ul><li><strong>1. sollen (Other people say so / Rumor / Reputation):</strong><br><em>Das neue Restaurant in Mitte <strong>soll</strong> fantastisch <strong>sein</strong>.</em> (= People say it's fantastic.)<br><em>In the past:</em> <em>Er <strong>soll</strong> früher beim Geheimdienst <strong>gearbeitet haben</strong>.</em> (= He is said to have worked...)</li><li><strong>2. wollen (The person claims it about themselves — speaker is skeptical!):</strong><br><em>Der Verdächtige <strong>will</strong> nichts <strong>gesehen haben</strong>.</em> (= He claims he didn't see anything, though we doubt it.)</li><li><strong>3. dürfte (Polite, educated estimation = 'probably'):</strong><br><em>Das <strong>dürfte</strong> kein großes Problem <strong>sein</strong>.</em> (= That probably won't be a big problem.)</li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'soll ... gewesen sein' vs. 'wollte'",
+        "type": "idiom",
+        "content": "<p><strong>Spot the Double Infinitive at the End!</strong></p><p>Bedeutung: Whenever you see <strong>soll / will / muss / dürfte</strong> in Position 2 and <strong>[Partizip II] + haben/sein</strong> at the very end of the sentence, it is a <strong>subjective past statement</strong> (<em>'is said to have...', 'claims to have...', 'must have...'</em>)!</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "de": "Hast du schon gehört? Unser Konkurrent soll ein neues Büro in München eröffnet haben.",
+        "en": "Have you heard already? Our competitor is said to have opened a new office in Munich."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Wirklich? Ihr Geschäftsführer will doch im Interview letzte Woche noch von Sparmaßnahmen gesprochen haben.",
+        "en": "Really? Yet their CEO claims to have spoken of cost-cutting measures in the interview last week."
+      },
+      {
+        "speaker": "Sarah",
+        "de": "Das dürfte nur eine Taktik gewesen sein, um die Konkurrenz zu überraschen.",
+        "en": "That was probably just a tactic to surprise the competition."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Stimmt, dann müssen sie den Mietvertrag schon vor Monaten unterschrieben haben.",
+        "en": "True, then they must have signed the lease months ago."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Das neue Café am Kanal soll sehr gut sein' mean?",
+        "options": [
+          "The café is legally required to be good.",
+          "People say / I've heard that the new café is very good.",
+          "The café wants to be good in the future.",
+          "I forbid you from going to the café."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die Reparatur ___ (probably = Konjunktiv II of dürfen) nicht länger als zwei Stunden dauern.",
+        "answer": "dürfte",
+        "hint": "dürfte = is probably / likely"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "Er soll reich sein.",
+            "en": "He is said to be rich (people say so)."
+          },
+          {
+            "de": "Er will unschuldig sein.",
+            "en": "He claims to be innocent (doubtful)."
+          },
+          {
+            "de": "Es dürfte klappen.",
+            "en": "It will probably work out (~75%)."
+          },
+          {
+            "de": "Er muss geschlafen haben.",
+            "en": "He must have been asleep (~95%)."
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Der",
+          "neue",
+          "Film",
+          "soll",
+          "wirklich",
+          "spannend",
+          "sein"
+        ],
+        "answer": "Der neue Film soll wirklich spannend sein"
+      },
+      {
+        "type": "translation",
+        "source": "That will probably not be a problem.",
+        "target": "Das dürfte kein Problem sein."
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Genitive Prepositions in Formal & Journalistic German",
+    "titleDe": "Genitiv-Präpositionen: infolge, angesichts, zugunsten, zwecks",
+    "type": "B2 Grammar & Reading",
+    "icon": "🏛️",
+    "level": "B2",
+    "readingText": {
+      "title": "Stellungnahme zum Projektbudget",
+      "text": "Angesichts der gestiegenen Energie- und Materialkosten musste die ursprüngliche Kalkulation für das Bauprojekt überarbeitet werden. Infolge eines längeren Lieferengpasses bei elektronischen Bauteilen verzögerte sich der Start der zweiten Phase um drei Wochen. Zugunsten einer höheren langfristigen Qualität entschied sich die Projektleitung jedoch gegen billigere Ersatzmaterialien. Zwecks einer transparenten Kommunikation wurden alle Partner bereits außerhalb der regulären Sitzungen schriftlich informiert.",
+      "glossary": [
+        {
+          "de": "angesichts (+ Gen.)",
+          "en": "in view of / given"
+        },
+        {
+          "de": "infolge (+ Gen.)",
+          "en": "as a result of / due to"
+        },
+        {
+          "de": "zugunsten (+ Gen.)",
+          "en": "in favor of / for the benefit of"
+        },
+        {
+          "de": "zwecks (+ Gen.)",
+          "en": "for the purpose of"
+        }
+      ],
+      "question": "Warum entschied sich die Projektleitung gegen billigere Ersatzmaterialien?",
+      "options": [
+        "Zugunsten einer höheren langfristigen Qualität.",
+        "Weil das Projekt komplett abgesagt wurde.",
+        "Zwecks einer längeren Pause im Sommer.",
+        "Weil keine Partner informiert wurden."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: B2 Genitive Prepositions",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>angesichts (+ Gen.)</strong></td><td>in view of / in the face of</td><td>Angesichts der aktuellen Lage bleiben wir vorsichtig.</td></tr><tr><td><strong>infolge (+ Gen.)</strong></td><td>as a result of / consequently</td><td>Infolge des Streiks fielen viele Flüge aus.</td></tr><tr><td><strong>zugunsten (+ Gen.)</strong></td><td>in favor of / for the benefit of</td><td>Er verzichtete zugunsten seiner Familie auf den Job.</td></tr><tr><td><strong>zwecks (+ Gen.)</strong></td><td>for the purpose of (formal)</td><td>Zwecks besserer Planung bitten wir um Rückmeldung.</td></tr><tr><td><strong>anlässlich (+ Gen.)</strong></td><td>on the occasion of</td><td>Anlässlich des zehnjährigen Jubiläums gab es ein Fest.</td></tr><tr><td><strong>mithilfe / anhand (+ Gen.)</strong></td><td>with the help of / on the basis of</td><td>Anhand der Daten lässt sich der Trend erkennen.</td></tr><tr><td><strong>innerhalb / außerhalb (+ Gen.)</strong></td><td>within, inside / outside of</td><td>Bitte antworten Sie innerhalb einer Woche.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: How Genitive Prepositions Condense Complex Clauses",
+        "type": "grammar",
+        "content": "<p>High-level German replaces long <em>weil-</em>, <em>damit-</em>, or <em>wenn-</em>clauses with compact <strong>Genitive Prepositions</strong>:</p><ul><li><strong>Masculine (der) & Neuter (das) &rarr; des / eines (+ -s/-es on the noun!):</strong><br><em>infolge <strong>des</strong> Sturm<strong>s</strong></em>, <em>innerhalb <strong>eines</strong> Jahr<strong>es</strong></em>, <em>anhand <strong>des</strong> Bericht<strong>s</strong></em>.</li><li><strong>Feminine (die) & Plural (die) &rarr; der / einer:</strong><br><em>angesichts <strong>der</strong> Krise</em>, <em>zugunsten <strong>einer</strong> Lösung</em>, <em>mithilfe <strong>der</strong> neuen Technologien</em>.</li><li><strong>Compare Cause (infolge) vs. Context (angesichts):</strong><br><em>Infolge des Regens</em> = as a direct result of the rain.<br><em>Angesichts des Regens</em> = in view of / considering the rain.</li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'anhand von' vs. 'anhand des'",
+        "type": "idiom",
+        "content": "<p><strong>Genitive without an article uses 'von + Dative'</strong></p><p>Bedeutung: When a plural noun has NO article after a genitive preposition, German switches to <em>von + Dative</em> so the case stays visible: <em>„anhand <strong>der</strong> Beispiele“</em> vs. <em>„anhand <strong>von</strong> Beispielen“</em>.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Projektleiterin",
+        "de": "Wie können wir die Ursache des Fehlers am schnellsten analysieren?",
+        "en": "How can we analyze the cause of the error fastest?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Anhand der Server-Protokolle von gestern Abend sehen wir genau, was passiert ist.",
+        "en": "On the basis of last night's server logs we can see exactly what happened."
+      },
+      {
+        "speaker": "Projektleiterin",
+        "de": "War der Ausfall eine Folge des neuen Updates?",
+        "en": "Was the outage a consequence of the new update?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Nein, infolge einer kurzen Netzwerkstörung beim Anbieter wurde die Verbindung unterbrochen.",
+        "en": "No, as a result of a brief network disruption at the provider, the connection was interrupted."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Angesichts der hohen Kosten müssen wir sparen' mean?",
+        "options": [
+          "Despite the low costs, we are spending more.",
+          "In view of / considering the high costs, we have to save.",
+          "Instead of the high costs, we save.",
+          "For the purpose of high costs, we save."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "___ (On the basis of) der aktuellen Zahlen können wir eine klare Prognose abgeben.",
+        "answer": "Anhand",
+        "hint": "Anhand (+ Genitive)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "angesichts (+ Gen.)",
+            "en": "in view of / given"
+          },
+          {
+            "de": "infolge (+ Gen.)",
+            "en": "as a result of"
+          },
+          {
+            "de": "zugunsten (+ Gen.)",
+            "en": "in favor of"
+          },
+          {
+            "de": "anlässlich (+ Gen.)",
+            "en": "on the occasion of"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Infolge",
+          "des",
+          "Streiks",
+          "fielen",
+          "heute",
+          "viele",
+          "Züge",
+          "aus"
+        ],
+        "answer": "Infolge des Streiks fielen heute viele Züge aus"
+      },
+      {
+        "type": "translation",
+        "source": "Please reply within one week.",
+        "target": "Bitte antworten Sie innerhalb einer Woche."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Irreal Past Conditions & Wishes (Konjunktiv II der Vergangenheit)",
+    "titleDe": "Irreale Vergangenheit: hätte / wäre + Partizip II",
+    "type": "B2 Grammar & Reading",
+    "icon": "🕰️",
+    "level": "B2",
+    "readingText": {
+      "title": "Rückblick auf eine entscheidende Projektphase",
+      "text": "Wenn wir im letzten Frühjahr früher mit den Nutzertests begonnen hätten, wären uns einige Schwachstellen im Design sofort aufgefallen. Ohne das schnelle Eingreifen unseres Entwicklerteams hätte sich der Produktstart wahrscheinlich um mehrere Monate verzögert. Beinahe wäre damals auch ein wichtiger Großkunde abgesprungen. Rückblickend hätten wir von Anfang an mehr Zeit für die Qualitätssicherung einplanen sollen.",
+      "glossary": [
+        {
+          "de": "wenn wir ... begonnen hätten, wären ... aufgefallen",
+          "en": "if we had started ..., [they] would have been noticed"
+        },
+        {
+          "de": "ohne ... hätte sich verzögert",
+          "en": "without ..., it would have been delayed"
+        },
+        {
+          "de": "beinahe wäre ... abgesprungen",
+          "en": "almost would have backed out"
+        },
+        {
+          "de": "hätten ... einplanen sollen",
+          "en": "should have planned in"
+        }
+      ],
+      "question": "Was bedeutet der Satz „Rückblickend hätten wir mehr Zeit einplanen sollen“?",
+      "options": [
+        "Wir haben genug Zeit eingeplant.",
+        "Es wäre besser gewesen, mehr Zeit einzuplanen, aber wir haben es damals nicht getan.",
+        "Wir werden nächstes Jahr weniger Zeit einplanen.",
+        "Wir dürfen keine Zeit mehr einplanen."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Counterfactual Past & Retrospective Analysis",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>ich hätte gemacht</strong></td><td>I would have done</td><td>An deiner Stelle hätte ich sofort angerufen.</td></tr><tr><td><strong>ich wäre gegangen / gefahren</strong></td><td>I would have gone / driven</td><td>Ohne den Stau wären wir pünktlich angekommen.</td></tr><tr><td><strong>hätte ... machen sollen / müssen</strong></td><td>should have done / would have had to do</td><td>Wir hätten den Vertrag genauer prüfen sollen!</td></tr><tr><td><strong>hätte ... machen können</strong></td><td>could have done</td><td>Das hätte man auch einfacher lösen können.</td></tr><tr><td><strong>beinahe / fast (+ Konjunktiv II)</strong></td><td>almost / nearly (narrowly avoided!)</td><td>Beinahe hätte ich meinen Flug verpasst!</td></tr><tr><td><strong>rückblickend / im Nachhinein</strong></td><td>in retrospect / in hindsight</td><td>Im Nachhinein wäre eine andere Strategie besser gewesen.</td></tr><tr><td><strong>an deiner / Ihrer Stelle</strong></td><td>in your place / if I were you</td><td>An Ihrer Stelle hätte ich das Angebot angenommen.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Konjunktiv II of the Past (Including with Modal Verbs!)",
+        "type": "grammar",
+        "content": "<p>To talk about things in the past that <strong>didn't happen</strong> (regrets, hypothetical retrospective analysis, 'what if'):</p><ul><li><strong>1. Standard Form (hätte / wäre + Partizip II):</strong><br><em>Wenn du mir Bescheid <strong>gesagt hättest</strong>, <strong>wäre</strong> ich <strong>mitgekommen</strong>.</em> (Notice: NEVER use <em>würde</em> for the past!).</li><li><strong>2. With Modal Verbs (hätte + Infinitiv + Modal Infinitiv = Double Infinitive!):</strong><br>This is a classic B2 structure used every day in business and life:<br><em>Ich <strong>hätte</strong> früher <strong>anrufen sollen</strong>.</em> (I should have called earlier.)<br><em>Wir <strong>hätten</strong> das Risiko <strong>erkennen müssen</strong>.</em> (We should have / would have had to recognize the risk.)<br><em>Du <strong>hättest</strong> mich doch <strong>fragen können</strong>!</em> (You could have asked me!)</li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'Beinahe wäre / hätte...'",
+        "type": "idiom",
+        "content": "<p><strong>Beinahe hätte ich den Zug verpasst! (= I almost missed the train — but I caught it!)</strong></p><p>Bedeutung: In German, <em>beinahe</em> or <em>fast</em> ('almost') combines with <strong>Konjunktiv II Past (hätte/wäre)</strong> to show that something bad <em>almost</em> happened, but thankfully didn't!</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Lukas",
+        "de": "Puh, das war knapp! Beinahe hätten wir die Abgabefrist für das Angebot verpasst.",
+        "en": "Phew, that was close! We almost missed the submission deadline for the offer."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ja, im Nachhinein hätten wir die Dokumente schon gestern Abend hochladen sollen.",
+        "en": "Yes, in hindsight we should have uploaded the documents last night already."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Wenn du den Fehler in der Tabelle nicht noch bemerkt hättest, wäre das peinlich geworden.",
+        "en": "If you hadn't noticed the error in the spreadsheet, that would have become embarrassing."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Zum Glück hat am Ende alles geklappt! Nächstes Mal fangen wir zwei Tage früher an.",
+        "en": "Luckily everything worked out in the end! Next time we'll start two days earlier."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "How do you say 'We should have checked the contract more carefully' in B2 German?",
+        "options": [
+          "Wir würden den Vertrag genauer prüfen.",
+          "Wir hätten den Vertrag genauer prüfen sollen.",
+          "Wir sollen den Vertrag genauer geprüft haben.",
+          "Wir hatten den Vertrag genauer prüfen gesollt."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wenn ich das gewusst hätte, ___ ich gestern früher ins Büro gekommen.",
+        "answer": "wäre",
+        "hint": "kommen uses 'sein' -> Konjunktiv II is 'wäre'"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "Ich hätte fragen sollen.",
+            "en": "I should have asked."
+          },
+          {
+            "de": "Du hättest helfen können.",
+            "en": "You could have helped."
+          },
+          {
+            "de": "Beinahe wäre ich gefallen.",
+            "en": "I almost fell."
+          },
+          {
+            "de": "im Nachhinein",
+            "en": "in hindsight"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Ich",
+          "hätte",
+          "gestern",
+          "früher",
+          "anrufen",
+          "sollen"
+        ],
+        "answer": "Ich hätte gestern früher anrufen sollen"
+      },
+      {
+        "type": "translation",
+        "source": "You could have asked me!",
+        "target": "Du hättest mich fragen können!"
+      }
+    ]
+  }
+]

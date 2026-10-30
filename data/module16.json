@@ -1,0 +1,539 @@
+[
+  {
+    "id": 76,
+    "title": "Family, Friends & Possessive Articles",
+    "titleDe": "Familie, Freunde & Possessivartikel",
+    "type": "Foundations",
+    "icon": "👨‍👩‍👧‍👦",
+    "level": "A1",
+    "readingText": {
+      "title": "Meine Familie und meine Freunde in Berlin",
+      "text": "Ich heiße Guillermo und ich komme aus Spanien, aber heute wohne ich in Berlin. Meine Eltern wohnen noch in Spanien. Mein Vater heißt Carlos und meine Mutter heißt Elena. Ich habe auch eine Schwester. Ihr Name ist Sofia und sie arbeitet als Ärztin in Madrid. In Berlin habe ich viele gute Freunde. Mein bester Freund hier heißt Lukas. Er ist mein Kollege im Büro. Am Sonntag kochen wir oft zusammen in meiner Küche.",
+      "glossary": [
+        {
+          "de": "die Eltern (Pl.)",
+          "en": "parents"
+        },
+        {
+          "de": "die Schwester, -n",
+          "en": "sister"
+        },
+        {
+          "de": "mein / meine",
+          "en": "my (masc./neut. vs. fem./plural)"
+        },
+        {
+          "de": "zusammen",
+          "en": "together"
+        }
+      ],
+      "question": "Wo wohnt Guillermos Schwester Sofia?",
+      "options": [
+        "Sie wohnt in Berlin.",
+        "Sie wohnt und arbeitet in Madrid.",
+        "Sie wohnt in München.",
+        "Sie arbeitet im Büro mit Lukas."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Family & Relationships",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Familie, -n</strong></td><td>family</td><td>Meine Familie wohnt in Spanien.</td></tr><tr><td><strong>die Eltern (Pl.)</strong></td><td>parents</td><td>Meine Eltern besuchen mich im Sommer.</td></tr><tr><td><strong>der Vater, ¨ / die Mutter, ¨</strong></td><td>father / mother</td><td>Mein Vater trinkt Tee, meine Mutter trinkt Kaffee.</td></tr><tr><td><strong>der Bruder, ¨ / die Schwester, -n</strong></td><td>brother / sister</td><td>Mein Bruder ist groß und meine Schwester ist klug.</td></tr><tr><td><strong>der Freund, -e / die Freundin, -nen</strong></td><td>friend (or boyfriend/girlfriend)</td><td>Das ist mein guter Freund Lukas.</td></tr><tr><td><strong>der Kollege, -n / die Kollegin, -nen</strong></td><td>colleague</td><td>Meine Kollegin hilft mir heute.</td></tr><tr><td><strong>mein / meine</strong></td><td>my</td><td>Das ist mein Laptop und meine Tasche.</td></tr><tr><td><strong>dein / deine</strong></td><td>your (informal)</td><td>Wie heißt deine Schwester?</td></tr><tr><td><strong>sein / ihr</strong></td><td>his / her</td><td>Sein Bruder wohnt in Hamburg.</td></tr><tr><td><strong>unser / unsere</strong></td><td>our</td><td>Unser Büro ist in Berlin-Mitte.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Possessive Articles (mein, dein, sein, ihr)",
+        "type": "grammar",
+        "content": "<p>Possessive articles work just like <em>ein / eine</em>! Add <strong>-e</strong> whenever the noun is feminine (<em>die</em>) or plural:</p><ul><li><strong>Masculine (der) & Neuter (das):</strong> <em>mein Vater</em>, <em>dein Bruder</em>, <em>mein Kind</em>, <em>unser Büro</em>.</li><li><strong>Feminine (die) & Plural (die):</strong> <em>mein<strong>e</strong> Mutter</em>, <em>dein<strong>e</strong> Schwester</em>, <em>mein<strong>e</strong> Eltern</em>, <em>unser<strong>e</strong> Freunde</em>.</li><li><strong>In the Accusative (direct object):</strong> Masculine adds <strong>-en</strong>: <em>Ich besuche mein<strong>en</strong> Bruder</em>.</li></ul>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: 'ein Freund von mir' vs. 'mein Freund'",
+        "type": "idiom",
+        "content": "<p><strong>ein Freund von mir (a friend of mine) vs. mein Freund (my boyfriend)</strong></p><p>Bedeutung: Saying <em>mein Freund</em> or <em>meine Freundin</em> usually implies a romantic partner! For a platonic friend, say <em>ein Freund von mir</em> or <em>ein guter Freund</em>.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Anna",
+        "de": "Guillermo, kommen deine Eltern bald nach Berlin?",
+        "en": "Guillermo, are your parents coming to Berlin soon?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ja! Mein Vater und meine Mutter kommen im Mai.",
+        "en": "Yes! My father and my mother are coming in May."
+      },
+      {
+        "speaker": "Anna",
+        "de": "Wie schön! Und kommt deine Schwester auch mit?",
+        "en": "How nice! And is your sister coming along too?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Nein, meine Schwester muss leider in Madrid arbeiten.",
+        "en": "No, unfortunately my sister has to work in Madrid."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Which possessive article is correct for '___ Mutter' (die Mutter)?",
+        "options": [
+          "mein",
+          "meine",
+          "meinen",
+          "meiner"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Das ist ___ Bruder Carlos und das ist meine Schwester.",
+        "answer": "mein",
+        "hint": "my (masculine nominative)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "die Eltern",
+            "en": "the parents"
+          },
+          {
+            "de": "die Schwester",
+            "en": "the sister"
+          },
+          {
+            "de": "der Bruder",
+            "en": "the brother"
+          },
+          {
+            "de": "unser Büro",
+            "en": "our office"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Meine",
+          "wohnen",
+          "Eltern",
+          "noch",
+          "in",
+          "Spanien"
+        ],
+        "answer": "Meine Eltern wohnen noch in Spanien"
+      },
+      {
+        "type": "translation",
+        "source": "My father and my mother live in Spain.",
+        "target": "Mein Vater und meine Mutter wohnen in Spanien."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Food, Supermarket & Ordering in Berlin",
+    "titleDe": "Essen, Supermarkt & Im Restaurant bestellen",
+    "type": "Foundations",
+    "icon": "🥐",
+    "level": "A1",
+    "readingText": {
+      "title": "Einkaufen auf dem Wochenmarkt am Boxhagener Platz",
+      "text": "Am Samstagmorgen gehe ich gern auf den Markt in Friedrichshain. Ich brauche frisches Obst und Gemüse für das Wochenende. Ich kaufe ein Kilo Äpfel, drei Tomaten und frisches Brot vom Bäcker. Der Käse riecht wunderbar, also nehme ich auch zweihundert Gramm Bergkäse. Danach trinke ich an einem Stand einen heißen Espresso und esse ein warmes Croissant. Mit Karte kann man hier oft nicht bezahlen, deshalb habe ich immer Bargeld dabei.",
+      "glossary": [
+        {
+          "de": "das Obst & Gemüse",
+          "en": "fruit & vegetables"
+        },
+        {
+          "de": "der Bäcker, -",
+          "en": "baker / bakery"
+        },
+        {
+          "de": "bezahlen",
+          "en": "to pay"
+        },
+        {
+          "de": "das Bargeld (Sg.)",
+          "en": "cash"
+        }
+      ],
+      "question": "Warum hat der Erzähler auf dem Markt immer Bargeld dabei?",
+      "options": [
+        "Weil er keine Bankkarte besitzt.",
+        "Weil man an den Marktständen oft nicht mit Karte bezahlen kann.",
+        "Weil das Brot nur einen Euro kostet.",
+        "Weil der Supermarkt geschlossen ist."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Groceries & Café",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>das Brot, -e / das Brötchen, -</strong></td><td>bread / bread roll</td><td>Zwei frische Brötchen zum Frühstück, bitte.</td></tr><tr><td><strong>der Käse / der Schinken</strong></td><td>cheese / ham</td><td>Ich möchte ein Brötchen mit Käse.</td></tr><tr><td><strong>der Apfel, ¨ / die Banane, -n</strong></td><td>apple / banana</td><td>Ich esse jeden Tag einen Apfel.</td></tr><tr><td><strong>das Gemüse / das Obst</strong></td><td>vegetables / fruit</td><td>Frisches Gemüse ist sehr gesund.</td></tr><tr><td><strong>die Rechnung, -en</strong></td><td>the bill / check</td><td>Die Rechnung, bitte!</td></tr><tr><td><strong>das Bargeld / mit Karte</strong></td><td>cash / by card</td><td>Kann ich hier mit Karte zahlen?</td></tr><tr><td><strong>zusammen oder getrennt?</strong></td><td>together or separate? (paying)</td><td>Zahlen Sie zusammen oder getrennt?</td></tr><tr><td><strong>ich hätte gern...</strong></td><td>I would like... (polite)</td><td>Ich hätte gern einen Kaffee mit Hafermilch.</td></tr><tr><td><strong>schmecken</strong></td><td>to taste (good)</td><td>Die Suppe schmeckt ausgezeichnet!</td></tr><tr><td><strong>lecker</strong></td><td>delicious / tasty</td><td>Das Essen in Berlin ist sehr lecker.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Polite Requests & Plural Noun Patterns",
+        "type": "grammar",
+        "content": "<p>When ordering food or buying groceries, combine <strong>Ich möchte...</strong> or <strong>Ich hätte gern...</strong> with the Accusative case:</p><ul><li><strong>Masculine (der -> einen):</strong> <em>Ich hätte gern <strong>einen</strong> Apfelsaft / <strong>einen</strong> Salat.</em></li><li><strong>Neuter (das -> ein):</strong> <em>Ich nehme <strong>ein</strong> Brötchen / <strong>ein</strong> Wasser.</em></li><li><strong>Feminine (die -> eine):</strong> <em>Ich möchte <strong>eine</strong> Suppe / <strong>eine</strong> Pizza.</em></li><li><strong>Quantities (no article needed):</strong> <em>Ich kaufe 200 Gramm Käse und ein Kilo Tomaten.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: 'Stimmt so!'",
+        "type": "idiom",
+        "content": "<p><strong>Stimmt so!</strong></p><p>Bedeutung: 'Keep the change!' When the bill is 18,50 € and you hand the waiter 20 € or say the final total you want to pay, say <em>„Zwanzig Euro – stimmt so!“</em>.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Kellnerin",
+        "de": "Hallo! Was darf es für dich sein?",
+        "en": "Hello! What can I get for you?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ich hätte gern einen Cappuccino und ein Käsebrötchen, bitte.",
+        "en": "I would like a cappuccino and a cheese roll, please."
+      },
+      {
+        "speaker": "Kellnerin",
+        "de": "Sehr gern. Möchtest du hier essen oder zum Mitnehmen?",
+        "en": "Gladly. Would you like to eat here or to go?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Zum Hieressen, bitte. Und kann ich mit Karte bezahlen?",
+        "en": "For here, please. And can I pay by card?"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does the waiter mean when asking 'Zusammen oder getrennt?'",
+        "options": [
+          "With milk or sugar?",
+          "Are you paying together or separately?",
+          "For here or to go?",
+          "Cash or card?"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich hätte gern ___ Salat und ein stilles Wasser, bitte.",
+        "answer": "einen",
+        "hint": "der Salat in Accusative"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "die Rechnung, bitte",
+            "en": "the check, please"
+          },
+          {
+            "de": "mit Karte zahlen",
+            "en": "to pay by card"
+          },
+          {
+            "de": "zum Mitnehmen",
+            "en": "to go / takeaway"
+          },
+          {
+            "de": "Stimmt so!",
+            "en": "Keep the change!"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Ich",
+          "hätte",
+          "gern",
+          "einen",
+          "Kaffee",
+          "bitte"
+        ],
+        "answer": "Ich hätte gern einen Kaffee bitte"
+      },
+      {
+        "type": "translation",
+        "source": "Can I pay by card here?",
+        "target": "Kann ich hier mit Karte bezahlen?"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Daily Routine, Clock Time & Separable Verbs",
+    "titleDe": "Tagesablauf, Uhrzeit & Trennbare Verben",
+    "type": "Foundations",
+    "icon": "⏰",
+    "level": "A1",
+    "readingText": {
+      "title": "Ein normaler Arbeitstag in Berlin",
+      "text": "Von Montag bis Freitag stehe ich immer um sieben Uhr auf. Zuerst mache ich in der Küche einen starken Kaffee und frühstücke schnell. Um halb neun fängt mein Arbeitstag im Büro an. Um neun Uhr rufe ich oft mein Team an, weil wir unser kurzes Standup-Meeting haben. Mittags gehe ich mit meinen Kollegen in ein Restaurant. Am Abend kaufe ich im Supermarkt ein und komme gegen neunzehn Uhr zu Hause an.",
+      "glossary": [
+        {
+          "de": "aufstehen (steht ... auf)",
+          "en": "to get up"
+        },
+        {
+          "de": "anfangen (fängt ... an)",
+          "en": "to begin / start"
+        },
+        {
+          "de": "anrufen (ruft ... an)",
+          "en": "to call (on the phone)"
+        },
+        {
+          "de": "einkaufen (kauft ... ein)",
+          "en": "to shop for groceries"
+        }
+      ],
+      "question": "Wann fängt der Arbeitstag im Büro an?",
+      "options": [
+        "Um sieben Uhr (07:00).",
+        "Um halb neun (08:30).",
+        "Um halb zehn (09:30).",
+        "Um neunzehn Uhr (19:00)."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Separable Verbs & Time",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>auf·stehen</strong></td><td>to get up</td><td>Ich stehe jeden Morgen um 7 Uhr auf.</td></tr><tr><td><strong>an·fangen</strong></td><td>to start / begin</td><td>Das Meeting fängt pünktlich um 9 Uhr an.</td></tr><tr><td><strong>an·rufen</strong></td><td>to call (phone)</td><td>Ich rufe heute Abend meine Mutter an.</td></tr><tr><td><strong>ein·kaufen</strong></td><td>to shop (groceries)</td><td>Wir kaufen am Samstag im Supermarkt ein.</td></tr><tr><td><strong>an·kommen</strong></td><td>to arrive</td><td>Der Zug kommt um 18 Uhr am Hauptbahnhof an.</td></tr><tr><td><strong>mit·kommen</strong></td><td>to come along</td><td>Wir gehen ins Kino. Kommst du mit?</td></tr><tr><td><strong>halb neun (08:30!)</strong></td><td>8:30 (halfway to nine!)</td><td>Achtung: 'halb neun' ist 08:30 Uhr, nicht 09:30!</td></tr><tr><td><strong>Viertel nach acht (08:15)</strong></td><td>quarter past eight</td><td>Es ist jetzt Viertel nach acht.</td></tr><tr><td><strong>Viertel vor neun (08:45)</strong></td><td>quarter to nine</td><td>Wir treffen uns um Viertel vor neun.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Separable Verbs (Trennbare Verben) & German Clock Trap!",
+        "type": "grammar",
+        "content": "<p><strong>1. Trennbare Verben (Separable Verbs):</strong> Many everyday German verbs have a prefix (<em>auf-, an-, ein-, mit-, zu-</em>). In a main sentence, the conjugated verb stays in <strong>Position 2</strong>, and the prefix flies to the <strong>very end of the sentence</strong>!</p><ul><li><em>aufstehen:</em> Ich <strong>stehe</strong> heute um sieben Uhr <strong>auf</strong>.</li><li><em>anrufen:</em> Ich <strong>rufe</strong> morgen meinen Kollegen <strong>an</strong>.</li><li><em>einkaufen:</em> Am Abend <strong>kaufe</strong> ich noch im Supermarkt <strong>ein</strong>.</li></ul><p><strong>2. The 'Halb' Clock Trap:</strong> In German, <em>halb</em> looks forward to the next hour! <strong>halb neun = 8:30</strong> (halfway to 9), NOT 9:30 (unlike English 'half nine').</p>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: 'Feierabend machen'",
+        "type": "idiom",
+        "content": "<p><strong>Ich mache jetzt Feierabend!</strong></p><p>Bedeutung: 'I'm calling it a day / finishing work now!' Used around 17:00–18:00 when closing your laptop.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Lukas",
+        "de": "Wann fängt unser Projekt-Meeting heute an?",
+        "en": "When does our project meeting start today?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Es fängt um halb elf an, also um 10:30 Uhr.",
+        "en": "It starts at half past ten, so at 10:30."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Super! Rufst du vorher noch den Kunden an?",
+        "en": "Great! Are you calling the client beforehand?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ja, ich rufe ihn gleich um zehn Uhr an.",
+        "en": "Yes, I'm calling him right away at ten o'clock."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What time is 'Es ist halb zehn' in Germany?",
+        "options": [
+          "10:30",
+          "09:30",
+          "10:15",
+          "09:15"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Ich stehe jeden Morgen um sieben Uhr ___.",
+        "answer": "auf",
+        "hint": "separable prefix of aufstehen"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "Ich stehe ... auf",
+            "en": "I get up"
+          },
+          {
+            "de": "Der Film fängt ... an",
+            "en": "The movie starts"
+          },
+          {
+            "de": "Ich rufe dich ... an",
+            "en": "I call you"
+          },
+          {
+            "de": "halb acht",
+            "en": "07:30"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Das",
+          "Meeting",
+          "fängt",
+          "heute",
+          "um",
+          "neun",
+          "an"
+        ],
+        "answer": "Das Meeting fängt heute um neun an"
+      },
+      {
+        "type": "translation",
+        "source": "I get up at seven o'clock.",
+        "target": "Ich stehe um sieben Uhr auf."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Modal Verbs: können, müssen, wollen, möchten",
+    "titleDe": "Modalverben im Alltag & Büro",
+    "type": "Foundations",
+    "icon": "🚀",
+    "level": "A1",
+    "readingText": {
+      "title": "Pläne für die Woche im Projektteam",
+      "text": "Diese Woche haben wir im Büro viel zu tun. Bis Mittwoch müssen wir die neue Präsentation fertigstellen. Ich kann den Projektplan heute schreiben, und meine Kollegin Sarah will die Grafiken machen. Am Donnerstag dürfen wir im Homeoffice arbeiten, weil Handwerker ins Büro kommen. Am Freitagabend möchten wir alle zusammen in einer Bar in Kreuzberg feiern. Kannst du am Freitag auch kommen?",
+      "glossary": [
+        {
+          "de": "müssen (ich muss)",
+          "en": "must / have to"
+        },
+        {
+          "de": "können (ich kann)",
+          "en": "can / be able to"
+        },
+        {
+          "de": "wollen (ich will)",
+          "en": "want to (strong intention)"
+        },
+        {
+          "de": "dürfen (ich darf)",
+          "en": "may / be allowed to"
+        }
+      ],
+      "question": "Warum darf das Team am Donnerstag im Homeoffice arbeiten?",
+      "options": [
+        "Weil am Donnerstag ein Feiertag ist.",
+        "Weil Handwerker ins Büro kommen.",
+        "Weil alle nach Spanien fliegen.",
+        "Weil die Präsentation noch nicht fertig ist."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: The 6 Modal Verbs",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>können (ich kann)</strong></td><td>can / to be able to</td><td>Ich kann heute leider nicht kommen.</td></tr><tr><td><strong>müssen (ich muss)</strong></td><td>must / to have to</td><td>Ich muss heute bis 18 Uhr arbeiten.</td></tr><tr><td><strong>wollen (ich will)</strong></td><td>to want to (plan/intention)</td><td>Wir wollen dieses Jahr Deutsch lernen.</td></tr><tr><td><strong>möchten (ich möchte)</strong></td><td>would like to (polite)</td><td>Ich möchte gern ein Bier bestellen.</td></tr><tr><td><strong>dürfen (ich darf)</strong></td><td>may / to be allowed to</td><td>Hier darf man nicht rauchen.</td></tr><tr><td><strong>sollen (ich soll)</strong></td><td>should / supposed to</td><td>Ich soll Herrn Weber zurückrufen.</td></tr><tr><td><strong>heute Abend</strong></td><td>this evening / tonight</td><td>Kannst du heute Abend kochen?</td></tr><tr><td><strong>leider</strong></td><td>unfortunately</td><td>Ich habe heute leider keine Zeit.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: The Sentence Bracket (Satzklammer) with Modal Verbs",
+        "type": "grammar",
+        "content": "<p>Modal verbs are powerhouse verbs! When you use a modal verb, it goes in <strong>Position 2</strong> (conjugated), and the main action verb goes to the <strong>very end of the sentence in its infinitive (-en) form</strong>:</p><ul><li><strong>können:</strong> Ich <strong>kann</strong> schon gut Deutsch <strong>verstehen</strong>.</li><li><strong>müssen:</strong> Morgen <strong>muss</strong> ich früh ins Büro <strong>gehen</strong>.</li><li><strong>wollen:</strong> Am Wochenende <strong>wollen</strong> wir nach Potsdam <strong>fahren</strong>.</li><li><strong>Important:</strong> Notice that for <em>ich</em> and <em>er/sie/es</em>, modal verbs have NO ending: <em>ich kann / er kann</em>, <em>ich muss / er muss</em>, <em>ich will / er will</em>!</li></ul>"
+      },
+      {
+        "sectionTitle": "Berliner Alltag: 'Da kann man nichts machen'",
+        "type": "idiom",
+        "content": "<p><strong>Da kann man nichts machen.</strong></p><p>Bedeutung: 'Nothing you can do about it / It is what it is.' A classic German phrase when a train is delayed or it rains on your barbecue.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "de": "Guillermo, wollen wir heute zusammen zu Mittag essen?",
+        "en": "Guillermo, do we want to eat lunch together today?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Um zwölf Uhr muss ich noch mit dem Kunden telefonieren.",
+        "en": "At twelve o'clock I still have to speak on the phone with the client."
+      },
+      {
+        "speaker": "Sarah",
+        "de": "Kein Problem! Können wir dann um eins gehen?",
+        "en": "No problem! Can we go at one o'clock then?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ja, um eins kann ich sehr gern mitkommen!",
+        "en": "Yes, at one I can gladly come along!"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "Where does the second verb (infinitive) go when using a modal verb like 'müssen'?",
+        "options": [
+          "Right after 'müssen'",
+          "At the very beginning of the sentence",
+          "At the very end of the sentence in the '-en' form",
+          "It gets dropped completely"
+        ],
+        "answer": 2
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Morgen ___ ich leider schon um sieben Uhr arbeiten.",
+        "answer": "muss",
+        "hint": "must (1st person singular of müssen)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "ich kann",
+            "en": "I can / am able to"
+          },
+          {
+            "de": "ich muss",
+            "en": "I must / have to"
+          },
+          {
+            "de": "ich will",
+            "en": "I want to"
+          },
+          {
+            "de": "ich darf",
+            "en": "I am allowed to"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Ich",
+          "muss",
+          "heute",
+          "im",
+          "Büro",
+          "arbeiten"
+        ],
+        "answer": "Ich muss heute im Büro arbeiten"
+      },
+      {
+        "type": "translation",
+        "source": "I can understand German well.",
+        "target": "Ich kann gut Deutsch verstehen."
+      }
+    ]
+  }
+]

@@ -13,8 +13,8 @@ def assemble():
         template = f.read()
 
     all_lessons = []
-    # Load module0.json through module15.json
-    for i in range(0, 16):
+    # Load module0.json through module21.json
+    for i in range(0, 22):
         file_path = os.path.join(data_dir, f"module{i}.json")
         if os.path.exists(file_path):
             try:
@@ -29,8 +29,8 @@ def assemble():
     base_assembled = template.replace("__LESSON_DATA_PLACEHOLDER__", lessons_json)
 
     index_en = base_assembled.replace("__DEFAULT_LANG__", "en")
-    index_en = index_en.replace("__APP_TITLE__", "DeutschMeister — A1 bis B1 Alltag & Goethe-Zertifikat")
-    index_en = index_en.replace("__APP_DESCRIPTION__", "Complete German A1, A2.1, A2.2 & B1 Academy for Real-World Conversation in Germany and Official Goethe-Zertifikat Exam Training.")
+    index_en = index_en.replace("__APP_TITLE__", "DeutschMeister — A1 bis B2 Academy & Lesekompetenz")
+    index_en = index_en.replace("__APP_DESCRIPTION__", "Complete German A1, A2.1, A2.2, B1 & B2 Academy: From Zero Knowledge to Confident B2 Reading & Conversation.")
 
     with open("index.html", "w", encoding="utf-8") as f_en:
         f_en.write(index_en)

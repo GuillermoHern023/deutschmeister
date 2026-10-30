@@ -11,7 +11,7 @@ BODY_CONTENT = """
   <nav class="sidebar" id="sidebar">
     <div class="sidebar-header">
       <h1>🇩🇪 DeutschMeister</h1>
-      <div class="subtitle">Lernpfad • A1 bis B1</div>
+      <div class="subtitle">Lernpfad • A1 bis B2</div>
     </div>
 
     <!-- XP Bar & Daily Stats -->
@@ -46,6 +46,7 @@ BODY_CONTENT = """
       <button class="level-tab-btn" id="btn-level-a21" onclick="changeLevel('A2.1')">A2.1</button>
       <button class="level-tab-btn" id="btn-level-a22" onclick="changeLevel('A2.2')">A2.2</button>
       <button class="level-tab-btn" id="btn-level-b1" onclick="changeLevel('B1')">B1</button>
+      <button class="level-tab-btn" id="btn-level-b2" onclick="changeLevel('B2')">B2</button>
     </div>
 
     <!-- Quick Navigation to Chapter on Timeline -->
@@ -79,5 +80,8 @@ BODY_CONTENT = """
     <!-- Rendered dynamically -->
   </main>
 </div>
+
+<!-- Friendly Pastel Toast Notification -->
+<div class="app-toast" id="app-toast" role="status" aria-live="polite"></div>
 """
 print(f"body.py ready. Length: {len(BODY_CONTENT)} chars")

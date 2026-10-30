@@ -29,6 +29,7 @@ CSS_CONTENT = """/* ============================================
   --pastel-sky-border: #bae6fd;
   --pastel-sky-shadow: #0284c7;
   --pastel-sky-text: #0369a1;
+  --pastel-sky-dark: #0369a1;
 
   /* 2. Pastel Mint (Das / Success / Level Progression) */
   --pastel-mint: #34d399;
@@ -125,6 +126,7 @@ CSS_CONTENT = """/* ============================================
   --pastel-sky-bg: rgba(56, 189, 248, 0.18);
   --pastel-sky-border: rgba(56, 189, 248, 0.35);
   --pastel-sky-text: #7dd3fc;
+  --pastel-sky-dark: #7dd3fc;
 
   --pastel-mint-bg: rgba(52, 211, 153, 0.18);
   --pastel-mint-border: rgba(52, 211, 153, 0.35);
@@ -1825,5 +1827,253 @@ body {
   .sidebar.open { transform: translateX(0); }
   .main-content { margin-left: 0; padding: 60px 16px 120px; }
   .stone-row.stagger-left, .stone-row.stagger-right { transform: translateX(0); }
+}
+
+/* Stone Preview Card Inner Typography & Milestone Stones */
+.stone-card-title {
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.stone-card-sub {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+.stone-card-meta {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--pastel-sky-text);
+  background: var(--pastel-sky-bg);
+  border-radius: var(--radius-full);
+  padding: 4px 10px;
+}
+.milestone-stone-circle {
+  width: 92px;
+  height: 92px;
+  background: linear-gradient(145deg, #fbbf24 0%, #f59e0b 100%) !important;
+  border: 3.5px solid #fde68a !important;
+  box-shadow: 0 9px 0 #b45309, 0 14px 28px rgba(245, 158, 11, 0.3) !important;
+  color: #fff !important;
+}
+.milestone-beacon {
+  background: linear-gradient(135deg, #a855f7, #7e22ce) !important;
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.35) !important;
+}
+.milestone-beacon::after {
+  border-color: #7e22ce transparent transparent !important;
+}
+
+/* Multi-Word Vocabulary Deck Switcher */
+.vocab-deck-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.vocab-deck-pill {
+  padding: 6px 13px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid var(--border-medium);
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: 0 2px 0 var(--border-medium);
+}
+.vocab-deck-pill:hover {
+  border-color: var(--pastel-sky);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+.vocab-deck-pill.active {
+  background: var(--pastel-sky);
+  border-color: var(--pastel-sky-shadow);
+  color: #ffffff;
+  box-shadow: 0 3px 0 var(--pastel-sky-shadow);
+}
+.vocab-deck-pill.seen:not(.active) {
+  background: var(--pastel-mint-bg);
+  border-color: var(--pastel-mint-border);
+  color: var(--pastel-mint-text);
+}
+.vocab-deck-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+/* Step: Reading Comprehension (Lesetext & Verstehen) */
+.reading-stage {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.reading-article-card {
+  background: var(--bg-surface-elevated);
+  border: 2px solid var(--border-subtle);
+  border-left: 6px solid var(--pastel-lavender);
+  border-radius: var(--radius-md);
+  padding: 22px 24px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow-sm);
+}
+.reading-article-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+.reading-article-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+.reading-article-body {
+  font-size: 1.06rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.reading-glossary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.reading-glossary-item {
+  background: var(--pastel-lavender-bg);
+  border: 1px solid var(--pastel-lavender-border);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  font-size: 0.82rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.reading-glossary-de {
+  font-weight: 800;
+  color: var(--pastel-lavender-text);
+}
+.reading-glossary-en {
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+}
+
+/* Dark Mode Overrides for Callout Boxes & Chat Bubbles */
+[data-theme="dark"] .hero-next-card {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.16) 0%, rgba(52, 211, 153, 0.14) 100%);
+  border-color: rgba(56, 189, 248, 0.35);
+}
+[data-theme="dark"] .hero-badge {
+  background: #0f172a;
+  color: #7dd3fc;
+  border-color: rgba(56, 189, 248, 0.4);
+}
+[data-theme="dark"] .spanish-helper-box {
+  background: rgba(251, 191, 36, 0.12);
+  border-color: rgba(251, 191, 36, 0.35);
+}
+[data-theme="dark"] .spanish-helper-header { color: #fde047; }
+[data-theme="dark"] .spanish-helper-text { color: #fef3c7; }
+[data-theme="dark"] .berlin-example-box {
+  background: rgba(52, 211, 153, 0.12);
+  border-color: rgba(52, 211, 153, 0.35);
+}
+[data-theme="dark"] .berlin-example-label { color: #6ee7b7; }
+[data-theme="dark"] .chat-msg-row.left .chat-bubble {
+  background: #28354f;
+  border-color: rgba(255,255,255,0.12);
+  color: #f8fafc;
+}
+[data-theme="dark"] .chat-msg-row.right .chat-bubble {
+  background: rgba(56, 189, 248, 0.2);
+  border-color: rgba(56, 189, 248, 0.4);
+  color: #f0f9ff;
+}
+[data-theme="dark"] .chat-msg-row.right .chat-speaker { color: #7dd3fc; }
+[data-theme="dark"] .runner-feedback-sheet.correct {
+  background: rgba(52, 211, 153, 0.18);
+  border-color: rgba(52, 211, 153, 0.45);
+}
+[data-theme="dark"] .runner-feedback-sheet.correct .feedback-text-title { color: #6ee7b7; }
+[data-theme="dark"] .runner-feedback-sheet.wrong {
+  background: rgba(251, 113, 133, 0.18);
+  border-color: rgba(251, 113, 133, 0.45);
+}
+[data-theme="dark"] .runner-feedback-sheet.wrong .feedback-text-title { color: #fda4af; }
+[data-theme="dark"] .drill-option-btn.selected-correct {
+  background: rgba(52, 211, 153, 0.22);
+  border-color: #34d399;
+  color: #6ee7b7;
+}
+[data-theme="dark"] .drill-option-btn.selected-wrong {
+  background: rgba(251, 113, 133, 0.22);
+  border-color: #fb7185;
+  color: #fda4af;
+}
+
+/* Friendly Pastel Toast Notification */
+.app-toast {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 2px solid var(--pastel-sky);
+  border-radius: var(--radius-full);
+  padding: 12px 24px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.18), 0 4px 0 var(--pastel-sky-shadow);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 9999;
+}
+.app-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Reference Mode Tables */
+.reference-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+}
+.reference-content th {
+  background: var(--pastel-sky-bg);
+  color: var(--pastel-sky-text);
+  text-align: left;
+  padding: 10px 14px;
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+.reference-content td {
+  padding: 10px 14px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+.reference-content tr:nth-child(even) td {
+  background: var(--bg-surface-elevated);
 }
 """

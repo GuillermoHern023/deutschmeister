@@ -1,0 +1,544 @@
+[
+  {
+    "id": 96,
+    "title": "B2 Reading Mastery: Science, Climate & Technology",
+    "titleDe": "B2 Leseverstehen: Wissenschaft, Klima & Zukunftstechnologien",
+    "type": "B2 Reading Mastery",
+    "icon": "🔬",
+    "level": "B2",
+    "readingText": {
+      "title": "Energiewende und urbane Wärmespeicher in Berlin",
+      "text": "Um das Ziel der Klimaneutralität bis zum Jahr 2045 zu erreichen, setzt Berlin zunehmend auf innovative Wärmespeicher. Im Stadtteil Adlershof wurde jüngst eine Anlage in Betrieb genommen, die überschüssigen Solar- und Windstrom aus den Sommermonaten in thermische Energie umwandelt. Das erhitzte Wasser wird in riesigen isolierten Behältern gespeichert und im Winter über das Fernwärmenetz an tausende Haushalte abgegeben. Forschern zufolge ließe sich durch den flächendeckenden Ausbau solcher Speicher ein erheblicher Teil der bisher genutzten fossilen Brennstoffe ersetzen.",
+      "glossary": [
+        {
+          "de": "in Betrieb nehmen",
+          "en": "to put into operation / commission"
+        },
+        {
+          "de": "überschüssig",
+          "en": "surplus / excess"
+        },
+        {
+          "de": "das Fernwärmenetz, -e",
+          "en": "district heating network"
+        },
+        {
+          "de": "flächendeckend",
+          "en": "nationwide / comprehensive / area-wide"
+        }
+      ],
+      "question": "Wie funktioniert die neue Anlage in Berlin-Adlershof laut dem Sachtext?",
+      "options": [
+        "Sie wandelt überschüssigen Ökostrom in Wärme um, speichert heißes Wasser und liefert im Winter Fernwärme.",
+        "Sie importiert Kohle und Gas aus dem Ausland für den Sommer.",
+        "Sie kühlt im Winter die Berliner Flüsse ab.",
+        "Sie wurde wegen zu hoher Kosten wieder geschlossen."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Science, Research & Sustainability",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Klimaneutralität / nachhaltig</strong></td><td>climate neutrality / sustainable</td><td>Nachhaltige Lösungen gewinnen weltweit an Bedeutung.</td></tr><tr><td><strong>in Betrieb nehmen</strong></td><td>to put into operation</td><td>Das neue Rechenzentrum wurde gestern in Betrieb genommen.</td></tr><tr><td><strong>überschüssig / erneuerbar</strong></td><td>surplus, excess / renewable</td><td>Erneuerbare Energien decken über die Hälfte des Bedarfs.</td></tr><tr><td><strong>flächendeckend</strong></td><td>area-wide / across the board</td><td>Ein flächendeckendes Glasfasernetz wird derzeit ausgebaut.</td></tr><tr><td><strong>erforschen / die Erkenntnis, -se</strong></td><td>to research / scientific finding, insight</td><td>Neue wissenschaftliche Erkenntnisse bestätigen die Theorie.</td></tr><tr><td><strong>sich erweisen als (+ Nom./Adj.)</strong></td><td>to prove to be</td><td>Die Methode erwies sich in der Praxis als äußerst effizient.</td></tr><tr><td><strong>hervor·gehen aus (+ Dat.)</strong></td><td>to emerge / follow from (a study)</td><td>Wie aus der aktuellen Studie hervorgeht, sinkt der Verbrauch.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar & Reading Strategy: Synthesizing B2 Scientific Texts",
+        "type": "grammar",
+        "content": "<p>When reading B2 science and technology articles, look out for three signature structures working together:</p><ul><li><strong>1. Citation Phrases:</strong> <em>„Wie aus der Studie <strong>hervorgeht</strong>...“</em> (As emerges from the study...) or <em>„<strong>Wissenschaftlern zufolge</strong>...“</em> (According to scientists...).</li><li><strong>2. Potentiality with Konjunktiv II + sich lassen:</strong> <em>„Dadurch <strong>ließe sich</strong> viel Energie <strong>einsparen</strong>.“</em> (= Through this, a lot of energy could be saved.)</li><li><strong>3. Participial Modifiers:</strong> <em>„die bisher <strong>genutzten</strong> fossilen Brennstoffe“</em> (= the fossil fuels used up to now).</li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'Wie aus ... hervorgeht'",
+        "type": "idiom",
+        "content": "<p><strong>Wie aus dem Bericht hervorgeht, ...</strong></p><p>Bedeutung: 'As emerges from / As shown by the report...' One of the most frequent opening clauses in German news and academic summaries.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Guillermo",
+        "de": "Hast du den Artikel über das neue Energieprojekt in Adlershof gelesen?",
+        "en": "Did you read the article about the new energy project in Adlershof?"
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Ja! Wie aus dem Bericht hervorgeht, wurde der riesige Wärmespeicher gerade in Betrieb genommen.",
+        "en": "Yes! As shown by the report, the giant thermal storage unit was just put into operation."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Ich finde es faszinierend, dass sich überschüssiger Windstrom so effizient als Wärme speichern lässt.",
+        "en": "I find it fascinating that surplus wind power can be stored so efficiently as heat."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Absolut. Das dürfte ein wichtiger Schritt auf dem Weg zur Klimaneutralität sein.",
+        "en": "Absolutely. That is probably an important step on the path to climate neutrality."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'Wie aus der aktuellen Studie hervorgeht...' mean?",
+        "options": [
+          "Why the researchers walked out of the studio...",
+          "As emerges from / As shown by the current study...",
+          "Before the study begins...",
+          "Although the study was canceled..."
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Die neue Anlage wurde letzte Woche erfolgreich in ___ genommen.",
+        "answer": "Betrieb",
+        "hint": "in ___ nehmen (put into operation)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "die Erkenntnis, -se",
+            "en": "scientific finding / insight"
+          },
+          {
+            "de": "in Betrieb nehmen",
+            "en": "to put into operation"
+          },
+          {
+            "de": "überschüssig",
+            "en": "surplus / excess"
+          },
+          {
+            "de": "flächendeckend",
+            "en": "area-wide / comprehensive"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Dadurch",
+          "ließe",
+          "sich",
+          "viel",
+          "Energie",
+          "im",
+          "Winter",
+          "sparen"
+        ],
+        "answer": "Dadurch ließe sich viel Energie im Winter sparen"
+      },
+      {
+        "type": "translation",
+        "source": "The method proved to be very efficient.",
+        "target": "Die Methode erwies sich als sehr effizient."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "B2 Reading Mastery: Economics, Labor Market & Urban Society",
+    "titleDe": "B2 Leseverstehen: Wirtschaft, Arbeitsmarkt & Gesellschaft",
+    "type": "B2 Reading Mastery",
+    "icon": "📈",
+    "level": "B2",
+    "readingText": {
+      "title": "Fachkräftemangel und die Vier-Tage-Woche",
+      "text": "Angesichts des demografischen Wandels und eines spürbaren Fachkräftemangels suchen zahlreiche Unternehmen in Deutschland nach neuen Wegen, um für Bewerber attraktiv zu bleiben. In einem bundesweiten Pilotprojekt testeten fünfundvierzig Betriebe sechs Monate lang die Vier-Tage-Woche bei vollem Lohnausgleich. Während Kritiker im Vorfeld einen Rückgang der Wirtschaftsleistung befürchteten, zeigten die Ergebnisse, dass die Produktivität in den meisten Firmen konstant blieb oder sogar stieg, da krankheitsbedingte Ausfälle deutlich zurückgingen.",
+      "glossary": [
+        {
+          "de": "der Fachkräftemangel (Sg.)",
+          "en": "shortage of skilled workers"
+        },
+        {
+          "de": "bei vollem Lohnausgleich",
+          "en": "with full pay / no reduction in salary"
+        },
+        {
+          "de": "im Vorfeld",
+          "en": "in advance / beforehand"
+        },
+        {
+          "de": "krankheitsbedingte Ausfälle",
+          "en": "illness-related absences"
+        }
+      ],
+      "question": "Was war das überraschende Ergebnis des Pilotprojekts zur Vier-Tage-Woche?",
+      "options": [
+        "Die Produktivität brach in allen Betrieben stark ein.",
+        "Die Produktivität blieb meist konstant oder stieg sogar, weil es weniger Krankheitstage gab.",
+        "Alle Mitarbeitenden bekamen zwanzig Prozent weniger Gehalt.",
+        "Das Projekt wurde nach einer Woche abgebrochen."
+      ],
+      "answer": 1
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Economy, Careers & Demographics",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>der Fachkräftemangel</strong></td><td>shortage of skilled labor</td><td>Der Fachkräftemangel betrifft vor allem IT und Pflege.</td></tr><tr><td><strong>der demografische Wandel</strong></td><td>demographic change</td><td>Durch den demografischen Wandel gehen viele in Rente.</td></tr><tr><td><strong>die Produktivität / die Leistung</strong></td><td>productivity / performance, output</td><td>Die Produktivität des Teams ist im Quartal gestiegen.</td></tr><tr><td><strong>der Lohnausgleich / das Gehalt, ¨er</strong></td><td>wage compensation / salary</td><td>Sie verhandeln über ein höheres Gehalt.</td></tr><tr><td><strong>im Vorfeld</strong></td><td>in advance / in the run-up</td><td>Im Vorfeld der Konferenz gab es viele Diskussionen.</td></tr><tr><td><strong>zurück·gehen / an·steigen</strong></td><td>to decline, drop / to rise, increase</td><td>Die Zahl der Fehltage ist deutlich zurückgegangen.</td></tr><tr><td><strong>krankheitsbedingt / wetterbedingt</strong></td><td>due to illness / due to weather (-bedingt)</td><td>Krankheitsbedingte Ausfälle ließen sich halbieren.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Compound Adjectives with '-bedingt', '-orientiert' & '-fähig'",
+        "type": "grammar",
+        "content": "<p>To read B2 economic and social texts smoothly, master German's compound adjective suffixes:</p><ul><li><strong>[Noun] + -bedingt (= caused by / due to):</strong><br><em>krankheits<strong>bedingt</strong></em> (due to illness), <em>inflations<strong>bedingt</strong></em> (due to inflation), <em>stau<strong>bedingt</strong></em> (due to traffic).</li><li><strong>[Noun] + -orientiert (= oriented toward):</strong><br><em>zukunfts<strong>orientiert</strong></em> (future-oriented), <em>lösungs<strong>orientiert</strong></em> (solution-oriented), <em>praxis<strong>orientiert</strong></em>.</li><li><strong>[Noun/Verb] + -fähig (= capable of / viable):</strong><br><em>wettbewerbs<strong>fähig</strong></em> (competitive), <em>team<strong>fähig</strong></em>, <em>zukunfts<strong>fähig</strong></em> (sustainable/viable for the future).</li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'Während' am Satzanfang (Kontrast vs. Zeit!)",
+        "type": "idiom",
+        "content": "<p><strong>Adversatives 'Während' (= Whereas / While)</strong></p><p>Bedeutung: In B2 essays, <strong>Während</strong> at the start of a sentence often does NOT mean 'at the same time', but rather expresses a <strong>contrast ('Whereas...')</strong>: <em>„<strong>Während</strong> Kritiker Probleme befürchteten, zeigten die Daten einen Erfolg.“</em></p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "de": "Glaubst du, dass sich die Vier-Tage-Woche in unserer Branche langfristig durchsetzen wird?",
+        "en": "Do you think the four-day week will prevail in our industry in the long run?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Angesichts des Fachkräftemangels ist das ein starkes Argument bei der Suche nach Talenten.",
+        "en": "In view of the shortage of skilled workers, that is a strong argument when looking for talent."
+      },
+      {
+        "speaker": "Sarah",
+        "de": "Stimmt. Während manche Chefs noch skeptisch sind, wünschen sich viele Bewerber mehr Flexibilität.",
+        "en": "True. Whereas some bosses are still skeptical, many applicants wish for more flexibility."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Wenn wir unsere Meetings effizienter gestalten, bleibt auch die Produktivität wettbewerbsfähig.",
+        "en": "If we design our meetings more efficiently, productivity also stays competitive."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'krankheitsbedingte Ausfälle' mean?",
+        "options": [
+          "Absences/cancellations caused by illness",
+          "Doctors working in a hospital",
+          "Healthy snacks in the office",
+          "Rising health insurance bonuses"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "___ (Whereas / While) früher alle im Büro saßen, arbeiten heute viele flexibel im Homeoffice.",
+        "answer": "Während",
+        "hint": "Während (contrast: whereas)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "der Fachkräftemangel",
+            "en": "shortage of skilled workers"
+          },
+          {
+            "de": "wettbewerbsfähig",
+            "en": "competitive"
+          },
+          {
+            "de": "lösungsorientiert",
+            "en": "solution-oriented"
+          },
+          {
+            "de": "im Vorfeld",
+            "en": "in advance / beforehand"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Die",
+          "Zahl",
+          "der",
+          "Fehltage",
+          "ist",
+          "deutlich",
+          "zurückgegangen"
+        ],
+        "answer": "Die Zahl der Fehltage ist deutlich zurückgegangen"
+      },
+      {
+        "type": "translation",
+        "source": "We work in a very solution-oriented way.",
+        "target": "Wir arbeiten sehr lösungsorientiert."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "B2 Reading Mastery: Feuilleton, Psychology & Culture",
+    "titleDe": "B2 Leseverstehen: Feuilleton, Psychologie & Kulturkritik",
+    "type": "B2 Reading Mastery",
+    "icon": "🎭",
+    "level": "B2",
+    "readingText": {
+      "title": "Die Kunst der Aufmerksamkeit im digitalen Zeitalter",
+      "text": "Kaum ein Gut ist in unserer heutigen Mediengesellschaft so knapp geworden wie die ungeteilte menschliche Aufmerksamkeit. Ständige Benachrichtigungen auf dem Smartphone führen laut Kognitionspsychologen dazu, dass wir uns immer seltener über längere Zeiträume hinweg in ein komplexes Buch oder ein tiefgründiges Gespräch vertiefen. Wer jedoch bewusst digitale Pausen einlegt und das Handy zeitweise beiseitelegt, gewinnt nicht nur innere Ruhe zurück, sondern fördert nachweislich auch die eigene Kreativität und Konzentrationsfähigkeit.",
+      "glossary": [
+        {
+          "de": "ungeteilt / knapp",
+          "en": "undivided / scarce"
+        },
+        {
+          "de": "sich vertiefen in (+ Akk.)",
+          "en": "to immerse oneself / become absorbed in"
+        },
+        {
+          "de": "beiseite·legen",
+          "en": "to put aside"
+        },
+        {
+          "de": "nachweislich",
+          "en": "demonstrably / provenly"
+        }
+      ],
+      "question": "Was bewirken bewusste digitale Pausen laut dem Feuilleton-Text?",
+      "options": [
+        "Man gewinnt innere Ruhe zurück und fördert nachweislich Kreativität sowie Konzentration.",
+        "Man verliert den Kontakt zu allen Freunden.",
+        "Man kann keine komplexen Bücher mehr lesen.",
+        "Das Smartphone geht dadurch kaputt."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Feuilleton, Psychology & Essay Writing",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>die Aufmerksamkeit (Sg.)</strong></td><td>attention / mindfulness</td><td>Dieses Thema verdient unsere volle Aufmerksamkeit.</td></tr><tr><td><strong>sich vertiefen in (+ Akk.)</strong></td><td>to immerse oneself in</td><td>Am Sonntag vertiefe ich mich gern in einen guten Roman.</td></tr><tr><td><strong>tiefgründig / oberflächlich</strong></td><td>profound, deep / superficial</td><td>Wir führten gestern Abend ein sehr tiefgründiges Gespräch.</td></tr><tr><td><strong>nachweislich</strong></td><td>demonstrably / provably</td><td>Ausreichend Schlaf steigert nachweislich die Konzentration.</td></tr><tr><td><strong>beiseite·legen</strong></td><td>to put aside</td><td>Beim Abendessen legen wir unsere Handys bewusst beiseite.</td></tr><tr><td><strong>zurück·führen auf (+ Akk.)</strong></td><td>to attribute to / trace back to</td><td>Experten führen den Stress auf die ständige Erreichbarkeit zurück.</td></tr><tr><td><strong>ein·her·gehen mit (+ Dat.)</strong></td><td>to go hand in hand with / be accompanied by</td><td>Der Wandel geht mit neuen Herausforderungen einher.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar: Essayistic Nuance & Subjective Clauses ('Wer ..., der ...')",
+        "type": "grammar",
+        "content": "<p>German cultural essays (<em>Feuilleton</em> in <em>Die Zeit</em> or <em>Süddeutsche Zeitung</em>) love general generalizing relative clauses starting with <strong>Wer ...</strong> (He who / Anyone who...):</p><ul><li><strong>Structure:</strong> <code>Wer [subordinate clause with verb at end], (der) [main clause starting with verb]!</code></li><li><strong>Example 1:</strong> <em><strong>Wer</strong> täglich fünfzehn Minuten auf Deutsch <strong>liest</strong>, <strong>versteht</strong> schon bald komplexe Bücher.</em></li><li><strong>Example 2 (Case Change in 'der/dem/den'):</strong> If the person is in the Dative or Accusative in the main clause, you must include <strong>dem</strong> or <strong>den</strong>:<br><em><strong>Wer</strong> viel arbeitet, <strong>dem</strong> tut ein freies Wochenende gut.</em></li></ul>"
+      },
+      {
+        "sectionTitle": "B2 Lese-Strategie: 'Kaum ein ... ist so ... wie'",
+        "type": "idiom",
+        "content": "<p><strong>Kaum ein Thema ist heute so wichtig wie... (= Hardly any topic is as important today as...)</strong></p><p>Bedeutung: A classic rhetorical opening in German essays and B2 writing exams to introduce a central thesis with elegance!</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Anna",
+        "de": "Liest du am Wochenende eigentlich lieber gedruckte Bücher oder auf dem Bildschirm?",
+        "en": "Do you actually prefer reading printed books or on a screen on the weekend?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Am Wochenende lege ich Laptop und Handy bewusst beiseite und lese gedruckte Bücher.",
+        "en": "On the weekend I deliberately put my laptop and phone aside and read printed books."
+      },
+      {
+        "speaker": "Anna",
+        "de": "Das geht mir genauso! Ohne Benachrichtigungen kann man sich viel besser in die Geschichte vertiefen.",
+        "en": "I feel the same way! Without notifications you can immerse yourself much better in the story."
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Genau. Wer ständig erreichbar ist, verliert irgendwann die Ruhe für tiefgründige Gedanken.",
+        "en": "Exactly. Anyone who is constantly reachable eventually loses the calm for profound thoughts."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does 'sich in ein Buch vertiefen' mean?",
+        "options": [
+          "To drop a book into deep water",
+          "To immerse oneself / get deeply absorbed in a book",
+          "To sell a book at a bookstore",
+          "To forget where a book is"
+        ],
+        "answer": 1
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Wer jeden Tag ein Kapitel auf Deutsch liest, ___ (verstehen) komplexe Texte immer müheloser.",
+        "answer": "versteht",
+        "hint": "Main clause starts with the conjugated verb right after the 'Wer...' clause!"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "tiefgründig",
+            "en": "profound / deep"
+          },
+          {
+            "de": "oberflächlich",
+            "en": "superficial"
+          },
+          {
+            "de": "nachweislich",
+            "en": "demonstrably / provably"
+          },
+          {
+            "de": "einhergehen mit",
+            "en": "to go hand in hand with"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Am",
+          "Abend",
+          "lege",
+          "ich",
+          "mein",
+          "Handy",
+          "bewusst",
+          "beiseite"
+        ],
+        "answer": "Am Abend lege ich mein Handy bewusst beiseite"
+      },
+      {
+        "type": "translation",
+        "source": "We had a very profound conversation last night.",
+        "target": "Wir führten gestern Abend ein sehr tiefgründiges Gespräch."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "B2 Capstone: Reading Literature, Opinion Essays & Debate",
+    "titleDe": "B2-Meilenstein: Literatur, Kommentare & Souveräne Argumentation",
+    "type": "B2 Reading Mastery",
+    "icon": "🎓",
+    "level": "B2",
+    "readingText": {
+      "title": "Vom Ankommen in einer fremden Sprache",
+      "text": "Eine neue Sprache von Grund auf zu erlernen gleicht anfangs dem Besteigen eines hohen Berges im Nebel: Jedes Wort muss einzeln erobert werden, und die Grammatik erscheint wie ein unüberwindbares Labyrinth. Doch wer beharrlich bleibt und sich Tag für Tag fünfzehn Minuten Zeit nimmt, erlebt irgendwann einen magischen Moment. Plötzlich setzen sich die einzelnen Bausteine zu einem klaren Bild zusammen. Aus fremden Lauten werden vertraute Gedanken, aus Anstrengung wird Freude am Verstehen – und mitten in Berlin stellt man fest, dass man in der deutschen Sprache ein zweites Zuhause gefunden hat.",
+      "glossary": [
+        {
+          "de": "von Grund auf",
+          "en": "from the ground up / from scratch"
+        },
+        {
+          "de": "gleichen (+ Dat.)",
+          "en": "to resemble / be like"
+        },
+        {
+          "de": "unüberwindbar / beharrlich",
+          "en": "insurmountable / persistent, steadfast"
+        },
+        {
+          "de": "sich zusammensetzen zu",
+          "en": "to come together to form"
+        }
+      ],
+      "question": "Welche zentrale Botschaft vermittelt dieser abschließende B2-Text über das Sprachenlernen?",
+      "options": [
+        "Mit täglicher Ausdauer verwandelt sich anfängliche Mühe in echtes Verstehen und ein Gefühl des Angekommenseins.",
+        "Man kann eine Fremdsprache nur lernen, wenn man in den Bergen wohnt.",
+        "Deutsche Grammatik bleibt für immer unverständlich.",
+        "Man sollte nur einmal im Jahr fünfzehn Minuten lernen."
+      ],
+      "answer": 0
+    },
+    "lectureContent": [
+      {
+        "sectionTitle": "Key Vocabulary: Literary Expression & Advanced Debate",
+        "type": "vocabulary",
+        "content": "<table><thead><tr><th>Deutsch</th><th>English</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>von Grund auf</strong></td><td>from scratch / thoroughly</td><td>Er hat die deutsche Sprache von Grund auf gelernt.</td></tr><tr><td><strong>beharrlich / die Ausdauer</strong></td><td>persistent / perseverance, stamina</td><td>Mit täglicher Ausdauer erreicht man jedes Ziel.</td></tr><tr><td><strong>gleichen (+ Dat.)</strong></td><td>to resemble / be equal to</td><td>Kein Tag in Berlin gleicht dem anderen.</td></tr><tr><td><strong>überwinden (überwand, überwunden)</strong></td><td>to overcome</td><td>Gemeinsam haben wir alle Hindernisse überwunden.</td></tr><tr><td><strong>vertraut / fremd</strong></td><td>familiar / foreign, unfamiliar</td><td>Die Stadt ist mir inzwischen vollkommen vertraut.</td></tr><tr><td><strong>meines Erachtens (m. E.)</strong></td><td>in my estimation / in my view (B2/C1)</td><td>Meines Erachtens überwiegen hier klar die Vorteile.</td></tr><tr><td><strong>zusammenfassend lässt sich sagen</strong></td><td>in summary, it can be said</td><td>Zusammenfassend lässt sich sagen, dass sich die Mühe lohnt.</td></tr><tr><td><strong>überwiegen</strong></td><td>to outweigh / predominate</td><td>Am Ende überwiegt die Freude über den Erfolg.</td></tr></tbody></table>"
+      },
+      {
+        "sectionTitle": "Grammar & Rhetoric: The Complete B2 Reader's Toolkit",
+        "type": "grammar",
+        "content": "<p>Congratulations — you have reached the B2 Capstone! Here are the 5 pillars that let you read any German book, report, or newspaper with confidence:</p><ol><li><strong>The Sentence Bracket (Satzklammer):</strong> Anchor on Position 2 (conjugated verb) and scan to the end of the clause for the lexical verb/participle/prefix.</li><li><strong>Extended Participial Attributes:</strong> When you see <code>Article + Preposition/Adverb ... Participle + Noun</code>, connect the Article to the Noun first.</li><li><strong>Nominal Style Unpacking:</strong> Turn <em>Zur Verbesserung / Trotz der Verzögerung / Aufgrund des Wachstums</em> into active mental clauses.</li><li><strong>Konjunktiv I & Subjective Modals:</strong> Recognize <em>sei, habe, gebe, soll ... gemacht haben, dürfte</em> as reported speech and probability estimations.</li><li><strong>Double Connectors:</strong> Use <em>zwar ... aber</em>, <em>je ... desto</em>, and <em>sowohl ... als auch</em> to follow the author's argumentative arc effortlessly.</li></ol>"
+      },
+      {
+        "sectionTitle": "Meilenstein-Redewendung: 'Übung macht den Meister!'",
+        "type": "idiom",
+        "content": "<p><strong>Übung macht den Meister! — Du bist jetzt ein DeutschMeister!</strong></p><p>Bedeutung: 'Practice makes the master!' With 15 minutes of focused daily practice, you have built the complete foundation from A1 to confident B2 reading and communication.</p>"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Lukas",
+        "de": "Guillermo, erinnerst du dich noch an deine ersten Wochen in Berlin?",
+        "en": "Guillermo, do you still remember your first weeks in Berlin?"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Und ob! Damals konnte ich kaum einen Kaffee bestellen, ohne nervös zu werden.",
+        "en": "I sure do! Back then I could barely order a coffee without getting nervous."
+      },
+      {
+        "speaker": "Lukas",
+        "de": "Und heute leitest du Meetings auf Deutsch und liest komplexe Berichte und Zeitungsartikel!",
+        "en": "And today you lead meetings in German and read complex reports and newspaper articles!"
+      },
+      {
+        "speaker": "Guillermo",
+        "de": "Fünfzehn Minuten jeden Tag haben wirklich den Unterschied gemacht. Jetzt fühle ich mich in Berlin richtig zu Hause!",
+        "en": "Fifteen minutes every day really made the difference. Now I truly feel at home in Berlin!"
+      }
+    ],
+    "exercises": [
+      {
+        "type": "multiple_choice",
+        "question": "What does the formal B2 expression 'Meines Erachtens überwiegen die Vorteile' mean?",
+        "options": [
+          "In my view / estimation, the advantages outweigh the disadvantages.",
+          "I forgot what the advantages are.",
+          "The disadvantages are too heavy to carry.",
+          "Nobody paid attention to me."
+        ],
+        "answer": 0
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Zusammenfassend ___ sich sagen, dass tägliches Lesen der beste Weg zum B2-Niveau ist.",
+        "answer": "lässt",
+        "hint": "Zusammenfassend ___ sich sagen (it can be said)"
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "de": "von Grund auf",
+            "en": "from scratch / from the ground up"
+          },
+          {
+            "de": "meines Erachtens",
+            "en": "in my estimation / opinion"
+          },
+          {
+            "de": "die Ausdauer",
+            "en": "perseverance / stamina"
+          },
+          {
+            "de": "überwinden",
+            "en": "to overcome"
+          }
+        ]
+      },
+      {
+        "type": "reorder",
+        "words": [
+          "Mit",
+          "täglicher",
+          "Ausdauer",
+          "erreicht",
+          "man",
+          "jedes",
+          "Ziel"
+        ],
+        "answer": "Mit täglicher Ausdauer erreicht man jedes Ziel"
+      },
+      {
+        "type": "translation",
+        "source": "In summary, it can be said that the effort is worth it.",
+        "target": "Zusammenfassend lässt sich sagen, dass sich die Mühe lohnt."
+      }
+    ]
+  }
+]
