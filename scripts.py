@@ -810,14 +810,19 @@ function createDerangedMatchingPairs(rawPairs) {
   // If there are 2 or more pairs, guarantee that NO rightItem is at the same row index as its counterpart
   if (rawPairs.length > 1) {
     let attempts = 0;
-    while (attempts < 25 && rightItems.some((r, idx) => r.id === leftItems[idx].id)) {
+    while (attempts < 30 && rightItems.some((r, idx) => r.id === leftItems[idx].id)) {
       rightItems = shuffleArray(rightItems);
       attempts++;
     }
+    // Strict fallback guarantee: if any collision remains, find a safe swap index with zero collisions
     for (let i = 0; i < rightItems.length; i++) {
       if (rightItems[i].id === leftItems[i].id) {
-        const swapIdx = (i + 1) % rightItems.length;
-        [rightItems[i], rightItems[swapIdx]] = [rightItems[swapIdx], rightItems[i]];
+        for (let j = 0; j < rightItems.length; j++) {
+          if (j !== i && rightItems[j].id !== leftItems[i].id && rightItems[i].id !== leftItems[j].id) {
+            [rightItems[i], rightItems[j]] = [rightItems[j], rightItems[i]];
+            break;
+          }
+        }
       }
     }
   }
@@ -1946,6 +1951,141 @@ function toggleRunnerMic() {
   runnerRecognition.start();
 }
 
+/* --- Comprehensive German Syntax & Grammar Analyzer --- */
+function analyzeGermanSentence(rawText) {
+  const text = (rawText || '').trim();
+  const words = text.split(/\\s+/).filter(Boolean);
+
+  // 1. Length & Basic Sentence Requirement Check
+  if (words.length < 3) {
+    return {
+      valid: false,
+      isTooShort: true,
+      message: '⚠️ <strong>Zu kurz für einen Satz:</strong> Ein vollständiger deutscher Satz braucht mindestens ein Subjekt und ein konjugiertes Verb (z.B. <em>„Ich lerne heute Deutsch.“</em>). Bitte formuliere mindestens 3–4 Wörter.'
+    };
+  }
+
+  const corrections = [];
+  const tips = [];
+
+  // 2. Common Lowercased German Nouns
+  const commonNouns = {
+    'freund': 'Freund', 'freundin': 'Freundin', 'freunde': 'Freunde',
+    'wohnung': 'Wohnung', 'haus': 'Haus', 'zimmer': 'Zimmer', 'küche': 'Küche',
+    'kaffee': 'Kaffee', 'tee': 'Tee', 'bier': 'Bier', 'wasser': 'Wasser', 'brot': 'Brot',
+    'arbeit': 'Arbeit', 'büro': 'Büro', 'kollege': 'Kollege', 'kollegen': 'Kollegen', 'kollegin': 'Kollegin',
+    'termin': 'Termin', 'meeting': 'Meeting', 'projekt': 'Projekt',
+    'stadt': 'Stadt', 'berlin': 'Berlin', 'deutschland': 'Deutschland',
+    'wochenende': 'Wochenende', 'zeit': 'Zeit', 'geld': 'Geld', 'leben': 'Leben',
+    'tag': 'Tag', 'morgen': 'Morgen', 'abend': 'Abend', 'nacht': 'Nacht',
+    'u-bahn': 'U-Bahn', 's-bahn': 'S-Bahn', 'zug': 'Zug', 'bus': 'Bus', 'fahrrad': 'Fahrrad',
+    'deutsch': 'Deutsch', 'englisch': 'Englisch', 'spanisch': 'Spanisch'
+  };
+
+  const foundLowerNouns = [];
+  words.forEach(w => {
+    const clean = w.replace(/[.,!?:;()"„“]/g, '');
+    const lower = clean.toLowerCase();
+    if (commonNouns[lower] && clean === lower && clean.length > 2) {
+      if (!foundLowerNouns.includes(commonNouns[lower])) {
+        foundLowerNouns.push(commonNouns[lower]);
+      }
+    }
+  });
+  if (foundLowerNouns.length > 0) {
+    tips.push(`💡 <strong>Großschreibung:</strong> Im Deutschen werden alle Substantive großgeschrieben: <em>${foundLowerNouns.join(', ')}</em>.`);
+  }
+
+  // 3. Verb Position 2 (Inversion after Time / Place / Adverbial elements)
+  const invMatch = text.match(/^(gestern|heute|morgen|am\\s+wochenende|in\\s+berlin|leider|manchmal|oft|jetzt|danach|zuerst|später|jeden\\s+tag)\\s+([a-zäöüß]+)\\s+([a-zäöüß]+)/i);
+  if (invMatch) {
+    const adv = invMatch[1];
+    const subj = invMatch[2];
+    const verbCandidate = invMatch[3];
+    const pronouns = ['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'man'];
+    if (pronouns.includes(subj.toLowerCase())) {
+      corrections.push(`⚠️ <strong>Verbposition 2 (Inversion):</strong> Nach einer Zeit- oder Ortsangabe am Satzanfang muss das Verb an Position 2 stehen: <em>${adv} <strong>${verbCandidate}</strong> ${subj}...</em> (nicht <em>„${adv} ${subj} ${verbCandidate}“</em>).`);
+    }
+  }
+
+  // 4. Subordinate Clause End-Verb (weil, obwohl, dass, wenn, da, indem)
+  const subConjunctions = ['weil', 'obwohl', 'dass', 'daß', 'wenn', 'indem', 'sodass'];
+  subConjunctions.forEach(conj => {
+    const re = new RegExp('(\\b' + conj + '\\b)([^,.;!?]+)', 'i');
+    const m = text.match(re);
+    if (m) {
+      const clause = m[2].trim();
+      const clauseWords = clause.split(/\\s+/).filter(Boolean);
+      const commonVerbs = ['bin', 'bist', 'ist', 'sind', 'seid', 'war', 'waren', 'habe', 'hast', 'hat', 'haben', 'habt', 'hatte', 'kann', 'kannst', 'können', 'könnt', 'konnte', 'muss', 'musst', 'müssen', 'müsst', 'musste', 'will', 'willst', 'wollen', 'wollt', 'werde', 'wirst', 'wird', 'werden', 'wurde', 'wohne', 'wohnst', 'wohnt', 'wohnen', 'arbeite', 'arbeitest', 'arbeitet', 'arbeiten', 'gehe', 'gehst', 'geht', 'gehen', 'lebe', 'lebst', 'lebt', 'leben'];
+      if (clauseWords.length >= 3) {
+        for (let i = 0; i < clauseWords.length - 1; i++) {
+          const wClean = clauseWords[i].toLowerCase().replace(/[.,!?:;]/g, '');
+          if (commonVerbs.includes(wClean)) {
+            corrections.push(`⚠️ <strong>Verbstellung bei „${conj}“:</strong> Das konjugierte Verb (<em>${clauseWords[i]}</em>) muss ans absolute <strong>Satzende</strong> wandern: <em>... ${conj} [Subjekt] ... <strong>${clauseWords[i]}</strong></em>.`);
+            break;
+          }
+        }
+      }
+    }
+  });
+
+  // 5. Irregular Past Participles (Perfekt)
+  const irregularParticipleErrors = [
+    { bad: /\\bgetrinkt\\b/i, good: 'getrunken', verb: 'trinken' },
+    { bad: /\\bgegeht\\b/i, good: 'gegangen', verb: 'gehen' },
+    { bad: /\\bgeschreibt\\b/i, good: 'geschrieben', verb: 'schreiben' },
+    { bad: /\\bgesprecht\\b/i, good: 'gesprochen', verb: 'sprechen' },
+    { bad: /\\bgehelft\\b/i, good: 'geholfen', verb: 'helfen' },
+    { bad: /\\bgeesst\\b/i, good: 'gegessen', verb: 'essen' },
+    { bad: /\\bgefindet\\b/i, good: 'gefunden', verb: 'finden' },
+    { bad: /\\bgetrefft\\b/i, good: 'getroffen', verb: 'treffen' },
+    { bad: /\\bgeschlaft\\b/i, good: 'geschlafen', verb: 'schlafen' }
+  ];
+  irregularParticipleErrors.forEach(err => {
+    if (err.bad.test(text)) {
+      corrections.push(`⚠️ <strong>Partizip II von ${err.verb}:</strong> Das Partizip heißt <strong>${err.good}</strong> (unregelmäßig, nicht „${text.match(err.bad)[0]}“).`);
+    }
+  });
+
+  // 6. Preposition + Case Traps (Dative with 'mit', 'bei', 'zu', 'aus', 'nach')
+  if (/\\bmit\\s+(meine|deine|seine|ihre|unsere)\\s+(leben|wohnung|freunden|kollegen|team)/i.test(text)) {
+    corrections.push(`⚠️ <strong>Dativ nach „mit“:</strong> Die Präposition <em>mit</em> verlangt immer den <strong>Dativ</strong>: <em>mit mein<strong>em</strong> Leben</em> (neutrum) oder <em>mit mein<strong>en</strong> Freunden</em> (plural).`);
+  } else if (/\\bmit\\s+meine\\s+leben\\b/i.test(text)) {
+    corrections.push(`⚠️ <strong>Dativ nach „mit“:</strong> <em>das Leben</em> ist Neutrum, im Dativ heißt es: <em>mit mein<strong>em</strong> Leben</em>.`);
+  }
+
+  // 7. Accusative Gender Traps (einen Kaffee vs. ein Bier)
+  if (/\\beinen\\s+bier\\b/i.test(text)) {
+    corrections.push(`⚠️ <strong>Geschlecht von Bier:</strong> Es heißt <em>das Bier</em> (Neutrum), daher im Akkusativ: <strong>ein Bier</strong> (nicht „einen Bier“).`);
+  }
+  if (/\\beine\\s+kaffee\\b/i.test(text)) {
+    corrections.push(`⚠️ <strong>Geschlecht von Kaffee:</strong> Es heißt <em>der Kaffee</em> (Maskulinum), daher im Akkusativ: <strong>einen Kaffee</strong> (nicht „eine Kaffee“).`);
+  }
+  if (/\\beines\\s+gutes\\s+wohnung\\b/i.test(text) || /\\beines\\s+wohnung\\b/i.test(text)) {
+    corrections.push(`⚠️ <strong>Geschlecht von Wohnung:</strong> Es heißt <em>die Wohnung</em> (Femininum), daher im Akkusativ: <strong>eine gute Wohnung</strong> (nicht „eines gutes wohnung“).`);
+  }
+
+  // 8. Conjugation of 'helfen' (ich helfe, not ich hilfe)
+  if (/\\bich\\s+hilfe\\b/i.test(text)) {
+    corrections.push(`⚠️ <strong>Konjugation von helfen:</strong> Der Vokalwechsel von e zu i passiert nur bei <em>du hilfst</em> und <em>er hilft</em>. Für die 1. Person heißt es: <strong>ich helfe</strong>.`);
+  }
+
+  // 9. Check if text has at least one recognizable verb
+  const anyVerbRegex = /\\b(bin|bist|ist|sind|seid|war|waren|habe|hast|hat|haben|habt|hatte|kann|kannst|können|könnt|konnte|muss|musst|müssen|müsst|musste|will|willst|wollen|wollt|werde|wirst|wird|werden|wurde|wohne|wohnst|wohnt|wohnen|arbeite|arbeitest|arbeitet|arbeiten|gehe|gehst|geht|gehen|lebe|lebst|lebt|leben|esse|isst|essen|trinke|trinkst|trinkt|trinken|mache|machst|macht|machen|helfe|hilfst|hilft|helfen|lerne|lernst|lernt|lernen|spreche|sprichst|spricht|sprechen|treffe|triffst|trifft|treffen|fahre|fährst|fährt|fahren|schreibe|schreibst|schreibt|schreiben|lese|liest|lesen|kaufe|kaufst|kauft|kaufen|sehe|siehst|sieht|sehen|gearbeitet|gelernt|gemacht|getrunken|gegessen|gegangen|gefahren|gesehen|gelesen|geschrieben|geholfen|gesprochen|getroffen)\\b/i;
+
+  const hasVerb = anyVerbRegex.test(text);
+  if (!hasVerb && corrections.length === 0) {
+    corrections.push(`⚠️ <strong>Verb fehlt:</strong> In deinem Satz konnte kein konjugiertes deutsches Verb erkannt werden (z.B. <em>arbeite, lerne, habe, bin, möchte, fahre</em>). Ein deutscher Satz benötigt immer mindestens ein Prädikat.`);
+  }
+
+  return {
+    valid: corrections.length === 0,
+    isTooShort: false,
+    corrections,
+    tips
+  };
+}
+
 function gradeRunnerWithProfessor() {
   const text = (document.getElementById('runner-production-text')?.value || '').trim();
   const box = document.getElementById('runner-prof-feedback');
@@ -1957,34 +2097,67 @@ function gradeRunnerWithProfessor() {
   }
 
   box.style.display = 'block';
-  box.innerHTML = `<div style="color:var(--pastel-amber-text);padding:12px;text-align:center;font-weight:700">👨‍🏫 Dein Satzbau wird analysiert...</div>`;
+  box.innerHTML = `<div style="color:var(--pastel-amber-text);padding:14px;text-align:center;font-weight:700">👨‍🏫 Herr Professor analysiert deinen Satzbau...</div>`;
 
   setTimeout(() => {
-    let corrections = [];
-    if (/weil\\s+([a-zäöü]+)\\s+(bin|habe|ist|kann|muss|wohne|arbeite)/i.test(text)) {
-      corrections.push(`⚠️ <strong>Verbstellung bei „weil“:</strong> Das konjugierte Verb wandert ans Satzende: <em>... weil ich in Berlin <strong>arbeite</strong></em>.`);
-    }
-    if (/obwohl\\s+([a-zäöü]+)\\s+(bin|habe|ist|kann|muss)/i.test(text)) {
-      corrections.push(`⚠️ <strong>Verbstellung bei „obwohl“:</strong> Auch hier gehört das Verb ans Satzende!`);
-    }
-    if (/getrinkt/i.test(text)) {
-      corrections.push(`⚠️ <strong>Partizip II von trinken:</strong> Das Partizip heißt <strong>getrunken</strong> (nicht „getrinkt“).`);
-    }
-    if (/^(gestern|heute|morgen)\\s+ich\\s+/i.test(text)) {
-      corrections.push(`⚠️ <strong>Verbposition 2 (Inversion):</strong> Nach einer Zeitangabe am Anfang folgt sofort das Verb: <em>Gestern <strong>habe</strong> ich... / Morgen <strong>arbeite</strong> ich...</em>`);
+    const analysis = analyzeGermanSentence(text);
+
+    if (analysis.isTooShort) {
+      soundEngine.wrong();
+      box.innerHTML = `
+        <div class="spanish-helper-box" style="margin-bottom:0;border-color:var(--pastel-amber);background:var(--pastel-amber-bg)">
+          <div class="spanish-helper-header" style="color:var(--pastel-amber-text)">👨‍🏫 Satzbau-Prüfung:</div>
+          <div class="spanish-helper-text" style="color:var(--text-primary)">
+            ${analysis.message}
+          </div>
+        </div>
+      `;
+      return;
     }
 
-    let html = `
-      <div class="spanish-helper-box" style="margin-bottom:0">
-        <div class="spanish-helper-header">👨‍🏫 Satzbau-Feedback:</div>
-        <div class="spanish-helper-text" style="color:var(--text-primary)">
-          ${corrections.length > 0 ? corrections.join('<br>') : '✅ <strong>Sehr gut gemacht!</strong> Dein Satzbau und die Verbstellung sehen sauber aus (+10 XP).'}
+    if (!analysis.valid) {
+      soundEngine.wrong();
+      let content = `<div style="margin-bottom:8px">${analysis.corrections.join('</div><div style="margin-bottom:8px">')}</div>`;
+      if (analysis.tips && analysis.tips.length > 0) {
+        content += `<div style="margin-top:10px;padding-top:10px;border-top:1px dashed var(--pastel-coral-border);">${analysis.tips.join('<br>')}</div>`;
+      }
+      box.innerHTML = `
+        <div class="spanish-helper-box" style="margin-bottom:0;border-color:var(--pastel-coral);background:var(--pastel-coral-bg)">
+          <div class="spanish-helper-header" style="color:var(--pastel-coral-text)">❌ Noch nicht ganz richtig:</div>
+          <div class="spanish-helper-text" style="color:var(--text-primary)">
+            ${content}
+          </div>
         </div>
-      </div>
+      `;
+      return;
+    }
+
+    // Sentence is valid!
+    soundEngine.correct();
+    const step = runnerState.steps[runnerState.currentStepIndex];
+    if (step && !step._xpAwarded) {
+      step._xpAwarded = true;
+      addXp(10);
+      showToast('🎉 +10 XP für sauberen deutschen Satzbau!');
+    }
+
+    let successHtml = `
+      <div class="berlin-example-box" style="margin-bottom:0;border-color:var(--pastel-mint);background:var(--pastel-mint-bg)">
+        <div class="berlin-example-label" style="color:var(--pastel-mint-text)">✅ Ausgezeichnet!</div>
+        <div style="font-size:0.95rem;color:var(--text-primary);font-weight:600">
+          Dein Satzbau, die Verbstellung und Grammatik sind sauber! (+10 XP)
+        </div>
     `;
-    box.innerHTML = html;
-    addXp(10);
-  }, 300);
+    if (analysis.tips && analysis.tips.length > 0) {
+      successHtml += `
+        <div style="margin-top:10px;font-size:0.85rem;color:var(--text-secondary);border-top:1px dashed var(--pastel-mint-border);padding-top:8px">
+          ${analysis.tips.join('<br>')}
+        </div>
+      `;
+    }
+    successHtml += `</div>`;
+    box.innerHTML = successHtml;
+  }, 350);
 }
 
 function toggleRunnerModelAnswer() {

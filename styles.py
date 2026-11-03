@@ -2040,9 +2040,26 @@ body {
   color: #f8fafc;
   border-color: var(--pastel-sky);
 }
+[data-theme="dark"] .matching-card.selected {
+  background: rgba(56, 189, 248, 0.22) !important;
+  color: #7dd3fc !important;
+  border-color: #38bdf8 !important;
+  box-shadow: 0 4px 0 rgba(2, 132, 199, 0.7), 0 0 14px rgba(56, 189, 248, 0.4) !important;
+}
 [data-theme="dark"] .matching-card.selected:hover {
-  background: var(--pastel-sky-bg);
-  color: var(--pastel-sky-dark);
+  background: rgba(56, 189, 248, 0.32) !important;
+  color: #bae6fd !important;
+  border-color: #38bdf8 !important;
+}
+[data-theme="dark"] .matching-card.matched {
+  background: rgba(52, 211, 153, 0.2) !important;
+  color: #6ee7b7 !important;
+  border-color: #34d399 !important;
+}
+[data-theme="dark"] .matching-card.wrong {
+  background: rgba(251, 113, 133, 0.2) !important;
+  color: #fda4af !important;
+  border-color: #fb7185 !important;
 }
 [data-theme="dark"] .tile-chip:hover {
   background: #334155;
