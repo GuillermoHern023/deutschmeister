@@ -3007,6 +3007,54 @@ function buildReadingStepForLesson(lesson, vocabItems) {
   };
 }
 
+/* Array Shuffling and Derangement Helpers */
+function shuffleArray(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function createDerangedMatchingPairs(rawPairs) {
+  const leftItems = shuffleArray(rawPairs.map((p, i) => ({ id: i, text: p.de })));
+  let rightItems = shuffleArray(rawPairs.map((p, i) => ({ id: i, text: p.en })));
+
+  // If there are 2 or more pairs, guarantee that NO rightItem is at the same row index as its counterpart
+  if (rawPairs.length > 1) {
+    let attempts = 0;
+    while (attempts < 25 && rightItems.some((r, idx) => r.id === leftItems[idx].id)) {
+      rightItems = shuffleArray(rightItems);
+      attempts++;
+    }
+    for (let i = 0; i < rightItems.length; i++) {
+      if (rightItems[i].id === leftItems[i].id) {
+        const swapIdx = (i + 1) % rightItems.length;
+        [rightItems[i], rightItems[swapIdx]] = [rightItems[swapIdx], rightItems[i]];
+      }
+    }
+  }
+
+  return { leftItems, rightItems };
+}
+
+function createScrambledSentenceTokens(rawSentence) {
+  const rawTokens = rawSentence.replace(/[.!?]/g, '').trim().split(/\s+/);
+  if (rawTokens.length <= 1) return rawTokens;
+
+  let shuffled = shuffleArray(rawTokens);
+  let attempts = 0;
+  while (attempts < 15 && shuffled.join(' ').toLowerCase() === rawTokens.join(' ').toLowerCase()) {
+    shuffled = shuffleArray(rawTokens);
+    attempts++;
+  }
+  if (shuffled.join(' ').toLowerCase() === rawTokens.join(' ').toLowerCase() && shuffled.length >= 2) {
+    [shuffled[0], shuffled[shuffled.length - 1]] = [shuffled[shuffled.length - 1], shuffled[0]];
+  }
+  return shuffled;
+}
+
 function startLessonFlow(lessonId) {
   const lesson = LESSONS.find(l => l.id === lessonId);
   if (!lesson) return;
@@ -3105,13 +3153,14 @@ function startLessonFlow(lessonId) {
       de: Array.isArray(p) ? p[0] : p.de,
       en: Array.isArray(p) ? p[1] : p.en
     }));
+    const { leftItems, rightItems } = createDerangedMatchingPairs(rawPairs);
     steps.push({
       type: 'matching_pairs',
       title: 'Wortpaare verbinden',
       instruction: matchingEx.instruction || 'Tippe auf das deutsche Wort und die passende Bedeutung:',
       pairs: rawPairs,
-      leftItems: rawPairs.map((p, i) => ({ id: i, text: p.de })).sort(() => Math.random() - 0.5),
-      rightItems: rawPairs.map((p, i) => ({ id: i, text: p.en })).sort(() => Math.random() - 0.5),
+      leftItems: leftItems,
+      rightItems: rightItems,
       matchedIds: [],
       selectedLeft: null,
       selectedRight: null
@@ -3132,12 +3181,11 @@ function startLessonFlow(lessonId) {
     answer: v1.ex || `${v1.de} ist wichtig für mich.`
   };
   const rawSentence = reorderEx.answer || 'Ich lerne Deutsch.';
-  const rawTokens = rawSentence.replace(/[.!?]/g, '').trim().split(/\s+/);
   steps.push({
     type: 'sentence_builder',
     title: 'Satzbau-Meister',
     targetSentence: rawSentence,
-    shuffledTokens: [...rawTokens].sort(() => Math.random() - 0.5),
+    shuffledTokens: createScrambledSentenceTokens(rawSentence),
     dropTokens: []
   });
 
@@ -4344,8 +4392,8 @@ function buildRecallOptions(correctItem, allItems) {
     distractors.push(fallbacks.pop());
   }
 
-  const chosenDistractors = distractors.sort(() => Math.random() - 0.5).slice(0, 3);
-  const options = [...chosenDistractors, correctItem.en].sort(() => Math.random() - 0.5);
+  const chosenDistractors = shuffleArray(distractors).slice(0, 3);
+  const options = shuffleArray([...chosenDistractors, correctItem.en]);
   const correctIndex = options.indexOf(correctItem.en);
 
   return { options, correctIndex };
