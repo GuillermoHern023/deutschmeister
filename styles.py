@@ -1183,8 +1183,9 @@ body {
   box-shadow: 0 4px 0 var(--border-medium);
 }
 .drill-option-btn:hover {
-  background: #f8fafc;
+  background: var(--bg-card-hover);
   border-color: var(--pastel-sky);
+  color: var(--text-primary);
   transform: translateY(-2px);
   box-shadow: 0 6px 0 var(--pastel-sky-border);
 }
@@ -1446,10 +1447,15 @@ body {
   user-select: none;
 }
 .matching-card:hover {
-  background: #f8fafc;
+  background: var(--bg-card-hover);
   border-color: var(--pastel-sky);
+  color: var(--text-primary);
   transform: translateY(-2px);
   box-shadow: 0 6px 0 var(--pastel-sky-border);
+}
+.matching-card.selected:hover {
+  background: var(--pastel-sky-bg);
+  color: var(--pastel-sky-dark);
 }
 .matching-card:active {
   transform: translateY(2px);
@@ -1520,6 +1526,8 @@ body {
   transition: var(--transition);
 }
 .tile-chip:hover {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
   transform: translateY(-2px);
   border-color: var(--pastel-lavender);
   box-shadow: 0 6px 0 var(--pastel-lavender-border);
@@ -1887,6 +1895,7 @@ body {
   box-shadow: 0 2px 0 var(--border-medium);
 }
 .vocab-deck-pill:hover {
+  background: var(--bg-card-hover);
   border-color: var(--pastel-sky);
   color: var(--text-primary);
   transform: translateY(-1px);
@@ -2024,6 +2033,38 @@ body {
   background: rgba(251, 113, 133, 0.22);
   border-color: #fb7185;
   color: #fda4af;
+}
+[data-theme="dark"] .drill-option-btn:hover,
+[data-theme="dark"] .matching-card:hover {
+  background: #334155;
+  color: #f8fafc;
+  border-color: var(--pastel-sky);
+}
+[data-theme="dark"] .matching-card.selected:hover {
+  background: var(--pastel-sky-bg);
+  color: var(--pastel-sky-dark);
+}
+[data-theme="dark"] .tile-chip:hover {
+  background: #334155;
+  color: #f8fafc;
+}
+[data-theme="dark"] .vocab-deck-pill:hover {
+  background: #334155;
+  color: #f8fafc;
+}
+[data-theme="dark"] .btn-runner-close:hover {
+  background: rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+  border-color: rgba(239, 68, 68, 0.4);
+}
+[data-theme="dark"] .stat-pill.timer-pill:hover,
+[data-theme="dark"] .runner-timer-pill:hover {
+  background: rgba(251, 191, 36, 0.25);
+  color: #fde047;
+  border-color: rgba(251, 191, 36, 0.5);
+}
+[data-theme="dark"] .chat-msg-row.left .chat-speaker {
+  color: #94a3b8;
 }
 
 /* Friendly Pastel Toast Notification */
