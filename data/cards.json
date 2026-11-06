@@ -310,5 +310,17 @@
     "interval": 0,
     "reps": 0,
     "dueDate": 0
+  },
+  {
+    "id": "card-27",
+    "de": "verstecken (sich verstecken)",
+    "en": "to hide, conceal / to hide oneself",
+    "contextDe": "Die Katze hat sich unter dem Sofa versteckt.",
+    "contextEn": "The cat hid under the sofa.",
+    "tag": "Verb / Book",
+    "note": "Regular verb: versteckt, versteckte, hat versteckt. Inseparable prefix ver-. Kids game: Verstecken spielen (to play hide and seek).",
+    "interval": 0,
+    "reps": 0,
+    "dueDate": 0
   }
 ]
