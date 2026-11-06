@@ -1,56 +1,32 @@
-# 🇩🇪 DeutschMeister — Interaktiver B1 Sprachkurs & KI-Professor
+# 🇩🇪 WortMeister — Mein persönlicher Deutsch-Wortschatz & Sentence-Miner
 
-Ein interaktives Deutsch-Lernportal (Dark Academia Design) für **A2.1, A2.2 und B1**, speziell optimiert für flüssige Alltagskommunikation.
+Ein minimalistisches, taktiles Vokabel- & Satz-Vault für selbstbestimmtes Deutschlernen nach der **Sentence-Mining** Methode.
 
-Inklusive persönlichem **KI-Professor (Herr Professor)** für:
-* 💬 Live-Chat & Grammatikfragen
-* ✍️ Satzbau- & Textkorrektur (mit Verbstellungs- und Fallanalyse)
-* 📋 1-Klick-Export für Hausaufgaben und Antigravity-Chat
-* 🤖 Optionale Live-KI-Anbindung über kostenlosen Google Gemini API-Key
+Keine vorgegebenen Kindergarten-Lektionen, keine erzwungenen 15-Minuten-Timer — lerne aus echten Büchern, Alltagssituationen und deinen Fragen hier im Chat.
 
 ---
 
-## 🚀 Live auf GitHub Pages veröffentlichen
+## 🚀 Wie du lernst (Die „Make Kirby“-Methode)
 
-Du kannst diese Seite in 1 Minute kostenlos auf GitHub Pages hosten:
-
-1. **Neues Repository auf GitHub erstellen** (z. B. `deutsch-lernen` oder `deutschmeister`).
-2. **Code hochladen:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: DeutschMeister mit KI-Professor & Lektion 61"
-   git branch -M main
-   git remote add origin https://github.com/<DEIN-NUTZERNAME>/<REPO-NAME>.git
-   git push -u origin main
-   ```
-3. **GitHub Pages aktivieren:**
-   * Gehe in deinem GitHub-Repository auf **Settings** → **Pages**.
-   * Wähle unter **Build and deployment** > Branch: **`main`** und Folder: **`/ (root)`**.
-   * Klicke auf **Save**. In ca. 30 Sekunden ist deine Seite weltweit unter `https://<DEIN-NUTZERNAME>.github.io/<REPO-NAME>/` online!
+1. **Lies ein deutsches Buch, schau eine Serie oder unterhalte dich im Alltag.**
+2. **Wenn du auf ein Wort oder einen Satz stößt, den du verstehen willst:**
+   * Frag einfach hier im Chat: *„Was bedeutet X in diesem Kontext?“*
+3. **Ich erkläre es dir und gebe dir einen 1-Klick-Import-Block.**
+4. **Öffne WortMeister:**
+   * Klicke auf **💬 (Chat-Import)** oder **+ Wort hinzufügen**.
+   * Füge das Wort ein. Es ist sofort in deinem Deck mit Beispielsatz, Audio und Spaced Repetition!
+5. **Wiederholen in 2 Minuten:**
+   * Leertaste zum Umdrehen.
+   * `[1]` Nochmal, `[2]` Schwer, `[3]` Gut, `[4]` Einfach.
+   * `[S]` zum Anhören der deutschen Aussprache.
 
 ---
 
-## 💻 Lokal im Browser öffnen
+## ✨ Features
 
-Doppelklicke einfach auf die Datei [index.html](index.html) oder starte einen lokalen Webserver:
-
-```bash
-python -m http.server 8000
-```
-Öffne anschließend [http://localhost:8000](http://localhost:8000) im Browser.
-
----
-
-## 📚 Enthaltene Features
-
-- **61 interaktive Lektionen** von A2.1 bis B1:
-  - Vorlesungen (Erklärungen & Vokabeln)
-  - Interaktive Karteikarten (Spaced Repetition)
-  - Übungen (Lückentexte, Multiple Choice, Satzbau-Reorder)
-  - Prüfungen mit Sternen & Zertifikaten
-  - **👨‍🏫 Professor-Praxis:** Maßgeschneiderte Schreibaufgaben für jede Lektion
-- **Floating Herr Professor Hub:**
-  - Chatfenster für Grammatikfragen
-  - Echtzeit-Korrektur von Sätzen
-  - 1-Klick *"Für Chat kopieren"* für deinen Unterricht
+* 🎴 **Taktiler 3D-Karten-Review:** Geschmeidige Flip-Animation, Tastatur-Shortcuts (`Leertaste`, `1`-`4`, `S`).
+* 🔊 **Native deutsche Aussprache:** Web Speech Synthesis (`de-DE`) für jedes Wort und jeden Beispielsatz.
+* 📚 **Wörter-Vault mit Live-Suche:** Filtere nach Tags (`#Street`, `#Book`, `#Food`, `#Alltag`) oder suche blitzschnell nach Wörtern.
+* 💬 **Chat-Sync & JSON-Import:** Importiere einzelne Wörter oder ganze Listen aus KI-Chats mit 1 Klick.
+* 💾 **100% Offline & Lokal:** Speichert alles in deinem Browser (`localStorage`) und unterstützt JSON-Export/Backup.
+* 🌙 **Pastel Nacht & 🌸 Pastel Tag:** Augenschonendes Dark- & Light-Design.
