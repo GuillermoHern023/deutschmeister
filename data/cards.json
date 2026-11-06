@@ -274,5 +274,17 @@
     "interval": 0,
     "reps": 0,
     "dueDate": 0
+  },
+  {
+    "id": "card-24",
+    "de": "der Quatsch (Ach, Quatsch!)",
+    "en": "nonsense, rubbish, bullshit (Oh, nonsense! / No way!)",
+    "contextDe": "Glaub ihm kein Wort, das ist doch totaler Quatsch!",
+    "contextEn": "Do not believe a word he says, that is total nonsense!",
+    "tag": "Everyday Slang",
+    "note": "Maskulinum (der Quatsch). Common phrase: Ach Quatsch! (Nonsense! / Are you kidding?). Verb: quatschen (to chat / gossip). Spelled with one a (Quatsch).",
+    "interval": 0,
+    "reps": 0,
+    "dueDate": 0
   }
 ]
