@@ -199,16 +199,17 @@
     .nav-tab-btn {
       background: transparent;
       border: none;
-      padding: 8px 16px;
+      padding: 7px 12px;
       border-radius: var(--radius-full);
       font-family: inherit;
-      font-size: 0.88rem;
+      font-size: 0.83rem;
       font-weight: 600;
       color: var(--text-secondary);
       cursor: pointer;
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
+      white-space: nowrap;
       transition: var(--transition);
     }
 
@@ -1274,16 +1275,245 @@
       border-color: var(--pastel-coral-border);
     }
 
+    .btn-mini-pill {
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-medium);
+      border-radius: var(--radius-full);
+      padding: 6px 12px;
+      font-family: inherit;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-secondary);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+      transition: var(--transition);
+    }
+
+    .btn-mini-pill:hover {
+      border-color: var(--pastel-sky);
+      color: var(--pastel-sky-text);
+      background: var(--pastel-sky-bg);
+    }
+
+    .btn-mini-pill.danger:hover {
+      border-color: var(--pastel-amber);
+      color: var(--pastel-amber-text);
+      background: var(--pastel-amber-bg);
+    }
+
+    .btn-batch-icon {
+      flex: 0 0 auto !important;
+      padding: 8px 10px !important;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .btn-batch-icon:hover {
+      background: var(--pastel-sky-bg);
+      color: var(--pastel-sky-text);
+      border-color: var(--pastel-sky-border);
+    }
+
+    /* =========================================================
+       PACKAGE TABLE VIEW
+       ========================================================= */
+    .table-controls {
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-medium);
+      border-radius: var(--radius-lg);
+      padding: 18px 20px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .table-controls-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .table-select-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+
+    .table-package-select {
+      background: var(--bg-surface-elevated);
+      border: 1.5px solid var(--border-medium);
+      border-radius: var(--radius-sm);
+      padding: 9px 14px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      cursor: pointer;
+      outline: none;
+      min-width: 240px;
+    }
+
+    .table-package-select:focus {
+      border-color: var(--pastel-sky);
+    }
+
+    .table-actions-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .vocab-table-wrap {
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-medium);
+      border-radius: var(--radius-lg);
+      overflow-x: auto;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .vocab-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      text-align: left;
+    }
+
+    .vocab-table thead th {
+      background: var(--bg-surface-elevated);
+      color: var(--text-muted);
+      font-size: 0.74rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 12px 14px;
+      border-bottom: 1.5px solid var(--border-subtle);
+      white-space: nowrap;
+    }
+
+    .vocab-table tbody tr {
+      border-bottom: 1px solid var(--border-subtle);
+      transition: background 0.15s ease;
+    }
+
+    .vocab-table tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    .vocab-table tbody tr:hover {
+      background: var(--bg-card-hover);
+    }
+
+    .vocab-table td {
+      padding: 11px 14px;
+      vertical-align: top;
+    }
+
+    .tbl-num {
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.76rem;
+      width: 38px;
+    }
+
+    .tbl-de {
+      font-weight: 800;
+      color: var(--text-primary);
+    }
+
+    .tbl-forms {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .tbl-en {
+      color: var(--pastel-sky-text);
+      font-weight: 600;
+    }
+
+    .tbl-ex-de {
+      color: var(--text-primary);
+      line-height: 1.4;
+    }
+
+    .tbl-ex-en {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      margin-top: 3px;
+      line-height: 1.35;
+    }
+
+    .tbl-speak-btn {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-full);
+      width: 28px;
+      height: 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 0.82rem;
+      transition: var(--transition);
+    }
+
+    .tbl-speak-btn:hover {
+      background: var(--pastel-sky-bg);
+      border-color: var(--pastel-sky-border);
+    }
+
+    .tbl-status-pill {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: var(--radius-full);
+      white-space: nowrap;
+    }
+
+    .tbl-status-pill.st-learned {
+      background: var(--pastel-mint-bg);
+      color: var(--pastel-mint-text);
+    }
+
+    .tbl-status-pill.st-due {
+      background: var(--pastel-sky-bg);
+      color: var(--pastel-sky-text);
+    }
+
+    .tbl-status-pill.st-inactive {
+      background: var(--bg-surface-elevated);
+      color: var(--text-muted);
+    }
+
     /* Responsive */
-    @media (max-width: 700px) {
+    @media (max-width: 920px) {
       .header-inner { flex-wrap: wrap; }
+      .nav-tabs { order: 3; width: 100%; justify-content: space-around; overflow-x: auto; }
+    }
+
+    @media (max-width: 700px) {
       .brand-title { font-size: 1.1rem; }
-      .nav-tabs { order: 3; width: 100%; justify-content: space-around; }
       .review-header { flex-direction: column; align-items: stretch; gap: 10px; }
       .rating-buttons-bar { grid-template-columns: repeat(2, 1fr); }
       .flashcard-stage { min-height: 380px; }
       .german-target-phrase { font-size: 1.7rem; }
       .english-meaning { font-size: 1.5rem; }
+      .table-package-select { width: 100%; }
     }
   </style>
 </head>
@@ -1304,15 +1534,18 @@
 
       <nav class="nav-tabs">
         <button class="nav-tab-btn active" id="tab-btn-review" onclick="switchView('review')">
-          <span>🎴 Karten üben</span>
+          <span>🎴 Üben</span>
           <span class="tab-badge" id="due-count-badge">0</span>
         </button>
         <button class="nav-tab-btn" id="tab-btn-lists" onclick="switchView('lists')">
-          <span>📦 Wortlisten</span>
+          <span>📦 Päckchen</span>
           <span class="tab-badge" id="lists-count-badge">0</span>
         </button>
+        <button class="nav-tab-btn" id="tab-btn-table" onclick="switchView('table')">
+          <span>📋 Tabelle</span>
+        </button>
         <button class="nav-tab-btn" id="tab-btn-vault" onclick="switchView('vault')">
-          <span>📚 Wörter-Vault</span>
+          <span>📚 Vault</span>
           <span class="tab-badge" id="total-count-badge">0</span>
         </button>
       </nav>
@@ -1350,9 +1583,12 @@
           <select id="review-filter-select" class="review-filter-select" onchange="setReviewFilter(this.value)" title="Übungsstapel wählen">
             <option value="all">Alle fälligen Karten</option>
           </select>
-          <div style="font-size:0.8rem;color:var(--text-muted);font-weight:600">
-            <span class="kbd-shortcut">Leertaste</span> zum Drehen
-          </div>
+          <button class="btn-mini-pill" onclick="restartCurrentFromZero(false)" title="Alle Karten dieses Stapels neu mischen & bei Karte 1 starten">
+            🔀 Neu mischen
+          </button>
+          <button class="btn-mini-pill danger" onclick="restartCurrentFromZero(true)" title="Fortschritt dieses Stapels auf 0 zurücksetzen & zufällig von vorn beginnen">
+            ↺ Reset auf 0
+          </button>
         </div>
       </div>
 
@@ -1477,6 +1713,11 @@
     <!-- VIEW 3: GOETHE 100-WORD BATCHES -->
     <div class="view-container" id="view-lists">
       <div id="lists-container"></div>
+    </div>
+
+    <!-- VIEW 4: PACKAGE TABLE VIEW -->
+    <div class="view-container" id="view-table">
+      <div id="table-container"></div>
     </div>
 
   </main>
@@ -1912,7 +2153,18 @@
     let isFlipped = false;
     let selectedVaultTag = 'all';
     let activeReviewFilter = 'all';
+    let selectedTablePackage = 'A1-B01';
+    let tableSearchQuery = '';
     let vaultRenderLimit = 150;
+
+    function shuffleArray(arr) {
+      const copy = [...arr];
+      for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+      return copy;
+    }
 
     // --- 3. SOUND SYNTHESIZER (Tactile Audio) ---
     const AudioContextClass = window.AudioContext || window.webkitAudioContext;
@@ -1997,6 +2249,7 @@
       renderCurrentCard();
       renderVault();
       renderLists();
+      renderTableView();
       setupKeyboardShortcuts();
     }
 
@@ -2047,19 +2300,48 @@
       const now = Date.now();
       const pool = getFilteredDeckForReview();
       if (forceAll) {
-        reviewQueue = [...pool].sort(() => Math.random() - 0.5);
+        reviewQueue = shuffleArray(pool);
       } else {
         // Due cards: either dueDate <= now, or never reviewed (dueDate: 0)
-        reviewQueue = pool.filter(c => !c.dueDate || c.dueDate <= now);
+        const due = pool.filter(c => !c.dueDate || c.dueDate <= now);
         // If nothing is technically due, load all cards in current filter so the user can always practice
-        if (reviewQueue.length === 0) {
-          reviewQueue = [...pool].sort(() => Math.random() - 0.5);
-        } else {
-          reviewQueue.sort(() => Math.random() - 0.5);
-        }
+        reviewQueue = shuffleArray(due.length > 0 ? due : pool);
       }
       currentCardIndex = 0;
       isFlipped = false;
+    }
+
+    function restartCurrentFromZero(resetProgress = false) {
+      const pool = getFilteredDeckForReview();
+      if (pool.length === 0) {
+        showToast('ℹ️ Keine Karten im aktuellen Stapel.');
+        return;
+      }
+
+      if (resetProgress) {
+        const hasProgress = pool.some(c => (c.reps || 0) > 0 || (c.interval || 0) > 0);
+        if (hasProgress && !confirm(`Fortschritt von ${pool.length} Karten in diesem Stapel auf 0 zurücksetzen und zufällig ab Karte 1 starten?`)) {
+          return;
+        }
+        const ids = new Set(pool.map(c => c.id));
+        deck.forEach(c => {
+          if (ids.has(c.id)) {
+            c.reps = 0;
+            c.interval = 0;
+            c.dueDate = 0;
+            delete c.lastReviewed;
+          }
+        });
+        saveDeck();
+        renderLists();
+        renderTableView();
+      }
+
+      prepareReviewQueue(true);
+      renderCurrentCard();
+      showToast(resetProgress
+        ? `↺ ${reviewQueue.length} Karten auf 0 zurückgesetzt & neu gemischt!`
+        : `🔀 ${reviewQueue.length} Karten neu gemischt (ab Karte 1)!`);
     }
 
     function renderReviewFilterSelect() {
@@ -2579,6 +2861,12 @@
                   <button class="btn-primary" onclick="practiceBatch('${escapeForAttr(batch.id)}')">
                     🎯 Üben (${st.dueCount > 0 ? st.dueCount : st.activeCount})
                   </button>
+                  <button class="btn-batch-icon" onclick="openPackageTable('${escapeForAttr(batch.id)}')" title="Als Tabelle anzeigen">
+                    📋
+                  </button>
+                  <button class="btn-batch-icon" onclick="resetBatchToZero('${escapeForAttr(batch.id)}')" title="Fortschritt auf 0 zurücksetzen & zufällig neu starten">
+                    ↺
+                  </button>
                   <button class="btn-batch-remove" onclick="deactivateBatch('${escapeForAttr(batch.id)}')" title="Päckchen entfernen">
                     🗑️
                   </button>
@@ -2587,6 +2875,9 @@
                 <div class="batch-actions">
                   <button class="btn-secondary" onclick="activateBatch('${escapeForAttr(batch.id)}')">
                     + ${batch.items.length} Wörter aktivieren
+                  </button>
+                  <button class="btn-batch-icon" onclick="openPackageTable('${escapeForAttr(batch.id)}')" title="Alle Wörter in Tabelle ansehen">
+                    📋
                   </button>
                 </div>
               `}
@@ -2643,14 +2934,39 @@
       return added;
     }
 
-    function practiceBatch(batchId) {
+    function practiceBatch(batchId, resetFirst = false) {
       const hasCards = deck.some(c => c.batchId === batchId);
       if (!hasCards) activateBatch(batchId, true);
+      if (resetFirst) {
+        deck.forEach(c => {
+          if (c.batchId === batchId) {
+            c.reps = 0;
+            c.interval = 0;
+            c.dueDate = 0;
+            delete c.lastReviewed;
+          }
+        });
+        saveDeck();
+      }
       activeReviewFilter = batchId;
       renderReviewFilterSelect();
-      prepareReviewQueue(false);
+      prepareReviewQueue(resetFirst);
       renderCurrentCard();
       switchView('review');
+    }
+
+    function resetBatchToZero(batchId) {
+      const batch = getGoetheBatches().find(b => b.id === batchId);
+      const label = batch ? `${batch.level} Päckchen ${batch.num}` : batchId;
+      const cardsInBatch = deck.filter(c => c.batchId === batchId);
+      const hasProgress = cardsInBatch.some(c => (c.reps || 0) > 0 || (c.interval || 0) > 0);
+      if (hasProgress && !confirm(`"${label}" komplett auf 0 zurücksetzen und in neuer zufälliger Reihenfolge starten?`)) {
+        return;
+      }
+      practiceBatch(batchId, true);
+      renderLists();
+      renderTableView();
+      showToast(`↺ ${label} auf 0 zurückgesetzt & neu gemischt!`);
     }
 
     function deactivateBatch(batchId) {
@@ -2661,10 +2977,224 @@
       if (activeReviewFilter === batchId) activeReviewFilter = 'all';
       saveDeck();
       renderLists();
+      renderTableView();
       renderVault();
       prepareReviewQueue(false);
       renderCurrentCard();
       showToast(`🗑️ ${label} entfernt`);
+    }
+
+    // --- 9C. PACKAGE TABLE VIEW ---
+    function openPackageTable(pkgId) {
+      selectedTablePackage = pkgId || 'A1-B01';
+      tableSearchQuery = '';
+      switchView('table');
+    }
+
+    function setTablePackage(pkgId) {
+      selectedTablePackage = pkgId || 'A1-B01';
+      renderTableView();
+    }
+
+    function setTableSearch(val) {
+      tableSearchQuery = (val || '').toLowerCase().trim();
+      renderTableRowsOnly();
+    }
+
+    function getSelectedTableRows() {
+      const batches = getGoetheBatches();
+      const deckById = new Map(deck.map(c => [c.id, c]));
+      const now = Date.now();
+
+      if (selectedTablePackage === 'personal') {
+        return deck
+          .filter(c => !c.batchId)
+          .map(c => ({
+            de: c.de,
+            en: c.en,
+            forms: c.note || '',
+            example: c.contextDe || '',
+            exEn: c.contextEn || '',
+            status: (c.reps || 0) > 0 ? 'learned' : 'due',
+            reps: c.reps || 0
+          }));
+      }
+
+      const batch = batches.find(b => b.id === selectedTablePackage) || batches[0];
+      if (!batch) return [];
+      return batch.items.map(it => {
+        const activeCard = deckById.get('goethe-' + it.id);
+        let status = 'inactive';
+        let reps = 0;
+        if (activeCard) {
+          reps = activeCard.reps || 0;
+          status = reps > 0 && activeCard.dueDate > now ? 'learned' : (reps > 0 ? 'learned' : 'due');
+        }
+        return {
+          de: it.de,
+          en: it.en,
+          forms: it.forms || '',
+          example: it.example || '',
+          exEn: it.exEn || '',
+          status,
+          reps
+        };
+      });
+    }
+
+    function renderTableRowsOnly() {
+      const tbody = document.getElementById('vocab-table-body');
+      const countEl = document.getElementById('table-match-count');
+      if (!tbody) return;
+
+      const allRows = getSelectedTableRows();
+      const q = tableSearchQuery;
+      const filtered = q
+        ? allRows.filter(r =>
+            r.de.toLowerCase().includes(q) ||
+            r.en.toLowerCase().includes(q) ||
+            r.example.toLowerCase().includes(q) ||
+            r.exEn.toLowerCase().includes(q)
+          )
+        : allRows;
+
+      if (countEl) {
+        countEl.textContent = q
+          ? `${filtered.length} / ${allRows.length} Treffer`
+          : `${allRows.length} Wörter`;
+      }
+
+      if (filtered.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="6" style="text-align:center;padding:36px 16px;color:var(--text-muted)">
+              Keine passenden Einträge gefunden.
+            </td>
+          </tr>
+        `;
+        return;
+      }
+
+      tbody.innerHTML = filtered.map((r, idx) => {
+        const statusHtml = r.status === 'learned'
+          ? `<span class="tbl-status-pill st-learned">Geübt (×${r.reps})</span>`
+          : r.status === 'due'
+            ? `<span class="tbl-status-pill st-due">Aktiv · Fällig</span>`
+            : `<span class="tbl-status-pill st-inactive">Nicht aktiv</span>`;
+
+        return `
+          <tr>
+            <td class="tbl-num">${idx + 1}</td>
+            <td>
+              <button class="tbl-speak-btn" onclick="speakGermanText('${escapeForAttr(cleanSpeakableWord(r.de))}')" title="Wort vorlesen">🔊</button>
+            </td>
+            <td>
+              <div class="tbl-de">${escapeHtml(r.de)}</div>
+              ${r.forms ? `<div class="tbl-forms">${escapeHtml(r.forms)}</div>` : ''}
+            </td>
+            <td class="tbl-en">${escapeHtml(r.en)}</td>
+            <td>
+              <div class="tbl-ex-de">
+                ${escapeHtml(r.example)}
+                ${r.example ? `<button class="tbl-speak-btn" style="width:22px;height:22px;font-size:0.7rem;margin-left:4px;vertical-align:middle" onclick="speakGermanText('${escapeForAttr(r.example)}')" title="Satz vorlesen">🔊</button>` : ''}
+              </div>
+              ${r.exEn ? `<div class="tbl-ex-en">${escapeHtml(r.exEn)}</div>` : ''}
+            </td>
+            <td>${statusHtml}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function renderTableView() {
+      const container = document.getElementById('table-container');
+      if (!container) return;
+      const batches = getGoetheBatches();
+      if (batches.length > 0 && selectedTablePackage !== 'personal' && !batches.some(b => b.id === selectedTablePackage)) {
+        selectedTablePackage = batches[0].id;
+      }
+
+      const personalCount = deck.filter(c => !c.batchId).length;
+      const byLvl = { A1: [], A2: [], B1: [] };
+      batches.forEach(b => {
+        if (byLvl[b.level]) byLvl[b.level].push(b);
+      });
+
+      let selectOptions = `<option value="personal">📚 Eigener Vault (${personalCount} Wörter)</option>`;
+      ['A1', 'A2', 'B1'].forEach(lvl => {
+        if (byLvl[lvl].length === 0) return;
+        selectOptions += `<optgroup label="Goethe ${lvl}">`;
+        byLvl[lvl].forEach(b => {
+          const st = getBatchStats(b);
+          const tag = st.isActive ? ` · aktiv (${st.learnedCount}/${st.activeCount})` : '';
+          selectOptions += `<option value="${escapeForAttr(b.id)}">${escapeHtml(b.level)} · Päckchen ${b.num} (${b.items.length} Wörter${tag})</option>`;
+        });
+        selectOptions += `</optgroup>`;
+      });
+
+      let actionButtons = '';
+      if (selectedTablePackage === 'personal') {
+        actionButtons = `
+          <button class="btn-primary" onclick="activeReviewFilter='personal'; renderReviewFilterSelect(); prepareReviewQueue(false); renderCurrentCard(); switchView('review');">🎯 Üben</button>
+          <button class="btn-secondary" onclick="activeReviewFilter='personal'; renderReviewFilterSelect(); restartCurrentFromZero(false); switchView('review');">🔀 Zufällig ab 1</button>
+        `;
+      } else {
+        const batch = batches.find(b => b.id === selectedTablePackage);
+        if (batch) {
+          const st = getBatchStats(batch);
+          if (st.isActive) {
+            actionButtons = `
+              <button class="btn-primary" onclick="practiceBatch('${escapeForAttr(batch.id)}', false)">🎯 Üben (${st.dueCount > 0 ? st.dueCount : st.activeCount})</button>
+              <button class="btn-secondary" onclick="resetBatchToZero('${escapeForAttr(batch.id)}')">↺ Auf 0 & neu mischen</button>
+            `;
+          } else {
+            actionButtons = `
+              <button class="btn-secondary" onclick="activateBatch('${escapeForAttr(batch.id)}'); renderTableView();">+ ${batch.items.length} Wörter aktivieren</button>
+              <button class="btn-primary" onclick="practiceBatch('${escapeForAttr(batch.id)}', false)">🎯 Direkt üben</button>
+            `;
+          }
+        }
+      }
+
+      container.innerHTML = `
+        <div class="table-controls">
+          <div class="table-controls-top">
+            <div class="table-select-group">
+              <select id="table-package-select" class="table-package-select" onchange="setTablePackage(this.value)">
+                ${selectOptions}
+              </select>
+              <span class="batch-count" id="table-match-count"></span>
+            </div>
+            <div class="table-actions-row">
+              ${actionButtons}
+            </div>
+          </div>
+          <div class="search-input-wrap">
+            <span class="search-icon">🔍</span>
+            <input type="text" class="search-input" id="table-search-input" value="${escapeForAttr(tableSearchQuery)}" placeholder="In diesem Päckchen filtern (Deutsch, Englisch oder Satz)..." oninput="setTableSearch(this.value)">
+          </div>
+        </div>
+
+        <div class="vocab-table-wrap">
+          <table class="vocab-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Audio</th>
+                <th>Deutsch</th>
+                <th>Englisch</th>
+                <th>Beispielsatz</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="vocab-table-body"></tbody>
+          </table>
+        </div>
+      `;
+
+      const sel = document.getElementById('table-package-select');
+      if (sel) sel.value = selectedTablePackage;
+      renderTableRowsOnly();
     }
 
     // --- 10. NAVIGATION & THEMES ---
@@ -2680,6 +3210,10 @@
         document.getElementById('view-lists').classList.add('active');
         document.getElementById('tab-btn-lists').classList.add('active');
         renderLists();
+      } else if (viewName === 'table') {
+        document.getElementById('view-table').classList.add('active');
+        document.getElementById('tab-btn-table').classList.add('active');
+        renderTableView();
       } else if (viewName === 'vault') {
         document.getElementById('view-vault').classList.add('active');
         document.getElementById('tab-btn-vault').classList.add('active');
@@ -2711,7 +3245,7 @@
     function setupKeyboardShortcuts() {
       window.addEventListener('keydown', (e) => {
         // Ignore if typing in inputs/textareas
-        if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) {
           if (e.key === 'Escape') {
             closeAddModal();
             closeChatImportModal();
