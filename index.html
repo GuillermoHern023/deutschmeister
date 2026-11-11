@@ -1025,11 +1025,261 @@
       to { transform: translateY(0) scale(1); opacity: 1; }
     }
 
+    /* =========================================================
+       WORTLISTEN / 100-WORD BATCHES VIEW
+       ========================================================= */
+    .review-filter-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .review-filter-select {
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-medium);
+      border-radius: var(--radius-full);
+      padding: 6px 14px;
+      font-family: inherit;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      cursor: pointer;
+      outline: none;
+      max-width: 260px;
+      transition: var(--transition);
+    }
+
+    .review-filter-select:focus,
+    .review-filter-select:hover {
+      border-color: var(--pastel-sky);
+    }
+
+    .lists-intro {
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-medium);
+      border-radius: var(--radius-lg);
+      padding: 24px 28px;
+      margin-bottom: 28px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .lists-intro-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+    }
+
+    .lists-intro-desc {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      max-width: 620px;
+      line-height: 1.55;
+    }
+
+    .lists-stats-pill {
+      background: var(--pastel-sky-bg);
+      border: 1px solid var(--pastel-sky-border);
+      color: var(--pastel-sky-text);
+      padding: 10px 18px;
+      border-radius: var(--radius-md);
+      font-size: 0.88rem;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .level-section {
+      margin-bottom: 34px;
+    }
+
+    .level-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+      padding: 0 4px;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .level-title-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .level-badge {
+      padding: 4px 12px;
+      border-radius: var(--radius-full);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+
+    .level-badge.level-A1 {
+      background: var(--pastel-mint-bg);
+      color: var(--pastel-mint-text);
+      border: 1px solid var(--pastel-mint-border);
+    }
+
+    .level-badge.level-A2 {
+      background: var(--pastel-sky-bg);
+      color: var(--pastel-sky-text);
+      border: 1px solid var(--pastel-sky-border);
+    }
+
+    .level-badge.level-B1 {
+      background: var(--pastel-lavender-bg);
+      color: var(--pastel-lavender-text);
+      border: 1px solid var(--pastel-lavender-border);
+    }
+
+    .level-heading {
+      font-size: 1.12rem;
+      font-weight: 800;
+      color: var(--text-primary);
+    }
+
+    .level-meta {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .batch-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+      gap: 14px;
+    }
+
+    .batch-card {
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .batch-card:hover {
+      border-color: var(--border-strong);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .batch-card.is-active {
+      border-color: var(--pastel-sky-border);
+      background: var(--bg-card);
+    }
+
+    .batch-card.is-done {
+      border-color: var(--pastel-mint-border);
+    }
+
+    .batch-card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .batch-title {
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--text-primary);
+    }
+
+    .batch-count {
+      font-size: 0.74rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: var(--bg-surface-elevated);
+      padding: 3px 9px;
+      border-radius: var(--radius-full);
+      white-space: nowrap;
+    }
+
+    .batch-preview {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      line-height: 1.45;
+      min-height: 2.3em;
+    }
+
+    .batch-progress-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .batch-progress-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.74rem;
+      font-weight: 700;
+      color: var(--text-muted);
+    }
+
+    .batch-progress-bg {
+      width: 100%;
+      height: 7px;
+      background: var(--bg-surface-elevated);
+      border-radius: var(--radius-full);
+      overflow: hidden;
+    }
+
+    .batch-progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--pastel-sky), var(--pastel-mint));
+      border-radius: var(--radius-full);
+      transition: width 0.3s ease;
+    }
+
+    .batch-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 2px;
+    }
+
+    .batch-actions button {
+      flex: 1;
+      padding: 8px 12px;
+      font-size: 0.82rem;
+    }
+
+    .btn-batch-remove {
+      flex: 0 0 auto !important;
+      padding: 8px 10px !important;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .btn-batch-remove:hover {
+      background: var(--pastel-coral-bg);
+      color: var(--pastel-coral-text);
+      border-color: var(--pastel-coral-border);
+    }
+
     /* Responsive */
     @media (max-width: 700px) {
       .header-inner { flex-wrap: wrap; }
       .brand-title { font-size: 1.1rem; }
       .nav-tabs { order: 3; width: 100%; justify-content: space-around; }
+      .review-header { flex-direction: column; align-items: stretch; gap: 10px; }
       .rating-buttons-bar { grid-template-columns: repeat(2, 1fr); }
       .flashcard-stage { min-height: 380px; }
       .german-target-phrase { font-size: 1.7rem; }
@@ -1056,6 +1306,10 @@
         <button class="nav-tab-btn active" id="tab-btn-review" onclick="switchView('review')">
           <span>🎴 Karten üben</span>
           <span class="tab-badge" id="due-count-badge">0</span>
+        </button>
+        <button class="nav-tab-btn" id="tab-btn-lists" onclick="switchView('lists')">
+          <span>📦 Wortlisten</span>
+          <span class="tab-badge" id="lists-count-badge">0</span>
         </button>
         <button class="nav-tab-btn" id="tab-btn-vault" onclick="switchView('vault')">
           <span>📚 Wörter-Vault</span>
@@ -1092,8 +1346,13 @@
             <div class="progress-bar-fill" id="review-progress-fill"></div>
           </div>
         </div>
-        <div style="font-size:0.8rem;color:var(--text-muted);font-weight:600">
-          Tippe auf die Karte oder drücke <span class="kbd-shortcut">Leertaste</span>
+        <div class="review-filter-wrap">
+          <select id="review-filter-select" class="review-filter-select" onchange="setReviewFilter(this.value)" title="Übungsstapel wählen">
+            <option value="all">Alle fälligen Karten</option>
+          </select>
+          <div style="font-size:0.8rem;color:var(--text-muted);font-weight:600">
+            <span class="kbd-shortcut">Leertaste</span> zum Drehen
+          </div>
         </div>
       </div>
 
@@ -1181,6 +1440,7 @@
         <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
           <button class="btn-primary" onclick="restartReviewAll()">🔁 Alle Karten nochmals durchgehen</button>
           <button class="btn-secondary" onclick="openAddModal()">+ Neues Wort hinzufügen</button>
+          <button class="btn-secondary" onclick="switchView('lists')">📦 Zu den Wortlisten</button>
           <button class="btn-secondary" onclick="switchView('vault')">📚 Zum Wörter-Vault</button>
         </div>
       </div>
@@ -1212,6 +1472,11 @@
       <!-- Cards Grid -->
       <div class="vault-grid" id="vault-cards-grid"></div>
 
+    </div>
+
+    <!-- VIEW 3: GOETHE 100-WORD BATCHES -->
+    <div class="view-container" id="view-lists">
+      <div id="lists-container"></div>
     </div>
 
   </main>
@@ -1295,8 +1560,9 @@
   <div class="toast-container" id="toast-container"></div>
 
   <!-- =========================================================
-       JAVASCRIPT APPLICATION ENGINE
+       GOETHE WORDLIST BATCHES DATA + JAVASCRIPT ENGINE
        ========================================================= -->
+  <script src="data/batches.js"></script>
   <script>
     // --- 1. SEED DEFAULT DECK (20 High-Value Authentic Phrases) ---
     const DEFAULT_SEED_CARDS = [
@@ -1645,6 +1911,8 @@
     let currentCardIndex = 0;
     let isFlipped = false;
     let selectedVaultTag = 'all';
+    let activeReviewFilter = 'all';
+    let vaultRenderLimit = 150;
 
     // --- 3. SOUND SYNTHESIZER (Tactile Audio) ---
     const AudioContextClass = window.AudioContext || window.webkitAudioContext;
@@ -1701,9 +1969,17 @@
       window.speechSynthesis.speak(utterance);
     }
 
+    function cleanSpeakableWord(text) {
+      return String(text || '')
+        .replace(/,\s*(¨?-[a-zäöüß/-]*|–|-)\s*$/i, '')
+        .replace(/\((?:sich|nur\s+Sg\.|nur\s+Pl\.|Sg\.|Pl\.)\)/gi, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
     function speakCurrentWord() {
       const card = reviewQueue[currentCardIndex];
-      if (card) speakGermanText(card.de);
+      if (card) speakGermanText(cleanSpeakableWord(card.de));
     }
 
     function speakCurrentSentence() {
@@ -1715,10 +1991,12 @@
     function initApp() {
       loadDeck();
       initTheme();
+      renderReviewFilterSelect();
       prepareReviewQueue();
       updateHeaderBadges();
       renderCurrentCard();
       renderVault();
+      renderLists();
       setupKeyboardShortcuts();
     }
 
@@ -1749,16 +2027,33 @@
       updateHeaderBadges();
     }
 
+    function getGoetheBatches() {
+      return Array.isArray(window.GOETHE_BATCHES) ? window.GOETHE_BATCHES : [];
+    }
+
+    function getFilteredDeckForReview() {
+      if (activeReviewFilter === 'personal') {
+        return deck.filter(c => !c.batchId);
+      }
+      if (activeReviewFilter !== 'all') {
+        const subset = deck.filter(c => c.batchId === activeReviewFilter);
+        if (subset.length > 0) return subset;
+        activeReviewFilter = 'all';
+      }
+      return deck;
+    }
+
     function prepareReviewQueue(forceAll = false) {
       const now = Date.now();
+      const pool = getFilteredDeckForReview();
       if (forceAll) {
-        reviewQueue = [...deck].sort(() => Math.random() - 0.5);
+        reviewQueue = [...pool].sort(() => Math.random() - 0.5);
       } else {
         // Due cards: either dueDate <= now, or never reviewed (dueDate: 0)
-        reviewQueue = deck.filter(c => !c.dueDate || c.dueDate <= now);
-        // If nothing is technically due, load all cards so the user can always practice
+        reviewQueue = pool.filter(c => !c.dueDate || c.dueDate <= now);
+        // If nothing is technically due, load all cards in current filter so the user can always practice
         if (reviewQueue.length === 0) {
-          reviewQueue = [...deck].sort(() => Math.random() - 0.5);
+          reviewQueue = [...pool].sort(() => Math.random() - 0.5);
         } else {
           reviewQueue.sort(() => Math.random() - 0.5);
         }
@@ -1767,11 +2062,49 @@
       isFlipped = false;
     }
 
+    function renderReviewFilterSelect() {
+      const select = document.getElementById('review-filter-select');
+      if (!select) return;
+      const batches = getGoetheBatches();
+      const activeIds = new Set(deck.map(c => c.batchId).filter(Boolean));
+      const personalCount = deck.filter(c => !c.batchId).length;
+      const dueTotal = deck.filter(c => !c.dueDate || c.dueDate <= Date.now()).length;
+
+      let opts = `<option value="all">Alle Karten (${dueTotal} fällig / ${deck.length})</option>`;
+      opts += `<option value="personal">📚 Eigener Vault (${personalCount})</option>`;
+
+      batches.forEach(b => {
+        if (!activeIds.has(b.id)) return;
+        const cardsInBatch = deck.filter(c => c.batchId === b.id);
+        const learned = cardsInBatch.filter(c => (c.reps || 0) > 0).length;
+        opts += `<option value="${escapeForAttr(b.id)}">📦 ${escapeHtml(b.level)} · Päckchen ${b.num} (${learned}/${cardsInBatch.length})</option>`;
+      });
+
+      if (activeReviewFilter !== 'all' && activeReviewFilter !== 'personal' && !activeIds.has(activeReviewFilter)) {
+        activeReviewFilter = 'all';
+      }
+      select.innerHTML = opts;
+      select.value = activeReviewFilter;
+    }
+
+    function setReviewFilter(val) {
+      activeReviewFilter = val || 'all';
+      prepareReviewQueue(false);
+      renderCurrentCard();
+    }
+
     function updateHeaderBadges() {
       const now = Date.now();
       const dueCount = deck.filter(c => !c.dueDate || c.dueDate <= now).length;
+      const batches = getGoetheBatches();
+      const activeBatchCount = new Set(deck.map(c => c.batchId).filter(Boolean)).size;
       document.getElementById('due-count-badge').textContent = dueCount;
       document.getElementById('total-count-badge').textContent = deck.length;
+      const listsBadge = document.getElementById('lists-count-badge');
+      if (listsBadge) {
+        listsBadge.textContent = batches.length > 0 ? `${activeBatchCount}/${batches.length}` : '0';
+      }
+      renderReviewFilterSelect();
     }
 
     // --- 6. FLASHCARD RENDER & INTERACTION ---
@@ -1802,12 +2135,18 @@
       document.getElementById('card-front-tag').textContent = card.tag || 'Wortschatz';
       document.getElementById('card-front-word').textContent = card.de;
       
-      // Highlight target word inside context sentence if found
-      const cleanWord = card.de.replace(/^(der|die|das|den|dem|des|ein|eine|einen|einem|einer)\s+/i, '').trim();
-      let contextHtml = card.contextDe || card.de;
-      if (cleanWord.length > 2) {
-        const regex = new RegExp(`(${cleanWord})`, 'gi');
-        contextHtml = contextHtml.replace(regex, '<mark>$1</mark>');
+      // Highlight target word inside context sentence safely
+      const baseDe = cleanSpeakableWord(card.de)
+        .replace(/^(der|die|das|den|dem|des|ein|eine|einen|einem|einer)\s+/i, '')
+        .split(/[\/,]/)[0]
+        .trim();
+      let contextHtml = escapeHtml(card.contextDe || card.de);
+      if (baseDe.length > 2) {
+        const safePattern = baseDe.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        try {
+          const regex = new RegExp(`(${safePattern})`, 'gi');
+          contextHtml = contextHtml.replace(regex, '<mark>$1</mark>');
+        } catch (e) {}
       }
       document.getElementById('card-front-context').innerHTML = contextHtml;
 
@@ -1925,10 +2264,11 @@
         return;
       }
 
-      grid.innerHTML = filtered.map(card => `
+      const visible = filtered.slice(0, vaultRenderLimit);
+      let cardsHtml = visible.map(card => `
         <div class="vault-item">
           <div class="vault-item-left">
-            <button class="vault-icon-btn" onclick="speakGermanText('${escapeForAttr(card.de)}')" title="Vorlesen">
+            <button class="vault-icon-btn" onclick="speakGermanText('${escapeForAttr(cleanSpeakableWord(card.de))}')" title="Vorlesen">
               🔊
             </button>
             <div class="vault-item-content">
@@ -1941,12 +2281,23 @@
             </div>
           </div>
           <div class="vault-actions">
-            <button class="vault-icon-btn delete" onclick="deleteCard('${card.id}')" title="Löschen">
+            <button class="vault-icon-btn delete" onclick="deleteCard('${escapeForAttr(card.id)}')" title="Löschen">
               🗑️
             </button>
           </div>
         </div>
       `).join('');
+
+      if (filtered.length > visible.length) {
+        cardsHtml += `
+          <div style="text-align:center;padding:18px 0;">
+            <button class="btn-secondary" onclick="showMoreVaultCards()">
+              Alle ${filtered.length} Treffer anzeigen (+${filtered.length - visible.length} weitere)
+            </button>
+          </div>
+        `;
+      }
+      grid.innerHTML = cardsHtml;
     }
 
     function renderTagFilters(tags) {
@@ -1960,12 +2311,19 @@
 
     function setVaultTagFilter(tag, btn) {
       selectedVaultTag = tag;
+      vaultRenderLimit = 150;
       document.querySelectorAll('.tag-chip-btn').forEach(b => b.classList.remove('active'));
       if (btn) btn.classList.add('active');
       renderVault();
     }
 
+    function showMoreVaultCards() {
+      vaultRenderLimit += 300;
+      renderVault();
+    }
+
     function filterVaultCards() {
+      vaultRenderLimit = 150;
       renderVault();
     }
 
@@ -2115,6 +2473,200 @@
       showToast('💾 Wortschatz als JSON exportiert!');
     }
 
+    // --- 9B. GOETHE 100-WORD BATCHES (WORTLISTEN) ---
+    function getBatchStats(batch) {
+      const cardsInDeck = deck.filter(c => c.batchId === batch.id);
+      const activeCount = cardsInDeck.length;
+      const learnedCount = cardsInDeck.filter(c => (c.reps || 0) > 0).length;
+      const now = Date.now();
+      const dueCount = cardsInDeck.filter(c => !c.dueDate || c.dueDate <= now).length;
+      return { activeCount, learnedCount, dueCount, isActive: activeCount > 0 };
+    }
+
+    function renderLists() {
+      const container = document.getElementById('lists-container');
+      if (!container) return;
+      const batches = getGoetheBatches();
+
+      if (batches.length === 0) {
+        container.innerHTML = `
+          <div class="congrats-card">
+            <div class="congrats-icon">📦</div>
+            <div class="congrats-title">Wortlisten werden geladen…</div>
+            <div class="congrats-desc">Prüfe, ob <code>data/batches.js</code> vorhanden ist.</div>
+          </div>
+        `;
+        return;
+      }
+
+      const totalWords = batches.reduce((s, b) => s + b.items.length, 0);
+      let activeBatches = 0;
+      let totalLearned = 0;
+      let totalActivatedWords = 0;
+      batches.forEach(b => {
+        const st = getBatchStats(b);
+        if (st.isActive) activeBatches++;
+        totalActivatedWords += st.activeCount;
+        totalLearned += st.learnedCount;
+      });
+
+      const levelTitles = {
+        A1: 'Goethe A1 • Grundlagen',
+        A2: 'Goethe A2 • Aufbauwortschatz',
+        B1: 'Goethe B1 • Zertifikat Deutsch'
+      };
+      const levels = ['A1', 'A2', 'B1'].filter(lvl => batches.some(b => b.level === lvl));
+
+      let out = `
+        <div class="lists-intro">
+          <div>
+            <div class="lists-intro-title">📦 Goethe 100-Wort-Päckchen</div>
+            <div class="lists-intro-desc">
+              ${totalWords.toLocaleString('de-DE')} geprüfte Wörter aus deinen Goethe-Listen (A1–B1) mit Beispielsätzen & Audio — sauber aufgeteilt in 100er-Päckchen. Aktiviere alle paar Tage ein neues Päckchen, ohne deinen Stapel zu überladen.
+            </div>
+          </div>
+          <div class="lists-stats-pill">
+            ${activeBatches} / ${batches.length} Päckchen aktiv<br>
+            <span style="font-weight:600;opacity:0.88">${totalLearned} / ${totalActivatedWords} Wörter gelernt</span>
+          </div>
+        </div>
+      `;
+
+      levels.forEach(lvl => {
+        const lvlBatches = batches.filter(b => b.level === lvl);
+        const lvlWords = lvlBatches.reduce((s, b) => s + b.items.length, 0);
+        const lvlActive = lvlBatches.filter(b => getBatchStats(b).isActive).length;
+
+        out += `
+          <section class="level-section">
+            <div class="level-header">
+              <div class="level-title-row">
+                <span class="level-badge level-${lvl}">${lvl}</span>
+                <span class="level-heading">${escapeHtml(levelTitles[lvl] || lvl)}</span>
+              </div>
+              <span class="level-meta">${lvlBatches.length} Päckchen • ${lvlWords} Wörter • ${lvlActive} aktiv</span>
+            </div>
+            <div class="batch-grid">
+        `;
+
+        lvlBatches.forEach(batch => {
+          const st = getBatchStats(batch);
+          const pct = st.activeCount > 0 ? Math.round((st.learnedCount / st.activeCount) * 100) : 0;
+          const isDone = st.isActive && st.learnedCount >= st.activeCount;
+          const previewWords = batch.items.slice(0, 4).map(it => cleanSpeakableWord(it.de)).join(' · ');
+
+          out += `
+            <div class="batch-card ${st.isActive ? 'is-active' : ''} ${isDone ? 'is-done' : ''}">
+              <div>
+                <div class="batch-card-top">
+                  <div class="batch-title">Päckchen ${batch.num}</div>
+                  <span class="batch-count">${batch.items.length} Wörter</span>
+                </div>
+                <div class="batch-preview" style="margin-top:6px;">${escapeHtml(previewWords)}…</div>
+              </div>
+
+              ${st.isActive ? `
+                <div class="batch-progress-wrap">
+                  <div class="batch-progress-label">
+                    <span>${st.learnedCount} / ${st.activeCount} geübt</span>
+                    <span>${st.dueCount} fällig</span>
+                  </div>
+                  <div class="batch-progress-bg">
+                    <div class="batch-progress-fill" style="width:${pct}%"></div>
+                  </div>
+                </div>
+                <div class="batch-actions">
+                  <button class="btn-primary" onclick="practiceBatch('${escapeForAttr(batch.id)}')">
+                    🎯 Üben (${st.dueCount > 0 ? st.dueCount : st.activeCount})
+                  </button>
+                  <button class="btn-batch-remove" onclick="deactivateBatch('${escapeForAttr(batch.id)}')" title="Päckchen entfernen">
+                    🗑️
+                  </button>
+                </div>
+              ` : `
+                <div class="batch-actions">
+                  <button class="btn-secondary" onclick="activateBatch('${escapeForAttr(batch.id)}')">
+                    + ${batch.items.length} Wörter aktivieren
+                  </button>
+                </div>
+              `}
+            </div>
+          `;
+        });
+
+        out += `
+            </div>
+          </section>
+        `;
+      });
+
+      container.innerHTML = out;
+    }
+
+    function activateBatch(batchId, silent = false) {
+      const batch = getGoetheBatches().find(b => b.id === batchId);
+      if (!batch) return 0;
+
+      const existingIds = new Set(deck.map(c => c.id));
+      const existingWords = new Set(deck.map(c => c.de.trim().toLowerCase()));
+      let added = 0;
+
+      batch.items.forEach(item => {
+        const cardId = 'goethe-' + item.id;
+        const normDe = item.de.trim().toLowerCase();
+        if (existingIds.has(cardId) || existingWords.has(normDe)) return;
+        deck.push({
+          id: cardId,
+          de: item.de,
+          en: item.en,
+          contextDe: item.example,
+          contextEn: item.exEn,
+          tag: `${batch.level} · Päckchen ${batch.num}`,
+          note: item.forms ? `Formen: ${item.forms}` : '',
+          batchId: batch.id,
+          level: batch.level,
+          interval: 0,
+          reps: 0,
+          dueDate: 0
+        });
+        existingIds.add(cardId);
+        existingWords.add(normDe);
+        added++;
+      });
+
+      saveDeck();
+      renderLists();
+      renderVault();
+      if (!silent) {
+        showToast(`✅ ${batch.level} Päckchen ${batch.num} (+${added} Wörter) aktiviert!`);
+      }
+      return added;
+    }
+
+    function practiceBatch(batchId) {
+      const hasCards = deck.some(c => c.batchId === batchId);
+      if (!hasCards) activateBatch(batchId, true);
+      activeReviewFilter = batchId;
+      renderReviewFilterSelect();
+      prepareReviewQueue(false);
+      renderCurrentCard();
+      switchView('review');
+    }
+
+    function deactivateBatch(batchId) {
+      const batch = getGoetheBatches().find(b => b.id === batchId);
+      const label = batch ? `${batch.level} Päckchen ${batch.num}` : batchId;
+      if (!confirm(`Möchtest du "${label}" und alle Karten daraus wieder entfernen?`)) return;
+      deck = deck.filter(c => c.batchId !== batchId);
+      if (activeReviewFilter === batchId) activeReviewFilter = 'all';
+      saveDeck();
+      renderLists();
+      renderVault();
+      prepareReviewQueue(false);
+      renderCurrentCard();
+      showToast(`🗑️ ${label} entfernt`);
+    }
+
     // --- 10. NAVIGATION & THEMES ---
     function switchView(viewName) {
       document.querySelectorAll('.view-container').forEach(el => el.classList.remove('active'));
@@ -2123,6 +2675,11 @@
       if (viewName === 'review') {
         document.getElementById('view-review').classList.add('active');
         document.getElementById('tab-btn-review').classList.add('active');
+        renderReviewFilterSelect();
+      } else if (viewName === 'lists') {
+        document.getElementById('view-lists').classList.add('active');
+        document.getElementById('tab-btn-lists').classList.add('active');
+        renderLists();
       } else if (viewName === 'vault') {
         document.getElementById('view-vault').classList.add('active');
         document.getElementById('tab-btn-vault').classList.add('active');
