@@ -334,5 +334,17 @@
     "interval": 0,
     "reps": 0,
     "dueDate": 0
+  },
+  {
+    "id": "card-29",
+    "de": "fesseln",
+    "en": "to captivate, grip, fascinate / to tie up, shackle",
+    "contextDe": "Dieser spannende Roman wird dich von der ersten Seite an fesseln.",
+    "contextEn": "This thrilling novel will captivate you from the very first page.",
+    "tag": "Verb / Book",
+    "note": "Regular verb: fesselt, fesselte, hat gefesselt. Noun: die Fessel, -n (shackle/fetter). Adj: fesselnd (gripping/captivating). Idiom: ans Bett gefesselt sein (to be confined to bed).",
+    "interval": 0,
+    "reps": 0,
+    "dueDate": 0
   }
 ]
