@@ -358,5 +358,17 @@
     "interval": 0,
     "reps": 0,
     "dueDate": 0
+  },
+  {
+    "id": "card-31",
+    "de": "wiederbeschaffen (die Wiederbeschaffung)",
+    "en": "to recover, retrieve, re-procure, replace",
+    "contextDe": "Die Polizei konnte das gestohlene Fahrrad zum Glück wiederbeschaffen.",
+    "contextEn": "Fortunately, the police were able to recover the stolen bicycle.",
+    "tag": "Verb / Formal",
+    "note": "Verb: wiederbeschaffen (beschafft wieder, beschaffte wieder, hat wiederbeschafft). Noun: die Wiederbeschaffung (replacement/recovery). Insurance term: der Wiederbeschaffungswert (replacement value). Person: der Wiederbeschaffer (retriever/finder).",
+    "interval": 0,
+    "reps": 0,
+    "dueDate": 0
   }
 ]
