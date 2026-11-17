@@ -370,5 +370,17 @@
     "interval": 0,
     "reps": 0,
     "dueDate": 0
+  },
+  {
+    "id": "card-32",
+    "de": "jemandem etwas nehmen (zurückbringen)",
+    "en": "to take something from someone (to bring back)",
+    "contextDe": "Was ihnen genommen wurde, bringen wir zurück.",
+    "contextEn": "What was taken from them, we will bring back.",
+    "tag": "Grammar / Passive",
+    "note": "Dative of removal/deprivation: jemandem [Dat.] etwas [Akk.] nehmen. Passive form: 'genommen wurde' (was taken). Separable verb: zurückbringen.",
+    "interval": 0,
+    "reps": 0,
+    "dueDate": 0
   }
 ]
